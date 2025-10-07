@@ -2,9 +2,8 @@ Top Movers:
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  TMQ   |      1      |     0     |    235.885     | 75811431 |      7.02     |        2.09        | 100660000.0  |  2.128   |  9214481   |      0      | 2025-10-07 12:59:48 |
-|  RVSN  |      0      |     0     |    57.6585     | 8181399  |     0.808     |       0.5125       |  48350000.0  | 0.52178  |  24692359  |      0      | 2025-10-07 12:59:33 |
-|  CCTG  |      0      |     0     |    30.4636     |  563889  |      1.97     |        1.51        |  2310000.0   |   1.35   |  1188885   |      0      | 2025-10-07 12:58:25 |
+|  TMQ   |      1      |     0     |    239.474     | 76191813 |     7.095     |        2.09        | 100660000.0  |  2.128   |  9214481   |      0      | 2025-10-07 13:05:44 |
+|  RVSN  |      0      |     0     |    69.0341     | 11428762 |     0.8663    |       0.5125       |  48350000.0  | 0.52178  |  24692359  |      0      | 2025-10-07 13:05:31 |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -18,403 +17,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-07 12:56:47,580 - root - INFO - latest trade price: 1.9817
-2025-10-07 12:56:47,665 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
-2025-10-07 12:56:47,708 - root - INFO - Profit percent for CCTG is -1.0
-2025-10-07 12:56:47,708 - root - INFO - Latest 1min close price for CCTG: 1.98
-2025-10-07 12:56:47,768 - root - INFO - No close long conditions met for CCTG
-2025-10-07 12:56:47,777 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 12:56:47,850 - root - INFO - Profit percent for TMQ is 1.93279
-2025-10-07 12:56:47,850 - root - INFO - Latest 1min close price for TMQ: 7.125
-2025-10-07 12:56:47,924 - root - INFO - MACD is still rising for stock TMQ
-2025-10-07 12:56:47,924 - root - INFO - Not enough profit percent to scalp for TMQ: 1.93279
-2025-10-07 12:56:48,586 - root - INFO -  MACD calculation for SLDPW due to high change percent: 13.5129
-2025-10-07 12:56:48,935 - root - INFO -  MACD calculation for SLNH due to high change percent: 13.8778
-2025-10-07 12:56:50,278 - root - INFO -  MACD calculation for SNGX due to high change percent: 29.927
-2025-10-07 12:56:55,004 - root - INFO -  MACD calculation for TCRT due to high change percent: 20.8622
-2025-10-07 12:56:55,670 - root - INFO -  MACD calculation for TELO due to high change percent: 23.2958
-2025-10-07 12:56:55,724 - root - INFO - MACD not positive for TELO: MACD=0.0048993146057190184, Signal=0.008838582197735593, Hist=-0.003939267592016574
-2025-10-07 12:56:55,914 - root - INFO -  update_current_price: start time 2025-10-07T12:55:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:56:57,616 - root - INFO -  MACD calculation for TMC due to high change percent: 18.487
-2025-10-07 12:56:57,759 - root - INFO -  MACD calculation for TMCWW due to high change percent: 35.9477
-2025-10-07 12:56:57,930 - root - INFO -  MACD calculation for TMQ due to high change percent: 240.282
-2025-10-07 12:57:01,181 - root - INFO -  MACD calculation for ULY due to high change percent: 18.109
-2025-10-07 12:57:01,820 - root - INFO -  MACD calculation for UPC due to high change percent: 11.1814
-2025-10-07 12:57:01,851 - root - INFO - MACD not positive for UPC: MACD=0.03300114151437494, Signal=0.05212561162447844, Hist=-0.0191244701101035
-2025-10-07 12:57:02,984 - root - INFO - Real mode: Today's profit so far: 2385.4099749999987
-2025-10-07 12:57:03,010 - root - INFO - Running real_trade for all top movers
-2025-10-07 12:57:03,048 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 12:57:03,169 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 12:57:03,228 - root - INFO - MACD has been up for last 10 candles for TMQ, not opening long position
-2025-10-07 12:57:03,228 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 12:57:03,250 - root - INFO - latest trade price: 7.035
-2025-10-07 12:57:03,261 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
-2025-10-07 12:57:03,500 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
-2025-10-07 12:57:03,512 - root - INFO - 1min RSI is overbought for RVSN: 81.82774504422208
-2025-10-07 12:57:03,528 - root - INFO - latest trade price: 0.7683
-2025-10-07 12:57:03,533 - root - INFO - swing_strategy_open_long for scale 5Min stock CCTG
-2025-10-07 12:57:03,578 - root - INFO - Last 5 minutes maximum volume candle is green for CCTG
-2025-10-07 12:57:03,588 - root - INFO - 1min candle is not positive for CCTG: open 1.98 close 1.98
-2025-10-07 12:57:03,604 - root - INFO - latest trade price: 1.98
-2025-10-07 12:57:03,680 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
-2025-10-07 12:57:03,740 - root - INFO - Profit percent for CCTG is -0.915
-2025-10-07 12:57:03,740 - root - INFO - Latest 1min close price for CCTG: 1.98
-2025-10-07 12:57:03,798 - root - INFO - No close long conditions met for CCTG
-2025-10-07 12:57:03,812 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 12:57:03,886 - root - INFO - Profit percent for TMQ is 1.21747
-2025-10-07 12:57:03,886 - root - INFO - Latest 1min close price for TMQ: 7.125
-2025-10-07 12:57:03,987 - root - INFO - MACD is still rising for stock TMQ
-2025-10-07 12:57:03,987 - root - INFO - Not enough profit percent to scalp for TMQ: 1.21747
-2025-10-07 12:57:04,171 - root - INFO -  update_current_price: start time 2025-10-07T12:56:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:57:07,575 - root - INFO -  MACD calculation for YCBD due to high change percent: 13.8462
-2025-10-07 12:57:07,650 - root - INFO - MACD not positive for YCBD: MACD=0.012170830282871137, Signal=0.012338866505965728, Hist=-0.0001680362230945913
-2025-10-07 12:57:07,797 - root - INFO -  MACD calculation for YJ due to high change percent: 19.797
-2025-10-07 12:57:07,825 - root - INFO - MACD not positive for YJ: MACD=0.07317974229527113, Signal=0.08417103634945818, Hist=-0.010991294054187042
-2025-10-07 12:57:09,747 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-07 12:57:19,034 - root - INFO - Real mode: Today's profit so far: 2380.259974999997
-2025-10-07 12:57:19,055 - root - INFO - Running real_trade for all top movers
-2025-10-07 12:57:19,110 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 12:57:19,239 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 12:57:19,308 - root - INFO - MACD has been up for last 10 candles for TMQ, not opening long position
-2025-10-07 12:57:19,308 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 12:57:19,329 - root - INFO - latest trade price: 7.035
-2025-10-07 12:57:19,341 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
-2025-10-07 12:57:19,533 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
-2025-10-07 12:57:19,558 - root - INFO - 1min RSI is overbought for RVSN: 81.82774504422208
-2025-10-07 12:57:19,577 - root - INFO - latest trade price: 0.78
-2025-10-07 12:57:19,590 - root - INFO - swing_strategy_open_long for scale 5Min stock CCTG
-2025-10-07 12:57:19,638 - root - INFO - Last 5 minutes maximum volume candle is green for CCTG
-2025-10-07 12:57:19,658 - root - INFO - 1min candle is not positive for CCTG: open 1.98 close 1.98
-2025-10-07 12:57:19,677 - root - INFO - latest trade price: 1.97
-2025-10-07 12:57:19,780 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
-2025-10-07 12:57:19,832 - root - INFO - Profit percent for CCTG is -1.0
-2025-10-07 12:57:19,832 - root - INFO - Latest 1min close price for CCTG: 1.98
-2025-10-07 12:57:19,919 - root - INFO - No close long conditions met for CCTG
-2025-10-07 12:57:19,951 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 12:57:20,048 - root - INFO - Profit percent for TMQ is 0.430621
-2025-10-07 12:57:20,049 - root - INFO - Latest 1min close price for TMQ: 7.125
-2025-10-07 12:57:20,154 - root - INFO - MACD is still rising for stock TMQ
-2025-10-07 12:57:20,154 - root - INFO - Not enough profit percent to scalp for TMQ: 0.430621
-2025-10-07 12:57:35,209 - root - INFO - Real mode: Today's profit so far: 2383.0999749999974
-2025-10-07 12:57:35,231 - root - INFO - Running real_trade for all top movers
-2025-10-07 12:57:35,284 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 12:57:35,417 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
-2025-10-07 12:57:35,437 - root - INFO - latest trade price: 7.045
-2025-10-07 12:57:35,453 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
-2025-10-07 12:57:35,656 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
-2025-10-07 12:57:35,682 - root - INFO - 1min RSI is overbought for RVSN: 87.07564891184535
-2025-10-07 12:57:35,703 - root - INFO - latest trade price: 0.785
-2025-10-07 12:57:35,712 - root - INFO - swing_strategy_open_long for scale 5Min stock CCTG
-2025-10-07 12:57:35,762 - root - INFO - Last 5 minutes maximum volume candle is red for CCTG
-2025-10-07 12:57:35,780 - root - INFO - latest trade price: 1.97
-2025-10-07 12:57:35,875 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
-2025-10-07 12:57:35,931 - root - INFO - Profit percent for CCTG is -1.5
-2025-10-07 12:57:35,931 - root - INFO - Latest 1min close price for CCTG: 1.97
-2025-10-07 12:57:36,024 - root - INFO - No close long conditions met for CCTG
-2025-10-07 12:57:36,053 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 12:57:36,146 - root - INFO - Profit percent for TMQ is 0.577977
-2025-10-07 12:57:36,147 - root - INFO - Latest 1min close price for TMQ: 7.0508
-2025-10-07 12:57:36,253 - root - INFO - MACD is still rising for stock TMQ
-2025-10-07 12:57:36,253 - root - INFO - Not enough profit percent to scalp for TMQ: 0.577977
-2025-10-07 12:57:51,310 - root - INFO - Real mode: Today's profit so far: 2383.6599749999987
-2025-10-07 12:57:51,332 - root - INFO - Running real_trade for all top movers
-2025-10-07 12:57:51,388 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 12:57:51,512 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
-2025-10-07 12:57:51,533 - root - INFO - latest trade price: 7.025
-2025-10-07 12:57:51,547 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
-2025-10-07 12:57:51,757 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
-2025-10-07 12:57:51,778 - root - INFO - 1min RSI is overbought for RVSN: 87.07564891184535
-2025-10-07 12:57:51,802 - root - INFO - latest trade price: 0.793
-2025-10-07 12:57:51,814 - root - INFO - swing_strategy_open_long for scale 5Min stock CCTG
-2025-10-07 12:57:51,874 - root - INFO - Last 5 minutes maximum volume candle is red for CCTG
-2025-10-07 12:57:51,894 - root - INFO - latest trade price: 1.97
-2025-10-07 12:57:52,008 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
-2025-10-07 12:57:52,062 - root - INFO - Profit percent for CCTG is -1.5
-2025-10-07 12:57:52,062 - root - INFO - Latest 1min close price for CCTG: 1.97
-2025-10-07 12:57:52,167 - root - INFO - No close long conditions met for CCTG
-2025-10-07 12:57:52,195 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 12:57:52,302 - root - INFO - Profit percent for TMQ is 0.859812
-2025-10-07 12:57:52,302 - root - INFO - Latest 1min close price for TMQ: 7.0508
-2025-10-07 12:57:52,423 - root - INFO - MACD is still rising for stock TMQ
-2025-10-07 12:57:52,423 - root - INFO - Not enough profit percent to scalp for TMQ: 0.859812
-2025-10-07 12:58:07,472 - root - INFO - Real mode: Today's profit so far: 2385.249974999999
-2025-10-07 12:58:07,492 - root - INFO - Running real_trade for all top movers
-2025-10-07 12:58:07,545 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 12:58:07,673 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
-2025-10-07 12:58:07,723 - root - INFO - latest trade price: 7.065
-2025-10-07 12:58:07,737 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
-2025-10-07 12:58:07,923 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
-2025-10-07 12:58:07,946 - root - INFO - 1min RSI is overbought for RVSN: 87.07564891184535
-2025-10-07 12:58:07,967 - root - INFO - latest trade price: 0.8111
-2025-10-07 12:58:07,980 - root - INFO - swing_strategy_open_long for scale 5Min stock CCTG
-2025-10-07 12:58:08,031 - root - INFO - Last 5 minutes maximum volume candle is red for CCTG
-2025-10-07 12:58:08,074 - root - INFO - latest trade price: 1.97
-2025-10-07 12:58:08,177 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
-2025-10-07 12:58:08,231 - root - INFO - Profit percent for CCTG is -1.5
-2025-10-07 12:58:08,231 - root - INFO - Latest 1min close price for CCTG: 1.97
-2025-10-07 12:58:08,339 - root - INFO - No close long conditions met for CCTG
-2025-10-07 12:58:08,369 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 12:58:08,466 - root - INFO - Profit percent for TMQ is 0.573685
-2025-10-07 12:58:08,466 - root - INFO - Latest 1min close price for TMQ: 7.0508
-2025-10-07 12:58:08,575 - root - INFO - MACD is still rising for stock TMQ
-2025-10-07 12:58:08,575 - root - INFO - Not enough profit percent to scalp for TMQ: 0.573685
-2025-10-07 12:58:09,846 - root - INFO - Real mode: Today's profit so far: 2386.679974999999
-2025-10-07 12:58:09,868 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
-2025-10-07 12:58:09,869 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
-2025-10-07 12:58:09,908 - root - INFO -  update_current_price: start time 2025-10-07T12:57:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:58:15,662 - root - INFO -  MACD calculation for APVO due to high change percent: 29.4326
-2025-10-07 12:58:17,094 - root - INFO -  update_current_price: start time 2025-10-07T12:57:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:58:21,674 - root - INFO -  MACD calculation for BJDX due to high change percent: 36.129
-2025-10-07 12:58:21,709 - root - INFO - MACD not positive for BJDX: MACD=0.009877307630163923, Signal=0.018798321078604404, Hist=-0.008921013448440481
-2025-10-07 12:58:22,127 - root - INFO -  MACD calculation for BLIN due to high change percent: 12.0593
-2025-10-07 12:58:22,627 - root - INFO -  MACD calculation for BNAI due to high change percent: 47.3716
-2025-10-07 12:58:22,693 - root - INFO - MACD not positive for BNAI: MACD=0.01838257814690125, Signal=0.024162312087868374, Hist=-0.005779733940967122
-2025-10-07 12:58:22,935 - root - INFO -  MACD calculation for BQ due to high change percent: 37.5
-2025-10-07 12:58:22,995 - root - INFO - MACD not positive for BQ: MACD=-1.7475233272632984, Signal=0.21131569930181074, Hist=-1.9588390265651092
-2025-10-07 12:58:23,055 - root - INFO -  update_current_price: start time 2025-10-07T12:57:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:58:23,615 - root - INFO - Real mode: Today's profit so far: 2382.3999749999966
-2025-10-07 12:58:23,636 - root - INFO - Running real_trade for all top movers
-2025-10-07 12:58:23,679 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 12:58:23,791 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
-2025-10-07 12:58:23,809 - root - INFO - latest trade price: 7.0451
-2025-10-07 12:58:23,819 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
-2025-10-07 12:58:24,016 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
-2025-10-07 12:58:24,035 - root - INFO - 1min RSI is overbought for RVSN: 87.07564891184535
-2025-10-07 12:58:24,054 - root - INFO - latest trade price: 0.7906
-2025-10-07 12:58:24,062 - root - INFO - swing_strategy_open_long for scale 5Min stock CCTG
-2025-10-07 12:58:24,105 - root - INFO - Last 5 minutes maximum volume candle is red for CCTG
-2025-10-07 12:58:24,121 - root - INFO - latest trade price: 1.97
-2025-10-07 12:58:24,207 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
-2025-10-07 12:58:24,314 - root - INFO - Profit percent for CCTG is -1.5
-2025-10-07 12:58:24,314 - root - INFO - Latest 1min close price for CCTG: 1.97
-2025-10-07 12:58:24,363 - root - INFO - No close long conditions met for CCTG
-2025-10-07 12:58:24,373 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 12:58:24,460 - root - INFO - Profit percent for TMQ is 1.14594
-2025-10-07 12:58:24,461 - root - INFO - Latest 1min close price for TMQ: 7.0508
-2025-10-07 12:58:24,521 - root - INFO - MACD is still rising for stock TMQ
-2025-10-07 12:58:24,521 - root - INFO - Not enough profit percent to scalp for TMQ: 1.14594
-2025-10-07 12:58:24,970 - root - INFO -  MACD calculation for CCTG due to high change percent: 31.0993
-2025-10-07 12:58:26,754 - root - INFO -  MACD calculation for CISS due to high change percent: 67.4208
-2025-10-07 12:58:26,798 - root - INFO - MACD not positive for CISS: MACD=-0.05919955361725826, Signal=-0.04486995943699482, Hist=-0.014329594180263437
-2025-10-07 12:58:28,062 - root - INFO -  update_current_price: start time 2025-10-07T12:57:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:58:28,425 - root - INFO -  MACD calculation for COCH due to high change percent: 87.1591
-2025-10-07 12:58:28,473 - root - INFO - MACD not positive for COCH: MACD=-0.018134507155114665, Signal=0.002029024662404873, Hist=-0.020163531817519537
-2025-10-07 12:58:32,520 - root - INFO -  MACD calculation for DGNX due to high change percent: 14.4535
-2025-10-07 12:58:33,568 - root - INFO -  MACD calculation for DPRO due to high change percent: 10.7906
-2025-10-07 12:58:34,353 - root - INFO -  MACD calculation for DVLT due to high change percent: 23.5577
-2025-10-07 12:58:34,668 - root - INFO -  update_current_price: start time 2025-10-07T12:57:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:58:34,884 - root - INFO -  MACD calculation for DYN due to high change percent: 11.1107
-2025-10-07 12:58:34,930 - root - INFO - MACD not positive for DYN: MACD=0.13704008480849694, Signal=0.1468655008735088, Hist=-0.00982541606501186
-2025-10-07 12:58:36,136 - root - INFO -  MACD calculation for EGAN due to high change percent: 14.9809
-2025-10-07 12:58:36,775 - root - INFO -  MACD calculation for ELAB due to high change percent: 10.9057
-2025-10-07 12:58:36,958 - root - INFO -  MACD calculation for ELBM due to high change percent: 12.766
-2025-10-07 12:58:39,556 - root - INFO - Real mode: Today's profit so far: 2363.959974999998
-2025-10-07 12:58:39,583 - root - INFO - Running real_trade for all top movers
-2025-10-07 12:58:39,622 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 12:58:39,724 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
-2025-10-07 12:58:39,740 - root - INFO - latest trade price: 7.0207
-2025-10-07 12:58:39,749 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
-2025-10-07 12:58:39,911 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
-2025-10-07 12:58:39,927 - root - INFO - 1min RSI is overbought for RVSN: 89.18277521614361
-2025-10-07 12:58:39,950 - root - INFO - latest trade price: 0.8149
-2025-10-07 12:58:39,960 - root - INFO - swing_strategy_open_long for scale 5Min stock CCTG
-2025-10-07 12:58:40,006 - root - INFO - Last 5 minutes maximum volume candle is red for CCTG
-2025-10-07 12:58:40,024 - root - INFO - latest trade price: 1.9401
-2025-10-07 12:58:40,110 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
-2025-10-07 12:58:40,151 - root - INFO - Profit percent for CCTG is -1.5
-2025-10-07 12:58:40,151 - root - INFO - Latest 1min close price for CCTG: 1.9401
-2025-10-07 12:58:40,215 - root - INFO - Closing TrendUp long: price below EMAs or MACD below signal{price_below_emas=True, macd_below_signal=True}
-2025-10-07 12:58:40,215 - root - INFO - CCTG:====== 1.9401=========>SELL========>TrendUpExit
-2025-10-07 12:58:40,216 - root - INFO - ******************** CLOSE by SOLD stock:CCTG
-2025-10-07 12:58:40,257 - root - CRITICAL - CCTG  500 sell
-2025-10-07 12:58:40,312 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 12:58:40,388 - root - INFO - Profit percent for TMQ is 0.789711
-2025-10-07 12:58:40,388 - root - INFO - Latest 1min close price for TMQ: 7.035
-2025-10-07 12:58:40,450 - root - INFO - MACD is still rising for stock TMQ
-2025-10-07 12:58:40,450 - root - INFO - Not enough profit percent to scalp for TMQ: 0.789711
-2025-10-07 12:58:41,935 - root - INFO -  update_current_price: start time 2025-10-07T12:57:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:58:46,158 - root - INFO -  MACD calculation for GIGGW due to high change percent: 21.4769
-2025-10-07 12:58:46,744 - root - INFO -  MACD calculation for GLTO due to high change percent: 573.854
-2025-10-07 12:58:46,809 - root - INFO - MACD not positive for GLTO: MACD=-0.2187762586993145, Signal=0.05791442999500875, Hist=-0.27669068869432323
-2025-10-07 12:58:49,930 - root - INFO -  MACD calculation for GWAV due to high change percent: 14.5138
-2025-10-07 12:58:50,262 - root - INFO -  update_current_price: start time 2025-10-07T12:57:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:58:54,646 - root - INFO -  MACD calculation for HYLN due to high change percent: 12.0483
-2025-10-07 12:58:55,494 - root - INFO - Real mode: Today's profit so far: 2362.2799749999976
-2025-10-07 12:58:55,515 - root - INFO - Running real_trade for all top movers
-2025-10-07 12:58:55,556 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 12:58:55,678 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
-2025-10-07 12:58:55,720 - root - INFO - latest trade price: 7.025
-2025-10-07 12:58:55,729 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
-2025-10-07 12:58:55,916 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
-2025-10-07 12:58:55,933 - root - INFO - 1min RSI is overbought for RVSN: 89.18277521614361
-2025-10-07 12:58:55,951 - root - INFO - latest trade price: 0.7839
-2025-10-07 12:58:55,959 - root - INFO - swing_strategy_open_long for scale 5Min stock CCTG
-2025-10-07 12:58:56,003 - root - INFO - Last 5 minutes maximum volume candle is red for CCTG
-2025-10-07 12:58:56,023 - root - INFO - latest trade price: 1.97
-2025-10-07 12:58:56,106 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 12:58:56,185 - root - INFO - Profit percent for TMQ is 0.440636
-2025-10-07 12:58:56,186 - root - INFO - Latest 1min close price for TMQ: 7.035
-2025-10-07 12:58:56,255 - root - INFO - MACD is still rising for stock TMQ
-2025-10-07 12:58:56,255 - root - INFO - Not enough profit percent to scalp for TMQ: 0.440636
-2025-10-07 12:58:57,161 - root - INFO -  MACD calculation for INDP due to high change percent: 10.3448
-2025-10-07 12:58:59,107 - root - INFO -  update_current_price: start time 2025-10-07T12:57:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:59:02,352 - root - INFO -  MACD calculation for KLTO due to high change percent: 12.8269
-2025-10-07 12:59:04,469 - root - INFO -  MACD calculation for LAR due to high change percent: 11.6516
-2025-10-07 12:59:04,537 - root - INFO - MACD not positive for LAR: MACD=-0.01910934961544175, Signal=-0.016295627481989733, Hist=-0.002813722133452018
-2025-10-07 12:59:07,873 - root - INFO -  update_current_price: start time 2025-10-07T12:58:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:59:08,163 - root - INFO -  MACD calculation for LXEO due to high change percent: 26.7388
-2025-10-07 12:59:08,221 - root - INFO - MACD not positive for LXEO: MACD=-0.030793834894167205, Signal=-0.023331659920826857, Hist=-0.007462174973340348
-2025-10-07 12:59:10,824 - root - INFO -  MACD calculation for MIGI due to high change percent: 14.5009
-2025-10-07 12:59:11,304 - root - INFO - Real mode: Today's profit so far: 2361.5199749999992
-2025-10-07 12:59:11,325 - root - INFO - Running real_trade for all top movers
-2025-10-07 12:59:11,371 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 12:59:11,492 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
-2025-10-07 12:59:11,513 - root - INFO - latest trade price: 7.01
-2025-10-07 12:59:11,519 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
-2025-10-07 12:59:11,687 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
-2025-10-07 12:59:11,705 - root - INFO - 1min RSI is overbought for RVSN: 89.18277521614361
-2025-10-07 12:59:11,727 - root - INFO - latest trade price: 0.784
-2025-10-07 12:59:11,735 - root - INFO - swing_strategy_open_long for scale 5Min stock CCTG
-2025-10-07 12:59:11,782 - root - INFO - Last 5 minutes maximum volume candle is red for CCTG
-2025-10-07 12:59:11,802 - root - INFO - latest trade price: 1.9683
-2025-10-07 12:59:11,885 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 12:59:11,990 - root - INFO - Profit percent for TMQ is 0.573685
-2025-10-07 12:59:11,991 - root - INFO - Latest 1min close price for TMQ: 7.035
-2025-10-07 12:59:12,082 - root - INFO - MACD is still rising for stock TMQ
-2025-10-07 12:59:12,083 - root - INFO - Not enough profit percent to scalp for TMQ: 0.573685
-2025-10-07 12:59:12,273 - root - INFO -  MACD calculation for MSPR due to high change percent: 10.87
-2025-10-07 12:59:13,658 - root - INFO -  MACD calculation for NAK due to high change percent: 20.1987
-2025-10-07 12:59:14,128 - root - INFO -  update_current_price: start time 2025-10-07T12:58:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:59:15,736 - root - INFO -  MACD calculation for NITO due to high change percent: 15.2381
-2025-10-07 12:59:15,801 - root - INFO - MACD not positive for NITO: MACD=0.07074412094944371, Signal=0.07104714218480887, Hist=-0.00030302123536515846
-2025-10-07 12:59:18,737 - root - INFO -  MACD calculation for NXXT due to high change percent: 27.7536
-2025-10-07 12:59:21,319 - root - INFO -  update_current_price: start time 2025-10-07T12:58:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:59:27,130 - root - INFO - Real mode: Today's profit so far: 2364.419974999997
-2025-10-07 12:59:27,152 - root - INFO - Running real_trade for all top movers
-2025-10-07 12:59:27,196 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 12:59:27,312 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
-2025-10-07 12:59:27,334 - root - INFO - latest trade price: 7.04
-2025-10-07 12:59:27,344 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
-2025-10-07 12:59:27,520 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
-2025-10-07 12:59:27,537 - root - INFO - 1min RSI is overbought for RVSN: 89.18277521614361
-2025-10-07 12:59:27,556 - root - INFO - latest trade price: 0.7924
-2025-10-07 12:59:27,564 - root - INFO - swing_strategy_open_long for scale 5Min stock CCTG
-2025-10-07 12:59:27,603 - root - INFO - Last 5 minutes maximum volume candle is red for CCTG
-2025-10-07 12:59:27,621 - root - INFO - latest trade price: 1.9683
-2025-10-07 12:59:27,702 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 12:59:27,781 - root - INFO - Profit percent for TMQ is 0.35909
-2025-10-07 12:59:27,781 - root - INFO - Latest 1min close price for TMQ: 7.035
-2025-10-07 12:59:27,853 - root - INFO - MACD is still rising for stock TMQ
-2025-10-07 12:59:27,853 - root - INFO - Not enough profit percent to scalp for TMQ: 0.35909
-2025-10-07 12:59:28,207 - root - INFO -  MACD calculation for QMCO due to high change percent: 16.1209
-2025-10-07 12:59:28,557 - root - INFO -  update_current_price: start time 2025-10-07T12:58:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:59:29,747 - root - INFO -  MACD calculation for REKR due to high change percent: 15.1934
-2025-10-07 12:59:31,803 - root - INFO -  MACD calculation for RR due to high change percent: 10.3343
-2025-10-07 12:59:32,547 - root - INFO -  MACD calculation for RVSN due to high change percent: 45.8537
-2025-10-07 12:59:34,509 - root - INFO -  MACD calculation for SCLX due to high change percent: 11.5048
-2025-10-07 12:59:35,303 - root - INFO -  MACD calculation for SES due to high change percent: 12.7202
-2025-10-07 12:59:36,217 - root - INFO -  update_current_price: start time 2025-10-07T12:58:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:59:37,928 - root - INFO -  MACD calculation for SLNH due to high change percent: 13.7611
-2025-10-07 12:59:39,173 - root - INFO -  MACD calculation for SNGX due to high change percent: 28.1022
-2025-10-07 12:59:39,335 - root - INFO -  MACD calculation for SNSE due to high change percent: 15.4574
-2025-10-07 12:59:42,898 - root - INFO - Real mode: Today's profit so far: 2363.709974999998
-2025-10-07 12:59:42,918 - root - INFO - Running real_trade for all top movers
-2025-10-07 12:59:42,958 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 12:59:43,140 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
-2025-10-07 12:59:43,158 - root - INFO - latest trade price: 7.035
-2025-10-07 12:59:43,168 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
-2025-10-07 12:59:43,583 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
-2025-10-07 12:59:43,604 - root - INFO - 1min RSI is overbought for RVSN: 79.42690872056059
-2025-10-07 12:59:43,634 - root - INFO - latest trade price: 0.8003
-2025-10-07 12:59:43,645 - root - INFO - swing_strategy_open_long for scale 5Min stock CCTG
-2025-10-07 12:59:43,717 - root - INFO - Last 5 minutes maximum volume candle is red for CCTG
-2025-10-07 12:59:43,735 - root - INFO - latest trade price: 1.9683
-2025-10-07 12:59:43,832 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 12:59:43,978 - root - INFO - Profit percent for TMQ is 0.781127
-2025-10-07 12:59:43,978 - root - INFO - Latest 1min close price for TMQ: 7.02
-2025-10-07 12:59:44,074 - root - INFO -  MACD calculation for TCRT due to high change percent: 20.4724
-2025-10-07 12:59:44,111 - root - INFO - MACD is still rising for stock TMQ
-2025-10-07 12:59:44,114 - root - INFO - Not enough profit percent to scalp for TMQ: 0.781127
-2025-10-07 12:59:44,791 - root - INFO -  MACD calculation for TELO due to high change percent: 23.162
-2025-10-07 12:59:44,849 - root - INFO - MACD not positive for TELO: MACD=0.004213274719679028, Signal=0.008701374220527594, Hist=-0.004488099500848566
-2025-10-07 12:59:45,117 - root - INFO -  update_current_price: start time 2025-10-07T12:58:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:59:47,256 - root - INFO -  MACD calculation for TMC due to high change percent: 19.6153
-2025-10-07 12:59:47,571 - root - INFO -  MACD calculation for TMCWW due to high change percent: 38.4706
-2025-10-07 12:59:47,860 - root - INFO -  MACD calculation for TMQ due to high change percent: 240.909
-2025-10-07 12:59:52,038 - root - INFO -  MACD calculation for ULY due to high change percent: 18.5449
-2025-10-07 12:59:52,693 - root - INFO -  MACD calculation for UPC due to high change percent: 13.1203
-2025-10-07 12:59:52,754 - root - INFO - MACD not positive for UPC: MACD=0.01239601330924689, Signal=0.048004585983452835, Hist=-0.035608572674205946
-2025-10-07 12:59:53,217 - root - INFO -  MACD calculation for USAR due to high change percent: 10.6201
-2025-10-07 12:59:53,398 - root - INFO -  MACD calculation for USARW due to high change percent: 18.0707
-2025-10-07 12:59:56,794 - root - INFO -  update_current_price: start time 2025-10-07T12:58:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:59:59,164 - root - INFO - Real mode: Today's profit so far: 2368.679974999999
-2025-10-07 12:59:59,185 - root - INFO - Running real_trade for all top movers
-2025-10-07 12:59:59,229 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 12:59:59,422 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
-2025-10-07 12:59:59,441 - root - INFO - latest trade price: 7.0698
-2025-10-07 12:59:59,451 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
-2025-10-07 13:00:00,039 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
-2025-10-07 13:00:00,066 - root - INFO - 1min RSI is overbought for RVSN: 79.42690872056059
-2025-10-07 13:00:00,084 - root - INFO - latest trade price: 0.8177
-2025-10-07 13:00:00,095 - root - INFO - swing_strategy_open_long for scale 5Min stock CCTG
-2025-10-07 13:00:00,154 - root - INFO - Last 5 minutes maximum volume candle is red for CCTG
-2025-10-07 13:00:00,172 - root - INFO - latest trade price: 1.9683
-2025-10-07 13:00:00,260 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 13:00:00,397 - root - INFO - Profit percent for TMQ is 0.645217
-2025-10-07 13:00:00,398 - root - INFO - Latest 1min close price for TMQ: 7.02
-2025-10-07 13:00:00,510 - root - INFO - MACD is still rising for stock TMQ
-2025-10-07 13:00:00,511 - root - INFO - Not enough profit percent to scalp for TMQ: 0.645217
-2025-10-07 13:00:02,021 - root - INFO -  MACD calculation for YCBD due to high change percent: 13.8462
-2025-10-07 13:00:02,139 - root - INFO - MACD not positive for YCBD: MACD=0.011373109485150357, Signal=0.012179322346421573, Hist=-0.0008062128612712164
-2025-10-07 13:00:04,463 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-07 13:00:15,569 - root - INFO - Real mode: Today's profit so far: 2375.9499749999995
-2025-10-07 13:00:15,592 - root - INFO - Running real_trade for all top movers
-2025-10-07 13:00:15,646 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 13:00:15,883 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
-2025-10-07 13:00:15,901 - root - INFO - latest trade price: 7.13
-2025-10-07 13:00:15,911 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
-2025-10-07 13:00:16,268 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
-2025-10-07 13:00:16,290 - root - INFO - 1min RSI is overbought for RVSN: 79.42690872056059
-2025-10-07 13:00:16,312 - root - INFO - latest trade price: 0.8025
-2025-10-07 13:00:16,325 - root - INFO - swing_strategy_open_long for scale 5Min stock CCTG
-2025-10-07 13:00:16,377 - root - INFO - Last 5 minutes maximum volume candle is red for CCTG
-2025-10-07 13:00:16,395 - root - INFO - latest trade price: 1.99
-2025-10-07 13:00:16,513 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 13:00:16,720 - root - INFO - Profit percent for TMQ is 1.14594
-2025-10-07 13:00:16,720 - root - INFO - Latest 1min close price for TMQ: 7.02
-2025-10-07 13:00:16,824 - root - INFO - MACD is still rising for stock TMQ
-2025-10-07 13:00:16,825 - root - INFO - Not enough profit percent to scalp for TMQ: 1.14594
-2025-10-07 13:00:31,879 - root - INFO - Real mode: Today's profit so far: 2380.4399749999975
-2025-10-07 13:00:31,901 - root - INFO - Running real_trade for all top movers
-2025-10-07 13:00:31,950 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 13:00:32,096 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
-2025-10-07 13:00:32,119 - root - INFO - latest trade price: 7.1506
-2025-10-07 13:00:32,132 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
-2025-10-07 13:00:32,329 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
-2025-10-07 13:00:32,353 - root - INFO - 1min RSI is overbought for RVSN: 79.42690872056059
-2025-10-07 13:00:32,373 - root - INFO - latest trade price: 0.7901
-2025-10-07 13:00:32,382 - root - INFO - swing_strategy_open_long for scale 5Min stock CCTG
-2025-10-07 13:00:32,445 - root - INFO - Last 5 minutes maximum volume candle is red for CCTG
-2025-10-07 13:00:32,469 - root - INFO - latest trade price: 1.96
-2025-10-07 13:00:32,576 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 13:00:32,666 - root - INFO - Profit percent for TMQ is 1.93279
-2025-10-07 13:00:32,667 - root - INFO - Latest 1min close price for TMQ: 7.02
-2025-10-07 13:00:32,765 - root - INFO - MACD is still rising for stock TMQ
-2025-10-07 13:00:32,765 - root - INFO - Not enough profit percent to scalp for TMQ: 1.93279
-2025-10-07 13:00:47,814 - root - INFO - Real mode: Today's profit so far: 2380.1499749999966
-2025-10-07 13:00:47,845 - root - INFO - Running real_trade for all top movers
-2025-10-07 13:00:47,901 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 13:00:48,069 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
-2025-10-07 13:00:48,090 - root - INFO - latest trade price: 7.1463
-2025-10-07 13:00:48,103 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
-2025-10-07 13:00:48,311 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
-2025-10-07 13:00:48,337 - root - INFO - 1min candle is not positive for RVSN: open 0.7913 close 0.79
-2025-10-07 13:00:48,357 - root - INFO - latest trade price: 0.7696
-2025-10-07 13:00:48,367 - root - INFO - swing_strategy_open_long for scale 5Min stock CCTG
-2025-10-07 13:00:48,417 - root - INFO - Last 5 minutes maximum volume candle is red for CCTG
-2025-10-07 13:00:48,438 - root - INFO - latest trade price: 1.96
-2025-10-07 13:00:48,552 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 13:00:48,686 - root - INFO - Profit percent for TMQ is 2.28902
-2025-10-07 13:00:48,687 - root - INFO - Latest 1min close price for TMQ: 7.1494
-2025-10-07 13:00:48,788 - root - INFO - MACD is still rising for stock TMQ
-2025-10-07 13:00:48,788 - root - INFO - Not enough profit percent to scalp for TMQ: 2.28902
+2025-10-07 13:02:54,841 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
+2025-10-07 13:02:54,857 - root - INFO - 1min RSI is overbought for RVSN: 83.52497655554177
+2025-10-07 13:02:54,876 - root - INFO - latest trade price: 0.8379
+2025-10-07 13:02:54,964 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 13:02:55,052 - root - INFO - Profit percent for TMQ is 1.07441
+2025-10-07 13:02:55,052 - root - INFO - Latest 1min close price for TMQ: 7.07
+2025-10-07 13:02:55,139 - root - INFO - MACD is still rising for stock TMQ
+2025-10-07 13:02:55,140 - root - INFO - Not enough profit percent to scalp for TMQ: 1.07441
+2025-10-07 13:02:55,711 - root - INFO -  MACD calculation for ULY due to high change percent: 17.3269
+2025-10-07 13:02:56,629 - root - INFO -  MACD calculation for USAR due to high change percent: 11.1322
+2025-10-07 13:02:56,778 - root - INFO -  MACD calculation for USARW due to high change percent: 20.5842
+2025-10-07 13:02:59,923 - root - INFO -  update_current_price: start time 2025-10-07T13:01:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 13:03:05,363 - root - INFO -  MACD calculation for YCBD due to high change percent: 13.0769
+2025-10-07 13:03:05,441 - root - INFO - MACD not positive for YCBD: MACD=0.010006994782649548, Signal=0.011744856833667168, Hist=-0.0017378620510176204
+2025-10-07 13:03:05,584 - root - INFO -  MACD calculation for YJ due to high change percent: 14.2132
+2025-10-07 13:03:05,613 - root - INFO - MACD not positive for YJ: MACD=0.0631667612820559, Signal=0.07997018133597772, Hist=-0.016803420053921825
+2025-10-07 13:03:07,920 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-07 13:03:10,187 - root - INFO - Real mode: Today's profit so far: 2381.5699749999985
+2025-10-07 13:03:10,235 - root - INFO - Running real_trade for all top movers
+2025-10-07 13:03:10,297 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 13:03:10,427 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 13:03:10,447 - root - INFO - latest trade price: 7.1599
+2025-10-07 13:03:10,462 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
+2025-10-07 13:03:10,655 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
+2025-10-07 13:03:10,677 - root - INFO - 1min RSI is overbought for RVSN: 83.52497655554177
+2025-10-07 13:03:10,698 - root - INFO - latest trade price: 0.8479
+2025-10-07 13:03:10,711 - root - INFO - swing_strategy_open_long for scale 5Min stock NXXT
+2025-10-07 13:03:10,923 - root - INFO - Last 5 minutes maximum volume candle is green for NXXT
+2025-10-07 13:03:11,080 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 13:03:11,081 - root - INFO - NXXT:======= 2.7===>BUY========>TrendUp376911
+2025-10-07 13:03:11,171 - root - CRITICAL - NXXT  370 buy
+2025-10-07 13:03:11,220 - root - INFO - Placed BUY order for NXXT, qty: 370, price: 2.7, success: True
+2025-10-07 13:03:11,221 - root - INFO - Trade successfully COMPLETED for NXXT
+2025-10-07 13:03:11,221 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 13:03:11,308 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
+2025-10-07 13:03:11,327 - root - INFO - latest trade price: 8.33
+2025-10-07 13:03:11,431 - root - INFO - swing_strategy_close_long for scale 5Min stock NXXT
+2025-10-07 13:03:11,547 - root - INFO - Profit percent for NXXT is 0
+2025-10-07 13:03:11,547 - root - INFO - Latest 1min close price for NXXT: 2.7
+2025-10-07 13:03:11,575 - root - INFO - High price DETECTED for NXXT is 0.0 and setting no_scalp to True
+2025-10-07 13:03:11,608 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 13:03:11,702 - root - INFO - Profit percent for TMQ is 1.5036
+2025-10-07 13:03:11,702 - root - INFO - Latest 1min close price for TMQ: 7.07
+2025-10-07 13:03:11,817 - root - INFO - MACD is still rising for stock TMQ
+2025-10-07 13:03:11,817 - root - INFO - Not enough profit percent to scalp for TMQ: 1.5036
+2025-10-07 13:03:26,863 - root - INFO - Real mode: Today's profit so far: 2378.8999749999966
+2025-10-07 13:03:26,883 - root - INFO - Running real_trade for all top movers
+2025-10-07 13:03:26,955 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 13:03:27,072 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 13:03:27,092 - root - INFO - latest trade price: 7.165
+2025-10-07 13:03:27,107 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
+2025-10-07 13:03:27,340 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
+2025-10-07 13:03:27,365 - root - INFO - 1min RSI is overbought for RVSN: 83.52497655554177
+2025-10-07 13:03:27,385 - root - INFO - latest trade price: 0.8657
+2025-10-07 13:03:27,400 - root - INFO - swing_strategy_open_long for scale 5Min stock NXXT
+2025-10-07 13:03:27,546 - root - INFO - Last 5 minutes maximum volume candle is green for NXXT
+2025-10-07 13:03:27,618 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 13:03:27,619 - root - INFO - NXXT:======= 2.7===>BUY========>TrendUp376911
+2025-10-07 13:03:27,640 - root - WARNING - ***** stock is already in the positions
+2025-10-07 13:03:27,640 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 13:03:27,732 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
+2025-10-07 13:03:27,754 - root - INFO - latest trade price: 8.34
+2025-10-07 13:03:27,862 - root - INFO - swing_strategy_close_long for scale 5Min stock NXXT
+2025-10-07 13:03:27,986 - root - INFO - Profit percent for NXXT is 0.7
+2025-10-07 13:03:27,986 - root - INFO - Latest 1min close price for NXXT: 2.7
+2025-10-07 13:03:28,103 - root - INFO - MACD is still rising for stock NXXT
+2025-10-07 13:03:28,103 - root - INFO - Not enough profit percent to scalp for NXXT: 0.7
+2025-10-07 13:03:28,132 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 13:03:28,222 - root - INFO - Profit percent for TMQ is 2.41777
+2025-10-07 13:03:28,222 - root - INFO - Latest 1min close price for TMQ: 7.07
+2025-10-07 13:03:28,332 - root - INFO - MACD is still rising for stock TMQ
+2025-10-07 13:03:28,332 - root - INFO - Not enough profit percent to scalp for TMQ: 2.41777
+2025-10-07 13:03:43,388 - root - INFO - Real mode: Today's profit so far: 2382.6999749999995
+2025-10-07 13:03:43,412 - root - INFO - Running real_trade for all top movers
+2025-10-07 13:03:43,460 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 13:03:43,581 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 13:03:43,659 - root - INFO - MACD has been up for last 10 candles for TMQ, not opening long position
+2025-10-07 13:03:43,659 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=True, price_close_above_upper_bb=False
+2025-10-07 13:03:43,681 - root - INFO - latest trade price: 7.165
+2025-10-07 13:03:43,699 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
+2025-10-07 13:03:43,888 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
+2025-10-07 13:03:43,910 - root - INFO - 1min RSI is overbought for RVSN: 86.09536913246035
+2025-10-07 13:03:43,931 - root - INFO - latest trade price: 0.8431
+2025-10-07 13:03:43,944 - root - INFO - swing_strategy_open_long for scale 5Min stock NXXT
+2025-10-07 13:03:44,090 - root - INFO - Last 5 minutes maximum volume candle is green for NXXT
+2025-10-07 13:03:44,116 - root - INFO - 1min candle is not positive for NXXT: open 2.7 close 2.71
+2025-10-07 13:03:44,135 - root - INFO - latest trade price: 2.72
+2025-10-07 13:03:44,150 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 13:03:44,238 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
+2025-10-07 13:03:44,258 - root - INFO - latest trade price: 8.3497
+2025-10-07 13:03:44,460 - root - INFO - swing_strategy_close_long for scale 5Min stock NXXT
+2025-10-07 13:03:44,596 - root - INFO - Profit percent for NXXT is 0.37037
+2025-10-07 13:03:44,596 - root - INFO - Latest 1min close price for NXXT: 2.71
+2025-10-07 13:03:44,624 - root - INFO - High price DETECTED for NXXT is 2.7 and setting no_scalp to True
+2025-10-07 13:03:44,656 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 13:03:44,820 - root - INFO - Profit percent for TMQ is 2.57514
+2025-10-07 13:03:44,820 - root - INFO - Latest 1min close price for TMQ: 7.1499
+2025-10-07 13:03:44,898 - root - INFO - MACD is still rising for stock TMQ
+2025-10-07 13:03:44,898 - root - INFO - Not enough profit percent to scalp for TMQ: 2.57514
+2025-10-07 13:03:59,955 - root - INFO - Real mode: Today's profit so far: 2376.0399749999997
+2025-10-07 13:03:59,977 - root - INFO - Running real_trade for all top movers
+2025-10-07 13:04:00,037 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 13:04:00,168 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 13:04:00,236 - root - INFO - MACD has been up for last 10 candles for TMQ, not opening long position
+2025-10-07 13:04:00,236 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=True, price_close_above_upper_bb=False
+2025-10-07 13:04:00,258 - root - INFO - latest trade price: 7.15
+2025-10-07 13:04:00,271 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
+2025-10-07 13:04:00,467 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
+2025-10-07 13:04:00,488 - root - INFO - 1min RSI is overbought for RVSN: 86.09536913246035
+2025-10-07 13:04:00,510 - root - INFO - latest trade price: 0.8503
+2025-10-07 13:04:00,524 - root - INFO - swing_strategy_open_long for scale 5Min stock NXXT
+2025-10-07 13:04:00,651 - root - INFO - Last 5 minutes maximum volume candle is green for NXXT
+2025-10-07 13:04:00,672 - root - INFO - 1min candle is not positive for NXXT: open 2.7 close 2.71
+2025-10-07 13:04:00,690 - root - INFO - latest trade price: 2.7078
+2025-10-07 13:04:00,703 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 13:04:00,803 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
+2025-10-07 13:04:00,822 - root - INFO - latest trade price: 8.3497
+2025-10-07 13:04:00,927 - root - INFO - swing_strategy_close_long for scale 5Min stock NXXT
+2025-10-07 13:04:01,047 - root - INFO - Profit percent for NXXT is 0.740741
+2025-10-07 13:04:01,048 - root - INFO - Latest 1min close price for NXXT: 2.71
+2025-10-07 13:04:01,158 - root - INFO - MACD is still rising for stock NXXT
+2025-10-07 13:04:01,158 - root - INFO - Not enough profit percent to scalp for NXXT: 0.740741
+2025-10-07 13:04:01,188 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 13:04:01,282 - root - INFO - Profit percent for TMQ is 2.57657
+2025-10-07 13:04:01,282 - root - INFO - Latest 1min close price for TMQ: 7.1499
+2025-10-07 13:04:01,376 - root - INFO - MACD is still rising for stock TMQ
+2025-10-07 13:04:01,376 - root - INFO - Not enough profit percent to scalp for TMQ: 2.57657
+2025-10-07 13:04:08,003 - root - INFO - Real mode: Today's profit so far: 2367.079974999997
+2025-10-07 13:04:08,023 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
+2025-10-07 13:04:08,023 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
+2025-10-07 13:04:08,066 - root - INFO -  update_current_price: start time 2025-10-07T13:03:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 13:04:09,029 - root - INFO -  MACD calculation for ACB due to high change percent: 10.327
+2025-10-07 13:04:14,791 - root - INFO -  MACD calculation for APVO due to high change percent: 29.4326
+2025-10-07 13:04:16,424 - root - INFO - Real mode: Today's profit so far: 2366.129975
+2025-10-07 13:04:16,426 - root - INFO -  update_current_price: start time 2025-10-07T13:03:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 13:04:16,445 - root - INFO - Running real_trade for all top movers
+2025-10-07 13:04:16,489 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 13:04:16,604 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 13:04:16,686 - root - INFO - MACD has been up for last 10 candles for TMQ, not opening long position
+2025-10-07 13:04:16,686 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=True, price_close_above_upper_bb=False
+2025-10-07 13:04:16,705 - root - INFO - latest trade price: 7.1301
+2025-10-07 13:04:16,717 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
+2025-10-07 13:04:16,914 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
+2025-10-07 13:04:16,934 - root - INFO - 1min RSI is overbought for RVSN: 86.09536913246035
+2025-10-07 13:04:16,953 - root - INFO - latest trade price: 0.8722
+2025-10-07 13:04:16,964 - root - INFO - swing_strategy_open_long for scale 5Min stock NXXT
+2025-10-07 13:04:16,983 - root - INFO -  MACD calculation for ASNS due to high change percent: 10.7885
+2025-10-07 13:04:17,048 - root - INFO - MACD not positive for ASNS: MACD=0.0027857884566139246, Signal=0.009252979641021399, Hist=-0.006467191184407474
+2025-10-07 13:04:17,099 - root - INFO - Last 5 minutes maximum volume candle is green for NXXT
+2025-10-07 13:04:17,120 - root - INFO - 1min candle is not positive for NXXT: open 2.7 close 2.71
+2025-10-07 13:04:17,141 - root - INFO - latest trade price: 2.6887
+2025-10-07 13:04:17,151 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 13:04:17,226 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
+2025-10-07 13:04:17,243 - root - INFO - latest trade price: 8.345
+2025-10-07 13:04:17,336 - root - INFO - swing_strategy_close_long for scale 5Min stock NXXT
+2025-10-07 13:04:17,458 - root - INFO - Profit percent for NXXT is 0.288889
+2025-10-07 13:04:17,459 - root - INFO - Latest 1min close price for NXXT: 2.71
+2025-10-07 13:04:17,564 - root - INFO - MACD is still rising for stock NXXT
+2025-10-07 13:04:17,564 - root - INFO - Not enough profit percent to scalp for NXXT: 0.288889
+2025-10-07 13:04:17,585 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 13:04:17,680 - root - INFO - Profit percent for TMQ is 2.36198
+2025-10-07 13:04:17,681 - root - INFO - Latest 1min close price for TMQ: 7.1499
+2025-10-07 13:04:17,766 - root - INFO - MACD is still rising for stock TMQ
+2025-10-07 13:04:17,766 - root - INFO - Not enough profit percent to scalp for TMQ: 2.36198
+2025-10-07 13:04:21,681 - root - INFO -  MACD calculation for BJDX due to high change percent: 36.4516
+2025-10-07 13:04:21,763 - root - INFO - MACD not positive for BJDX: MACD=0.007334963074801859, Signal=0.016378014150208606, Hist=-0.009043051075406747
+2025-10-07 13:04:22,188 - root - INFO -  MACD calculation for BLIN due to high change percent: 12.5704
+2025-10-07 13:04:22,724 - root - INFO -  MACD calculation for BNAI due to high change percent: 45.8044
+2025-10-07 13:04:22,813 - root - INFO - MACD not positive for BNAI: MACD=0.014386692674892454, Signal=0.022017011567096532, Hist=-0.0076303188922040785
+2025-10-07 13:04:23,252 - root - INFO -  MACD calculation for BQ due to high change percent: 26.5312
+2025-10-07 13:04:23,314 - root - INFO - MACD not positive for BQ: MACD=-2.2230841663079595, Signal=-0.28143549889136893, Hist=-1.9416486674165905
+2025-10-07 13:04:23,391 - root - INFO -  update_current_price: start time 2025-10-07T13:03:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 13:04:28,906 - root - INFO -  MACD calculation for CISS due to high change percent: 71.9457
+2025-10-07 13:04:28,953 - root - INFO - MACD not positive for CISS: MACD=-0.05740516659313144, Signal=-0.04667500656622784, Hist=-0.0107301600269036
+2025-10-07 13:04:30,005 - root - INFO -  update_current_price: start time 2025-10-07T13:03:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 13:04:30,528 - root - INFO -  MACD calculation for COCH due to high change percent: 89.6381
+2025-10-07 13:04:30,581 - root - INFO - MACD not positive for COCH: MACD=-0.023443958709745694, Signal=-0.002685218735671965, Hist=-0.02075873997407373
+2025-10-07 13:04:32,806 - root - INFO - Real mode: Today's profit so far: 2367.3099749999965
+2025-10-07 13:04:32,825 - root - INFO - Running real_trade for all top movers
+2025-10-07 13:04:32,862 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 13:04:33,019 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 13:04:33,110 - root - INFO - MACD has been up for last 10 candles for TMQ, not opening long position
+2025-10-07 13:04:33,110 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=True, price_close_above_upper_bb=False
+2025-10-07 13:04:33,131 - root - INFO - latest trade price: 7.135
+2025-10-07 13:04:33,143 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
+2025-10-07 13:04:33,403 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
+2025-10-07 13:04:33,422 - root - INFO - 1min RSI is overbought for RVSN: 87.02078128977968
+2025-10-07 13:04:33,444 - root - INFO - latest trade price: 0.8661
+2025-10-07 13:04:33,454 - root - INFO - swing_strategy_open_long for scale 5Min stock NXXT
+2025-10-07 13:04:33,582 - root - INFO - Last 5 minutes maximum volume candle is red for NXXT
+2025-10-07 13:04:33,600 - root - INFO - latest trade price: 2.69
+2025-10-07 13:04:33,610 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 13:04:33,731 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
+2025-10-07 13:04:33,751 - root - INFO - latest trade price: 8.345
+2025-10-07 13:04:33,844 - root - INFO - swing_strategy_close_long for scale 5Min stock NXXT
+2025-10-07 13:04:34,059 - root - INFO - Profit percent for NXXT is -0.418519
+2025-10-07 13:04:34,059 - root - INFO - Latest 1min close price for NXXT: 2.69
+2025-10-07 13:04:34,129 - root - INFO - MACD is still rising for stock NXXT
+2025-10-07 13:04:34,129 - root - INFO - Not enough profit percent to scalp for NXXT: -0.418519
+2025-10-07 13:04:34,138 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 13:04:34,232 - root - INFO - Profit percent for TMQ is 2.00575
+2025-10-07 13:04:34,232 - root - INFO - Latest 1min close price for TMQ: 7.135
+2025-10-07 13:04:34,293 - root - INFO - MACD is still rising for stock TMQ
+2025-10-07 13:04:34,293 - root - INFO - Not enough profit percent to scalp for TMQ: 2.00575
+2025-10-07 13:04:35,138 - root - INFO -  MACD calculation for DGNX due to high change percent: 15.1515
+2025-10-07 13:04:36,379 - root - INFO -  MACD calculation for DPRO due to high change percent: 10.2564
+2025-10-07 13:04:37,195 - root - INFO -  MACD calculation for DVLT due to high change percent: 21.875
+2025-10-07 13:04:37,446 - root - INFO -  update_current_price: start time 2025-10-07T13:03:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 13:04:37,646 - root - INFO -  MACD calculation for DYN due to high change percent: 10.9486
+2025-10-07 13:04:37,688 - root - INFO - MACD not positive for DYN: MACD=0.13601997336318306, Signal=0.14490827001531845, Hist=-0.008888296652135391
+2025-10-07 13:04:39,158 - root - INFO -  MACD calculation for EGAN due to high change percent: 15.1718
+2025-10-07 13:04:40,060 - root - INFO -  MACD calculation for ELBM due to high change percent: 11.7021
+2025-10-07 13:04:46,679 - root - INFO -  update_current_price: start time 2025-10-07T13:03:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 13:04:49,346 - root - INFO - Real mode: Today's profit so far: 2371.719975
+2025-10-07 13:04:49,366 - root - INFO - Running real_trade for all top movers
+2025-10-07 13:04:49,408 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 13:04:49,569 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 13:04:49,626 - root - INFO - MACD has been up for last 10 candles for TMQ, not opening long position
+2025-10-07 13:04:49,627 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=True, price_close_above_upper_bb=False
+2025-10-07 13:04:49,646 - root - INFO - latest trade price: 7.14
+2025-10-07 13:04:49,657 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
+2025-10-07 13:04:49,846 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
+2025-10-07 13:04:49,871 - root - INFO - 1min RSI is overbought for RVSN: 87.02078128977968
+2025-10-07 13:04:49,892 - root - INFO - latest trade price: 0.855
+2025-10-07 13:04:49,905 - root - INFO - swing_strategy_open_long for scale 5Min stock NXXT
+2025-10-07 13:04:50,052 - root - INFO - Last 5 minutes maximum volume candle is red for NXXT
+2025-10-07 13:04:50,071 - root - INFO - latest trade price: 2.7
+2025-10-07 13:04:50,081 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 13:04:50,168 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
+2025-10-07 13:04:50,193 - root - INFO - latest trade price: 8.3427
+2025-10-07 13:04:50,301 - root - INFO - swing_strategy_close_long for scale 5Min stock NXXT
+2025-10-07 13:04:50,518 - root - INFO - Profit percent for NXXT is -0.37037
+2025-10-07 13:04:50,518 - root - INFO - Latest 1min close price for NXXT: 2.69
+2025-10-07 13:04:50,621 - root - INFO - MACD is still rising for stock NXXT
+2025-10-07 13:04:50,621 - root - INFO - Not enough profit percent to scalp for NXXT: -0.37037
+2025-10-07 13:04:50,642 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 13:04:50,725 - root - INFO - Profit percent for TMQ is 2.00432
+2025-10-07 13:04:50,725 - root - INFO - Latest 1min close price for TMQ: 7.135
+2025-10-07 13:04:50,805 - root - INFO - MACD is still rising for stock TMQ
+2025-10-07 13:04:50,805 - root - INFO - Not enough profit percent to scalp for TMQ: 2.00432
+2025-10-07 13:04:51,577 - root - INFO -  MACD calculation for GIGGW due to high change percent: 21.5385
+2025-10-07 13:04:51,847 - root - INFO -  MACD calculation for GLTO due to high change percent: 581.671
+2025-10-07 13:04:51,907 - root - INFO - MACD not positive for GLTO: MACD=-0.2565556565885352, Signal=-0.007049832335944883, Hist=-0.2495058242525903
+2025-10-07 13:04:55,108 - root - INFO -  MACD calculation for GWAV due to high change percent: 14.5138
+2025-10-07 13:04:55,391 - root - INFO -  update_current_price: start time 2025-10-07T13:03:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 13:04:59,289 - root - INFO -  MACD calculation for HYLN due to high change percent: 11.8357
+2025-10-07 13:05:03,059 - root - INFO -  update_current_price: start time 2025-10-07T13:04:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 13:05:03,237 - root - INFO -  MACD calculation for ITRM due to high change percent: 13.2143
+2025-10-07 13:05:03,276 - root - INFO - MACD not positive for ITRM: MACD=-0.0006749301512554151, Signal=0.0029729551667811993, Hist=-0.0036478853180366144
+2025-10-07 13:05:05,317 - root - INFO -  MACD calculation for KLTO due to high change percent: 12.5962
+2025-10-07 13:05:05,851 - root - INFO - Real mode: Today's profit so far: 2370.0699749999985
+2025-10-07 13:05:05,874 - root - INFO - Running real_trade for all top movers
+2025-10-07 13:05:05,909 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 13:05:06,023 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 13:05:06,086 - root - INFO - MACD has been up for last 10 candles for TMQ, not opening long position
+2025-10-07 13:05:06,087 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=True, price_close_above_upper_bb=False
+2025-10-07 13:05:06,103 - root - INFO - latest trade price: 7.1313
+2025-10-07 13:05:06,109 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
+2025-10-07 13:05:06,186 - root - INFO -  MACD calculation for KZIA due to high change percent: 15.0428
+2025-10-07 13:05:06,218 - root - INFO - MACD not positive for KZIA: MACD=0.03778798997554578, Signal=0.08115302928099141, Hist=-0.043365039305445635
+2025-10-07 13:05:06,272 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
+2025-10-07 13:05:06,289 - root - INFO - 1min RSI is overbought for RVSN: 87.02078128977968
+2025-10-07 13:05:06,308 - root - INFO - latest trade price: 0.8582
+2025-10-07 13:05:06,316 - root - INFO - swing_strategy_open_long for scale 5Min stock NXXT
+2025-10-07 13:05:06,421 - root - INFO -  MACD calculation for LAR due to high change percent: 12.4638
+2025-10-07 13:05:06,433 - root - INFO - Last 5 minutes maximum volume candle is red for NXXT
+2025-10-07 13:05:06,455 - root - INFO - latest trade price: 2.6989
+2025-10-07 13:05:06,465 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 13:05:06,547 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
+2025-10-07 13:05:06,568 - root - INFO - latest trade price: 8.34
+2025-10-07 13:05:06,660 - root - INFO - swing_strategy_close_long for scale 5Min stock NXXT
+2025-10-07 13:05:06,798 - root - INFO - Profit percent for NXXT is 0.0
+2025-10-07 13:05:06,799 - root - INFO - Latest 1min close price for NXXT: 2.69
+2025-10-07 13:05:06,887 - root - INFO - MACD is still rising for stock NXXT
+2025-10-07 13:05:06,887 - root - INFO - Not enough profit percent to scalp for NXXT: 0.0
+2025-10-07 13:05:06,911 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 13:05:07,000 - root - INFO - Profit percent for TMQ is 2.14738
+2025-10-07 13:05:07,000 - root - INFO - Latest 1min close price for TMQ: 7.135
+2025-10-07 13:05:07,091 - root - INFO - MACD is still rising for stock TMQ
+2025-10-07 13:05:07,091 - root - INFO - Not enough profit percent to scalp for TMQ: 2.14738
+2025-10-07 13:05:09,097 - root - INFO -  update_current_price: start time 2025-10-07T13:04:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 13:05:09,454 - root - INFO -  MACD calculation for LXEO due to high change percent: 30.0309
+2025-10-07 13:05:11,528 - root - INFO -  MACD calculation for MIGI due to high change percent: 15.4354
+2025-10-07 13:05:14,533 - root - INFO -  MACD calculation for NAK due to high change percent: 23.1722
+2025-10-07 13:05:14,916 - root - INFO -  update_current_price: start time 2025-10-07T13:04:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 13:05:15,235 - root - INFO -  MACD calculation for NCNA due to high change percent: 19.685
+2025-10-07 13:05:15,297 - root - INFO - MACD not positive for NCNA: MACD=0.11922466745189197, Signal=0.14276911113734125, Hist=-0.02354444368544928
+2025-10-07 13:05:16,256 - root - INFO -  MACD calculation for NIOBW due to high change percent: 11.4695
+2025-10-07 13:05:16,362 - root - INFO -  MACD calculation for NITO due to high change percent: 18.319
+2025-10-07 13:05:19,239 - root - INFO -  MACD calculation for NXXT due to high change percent: 30.6763
+2025-10-07 13:05:21,385 - root - INFO -  update_current_price: start time 2025-10-07T13:04:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 13:05:22,152 - root - INFO - Real mode: Today's profit so far: 2365.1599749999987
+2025-10-07 13:05:22,455 - root - INFO - Running real_trade for all top movers
+2025-10-07 13:05:22,495 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 13:05:22,610 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 13:05:22,671 - root - INFO - MACD has been up for last 10 candles for TMQ, not opening long position
+2025-10-07 13:05:22,672 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=True, price_close_above_upper_bb=False
+2025-10-07 13:05:22,708 - root - INFO - latest trade price: 7.12
+2025-10-07 13:05:22,722 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
+2025-10-07 13:05:22,981 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
+2025-10-07 13:05:23,002 - root - INFO - 1min RSI is overbought for RVSN: 87.02078128977968
+2025-10-07 13:05:23,020 - root - INFO - latest trade price: 0.8541
+2025-10-07 13:05:23,030 - root - INFO - swing_strategy_open_long for scale 5Min stock NXXT
+2025-10-07 13:05:23,149 - root - INFO - Last 5 minutes maximum volume candle is red for NXXT
+2025-10-07 13:05:23,167 - root - INFO - latest trade price: 2.69
+2025-10-07 13:05:23,176 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 13:05:23,250 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
+2025-10-07 13:05:23,267 - root - INFO - latest trade price: 8.35
+2025-10-07 13:05:23,360 - root - INFO - swing_strategy_close_long for scale 5Min stock NXXT
+2025-10-07 13:05:23,486 - root - INFO - Profit percent for NXXT is -0.0407407
+2025-10-07 13:05:23,487 - root - INFO - Latest 1min close price for NXXT: 2.69
+2025-10-07 13:05:23,583 - root - INFO - MACD is still rising for stock NXXT
+2025-10-07 13:05:23,583 - root - INFO - Not enough profit percent to scalp for NXXT: -0.0407407
+2025-10-07 13:05:23,604 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 13:05:23,687 - root - INFO - Profit percent for TMQ is 2.07585
+2025-10-07 13:05:23,687 - root - INFO - Latest 1min close price for TMQ: 7.135
+2025-10-07 13:05:23,770 - root - INFO - MACD is still rising for stock TMQ
+2025-10-07 13:05:23,770 - root - INFO - Not enough profit percent to scalp for TMQ: 2.07585
+2025-10-07 13:05:27,023 - root - INFO -  MACD calculation for QMCO due to high change percent: 16.3308
+2025-10-07 13:05:27,435 - root - INFO -  update_current_price: start time 2025-10-07T13:04:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 13:05:28,832 - root - INFO -  MACD calculation for REKR due to high change percent: 14.9171
+2025-10-07 13:05:30,883 - root - INFO -  MACD calculation for RVSN due to high change percent: 55.7659
+2025-10-07 13:05:32,626 - root - INFO -  MACD calculation for SCLX due to high change percent: 11.1772
+2025-10-07 13:05:33,304 - root - INFO -  MACD calculation for SES due to high change percent: 12.1893
+2025-10-07 13:05:33,951 - root - INFO -  update_current_price: start time 2025-10-07T13:04:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 13:05:35,362 - root - INFO -  MACD calculation for SLDPW due to high change percent: 16.5801
+2025-10-07 13:05:35,561 - root - INFO -  MACD calculation for SLNH due to high change percent: 13.2556
+2025-10-07 13:05:36,265 - root - INFO -  MACD calculation for SMX due to high change percent: 10.1626
+2025-10-07 13:05:36,910 - root - INFO -  MACD calculation for SNGX due to high change percent: 27.7372
+2025-10-07 13:05:37,038 - root - INFO -  MACD calculation for SNSE due to high change percent: 16.6614
+2025-10-07 13:05:37,891 - root - INFO -  MACD calculation for SPHL due to high change percent: 11.4098
+2025-10-07 13:05:37,950 - root - INFO - MACD not positive for SPHL: MACD=0.012248628706615361, Signal=0.013258072957880507, Hist=-0.0010094442512651458
+2025-10-07 13:05:38,827 - root - INFO - Real mode: Today's profit so far: 2361.2899749999997
+2025-10-07 13:05:38,847 - root - INFO - Running real_trade for all top movers
+2025-10-07 13:05:38,896 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 13:05:39,028 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 13:05:39,041 - root - INFO - 1min candle is not positive for TMQ: open 7.139 close 7.095
+2025-10-07 13:05:39,061 - root - INFO - latest trade price: 7.08
+2025-10-07 13:05:39,066 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
+2025-10-07 13:05:39,369 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
+2025-10-07 13:05:39,384 - root - INFO - 1min candle is not positive for RVSN: open 0.8662 close 0.8501
+2025-10-07 13:05:39,402 - root - INFO - latest trade price: 0.85
+2025-10-07 13:05:39,410 - root - INFO - swing_strategy_open_long for scale 5Min stock NXXT
+2025-10-07 13:05:39,523 - root - INFO - Last 5 minutes maximum volume candle is red for NXXT
+2025-10-07 13:05:39,541 - root - INFO - latest trade price: 2.695
+2025-10-07 13:05:39,550 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 13:05:39,624 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
+2025-10-07 13:05:39,644 - root - INFO - latest trade price: 8.35
+2025-10-07 13:05:39,720 - root - INFO - swing_strategy_close_long for scale 5Min stock NXXT
+2025-10-07 13:05:39,872 - root - INFO - Profit percent for NXXT is -0.37037
+2025-10-07 13:05:39,872 - root - INFO - Latest 1min close price for NXXT: 2.695
+2025-10-07 13:05:39,956 - root - INFO - MACD is still rising for stock NXXT
+2025-10-07 13:05:39,956 - root - INFO - Not enough profit percent to scalp for NXXT: -0.37037
+2025-10-07 13:05:39,973 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 13:05:40,062 - root - INFO - Profit percent for TMQ is 1.86126
+2025-10-07 13:05:40,062 - root - INFO - Latest 1min close price for TMQ: 7.095
+2025-10-07 13:05:40,151 - root - INFO - MACD is still rising for stock TMQ
+2025-10-07 13:05:40,151 - root - INFO - Not enough profit percent to scalp for TMQ: 1.86126
+2025-10-07 13:05:41,199 - root - INFO -  MACD calculation for TCRT due to high change percent: 20.748
+2025-10-07 13:05:41,815 - root - INFO -  MACD calculation for TELO due to high change percent: 22.5352
+2025-10-07 13:05:41,863 - root - INFO - MACD not positive for TELO: MACD=0.0016541434399761634, Signal=0.006312532599510616, Hist=-0.004658389159534452
+2025-10-07 13:05:42,074 - root - INFO -  update_current_price: start time 2025-10-07T13:04:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 13:05:43,494 - root - INFO -  MACD calculation for TMC due to high change percent: 20.8096
+2025-10-07 13:05:43,622 - root - INFO -  MACD calculation for TMCWW due to high change percent: 38.9216
+2025-10-07 13:05:43,775 - root - INFO -  MACD calculation for TMQ due to high change percent: 238.278
+2025-10-07 13:05:46,888 - root - INFO -  MACD calculation for ULY due to high change percent: 19.8686
+2025-10-07 13:05:47,663 - root - INFO -  MACD calculation for USAR due to high change percent: 12.1771
+2025-10-07 13:05:47,835 - root - INFO -  MACD calculation for USARW due to high change percent: 22.2826
+2025-10-07 13:05:50,723 - root - INFO -  update_current_price: start time 2025-10-07T13:04:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 13:05:55,202 - root - INFO - Real mode: Today's profit so far: 2363.8999749999966
+2025-10-07 13:05:55,221 - root - INFO - Running real_trade for all top movers
+2025-10-07 13:05:55,247 - root - INFO -  MACD calculation for YCBD due to high change percent: 12.3077
+2025-10-07 13:05:55,265 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 13:05:55,308 - root - INFO - MACD not positive for YCBD: MACD=0.010852166150302933, Signal=0.011821589352264971, Hist=-0.0009694232019620379
+2025-10-07 13:05:55,380 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 13:05:55,400 - root - INFO - 1min candle is not positive for TMQ: open 7.139 close 7.095
+2025-10-07 13:05:55,422 - root - INFO - latest trade price: 7.1112
+2025-10-07 13:05:55,432 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
+2025-10-07 13:05:55,465 - root - INFO -  MACD calculation for YJ due to high change percent: 14.2132
+2025-10-07 13:05:55,496 - root - INFO - MACD not positive for YJ: MACD=0.0703462484615427, Signal=0.08140607877187508, Hist=-0.011059830310332391
+2025-10-07 13:05:55,612 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
+2025-10-07 13:05:55,631 - root - INFO - 1min candle is not positive for RVSN: open 0.8662 close 0.8501
+2025-10-07 13:05:55,652 - root - INFO - latest trade price: 0.8389
+2025-10-07 13:05:55,661 - root - INFO - swing_strategy_open_long for scale 5Min stock NXXT
+2025-10-07 13:05:55,803 - root - INFO - Last 5 minutes maximum volume candle is red for NXXT
+2025-10-07 13:05:55,822 - root - INFO - latest trade price: 2.69
+2025-10-07 13:05:55,831 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 13:05:55,917 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
+2025-10-07 13:05:55,935 - root - INFO - latest trade price: 8.34
+2025-10-07 13:05:56,028 - root - INFO - swing_strategy_close_long for scale 5Min stock NXXT
+2025-10-07 13:05:56,146 - root - INFO - Profit percent for NXXT is -0.185185
+2025-10-07 13:05:56,146 - root - INFO - Latest 1min close price for NXXT: 2.695
+2025-10-07 13:05:56,283 - root - INFO - MACD is still rising for stock NXXT
+2025-10-07 13:05:56,283 - root - INFO - Not enough profit percent to scalp for NXXT: -0.185185
+2025-10-07 13:05:56,305 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 13:05:56,386 - root - INFO - Profit percent for TMQ is 1.289
+2025-10-07 13:05:56,387 - root - INFO - Latest 1min close price for TMQ: 7.095
+2025-10-07 13:05:56,475 - root - INFO - MACD is still rising for stock TMQ
+2025-10-07 13:05:56,475 - root - INFO - Not enough profit percent to scalp for TMQ: 1.289
+2025-10-07 13:05:57,714 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
