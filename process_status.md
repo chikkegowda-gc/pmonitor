@@ -1,8 +1,8 @@
 # Process Status
 
-Snapshot taken at: 2025-10-07 14:47:04
+Snapshot taken at: 2025-10-07 14:52:08
 
-../wintrd/trade_algo.py --task price_update: **NOT RUNNING**
+../wintrd/trade_algo.py --task price_update: **RUNNING**
 
 ../wintrd/trade_algo.py --task buy_sell: **NOT RUNNING**
 
