@@ -2,9 +2,10 @@ Top Movers:
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  TMQ   |      0      |     0     |    221.531     | 69411961 |      6.72     |        2.09        | 100660000.0  |  2.128   |  9214481   |      0      | 2025-10-07 12:09:19 |
-|  COCH  |      1      |     0     |    109.296     | 60874744 |     1.6886    |       0.8068       |  10090000.0  |  0.7851  |   144283   |      0      | 2025-10-07 12:08:03 |
-|  BJDX  |      1      |     0     |    41.6258     | 24648195 |     2.1952    |        1.55        |   550000.0   |   1.55   |   221393   |      0      | 2025-10-07 12:07:51 |
+|  TMQ   |      0      |     0     |    221.292     | 69608507 |     6.715     |        2.09        | 100660000.0  |  2.128   |  9214481   |      0      | 2025-10-07 12:14:58 |
+|  COCH  |      0      |     0     |    103.297     | 60972319 |     1.6402    |       0.8068       |  10090000.0  |  0.7851  |   144283   |      0      | 2025-10-07 12:13:43 |
+|  BNAI  |      1      |     0     |    58.4805     | 36682659 |     0.7989    |       0.5041       |  27890000.0  | 0.41672  |  50179374  |      0      | 2025-10-07 12:13:34 |
+|  BJDX  |      1      |     0     |    41.2903     | 24697549 |      2.19     |        1.55        |   550000.0   |   1.55   |   221393   |      0      | 2025-10-07 12:13:33 |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -18,403 +19,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-07 12:07:16,049 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
-2025-10-07 12:07:16,071 - root - INFO - latest trade price: 6.705
-2025-10-07 12:07:16,089 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 12:07:16,139 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
-2025-10-07 12:07:16,160 - root - INFO - latest trade price: 1.66
-2025-10-07 12:07:16,174 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 12:07:16,229 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 12:07:16,254 - root - INFO - 1min candle is not positive for BJDX: open 2.18 close 2.1781
-2025-10-07 12:07:16,285 - root - INFO - latest trade price: 2.1952
-2025-10-07 12:07:16,392 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 12:07:16,444 - root - INFO - Profit percent for BJDX is 1.86543
-2025-10-07 12:07:16,444 - root - INFO - Latest 1min close price for BJDX: 2.1781
-2025-10-07 12:07:16,538 - root - INFO - MACD is still rising for stock BJDX
-2025-10-07 12:07:16,539 - root - INFO - Not enough profit percent to scalp for BJDX: 1.86543
-2025-10-07 12:07:16,574 - root - WARNING - Skipping COCH: invalid strategy format (None)
-2025-10-07 12:07:16,575 - root - INFO - swing_strategy_close_long for scale 5Min stock COCH
-2025-10-07 12:07:16,623 - root - INFO - Profit percent for COCH is 0
-2025-10-07 12:07:16,623 - root - INFO - Latest 1min close price for COCH: 1.6499
-2025-10-07 12:07:16,723 - root - INFO - No close long conditions met for COCH
-2025-10-07 12:07:31,775 - root - INFO - Real mode: Today's profit so far: 2512.3999749999966
-2025-10-07 12:07:31,794 - root - INFO - Running real_trade for all top movers
-2025-10-07 12:07:31,850 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 12:07:31,974 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
-2025-10-07 12:07:31,994 - root - INFO - latest trade price: 6.7163
-2025-10-07 12:07:32,012 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 12:07:32,062 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
-2025-10-07 12:07:32,084 - root - INFO - latest trade price: 1.685
-2025-10-07 12:07:32,100 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 12:07:32,155 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 12:07:32,176 - root - INFO - 1min candle is not positive for BJDX: open 2.18 close 2.1781
-2025-10-07 12:07:32,198 - root - INFO - latest trade price: 2.1952
-2025-10-07 12:07:32,297 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 12:07:32,351 - root - INFO - Profit percent for BJDX is 1.86543
-2025-10-07 12:07:32,351 - root - INFO - Latest 1min close price for BJDX: 2.1781
-2025-10-07 12:07:32,442 - root - INFO - MACD is still rising for stock BJDX
-2025-10-07 12:07:32,442 - root - INFO - Not enough profit percent to scalp for BJDX: 1.86543
-2025-10-07 12:07:32,472 - root - WARNING - Skipping COCH: invalid strategy format (None)
-2025-10-07 12:07:32,472 - root - INFO - swing_strategy_close_long for scale 5Min stock COCH
-2025-10-07 12:07:32,522 - root - INFO - Profit percent for COCH is 0
-2025-10-07 12:07:32,522 - root - INFO - Latest 1min close price for COCH: 1.6499
-2025-10-07 12:07:32,621 - root - INFO - No close long conditions met for COCH
-2025-10-07 12:07:35,420 - root - INFO - Real mode: Today's profit so far: 2506.429974999999
-2025-10-07 12:07:35,442 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
-2025-10-07 12:07:35,443 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
-2025-10-07 12:07:35,487 - root - INFO -  update_current_price: start time 2025-10-07T12:06:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:07:43,625 - root - INFO -  MACD calculation for APVO due to high change percent: 28.7234
-2025-10-07 12:07:45,361 - root - INFO -  update_current_price: start time 2025-10-07T12:06:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:07:45,962 - root - INFO -  MACD calculation for ASNS due to high change percent: 13.86
-2025-10-07 12:07:46,041 - root - INFO - MACD not positive for ASNS: MACD=0.023131004972325897, Signal=0.032350660224983244, Hist=-0.009219655252657347
-2025-10-07 12:07:47,672 - root - INFO - Real mode: Today's profit so far: 2509.9799749999984
-2025-10-07 12:07:47,692 - root - INFO - Running real_trade for all top movers
-2025-10-07 12:07:47,738 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 12:07:47,858 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 12:07:47,920 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 12:07:47,937 - root - INFO - latest trade price: 6.72
-2025-10-07 12:07:47,945 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 12:07:47,993 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
-2025-10-07 12:07:48,057 - root - INFO - Trend up basic conditions not met for COCH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 12:07:48,073 - root - INFO - latest trade price: 1.69
-2025-10-07 12:07:48,082 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 12:07:48,186 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 12:07:48,229 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-07 12:07:48,229 - root - INFO - BJDX:======= 2.1952===>BUY========>TrendUp586813
-2025-10-07 12:07:48,248 - root - WARNING - ***** stock is already in the positions
-2025-10-07 12:07:48,318 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 12:07:48,374 - root - INFO - Profit percent for BJDX is 1.86543
-2025-10-07 12:07:48,374 - root - INFO - Latest 1min close price for BJDX: 2.1952
-2025-10-07 12:07:48,427 - root - INFO - MACD is still rising for stock BJDX
-2025-10-07 12:07:48,427 - root - INFO - Not enough profit percent to scalp for BJDX: 1.86543
-2025-10-07 12:07:48,439 - root - WARNING - Skipping COCH: invalid strategy format (None)
-2025-10-07 12:07:48,439 - root - INFO - swing_strategy_close_long for scale 5Min stock COCH
-2025-10-07 12:07:48,474 - root - INFO - Profit percent for COCH is 0
-2025-10-07 12:07:48,474 - root - INFO - Latest 1min close price for COCH: 1.6886
-2025-10-07 12:07:48,523 - root - INFO - MACD is still rising for stock COCH
-2025-10-07 12:07:48,523 - root - INFO - Not enough profit percent to scalp for COCH: 0
-2025-10-07 12:07:51,489 - root - INFO -  MACD calculation for BJDX due to high change percent: 42.9032
-2025-10-07 12:07:52,615 - root - INFO -  MACD calculation for BNAI due to high change percent: 50.5059
-2025-10-07 12:07:52,681 - root - INFO - MACD not positive for BNAI: MACD=0.02067618286077655, Signal=0.02605384610721132, Hist=-0.005377663246434773
-2025-10-07 12:07:53,549 - root - INFO -  MACD calculation for BQ due to high change percent: 143.75
-2025-10-07 12:07:53,615 - root - INFO - MACD not positive for BQ: MACD=4.363630234602006, Signal=4.874430033448601, Hist=-0.5107997988465947
-2025-10-07 12:07:53,734 - root - INFO -  update_current_price: start time 2025-10-07T12:06:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:07:57,124 - root - INFO -  MACD calculation for CAPS due to high change percent: 10.9244
-2025-10-07 12:07:57,178 - root - INFO - MACD not positive for CAPS: MACD=0.014490285359908706, Signal=0.017927199523400963, Hist=-0.003436914163492257
-2025-10-07 12:07:58,416 - root - INFO -  MACD calculation for CCTG due to high change percent: 25.8411
-2025-10-07 12:07:58,477 - root - INFO - MACD not positive for CCTG: MACD=0.01416347811936114, Signal=0.027653421069617583, Hist=-0.013489942950256444
-2025-10-07 12:08:00,758 - root - INFO -  MACD calculation for CISS due to high change percent: 77.3756
-2025-10-07 12:08:00,807 - root - INFO - MACD not positive for CISS: MACD=-0.024882052635485596, Signal=-0.004916548921115422, Hist=-0.019965503714370173
-2025-10-07 12:08:02,663 - root - INFO -  update_current_price: start time 2025-10-07T12:07:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:08:03,051 - root - INFO -  MACD calculation for CNTB due to high change percent: 16.875
-2025-10-07 12:08:03,274 - root - INFO -  MACD calculation for COCH due to high change percent: 107.127
-2025-10-07 12:08:03,566 - root - INFO - Real mode: Today's profit so far: 2500.0699749999985
-2025-10-07 12:08:03,595 - root - INFO - Running real_trade for all top movers
-2025-10-07 12:08:03,633 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 12:08:03,748 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 12:08:03,811 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 12:08:03,830 - root - INFO - latest trade price: 6.7188
-2025-10-07 12:08:03,838 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 12:08:03,878 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
-2025-10-07 12:08:03,922 - root - INFO - Trend up basic conditions not met for COCH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 12:08:03,939 - root - INFO - latest trade price: 1.6845
-2025-10-07 12:08:03,947 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 12:08:03,984 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 12:08:04,025 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-07 12:08:04,025 - root - INFO - BJDX:======= 2.1952===>BUY========>TrendUp586813
-2025-10-07 12:08:04,043 - root - WARNING - ***** stock is already in the positions
-2025-10-07 12:08:04,122 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 12:08:04,161 - root - INFO - Profit percent for BJDX is 1.62413
-2025-10-07 12:08:04,161 - root - INFO - Latest 1min close price for BJDX: 2.1952
-2025-10-07 12:08:04,230 - root - INFO - MACD is still rising for stock BJDX
-2025-10-07 12:08:04,230 - root - INFO - Not enough profit percent to scalp for BJDX: 1.62413
-2025-10-07 12:08:04,246 - root - WARNING - Skipping COCH: invalid strategy format (None)
-2025-10-07 12:08:04,247 - root - INFO - swing_strategy_close_long for scale 5Min stock COCH
-2025-10-07 12:08:04,285 - root - INFO - Profit percent for COCH is 0
-2025-10-07 12:08:04,285 - root - INFO - Latest 1min close price for COCH: 1.6886
-2025-10-07 12:08:04,342 - root - INFO - MACD is still rising for stock COCH
-2025-10-07 12:08:04,342 - root - INFO - Not enough profit percent to scalp for COCH: 0
-2025-10-07 12:08:09,759 - root - INFO -  MACD calculation for DVLT due to high change percent: 21.6875
-2025-10-07 12:08:09,840 - root - INFO - MACD not positive for DVLT: MACD=-0.06401083176392985, Signal=-0.058934510013034014, Hist=-0.00507632175089584
-2025-10-07 12:08:10,008 - root - INFO -  update_current_price: start time 2025-10-07T12:07:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:08:10,210 - root - INFO -  MACD calculation for DYN due to high change percent: 10.9486
-2025-10-07 12:08:11,177 - root - INFO -  MACD calculation for EGAN due to high change percent: 13.5496
-2025-10-07 12:08:12,213 - root - INFO -  MACD calculation for ELPW due to high change percent: 10.8287
-2025-10-07 12:08:12,272 - root - INFO - MACD not positive for ELPW: MACD=0.0021448032666848693, Signal=0.0063537979966195035, Hist=-0.004208994729934634
-2025-10-07 12:08:17,567 - root - INFO -  update_current_price: start time 2025-10-07T12:07:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:08:19,385 - root - INFO - Real mode: Today's profit so far: 2493.009974999997
-2025-10-07 12:08:19,406 - root - INFO - Running real_trade for all top movers
-2025-10-07 12:08:19,443 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 12:08:19,564 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 12:08:19,624 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 12:08:19,644 - root - INFO - latest trade price: 6.71
-2025-10-07 12:08:19,654 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 12:08:19,699 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
-2025-10-07 12:08:19,748 - root - INFO - Trend up basic conditions not met for COCH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 12:08:19,766 - root - INFO - latest trade price: 1.685
-2025-10-07 12:08:19,774 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 12:08:19,814 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 12:08:19,859 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-07 12:08:19,860 - root - INFO - BJDX:======= 2.1952===>BUY========>TrendUp586813
-2025-10-07 12:08:19,880 - root - WARNING - ***** stock is already in the positions
-2025-10-07 12:08:19,964 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 12:08:20,003 - root - INFO - Profit percent for BJDX is 0.928074
-2025-10-07 12:08:20,004 - root - INFO - Latest 1min close price for BJDX: 2.1952
-2025-10-07 12:08:20,066 - root - INFO - MACD is still rising for stock BJDX
-2025-10-07 12:08:20,066 - root - INFO - Not enough profit percent to scalp for BJDX: 0.928074
-2025-10-07 12:08:20,083 - root - WARNING - Skipping COCH: invalid strategy format (None)
-2025-10-07 12:08:20,083 - root - INFO - swing_strategy_close_long for scale 5Min stock COCH
-2025-10-07 12:08:20,124 - root - INFO - Profit percent for COCH is 0
-2025-10-07 12:08:20,124 - root - INFO - Latest 1min close price for COCH: 1.6886
-2025-10-07 12:08:20,182 - root - INFO - MACD is still rising for stock COCH
-2025-10-07 12:08:20,182 - root - INFO - Not enough profit percent to scalp for COCH: 0
-2025-10-07 12:08:21,422 - root - INFO -  MACD calculation for GLTO due to high change percent: 679.35
-2025-10-07 12:08:24,384 - root - INFO -  update_current_price: start time 2025-10-07T12:07:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:08:28,163 - root - INFO -  MACD calculation for HYLN due to high change percent: 10.628
-2025-10-07 12:08:28,226 - root - INFO - MACD not positive for HYLN: MACD=-0.011040406020919491, Signal=0.0012972592604098237, Hist=-0.012337665281329315
-2025-10-07 12:08:31,722 - root - INFO -  update_current_price: start time 2025-10-07T12:07:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:08:31,999 - root - INFO -  MACD calculation for ITRM due to high change percent: 15.8571
-2025-10-07 12:08:32,057 - root - INFO - MACD not positive for ITRM: MACD=0.013425671502846015, Signal=0.015140314916128796, Hist=-0.0017146434132827813
-2025-10-07 12:08:34,433 - root - INFO -  MACD calculation for KLTO due to high change percent: 10.0962
-2025-10-07 12:08:34,499 - root - INFO - MACD not positive for KLTO: MACD=0.004886481098830053, Signal=0.006344601540203724, Hist=-0.0014581204413736705
-2025-10-07 12:08:35,216 - root - INFO - Real mode: Today's profit so far: 2485.509974999997
-2025-10-07 12:08:35,237 - root - INFO - Running real_trade for all top movers
-2025-10-07 12:08:35,274 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 12:08:35,393 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 12:08:35,409 - root - INFO - 1min candle is not positive for TMQ: open 6.7299 close 6.72
-2025-10-07 12:08:35,430 - root - INFO - latest trade price: 6.7145
-2025-10-07 12:08:35,439 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 12:08:35,481 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
-2025-10-07 12:08:35,528 - root - INFO - Trend up basic conditions not met for COCH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 12:08:35,547 - root - INFO - latest trade price: 1.68
-2025-10-07 12:08:35,556 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 12:08:35,598 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 12:08:35,612 - root - INFO - 1min candle is not positive for BJDX: open 2.19 close 2.155
-2025-10-07 12:08:35,632 - root - INFO - latest trade price: 2.15
-2025-10-07 12:08:35,715 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 12:08:35,754 - root - INFO - Profit percent for BJDX is -0.227378
-2025-10-07 12:08:35,754 - root - INFO - Latest 1min close price for BJDX: 2.155
-2025-10-07 12:08:35,800 - root - INFO -  MACD calculation for KZIA due to high change percent: 12.8481
-2025-10-07 12:08:35,818 - root - INFO - MACD is still rising for stock BJDX
-2025-10-07 12:08:35,818 - root - INFO - Not enough profit percent to scalp for BJDX: -0.227378
-2025-10-07 12:08:35,829 - root - INFO - MACD not positive for KZIA: MACD=0.12106764804418724, Signal=0.1578793614801347, Hist=-0.03681171343594747
-2025-10-07 12:08:35,830 - root - WARNING - Skipping COCH: invalid strategy format (None)
-2025-10-07 12:08:35,830 - root - INFO - swing_strategy_close_long for scale 5Min stock COCH
-2025-10-07 12:08:35,870 - root - INFO - Profit percent for COCH is 0
-2025-10-07 12:08:35,870 - root - INFO - Latest 1min close price for COCH: 1.685
-2025-10-07 12:08:35,928 - root - INFO - MACD is still rising for stock COCH
-2025-10-07 12:08:35,928 - root - INFO - Not enough profit percent to scalp for COCH: 0
-2025-10-07 12:08:35,997 - root - INFO -  MACD calculation for LAR due to high change percent: 13.009
-2025-10-07 12:08:36,071 - root - INFO - MACD not positive for LAR: MACD=-0.00926811831503116, Signal=0.0013463387275402295, Hist=-0.01061445704257139
-2025-10-07 12:08:38,739 - root - INFO -  update_current_price: start time 2025-10-07T12:07:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:08:39,210 - root - INFO -  MACD calculation for LXEO due to high change percent: 28.1298
-2025-10-07 12:08:39,279 - root - INFO - MACD not positive for LXEO: MACD=0.0036246529563292995, Signal=0.007838687154100119, Hist=-0.004214034197770819
-2025-10-07 12:08:46,178 - root - INFO -  MACD calculation for MYO due to high change percent: 10.4069
-2025-10-07 12:08:46,554 - root - INFO -  MACD calculation for NAK due to high change percent: 18.8411
-2025-10-07 12:08:46,933 - root - INFO -  update_current_price: start time 2025-10-07T12:07:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:08:47,326 - root - INFO -  MACD calculation for NCNA due to high change percent: 13.7795
-2025-10-07 12:08:47,391 - root - INFO - MACD not positive for NCNA: MACD=0.11341999791630109, Signal=0.13210288297094264, Hist=-0.01868288505464155
-2025-10-07 12:08:50,675 - root - INFO -  MACD calculation for NRXP due to high change percent: 10.7463
-2025-10-07 12:08:50,734 - root - INFO - MACD not positive for NRXP: MACD=0.04955230606732064, Signal=0.05961886424293308, Hist=-0.010066558175612438
-2025-10-07 12:08:50,960 - root - INFO - Real mode: Today's profit so far: 2509.9799749999984
-2025-10-07 12:08:50,979 - root - INFO - Running real_trade for all top movers
-2025-10-07 12:08:51,029 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 12:08:51,157 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 12:08:51,175 - root - INFO - 1min candle is not positive for TMQ: open 6.7299 close 6.72
-2025-10-07 12:08:51,195 - root - INFO - latest trade price: 6.735
-2025-10-07 12:08:51,205 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 12:08:51,249 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
-2025-10-07 12:08:51,298 - root - INFO - Trend up basic conditions not met for COCH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 12:08:51,322 - root - INFO - latest trade price: 1.69
-2025-10-07 12:08:51,331 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 12:08:51,376 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 12:08:51,392 - root - INFO - 1min candle is not positive for BJDX: open 2.19 close 2.155
-2025-10-07 12:08:51,411 - root - INFO - latest trade price: 2.19
-2025-10-07 12:08:51,495 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 12:08:51,540 - root - INFO - Profit percent for BJDX is -0.232019
-2025-10-07 12:08:51,540 - root - INFO - Latest 1min close price for BJDX: 2.155
-2025-10-07 12:08:51,605 - root - INFO - MACD is still rising for stock BJDX
-2025-10-07 12:08:51,605 - root - INFO - Not enough profit percent to scalp for BJDX: -0.232019
-2025-10-07 12:08:51,619 - root - WARNING - Skipping COCH: invalid strategy format (None)
-2025-10-07 12:08:51,619 - root - INFO - swing_strategy_close_long for scale 5Min stock COCH
-2025-10-07 12:08:51,656 - root - INFO - Profit percent for COCH is 0
-2025-10-07 12:08:51,656 - root - INFO - Latest 1min close price for COCH: 1.685
-2025-10-07 12:08:51,712 - root - INFO - MACD is still rising for stock COCH
-2025-10-07 12:08:51,712 - root - INFO - Not enough profit percent to scalp for COCH: 0
-2025-10-07 12:08:52,082 - root - INFO -  MACD calculation for NXXT due to high change percent: 21.256
-2025-10-07 12:08:52,145 - root - INFO - MACD not positive for NXXT: MACD=0.009414294455373451, Signal=0.016218271305735433, Hist=-0.006803976850361982
-2025-10-07 12:08:54,898 - root - INFO -  update_current_price: start time 2025-10-07T12:07:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:09:03,864 - root - INFO -  MACD calculation for QMCO due to high change percent: 10.6633
-2025-10-07 12:09:03,948 - root - INFO - MACD not positive for QMCO: MACD=-0.08976590714047816, Signal=-0.050211628507811745, Hist=-0.03955427863266642
-2025-10-07 12:09:04,484 - root - INFO -  update_current_price: start time 2025-10-07T12:08:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:09:05,356 - root - INFO -  MACD calculation for REKR due to high change percent: 16.2983
-2025-10-07 12:09:05,428 - root - INFO - MACD not positive for REKR: MACD=-0.017442271781042518, Signal=-0.012805822544290319, Hist=-0.0046364492367521985
-2025-10-07 12:09:06,761 - root - INFO - Real mode: Today's profit so far: 2485.2299749999984
-2025-10-07 12:09:06,782 - root - INFO - Running real_trade for all top movers
-2025-10-07 12:09:06,824 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 12:09:06,943 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 12:09:06,961 - root - INFO - 1min candle is not positive for TMQ: open 6.7299 close 6.72
-2025-10-07 12:09:06,982 - root - INFO - latest trade price: 6.75
-2025-10-07 12:09:06,990 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 12:09:07,029 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
-2025-10-07 12:09:07,075 - root - INFO - Trend up basic conditions not met for COCH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 12:09:07,093 - root - INFO - latest trade price: 1.6587
-2025-10-07 12:09:07,102 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 12:09:07,148 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 12:09:07,164 - root - INFO - 1min candle is not positive for BJDX: open 2.19 close 2.155
-2025-10-07 12:09:07,184 - root - INFO - latest trade price: 2.175
-2025-10-07 12:09:07,269 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 12:09:07,309 - root - INFO - Profit percent for BJDX is 1.62413
-2025-10-07 12:09:07,309 - root - INFO - Latest 1min close price for BJDX: 2.155
-2025-10-07 12:09:07,363 - root - INFO - MACD is still rising for stock BJDX
-2025-10-07 12:09:07,363 - root - INFO - Not enough profit percent to scalp for BJDX: 1.62413
-2025-10-07 12:09:07,375 - root - WARNING - Skipping COCH: invalid strategy format (None)
-2025-10-07 12:09:07,375 - root - INFO - swing_strategy_close_long for scale 5Min stock COCH
-2025-10-07 12:09:07,416 - root - INFO - Profit percent for COCH is 0
-2025-10-07 12:09:07,416 - root - INFO - Latest 1min close price for COCH: 1.685
-2025-10-07 12:09:07,450 - root - INFO -  MACD calculation for RVSN due to high change percent: 28.6439
-2025-10-07 12:09:07,480 - root - INFO - MACD is still rising for stock COCH
-2025-10-07 12:09:07,481 - root - INFO - Not enough profit percent to scalp for COCH: 0
-2025-10-07 12:09:10,827 - root - INFO -  update_current_price: start time 2025-10-07T12:08:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:09:12,855 - root - INFO -  MACD calculation for SMX due to high change percent: 10.561
-2025-10-07 12:09:13,448 - root - INFO -  MACD calculation for SNGX due to high change percent: 18.2482
-2025-10-07 12:09:13,516 - root - INFO - MACD not positive for SNGX: MACD=0.005906562307702368, Signal=0.0066678327695855865, Hist=-0.0007612704618832188
-2025-10-07 12:09:17,690 - root - INFO -  MACD calculation for TELO due to high change percent: 23.5915
-2025-10-07 12:09:17,759 - root - INFO - MACD not positive for TELO: MACD=0.009368919288681443, Signal=0.013554686866038276, Hist=-0.0041857675773568324
-2025-10-07 12:09:17,897 - root - INFO -  update_current_price: start time 2025-10-07T12:08:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:09:19,051 - root - INFO -  MACD calculation for TMC due to high change percent: 14.8964
-2025-10-07 12:09:19,115 - root - INFO - MACD not positive for TMC: MACD=0.08211363787574477, Signal=0.10913576568186703, Hist=-0.02702212780612226
-2025-10-07 12:09:19,180 - root - INFO -  MACD calculation for TMCWW due to high change percent: 30.719
-2025-10-07 12:09:19,212 - root - INFO - MACD not positive for TMCWW: MACD=0.04953165423788031, Signal=0.061837749569357246, Hist=-0.01230609533147694
-2025-10-07 12:09:19,285 - root - INFO -  MACD calculation for TMQ due to high change percent: 221.292
-2025-10-07 12:09:21,097 - root - INFO -  MACD calculation for UAMY due to high change percent: 10.2596
-2025-10-07 12:09:21,168 - root - INFO - MACD not positive for UAMY: MACD=0.01993037148689325, Signal=0.024300104485547043, Hist=-0.004369732998653793
-2025-10-07 12:09:21,668 - root - INFO -  MACD calculation for ULY due to high change percent: 22.4359
-2025-10-07 12:09:22,167 - root - INFO -  MACD calculation for UPC due to high change percent: 13.9241
-2025-10-07 12:09:22,521 - root - INFO - Real mode: Today's profit so far: 2503.8999749999966
-2025-10-07 12:09:22,541 - root - INFO - Running real_trade for all top movers
-2025-10-07 12:09:22,581 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 12:09:22,621 - root - INFO -  MACD calculation for USARW due to high change percent: 18.3084
-2025-10-07 12:09:22,668 - root - INFO - MACD not positive for USARW: MACD=-0.041420645478819296, Signal=0.07089499970859778, Hist=-0.11231564518741707
-2025-10-07 12:09:22,698 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 12:09:22,718 - root - INFO - 1min candle is not positive for TMQ: open 6.7299 close 6.72
-2025-10-07 12:09:22,743 - root - INFO - latest trade price: 6.7412
-2025-10-07 12:09:22,753 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 12:09:22,806 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
-2025-10-07 12:09:22,867 - root - INFO - Trend up basic conditions not met for COCH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 12:09:22,887 - root - INFO - latest trade price: 1.6797
-2025-10-07 12:09:22,897 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 12:09:22,942 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 12:09:22,958 - root - INFO - 1min candle is not positive for BJDX: open 2.19 close 2.155
-2025-10-07 12:09:22,976 - root - INFO - latest trade price: 2.19
-2025-10-07 12:09:23,062 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 12:09:23,100 - root - INFO - Profit percent for BJDX is 0.928074
-2025-10-07 12:09:23,100 - root - INFO - Latest 1min close price for BJDX: 2.155
-2025-10-07 12:09:23,171 - root - INFO - MACD is still rising for stock BJDX
-2025-10-07 12:09:23,171 - root - INFO - Not enough profit percent to scalp for BJDX: 0.928074
-2025-10-07 12:09:23,187 - root - WARNING - Skipping COCH: invalid strategy format (None)
-2025-10-07 12:09:23,188 - root - INFO - swing_strategy_close_long for scale 5Min stock COCH
-2025-10-07 12:09:23,231 - root - INFO - Profit percent for COCH is 0
-2025-10-07 12:09:23,231 - root - INFO - Latest 1min close price for COCH: 1.685
-2025-10-07 12:09:23,299 - root - INFO - MACD is still rising for stock COCH
-2025-10-07 12:09:23,299 - root - INFO - Not enough profit percent to scalp for COCH: 0
-2025-10-07 12:09:24,767 - root - INFO -  update_current_price: start time 2025-10-07T12:08:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 12:09:28,827 - root - INFO -  MACD calculation for YCBD due to high change percent: 12.3077
-2025-10-07 12:09:28,900 - root - INFO - MACD not positive for YCBD: MACD=0.014733561931706607, Signal=0.021067531749380187, Hist=-0.00633396981767358
-2025-10-07 12:09:31,213 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-07 12:09:38,343 - root - INFO - Real mode: Today's profit so far: 2522.0999749999974
-2025-10-07 12:09:38,368 - root - INFO - Running real_trade for all top movers
-2025-10-07 12:09:38,417 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 12:09:38,562 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 12:09:38,627 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 12:09:38,649 - root - INFO - latest trade price: 6.765
-2025-10-07 12:09:38,662 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 12:09:38,713 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
-2025-10-07 12:09:38,744 - root - INFO - 1min candle is not positive for COCH: open 1.68 close 1.6788
-2025-10-07 12:09:38,763 - root - INFO - latest trade price: 1.6791
-2025-10-07 12:09:38,779 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 12:09:38,859 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-07 12:09:38,880 - root - INFO - latest trade price: 2.23
-2025-10-07 12:09:38,992 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 12:09:39,067 - root - INFO - Profit percent for BJDX is 1.62413
-2025-10-07 12:09:39,068 - root - INFO - Latest 1min close price for BJDX: 2.1999
-2025-10-07 12:09:39,183 - root - INFO - MACD is still rising for stock BJDX
-2025-10-07 12:09:39,183 - root - INFO - Not enough profit percent to scalp for BJDX: 1.62413
-2025-10-07 12:09:39,215 - root - WARNING - Skipping COCH: invalid strategy format (None)
-2025-10-07 12:09:39,215 - root - INFO - swing_strategy_close_long for scale 5Min stock COCH
-2025-10-07 12:09:39,278 - root - INFO - Profit percent for COCH is 0
-2025-10-07 12:09:39,278 - root - INFO - Latest 1min close price for COCH: 1.6788
-2025-10-07 12:09:39,372 - root - INFO - MACD is still rising for stock COCH
-2025-10-07 12:09:39,372 - root - INFO - Not enough profit percent to scalp for COCH: 0
-2025-10-07 12:09:54,426 - root - INFO - Real mode: Today's profit so far: 2501.129975
-2025-10-07 12:09:54,451 - root - INFO - Running real_trade for all top movers
-2025-10-07 12:09:54,503 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 12:09:54,637 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 12:09:54,718 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 12:09:54,740 - root - INFO - latest trade price: 6.7045
-2025-10-07 12:09:54,758 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 12:09:54,813 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
-2025-10-07 12:09:54,836 - root - INFO - 1min candle is not positive for COCH: open 1.68 close 1.6788
-2025-10-07 12:09:54,857 - root - INFO - latest trade price: 1.6711
-2025-10-07 12:09:54,872 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 12:09:54,930 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-07 12:09:54,951 - root - INFO - latest trade price: 2.195
-2025-10-07 12:09:55,056 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 12:09:55,115 - root - INFO - Profit percent for BJDX is 3.48028
-2025-10-07 12:09:55,115 - root - INFO - Latest 1min close price for BJDX: 2.1999
-2025-10-07 12:09:55,228 - root - INFO - MACD is still rising for stock BJDX
-2025-10-07 12:09:55,228 - root - INFO - Not enough profit percent to scalp for BJDX: 3.48028
-2025-10-07 12:09:55,262 - root - WARNING - Skipping COCH: invalid strategy format (None)
-2025-10-07 12:09:55,262 - root - INFO - swing_strategy_close_long for scale 5Min stock COCH
-2025-10-07 12:09:55,313 - root - INFO - Profit percent for COCH is 0
-2025-10-07 12:09:55,313 - root - INFO - Latest 1min close price for COCH: 1.6788
-2025-10-07 12:09:55,413 - root - INFO - MACD is still rising for stock COCH
-2025-10-07 12:09:55,413 - root - INFO - Not enough profit percent to scalp for COCH: 0
-2025-10-07 12:10:10,461 - root - INFO - Real mode: Today's profit so far: 2507.0299749999976
-2025-10-07 12:10:10,489 - root - INFO - Running real_trade for all top movers
-2025-10-07 12:10:10,541 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 12:10:10,670 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 12:10:10,737 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 12:10:10,759 - root - INFO - latest trade price: 6.67
-2025-10-07 12:10:10,773 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 12:10:10,826 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
-2025-10-07 12:10:10,849 - root - INFO - 1min candle is not positive for COCH: open 1.68 close 1.6788
-2025-10-07 12:10:10,868 - root - INFO - latest trade price: 1.685
-2025-10-07 12:10:10,885 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 12:10:10,945 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-07 12:10:10,965 - root - INFO - latest trade price: 2.19
-2025-10-07 12:10:11,074 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 12:10:11,127 - root - INFO - Profit percent for BJDX is 1.85615
-2025-10-07 12:10:11,127 - root - INFO - Latest 1min close price for BJDX: 2.1999
-2025-10-07 12:10:11,221 - root - INFO - MACD is still rising for stock BJDX
-2025-10-07 12:10:11,221 - root - INFO - Not enough profit percent to scalp for BJDX: 1.85615
-2025-10-07 12:10:11,248 - root - WARNING - Skipping COCH: invalid strategy format (None)
-2025-10-07 12:10:11,248 - root - INFO - swing_strategy_close_long for scale 5Min stock COCH
-2025-10-07 12:10:11,296 - root - INFO - Profit percent for COCH is 0
-2025-10-07 12:10:11,296 - root - INFO - Latest 1min close price for COCH: 1.6788
-2025-10-07 12:10:11,390 - root - INFO - MACD is still rising for stock COCH
-2025-10-07 12:10:11,391 - root - INFO - Not enough profit percent to scalp for COCH: 0
-2025-10-07 12:10:26,435 - root - INFO - Real mode: Today's profit so far: 2500.1399749999982
-2025-10-07 12:10:26,495 - root - INFO - Running real_trade for all top movers
-2025-10-07 12:10:26,539 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 12:10:26,678 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 12:10:26,752 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 12:10:26,777 - root - INFO - latest trade price: 6.695
-2025-10-07 12:10:26,791 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 12:10:26,850 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
-2025-10-07 12:10:26,874 - root - INFO - 1min candle is not positive for COCH: open 1.68 close 1.6788
-2025-10-07 12:10:26,898 - root - INFO - latest trade price: 1.68
-2025-10-07 12:10:26,910 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 12:10:26,962 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-07 12:10:26,983 - root - INFO - latest trade price: 2.18
-2025-10-07 12:10:27,085 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 12:10:27,144 - root - INFO - Profit percent for BJDX is 1.62413
-2025-10-07 12:10:27,144 - root - INFO - Latest 1min close price for BJDX: 2.1999
-2025-10-07 12:10:27,231 - root - INFO - MACD is still rising for stock BJDX
-2025-10-07 12:10:27,231 - root - INFO - Not enough profit percent to scalp for BJDX: 1.62413
-2025-10-07 12:10:27,263 - root - WARNING - Skipping COCH: invalid strategy format (None)
-2025-10-07 12:10:27,264 - root - INFO - swing_strategy_close_long for scale 5Min stock COCH
-2025-10-07 12:10:27,313 - root - INFO - Profit percent for COCH is 0
-2025-10-07 12:10:27,313 - root - INFO - Latest 1min close price for COCH: 1.6788
-2025-10-07 12:10:27,402 - root - INFO - MACD is still rising for stock COCH
-2025-10-07 12:10:27,402 - root - INFO - Not enough profit percent to scalp for COCH: 0
+2025-10-07 12:12:17,549 - root - INFO - Profit percent for COCH is 0
+2025-10-07 12:12:17,549 - root - INFO - Latest 1min close price for COCH: 1.645
+2025-10-07 12:12:17,610 - root - INFO - No close long conditions met for COCH
+2025-10-07 12:12:18,176 - root - INFO -  MACD calculation for YJ due to high change percent: 12.6904
+2025-10-07 12:12:20,171 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-07 12:12:32,654 - root - INFO - Real mode: Today's profit so far: 2492.249974999999
+2025-10-07 12:12:32,675 - root - INFO - Running real_trade for all top movers
+2025-10-07 12:12:32,726 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 12:12:32,851 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 12:12:32,872 - root - INFO - latest trade price: 6.695
+2025-10-07 12:12:32,888 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 12:12:33,011 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
+2025-10-07 12:12:33,031 - root - INFO - 1min candle is not positive for COCH: open 1.6812 close 1.645
+2025-10-07 12:12:33,050 - root - INFO - latest trade price: 1.66
+2025-10-07 12:12:33,058 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 12:12:33,100 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 12:12:33,121 - root - INFO - latest trade price: 2.19
+2025-10-07 12:12:33,215 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 12:12:33,265 - root - INFO - Profit percent for BJDX is 0.464037
+2025-10-07 12:12:33,265 - root - INFO - Latest 1min close price for BJDX: 2.19
+2025-10-07 12:12:33,364 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 12:12:33,364 - root - INFO - Not enough profit percent to scalp for BJDX: 0.464037
+2025-10-07 12:12:33,389 - root - WARNING - Skipping COCH: invalid strategy format (None)
+2025-10-07 12:12:33,389 - root - INFO - swing_strategy_close_long for scale 5Min stock COCH
+2025-10-07 12:12:33,438 - root - INFO - Profit percent for COCH is 0
+2025-10-07 12:12:33,438 - root - INFO - Latest 1min close price for COCH: 1.66
+2025-10-07 12:12:33,548 - root - INFO - No close long conditions met for COCH
+2025-10-07 12:12:48,598 - root - INFO - Real mode: Today's profit so far: 2491.629975
+2025-10-07 12:12:48,620 - root - INFO - Running real_trade for all top movers
+2025-10-07 12:12:48,669 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 12:12:48,789 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 12:12:48,811 - root - INFO - latest trade price: 6.66
+2025-10-07 12:12:48,827 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 12:12:48,875 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
+2025-10-07 12:12:48,894 - root - INFO - latest trade price: 1.6511
+2025-10-07 12:12:48,909 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 12:12:48,958 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 12:12:48,980 - root - INFO - latest trade price: 2.2
+2025-10-07 12:12:49,079 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 12:12:49,125 - root - INFO - Profit percent for BJDX is 1.62413
+2025-10-07 12:12:49,126 - root - INFO - Latest 1min close price for BJDX: 2.19
+2025-10-07 12:12:49,209 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 12:12:49,209 - root - INFO - Not enough profit percent to scalp for BJDX: 1.62413
+2025-10-07 12:12:49,235 - root - WARNING - Skipping COCH: invalid strategy format (None)
+2025-10-07 12:12:49,236 - root - INFO - swing_strategy_close_long for scale 5Min stock COCH
+2025-10-07 12:12:49,281 - root - INFO - Profit percent for COCH is 0
+2025-10-07 12:12:49,282 - root - INFO - Latest 1min close price for COCH: 1.66
+2025-10-07 12:12:49,372 - root - INFO - No close long conditions met for COCH
+2025-10-07 12:13:04,420 - root - INFO - Real mode: Today's profit so far: 2477.8499749999974
+2025-10-07 12:13:04,440 - root - INFO - Running real_trade for all top movers
+2025-10-07 12:13:04,492 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 12:13:04,628 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 12:13:04,648 - root - INFO - latest trade price: 6.675
+2025-10-07 12:13:04,664 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 12:13:04,723 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
+2025-10-07 12:13:04,744 - root - INFO - latest trade price: 1.6317
+2025-10-07 12:13:04,758 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 12:13:04,808 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 12:13:04,834 - root - INFO - latest trade price: 2.195
+2025-10-07 12:13:04,941 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 12:13:04,992 - root - INFO - Profit percent for BJDX is 2.08817
+2025-10-07 12:13:04,992 - root - INFO - Latest 1min close price for BJDX: 2.19
+2025-10-07 12:13:05,089 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 12:13:05,089 - root - INFO - Not enough profit percent to scalp for BJDX: 2.08817
+2025-10-07 12:13:05,119 - root - WARNING - Skipping COCH: invalid strategy format (None)
+2025-10-07 12:13:05,120 - root - INFO - swing_strategy_close_long for scale 5Min stock COCH
+2025-10-07 12:13:05,171 - root - INFO - Profit percent for COCH is 0
+2025-10-07 12:13:05,171 - root - INFO - Latest 1min close price for COCH: 1.66
+2025-10-07 12:13:05,273 - root - INFO - No close long conditions met for COCH
+2025-10-07 12:13:20,246 - root - INFO - Real mode: Today's profit so far: 2481.169974999997
+2025-10-07 12:13:20,274 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
+2025-10-07 12:13:20,275 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
+2025-10-07 12:13:20,316 - root - INFO -  update_current_price: start time 2025-10-07T12:12:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 12:13:20,329 - root - INFO - Real mode: Today's profit so far: 2481.169974999997
+2025-10-07 12:13:20,346 - root - INFO - Running real_trade for all top movers
+2025-10-07 12:13:20,392 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 12:13:20,499 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 12:13:20,519 - root - INFO - latest trade price: 6.65
+2025-10-07 12:13:20,528 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 12:13:20,567 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
+2025-10-07 12:13:20,584 - root - INFO - latest trade price: 1.6491
+2025-10-07 12:13:20,593 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 12:13:20,635 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 12:13:20,653 - root - INFO - latest trade price: 2.18
+2025-10-07 12:13:20,735 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 12:13:20,774 - root - INFO - Profit percent for BJDX is 1.85615
+2025-10-07 12:13:20,774 - root - INFO - Latest 1min close price for BJDX: 2.19
+2025-10-07 12:13:20,840 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 12:13:20,840 - root - INFO - Not enough profit percent to scalp for BJDX: 1.85615
+2025-10-07 12:13:20,857 - root - WARNING - Skipping COCH: invalid strategy format (None)
+2025-10-07 12:13:20,857 - root - INFO - swing_strategy_close_long for scale 5Min stock COCH
+2025-10-07 12:13:20,901 - root - INFO - Profit percent for COCH is 0
+2025-10-07 12:13:20,901 - root - INFO - Latest 1min close price for COCH: 1.66
+2025-10-07 12:13:20,957 - root - INFO - No close long conditions met for COCH
+2025-10-07 12:13:24,863 - root - INFO -  MACD calculation for AMBI due to high change percent: 12.5
+2025-10-07 12:13:24,927 - root - INFO - MACD not positive for AMBI: MACD=0.020550164435156892, Signal=0.03179848660522375, Hist=-0.011248322170066855
+2025-10-07 12:13:26,560 - root - INFO -  MACD calculation for APVO due to high change percent: 28.3688
+2025-10-07 12:13:27,978 - root - INFO -  update_current_price: start time 2025-10-07T12:12:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 12:13:32,891 - root - INFO -  MACD calculation for BJDX due to high change percent: 40.6452
+2025-10-07 12:13:33,679 - root - INFO -  MACD calculation for BNAI due to high change percent: 55.0486
+2025-10-07 12:13:34,278 - root - INFO -  MACD calculation for BQ due to high change percent: 109.499
+2025-10-07 12:13:34,348 - root - INFO - MACD not positive for BQ: MACD=3.710625161447993, Signal=4.628010802638223, Hist=-0.9173856411902301
+2025-10-07 12:13:34,350 - root - INFO -  update_current_price: start time 2025-10-07T12:12:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 12:13:36,004 - root - INFO - Real mode: Today's profit so far: 2480.489974999997
+2025-10-07 12:13:36,025 - root - INFO - Running real_trade for all top movers
+2025-10-07 12:13:36,067 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 12:13:36,192 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 12:13:36,213 - root - INFO - latest trade price: 6.69
+2025-10-07 12:13:36,221 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 12:13:36,262 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
+2025-10-07 12:13:36,282 - root - INFO - latest trade price: 1.65
+2025-10-07 12:13:36,291 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
+2025-10-07 12:13:36,464 - root - INFO - Last 5 minutes maximum volume candle is green for BNAI
+2025-10-07 12:13:36,533 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 12:13:36,534 - root - INFO - BNAI:======= 0.8059===>BUY========>TrendUp10018301
+2025-10-07 12:13:36,633 - root - CRITICAL - BNAI  1234 buy
+2025-10-07 12:13:36,676 - root - INFO - Placed BUY order for BNAI, qty: 1234, price: 0.81, success: True
+2025-10-07 12:13:36,677 - root - INFO - Trade successfully COMPLETED for BNAI
+2025-10-07 12:13:36,677 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 12:13:36,723 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 12:13:36,745 - root - INFO - latest trade price: 2.19
+2025-10-07 12:13:36,825 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 12:13:36,871 - root - INFO - Profit percent for BJDX is 1.16009
+2025-10-07 12:13:36,871 - root - INFO - Latest 1min close price for BJDX: 2.19
+2025-10-07 12:13:36,943 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 12:13:36,943 - root - INFO - Not enough profit percent to scalp for BJDX: 1.16009
+2025-10-07 12:13:36,958 - root - INFO - swing_strategy_close_long for scale 5Min stock BNAI
+2025-10-07 12:13:37,118 - root - INFO -  MACD calculation for CAPS due to high change percent: 10.0924
+2025-10-07 12:13:37,152 - root - INFO - Profit percent for BNAI is 0
+2025-10-07 12:13:37,153 - root - INFO - Latest 1min close price for BNAI: 0.8059
+2025-10-07 12:13:37,167 - root - INFO - MACD not positive for CAPS: MACD=0.012865308573666301, Signal=0.016978638997271676, Hist=-0.004113330423605375
+2025-10-07 12:13:37,173 - root - INFO - High price DETECTED for BNAI is 0.0 and setting no_scalp to True
+2025-10-07 12:13:37,194 - root - WARNING - Skipping COCH: invalid strategy format (None)
+2025-10-07 12:13:37,194 - root - INFO - swing_strategy_close_long for scale 5Min stock COCH
+2025-10-07 12:13:37,211 - root - INFO -  MACD calculation for CAPT due to high change percent: 14.8775
+2025-10-07 12:13:37,263 - root - INFO - MACD not positive for CAPT: MACD=0.015497847252570862, Signal=0.018143651460939984, Hist=-0.002645804208369122
+2025-10-07 12:13:37,271 - root - INFO - Profit percent for COCH is 0
+2025-10-07 12:13:37,272 - root - INFO - Latest 1min close price for COCH: 1.6402
+2025-10-07 12:13:37,344 - root - INFO - Closing TrendUp long: price below EMAs or MACD below signal{price_below_emas=True, macd_below_signal=False}
+2025-10-07 12:13:37,344 - root - INFO - COCH:====== 1.6402=========>SELL========>TrendUpExit
+2025-10-07 12:13:37,344 - root - INFO - ******************** CLOSE by SOLD stock:COCH
+2025-10-07 12:13:37,395 - root - CRITICAL - COCH  591 sell
+2025-10-07 12:13:38,078 - root - INFO -  MACD calculation for CCTG due to high change percent: 27.1656
+2025-10-07 12:13:38,145 - root - INFO - MACD not positive for CCTG: MACD=0.013410756681978109, Signal=0.02495294517214664, Hist=-0.011542188490168533
+2025-10-07 12:13:40,673 - root - INFO -  MACD calculation for CISS due to high change percent: 78.009
+2025-10-07 12:13:40,722 - root - INFO - MACD not positive for CISS: MACD=-0.01887976586445239, Signal=-0.007460303420893931, Hist=-0.011419462443558459
+2025-10-07 12:13:42,421 - root - INFO -  update_current_price: start time 2025-10-07T12:12:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 12:13:42,908 - root - INFO -  MACD calculation for CNTB due to high change percent: 16.875
+2025-10-07 12:13:43,028 - root - INFO -  MACD calculation for COCH due to high change percent: 109.346
+2025-10-07 12:13:48,815 - root - INFO -  MACD calculation for DGNX due to high change percent: 10.8359
+2025-10-07 12:13:48,884 - root - INFO - MACD not positive for DGNX: MACD=-0.34004518815611817, Signal=-0.1898916390666459, Hist=-0.15015354908947226
+2025-10-07 12:13:51,083 - root - INFO -  MACD calculation for DVLT due to high change percent: 22.0673
+2025-10-07 12:13:51,532 - root - INFO -  update_current_price: start time 2025-10-07T12:12:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 12:13:51,740 - root - INFO -  MACD calculation for DYN due to high change percent: 10.2767
+2025-10-07 12:13:51,784 - root - INFO - MACD not positive for DYN: MACD=0.18190767331345192, Signal=0.19315249498292975, Hist=-0.011244821669477822
+2025-10-07 12:13:52,496 - root - INFO - Real mode: Today's profit so far: 2482.619974999998
+2025-10-07 12:13:52,514 - root - INFO - Running real_trade for all top movers
+2025-10-07 12:13:52,552 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 12:13:52,648 - root - INFO -  MACD calculation for EDUC due to high change percent: 10.7842
+2025-10-07 12:13:52,668 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 12:13:52,674 - root - INFO - MACD not positive for EDUC: MACD=0.024053846275760682, Signal=0.02733659519150779, Hist=-0.0032827489157471086
+2025-10-07 12:13:52,688 - root - INFO - latest trade price: 6.685
+2025-10-07 12:13:52,698 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 12:13:52,741 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
+2025-10-07 12:13:52,760 - root - INFO - latest trade price: 1.65
+2025-10-07 12:13:52,770 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
+2025-10-07 12:13:52,916 - root - INFO -  MACD calculation for EGAN due to high change percent: 12.834
+2025-10-07 12:13:52,934 - root - INFO - Last 5 minutes maximum volume candle is green for BNAI
+2025-10-07 12:13:52,963 - root - INFO - MACD not positive for EGAN: MACD=0.19648399458276522, Signal=0.19895300677839298, Hist=-0.0024690121956277566
+2025-10-07 12:13:53,017 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 12:13:53,017 - root - INFO - BNAI:======= 0.8059===>BUY========>TrendUp10018301
+2025-10-07 12:13:53,038 - root - WARNING - ***** stock is already in the positions
+2025-10-07 12:13:53,038 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 12:13:53,083 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 12:13:53,101 - root - INFO - latest trade price: 2.1808
+2025-10-07 12:13:53,190 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 12:13:53,233 - root - INFO - Profit percent for BJDX is 1.62413
+2025-10-07 12:13:53,233 - root - INFO - Latest 1min close price for BJDX: 2.19
+2025-10-07 12:13:53,298 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 12:13:53,298 - root - INFO - Not enough profit percent to scalp for BJDX: 1.62413
+2025-10-07 12:13:53,312 - root - INFO - swing_strategy_close_long for scale 5Min stock BNAI
+2025-10-07 12:13:53,455 - root - INFO - Profit percent for BNAI is 0.234568
+2025-10-07 12:13:53,456 - root - INFO - Latest 1min close price for BNAI: 0.8059
+2025-10-07 12:13:53,537 - root - INFO - MACD is still rising for stock BNAI
+2025-10-07 12:13:53,538 - root - INFO - Not enough profit percent to scalp for BNAI: 0.234568
+2025-10-07 12:13:59,284 - root - INFO -  update_current_price: start time 2025-10-07T12:12:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 12:14:03,631 - root - INFO -  MACD calculation for GLTO due to high change percent: 652.022
+2025-10-07 12:14:04,003 - root - INFO -  MACD calculation for GNLN due to high change percent: 16.8317
+2025-10-07 12:14:06,998 - root - INFO -  update_current_price: start time 2025-10-07T12:13:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 12:14:08,582 - root - INFO - Real mode: Today's profit so far: 2463.0699749999985
+2025-10-07 12:14:08,607 - root - INFO - Running real_trade for all top movers
+2025-10-07 12:14:08,648 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 12:14:08,768 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 12:14:08,788 - root - INFO - latest trade price: 6.6968
+2025-10-07 12:14:08,798 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 12:14:08,836 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
+2025-10-07 12:14:08,856 - root - INFO - latest trade price: 1.66
+2025-10-07 12:14:08,864 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
+2025-10-07 12:14:09,031 - root - INFO - Last 5 minutes maximum volume candle is green for BNAI
+2025-10-07 12:14:09,102 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 12:14:09,102 - root - INFO - BNAI:======= 0.8059===>BUY========>TrendUp10018301
+2025-10-07 12:14:09,120 - root - WARNING - ***** stock is already in the positions
+2025-10-07 12:14:09,120 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 12:14:09,164 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 12:14:09,183 - root - INFO - latest trade price: 2.1735
+2025-10-07 12:14:09,269 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 12:14:09,311 - root - INFO - Profit percent for BJDX is 1.19722
+2025-10-07 12:14:09,311 - root - INFO - Latest 1min close price for BJDX: 2.19
+2025-10-07 12:14:09,372 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 12:14:09,372 - root - INFO - Not enough profit percent to scalp for BJDX: 1.19722
+2025-10-07 12:14:09,386 - root - INFO - swing_strategy_close_long for scale 5Min stock BNAI
+2025-10-07 12:14:09,603 - root - INFO - Profit percent for BNAI is 0.790123
+2025-10-07 12:14:09,603 - root - INFO - Latest 1min close price for BNAI: 0.8059
+2025-10-07 12:14:09,683 - root - INFO - MACD is still rising for stock BNAI
+2025-10-07 12:14:09,683 - root - INFO - Not enough profit percent to scalp for BNAI: 0.790123
+2025-10-07 12:14:12,722 - root - INFO -  update_current_price: start time 2025-10-07T12:13:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 12:14:12,930 - root - INFO -  MACD calculation for ITRM due to high change percent: 14.5857
+2025-10-07 12:14:12,978 - root - INFO - MACD not positive for ITRM: MACD=0.011678807289270066, Signal=0.0144492897440334, Hist=-0.002770482454763334
+2025-10-07 12:14:15,242 - root - INFO -  MACD calculation for KLTO due to high change percent: 11.2115
+2025-10-07 12:14:15,305 - root - INFO - MACD not positive for KLTO: MACD=0.0048161059509629345, Signal=0.005989124644577782, Hist=-0.0011730186936148475
+2025-10-07 12:14:17,036 - root - INFO -  MACD calculation for LAR due to high change percent: 13.4615
+2025-10-07 12:14:17,111 - root - INFO - MACD not positive for LAR: MACD=-0.010345082498865565, Signal=-0.000545221871017275, Hist=-0.009799860627848291
+2025-10-07 12:14:19,899 - root - INFO -  update_current_price: start time 2025-10-07T12:13:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 12:14:20,261 - root - INFO -  MACD calculation for LXEO due to high change percent: 28.2844
+2025-10-07 12:14:20,323 - root - INFO - MACD not positive for LXEO: MACD=-0.011543286073861125, Signal=0.0018512041894195592, Hist=-0.013394490263280684
+2025-10-07 12:14:24,720 - root - INFO - Real mode: Today's profit so far: 2455.419974999997
+2025-10-07 12:14:24,741 - root - INFO - Running real_trade for all top movers
+2025-10-07 12:14:24,781 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 12:14:24,895 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 12:14:24,914 - root - INFO - latest trade price: 6.69
+2025-10-07 12:14:24,924 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 12:14:24,966 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
+2025-10-07 12:14:24,984 - root - INFO - latest trade price: 1.65
+2025-10-07 12:14:24,994 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
+2025-10-07 12:14:25,088 - root - INFO -  MACD calculation for NAK due to high change percent: 20.1987
+2025-10-07 12:14:25,163 - root - INFO - Last 5 minutes maximum volume candle is green for BNAI
+2025-10-07 12:14:25,250 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 12:14:25,250 - root - INFO - BNAI:======= 0.8059===>BUY========>TrendUp10018301
+2025-10-07 12:14:25,268 - root - WARNING - ***** stock is already in the positions
+2025-10-07 12:14:25,269 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 12:14:25,304 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 12:14:25,322 - root - INFO - latest trade price: 2.165
+2025-10-07 12:14:25,399 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 12:14:25,431 - root - INFO -  update_current_price: start time 2025-10-07T12:13:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 12:14:25,438 - root - INFO - Profit percent for BJDX is 0.858469
+2025-10-07 12:14:25,439 - root - INFO - Latest 1min close price for BJDX: 2.19
+2025-10-07 12:14:25,498 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 12:14:25,499 - root - INFO - Not enough profit percent to scalp for BJDX: 0.858469
+2025-10-07 12:14:25,516 - root - INFO - swing_strategy_close_long for scale 5Min stock BNAI
+2025-10-07 12:14:25,648 - root - INFO -  MACD calculation for NCNA due to high change percent: 20.6693
+2025-10-07 12:14:25,673 - root - INFO - Profit percent for BNAI is -0.271605
+2025-10-07 12:14:25,673 - root - INFO - Latest 1min close price for BNAI: 0.8059
+2025-10-07 12:14:25,694 - root - INFO - MACD not positive for NCNA: MACD=0.13146179475345754, Signal=0.13210230065508105, Hist=-0.0006405059016235115
+2025-10-07 12:14:25,764 - root - INFO - MACD is still rising for stock BNAI
+2025-10-07 12:14:25,764 - root - INFO - Not enough profit percent to scalp for BNAI: -0.271605
+2025-10-07 12:14:26,967 - root - INFO -  MACD calculation for NITO due to high change percent: 13.6905
+2025-10-07 12:14:27,029 - root - INFO - MACD not positive for NITO: MACD=0.07005834481769746, Signal=0.08185479308696898, Hist=-0.011796448269271523
+2025-10-07 12:14:28,380 - root - INFO -  MACD calculation for NRXP due to high change percent: 10.209
+2025-10-07 12:14:28,432 - root - INFO - MACD not positive for NRXP: MACD=0.045922943034971464, Signal=0.056879680001340756, Hist=-0.010956736966369292
+2025-10-07 12:14:29,783 - root - INFO -  MACD calculation for NXXT due to high change percent: 21.657
+2025-10-07 12:14:29,841 - root - INFO - MACD not positive for NXXT: MACD=0.006835872277704436, Signal=0.014341791500129233, Hist=-0.007505919222424797
+2025-10-07 12:14:31,541 - root - INFO -  update_current_price: start time 2025-10-07T12:13:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 12:14:38,033 - root - INFO -  update_current_price: start time 2025-10-07T12:13:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 12:14:39,373 - root - INFO -  MACD calculation for REKR due to high change percent: 15.1934
+2025-10-07 12:14:39,447 - root - INFO - MACD not positive for REKR: MACD=-0.019194502986516593, Signal=-0.014069518746695677, Hist=-0.005124984239820916
+2025-10-07 12:14:40,809 - root - INFO - Real mode: Today's profit so far: 2477.7799749999976
+2025-10-07 12:14:40,827 - root - INFO - Running real_trade for all top movers
+2025-10-07 12:14:40,863 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 12:14:41,024 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 12:14:41,047 - root - INFO - latest trade price: 6.715
+2025-10-07 12:14:41,056 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 12:14:41,142 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
+2025-10-07 12:14:41,157 - root - INFO - 1min candle is not positive for COCH: open 1.64 close 1.6499
+2025-10-07 12:14:41,173 - root - INFO - latest trade price: 1.65
+2025-10-07 12:14:41,182 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
+2025-10-07 12:14:41,482 - root - INFO - Last 5 minutes maximum volume candle is green for BNAI
+2025-10-07 12:14:41,588 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 12:14:41,589 - root - INFO - BNAI:======= 0.8011===>BUY========>TrendUp10850728
+2025-10-07 12:14:41,610 - root - WARNING - ***** stock is already in the positions
+2025-10-07 12:14:41,611 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 12:14:41,672 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 12:14:41,694 - root - INFO - latest trade price: 2.2
+2025-10-07 12:14:41,787 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 12:14:41,844 - root - INFO - Profit percent for BJDX is 0.464037
+2025-10-07 12:14:41,845 - root - INFO - Latest 1min close price for BJDX: 2.17
+2025-10-07 12:14:41,948 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 12:14:41,949 - root - INFO - Not enough profit percent to scalp for BJDX: 0.464037
+2025-10-07 12:14:41,969 - root - INFO - swing_strategy_close_long for scale 5Min stock BNAI
+2025-10-07 12:14:42,242 - root - INFO - Profit percent for BNAI is -1.08642
+2025-10-07 12:14:42,243 - root - INFO - Latest 1min close price for BNAI: 0.8011
+2025-10-07 12:14:42,247 - root - INFO -  MACD calculation for RVSN due to high change percent: 25.7366
+2025-10-07 12:14:42,385 - root - INFO - MACD is still rising for stock BNAI
+2025-10-07 12:14:42,385 - root - INFO - Not enough profit percent to scalp for BNAI: -1.08642
+2025-10-07 12:14:46,079 - root - INFO -  update_current_price: start time 2025-10-07T12:13:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 12:14:49,335 - root - INFO -  MACD calculation for SMX due to high change percent: 10.0976
+2025-10-07 12:14:49,883 - root - INFO -  MACD calculation for SNGX due to high change percent: 19.3431
+2025-10-07 12:14:54,987 - root - INFO -  MACD calculation for TCRT due to high change percent: 14.9606
+2025-10-07 12:14:55,653 - root - INFO -  MACD calculation for TELO due to high change percent: 23.1549
+2025-10-07 12:14:55,715 - root - INFO - MACD not positive for TELO: MACD=0.007350380307139082, Signal=0.012315101907534768, Hist=-0.004964721600395686
+2025-10-07 12:14:55,932 - root - INFO -  update_current_price: start time 2025-10-07T12:13:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 12:14:57,430 - root - INFO - Real mode: Today's profit so far: 2477.339974999999
+2025-10-07 12:14:57,450 - root - INFO - Running real_trade for all top movers
+2025-10-07 12:14:57,489 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 12:14:57,639 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 12:14:57,673 - root - INFO - latest trade price: 6.7188
+2025-10-07 12:14:57,684 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 12:14:57,685 - root - INFO -  MACD calculation for TLPH due to high change percent: 10.9091
+2025-10-07 12:14:57,732 - root - INFO - MACD not positive for TLPH: MACD=0.0035266618289373497, Signal=0.009220026991639057, Hist=-0.005693365162701707
+2025-10-07 12:14:57,751 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
+2025-10-07 12:14:57,769 - root - INFO - 1min candle is not positive for COCH: open 1.64 close 1.6499
+2025-10-07 12:14:57,807 - root - INFO - latest trade price: 1.67
+2025-10-07 12:14:57,815 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
+2025-10-07 12:14:57,960 - root - INFO -  MACD calculation for TMC due to high change percent: 15.2863
+2025-10-07 12:14:58,044 - root - INFO - Last 5 minutes maximum volume candle is green for BNAI
+2025-10-07 12:14:58,055 - root - INFO - MACD not positive for TMC: MACD=0.08249737699881976, Signal=0.1039101962073658, Hist=-0.02141281920854604
+2025-10-07 12:14:58,152 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 12:14:58,152 - root - INFO - BNAI:======= 0.8011===>BUY========>TrendUp10850728
+2025-10-07 12:14:58,166 - root - INFO -  MACD calculation for TMCWW due to high change percent: 30.732
+2025-10-07 12:14:58,204 - root - WARNING - ***** stock is already in the positions
+2025-10-07 12:14:58,218 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 12:14:58,229 - root - INFO - MACD not positive for TMCWW: MACD=0.0517889831248306, Signal=0.05995563160808721, Hist=-0.008166648483256607
+2025-10-07 12:14:58,290 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 12:14:58,307 - root - INFO - latest trade price: 2.2
+2025-10-07 12:14:58,398 - root - INFO -  MACD calculation for TMQ due to high change percent: 220.574
+2025-10-07 12:14:58,400 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 12:14:58,455 - root - INFO - Profit percent for BJDX is 2.08817
+2025-10-07 12:14:58,455 - root - INFO - Latest 1min close price for BJDX: 2.17
+2025-10-07 12:14:58,546 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 12:14:58,547 - root - INFO - Not enough profit percent to scalp for BJDX: 2.08817
+2025-10-07 12:14:58,563 - root - INFO - swing_strategy_close_long for scale 5Min stock BNAI
+2025-10-07 12:14:58,756 - root - INFO - Profit percent for BNAI is 0.0
+2025-10-07 12:14:58,756 - root - INFO - Latest 1min close price for BNAI: 0.8011
+2025-10-07 12:14:58,865 - root - INFO - MACD is still rising for stock BNAI
+2025-10-07 12:14:58,866 - root - INFO - Not enough profit percent to scalp for BNAI: 0.0
+2025-10-07 12:15:00,191 - root - INFO -  MACD calculation for TTSH due to high change percent: 10.3627
+2025-10-07 12:15:01,632 - root - INFO -  MACD calculation for ULY due to high change percent: 16.6667
+2025-10-07 12:15:02,198 - root - INFO -  MACD calculation for UPC due to high change percent: 14.1013
+2025-10-07 12:15:02,707 - root - INFO -  MACD calculation for USAR due to high change percent: 10.3347
+2025-10-07 12:15:02,796 - root - INFO - MACD not positive for USAR: MACD=-0.043111105898020696, Signal=0.015682208663497777, Hist=-0.05879331456151847
+2025-10-07 12:15:02,861 - root - INFO -  MACD calculation for USARW due to high change percent: 19.4973
+2025-10-07 12:15:02,925 - root - INFO - MACD not positive for USARW: MACD=-0.013150504603153479, Signal=0.056434388874737416, Hist=-0.0695848934778909
+2025-10-07 12:15:05,448 - root - INFO -  update_current_price: start time 2025-10-07T12:14:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 12:15:08,833 - root - INFO -  MACD calculation for YCBD due to high change percent: 12.3077
+2025-10-07 12:15:08,891 - root - INFO - MACD not positive for YCBD: MACD=0.012297528566785232, Signal=0.019313531112861194, Hist=-0.007016002546075963
+2025-10-07 12:15:09,018 - root - INFO -  MACD calculation for YJ due to high change percent: 16.736
+2025-10-07 12:15:11,180 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-07 12:15:13,920 - root - INFO - Real mode: Today's profit so far: 2460.329974999997
+2025-10-07 12:15:13,941 - root - INFO - Running real_trade for all top movers
+2025-10-07 12:15:13,993 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 12:15:14,120 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 12:15:14,141 - root - INFO - latest trade price: 6.725
+2025-10-07 12:15:14,158 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 12:15:14,209 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
+2025-10-07 12:15:14,233 - root - INFO - 1min candle is not positive for COCH: open 1.64 close 1.6499
+2025-10-07 12:15:14,259 - root - INFO - latest trade price: 1.6799
+2025-10-07 12:15:14,272 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
+2025-10-07 12:15:14,455 - root - INFO - Last 5 minutes maximum volume candle is green for BNAI
+2025-10-07 12:15:14,535 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 12:15:14,536 - root - INFO - BNAI:======= 0.8011===>BUY========>TrendUp10850728
+2025-10-07 12:15:14,556 - root - WARNING - ***** stock is already in the positions
+2025-10-07 12:15:14,557 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 12:15:14,606 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 12:15:14,628 - root - INFO - latest trade price: 2.1785
+2025-10-07 12:15:14,722 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 12:15:14,772 - root - INFO - Profit percent for BJDX is 2.08817
+2025-10-07 12:15:14,772 - root - INFO - Latest 1min close price for BJDX: 2.17
+2025-10-07 12:15:14,858 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 12:15:14,859 - root - INFO - Not enough profit percent to scalp for BJDX: 2.08817
+2025-10-07 12:15:14,893 - root - INFO - swing_strategy_close_long for scale 5Min stock BNAI
+2025-10-07 12:15:15,070 - root - INFO - Profit percent for BNAI is -1.08642
+2025-10-07 12:15:15,071 - root - INFO - Latest 1min close price for BNAI: 0.8011
+2025-10-07 12:15:15,182 - root - INFO - MACD is still rising for stock BNAI
+2025-10-07 12:15:15,182 - root - INFO - Not enough profit percent to scalp for BNAI: -1.08642
+2025-10-07 12:15:30,230 - root - INFO - Real mode: Today's profit so far: 2446.6899749999975
+2025-10-07 12:15:30,251 - root - INFO - Running real_trade for all top movers
+2025-10-07 12:15:30,305 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 12:15:30,449 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 12:15:30,468 - root - INFO - latest trade price: 6.7202
+2025-10-07 12:15:30,482 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 12:15:30,533 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
+2025-10-07 12:15:30,580 - root - INFO - 1min candle is not positive for COCH: open 1.64 close 1.6499
+2025-10-07 12:15:30,602 - root - INFO - latest trade price: 1.665
+2025-10-07 12:15:30,613 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
+2025-10-07 12:15:30,776 - root - INFO - Last 5 minutes maximum volume candle is green for BNAI
+2025-10-07 12:15:30,847 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 12:15:30,848 - root - INFO - BNAI:======= 0.8011===>BUY========>TrendUp10850728
+2025-10-07 12:15:30,867 - root - WARNING - ***** stock is already in the positions
+2025-10-07 12:15:30,868 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 12:15:30,910 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 12:15:30,931 - root - INFO - latest trade price: 2.1749
+2025-10-07 12:15:31,021 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 12:15:31,070 - root - INFO - Profit percent for BJDX is 1.09049
+2025-10-07 12:15:31,071 - root - INFO - Latest 1min close price for BJDX: 2.17
+2025-10-07 12:15:31,143 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 12:15:31,143 - root - INFO - Not enough profit percent to scalp for BJDX: 1.09049
+2025-10-07 12:15:31,167 - root - INFO - swing_strategy_close_long for scale 5Min stock BNAI
+2025-10-07 12:15:31,340 - root - INFO - Profit percent for BNAI is -2.38272
+2025-10-07 12:15:31,340 - root - INFO - Latest 1min close price for BNAI: 0.8011
+2025-10-07 12:15:31,446 - root - INFO - MACD is still rising for stock BNAI
+2025-10-07 12:15:31,446 - root - INFO - Not enough profit percent to scalp for BNAI: -2.38272
