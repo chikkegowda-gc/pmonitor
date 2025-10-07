@@ -2,10 +2,11 @@ Top Movers:
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  CISS  |      1      |     0     |     88.905     | 24657956 |      4.92     |        2.21        |   700000.0   |  2.1998  |   41932    |      0      | 2025-10-07 09:47:49 |
+|  CISS  |      1      |     0     |    122.624     | 24657956 |      4.92     |        2.21        |   700000.0   |  2.1998  |   41932    |      0      | 2025-10-07 09:47:49 |
 |  ULY   |      0      |     0     |    48.0769     | 8696944  |      4.62     |        3.12        |   910000.0   |  3.1046  |   33324    |      0      | 2025-10-07 09:43:09 |
-|  BJDX  |      1      |     0     |    34.1355     | 18493275 |     2.0912    |        1.55        |   550000.0   |   1.55   |   221393   |      0      | 2025-10-07 09:47:40 |
-|  APVO  |      0      |     0     |    31.1986     | 18943559 |     1.8401    |        1.41        |  5200000.0   |  1.426   |  4062679   |      0      | 2025-10-07 09:47:32 |
+|  BJDX  |      1      |     0     |    41.2903     | 19226694 |     2.3208    |        1.55        |   550000.0   |   1.55   |   221393   |      0      | 2025-10-07 09:53:38 |
+|  DVLT  |      0      |     0     |      37.5      | 35624130 |     2.9001    |        2.08        |     0.0      |   1.48   | 107045115  |      0      | 2025-10-07 09:53:57 |
+|  CCTG  |      1      |     0     |    31.9139     |  69849   |      1.98     |        1.51        |  2310000.0   |   1.35   |  1188885   |      0      | 2025-10-07 09:53:44 |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -19,403 +20,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-07 09:46:15,682 - root - INFO - Latest 1min close price for BJDX: 2.0712
-2025-10-07 09:46:15,742 - root - INFO - No close long conditions met for BJDX
-2025-10-07 09:46:15,757 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
-2025-10-07 09:46:15,793 - root - INFO - Profit percent for CCTG is 1.39101
-2025-10-07 09:46:15,793 - root - INFO - Latest 1min close price for CCTG: 1.9872
-2025-10-07 09:46:15,850 - root - INFO - MACD is still rising for stock CCTG
-2025-10-07 09:46:15,850 - root - INFO - Not enough profit percent to scalp for CCTG: 1.39101
-2025-10-07 09:46:15,861 - root - WARNING - Skipping CISS: invalid strategy format (None)
-2025-10-07 09:46:15,862 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 09:46:15,895 - root - INFO - Profit percent for CISS is 0
-2025-10-07 09:46:15,895 - root - INFO - Latest 1min close price for CISS: 4.12
-2025-10-07 09:46:15,949 - root - INFO - MACD is still rising for stock CISS
-2025-10-07 09:46:15,950 - root - INFO - Not enough profit percent to scalp for CISS: 0
-2025-10-07 09:46:15,959 - root - INFO - Skipping SCALP for CISS as it's in no_scalp list
-2025-10-07 09:46:17,989 - root - INFO -  update_current_price: start time 2025-10-07T09:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 09:46:24,814 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-07 09:46:31,001 - root - INFO - Real mode: Today's profit so far: 1294.0399749999997
-2025-10-07 09:46:31,028 - root - INFO - Running real_trade for all top movers
-2025-10-07 09:46:31,073 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
-2025-10-07 09:46:31,129 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
-2025-10-07 09:46:31,155 - root - INFO - 1min RSI is overbought for CISS: 72.13250915737538
-2025-10-07 09:46:31,174 - root - INFO - latest trade price: 4.42
-2025-10-07 09:46:31,186 - root - INFO - swing_strategy_open_long for scale 5Min stock ULY
-2025-10-07 09:46:31,226 - root - INFO - Last 5 minutes maximum volume candle is red for ULY
-2025-10-07 09:46:31,244 - root - INFO - latest trade price: 4.3
-2025-10-07 09:46:31,261 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 09:46:31,302 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-07 09:46:31,323 - root - INFO - latest trade price: 2.07
-2025-10-07 09:46:31,334 - root - INFO - swing_strategy_open_long for scale 5Min stock APVO
-2025-10-07 09:46:31,459 - root - INFO - Last 5 minutes maximum volume candle is red for APVO
-2025-10-07 09:46:31,478 - root - INFO - latest trade price: 1.8493
-2025-10-07 09:46:31,581 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 09:46:31,623 - root - INFO - Profit percent for BJDX is -5.14529
-2025-10-07 09:46:31,623 - root - INFO - Latest 1min close price for BJDX: 2.0712
-2025-10-07 09:46:31,693 - root - INFO - No close long conditions met for BJDX
-2025-10-07 09:46:31,716 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
-2025-10-07 09:46:31,763 - root - INFO - Profit percent for CCTG is 1.39101
-2025-10-07 09:46:31,763 - root - INFO - Latest 1min close price for CCTG: 1.9872
-2025-10-07 09:46:31,842 - root - INFO - MACD is still rising for stock CCTG
-2025-10-07 09:46:31,842 - root - INFO - Not enough profit percent to scalp for CCTG: 1.39101
-2025-10-07 09:46:31,867 - root - WARNING - Skipping CISS: invalid strategy format (None)
-2025-10-07 09:46:31,867 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 09:46:31,911 - root - INFO - Profit percent for CISS is 0
-2025-10-07 09:46:31,912 - root - INFO - Latest 1min close price for CISS: 4.12
-2025-10-07 09:46:31,990 - root - INFO - MACD is still rising for stock CISS
-2025-10-07 09:46:31,991 - root - INFO - Not enough profit percent to scalp for CISS: 0
-2025-10-07 09:46:32,017 - root - INFO - Skipping SCALP for CISS as it's in no_scalp list
-2025-10-07 09:46:47,091 - root - INFO - Real mode: Today's profit so far: 1429.7299749999984
-2025-10-07 09:46:47,111 - root - INFO - Running real_trade for all top movers
-2025-10-07 09:46:47,158 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
-2025-10-07 09:46:47,212 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
-2025-10-07 09:46:47,238 - root - INFO - 1min RSI is overbought for CISS: 77.76458119465069
-2025-10-07 09:46:47,257 - root - INFO - latest trade price: 4.8001
-2025-10-07 09:46:47,273 - root - INFO - swing_strategy_open_long for scale 5Min stock ULY
-2025-10-07 09:46:47,315 - root - INFO - Last 5 minutes maximum volume candle is red for ULY
-2025-10-07 09:46:47,337 - root - INFO - latest trade price: 4.3
-2025-10-07 09:46:47,349 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 09:46:47,395 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-07 09:46:47,415 - root - INFO - latest trade price: 2.08
-2025-10-07 09:46:47,428 - root - INFO - swing_strategy_open_long for scale 5Min stock APVO
-2025-10-07 09:46:47,556 - root - INFO - Last 5 minutes maximum volume candle is green for APVO
-2025-10-07 09:46:47,583 - root - INFO - 1min candle is not positive for APVO: open 1.8507 close 1.8401
-2025-10-07 09:46:47,601 - root - INFO - latest trade price: 1.8301
-2025-10-07 09:46:47,715 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 09:46:47,759 - root - INFO - Profit percent for BJDX is -4.21988
-2025-10-07 09:46:47,759 - root - INFO - Latest 1min close price for BJDX: 2.07
-2025-10-07 09:46:47,841 - root - INFO - No close long conditions met for BJDX
-2025-10-07 09:46:47,866 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
-2025-10-07 09:46:47,916 - root - INFO - Profit percent for CCTG is -0.132477
-2025-10-07 09:46:47,916 - root - INFO - Latest 1min close price for CCTG: 1.96
-2025-10-07 09:46:47,995 - root - INFO - MACD is still rising for stock CCTG
-2025-10-07 09:46:47,995 - root - INFO - Not enough profit percent to scalp for CCTG: -0.132477
-2025-10-07 09:46:48,019 - root - WARNING - Skipping CISS: invalid strategy format (None)
-2025-10-07 09:46:48,020 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 09:46:48,065 - root - INFO - Profit percent for CISS is 0
-2025-10-07 09:46:48,065 - root - INFO - Latest 1min close price for CISS: 4.4705
-2025-10-07 09:46:48,141 - root - INFO - MACD is still rising for stock CISS
-2025-10-07 09:46:48,141 - root - INFO - Not enough profit percent to scalp for CISS: 0
-2025-10-07 09:46:48,169 - root - INFO - Skipping SCALP for CISS as it's in no_scalp list
-2025-10-07 09:47:03,219 - root - INFO - Real mode: Today's profit so far: 1407.7399749999968
-2025-10-07 09:47:03,242 - root - INFO - Running real_trade for all top movers
-2025-10-07 09:47:03,294 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
-2025-10-07 09:47:03,356 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
-2025-10-07 09:47:03,382 - root - INFO - 1min RSI is overbought for CISS: 77.90219285855798
-2025-10-07 09:47:03,402 - root - INFO - latest trade price: 4.92
-2025-10-07 09:47:03,415 - root - INFO - swing_strategy_open_long for scale 5Min stock ULY
-2025-10-07 09:47:03,456 - root - INFO - Last 5 minutes maximum volume candle is red for ULY
-2025-10-07 09:47:03,474 - root - INFO - latest trade price: 4.3
-2025-10-07 09:47:03,489 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 09:47:03,534 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-07 09:47:03,552 - root - INFO - latest trade price: 2.09
-2025-10-07 09:47:03,562 - root - INFO - swing_strategy_open_long for scale 5Min stock APVO
-2025-10-07 09:47:03,690 - root - INFO - Last 5 minutes maximum volume candle is green for APVO
-2025-10-07 09:47:03,716 - root - INFO - 1min candle is not positive for APVO: open 1.8507 close 1.8401
-2025-10-07 09:47:03,734 - root - INFO - latest trade price: 1.81
-2025-10-07 09:47:03,859 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 09:47:03,907 - root - INFO - Profit percent for BJDX is -3.75717
-2025-10-07 09:47:03,907 - root - INFO - Latest 1min close price for BJDX: 2.07
-2025-10-07 09:47:03,993 - root - INFO - No close long conditions met for BJDX
-2025-10-07 09:47:04,021 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
-2025-10-07 09:47:04,071 - root - INFO - Profit percent for CCTG is 1.03434
-2025-10-07 09:47:04,071 - root - INFO - Latest 1min close price for CCTG: 1.96
-2025-10-07 09:47:04,154 - root - INFO - MACD is still rising for stock CCTG
-2025-10-07 09:47:04,155 - root - INFO - Not enough profit percent to scalp for CCTG: 1.03434
-2025-10-07 09:47:04,180 - root - WARNING - Skipping CISS: invalid strategy format (None)
-2025-10-07 09:47:04,181 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 09:47:04,227 - root - INFO - Profit percent for CISS is 0
-2025-10-07 09:47:04,227 - root - INFO - Latest 1min close price for CISS: 4.4813
-2025-10-07 09:47:04,305 - root - INFO - MACD is still rising for stock CISS
-2025-10-07 09:47:04,305 - root - INFO - Not enough profit percent to scalp for CISS: 0
-2025-10-07 09:47:04,329 - root - INFO - Skipping SCALP for CISS as it's in no_scalp list
-2025-10-07 09:47:19,370 - root - INFO - Real mode: Today's profit so far: 1450.0999749999974
-2025-10-07 09:47:19,393 - root - INFO - Running real_trade for all top movers
-2025-10-07 09:47:19,440 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
-2025-10-07 09:47:19,502 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
-2025-10-07 09:47:19,527 - root - INFO - 1min RSI is overbought for CISS: 77.90219285855798
-2025-10-07 09:47:19,544 - root - INFO - latest trade price: 4.92
-2025-10-07 09:47:19,555 - root - INFO - swing_strategy_open_long for scale 5Min stock ULY
-2025-10-07 09:47:19,594 - root - INFO - Last 5 minutes maximum volume candle is red for ULY
-2025-10-07 09:47:19,616 - root - INFO - latest trade price: 4.3
-2025-10-07 09:47:19,627 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 09:47:19,667 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-07 09:47:19,684 - root - INFO - latest trade price: 2.095
-2025-10-07 09:47:19,693 - root - INFO - swing_strategy_open_long for scale 5Min stock APVO
-2025-10-07 09:47:19,839 - root - INFO - Last 5 minutes maximum volume candle is green for APVO
-2025-10-07 09:47:19,864 - root - INFO - 1min candle is not positive for APVO: open 1.8507 close 1.8401
-2025-10-07 09:47:19,885 - root - INFO - latest trade price: 1.8
-2025-10-07 09:47:19,988 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 09:47:20,029 - root - INFO - Profit percent for BJDX is -3.29447
-2025-10-07 09:47:20,029 - root - INFO - Latest 1min close price for BJDX: 2.07
-2025-10-07 09:47:20,102 - root - INFO - No close long conditions met for BJDX
-2025-10-07 09:47:20,130 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
-2025-10-07 09:47:20,176 - root - INFO - Profit percent for CCTG is 1.03434
-2025-10-07 09:47:20,176 - root - INFO - Latest 1min close price for CCTG: 1.96
-2025-10-07 09:47:20,260 - root - INFO - MACD is still rising for stock CCTG
-2025-10-07 09:47:20,260 - root - INFO - Not enough profit percent to scalp for CCTG: 1.03434
-2025-10-07 09:47:20,284 - root - WARNING - Skipping CISS: invalid strategy format (None)
-2025-10-07 09:47:20,284 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 09:47:20,328 - root - INFO - Profit percent for CISS is 0
-2025-10-07 09:47:20,328 - root - INFO - Latest 1min close price for CISS: 4.4813
-2025-10-07 09:47:20,414 - root - INFO - MACD is still rising for stock CISS
-2025-10-07 09:47:20,414 - root - INFO - Not enough profit percent to scalp for CISS: 0
-2025-10-07 09:47:20,440 - root - INFO - Skipping SCALP for CISS as it's in no_scalp list
-2025-10-07 09:47:24,918 - root - INFO - Real mode: Today's profit so far: 1463.2899749999997
-2025-10-07 09:47:24,942 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
-2025-10-07 09:47:24,943 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
-2025-10-07 09:47:24,969 - root - INFO -  update_current_price: start time 2025-10-07T09:46:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 09:47:32,387 - root - INFO -  MACD calculation for APVO due to high change percent: 31.1986
-2025-10-07 09:47:33,999 - root - INFO -  update_current_price: start time 2025-10-07T09:46:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 09:47:35,472 - root - INFO - Real mode: Today's profit so far: 1478.2899749999997
-2025-10-07 09:47:35,497 - root - INFO - Running real_trade for all top movers
-2025-10-07 09:47:35,534 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
-2025-10-07 09:47:35,590 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
-2025-10-07 09:47:35,603 - root - INFO - 1min RSI is overbought for CISS: 82.61016561021266
-2025-10-07 09:47:35,623 - root - INFO - latest trade price: 4.92
-2025-10-07 09:47:35,630 - root - INFO - swing_strategy_open_long for scale 5Min stock ULY
-2025-10-07 09:47:35,660 - root - INFO - Last 5 minutes maximum volume candle is red for ULY
-2025-10-07 09:47:35,677 - root - INFO - latest trade price: 4.3
-2025-10-07 09:47:35,683 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 09:47:35,720 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-07 09:47:35,735 - root - INFO - latest trade price: 2.1056
-2025-10-07 09:47:35,740 - root - INFO - swing_strategy_open_long for scale 5Min stock APVO
-2025-10-07 09:47:35,863 - root - INFO - Last 5 minutes maximum volume candle is green for APVO
-2025-10-07 09:47:35,871 - root - INFO - 1min candle is not positive for APVO: open 1.84 close 1.8101
-2025-10-07 09:47:35,899 - root - INFO - latest trade price: 1.8104
-2025-10-07 09:47:35,991 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 09:47:36,061 - root - INFO - Profit percent for BJDX is -3.06311
-2025-10-07 09:47:36,061 - root - INFO - Latest 1min close price for BJDX: 2.0912
-2025-10-07 09:47:36,112 - root - INFO - MACD is still rising for stock BJDX
-2025-10-07 09:47:36,112 - root - INFO - Not enough profit percent to scalp for BJDX: -3.06311
-2025-10-07 09:47:36,124 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
-2025-10-07 09:47:36,159 - root - INFO - Profit percent for CCTG is 1.03434
-2025-10-07 09:47:36,159 - root - INFO - Latest 1min close price for CCTG: 1.96
-2025-10-07 09:47:36,203 - root - INFO - MACD is still rising for stock CCTG
-2025-10-07 09:47:36,203 - root - INFO - Not enough profit percent to scalp for CCTG: 1.03434
-2025-10-07 09:47:36,212 - root - WARNING - Skipping CISS: invalid strategy format (None)
-2025-10-07 09:47:36,213 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 09:47:36,250 - root - INFO - Profit percent for CISS is 0
-2025-10-07 09:47:36,250 - root - INFO - Latest 1min close price for CISS: 4.92
-2025-10-07 09:47:36,295 - root - INFO - MACD is still rising for stock CISS
-2025-10-07 09:47:36,295 - root - INFO - Not enough profit percent to scalp for CISS: 0
-2025-10-07 09:47:36,304 - root - INFO - Skipping SCALP for CISS as it's in no_scalp list
-2025-10-07 09:47:39,940 - root - INFO -  MACD calculation for BJDX due to high change percent: 34.1355
-2025-10-07 09:47:40,442 - root - INFO -  MACD calculation for BLIN due to high change percent: 12.2222
-2025-10-07 09:47:41,917 - root - INFO -  update_current_price: start time 2025-10-07T09:46:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 09:47:44,503 - root - INFO -  MACD calculation for BZAIW due to high change percent: 13.301
-2025-10-07 09:47:44,553 - root - INFO - MACD not positive for BZAIW: MACD=0.028647128053762794, Signal=0.03194712631313608, Hist=-0.003299998259373285
-2025-10-07 09:47:46,441 - root - INFO -  MACD calculation for CCTG due to high change percent: 29.9735
-2025-10-07 09:47:49,344 - root - INFO -  MACD calculation for CISS due to high change percent: 88.905
-2025-10-07 09:47:51,255 - root - INFO -  update_current_price: start time 2025-10-07T09:46:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 09:47:51,337 - root - INFO - Real mode: Today's profit so far: 1504.2299749999984
-2025-10-07 09:47:51,363 - root - INFO - Running real_trade for all top movers
-2025-10-07 09:47:51,403 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
-2025-10-07 09:47:51,461 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
-2025-10-07 09:47:51,476 - root - INFO - 1min RSI is overbought for CISS: 82.61016561021266
-2025-10-07 09:47:51,495 - root - INFO - latest trade price: 4.92
-2025-10-07 09:47:51,503 - root - INFO - swing_strategy_open_long for scale 5Min stock ULY
-2025-10-07 09:47:51,540 - root - INFO - Last 5 minutes maximum volume candle is red for ULY
-2025-10-07 09:47:51,556 - root - INFO - latest trade price: 4.3
-2025-10-07 09:47:51,564 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 09:47:51,601 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-07 09:47:51,618 - root - INFO - latest trade price: 2.15
-2025-10-07 09:47:51,625 - root - INFO - swing_strategy_open_long for scale 5Min stock APVO
-2025-10-07 09:47:51,696 - root - INFO -  MACD calculation for COCH due to high change percent: 108.23
-2025-10-07 09:47:51,723 - root - INFO - MACD not positive for COCH: MACD=0.12166777731320955, Signal=0.17606643431572921, Hist=-0.05439865700251967
-2025-10-07 09:47:51,739 - root - INFO - Last 5 minutes maximum volume candle is green for APVO
-2025-10-07 09:47:51,756 - root - INFO - 1min candle is not positive for APVO: open 1.84 close 1.8101
-2025-10-07 09:47:51,774 - root - INFO - latest trade price: 1.8194
-2025-10-07 09:47:51,861 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 09:47:51,900 - root - INFO - Profit percent for BJDX is -2.57264
-2025-10-07 09:47:51,900 - root - INFO - Latest 1min close price for BJDX: 2.0912
-2025-10-07 09:47:51,951 - root - INFO - MACD is still rising for stock BJDX
-2025-10-07 09:47:51,951 - root - INFO - Not enough profit percent to scalp for BJDX: -2.57264
-2025-10-07 09:47:51,964 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
-2025-10-07 09:47:52,001 - root - INFO - Profit percent for CCTG is -0.132477
-2025-10-07 09:47:52,001 - root - INFO - Latest 1min close price for CCTG: 1.96
-2025-10-07 09:47:52,050 - root - INFO - MACD is still rising for stock CCTG
-2025-10-07 09:47:52,050 - root - INFO - Not enough profit percent to scalp for CCTG: -0.132477
-2025-10-07 09:47:52,060 - root - WARNING - Skipping CISS: invalid strategy format (None)
-2025-10-07 09:47:52,060 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 09:47:52,093 - root - INFO - Profit percent for CISS is 0
-2025-10-07 09:47:52,093 - root - INFO - Latest 1min close price for CISS: 4.92
-2025-10-07 09:47:52,139 - root - INFO - MACD is still rising for stock CISS
-2025-10-07 09:47:52,139 - root - INFO - Not enough profit percent to scalp for CISS: 0
-2025-10-07 09:47:52,148 - root - INFO - Skipping SCALP for CISS as it's in no_scalp list
-2025-10-07 09:47:54,215 - root - INFO -  MACD calculation for CTXR due to high change percent: 11.2782
-2025-10-07 09:47:57,431 - root - INFO -  MACD calculation for DGNX due to high change percent: 17.7273
-2025-10-07 09:47:59,925 - root - INFO -  MACD calculation for DVLT due to high change percent: 26.6827
-2025-10-07 09:48:00,009 - root - INFO - MACD not positive for DVLT: MACD=0.012700984281682093, Signal=0.014154854869763986, Hist=-0.0014538705880818934
-2025-10-07 09:48:00,267 - root - INFO -  update_current_price: start time 2025-10-07T09:47:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 09:48:02,233 - root - INFO -  MACD calculation for ELAB due to high change percent: 17.0591
-2025-10-07 09:48:02,272 - root - INFO - MACD not positive for ELAB: MACD=0.06245862557300885, Signal=0.06808749700814525, Hist=-0.005628871435136393
-2025-10-07 09:48:02,443 - root - INFO -  MACD calculation for ELPW due to high change percent: 20.5893
-2025-10-07 09:48:07,190 - root - INFO - Real mode: Today's profit so far: 1511.219975
-2025-10-07 09:48:07,210 - root - INFO - Running real_trade for all top movers
-2025-10-07 09:48:07,253 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
-2025-10-07 09:48:07,350 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
-2025-10-07 09:48:07,368 - root - INFO - 1min RSI is overbought for CISS: 82.61016561021266
-2025-10-07 09:48:07,398 - root - INFO - latest trade price: 4.92
-2025-10-07 09:48:07,408 - root - INFO - swing_strategy_open_long for scale 5Min stock ULY
-2025-10-07 09:48:07,456 - root - INFO - Last 5 minutes maximum volume candle is red for ULY
-2025-10-07 09:48:07,486 - root - INFO - latest trade price: 4.3
-2025-10-07 09:48:07,494 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 09:48:07,548 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-07 09:48:07,584 - root - INFO - latest trade price: 2.158
-2025-10-07 09:48:07,592 - root - INFO - swing_strategy_open_long for scale 5Min stock APVO
-2025-10-07 09:48:07,645 - root - INFO -  update_current_price: start time 2025-10-07T09:47:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 09:48:07,725 - root - INFO - Last 5 minutes maximum volume candle is green for APVO
-2025-10-07 09:48:07,746 - root - INFO - 1min candle is not positive for APVO: open 1.84 close 1.8101
-2025-10-07 09:48:07,765 - root - INFO - latest trade price: 1.8105
-2025-10-07 09:48:07,854 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 09:48:07,890 - root - INFO - Profit percent for BJDX is -0.0601518
-2025-10-07 09:48:07,890 - root - INFO - Latest 1min close price for BJDX: 2.0912
-2025-10-07 09:48:07,946 - root - INFO - MACD is still rising for stock BJDX
-2025-10-07 09:48:07,946 - root - INFO - Not enough profit percent to scalp for BJDX: -0.0601518
-2025-10-07 09:48:07,960 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
-2025-10-07 09:48:07,998 - root - INFO - Profit percent for CCTG is -0.132477
-2025-10-07 09:48:07,998 - root - INFO - Latest 1min close price for CCTG: 1.96
-2025-10-07 09:48:08,053 - root - INFO - MACD is still rising for stock CCTG
-2025-10-07 09:48:08,053 - root - INFO - Not enough profit percent to scalp for CCTG: -0.132477
-2025-10-07 09:48:08,063 - root - WARNING - Skipping CISS: invalid strategy format (None)
-2025-10-07 09:48:08,064 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 09:48:08,096 - root - INFO - Profit percent for CISS is 0
-2025-10-07 09:48:08,096 - root - INFO - Latest 1min close price for CISS: 4.92
-2025-10-07 09:48:08,140 - root - INFO - MACD is still rising for stock CISS
-2025-10-07 09:48:08,140 - root - INFO - Not enough profit percent to scalp for CISS: 0
-2025-10-07 09:48:08,149 - root - INFO - Skipping SCALP for CISS as it's in no_scalp list
-2025-10-07 09:48:13,897 - root - INFO -  update_current_price: start time 2025-10-07T09:47:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 09:48:17,858 - root - INFO -  MACD calculation for HYLN due to high change percent: 13.0435
-2025-10-07 09:48:20,156 - root - INFO -  MACD calculation for INDP due to high change percent: 25.3918
-2025-10-07 09:48:20,213 - root - INFO - MACD not positive for INDP: MACD=0.10490237302271233, Signal=0.1251506747253052, Hist=-0.02024830170259287
-2025-10-07 09:48:22,030 - root - INFO -  update_current_price: start time 2025-10-07T09:47:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 09:48:23,191 - root - INFO - Real mode: Today's profit so far: 1599.4999749999988
-2025-10-07 09:48:23,210 - root - INFO - Running real_trade for all top movers
-2025-10-07 09:48:23,248 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
-2025-10-07 09:48:23,250 - root - INFO -  MACD calculation for JHX due to high change percent: 10.453
-2025-10-07 09:48:23,305 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
-2025-10-07 09:48:23,324 - root - INFO - 1min RSI is overbought for CISS: 82.61016561021266
-2025-10-07 09:48:23,345 - root - INFO - latest trade price: 4.92
-2025-10-07 09:48:23,354 - root - INFO - swing_strategy_open_long for scale 5Min stock ULY
-2025-10-07 09:48:23,410 - root - INFO - Last 5 minutes maximum volume candle is red for ULY
-2025-10-07 09:48:23,430 - root - INFO - latest trade price: 4.3
-2025-10-07 09:48:23,440 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 09:48:23,479 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-07 09:48:23,497 - root - INFO - latest trade price: 2.2808
-2025-10-07 09:48:23,506 - root - INFO - swing_strategy_open_long for scale 5Min stock APVO
-2025-10-07 09:48:23,622 - root - INFO - Last 5 minutes maximum volume candle is green for APVO
-2025-10-07 09:48:23,640 - root - INFO - 1min candle is not positive for APVO: open 1.84 close 1.8101
-2025-10-07 09:48:23,659 - root - INFO - latest trade price: 1.805
-2025-10-07 09:48:23,748 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 09:48:23,782 - root - INFO - Profit percent for BJDX is -0.148066
-2025-10-07 09:48:23,782 - root - INFO - Latest 1min close price for BJDX: 2.0912
-2025-10-07 09:48:23,840 - root - INFO - MACD is still rising for stock BJDX
-2025-10-07 09:48:23,840 - root - INFO - Not enough profit percent to scalp for BJDX: -0.148066
-2025-10-07 09:48:23,855 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
-2025-10-07 09:48:23,894 - root - INFO - Profit percent for CCTG is 1.39611
-2025-10-07 09:48:23,894 - root - INFO - Latest 1min close price for CCTG: 1.96
-2025-10-07 09:48:23,943 - root - INFO - MACD is still rising for stock CCTG
-2025-10-07 09:48:23,943 - root - INFO - Not enough profit percent to scalp for CCTG: 1.39611
-2025-10-07 09:48:23,954 - root - WARNING - Skipping CISS: invalid strategy format (None)
-2025-10-07 09:48:23,954 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 09:48:23,986 - root - INFO - Profit percent for CISS is 0
-2025-10-07 09:48:23,986 - root - INFO - Latest 1min close price for CISS: 4.92
-2025-10-07 09:48:24,035 - root - INFO - MACD is still rising for stock CISS
-2025-10-07 09:48:24,035 - root - INFO - Not enough profit percent to scalp for CISS: 0
-2025-10-07 09:48:24,044 - root - INFO - Skipping SCALP for CISS as it's in no_scalp list
-2025-10-07 09:48:25,372 - root - INFO -  MACD calculation for LAR due to high change percent: 10.2941
-2025-10-07 09:48:25,465 - root - INFO - MACD not positive for LAR: MACD=0.012970085482516325, Signal=0.025806158384522226, Hist=-0.012836072902005901
-2025-10-07 09:48:26,752 - root - INFO -  MACD calculation for LIDR due to high change percent: 10.5563
-2025-10-07 09:48:26,819 - root - INFO - MACD not positive for LIDR: MACD=0.039615568073954055, Signal=0.07880709507967915, Hist=-0.03919152700572509
-2025-10-07 09:48:28,438 - root - INFO -  update_current_price: start time 2025-10-07T09:47:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 09:48:28,823 - root - INFO -  MACD calculation for LXEO due to high change percent: 30.4482
-2025-10-07 09:48:28,880 - root - INFO - MACD not positive for LXEO: MACD=0.02004609388862555, Signal=0.034977374539426995, Hist=-0.014931280650801446
-2025-10-07 09:48:35,505 - root - INFO -  MACD calculation for NAK due to high change percent: 25.649
-2025-10-07 09:48:35,570 - root - INFO - MACD not positive for NAK: MACD=0.007126140786207991, Signal=0.025223315178892418, Hist=-0.018097174392684427
-2025-10-07 09:48:35,823 - root - INFO -  update_current_price: start time 2025-10-07T09:47:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 09:48:37,800 - root - INFO -  MACD calculation for NIOBW due to high change percent: 14.3369
-2025-10-07 09:48:38,693 - root - INFO -  MACD calculation for NMTC due to high change percent: 12.9972
-2025-10-07 09:48:38,746 - root - INFO - MACD not positive for NMTC: MACD=7.65801192319504e-05, Signal=0.0006871246901657294, Hist=-0.000610544570933779
-2025-10-07 09:48:39,078 - root - INFO - Real mode: Today's profit so far: 1547.5599749999965
-2025-10-07 09:48:39,100 - root - INFO - Running real_trade for all top movers
-2025-10-07 09:48:39,141 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
-2025-10-07 09:48:39,193 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
-2025-10-07 09:48:39,208 - root - INFO - 1min RSI is overbought for CISS: 82.61016561021266
-2025-10-07 09:48:39,226 - root - INFO - latest trade price: 4.92
-2025-10-07 09:48:39,233 - root - INFO - swing_strategy_open_long for scale 5Min stock ULY
-2025-10-07 09:48:39,267 - root - INFO - Last 5 minutes maximum volume candle is red for ULY
-2025-10-07 09:48:39,284 - root - INFO - latest trade price: 4.3
-2025-10-07 09:48:39,290 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 09:48:39,325 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 09:48:39,368 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-07 09:48:39,368 - root - INFO - BJDX:======= 2.2462===>BUY========>TrendUp2712234
-2025-10-07 09:48:39,388 - root - WARNING - ***** stock is already in the positions
-2025-10-07 09:48:39,388 - root - INFO - swing_strategy_open_long for scale 5Min stock APVO
-2025-10-07 09:48:39,492 - root - INFO - Last 5 minutes maximum volume candle is green for APVO
-2025-10-07 09:48:39,505 - root - INFO - 1min candle is not positive for APVO: open 1.815 close 1.8
-2025-10-07 09:48:39,523 - root - INFO - latest trade price: 1.7998
-2025-10-07 09:48:39,654 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 09:48:39,689 - root - INFO - Profit percent for BJDX is 5.49695
-2025-10-07 09:48:39,689 - root - INFO - Latest 1min close price for BJDX: 2.2462
-2025-10-07 09:48:39,702 - root - INFO - High price DETECTED for BJDX is 2.1401 and setting no_scalp to True
-2025-10-07 09:48:39,716 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
-2025-10-07 09:48:39,763 - root - INFO - Profit percent for CCTG is 1.39611
-2025-10-07 09:48:39,763 - root - INFO - Latest 1min close price for CCTG: 1.99
-2025-10-07 09:48:39,775 - root - INFO - High price DETECTED for CCTG is 1.9872 and setting no_scalp to True
-2025-10-07 09:48:39,788 - root - WARNING - Skipping CISS: invalid strategy format (None)
-2025-10-07 09:48:39,789 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 09:48:39,826 - root - INFO - Profit percent for CISS is 0
-2025-10-07 09:48:39,827 - root - INFO - Latest 1min close price for CISS: 4.92
-2025-10-07 09:48:39,874 - root - INFO - MACD is still rising for stock CISS
-2025-10-07 09:48:39,874 - root - INFO - Not enough profit percent to scalp for CISS: 0
-2025-10-07 09:48:39,887 - root - INFO - Skipping SCALP for CISS as it's in no_scalp list
-2025-10-07 09:48:40,990 - root - INFO -  MACD calculation for NXXT due to high change percent: 15.942
-2025-10-07 09:48:41,129 - root - INFO -  MACD calculation for NYXH due to high change percent: 12.931
-2025-10-07 09:48:41,174 - root - INFO - MACD not positive for NYXH: MACD=0.1649156823955158, Signal=0.19659287942196513, Hist=-0.03167719702644933
-2025-10-07 09:48:42,814 - root - INFO -  MACD calculation for OMEX due to high change percent: 11.3421
-2025-10-07 09:48:44,397 - root - INFO -  update_current_price: start time 2025-10-07T09:47:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 09:48:46,899 - root - INFO -  MACD calculation for PC due to high change percent: 11.4919
-2025-10-07 09:48:53,977 - root - INFO -  update_current_price: start time 2025-10-07T09:47:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 09:48:54,926 - root - INFO - Real mode: Today's profit so far: 1535.049974999998
-2025-10-07 09:48:54,944 - root - INFO - Running real_trade for all top movers
-2025-10-07 09:48:54,980 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
-2025-10-07 09:48:55,136 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
-2025-10-07 09:48:55,152 - root - INFO - 1min RSI is overbought for CISS: 82.61016561021266
-2025-10-07 09:48:55,171 - root - INFO - latest trade price: 4.92
-2025-10-07 09:48:55,179 - root - INFO - swing_strategy_open_long for scale 5Min stock ULY
-2025-10-07 09:48:55,211 - root - INFO - Last 5 minutes maximum volume candle is red for ULY
-2025-10-07 09:48:55,228 - root - INFO - latest trade price: 4.3
-2025-10-07 09:48:55,235 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 09:48:55,271 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 09:48:55,313 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-07 09:48:55,313 - root - INFO - BJDX:======= 2.2462===>BUY========>TrendUp2712234
-2025-10-07 09:48:55,337 - root - WARNING - ***** stock is already in the positions
-2025-10-07 09:48:55,338 - root - INFO - swing_strategy_open_long for scale 5Min stock APVO
-2025-10-07 09:48:55,447 - root - INFO - Last 5 minutes maximum volume candle is green for APVO
-2025-10-07 09:48:55,457 - root - INFO - 1min candle is not positive for APVO: open 1.815 close 1.8
-2025-10-07 09:48:55,473 - root - INFO - latest trade price: 1.8196
-2025-10-07 09:48:55,547 - root - INFO -  MACD calculation for REKR due to high change percent: 16.5746
-2025-10-07 09:48:55,551 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 09:48:55,591 - root - INFO - Profit percent for BJDX is 1.33259
-2025-10-07 09:48:55,591 - root - INFO - Latest 1min close price for BJDX: 2.2462
-2025-10-07 09:48:55,602 - root - INFO - MACD not positive for REKR: MACD=0.01525370641930035, Signal=0.024423985529616325, Hist=-0.009170279110315975
-2025-10-07 09:48:55,660 - root - INFO - MACD is still rising for stock BJDX
-2025-10-07 09:48:55,661 - root - INFO - Not enough profit percent to scalp for BJDX: 1.33259
-2025-10-07 09:48:55,678 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
-2025-10-07 09:48:55,719 - root - INFO - Profit percent for CCTG is 1.39611
-2025-10-07 09:48:55,719 - root - INFO - Latest 1min close price for CCTG: 1.99
-2025-10-07 09:48:55,778 - root - INFO - MACD is still rising for stock CCTG
-2025-10-07 09:48:55,778 - root - INFO - Not enough profit percent to scalp for CCTG: 1.39611
-2025-10-07 09:48:55,792 - root - WARNING - Skipping CISS: invalid strategy format (None)
-2025-10-07 09:48:55,792 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 09:48:55,829 - root - INFO - Profit percent for CISS is 0
-2025-10-07 09:48:55,829 - root - INFO - Latest 1min close price for CISS: 4.92
-2025-10-07 09:48:55,881 - root - INFO - MACD is still rising for stock CISS
-2025-10-07 09:48:55,881 - root - INFO - Not enough profit percent to scalp for CISS: 0
-2025-10-07 09:48:55,891 - root - INFO - Skipping SCALP for CISS as it's in no_scalp list
-2025-10-07 09:48:58,415 - root - INFO -  MACD calculation for RVPH due to high change percent: 18.7958
-2025-10-07 09:48:58,639 - root - INFO -  MACD calculation for RVSN due to high change percent: 13.2098
-2025-10-07 09:49:01,666 - root - INFO -  MACD calculation for SES due to high change percent: 15.6708
-2025-10-07 09:49:02,229 - root - INFO -  update_current_price: start time 2025-10-07T09:48:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:51:28,128 - root - INFO -  update_current_price: start time 2025-10-07T09:50:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:51:28,600 - root - INFO -  MACD calculation for LXEO due to high change percent: 31.9938
+2025-10-07 09:51:28,659 - root - INFO - MACD not positive for LXEO: MACD=0.012875040792319936, Signal=0.028642377875475678, Hist=-0.015767337083155742
+2025-10-07 09:51:31,712 - root - INFO -  MACD calculation for MLACR due to high change percent: 10.000000000000009
+2025-10-07 09:51:34,901 - root - INFO -  MACD calculation for NAK due to high change percent: 22.8477
+2025-10-07 09:51:34,973 - root - INFO - MACD not positive for NAK: MACD=0.0026767608509616903, Signal=0.021160727960029893, Hist=-0.018483967109068203
+2025-10-07 09:51:35,240 - root - INFO -  MACD calculation for NB due to high change percent: 10.3972
+2025-10-07 09:51:35,367 - root - INFO -  update_current_price: start time 2025-10-07T09:50:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:51:35,897 - root - INFO - Real mode: Today's profit so far: 1543.829974999997
+2025-10-07 09:51:35,916 - root - INFO - Running real_trade for all top movers
+2025-10-07 09:51:35,960 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
+2025-10-07 09:51:36,014 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
+2025-10-07 09:51:36,029 - root - INFO - 1min RSI is overbought for CISS: 82.61016561021266
+2025-10-07 09:51:36,046 - root - INFO - latest trade price: 4.92
+2025-10-07 09:51:36,054 - root - INFO - swing_strategy_open_long for scale 5Min stock ULY
+2025-10-07 09:51:36,086 - root - INFO - Last 5 minutes maximum volume candle is red for ULY
+2025-10-07 09:51:36,108 - root - INFO - latest trade price: 4.3
+2025-10-07 09:51:36,115 - root - INFO - swing_strategy_open_long for scale 5Min stock DVLT
+2025-10-07 09:51:36,330 - root - INFO - Last 5 minutes maximum volume candle is red for DVLT
+2025-10-07 09:51:36,350 - root - INFO - latest trade price: 2.8808
+2025-10-07 09:51:36,356 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 09:51:36,389 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 09:51:36,429 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 09:51:36,429 - root - INFO - BJDX:======= 2.3056===>BUY========>TrendUp3334073
+2025-10-07 09:51:36,448 - root - WARNING - ***** stock is already in the positions
+2025-10-07 09:51:36,449 - root - INFO - swing_strategy_open_long for scale 5Min stock APVO
+2025-10-07 09:51:36,553 - root - INFO - Last 5 minutes maximum volume candle is red for APVO
+2025-10-07 09:51:36,571 - root - INFO - latest trade price: 1.7501
+2025-10-07 09:51:36,645 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 09:51:36,678 - root - INFO - Profit percent for BJDX is 6.88506
+2025-10-07 09:51:36,678 - root - INFO - Latest 1min close price for BJDX: 2.3056
+2025-10-07 09:51:36,687 - root - INFO - High price DETECTED for BJDX is 2.2462 and setting no_scalp to True
+2025-10-07 09:51:36,697 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
+2025-10-07 09:51:36,710 - root - INFO -  MACD calculation for NIOBW due to high change percent: 16.129
+2025-10-07 09:51:36,733 - root - INFO - Profit percent for CCTG is 1.39611
+2025-10-07 09:51:36,734 - root - INFO - Latest 1min close price for CCTG: 1.9901
+2025-10-07 09:51:36,779 - root - INFO - MACD is still rising for stock CCTG
+2025-10-07 09:51:36,779 - root - INFO - Not enough profit percent to scalp for CCTG: 1.39611
+2025-10-07 09:51:36,788 - root - WARNING - Skipping CISS: invalid strategy format (None)
+2025-10-07 09:51:36,788 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
+2025-10-07 09:51:36,818 - root - INFO - Profit percent for CISS is 0
+2025-10-07 09:51:36,818 - root - INFO - Latest 1min close price for CISS: 4.92
+2025-10-07 09:51:36,862 - root - INFO - MACD is still rising for stock CISS
+2025-10-07 09:51:36,862 - root - INFO - Not enough profit percent to scalp for CISS: 0
+2025-10-07 09:51:36,870 - root - INFO - Skipping SCALP for CISS as it's in no_scalp list
+2025-10-07 09:51:37,112 - root - INFO -  MACD calculation for NMTC due to high change percent: 12.495
+2025-10-07 09:51:38,314 - root - INFO -  MACD calculation for NRGV due to high change percent: 10.6738
+2025-10-07 09:51:40,232 - root - INFO -  MACD calculation for NXXT due to high change percent: 16.9082
+2025-10-07 09:51:40,360 - root - INFO -  MACD calculation for NYXH due to high change percent: 12.281
+2025-10-07 09:51:40,398 - root - INFO - MACD not positive for NYXH: MACD=0.15640288121577584, Signal=0.18855487978072727, Hist=-0.032151998564951434
+2025-10-07 09:51:42,270 - root - INFO -  MACD calculation for OMEX due to high change percent: 10.5263
+2025-10-07 09:51:43,915 - root - INFO -  update_current_price: start time 2025-10-07T09:50:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:51:48,315 - root - INFO -  MACD calculation for PGYWW due to high change percent: 11.520302171860257
+2025-10-07 09:51:50,416 - root - INFO -  MACD calculation for POET due to high change percent: 11.442
+2025-10-07 09:51:51,912 - root - INFO - Real mode: Today's profit so far: 1557.8699749999978
+2025-10-07 09:51:51,932 - root - INFO - Running real_trade for all top movers
+2025-10-07 09:51:51,968 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
+2025-10-07 09:51:52,021 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
+2025-10-07 09:51:52,036 - root - INFO - 1min RSI is overbought for CISS: 82.61016561021266
+2025-10-07 09:51:52,053 - root - INFO - latest trade price: 4.92
+2025-10-07 09:51:52,060 - root - INFO - swing_strategy_open_long for scale 5Min stock ULY
+2025-10-07 09:51:52,094 - root - INFO - Last 5 minutes maximum volume candle is red for ULY
+2025-10-07 09:51:52,116 - root - INFO - latest trade price: 4.3
+2025-10-07 09:51:52,123 - root - INFO - swing_strategy_open_long for scale 5Min stock DVLT
+2025-10-07 09:51:52,330 - root - INFO - Last 5 minutes maximum volume candle is red for DVLT
+2025-10-07 09:51:52,349 - root - INFO - latest trade price: 2.895
+2025-10-07 09:51:52,355 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 09:51:52,386 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 09:51:52,427 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 09:51:52,427 - root - INFO - BJDX:======= 2.3056===>BUY========>TrendUp3334073
+2025-10-07 09:51:52,446 - root - WARNING - ***** stock is already in the positions
+2025-10-07 09:51:52,447 - root - INFO - swing_strategy_open_long for scale 5Min stock APVO
+2025-10-07 09:51:53,469 - root - INFO -  update_current_price: start time 2025-10-07T09:50:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:51:55,142 - root - INFO -  MACD calculation for REKR due to high change percent: 22.3757
+2025-10-07 09:51:55,205 - root - INFO - MACD not positive for REKR: MACD=0.020980705881827433, Signal=0.02392678259151148, Hist=-0.0029460767096840465
+2025-10-07 09:51:57,685 - root - INFO - Last 5 minutes maximum volume candle is red for APVO
+2025-10-07 09:51:57,705 - root - INFO - latest trade price: 1.7694
+2025-10-07 09:51:57,796 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 09:51:57,839 - root - INFO - Profit percent for BJDX is 7.34777
+2025-10-07 09:51:57,839 - root - INFO - Latest 1min close price for BJDX: 2.3056
+2025-10-07 09:51:57,902 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 09:51:57,902 - root - INFO - Not enough profit percent to scalp for BJDX: 7.34777
+2025-10-07 09:51:57,917 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
+2025-10-07 09:51:57,957 - root - INFO - Profit percent for CCTG is 1.4012
+2025-10-07 09:51:57,957 - root - INFO - Latest 1min close price for CCTG: 1.9901
+2025-10-07 09:51:58,012 - root - INFO - MACD is still rising for stock CCTG
+2025-10-07 09:51:58,012 - root - INFO - Not enough profit percent to scalp for CCTG: 1.4012
+2025-10-07 09:51:58,024 - root - WARNING - Skipping CISS: invalid strategy format (None)
+2025-10-07 09:51:58,024 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
+2025-10-07 09:51:58,057 - root - INFO - Profit percent for CISS is 0
+2025-10-07 09:51:58,057 - root - INFO - Latest 1min close price for CISS: 4.92
+2025-10-07 09:51:58,115 - root - INFO - MACD is still rising for stock CISS
+2025-10-07 09:51:58,115 - root - INFO - Not enough profit percent to scalp for CISS: 0
+2025-10-07 09:51:58,128 - root - INFO - Skipping SCALP for CISS as it's in no_scalp list
+2025-10-07 09:51:58,292 - root - INFO -  MACD calculation for RVPH due to high change percent: 19.0049
+2025-10-07 09:51:58,443 - root - INFO -  MACD calculation for RVSN due to high change percent: 13.2683
+2025-10-07 09:52:01,556 - root - INFO -  MACD calculation for SES due to high change percent: 19.9835
+2025-10-07 09:52:02,713 - root - INFO -  update_current_price: start time 2025-10-07T09:51:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:52:04,281 - root - INFO -  MACD calculation for SLNH due to high change percent: 24.7222
+2025-10-07 09:52:05,473 - root - INFO -  MACD calculation for SNGX due to high change percent: 17.5182
+2025-10-07 09:52:05,578 - root - INFO - MACD not positive for SNGX: MACD=0.02789812249760426, Signal=0.03506538951492066, Hist=-0.007167267017316396
+2025-10-07 09:52:10,214 - root - INFO -  MACD calculation for TELO due to high change percent: 19.0845
+2025-10-07 09:52:10,286 - root - INFO - MACD not positive for TELO: MACD=-0.009589918422937771, Signal=0.000161661505647941, Hist=-0.009751579928585712
+2025-10-07 09:52:10,498 - root - INFO -  update_current_price: start time 2025-10-07T09:51:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:52:11,550 - root - INFO -  MACD calculation for TLPH due to high change percent: 10.9091
+2025-10-07 09:52:12,048 - root - INFO -  MACD calculation for TMCWW due to high change percent: 14.3725
+2025-10-07 09:52:12,212 - root - INFO -  MACD calculation for TMQ due to high change percent: 208.373
+2025-10-07 09:52:12,258 - root - INFO - MACD not positive for TMQ: MACD=-0.02443941377526304, Signal=0.11118318131765179, Hist=-0.13562259509291483
+2025-10-07 09:52:13,166 - root - INFO - Real mode: Today's profit so far: 1539.1599749999987
+2025-10-07 09:52:13,186 - root - INFO - Running real_trade for all top movers
+2025-10-07 09:52:13,226 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
+2025-10-07 09:52:13,277 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
+2025-10-07 09:52:13,292 - root - INFO - 1min RSI is overbought for CISS: 82.61016561021266
+2025-10-07 09:52:13,293 - root - INFO -  MACD calculation for TSSI due to high change percent: 12.4722
+2025-10-07 09:52:13,313 - root - INFO - latest trade price: 4.92
+2025-10-07 09:52:13,322 - root - INFO - swing_strategy_open_long for scale 5Min stock ULY
+2025-10-07 09:52:13,354 - root - INFO - Last 5 minutes maximum volume candle is red for ULY
+2025-10-07 09:52:13,372 - root - INFO - latest trade price: 4.3
+2025-10-07 09:52:13,381 - root - INFO - swing_strategy_open_long for scale 5Min stock DVLT
+2025-10-07 09:52:13,640 - root - INFO - Last 5 minutes maximum volume candle is red for DVLT
+2025-10-07 09:52:13,655 - root - INFO - latest trade price: 2.899
+2025-10-07 09:52:13,660 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 09:52:13,693 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 09:52:13,732 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 09:52:13,732 - root - INFO - BJDX:======= 2.3056===>BUY========>TrendUp3334073
+2025-10-07 09:52:13,755 - root - WARNING - ***** stock is already in the positions
+2025-10-07 09:52:13,755 - root - INFO - swing_strategy_open_long for scale 5Min stock APVO
+2025-10-07 09:52:13,880 - root - INFO - Last 5 minutes maximum volume candle is red for APVO
+2025-10-07 09:52:13,896 - root - INFO - latest trade price: 1.775
+2025-10-07 09:52:13,904 - root - INFO -  MACD calculation for UAMY due to high change percent: 11.1248
+2025-10-07 09:52:13,979 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 09:52:14,019 - root - INFO - Profit percent for BJDX is 5.95965
+2025-10-07 09:52:14,019 - root - INFO - Latest 1min close price for BJDX: 2.3056
+2025-10-07 09:52:14,079 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 09:52:14,079 - root - INFO - Not enough profit percent to scalp for BJDX: 5.95965
+2025-10-07 09:52:14,091 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
+2025-10-07 09:52:14,129 - root - INFO - Profit percent for CCTG is 1.8394
+2025-10-07 09:52:14,129 - root - INFO - Latest 1min close price for CCTG: 1.9901
+2025-10-07 09:52:14,180 - root - INFO - MACD is still rising for stock CCTG
+2025-10-07 09:52:14,180 - root - INFO - Not enough profit percent to scalp for CCTG: 1.8394
+2025-10-07 09:52:14,190 - root - WARNING - Skipping CISS: invalid strategy format (None)
+2025-10-07 09:52:14,191 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
+2025-10-07 09:52:14,221 - root - INFO - Profit percent for CISS is 0
+2025-10-07 09:52:14,221 - root - INFO - Latest 1min close price for CISS: 4.92
+2025-10-07 09:52:14,265 - root - INFO - MACD is still rising for stock CISS
+2025-10-07 09:52:14,265 - root - INFO - Not enough profit percent to scalp for CISS: 0
+2025-10-07 09:52:14,274 - root - INFO - Skipping SCALP for CISS as it's in no_scalp list
+2025-10-07 09:52:14,522 - root - INFO -  MACD calculation for USAR due to high change percent: 12.766
+2025-10-07 09:52:14,658 - root - INFO -  MACD calculation for USARW due to high change percent: 23.3016
+2025-10-07 09:52:17,237 - root - INFO -  MACD calculation for VSA due to high change percent: 10.8475
+2025-10-07 09:52:17,421 - root - INFO -  update_current_price: start time 2025-10-07T09:51:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:52:19,858 - root - INFO -  MACD calculation for WWR due to high change percent: 11.2676
+2025-10-07 09:52:21,691 - root - INFO -  MACD calculation for YCBD due to high change percent: 10.7692
+2025-10-07 09:52:23,896 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-07 09:52:29,316 - root - INFO - Real mode: Today's profit so far: 1552.0399749999997
+2025-10-07 09:52:29,336 - root - INFO - Running real_trade for all top movers
+2025-10-07 09:52:29,387 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
+2025-10-07 09:52:29,447 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
+2025-10-07 09:52:29,470 - root - INFO - 1min RSI is overbought for CISS: 82.61016561021266
+2025-10-07 09:52:29,489 - root - INFO - latest trade price: 4.92
+2025-10-07 09:52:29,501 - root - INFO - swing_strategy_open_long for scale 5Min stock ULY
+2025-10-07 09:52:29,536 - root - INFO - Last 5 minutes maximum volume candle is red for ULY
+2025-10-07 09:52:29,553 - root - INFO - latest trade price: 4.3
+2025-10-07 09:52:29,569 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 09:52:29,614 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 09:52:29,673 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 09:52:29,674 - root - INFO - BJDX:======= 2.3056===>BUY========>TrendUp3334073
+2025-10-07 09:52:29,698 - root - WARNING - ***** stock is already in the positions
+2025-10-07 09:52:29,699 - root - INFO - swing_strategy_open_long for scale 5Min stock DVLT
+2025-10-07 09:52:29,911 - root - INFO - Last 5 minutes maximum volume candle is red for DVLT
+2025-10-07 09:52:29,930 - root - INFO - latest trade price: 2.9099
+2025-10-07 09:52:29,943 - root - INFO - swing_strategy_open_long for scale 5Min stock CCTG
+2025-10-07 09:52:29,989 - root - INFO - Last 5 minutes maximum volume candle is red for CCTG
+2025-10-07 09:52:30,010 - root - INFO - latest trade price: 1.99
+2025-10-07 09:52:30,108 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 09:52:30,151 - root - INFO - Profit percent for BJDX is 5.7283
+2025-10-07 09:52:30,151 - root - INFO - Latest 1min close price for BJDX: 2.3056
+2025-10-07 09:52:30,232 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 09:52:30,232 - root - INFO - Not enough profit percent to scalp for BJDX: 5.7283
+2025-10-07 09:52:30,257 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
+2025-10-07 09:52:30,297 - root - INFO - Profit percent for CCTG is 1.8394
+2025-10-07 09:52:30,298 - root - INFO - Latest 1min close price for CCTG: 1.9901
+2025-10-07 09:52:30,381 - root - INFO - MACD is still rising for stock CCTG
+2025-10-07 09:52:30,381 - root - INFO - Not enough profit percent to scalp for CCTG: 1.8394
+2025-10-07 09:52:30,405 - root - WARNING - Skipping CISS: invalid strategy format (None)
+2025-10-07 09:52:30,406 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
+2025-10-07 09:52:30,449 - root - INFO - Profit percent for CISS is 0
+2025-10-07 09:52:30,450 - root - INFO - Latest 1min close price for CISS: 4.92
+2025-10-07 09:52:30,530 - root - INFO - MACD is still rising for stock CISS
+2025-10-07 09:52:30,530 - root - INFO - Not enough profit percent to scalp for CISS: 0
+2025-10-07 09:52:30,554 - root - INFO - Skipping SCALP for CISS as it's in no_scalp list
+2025-10-07 09:52:45,595 - root - INFO - Real mode: Today's profit so far: 1528.1899749999975
+2025-10-07 09:52:45,615 - root - INFO - Running real_trade for all top movers
+2025-10-07 09:52:45,673 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
+2025-10-07 09:52:45,730 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
+2025-10-07 09:52:45,752 - root - INFO - 1min RSI is overbought for CISS: 82.61016561021266
+2025-10-07 09:52:45,774 - root - INFO - latest trade price: 4.92
+2025-10-07 09:52:45,790 - root - INFO - swing_strategy_open_long for scale 5Min stock ULY
+2025-10-07 09:52:45,830 - root - INFO - Last 5 minutes maximum volume candle is red for ULY
+2025-10-07 09:52:45,848 - root - INFO - latest trade price: 4.3
+2025-10-07 09:52:45,864 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 09:52:45,904 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 09:52:45,960 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 09:52:45,960 - root - INFO - BJDX:======= 2.3208===>BUY========>TrendUp3754502
+2025-10-07 09:52:45,982 - root - WARNING - ***** stock is already in the positions
+2025-10-07 09:52:45,982 - root - INFO - swing_strategy_open_long for scale 5Min stock DVLT
+2025-10-07 09:52:46,203 - root - INFO - Last 5 minutes maximum volume candle is red for DVLT
+2025-10-07 09:52:46,224 - root - INFO - latest trade price: 2.91
+2025-10-07 09:52:46,234 - root - INFO - swing_strategy_open_long for scale 5Min stock CCTG
+2025-10-07 09:52:46,279 - root - INFO - Last 5 minutes maximum volume candle is red for CCTG
+2025-10-07 09:52:46,297 - root - INFO - latest trade price: 1.99
+2025-10-07 09:52:46,402 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 09:52:46,449 - root - INFO - Profit percent for BJDX is 8.27781
+2025-10-07 09:52:46,449 - root - INFO - Latest 1min close price for BJDX: 2.3208
+2025-10-07 09:52:46,473 - root - INFO - High price DETECTED for BJDX is 2.3056 and setting no_scalp to True
+2025-10-07 09:52:46,495 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
+2025-10-07 09:52:46,539 - root - INFO - Profit percent for CCTG is 1.39611
+2025-10-07 09:52:46,540 - root - INFO - Latest 1min close price for CCTG: 1.99
+2025-10-07 09:52:46,625 - root - INFO - MACD is still rising for stock CCTG
+2025-10-07 09:52:46,625 - root - INFO - Not enough profit percent to scalp for CCTG: 1.39611
+2025-10-07 09:52:46,652 - root - WARNING - Skipping CISS: invalid strategy format (None)
+2025-10-07 09:52:46,653 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
+2025-10-07 09:52:46,701 - root - INFO - Profit percent for CISS is 0
+2025-10-07 09:52:46,701 - root - INFO - Latest 1min close price for CISS: 4.92
+2025-10-07 09:52:46,774 - root - INFO - MACD is still rising for stock CISS
+2025-10-07 09:52:46,774 - root - INFO - Not enough profit percent to scalp for CISS: 0
+2025-10-07 09:52:46,797 - root - INFO - Skipping SCALP for CISS as it's in no_scalp list
+2025-10-07 09:53:01,844 - root - INFO - Real mode: Today's profit so far: 1525.2499749999988
+2025-10-07 09:53:01,867 - root - INFO - Running real_trade for all top movers
+2025-10-07 09:53:01,914 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
+2025-10-07 09:53:01,974 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
+2025-10-07 09:53:02,002 - root - INFO - 1min RSI is overbought for CISS: 82.61016561021266
+2025-10-07 09:53:02,022 - root - INFO - latest trade price: 4.92
+2025-10-07 09:53:02,038 - root - INFO - swing_strategy_open_long for scale 5Min stock ULY
+2025-10-07 09:53:02,080 - root - INFO - Last 5 minutes maximum volume candle is red for ULY
+2025-10-07 09:53:02,099 - root - INFO - latest trade price: 4.0799
+2025-10-07 09:53:02,111 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 09:53:02,156 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 09:53:02,216 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 09:53:02,216 - root - INFO - BJDX:======= 2.3208===>BUY========>TrendUp3754502
+2025-10-07 09:53:02,237 - root - WARNING - ***** stock is already in the positions
+2025-10-07 09:53:02,237 - root - INFO - swing_strategy_open_long for scale 5Min stock DVLT
+2025-10-07 09:53:02,449 - root - INFO - Last 5 minutes maximum volume candle is red for DVLT
+2025-10-07 09:53:02,473 - root - INFO - latest trade price: 2.9199
+2025-10-07 09:53:02,489 - root - INFO - swing_strategy_open_long for scale 5Min stock CCTG
+2025-10-07 09:53:02,532 - root - INFO - Last 5 minutes maximum volume candle is red for CCTG
+2025-10-07 09:53:02,552 - root - INFO - latest trade price: 1.9987
+2025-10-07 09:53:02,655 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 09:53:02,696 - root - INFO - Profit percent for BJDX is 7.33389
+2025-10-07 09:53:02,696 - root - INFO - Latest 1min close price for BJDX: 2.3208
+2025-10-07 09:53:02,774 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 09:53:02,775 - root - INFO - Not enough profit percent to scalp for BJDX: 7.33389
+2025-10-07 09:53:02,801 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
+2025-10-07 09:53:02,853 - root - INFO - Profit percent for CCTG is 1.39611
+2025-10-07 09:53:02,853 - root - INFO - Latest 1min close price for CCTG: 1.99
+2025-10-07 09:53:02,934 - root - INFO - MACD is still rising for stock CCTG
+2025-10-07 09:53:02,934 - root - INFO - Not enough profit percent to scalp for CCTG: 1.39611
+2025-10-07 09:53:02,961 - root - WARNING - Skipping CISS: invalid strategy format (None)
+2025-10-07 09:53:02,961 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
+2025-10-07 09:53:03,006 - root - INFO - Profit percent for CISS is 0
+2025-10-07 09:53:03,006 - root - INFO - Latest 1min close price for CISS: 4.92
+2025-10-07 09:53:03,082 - root - INFO - MACD is still rising for stock CISS
+2025-10-07 09:53:03,083 - root - INFO - Not enough profit percent to scalp for CISS: 0
+2025-10-07 09:53:03,110 - root - INFO - Skipping SCALP for CISS as it's in no_scalp list
+2025-10-07 09:53:18,150 - root - INFO - Real mode: Today's profit so far: 1468.579974999997
+2025-10-07 09:53:18,172 - root - INFO - Running real_trade for all top movers
+2025-10-07 09:53:18,220 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
+2025-10-07 09:53:18,277 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
+2025-10-07 09:53:18,305 - root - INFO - 1min RSI is overbought for CISS: 82.61016561021266
+2025-10-07 09:53:18,323 - root - INFO - latest trade price: 4.92
+2025-10-07 09:53:18,337 - root - INFO - swing_strategy_open_long for scale 5Min stock ULY
+2025-10-07 09:53:18,374 - root - INFO - Last 5 minutes maximum volume candle is red for ULY
+2025-10-07 09:53:18,392 - root - INFO - latest trade price: 4.19
+2025-10-07 09:53:18,403 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 09:53:18,449 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 09:53:18,501 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 09:53:18,501 - root - INFO - BJDX:======= 2.3208===>BUY========>TrendUp3754502
+2025-10-07 09:53:18,524 - root - WARNING - ***** stock is already in the positions
+2025-10-07 09:53:18,525 - root - INFO - swing_strategy_open_long for scale 5Min stock DVLT
+2025-10-07 09:53:18,760 - root - INFO - Last 5 minutes maximum volume candle is red for DVLT
+2025-10-07 09:53:18,780 - root - INFO - latest trade price: 2.9167
+2025-10-07 09:53:18,796 - root - INFO - swing_strategy_open_long for scale 5Min stock CCTG
+2025-10-07 09:53:18,848 - root - INFO - Last 5 minutes maximum volume candle is red for CCTG
+2025-10-07 09:53:18,867 - root - INFO - latest trade price: 1.98
+2025-10-07 09:53:18,983 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 09:53:19,028 - root - INFO - Profit percent for BJDX is 5.49695
+2025-10-07 09:53:19,028 - root - INFO - Latest 1min close price for BJDX: 2.3208
+2025-10-07 09:53:19,102 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 09:53:19,102 - root - INFO - Not enough profit percent to scalp for BJDX: 5.49695
+2025-10-07 09:53:19,125 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
+2025-10-07 09:53:19,169 - root - INFO - Profit percent for CCTG is 1.8394
+2025-10-07 09:53:19,169 - root - INFO - Latest 1min close price for CCTG: 1.99
+2025-10-07 09:53:19,260 - root - INFO - MACD is still rising for stock CCTG
+2025-10-07 09:53:19,260 - root - INFO - Not enough profit percent to scalp for CCTG: 1.8394
+2025-10-07 09:53:19,286 - root - WARNING - Skipping CISS: invalid strategy format (None)
+2025-10-07 09:53:19,286 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
+2025-10-07 09:53:19,331 - root - INFO - Profit percent for CISS is 0
+2025-10-07 09:53:19,331 - root - INFO - Latest 1min close price for CISS: 4.92
+2025-10-07 09:53:19,405 - root - INFO - MACD is still rising for stock CISS
+2025-10-07 09:53:19,405 - root - INFO - Not enough profit percent to scalp for CISS: 0
+2025-10-07 09:53:19,426 - root - INFO - Skipping SCALP for CISS as it's in no_scalp list
+2025-10-07 09:53:23,983 - root - INFO - Real mode: Today's profit so far: 1462.2399749999968
+2025-10-07 09:53:24,007 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
+2025-10-07 09:53:24,008 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
+2025-10-07 09:53:24,036 - root - INFO -  update_current_price: start time 2025-10-07T09:52:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:53:31,294 - root - INFO -  MACD calculation for APVO due to high change percent: 30.4894
+2025-10-07 09:53:32,812 - root - INFO -  update_current_price: start time 2025-10-07T09:52:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:53:34,457 - root - INFO - Real mode: Today's profit so far: 1472.6199749999978
+2025-10-07 09:53:34,477 - root - INFO - Running real_trade for all top movers
+2025-10-07 09:53:34,519 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
+2025-10-07 09:53:34,608 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
+2025-10-07 09:53:34,625 - root - INFO - 1min RSI is overbought for CISS: 82.61016561021266
+2025-10-07 09:53:34,680 - root - INFO - latest trade price: 4.92
+2025-10-07 09:53:34,690 - root - INFO - swing_strategy_open_long for scale 5Min stock ULY
+2025-10-07 09:53:34,772 - root - INFO - Last 5 minutes maximum volume candle is green for ULY
+2025-10-07 09:53:34,786 - root - INFO - 1min candle is not positive for ULY: open 3.81 close 4.19
+2025-10-07 09:53:35,007 - root - INFO - latest trade price: 4.19
+2025-10-07 09:53:35,018 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 09:53:35,082 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 09:53:35,097 - root - INFO - 1min candle is not positive for BJDX: open 2.3227 close 2.1456
+2025-10-07 09:53:35,117 - root - INFO - latest trade price: 2.1499
+2025-10-07 09:53:35,125 - root - INFO - swing_strategy_open_long for scale 5Min stock DVLT
+2025-10-07 09:53:35,347 - root - INFO - Last 5 minutes maximum volume candle is red for DVLT
+2025-10-07 09:53:35,364 - root - INFO - latest trade price: 2.9011
+2025-10-07 09:53:35,372 - root - INFO - swing_strategy_open_long for scale 5Min stock CCTG
+2025-10-07 09:53:35,412 - root - INFO - Last 5 minutes maximum volume candle is red for CCTG
+2025-10-07 09:53:35,430 - root - INFO - latest trade price: 1.94
+2025-10-07 09:53:35,518 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 09:53:35,553 - root - INFO - Profit percent for BJDX is -0.980937
+2025-10-07 09:53:35,553 - root - INFO - Latest 1min close price for BJDX: 2.1456
+2025-10-07 09:53:35,605 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 09:53:35,605 - root - INFO - Not enough profit percent to scalp for BJDX: -0.980937
+2025-10-07 09:53:35,618 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
+2025-10-07 09:53:35,659 - root - INFO - Profit percent for CCTG is 0.886579
+2025-10-07 09:53:35,659 - root - INFO - Latest 1min close price for CCTG: 1.98
+2025-10-07 09:53:35,715 - root - INFO - MACD is still rising for stock CCTG
+2025-10-07 09:53:35,715 - root - INFO - Not enough profit percent to scalp for CCTG: 0.886579
+2025-10-07 09:53:35,726 - root - WARNING - Skipping CISS: invalid strategy format (None)
+2025-10-07 09:53:35,726 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
+2025-10-07 09:53:35,758 - root - INFO - Profit percent for CISS is 0
+2025-10-07 09:53:35,758 - root - INFO - Latest 1min close price for CISS: 4.92
+2025-10-07 09:53:35,802 - root - INFO - MACD is still rising for stock CISS
+2025-10-07 09:53:35,802 - root - INFO - Not enough profit percent to scalp for CISS: 0
+2025-10-07 09:53:35,811 - root - INFO - Skipping SCALP for CISS as it's in no_scalp list
+2025-10-07 09:53:36,135 - root - INFO -  MACD calculation for BDMD due to high change percent: 12.8862
+2025-10-07 09:53:37,717 - root - INFO -  MACD calculation for BJDX due to high change percent: 41.2903
+2025-10-07 09:53:38,075 - root - INFO -  MACD calculation for BLIN due to high change percent: 10.3704
+2025-10-07 09:53:38,802 - root - INFO -  MACD calculation for BNAI due to high change percent: 14.8582
+2025-10-07 09:53:39,633 - root - INFO -  update_current_price: start time 2025-10-07T09:52:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:53:43,260 - root - INFO -  MACD calculation for CAPS due to high change percent: 10.9076
+2025-10-07 09:53:44,425 - root - INFO -  MACD calculation for CCTG due to high change percent: 31.9139
+2025-10-07 09:53:48,810 - root - INFO -  update_current_price: start time 2025-10-07T09:52:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:53:49,203 - root - INFO -  MACD calculation for COCH due to high change percent: 106.185
+2025-10-07 09:53:49,242 - root - INFO - MACD not positive for COCH: MACD=0.09173411713297619, Signal=0.15913742956863725, Hist=-0.06740331243566106
+2025-10-07 09:53:50,851 - root - INFO - Real mode: Today's profit so far: 1450.5999749999974
+2025-10-07 09:53:50,870 - root - INFO - Running real_trade for all top movers
+2025-10-07 09:53:50,909 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
+2025-10-07 09:53:50,961 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
+2025-10-07 09:53:50,975 - root - INFO - 1min RSI is overbought for CISS: 82.61016561021266
+2025-10-07 09:53:50,992 - root - INFO - latest trade price: 4.92
+2025-10-07 09:53:50,999 - root - INFO - swing_strategy_open_long for scale 5Min stock ULY
+2025-10-07 09:53:51,031 - root - INFO - Last 5 minutes maximum volume candle is green for ULY
+2025-10-07 09:53:51,046 - root - INFO - 1min candle is not positive for ULY: open 3.81 close 4.19
+2025-10-07 09:53:51,064 - root - INFO - latest trade price: 4.19
+2025-10-07 09:53:51,072 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 09:53:51,110 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 09:53:51,122 - root - INFO - 1min candle is not positive for BJDX: open 2.3227 close 2.1456
+2025-10-07 09:53:51,139 - root - INFO - latest trade price: 2.1597
+2025-10-07 09:53:51,146 - root - INFO - swing_strategy_open_long for scale 5Min stock DVLT
+2025-10-07 09:53:51,387 - root - INFO - Last 5 minutes maximum volume candle is red for DVLT
+2025-10-07 09:53:51,404 - root - INFO - latest trade price: 2.975
+2025-10-07 09:53:51,409 - root - INFO - swing_strategy_open_long for scale 5Min stock CCTG
+2025-10-07 09:53:51,446 - root - INFO - Last 5 minutes maximum volume candle is red for CCTG
+2025-10-07 09:53:51,463 - root - INFO - latest trade price: 1.94
+2025-10-07 09:53:51,547 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 09:53:51,579 - root - INFO - Profit percent for BJDX is -0.522858
+2025-10-07 09:53:51,579 - root - INFO - Latest 1min close price for BJDX: 2.1456
+2025-10-07 09:53:51,626 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 09:53:51,626 - root - INFO - Not enough profit percent to scalp for BJDX: -0.522858
+2025-10-07 09:53:51,636 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
+2025-10-07 09:53:51,675 - root - INFO - Profit percent for CCTG is -1.15153
+2025-10-07 09:53:51,676 - root - INFO - Latest 1min close price for CCTG: 1.98
+2025-10-07 09:53:51,736 - root - INFO - MACD is still rising for stock CCTG
+2025-10-07 09:53:51,736 - root - INFO - Not enough profit percent to scalp for CCTG: -1.15153
+2025-10-07 09:53:51,748 - root - WARNING - Skipping CISS: invalid strategy format (None)
+2025-10-07 09:53:51,748 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
+2025-10-07 09:53:51,783 - root - INFO - Profit percent for CISS is 0
+2025-10-07 09:53:51,783 - root - INFO - Latest 1min close price for CISS: 4.92
+2025-10-07 09:53:51,829 - root - INFO - MACD is still rising for stock CISS
+2025-10-07 09:53:51,830 - root - INFO - Not enough profit percent to scalp for CISS: 0
+2025-10-07 09:53:51,838 - root - INFO - Skipping SCALP for CISS as it's in no_scalp list
+2025-10-07 09:53:53,193 - root - INFO -  MACD calculation for DBVT due to high change percent: 11.5124
+2025-10-07 09:53:54,208 - root - INFO -  MACD calculation for DGNX due to high change percent: 17.2641
+2025-10-07 09:53:57,127 - root - INFO -  MACD calculation for DVLT due to high change percent: 37.5
+2025-10-07 09:53:57,492 - root - INFO -  update_current_price: start time 2025-10-07T09:52:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:53:59,906 - root - INFO -  MACD calculation for ELAB due to high change percent: 21.9963
+2025-10-07 09:53:59,949 - root - INFO - MACD not positive for ELAB: MACD=0.06807633974046379, Signal=0.06892893507027845, Hist=-0.0008525953298146594
+2025-10-07 09:54:00,062 - root - INFO -  MACD calculation for ELBM due to high change percent: 12.766
+2025-10-07 09:54:00,434 - root - INFO -  MACD calculation for ELPW due to high change percent: 26.4641
+2025-10-07 09:54:05,469 - root - INFO -  update_current_price: start time 2025-10-07T09:53:00-04:00 end_time 2025-10-07T21:55:00-04:00
