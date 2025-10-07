@@ -2,8 +2,9 @@ Top Movers:
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  CISS  |      1      |     0     |    104.977     | 35959070 |      4.53     |        2.21        |   700000.0   |  2.1998  |   41932    |      0      | 2025-10-07 10:37:11 |
-|  BNAI  |      0      |     0     |    66.0782     | 14617704 |     0.8372    |       0.5041       |  27890000.0  | 0.41672  |  50179374  |      0      | 2025-10-07 10:37:06 |
+|  CISS  |      0      |     0     |    116.217     | 36913492 |     4.7784    |        2.21        |   700000.0   |  2.1998  |   41932    |      0      | 2025-10-07 10:42:30 |
+|  BNAI  |      0      |     0     |    52.8268     | 19493162 |     0.7704    |       0.5041       |  27890000.0  | 0.41672  |  50179374  |      0      | 2025-10-07 10:42:25 |
+|  LXEO  |      0      |     0     |    30.4482     | 3216201  |      8.44     |        6.47        |  25010000.0  |  6.614   |   357163   |      0      | 2025-10-07 10:43:07 |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -17,403 +18,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-07 10:35:17,344 - root - INFO - Latest 1min close price for CISS: 4.52
-2025-10-07 10:35:17,403 - root - INFO - No close long conditions met for CISS
-2025-10-07 10:35:19,065 - root - INFO -  update_current_price: start time 2025-10-07T10:34:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 10:35:25,325 - root - INFO -  MACD calculation for QMCO due to high change percent: 24.0134
-2025-10-07 10:35:25,717 - root - INFO -  update_current_price: start time 2025-10-07T10:34:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 10:35:26,875 - root - INFO -  MACD calculation for REKR due to high change percent: 19.6133
-2025-10-07 10:35:26,937 - root - INFO - MACD not positive for REKR: MACD=0.012486926017299727, Signal=0.02108710418698405, Hist=-0.008600178169684322
-2025-10-07 10:35:28,366 - root - INFO -  MACD calculation for RR due to high change percent: 10.3587
-2025-10-07 10:35:28,884 - root - INFO -  MACD calculation for RVPH due to high change percent: 26.2513
-2025-10-07 10:35:29,019 - root - INFO -  MACD calculation for RVSN due to high change percent: 17.1122
-2025-10-07 10:35:30,913 - root - INFO -  MACD calculation for SES due to high change percent: 14.6091
-2025-10-07 10:35:30,998 - root - INFO - MACD not positive for SES: MACD=0.037779689163879304, Signal=0.047351315514114645, Hist=-0.00957162635023534
-2025-10-07 10:35:31,738 - root - INFO -  update_current_price: start time 2025-10-07T10:34:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 10:35:32,445 - root - INFO - Real mode: Today's profit so far: 1687.2599749999972
-2025-10-07 10:35:32,464 - root - INFO - Running real_trade for all top movers
-2025-10-07 10:35:32,501 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
-2025-10-07 10:35:32,557 - root - INFO - Last 5 minutes maximum volume candle is red for CISS
-2025-10-07 10:35:32,576 - root - INFO - latest trade price: 4.322
-2025-10-07 10:35:32,584 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
-2025-10-07 10:35:32,734 - root - INFO - Last 5 minutes maximum volume candle is green for BNAI
-2025-10-07 10:35:32,801 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-07 10:35:32,801 - root - INFO - BNAI:======= 0.8348===>BUY========>TrendUp25120300
-2025-10-07 10:35:32,818 - root - WARNING - ***** stock is already in the positions
-2025-10-07 10:35:32,835 - root - INFO -  MACD calculation for SLNH due to high change percent: 10.6222
-2025-10-07 10:35:32,890 - root - INFO - swing_strategy_close_long for scale 5Min stock BNAI
-2025-10-07 10:35:32,906 - root - INFO - MACD not positive for SLNH: MACD=0.021199803351652946, Signal=0.03633723184285835, Hist=-0.015137428491205404
-2025-10-07 10:35:33,025 - root - INFO - Profit percent for BNAI is 2.188
-2025-10-07 10:35:33,025 - root - INFO - Latest 1min close price for BNAI: 0.8348
-2025-10-07 10:35:33,130 - root - INFO - MACD is still rising for stock BNAI
-2025-10-07 10:35:33,130 - root - INFO - Not enough profit percent to scalp for BNAI: 2.188
-2025-10-07 10:35:33,156 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 10:35:33,187 - root - INFO - Profit percent for CISS is -16.1777
-2025-10-07 10:35:33,187 - root - INFO - Latest 1min close price for CISS: 4.52
-2025-10-07 10:35:33,236 - root - INFO - No close long conditions met for CISS
-2025-10-07 10:35:33,393 - root - INFO -  MACD calculation for SNGX due to high change percent: 18.2044
-2025-10-07 10:35:33,450 - root - INFO - MACD not positive for SNGX: MACD=0.01793457051710634, Signal=0.022130852337194865, Hist=-0.0041962818200885245
-2025-10-07 10:35:36,949 - root - INFO -  MACD calculation for TELO due to high change percent: 18.3099
-2025-10-07 10:35:37,168 - root - INFO -  update_current_price: start time 2025-10-07T10:34:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 10:35:38,480 - root - INFO -  MACD calculation for TLPH due to high change percent: 12.7273
-2025-10-07 10:35:38,749 - root - INFO -  MACD calculation for TMC due to high change percent: 14.1179
-2025-10-07 10:35:38,934 - root - INFO -  MACD calculation for TMCWW due to high change percent: 23.5294
-2025-10-07 10:35:39,119 - root - INFO -  MACD calculation for TMQ due to high change percent: 219.086
-2025-10-07 10:35:39,161 - root - INFO - MACD not positive for TMQ: MACD=-0.06581752211169967, Signal=-0.03763981256210478, Hist=-0.028177709549594886
-2025-10-07 10:35:40,639 - root - INFO -  MACD calculation for TSSI due to high change percent: 12.7227
-2025-10-07 10:35:40,715 - root - INFO - MACD not positive for TSSI: MACD=0.4853149028287653, Signal=0.4898726844497249, Hist=-0.0045577816209596
-2025-10-07 10:35:41,562 - root - INFO -  MACD calculation for UAMY due to high change percent: 12.4932
-2025-10-07 10:35:42,193 - root - INFO -  MACD calculation for ULY due to high change percent: 19.3462
-2025-10-07 10:35:42,231 - root - INFO - MACD not positive for ULY: MACD=0.025783870745583748, Signal=0.19258868881603905, Hist=-0.1668048180704553
-2025-10-07 10:35:43,031 - root - INFO -  MACD calculation for USAR due to high change percent: 15.6915
-2025-10-07 10:35:43,174 - root - INFO -  MACD calculation for USARW due to high change percent: 28.0571
-2025-10-07 10:35:43,405 - root - INFO -  MACD calculation for USGOW due to high change percent: 13.8298
-2025-10-07 10:35:45,558 - root - INFO -  update_current_price: start time 2025-10-07T10:34:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 10:35:46,960 - root - INFO -  MACD calculation for WETH due to high change percent: 20.0
-2025-10-07 10:35:48,279 - root - INFO - Real mode: Today's profit so far: 1700.9099749999987
-2025-10-07 10:35:48,300 - root - INFO - Running real_trade for all top movers
-2025-10-07 10:35:48,338 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
-2025-10-07 10:35:48,396 - root - INFO - Last 5 minutes maximum volume candle is red for CISS
-2025-10-07 10:35:48,407 - root - INFO -  MACD calculation for XBIO due to high change percent: 18.8256
-2025-10-07 10:35:48,419 - root - INFO - latest trade price: 4.41
-2025-10-07 10:35:48,429 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
-2025-10-07 10:35:48,591 - root - INFO - Last 5 minutes maximum volume candle is green for BNAI
-2025-10-07 10:35:48,662 - root - INFO - Trend up basic conditions not met for BNAI: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 10:35:48,681 - root - INFO - latest trade price: 0.8329
-2025-10-07 10:35:48,774 - root - INFO - swing_strategy_close_long for scale 5Min stock BNAI
-2025-10-07 10:35:49,009 - root - INFO - Profit percent for BNAI is 1.39347
-2025-10-07 10:35:49,009 - root - INFO - Latest 1min close price for BNAI: 0.8295
-2025-10-07 10:35:49,091 - root - INFO -  MACD calculation for YCBD due to high change percent: 15.3846
-2025-10-07 10:35:49,099 - root - INFO - MACD is still rising for stock BNAI
-2025-10-07 10:35:49,099 - root - INFO - Not enough profit percent to scalp for BNAI: 1.39347
-2025-10-07 10:35:49,113 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 10:35:49,149 - root - INFO - Profit percent for CISS is -15.4954
-2025-10-07 10:35:49,149 - root - INFO - Latest 1min close price for CISS: 4.3388
-2025-10-07 10:35:49,211 - root - INFO - No close long conditions met for CISS
-2025-10-07 10:35:51,410 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-07 10:36:04,268 - root - INFO - Real mode: Today's profit so far: 1701.579974999997
-2025-10-07 10:36:04,293 - root - INFO - Running real_trade for all top movers
-2025-10-07 10:36:04,334 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
-2025-10-07 10:36:04,398 - root - INFO - Last 5 minutes maximum volume candle is red for CISS
-2025-10-07 10:36:04,416 - root - INFO - latest trade price: 4.57
-2025-10-07 10:36:04,426 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
-2025-10-07 10:36:04,608 - root - INFO - Last 5 minutes maximum volume candle is green for BNAI
-2025-10-07 10:36:04,687 - root - INFO - Trend up basic conditions not met for BNAI: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 10:36:04,706 - root - INFO - latest trade price: 0.833
-2025-10-07 10:36:04,808 - root - INFO - swing_strategy_close_long for scale 5Min stock BNAI
-2025-10-07 10:36:04,969 - root - INFO - Profit percent for BNAI is 1.80907
-2025-10-07 10:36:04,970 - root - INFO - Latest 1min close price for BNAI: 0.8295
-2025-10-07 10:36:05,058 - root - INFO - MACD is still rising for stock BNAI
-2025-10-07 10:36:05,058 - root - INFO - Not enough profit percent to scalp for BNAI: 1.80907
-2025-10-07 10:36:05,074 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 10:36:05,117 - root - INFO - Profit percent for CISS is -14.0315
-2025-10-07 10:36:05,117 - root - INFO - Latest 1min close price for CISS: 4.335
-2025-10-07 10:36:05,187 - root - INFO - No close long conditions met for CISS
-2025-10-07 10:36:20,230 - root - INFO - Real mode: Today's profit so far: 1704.419974999997
-2025-10-07 10:36:20,249 - root - INFO - Running real_trade for all top movers
-2025-10-07 10:36:20,287 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
-2025-10-07 10:36:20,348 - root - INFO - Last 5 minutes maximum volume candle is red for CISS
-2025-10-07 10:36:20,369 - root - INFO - latest trade price: 4.55
-2025-10-07 10:36:20,379 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
-2025-10-07 10:36:20,553 - root - INFO - Last 5 minutes maximum volume candle is green for BNAI
-2025-10-07 10:36:20,616 - root - INFO - Trend up basic conditions not met for BNAI: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 10:36:20,635 - root - INFO - latest trade price: 0.8359
-2025-10-07 10:36:20,775 - root - INFO - swing_strategy_close_long for scale 5Min stock BNAI
-2025-10-07 10:36:20,948 - root - INFO - Profit percent for BNAI is 1.9802
-2025-10-07 10:36:20,948 - root - INFO - Latest 1min close price for BNAI: 0.8295
-2025-10-07 10:36:21,038 - root - INFO - MACD is still rising for stock BNAI
-2025-10-07 10:36:21,038 - root - INFO - Not enough profit percent to scalp for BNAI: 1.9802
-2025-10-07 10:36:21,059 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 10:36:21,108 - root - INFO - Profit percent for CISS is -10.9144
-2025-10-07 10:36:21,108 - root - INFO - Latest 1min close price for CISS: 4.335
-2025-10-07 10:36:21,178 - root - INFO - No close long conditions met for CISS
-2025-10-07 10:36:36,225 - root - INFO - Real mode: Today's profit so far: 1689.089974999999
-2025-10-07 10:36:36,253 - root - INFO - Running real_trade for all top movers
-2025-10-07 10:36:36,295 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
-2025-10-07 10:36:36,373 - root - INFO - Last 5 minutes maximum volume candle is red for CISS
-2025-10-07 10:36:36,396 - root - INFO - latest trade price: 4.56
-2025-10-07 10:36:36,406 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
-2025-10-07 10:36:36,572 - root - INFO - Last 5 minutes maximum volume candle is green for BNAI
-2025-10-07 10:36:36,624 - root - INFO - Trend up basic conditions not met for BNAI: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 10:36:36,646 - root - INFO - latest trade price: 0.8371
-2025-10-07 10:36:36,746 - root - INFO - swing_strategy_close_long for scale 5Min stock BNAI
-2025-10-07 10:36:36,901 - root - INFO - Profit percent for BNAI is 2.33468
-2025-10-07 10:36:36,902 - root - INFO - Latest 1min close price for BNAI: 0.8372
-2025-10-07 10:36:36,922 - root - INFO - High price DETECTED for BNAI is 0.8348 and setting no_scalp to True
-2025-10-07 10:36:36,945 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 10:36:36,987 - root - INFO - Profit percent for CISS is -11.6942
-2025-10-07 10:36:36,987 - root - INFO - Latest 1min close price for CISS: 4.53
-2025-10-07 10:36:37,053 - root - INFO - No close long conditions met for CISS
-2025-10-07 10:36:51,547 - root - INFO - Real mode: Today's profit so far: 1698.5099749999972
-2025-10-07 10:36:51,571 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
-2025-10-07 10:36:51,571 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
-2025-10-07 10:36:51,598 - root - INFO -  update_current_price: start time 2025-10-07T10:35:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 10:36:52,095 - root - INFO - Real mode: Today's profit so far: 1696.0599749999965
-2025-10-07 10:36:52,114 - root - INFO - Running real_trade for all top movers
-2025-10-07 10:36:52,153 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
-2025-10-07 10:36:52,216 - root - INFO - Last 5 minutes maximum volume candle is red for CISS
-2025-10-07 10:36:52,253 - root - INFO - latest trade price: 4.47
-2025-10-07 10:36:52,262 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
-2025-10-07 10:36:52,477 - root - INFO - Last 5 minutes maximum volume candle is green for BNAI
-2025-10-07 10:36:52,534 - root - INFO - Trend up basic conditions not met for BNAI: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 10:36:52,550 - root - INFO - latest trade price: 0.8299
-2025-10-07 10:36:52,622 - root - INFO - swing_strategy_close_long for scale 5Min stock BNAI
-2025-10-07 10:36:52,781 - root - INFO - Profit percent for BNAI is 2.31023
-2025-10-07 10:36:52,781 - root - INFO - Latest 1min close price for BNAI: 0.8372
-2025-10-07 10:36:52,850 - root - INFO - MACD is still rising for stock BNAI
-2025-10-07 10:36:52,851 - root - INFO - Not enough profit percent to scalp for BNAI: 2.31023
-2025-10-07 10:36:52,862 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 10:36:52,895 - root - INFO - Profit percent for CISS is -10.9144
-2025-10-07 10:36:52,895 - root - INFO - Latest 1min close price for CISS: 4.53
-2025-10-07 10:36:52,947 - root - INFO - No close long conditions met for CISS
-2025-10-07 10:36:57,433 - root - INFO -  MACD calculation for ANIX due to high change percent: 10.7692
-2025-10-07 10:36:58,225 - root - INFO -  MACD calculation for APVO due to high change percent: 23.3546
-2025-10-07 10:36:58,293 - root - INFO - MACD not positive for APVO: MACD=0.0062069959491732885, Signal=0.011834240606977256, Hist=-0.0056272446578039675
-2025-10-07 10:36:59,567 - root - INFO -  update_current_price: start time 2025-10-07T10:35:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 10:37:04,946 - root - INFO -  MACD calculation for BJDX due to high change percent: 29.0323
-2025-10-07 10:37:04,979 - root - INFO - MACD not positive for BJDX: MACD=0.004114466352040491, Signal=0.029493991032411796, Hist=-0.025379524680371305
-2025-10-07 10:37:05,393 - root - INFO -  MACD calculation for BLIN due to high change percent: 11.1111
-2025-10-07 10:37:05,427 - root - INFO - MACD not positive for BLIN: MACD=0.027745872782193315, Signal=0.03315074399520722, Hist=-0.005404871213013904
-2025-10-07 10:37:05,838 - root - INFO -  MACD calculation for BNAI due to high change percent: 54.0964
-2025-10-07 10:37:06,423 - root - INFO -  MACD calculation for BQ due to high change percent: 91.125
-2025-10-07 10:37:06,582 - root - INFO -  update_current_price: start time 2025-10-07T10:36:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 10:37:07,990 - root - INFO - Real mode: Today's profit so far: 1703.7499749999988
-2025-10-07 10:37:08,010 - root - INFO - Running real_trade for all top movers
-2025-10-07 10:37:08,049 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
-2025-10-07 10:37:08,107 - root - INFO - Last 5 minutes maximum volume candle is red for CISS
-2025-10-07 10:37:08,125 - root - INFO - latest trade price: 4.53
-2025-10-07 10:37:08,132 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
-2025-10-07 10:37:08,287 - root - INFO - Last 5 minutes maximum volume candle is green for BNAI
-2025-10-07 10:37:08,350 - root - INFO - Trend up basic conditions not met for BNAI: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 10:37:08,367 - root - INFO - latest trade price: 0.8309
-2025-10-07 10:37:08,445 - root - INFO - swing_strategy_close_long for scale 5Min stock BNAI
-2025-10-07 10:37:08,505 - root - INFO -  MACD calculation for CAPT due to high change percent: 10.2786
-2025-10-07 10:37:08,594 - root - INFO - Profit percent for BNAI is 1.44237
-2025-10-07 10:37:08,594 - root - INFO - Latest 1min close price for BNAI: 0.8372
-2025-10-07 10:37:08,668 - root - INFO - MACD is still rising for stock BNAI
-2025-10-07 10:37:08,668 - root - INFO - Not enough profit percent to scalp for BNAI: 1.44237
-2025-10-07 10:37:08,681 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 10:37:08,717 - root - INFO - Profit percent for CISS is -12.8599
-2025-10-07 10:37:08,717 - root - INFO - Latest 1min close price for CISS: 4.53
-2025-10-07 10:37:08,768 - root - INFO - No close long conditions met for CISS
-2025-10-07 10:37:08,901 - root - INFO -  MACD calculation for CCTG due to high change percent: 28.4768
-2025-10-07 10:37:08,944 - root - INFO - MACD not positive for CCTG: MACD=0.061891851885550686, Signal=0.06320093078527181, Hist=-0.0013090788997211222
-2025-10-07 10:37:10,632 - root - INFO -  MACD calculation for CISS due to high change percent: 107.24
-2025-10-07 10:37:11,523 - root - INFO -  MACD calculation for CMMB due to high change percent: 12.2439
-2025-10-07 10:37:12,081 - root - INFO -  update_current_price: start time 2025-10-07T10:36:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 10:37:12,380 - root - INFO -  MACD calculation for COCH due to high change percent: 105.751
-2025-10-07 10:37:12,420 - root - INFO - MACD not positive for COCH: MACD=0.021513197170081932, Signal=0.046240554680875436, Hist=-0.024727357510793503
-2025-10-07 10:37:14,723 - root - INFO -  MACD calculation for CTXR due to high change percent: 10.9023
-2025-10-07 10:37:16,197 - root - INFO -  MACD calculation for DBVT due to high change percent: 11.7758
-2025-10-07 10:37:16,236 - root - INFO - MACD not positive for DBVT: MACD=0.2596091990967846, Signal=0.29173051214799645, Hist=-0.03212131305121185
-2025-10-07 10:37:17,124 - root - INFO -  MACD calculation for DGNX due to high change percent: 21.599
-2025-10-07 10:37:18,979 - root - INFO -  MACD calculation for DVLT due to high change percent: 35.5721
-2025-10-07 10:37:19,054 - root - INFO - MACD not positive for DVLT: MACD=0.02884468052849387, Signal=0.03152660639532317, Hist=-0.0026819258668292975
-2025-10-07 10:37:19,191 - root - INFO -  update_current_price: start time 2025-10-07T10:36:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 10:37:20,599 - root - INFO -  MACD calculation for ELAB due to high change percent: 21.7763
-2025-10-07 10:37:20,736 - root - INFO -  MACD calculation for ELBM due to high change percent: 12.766
-2025-10-07 10:37:20,984 - root - INFO -  MACD calculation for ELPW due to high change percent: 14.1621
-2025-10-07 10:37:21,061 - root - INFO - MACD not positive for ELPW: MACD=0.019177756452464, Signal=0.022898053187375724, Hist=-0.003720296734911723
-2025-10-07 10:37:23,815 - root - INFO - Real mode: Today's profit so far: 1740.5199749999992
-2025-10-07 10:37:23,835 - root - INFO - Running real_trade for all top movers
-2025-10-07 10:37:23,878 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
-2025-10-07 10:37:23,934 - root - INFO - Last 5 minutes maximum volume candle is red for CISS
-2025-10-07 10:37:23,954 - root - INFO - latest trade price: 4.5302
-2025-10-07 10:37:23,963 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
-2025-10-07 10:37:24,120 - root - INFO - Last 5 minutes maximum volume candle is green for BNAI
-2025-10-07 10:37:24,190 - root - INFO - Trend up basic conditions not met for BNAI: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 10:37:24,208 - root - INFO - latest trade price: 0.8718
-2025-10-07 10:37:24,299 - root - INFO - swing_strategy_close_long for scale 5Min stock BNAI
-2025-10-07 10:37:24,432 - root - INFO - Profit percent for BNAI is 1.55238
-2025-10-07 10:37:24,432 - root - INFO - Latest 1min close price for BNAI: 0.8372
-2025-10-07 10:37:24,514 - root - INFO - MACD is still rising for stock BNAI
-2025-10-07 10:37:24,514 - root - INFO - Not enough profit percent to scalp for BNAI: 1.55238
-2025-10-07 10:37:24,532 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 10:37:24,569 - root - INFO - Profit percent for CISS is -11.6942
-2025-10-07 10:37:24,569 - root - INFO - Latest 1min close price for CISS: 4.53
-2025-10-07 10:37:24,631 - root - INFO - No close long conditions met for CISS
-2025-10-07 10:37:24,778 - root - INFO -  update_current_price: start time 2025-10-07T10:36:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 10:37:27,719 - root - INFO -  MACD calculation for GIGGW due to high change percent: 18.8769
-2025-10-07 10:37:28,092 - root - INFO -  MACD calculation for GLTO due to high change percent: 535.849
-2025-10-07 10:37:28,146 - root - INFO - MACD not positive for GLTO: MACD=-0.08005821994697726, Signal=0.4587461796307936, Hist=-0.5388043995777709
-2025-10-07 10:37:30,896 - root - INFO -  update_current_price: start time 2025-10-07T10:36:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 10:37:34,106 - root - INFO -  MACD calculation for HYLN due to high change percent: 17.3816
-2025-10-07 10:37:36,086 - root - INFO -  MACD calculation for INDP due to high change percent: 23.8245
-2025-10-07 10:37:36,144 - root - INFO - MACD not positive for INDP: MACD=0.11139434733331743, Signal=0.12506505723650677, Hist=-0.013670709903189332
-2025-10-07 10:37:37,369 - root - INFO -  update_current_price: start time 2025-10-07T10:36:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 10:37:37,566 - root - INFO -  MACD calculation for ITRM due to high change percent: 14.4857
-2025-10-07 10:37:39,681 - root - INFO - Real mode: Today's profit so far: 1776.1899749999975
-2025-10-07 10:37:39,701 - root - INFO - Running real_trade for all top movers
-2025-10-07 10:37:39,739 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
-2025-10-07 10:37:39,801 - root - INFO - Last 5 minutes maximum volume candle is red for CISS
-2025-10-07 10:37:39,821 - root - INFO - latest trade price: 4.57
-2025-10-07 10:37:39,829 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
-2025-10-07 10:37:39,978 - root - INFO -  MACD calculation for KLTO due to high change percent: 11.5385
-2025-10-07 10:37:39,982 - root - INFO - Last 5 minutes maximum volume candle is green for BNAI
-2025-10-07 10:37:39,995 - root - INFO - 1min RSI is overbought for BNAI: 71.79498420896071
-2025-10-07 10:37:40,016 - root - INFO - latest trade price: 0.8947
-2025-10-07 10:37:40,109 - root - INFO - swing_strategy_close_long for scale 5Min stock BNAI
-2025-10-07 10:37:40,254 - root - INFO - Profit percent for BNAI is 6.55177
-2025-10-07 10:37:40,254 - root - INFO - Latest 1min close price for BNAI: 0.888
-2025-10-07 10:37:40,273 - root - INFO - High price DETECTED for BNAI is 0.8372 and setting no_scalp to True
-2025-10-07 10:37:40,292 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 10:37:40,332 - root - INFO - Profit percent for CISS is -11.3043
-2025-10-07 10:37:40,332 - root - INFO - Latest 1min close price for CISS: 4.54
-2025-10-07 10:37:40,395 - root - INFO - No close long conditions met for CISS
-2025-10-07 10:37:41,399 - root - INFO -  MACD calculation for KZIA due to high change percent: 14.8968
-2025-10-07 10:37:41,719 - root - INFO -  MACD calculation for LAR due to high change percent: 15.9502
-2025-10-07 10:37:41,781 - root - INFO - MACD not positive for LAR: MACD=0.061018482449872735, Signal=0.06298524885556075, Hist=-0.0019667664056880196
-2025-10-07 10:37:44,712 - root - INFO -  update_current_price: start time 2025-10-07T10:36:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 10:37:45,064 - root - INFO -  MACD calculation for LXEO due to high change percent: 29.289
-2025-10-07 10:37:45,120 - root - INFO - MACD not positive for LXEO: MACD=0.013367683919994988, Signal=0.013390805719442445, Hist=-2.3121799447457098e-05
-2025-10-07 10:37:47,790 - root - INFO -  MACD calculation for MIGI due to high change percent: 16.3149
-2025-10-07 10:37:51,556 - root - INFO -  MACD calculation for NAK due to high change percent: 25.6556
-2025-10-07 10:37:51,627 - root - INFO - MACD not positive for NAK: MACD=-0.01699266631291696, Signal=-0.007785200501626913, Hist=-0.009207465811290047
-2025-10-07 10:37:52,128 - root - INFO -  update_current_price: start time 2025-10-07T10:36:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 10:37:54,347 - root - INFO -  MACD calculation for NMTC due to high change percent: 10.4861
-2025-10-07 10:37:54,402 - root - INFO - MACD not positive for NMTC: MACD=0.0005444320260781232, Signal=0.0025007237286550194, Hist=-0.001956291702576896
-2025-10-07 10:37:55,444 - root - INFO - Real mode: Today's profit so far: 1813.549974999998
-2025-10-07 10:37:55,462 - root - INFO - Running real_trade for all top movers
-2025-10-07 10:37:55,497 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
-2025-10-07 10:37:55,557 - root - INFO - Last 5 minutes maximum volume candle is red for CISS
-2025-10-07 10:37:55,578 - root - INFO - latest trade price: 4.5301
-2025-10-07 10:37:55,586 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
-2025-10-07 10:37:55,749 - root - INFO - Last 5 minutes maximum volume candle is green for BNAI
-2025-10-07 10:37:55,761 - root - INFO - 1min RSI is overbought for BNAI: 71.79498420896071
-2025-10-07 10:37:55,780 - root - INFO - latest trade price: 0.9085
-2025-10-07 10:37:55,859 - root - INFO - swing_strategy_close_long for scale 5Min stock BNAI
-2025-10-07 10:37:56,007 - root - INFO - Profit percent for BNAI is 9.36316
-2025-10-07 10:37:56,007 - root - INFO - Latest 1min close price for BNAI: 0.888
-2025-10-07 10:37:56,082 - root - INFO - MACD is still rising for stock BNAI
-2025-10-07 10:37:56,082 - root - INFO - Not enough profit percent to scalp for BNAI: 9.36316
-2025-10-07 10:37:56,093 - root - INFO - Skipping SCALP for BNAI as it's in no_scalp list
-2025-10-07 10:37:56,098 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 10:37:56,133 - root - INFO - Profit percent for CISS is -10.9144
-2025-10-07 10:37:56,133 - root - INFO - Latest 1min close price for CISS: 4.54
-2025-10-07 10:37:56,179 - root - INFO - No close long conditions met for CISS
-2025-10-07 10:37:56,328 - root - INFO -  MACD calculation for NXXT due to high change percent: 28.9565
-2025-10-07 10:37:58,831 - root - INFO -  update_current_price: start time 2025-10-07T10:36:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 10:38:00,805 - root - INFO -  MACD calculation for PC due to high change percent: 10.5847
-2025-10-07 10:38:06,141 - root - INFO -  MACD calculation for QMCO due to high change percent: 23.8455
-2025-10-07 10:38:06,548 - root - INFO -  update_current_price: start time 2025-10-07T10:37:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 10:38:07,506 - root - INFO -  MACD calculation for REKR due to high change percent: 19.8895
-2025-10-07 10:38:07,566 - root - INFO - MACD not positive for REKR: MACD=0.007086021150215505, Signal=0.01828688757963034, Hist=-0.011200866429414834
-2025-10-07 10:38:09,311 - root - INFO -  MACD calculation for RR due to high change percent: 11.2462
-2025-10-07 10:38:09,901 - root - INFO -  MACD calculation for RVPH due to high change percent: 26.4157
-2025-10-07 10:38:10,042 - root - INFO -  MACD calculation for RVSN due to high change percent: 17.0732
-2025-10-07 10:38:10,098 - root - INFO - MACD not positive for RVSN: MACD=0.012936760976679396, Signal=0.013292421417518671, Hist=-0.0003556604408392755
-2025-10-07 10:38:11,228 - root - INFO - Real mode: Today's profit so far: 1788.9999749999988
-2025-10-07 10:38:11,249 - root - INFO - Running real_trade for all top movers
-2025-10-07 10:38:11,283 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
-2025-10-07 10:38:11,337 - root - INFO - Last 5 minutes maximum volume candle is red for CISS
-2025-10-07 10:38:11,357 - root - INFO - latest trade price: 4.52
-2025-10-07 10:38:11,365 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
-2025-10-07 10:38:11,588 - root - INFO - Last 5 minutes maximum volume candle is green for BNAI
-2025-10-07 10:38:11,598 - root - INFO - 1min RSI is overbought for BNAI: 71.79498420896071
-2025-10-07 10:38:11,618 - root - INFO - latest trade price: 0.9001
-2025-10-07 10:38:11,841 - root - INFO - swing_strategy_close_long for scale 5Min stock BNAI
-2025-10-07 10:38:11,930 - root - INFO -  MACD calculation for SES due to high change percent: 15.0206
-2025-10-07 10:38:11,984 - root - INFO - Profit percent for BNAI is 10.3533
-2025-10-07 10:38:11,984 - root - INFO - Latest 1min close price for BNAI: 0.888
-2025-10-07 10:38:11,989 - root - INFO - MACD not positive for SES: MACD=0.0370563914120603, Signal=0.045292330693703774, Hist=-0.008235939281643477
-2025-10-07 10:38:12,058 - root - INFO - MACD is still rising for stock BNAI
-2025-10-07 10:38:12,058 - root - INFO - Sufficient profit percent to scalp for BNAI: 10.3533
-2025-10-07 10:38:12,059 - root - INFO - BNAI:====== 0.888=========>SELL========>SCALP_PROFIT
-2025-10-07 10:38:12,059 - root - INFO - ******************** CLOSE by SOLD stock:BNAI
-2025-10-07 10:38:12,099 - root - CRITICAL - BNAI  1222 sell
-2025-10-07 10:38:12,152 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 10:38:12,189 - root - INFO - Profit percent for CISS is -12.0841
-2025-10-07 10:38:12,189 - root - INFO - Latest 1min close price for CISS: 4.54
-2025-10-07 10:38:12,246 - root - INFO - No close long conditions met for CISS
-2025-10-07 10:38:12,346 - root - INFO -  update_current_price: start time 2025-10-07T10:37:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 10:38:14,345 - root - INFO -  MACD calculation for SNGX due to high change percent: 17.5255
-2025-10-07 10:38:14,411 - root - INFO - MACD not positive for SNGX: MACD=0.017527732910268545, Signal=0.022049484815827306, Hist=-0.004521751905558761
-2025-10-07 10:38:18,212 - root - INFO -  MACD calculation for TELO due to high change percent: 19.3662
-2025-10-07 10:38:18,458 - root - INFO -  update_current_price: start time 2025-10-07T10:37:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 10:38:19,253 - root - INFO -  MACD calculation for TLPH due to high change percent: 12.7273
-2025-10-07 10:38:19,534 - root - INFO -  MACD calculation for TMC due to high change percent: 15.1554
-2025-10-07 10:38:19,697 - root - INFO -  MACD calculation for TMCWW due to high change percent: 28.7582
-2025-10-07 10:38:19,828 - root - INFO -  MACD calculation for TMQ due to high change percent: 215.316
-2025-10-07 10:38:19,868 - root - INFO - MACD not positive for TMQ: MACD=-0.06303347652765456, Signal=-0.03708300344529576, Hist=-0.025950473082358802
-2025-10-07 10:38:20,870 - root - INFO -  MACD calculation for TSSI due to high change percent: 14.0869
-2025-10-07 10:38:20,934 - root - INFO - MACD not positive for TSSI: MACD=0.4749445324583945, Signal=0.48779861037565075, Hist=-0.012854077917256235
-2025-10-07 10:38:21,691 - root - INFO -  MACD calculation for UAMY due to high change percent: 11.9951
-2025-10-07 10:38:22,245 - root - INFO -  MACD calculation for ULY due to high change percent: 19.5256
-2025-10-07 10:38:22,281 - root - INFO - MACD not positive for ULY: MACD=0.024252246813959655, Signal=0.19228236402971424, Hist=-0.1680301172157546
-2025-10-07 10:38:22,908 - root - INFO -  MACD calculation for USAR due to high change percent: 15.3826
-2025-10-07 10:38:23,049 - root - INFO -  MACD calculation for USARW due to high change percent: 27.7052
-2025-10-07 10:38:25,143 - root - INFO -  update_current_price: start time 2025-10-07T10:37:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 10:38:26,293 - root - INFO -  MACD calculation for WETH due to high change percent: 20.7462
-2025-10-07 10:38:27,294 - root - INFO - Real mode: Today's profit so far: 1780.8799749999998
-2025-10-07 10:38:27,312 - root - INFO - Running real_trade for all top movers
-2025-10-07 10:38:27,344 - root - INFO -  MACD calculation for WWR due to high change percent: 11.2676
-2025-10-07 10:38:27,351 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
-2025-10-07 10:38:27,410 - root - INFO - Last 5 minutes maximum volume candle is red for CISS
-2025-10-07 10:38:27,429 - root - INFO - latest trade price: 4.48
-2025-10-07 10:38:27,437 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
-2025-10-07 10:38:27,593 - root - INFO - Last 5 minutes maximum volume candle is green for BNAI
-2025-10-07 10:38:27,601 - root - INFO -  MACD calculation for XBIO due to high change percent: 21.7492
-2025-10-07 10:38:27,606 - root - INFO - 1min RSI is overbought for BNAI: 71.79498420896071
-2025-10-07 10:38:27,624 - root - INFO - latest trade price: 0.8987
-2025-10-07 10:38:27,725 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 10:38:27,763 - root - INFO - Profit percent for CISS is -12.0841
-2025-10-07 10:38:27,764 - root - INFO - Latest 1min close price for CISS: 4.54
-2025-10-07 10:38:27,821 - root - INFO - No close long conditions met for CISS
-2025-10-07 10:38:28,339 - root - INFO -  MACD calculation for YCBD due to high change percent: 15.3846
-2025-10-07 10:38:30,416 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-07 10:38:42,865 - root - INFO - Real mode: Today's profit so far: 1808.339974999999
-2025-10-07 10:38:42,893 - root - INFO - Running real_trade for all top movers
-2025-10-07 10:38:42,937 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
-2025-10-07 10:38:43,009 - root - INFO - Last 5 minutes maximum volume candle is red for CISS
-2025-10-07 10:38:43,045 - root - INFO - latest trade price: 4.565
-2025-10-07 10:38:43,060 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
-2025-10-07 10:38:43,239 - root - INFO - Last 5 minutes maximum volume candle is green for BNAI
-2025-10-07 10:38:43,255 - root - INFO - 1min RSI is overbought for BNAI: 73.53241557406596
-2025-10-07 10:38:43,282 - root - INFO - latest trade price: 0.9441
-2025-10-07 10:38:43,381 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 10:38:43,424 - root - INFO - Profit percent for CISS is -12.6689
-2025-10-07 10:38:43,424 - root - INFO - Latest 1min close price for CISS: 4.48
-2025-10-07 10:38:43,502 - root - INFO - No close long conditions met for CISS
-2025-10-07 10:38:58,570 - root - INFO - Real mode: Today's profit so far: 1807.919974999997
-2025-10-07 10:38:58,761 - root - INFO - Running real_trade for all top movers
-2025-10-07 10:38:58,801 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
-2025-10-07 10:38:58,868 - root - INFO - Last 5 minutes maximum volume candle is red for CISS
-2025-10-07 10:38:58,888 - root - INFO - latest trade price: 4.5998
-2025-10-07 10:38:58,899 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
-2025-10-07 10:38:59,069 - root - INFO - Last 5 minutes maximum volume candle is green for BNAI
-2025-10-07 10:38:59,084 - root - INFO - 1min RSI is overbought for BNAI: 73.53241557406596
-2025-10-07 10:38:59,104 - root - INFO - latest trade price: 0.9017
-2025-10-07 10:38:59,205 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 10:38:59,248 - root - INFO - Profit percent for CISS is -10.8657
-2025-10-07 10:38:59,248 - root - INFO - Latest 1min close price for CISS: 4.48
-2025-10-07 10:38:59,318 - root - INFO - No close long conditions met for CISS
-2025-10-07 10:39:14,363 - root - INFO - Real mode: Today's profit so far: 1818.9099749999987
-2025-10-07 10:39:14,385 - root - INFO - Running real_trade for all top movers
-2025-10-07 10:39:14,423 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
-2025-10-07 10:39:14,487 - root - INFO - Last 5 minutes maximum volume candle is red for CISS
-2025-10-07 10:39:14,508 - root - INFO - latest trade price: 4.657
-2025-10-07 10:39:14,517 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
-2025-10-07 10:39:14,696 - root - INFO - Last 5 minutes maximum volume candle is green for BNAI
-2025-10-07 10:39:14,714 - root - INFO - 1min RSI is overbought for BNAI: 73.53241557406596
-2025-10-07 10:39:14,737 - root - INFO - latest trade price: 0.8937
-2025-10-07 10:39:14,829 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 10:39:14,872 - root - INFO - Profit percent for CISS is -10.2984
-2025-10-07 10:39:14,873 - root - INFO - Latest 1min close price for CISS: 4.48
-2025-10-07 10:39:14,944 - root - INFO - No close long conditions met for CISS
-2025-10-07 10:39:29,997 - root - INFO - Real mode: Today's profit so far: 1830.3099749999965
-2025-10-07 10:39:30,017 - root - INFO - Running real_trade for all top movers
-2025-10-07 10:39:30,056 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
-2025-10-07 10:39:30,125 - root - INFO - Last 5 minutes maximum volume candle is red for CISS
-2025-10-07 10:39:30,159 - root - INFO - latest trade price: 4.709
-2025-10-07 10:39:30,173 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
-2025-10-07 10:39:30,341 - root - INFO - Last 5 minutes maximum volume candle is green for BNAI
-2025-10-07 10:39:30,359 - root - INFO - 1min RSI is overbought for BNAI: 73.53241557406596
-2025-10-07 10:39:30,378 - root - INFO - latest trade price: 0.8844
-2025-10-07 10:39:30,472 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
-2025-10-07 10:39:30,490 - root - INFO - Real mode: Today's profit so far: 1832.7899749999997
-2025-10-07 10:39:30,510 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
-2025-10-07 10:39:30,511 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
-2025-10-07 10:39:30,515 - root - INFO - Profit percent for CISS is -9.33546
-2025-10-07 10:39:30,515 - root - INFO - Latest 1min close price for CISS: 4.48
-2025-10-07 10:39:30,537 - root - INFO -  update_current_price: start time 2025-10-07T10:38:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 10:39:30,583 - root - INFO - No close long conditions met for CISS
+2025-10-07 10:40:05,746 - root - INFO -  MACD calculation for ELAB due to high change percent: 21.6266
+2025-10-07 10:40:05,887 - root - INFO -  MACD calculation for ELBM due to high change percent: 10.6383
+2025-10-07 10:40:06,089 - root - INFO -  MACD calculation for ELPW due to high change percent: 13.6096
+2025-10-07 10:40:06,131 - root - INFO - MACD not positive for ELPW: MACD=0.019321346196053746, Signal=0.022926771136093673, Hist=-0.0036054249400399273
+2025-10-07 10:40:06,647 - root - INFO -  MACD calculation for EOSEW due to high change percent: 12.7581
+2025-10-07 10:40:06,690 - root - INFO - MACD not positive for EOSEW: MACD=0.06124111121754083, Signal=0.07017529240296443, Hist=-0.008934181185423593
+2025-10-07 10:40:09,591 - root - INFO -  update_current_price: start time 2025-10-07T10:39:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 10:40:12,778 - root - INFO -  MACD calculation for GIGGW due to high change percent: 21.5231
+2025-10-07 10:40:13,131 - root - INFO -  MACD calculation for GLTO due to high change percent: 506.739
+2025-10-07 10:40:13,187 - root - INFO - MACD not positive for GLTO: MACD=-0.05373343362219174, Signal=0.46401113689575074, Hist=-0.5177445705179424
+2025-10-07 10:40:15,367 - root - INFO -  update_current_price: start time 2025-10-07T10:39:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 10:40:16,871 - root - INFO - Real mode: Today's profit so far: 1797.339974999999
+2025-10-07 10:40:16,891 - root - INFO - Running real_trade for all top movers
+2025-10-07 10:40:16,928 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
+2025-10-07 10:40:16,988 - root - INFO - Last 5 minutes maximum volume candle is red for CISS
+2025-10-07 10:40:17,008 - root - INFO - latest trade price: 4.67
+2025-10-07 10:40:17,017 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
+2025-10-07 10:40:17,171 - root - INFO - Last 5 minutes maximum volume candle is green for BNAI
+2025-10-07 10:40:17,186 - root - INFO - 1min candle is not positive for BNAI: open 0.9085 close 0.8845
+2025-10-07 10:40:17,205 - root - INFO - latest trade price: 0.7928
+2025-10-07 10:40:17,213 - root - INFO - swing_strategy_open_long for scale 5Min stock DVLT
+2025-10-07 10:40:17,445 - root - INFO - Last 5 minutes maximum volume candle is red for DVLT
+2025-10-07 10:40:17,467 - root - INFO - latest trade price: 2.855
+2025-10-07 10:40:17,560 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
+2025-10-07 10:40:17,619 - root - INFO - Profit percent for CISS is -8.7682
+2025-10-07 10:40:17,620 - root - INFO - Latest 1min close price for CISS: 4.7
+2025-10-07 10:40:17,684 - root - INFO - No close long conditions met for CISS
+2025-10-07 10:40:18,416 - root - INFO -  MACD calculation for HYLN due to high change percent: 14.599
+2025-10-07 10:40:20,005 - root - INFO -  MACD calculation for INDP due to high change percent: 28.2132
+2025-10-07 10:40:20,054 - root - INFO - MACD not positive for INDP: MACD=0.10341713935610919, Signal=0.12346961564106511, Hist=-0.02005247628495592
+2025-10-07 10:40:21,345 - root - INFO -  update_current_price: start time 2025-10-07T10:39:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 10:40:21,497 - root - INFO -  MACD calculation for ITRM due to high change percent: 12.7429
+2025-10-07 10:40:23,598 - root - INFO -  MACD calculation for KLTO due to high change percent: 11.4615
+2025-10-07 10:40:24,803 - root - INFO -  MACD calculation for KZIA due to high change percent: 14.1386
+2025-10-07 10:40:25,036 - root - INFO -  MACD calculation for LAR due to high change percent: 15.2715
+2025-10-07 10:40:25,097 - root - INFO - MACD not positive for LAR: MACD=0.06181620324759418, Signal=0.06314479301510503, Hist=-0.0013285897675108516
+2025-10-07 10:40:27,251 - root - INFO -  update_current_price: start time 2025-10-07T10:39:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 10:40:27,543 - root - INFO -  MACD calculation for LXEO due to high change percent: 28.5935
+2025-10-07 10:40:27,596 - root - INFO - MACD not positive for LXEO: MACD=0.012968823521132933, Signal=0.013311033639670036, Hist=-0.0003422101185371028
+2025-10-07 10:40:29,416 - root - INFO -  MACD calculation for MIGI due to high change percent: 17.6341
+2025-10-07 10:40:31,830 - root - INFO -  MACD calculation for NAK due to high change percent: 21.8477
+2025-10-07 10:40:31,913 - root - INFO - MACD not positive for NAK: MACD=-0.017782409902660445, Signal=-0.00794314921957561, Hist=-0.009839260683084836
+2025-10-07 10:40:32,130 - root - INFO -  update_current_price: start time 2025-10-07T10:39:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 10:40:32,423 - root - INFO -  MACD calculation for NCNA due to high change percent: 11.2126
+2025-10-07 10:40:32,734 - root - INFO - Real mode: Today's profit so far: 1785.339974999999
+2025-10-07 10:40:32,754 - root - INFO - Running real_trade for all top movers
+2025-10-07 10:40:32,791 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
+2025-10-07 10:40:32,851 - root - INFO - Last 5 minutes maximum volume candle is red for CISS
+2025-10-07 10:40:32,872 - root - INFO - latest trade price: 4.6463
+2025-10-07 10:40:32,881 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
+2025-10-07 10:40:33,070 - root - INFO - Last 5 minutes maximum volume candle is green for BNAI
+2025-10-07 10:40:33,084 - root - INFO - 1min candle is not positive for BNAI: open 0.9085 close 0.8845
+2025-10-07 10:40:33,105 - root - INFO - latest trade price: 0.7912
+2025-10-07 10:40:33,112 - root - INFO - swing_strategy_open_long for scale 5Min stock DVLT
+2025-10-07 10:40:33,337 - root - INFO - Last 5 minutes maximum volume candle is red for DVLT
+2025-10-07 10:40:33,358 - root - INFO - latest trade price: 2.835
+2025-10-07 10:40:33,423 - root - INFO -  MACD calculation for NITO due to high change percent: 11.6667
+2025-10-07 10:40:33,613 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
+2025-10-07 10:40:33,655 - root - INFO - Profit percent for CISS is -9.06255
+2025-10-07 10:40:33,655 - root - INFO - Latest 1min close price for CISS: 4.6463
+2025-10-07 10:40:33,718 - root - INFO - No close long conditions met for CISS
+2025-10-07 10:40:35,683 - root - INFO -  MACD calculation for NXXT due to high change percent: 26.57
+2025-10-07 10:40:37,613 - root - INFO -  update_current_price: start time 2025-10-07T10:39:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 10:40:42,795 - root - INFO -  MACD calculation for POET due to high change percent: 10.5016
+2025-10-07 10:40:42,870 - root - INFO - MACD not positive for POET: MACD=0.040770252198376156, Signal=0.06848584715619382, Hist=-0.02771559495781767
+2025-10-07 10:40:45,346 - root - INFO -  MACD calculation for QMCO due to high change percent: 20.6146
+2025-10-07 10:40:45,833 - root - INFO -  update_current_price: start time 2025-10-07T10:39:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 10:40:47,062 - root - INFO -  MACD calculation for REKR due to high change percent: 17.6796
+2025-10-07 10:40:47,138 - root - INFO - MACD not positive for REKR: MACD=0.003895417859737016, Signal=0.01547241129946932, Hist=-0.011576993439732303
+2025-10-07 10:40:48,767 - root - INFO - Real mode: Today's profit so far: 1806.8599749999994
+2025-10-07 10:40:48,791 - root - INFO - Running real_trade for all top movers
+2025-10-07 10:40:48,829 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
+2025-10-07 10:40:48,887 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
+2025-10-07 10:40:48,936 - root - INFO - Trend up basic conditions not met for CISS: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-07 10:40:48,957 - root - INFO - latest trade price: 4.7298
+2025-10-07 10:40:48,965 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
+2025-10-07 10:40:49,149 - root - INFO - Last 5 minutes maximum volume candle is red for BNAI
+2025-10-07 10:40:49,168 - root - INFO - latest trade price: 0.7783
+2025-10-07 10:40:49,177 - root - INFO - swing_strategy_open_long for scale 5Min stock DVLT
+2025-10-07 10:40:49,425 - root - INFO - Last 5 minutes maximum volume candle is red for DVLT
+2025-10-07 10:40:49,441 - root - INFO -  MACD calculation for RVPH due to high change percent: 24.7423
+2025-10-07 10:40:49,441 - root - INFO - latest trade price: 2.84
+2025-10-07 10:40:49,558 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
+2025-10-07 10:40:49,572 - root - INFO -  MACD calculation for RVSN due to high change percent: 13.1902
+2025-10-07 10:40:49,599 - root - INFO - Profit percent for CISS is -9.35496
+2025-10-07 10:40:49,601 - root - INFO - Latest 1min close price for CISS: 4.6463
+2025-10-07 10:40:49,638 - root - INFO - MACD not positive for RVSN: MACD=0.0116723500938537, Signal=0.012981170685549206, Hist=-0.0013088205916955056
+2025-10-07 10:40:49,668 - root - INFO - No close long conditions met for CISS
+2025-10-07 10:40:52,145 - root - INFO -  MACD calculation for SES due to high change percent: 16.0494
+2025-10-07 10:40:52,216 - root - INFO - MACD not positive for SES: MACD=0.03628445377326761, Signal=0.04361839063725183, Hist=-0.007333936863984217
+2025-10-07 10:40:53,119 - root - INFO -  update_current_price: start time 2025-10-07T10:39:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 10:40:55,676 - root - INFO -  MACD calculation for SNGX due to high change percent: 17.1533
+2025-10-07 10:40:55,750 - root - INFO - MACD not positive for SNGX: MACD=0.016731695755546117, Signal=0.020931043812887885, Hist=-0.004199348057341769
+2025-10-07 10:41:01,095 - root - INFO -  MACD calculation for TELO due to high change percent: 21.831
+2025-10-07 10:41:01,355 - root - INFO -  update_current_price: start time 2025-10-07T10:40:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 10:41:02,283 - root - INFO -  MACD calculation for TLPH due to high change percent: 12.7273
+2025-10-07 10:41:02,465 - root - INFO -  MACD calculation for TMC due to high change percent: 15.6088
+2025-10-07 10:41:02,626 - root - INFO -  MACD calculation for TMCWW due to high change percent: 30.0654
+2025-10-07 10:41:02,798 - root - INFO -  MACD calculation for TMQ due to high change percent: 216.986
+2025-10-07 10:41:02,837 - root - INFO - MACD not positive for TMQ: MACD=-0.060359133077264815, Signal=-0.04135532338878356, Hist=-0.019003809688481255
+2025-10-07 10:41:03,933 - root - INFO -  MACD calculation for TSSI due to high change percent: 13.363
+2025-10-07 10:41:03,999 - root - INFO - MACD not positive for TSSI: MACD=0.4684893772084493, Signal=0.48591511132055804, Hist=-0.017425734112108737
+2025-10-07 10:41:04,735 - root - INFO - Real mode: Today's profit so far: 1821.469975
+2025-10-07 10:41:04,765 - root - INFO -  MACD calculation for UAMY due to high change percent: 11.6304
+2025-10-07 10:41:04,787 - root - INFO - Running real_trade for all top movers
+2025-10-07 10:41:04,827 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
+2025-10-07 10:41:04,891 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
+2025-10-07 10:41:04,941 - root - INFO - Trend up basic conditions not met for CISS: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-07 10:41:04,960 - root - INFO - latest trade price: 4.82
+2025-10-07 10:41:04,968 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
+2025-10-07 10:41:05,142 - root - INFO - Last 5 minutes maximum volume candle is red for BNAI
+2025-10-07 10:41:05,146 - root - INFO -  MACD calculation for ULY due to high change percent: 18.9103
+2025-10-07 10:41:05,160 - root - INFO - latest trade price: 0.7795
+2025-10-07 10:41:05,169 - root - INFO - swing_strategy_open_long for scale 5Min stock DVLT
+2025-10-07 10:41:05,177 - root - INFO - MACD not positive for ULY: MACD=-0.008238692024296057, Signal=0.15179141777617722, Hist=-0.16003010980047327
+2025-10-07 10:41:05,373 - root - INFO - Last 5 minutes maximum volume candle is red for DVLT
+2025-10-07 10:41:05,391 - root - INFO - latest trade price: 2.835
+2025-10-07 10:41:05,492 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
+2025-10-07 10:41:05,535 - root - INFO - Profit percent for CISS is -8.35494
+2025-10-07 10:41:05,535 - root - INFO - Latest 1min close price for CISS: 4.6463
+2025-10-07 10:41:05,602 - root - INFO - No close long conditions met for CISS
+2025-10-07 10:41:05,762 - root - INFO -  MACD calculation for USAR due to high change percent: 15.3856
+2025-10-07 10:41:05,884 - root - INFO -  MACD calculation for USARW due to high change percent: 27.5856
+2025-10-07 10:41:08,125 - root - INFO -  update_current_price: start time 2025-10-07T10:40:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 10:41:10,570 - root - INFO -  MACD calculation for WWR due to high change percent: 11.6761
+2025-10-07 10:41:11,688 - root - INFO -  MACD calculation for YCBD due to high change percent: 15.3538
+2025-10-07 10:41:13,832 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-07 10:41:20,656 - root - INFO - Real mode: Today's profit so far: 1823.3499749999974
+2025-10-07 10:41:20,679 - root - INFO - Running real_trade for all top movers
+2025-10-07 10:41:20,717 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
+2025-10-07 10:41:20,776 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
+2025-10-07 10:41:20,829 - root - INFO - Trend up basic conditions not met for CISS: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-07 10:41:20,850 - root - INFO - latest trade price: 4.743
+2025-10-07 10:41:20,859 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
+2025-10-07 10:41:21,060 - root - INFO - Last 5 minutes maximum volume candle is red for BNAI
+2025-10-07 10:41:21,078 - root - INFO - latest trade price: 0.7771
+2025-10-07 10:41:21,088 - root - INFO - swing_strategy_open_long for scale 5Min stock DVLT
+2025-10-07 10:41:21,337 - root - INFO - Last 5 minutes maximum volume candle is red for DVLT
+2025-10-07 10:41:21,356 - root - INFO - latest trade price: 2.8107
+2025-10-07 10:41:21,612 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
+2025-10-07 10:41:21,674 - root - INFO - Profit percent for CISS is -7.21067
+2025-10-07 10:41:21,674 - root - INFO - Latest 1min close price for CISS: 4.6463
+2025-10-07 10:41:21,745 - root - INFO - No close long conditions met for CISS
+2025-10-07 10:41:36,800 - root - INFO - Real mode: Today's profit so far: 1818.469975
+2025-10-07 10:41:36,819 - root - INFO - Running real_trade for all top movers
+2025-10-07 10:41:36,857 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
+2025-10-07 10:41:36,919 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
+2025-10-07 10:41:36,971 - root - INFO - Trend up basic conditions not met for CISS: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-07 10:41:37,001 - root - INFO - latest trade price: 4.765
+2025-10-07 10:41:37,012 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
+2025-10-07 10:41:37,184 - root - INFO - Last 5 minutes maximum volume candle is red for BNAI
+2025-10-07 10:41:37,203 - root - INFO - latest trade price: 0.7639
+2025-10-07 10:41:37,214 - root - INFO - swing_strategy_open_long for scale 5Min stock DVLT
+2025-10-07 10:41:37,442 - root - INFO - Last 5 minutes maximum volume candle is green for DVLT
+2025-10-07 10:41:37,459 - root - INFO - 1min candle is not positive for DVLT: open 2.8389 close 2.815
+2025-10-07 10:41:37,478 - root - INFO - latest trade price: 2.8192
+2025-10-07 10:41:37,564 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
+2025-10-07 10:41:37,606 - root - INFO - Profit percent for CISS is -7.79742
+2025-10-07 10:41:37,606 - root - INFO - Latest 1min close price for CISS: 4.7784
+2025-10-07 10:41:37,677 - root - INFO - No close long conditions met for CISS
+2025-10-07 10:41:52,731 - root - INFO - Real mode: Today's profit so far: 1819.829974999997
+2025-10-07 10:41:52,750 - root - INFO - Running real_trade for all top movers
+2025-10-07 10:41:52,789 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
+2025-10-07 10:41:52,843 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
+2025-10-07 10:41:52,888 - root - INFO - Trend up basic conditions not met for CISS: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-07 10:41:52,921 - root - INFO - latest trade price: 4.76
+2025-10-07 10:41:52,930 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
+2025-10-07 10:41:53,114 - root - INFO - Last 5 minutes maximum volume candle is red for BNAI
+2025-10-07 10:41:53,136 - root - INFO - latest trade price: 0.7801
+2025-10-07 10:41:53,147 - root - INFO - swing_strategy_open_long for scale 5Min stock DVLT
+2025-10-07 10:41:53,402 - root - INFO - Last 5 minutes maximum volume candle is green for DVLT
+2025-10-07 10:41:53,420 - root - INFO - 1min candle is not positive for DVLT: open 2.8389 close 2.815
+2025-10-07 10:41:53,444 - root - INFO - latest trade price: 2.815
+2025-10-07 10:41:53,538 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
+2025-10-07 10:41:53,581 - root - INFO - Profit percent for CISS is -7.14244
+2025-10-07 10:41:53,581 - root - INFO - Latest 1min close price for CISS: 4.7784
+2025-10-07 10:41:53,651 - root - INFO - No close long conditions met for CISS
+2025-10-07 10:42:08,708 - root - INFO - Real mode: Today's profit so far: 1793.6499749999966
+2025-10-07 10:42:08,734 - root - INFO - Running real_trade for all top movers
+2025-10-07 10:42:08,774 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
+2025-10-07 10:42:08,837 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
+2025-10-07 10:42:08,893 - root - INFO - Trend up basic conditions not met for CISS: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-07 10:42:08,912 - root - INFO - latest trade price: 4.6791
+2025-10-07 10:42:08,923 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
+2025-10-07 10:42:09,115 - root - INFO - Last 5 minutes maximum volume candle is red for BNAI
+2025-10-07 10:42:09,137 - root - INFO - latest trade price: 0.7888
+2025-10-07 10:42:09,146 - root - INFO - swing_strategy_open_long for scale 5Min stock DVLT
+2025-10-07 10:42:09,386 - root - INFO - Last 5 minutes maximum volume candle is green for DVLT
+2025-10-07 10:42:09,401 - root - INFO - 1min candle is not positive for DVLT: open 2.8389 close 2.815
+2025-10-07 10:42:09,419 - root - INFO - latest trade price: 2.81
+2025-10-07 10:42:09,515 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
+2025-10-07 10:42:09,559 - root - INFO - Profit percent for CISS is -7.21067
+2025-10-07 10:42:09,559 - root - INFO - Latest 1min close price for CISS: 4.7784
+2025-10-07 10:42:09,623 - root - INFO - No close long conditions met for CISS
+2025-10-07 10:42:13,916 - root - INFO - Real mode: Today's profit so far: 1771.0599749999965
+2025-10-07 10:42:13,943 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
+2025-10-07 10:42:13,944 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
+2025-10-07 10:42:13,975 - root - INFO -  update_current_price: start time 2025-10-07T10:41:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 10:42:19,039 - root - INFO -  MACD calculation for ANIX due to high change percent: 10.4615
+2025-10-07 10:42:19,742 - root - INFO -  MACD calculation for APVO due to high change percent: 20.6099
+2025-10-07 10:42:19,811 - root - INFO - MACD not positive for APVO: MACD=0.0026512744281368406, Signal=0.010124006345568166, Hist=-0.007472731917431325
+2025-10-07 10:42:20,922 - root - INFO -  update_current_price: start time 2025-10-07T10:41:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 10:42:24,675 - root - INFO - Real mode: Today's profit so far: 1783.0399749999997
+2025-10-07 10:42:24,706 - root - INFO - Running real_trade for all top movers
+2025-10-07 10:42:24,746 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
+2025-10-07 10:42:24,807 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
+2025-10-07 10:42:24,850 - root - INFO - Trend up basic conditions not met for CISS: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-07 10:42:24,869 - root - INFO - latest trade price: 4.61
+2025-10-07 10:42:24,876 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
+2025-10-07 10:42:24,952 - root - INFO -  MACD calculation for BJDX due to high change percent: 29.1935
+2025-10-07 10:42:24,979 - root - INFO - MACD not positive for BJDX: MACD=-0.0012624178916680329, Signal=0.023374618079504583, Hist=-0.024637035971172616
+2025-10-07 10:42:25,033 - root - INFO - Last 5 minutes maximum volume candle is red for BNAI
+2025-10-07 10:42:25,056 - root - INFO - latest trade price: 0.7838
+2025-10-07 10:42:25,064 - root - INFO - swing_strategy_open_long for scale 5Min stock DVLT
+2025-10-07 10:42:25,272 - root - INFO - Last 5 minutes maximum volume candle is green for DVLT
+2025-10-07 10:42:25,287 - root - INFO - 1min candle is not positive for DVLT: open 2.8389 close 2.815
+2025-10-07 10:42:25,309 - root - INFO - latest trade price: 2.819
+2025-10-07 10:42:25,388 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
+2025-10-07 10:42:25,394 - root - INFO -  MACD calculation for BNAI due to high change percent: 75.4612
+2025-10-07 10:42:25,470 - root - INFO - Profit percent for CISS is -8.77015
+2025-10-07 10:42:25,470 - root - INFO - Latest 1min close price for CISS: 4.7784
+2025-10-07 10:42:25,531 - root - INFO - No close long conditions met for CISS
+2025-10-07 10:42:25,605 - root - INFO -  MACD calculation for BQ due to high change percent: 122.75
+2025-10-07 10:42:25,680 - root - INFO -  update_current_price: start time 2025-10-07T10:41:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 10:42:28,334 - root - INFO -  MACD calculation for CCTG due to high change percent: 29.1391
+2025-10-07 10:42:28,386 - root - INFO - MACD not positive for CCTG: MACD=0.061852107467151196, Signal=0.06326046526694686, Hist=-0.0014083577997956592
+2025-10-07 10:42:29,983 - root - INFO -  MACD calculation for CISS due to high change percent: 112.67
+2025-10-07 10:42:30,915 - root - INFO -  MACD calculation for CMMB due to high change percent: 10.108
+2025-10-07 10:42:31,384 - root - INFO -  update_current_price: start time 2025-10-07T10:41:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 10:42:31,730 - root - INFO -  MACD calculation for COCH due to high change percent: 97.7814
+2025-10-07 10:42:31,768 - root - INFO - MACD not positive for COCH: MACD=0.021548902734111586, Signal=0.04143879409209245, Hist=-0.019889891357980867
+2025-10-07 10:42:36,122 - root - INFO -  MACD calculation for DGNX due to high change percent: 20.7071
+2025-10-07 10:42:37,713 - root - INFO -  MACD calculation for DVLT due to high change percent: 38.4615
+2025-10-07 10:42:37,789 - root - INFO - MACD not positive for DVLT: MACD=0.031828420059855755, Signal=0.032161328102588635, Hist=-0.00033290804273287955
+2025-10-07 10:42:37,965 - root - INFO -  update_current_price: start time 2025-10-07T10:41:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 10:42:39,673 - root - INFO -  MACD calculation for ELAB due to high change percent: 19.2495
+2025-10-07 10:42:39,810 - root - INFO -  MACD calculation for ELBM due to high change percent: 10.2837
+2025-10-07 10:42:39,865 - root - INFO - MACD not positive for ELBM: MACD=0.01886103095548486, Signal=0.019518285820262955, Hist=-0.0006572548647780958
+2025-10-07 10:42:40,133 - root - INFO -  MACD calculation for ELPW due to high change percent: 13.9411
+2025-10-07 10:42:40,199 - root - INFO - MACD not positive for ELPW: MACD=0.01787256733630216, Signal=0.02191593037613537, Hist=-0.004043363039833211
+2025-10-07 10:42:40,577 - root - INFO - Real mode: Today's profit so far: 1755.839974999999
+2025-10-07 10:42:40,597 - root - INFO - Running real_trade for all top movers
+2025-10-07 10:42:40,634 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
+2025-10-07 10:42:40,696 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
+2025-10-07 10:42:40,712 - root - INFO - 1min candle is not positive for CISS: open 4.78 close 4.5995
+2025-10-07 10:42:40,737 - root - INFO - latest trade price: 4.5799
+2025-10-07 10:42:40,748 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
+2025-10-07 10:42:40,900 - root - INFO -  MACD calculation for EOSEW due to high change percent: 12.9032
+2025-10-07 10:42:40,917 - root - INFO - Last 5 minutes maximum volume candle is red for BNAI
+2025-10-07 10:42:40,936 - root - INFO - latest trade price: 0.7722
+2025-10-07 10:42:40,953 - root - INFO - MACD not positive for EOSEW: MACD=0.06479567681400766, Signal=0.06909936928517307, Hist=-0.00430369247116541
+2025-10-07 10:42:41,030 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
+2025-10-07 10:42:41,071 - root - INFO - Profit percent for CISS is -10.1347
+2025-10-07 10:42:41,071 - root - INFO - Latest 1min close price for CISS: 4.5995
+2025-10-07 10:42:41,132 - root - INFO - No close long conditions met for CISS
+2025-10-07 10:42:44,579 - root - INFO -  update_current_price: start time 2025-10-07T10:41:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 10:42:48,423 - root - INFO -  MACD calculation for GIGGW due to high change percent: 21.5385
+2025-10-07 10:42:48,984 - root - INFO -  MACD calculation for GLTO due to high change percent: 515.633
+2025-10-07 10:42:49,043 - root - INFO - MACD not positive for GLTO: MACD=-0.25696653820718396, Signal=0.3198156018751638, Hist=-0.5767821400823477
+2025-10-07 10:42:51,831 - root - INFO -  update_current_price: start time 2025-10-07T10:41:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 10:42:55,140 - root - INFO -  MACD calculation for HYLN due to high change percent: 14.0097
+2025-10-07 10:42:55,207 - root - INFO - MACD not positive for HYLN: MACD=0.07362744794719278, Signal=0.0784601726714306, Hist=-0.004832724724237819
+2025-10-07 10:42:56,188 - root - INFO - Real mode: Today's profit so far: 1763.8799749999998
+2025-10-07 10:42:56,207 - root - INFO - Running real_trade for all top movers
+2025-10-07 10:42:56,245 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
+2025-10-07 10:42:56,307 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
+2025-10-07 10:42:56,323 - root - INFO - 1min candle is not positive for CISS: open 4.78 close 4.5995
+2025-10-07 10:42:56,342 - root - INFO - latest trade price: 4.5599
+2025-10-07 10:42:56,350 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
+2025-10-07 10:42:56,523 - root - INFO - Last 5 minutes maximum volume candle is red for BNAI
+2025-10-07 10:42:56,542 - root - INFO - latest trade price: 0.77
+2025-10-07 10:42:56,655 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
+2025-10-07 10:42:56,696 - root - INFO - Profit percent for CISS is -10.4271
+2025-10-07 10:42:56,696 - root - INFO - Latest 1min close price for CISS: 4.5995
+2025-10-07 10:42:56,762 - root - INFO - No close long conditions met for CISS
+2025-10-07 10:42:57,010 - root - INFO -  MACD calculation for INDP due to high change percent: 25.0784
+2025-10-07 10:42:57,061 - root - INFO - MACD not positive for INDP: MACD=0.08876810599804097, Signal=0.11652931371246028, Hist=-0.02776120771441931
+2025-10-07 10:42:58,599 - root - INFO -  update_current_price: start time 2025-10-07T10:41:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 10:42:58,844 - root - INFO -  MACD calculation for ITRM due to high change percent: 14.3429
+2025-10-07 10:43:01,313 - root - INFO -  MACD calculation for KLTO due to high change percent: 11.3269
+2025-10-07 10:43:02,976 - root - INFO -  MACD calculation for KZIA due to high change percent: 13.6224
+2025-10-07 10:43:03,345 - root - INFO -  MACD calculation for LAR due to high change percent: 15.4977
+2025-10-07 10:43:03,405 - root - INFO - MACD not positive for LAR: MACD=0.05859740780745426, Signal=0.06223531597357488, Hist=-0.0036379081661206195
+2025-10-07 10:43:06,255 - root - INFO -  update_current_price: start time 2025-10-07T10:42:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 10:43:06,546 - root - INFO -  MACD calculation for LXEO due to high change percent: 28.5162
+2025-10-07 10:43:08,828 - root - INFO -  MACD calculation for MIGI due to high change percent: 18.1838
+2025-10-07 10:43:11,293 - root - INFO -  MACD calculation for NAK due to high change percent: 21.1921
+2025-10-07 10:43:11,367 - root - INFO - MACD not positive for NAK: MACD=-0.02080340134824943, Signal=-0.010515199645310374, Hist=-0.010288201702939054
+2025-10-07 10:43:11,733 - root - INFO -  update_current_price: start time 2025-10-07T10:42:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 10:43:11,809 - root - INFO - Real mode: Today's profit so far: 1752.8699749999978
+2025-10-07 10:43:11,841 - root - INFO - Running real_trade for all top movers
+2025-10-07 10:43:11,880 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
+2025-10-07 10:43:11,936 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
+2025-10-07 10:43:11,951 - root - INFO - 1min candle is not positive for CISS: open 4.78 close 4.5995
+2025-10-07 10:43:11,975 - root - INFO - latest trade price: 4.559
+2025-10-07 10:43:11,985 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
+2025-10-07 10:43:12,159 - root - INFO - Last 5 minutes maximum volume candle is red for BNAI
+2025-10-07 10:43:12,178 - root - INFO - latest trade price: 0.7613
+2025-10-07 10:43:12,270 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
+2025-10-07 10:43:12,310 - root - INFO - Profit percent for CISS is -11.1113
+2025-10-07 10:43:12,310 - root - INFO - Latest 1min close price for CISS: 4.5995
+2025-10-07 10:43:12,379 - root - INFO - No close long conditions met for CISS
+2025-10-07 10:43:13,104 - root - INFO -  MACD calculation for NITO due to high change percent: 12.1286
+2025-10-07 10:43:15,838 - root - INFO -  MACD calculation for NXXT due to high change percent: 26.6667
+2025-10-07 10:43:18,097 - root - INFO -  update_current_price: start time 2025-10-07T10:42:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 10:43:19,703 - root - INFO -  MACD calculation for PC due to high change percent: 14.2641
+2025-10-07 10:43:24,153 - root - INFO -  MACD calculation for QMCO due to high change percent: 20.6129
+2025-10-07 10:43:24,364 - root - INFO -  update_current_price: start time 2025-10-07T10:42:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 10:43:25,494 - root - INFO -  MACD calculation for REKR due to high change percent: 18.2431
+2025-10-07 10:43:25,573 - root - INFO - MACD not positive for REKR: MACD=0.003081742646061869, Signal=0.01530967625673429, Hist=-0.01222793361067242
+2025-10-07 10:43:27,288 - root - INFO -  MACD calculation for RR due to high change percent: 10.1824
+2025-10-07 10:43:27,422 - root - INFO - Real mode: Today's profit so far: 1682.4899749999968
+2025-10-07 10:43:27,442 - root - INFO - Running real_trade for all top movers
+2025-10-07 10:43:27,480 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
+2025-10-07 10:43:27,539 - root - INFO - Last 5 minutes maximum volume candle is green for CISS
+2025-10-07 10:43:27,559 - root - INFO - 1min candle is not positive for CISS: open 4.78 close 4.5995
+2025-10-07 10:43:27,577 - root - INFO - latest trade price: 4.27
+2025-10-07 10:43:27,586 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
+2025-10-07 10:43:27,681 - root - INFO -  MACD calculation for RVPH due to high change percent: 24.6078
+2025-10-07 10:43:27,822 - root - INFO - Last 5 minutes maximum volume candle is red for BNAI
+2025-10-07 10:43:27,841 - root - INFO - latest trade price: 0.7777
+2025-10-07 10:43:27,851 - root - INFO -  MACD calculation for RVSN due to high change percent: 14.6732
+2025-10-07 10:43:27,901 - root - INFO - MACD not positive for RVSN: MACD=0.01147291989442345, Signal=0.012941284645663156, Hist=-0.0014683647512397056
+2025-10-07 10:43:27,932 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
+2025-10-07 10:43:27,971 - root - INFO - Profit percent for CISS is -11.1289
+2025-10-07 10:43:27,972 - root - INFO - Latest 1min close price for CISS: 4.5995
+2025-10-07 10:43:28,038 - root - INFO - No close long conditions met for CISS
+2025-10-07 10:43:29,639 - root - INFO -  MACD calculation for SES due to high change percent: 15.8436
+2025-10-07 10:43:29,721 - root - INFO - MACD not positive for SES: MACD=0.03429015177896577, Signal=0.043219530238391465, Hist=-0.008929378459425694
+2025-10-07 10:43:30,404 - root - INFO -  update_current_price: start time 2025-10-07T10:42:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 10:43:32,423 - root - INFO -  MACD calculation for SNGX due to high change percent: 17.1533
+2025-10-07 10:43:32,486 - root - INFO - MACD not positive for SNGX: MACD=0.018725997749848178, Signal=0.0213299042117483, Hist=-0.002603906461900122
+2025-10-07 10:43:36,216 - root - INFO -  MACD calculation for TELO due to high change percent: 19.0141
+2025-10-07 10:43:36,426 - root - INFO -  update_current_price: start time 2025-10-07T10:42:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 10:43:37,619 - root - INFO -  MACD calculation for TLPH due to high change percent: 16.3636
+2025-10-07 10:43:37,954 - root - INFO -  MACD calculation for TMC due to high change percent: 16.8394
+2025-10-07 10:43:38,121 - root - INFO -  MACD calculation for TMCWW due to high change percent: 32.6797
+2025-10-07 10:43:38,262 - root - INFO -  MACD calculation for TMQ due to high change percent: 217.541
+2025-10-07 10:43:38,312 - root - INFO - MACD not positive for TMQ: MACD=-0.054503862421994675, Signal=-0.040184269257729534, Hist=-0.014319593164265142
+2025-10-07 10:43:39,427 - root - INFO -  MACD calculation for TSSI due to high change percent: 13.7416
+2025-10-07 10:43:39,591 - root - INFO - MACD not positive for TSSI: MACD=0.45708196980104177, Signal=0.48363362983907654, Hist=-0.026551660038034774
+2025-10-07 10:43:40,453 - root - INFO -  MACD calculation for UAMY due to high change percent: 12.2991
+2025-10-07 10:43:40,536 - root - INFO - MACD not positive for UAMY: MACD=0.15892268305708868, Signal=0.16029118157368819, Hist=-0.001368498516599509
+2025-10-07 10:43:41,225 - root - INFO -  MACD calculation for ULY due to high change percent: 16.9872
+2025-10-07 10:43:41,260 - root - INFO - MACD not positive for ULY: MACD=-0.006643250428854497, Signal=0.15211050609526552, Hist=-0.15875375652412002
+2025-10-07 10:43:42,065 - root - INFO -  MACD calculation for USAR due to high change percent: 15.3116
+2025-10-07 10:43:42,205 - root - INFO -  MACD calculation for USARW due to high change percent: 27.5211
+2025-10-07 10:43:43,086 - root - INFO - Real mode: Today's profit so far: 1676.0699749999985
+2025-10-07 10:43:43,115 - root - INFO - Running real_trade for all top movers
+2025-10-07 10:43:43,153 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
+2025-10-07 10:43:43,212 - root - INFO - Last 5 minutes maximum volume candle is red for CISS
+2025-10-07 10:43:43,231 - root - INFO - latest trade price: 4.17
+2025-10-07 10:43:43,240 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
+2025-10-07 10:43:43,389 - root - INFO - Last 5 minutes maximum volume candle is red for BNAI
+2025-10-07 10:43:43,409 - root - INFO - latest trade price: 0.7751
+2025-10-07 10:43:43,493 - root - INFO - swing_strategy_close_long for scale 5Min stock CISS
+2025-10-07 10:43:43,531 - root - INFO - Profit percent for CISS is -16.7567
+2025-10-07 10:43:43,531 - root - INFO - Latest 1min close price for CISS: 4.11
+2025-10-07 10:43:43,595 - root - INFO - Closing TrendUp long: price below EMAs or MACD below signal{price_below_emas=True, macd_below_signal=False}
+2025-10-07 10:43:43,595 - root - INFO - CISS:====== 4.11=========>SELL========>TrendUpExit
+2025-10-07 10:43:43,595 - root - INFO - ******************** CLOSE by SOLD stock:CISS
+2025-10-07 10:43:43,654 - root - CRITICAL - CISS  194 sell
+2025-10-07 10:43:44,296 - root - INFO -  update_current_price: start time 2025-10-07T10:42:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 10:43:47,312 - root - INFO -  MACD calculation for XBIO due to high change percent: 21.0175
+2025-10-07 10:43:47,352 - root - INFO - MACD not positive for XBIO: MACD=0.17081142987675113, Signal=0.17167921600581254, Hist=-0.0008677861290614097
+2025-10-07 10:43:48,484 - root - INFO -  MACD calculation for YCBD due to high change percent: 13.4615
+2025-10-07 10:43:50,966 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-07 10:43:58,731 - root - INFO - Real mode: Today's profit so far: 1672.179974999999
+2025-10-07 10:43:58,765 - root - INFO - Running real_trade for all top movers
+2025-10-07 10:43:58,826 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
+2025-10-07 10:43:58,887 - root - INFO - Last 5 minutes maximum volume candle is red for CISS
+2025-10-07 10:43:58,906 - root - INFO - latest trade price: 4.205
+2025-10-07 10:43:58,916 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
+2025-10-07 10:43:59,097 - root - INFO - Last 5 minutes maximum volume candle is red for BNAI
+2025-10-07 10:43:59,115 - root - INFO - latest trade price: 0.7854
+2025-10-07 10:43:59,126 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 10:43:59,213 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
+2025-10-07 10:43:59,232 - root - INFO - latest trade price: 8.415
+2025-10-07 10:44:14,363 - root - INFO - Real mode: Today's profit so far: 1672.179974999999
+2025-10-07 10:44:14,387 - root - INFO - Running real_trade for all top movers
+2025-10-07 10:44:14,425 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
+2025-10-07 10:44:14,483 - root - INFO - Last 5 minutes maximum volume candle is red for CISS
+2025-10-07 10:44:14,502 - root - INFO - latest trade price: 4.118
+2025-10-07 10:44:14,512 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
+2025-10-07 10:44:14,762 - root - INFO - Last 5 minutes maximum volume candle is red for BNAI
+2025-10-07 10:44:14,781 - root - INFO - latest trade price: 0.7727
+2025-10-07 10:44:14,791 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 10:44:14,878 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
+2025-10-07 10:44:14,897 - root - INFO - latest trade price: 8.42
+2025-10-07 10:44:30,035 - root - INFO - Real mode: Today's profit so far: 1672.179974999999
+2025-10-07 10:44:30,054 - root - INFO - Running real_trade for all top movers
+2025-10-07 10:44:30,093 - root - INFO - swing_strategy_open_long for scale 5Min stock CISS
+2025-10-07 10:44:30,156 - root - INFO - Last 5 minutes maximum volume candle is red for CISS
+2025-10-07 10:44:30,176 - root - INFO - latest trade price: 4.119
+2025-10-07 10:44:30,186 - root - INFO - swing_strategy_open_long for scale 5Min stock BNAI
+2025-10-07 10:44:30,373 - root - INFO - Last 5 minutes maximum volume candle is red for BNAI
+2025-10-07 10:44:30,394 - root - INFO - latest trade price: 0.7377
+2025-10-07 10:44:30,405 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 10:44:30,483 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
+2025-10-07 10:44:30,505 - root - INFO - latest trade price: 8.447
