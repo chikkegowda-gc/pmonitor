@@ -2,9 +2,9 @@ Top Movers:
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  COCH  |      0      |     0     |    141.696     | 35356380 |      1.95     |       0.8068       |  10090000.0  |  0.7851  |   144283   |      0      | 2025-10-07 08:58:14 |
-|  BJDX  |      1      |     0     |    39.3548     | 17358838 |      2.16     |        1.55        |   550000.0   |   1.55   |   221393   |      0      | 2025-10-07 08:58:12 |
-|  NAK   |      1      |     0     |    31.7815     | 2527950  |     1.9899    |        1.51        | 527840000.0  |  1.286   |  16329790  |      0      | 2025-10-07 08:58:21 |
+|  COCH  |      0      |     0     |    131.743     | 36279333 |     1.8697    |       0.8068       |  10090000.0  |  0.7851  |   144283   |      0      | 2025-10-07 09:02:27 |
+|  BJDX  |      1      |     0     |    34.8387     | 17536708 |      2.09     |        1.55        |   550000.0   |   1.55   |   221393   |      0      | 2025-10-07 09:02:25 |
+|  NAK   |      1      |     0     |    31.1258     | 2650533  |      1.98     |        1.51        | 527840000.0  |  1.286   |  16329790  |      0      | 2025-10-07 09:02:35 |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -18,403 +18,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-07 08:55:13,307 - root - INFO - latest trade price: 7.09
-2025-10-07 08:55:13,322 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 08:55:13,367 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
-2025-10-07 08:55:13,429 - root - INFO - Trend up basic conditions not met for COCH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 08:55:13,448 - root - INFO - latest trade price: 1.98
-2025-10-07 08:55:13,458 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
-2025-10-07 08:55:13,612 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
-2025-10-07 08:55:13,631 - root - INFO - latest trade price: 1.98
-2025-10-07 08:55:13,735 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
-2025-10-07 08:55:13,889 - root - INFO - Profit percent for NAK is 0.50505
-2025-10-07 08:55:13,889 - root - INFO - Latest 1min close price for NAK: 1.9894
-2025-10-07 08:55:13,986 - root - INFO - MACD is still rising for stock NAK
-2025-10-07 08:55:13,986 - root - INFO - Not enough profit percent to scalp for NAK: 0.50505
-2025-10-07 08:55:14,015 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 08:55:14,095 - root - INFO - Profit percent for TMQ is -0.275922
-2025-10-07 08:55:14,095 - root - INFO - Latest 1min close price for TMQ: 7.2801
-2025-10-07 08:55:14,177 - root - INFO - No close long conditions met for TMQ
-2025-10-07 08:55:25,667 - root - INFO - Real mode: Today's profit so far: 1249.3599749999994
-2025-10-07 08:55:25,689 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
-2025-10-07 08:55:25,689 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
-2025-10-07 08:55:25,720 - root - INFO -  update_current_price: start time 2025-10-07T08:54:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:55:27,505 - root - INFO -  MACD calculation for APVO due to high change percent: 15.6028
-2025-10-07 08:55:27,576 - root - INFO - MACD not positive for APVO: MACD=-0.05224359215628427, Signal=-0.04951602892861394, Hist=-0.0027275632276703293
-2025-10-07 08:55:27,786 - root - INFO -  update_current_price: start time 2025-10-07T08:54:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:55:28,461 - root - INFO -  MACD calculation for BITF due to high change percent: 14.7399
-2025-10-07 08:55:28,537 - root - INFO - MACD not positive for BITF: MACD=0.010203953964105672, Signal=0.02548179054418385, Hist=-0.01527783658007818
-2025-10-07 08:55:28,649 - root - INFO -  MACD calculation for BJDX due to high change percent: 29.0323
-2025-10-07 08:55:28,679 - root - INFO - MACD not positive for BJDX: MACD=0.0008050213693371333, Signal=0.003995692078356769, Hist=-0.003190670709019636
-2025-10-07 08:55:28,882 - root - INFO -  update_current_price: start time 2025-10-07T08:54:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:55:29,228 - root - INFO - Real mode: Today's profit so far: 1250.7399749999968
-2025-10-07 08:55:29,248 - root - INFO - Running real_trade for all top movers
-2025-10-07 08:55:29,288 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 08:55:29,379 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 08:55:29,394 - root - INFO - 1min candle is not positive for TMQ: open 7.36 close 7.2801
-2025-10-07 08:55:29,411 - root - INFO - latest trade price: 7.09
-2025-10-07 08:55:29,418 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 08:55:29,454 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
-2025-10-07 08:55:29,495 - root - INFO - Trend up basic conditions not met for COCH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 08:55:29,509 - root - INFO -  MACD calculation for CISS due to high change percent: 42.5339
-2025-10-07 08:55:29,514 - root - INFO - latest trade price: 1.9402
-2025-10-07 08:55:29,521 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
-2025-10-07 08:55:29,533 - root - INFO - MACD not positive for CISS: MACD=-0.015553888410177574, Signal=-0.006426847572743187, Hist=-0.009127040837434387
-2025-10-07 08:55:29,642 - root - INFO -  update_current_price: start time 2025-10-07T08:54:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:55:29,650 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
-2025-10-07 08:55:29,667 - root - INFO - latest trade price: 1.99
-2025-10-07 08:55:29,750 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
-2025-10-07 08:55:29,782 - root - INFO -  MACD calculation for COCH due to high change percent: 128.049
-2025-10-07 08:55:29,880 - root - INFO - Profit percent for NAK is 0.0
-2025-10-07 08:55:29,880 - root - INFO - Latest 1min close price for NAK: 1.9894
-2025-10-07 08:55:29,962 - root - INFO - MACD is still rising for stock NAK
-2025-10-07 08:55:29,962 - root - INFO - Not enough profit percent to scalp for NAK: 0.0
-2025-10-07 08:55:29,980 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 08:55:30,048 - root - INFO - Profit percent for TMQ is -0.557446
-2025-10-07 08:55:30,048 - root - INFO - Latest 1min close price for TMQ: 7.2801
-2025-10-07 08:55:30,106 - root - INFO - No close long conditions met for TMQ
-2025-10-07 08:55:30,289 - root - INFO -  MACD calculation for DVLT due to high change percent: 31.7308
-2025-10-07 08:55:30,361 - root - INFO - MACD not positive for DVLT: MACD=0.029037790055555845, Signal=0.03819700397636068, Hist=-0.009159213920804835
-2025-10-07 08:55:30,362 - root - INFO -  update_current_price: start time 2025-10-07T08:54:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:55:30,667 - root - INFO -  MACD calculation for ELAB due to high change percent: 17.9298
-2025-10-07 08:55:30,705 - root - INFO - MACD not positive for ELAB: MACD=0.12268917525274059, Signal=0.16310691543806247, Hist=-0.040417740185321877
-2025-10-07 08:55:31,623 - root - INFO -  update_current_price: start time 2025-10-07T08:54:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:55:31,975 - root - INFO -  MACD calculation for GLTO due to high change percent: 612.938
-2025-10-07 08:55:32,024 - root - INFO - MACD not positive for GLTO: MACD=1.7814626277000514, Signal=2.7052244525292783, Hist=-0.923761824829227
-2025-10-07 08:55:32,240 - root - INFO -  MACD calculation for GPUS due to high change percent: 17.1129
-2025-10-07 08:55:32,615 - root - INFO -  update_current_price: start time 2025-10-07T08:54:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:55:32,740 - root - INFO -  MACD calculation for HIVE due to high change percent: 10.5925
-2025-10-07 08:55:33,513 - root - INFO -  MACD calculation for INDP due to high change percent: 24.7649
-2025-10-07 08:55:33,952 - root - INFO -  update_current_price: start time 2025-10-07T08:54:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:55:35,255 - root - INFO -  MACD calculation for LAR due to high change percent: 11.086
-2025-10-07 08:55:35,629 - root - INFO -  MACD calculation for LIDR due to high change percent: 15.8415
-2025-10-07 08:55:36,299 - root - INFO -  update_current_price: start time 2025-10-07T08:54:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:55:36,525 - root - INFO -  MACD calculation for LXEO due to high change percent: 27.5116
-2025-10-07 08:55:36,570 - root - INFO - MACD not positive for LXEO: MACD=0.08565403869943644, Signal=0.1676754657932959, Hist=-0.08202142709385946
-2025-10-07 08:55:36,679 - root - INFO -  MACD calculation for MAIA due to high change percent: 11.5607
-2025-10-07 08:55:37,646 - root - INFO -  MACD calculation for NAK due to high change percent: 32.4503
-2025-10-07 08:55:37,832 - root - INFO -  update_current_price: start time 2025-10-07T08:54:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:55:38,309 - root - INFO -  MACD calculation for NMTC due to high change percent: 13.4994
-2025-10-07 08:55:39,095 - root - INFO -  MACD calculation for OMEX due to high change percent: 10.5263
-2025-10-07 08:55:39,455 - root - INFO -  update_current_price: start time 2025-10-07T08:54:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:55:41,232 - root - INFO -  update_current_price: start time 2025-10-07T08:54:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:55:41,713 - root - INFO -  MACD calculation for REKR due to high change percent: 19.8895
-2025-10-07 08:55:41,770 - root - INFO - MACD not positive for REKR: MACD=0.036393661536614275, Signal=0.051921660798860195, Hist=-0.01552799926224592
-2025-10-07 08:55:42,499 - root - INFO -  MACD calculation for RVPH due to high change percent: 11.1908
-2025-10-07 08:55:42,578 - root - INFO - MACD not positive for RVPH: MACD=-0.014669867424630945, Signal=-0.010901975145547537, Hist=-0.0037678922790834075
-2025-10-07 08:55:43,478 - root - INFO -  update_current_price: start time 2025-10-07T08:54:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:55:44,174 - root - INFO -  MACD calculation for SNGX due to high change percent: 20.438
-2025-10-07 08:55:45,006 - root - INFO -  MACD calculation for TELO due to high change percent: 26.0563
-2025-10-07 08:55:45,071 - root - INFO -  update_current_price: start time 2025-10-07T08:54:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:55:45,153 - root - INFO - Real mode: Today's profit so far: 1247.9799749999984
-2025-10-07 08:55:45,174 - root - INFO - Running real_trade for all top movers
-2025-10-07 08:55:45,216 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 08:55:45,306 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
-2025-10-07 08:55:45,324 - root - INFO - latest trade price: 7.0801
-2025-10-07 08:55:45,332 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 08:55:45,371 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
-2025-10-07 08:55:45,376 - root - INFO -  MACD calculation for TMQ due to high change percent: 251.679
-2025-10-07 08:55:45,412 - root - INFO - Trend up basic conditions not met for COCH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 08:55:45,426 - root - INFO - MACD not positive for TMQ: MACD=0.2781229794155262, Signal=0.29716140277169456, Hist=-0.019038423356168344
-2025-10-07 08:55:45,427 - root - INFO - latest trade price: 1.91
-2025-10-07 08:55:45,436 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
-2025-10-07 08:55:45,576 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
-2025-10-07 08:55:45,594 - root - INFO - latest trade price: 1.99
-2025-10-07 08:55:45,668 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
-2025-10-07 08:55:45,794 - root - INFO - Profit percent for NAK is 0.50505
-2025-10-07 08:55:45,794 - root - INFO - Latest 1min close price for NAK: 1.98
-2025-10-07 08:55:45,855 - root - INFO - MACD is still rising for stock NAK
-2025-10-07 08:55:45,855 - root - INFO - Not enough profit percent to scalp for NAK: 0.50505
-2025-10-07 08:55:45,865 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 08:55:45,932 - root - INFO - Profit percent for TMQ is -0.696108
-2025-10-07 08:55:45,932 - root - INFO - Latest 1min close price for TMQ: 7.09
-2025-10-07 08:55:45,961 - root - INFO -  update_current_price: start time 2025-10-07T08:54:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:55:45,985 - root - INFO - Closing TrendUp long: price below EMAs or MACD below signal{price_below_emas=False, macd_below_signal=True}
-2025-10-07 08:55:45,985 - root - INFO - TMQ:====== 7.09=========>SELL========>TrendUpExit
-2025-10-07 08:55:45,985 - root - INFO - ******************** CLOSE by SOLD stock:TMQ
-2025-10-07 08:55:47,830 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-07 08:56:01,114 - root - INFO - Real mode: Today's profit so far: 1249.3099749999965
-2025-10-07 08:56:01,134 - root - INFO - Running real_trade for all top movers
-2025-10-07 08:56:01,185 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 08:56:01,240 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
-2025-10-07 08:56:01,292 - root - INFO - Trend up basic conditions not met for COCH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 08:56:01,309 - root - INFO - latest trade price: 1.92
-2025-10-07 08:56:01,319 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
-2025-10-07 08:56:01,493 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
-2025-10-07 08:56:01,515 - root - INFO - latest trade price: 1.99
-2025-10-07 08:56:01,613 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
-2025-10-07 08:56:01,798 - root - INFO - Profit percent for NAK is 0.50505
-2025-10-07 08:56:01,798 - root - INFO - Latest 1min close price for NAK: 1.98
-2025-10-07 08:56:01,881 - root - INFO - MACD is still rising for stock NAK
-2025-10-07 08:56:01,881 - root - INFO - Not enough profit percent to scalp for NAK: 0.50505
-2025-10-07 08:56:16,938 - root - INFO - Real mode: Today's profit so far: 1249.3099749999965
-2025-10-07 08:56:16,958 - root - INFO - Running real_trade for all top movers
-2025-10-07 08:56:17,006 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 08:56:17,058 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
-2025-10-07 08:56:17,113 - root - INFO - Trend up basic conditions not met for COCH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 08:56:17,137 - root - INFO - latest trade price: 1.97
-2025-10-07 08:56:17,152 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
-2025-10-07 08:56:17,323 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
-2025-10-07 08:56:17,349 - root - INFO - latest trade price: 1.99
-2025-10-07 08:56:17,446 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
-2025-10-07 08:56:17,595 - root - INFO - Profit percent for NAK is 0.50505
-2025-10-07 08:56:17,595 - root - INFO - Latest 1min close price for NAK: 1.98
-2025-10-07 08:56:17,682 - root - INFO - MACD is still rising for stock NAK
-2025-10-07 08:56:17,682 - root - INFO - Not enough profit percent to scalp for NAK: 0.50505
-2025-10-07 08:56:32,738 - root - INFO - Real mode: Today's profit so far: 1244.2599749999972
-2025-10-07 08:56:32,759 - root - INFO - Running real_trade for all top movers
-2025-10-07 08:56:32,807 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 08:56:32,865 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
-2025-10-07 08:56:32,918 - root - INFO - Trend up basic conditions not met for COCH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 08:56:32,971 - root - INFO - latest trade price: 1.96
-2025-10-07 08:56:32,982 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
-2025-10-07 08:56:33,192 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
-2025-10-07 08:56:33,211 - root - INFO - latest trade price: 1.98
-2025-10-07 08:56:33,313 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
-2025-10-07 08:56:33,463 - root - INFO - Profit percent for NAK is 0.50505
-2025-10-07 08:56:33,463 - root - INFO - Latest 1min close price for NAK: 1.98
-2025-10-07 08:56:33,561 - root - INFO - MACD is still rising for stock NAK
-2025-10-07 08:56:33,561 - root - INFO - Not enough profit percent to scalp for NAK: 0.50505
-2025-10-07 08:56:47,902 - root - INFO - Real mode: Today's profit so far: 1249.3099749999965
-2025-10-07 08:56:47,924 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
-2025-10-07 08:56:47,924 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
-2025-10-07 08:56:47,952 - root - INFO -  update_current_price: start time 2025-10-07T08:55:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:56:48,623 - root - INFO - Real mode: Today's profit so far: 1249.3099749999965
-2025-10-07 08:56:48,642 - root - INFO - Running real_trade for all top movers
-2025-10-07 08:56:48,677 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 08:56:48,729 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
-2025-10-07 08:56:48,742 - root - INFO - 1min candle is not positive for COCH: open 1.93 close 1.96
-2025-10-07 08:56:48,759 - root - INFO - latest trade price: 1.95
-2025-10-07 08:56:48,767 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
-2025-10-07 08:56:48,924 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
-2025-10-07 08:56:48,943 - root - INFO - latest trade price: 1.99
-2025-10-07 08:56:49,022 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
-2025-10-07 08:56:49,153 - root - INFO - Profit percent for NAK is 0.0
-2025-10-07 08:56:49,153 - root - INFO - Latest 1min close price for NAK: 1.98
-2025-10-07 08:56:49,203 - root - INFO -  MACD calculation for APVO due to high change percent: 14.8936
-2025-10-07 08:56:49,214 - root - INFO - MACD is still rising for stock NAK
-2025-10-07 08:56:49,214 - root - INFO - Not enough profit percent to scalp for NAK: 0.0
-2025-10-07 08:56:49,260 - root - INFO - MACD not positive for APVO: MACD=-0.05095558700105873, Signal=-0.0498039405431029, Hist=-0.0011516464579558322
-2025-10-07 08:56:49,658 - root - INFO -  update_current_price: start time 2025-10-07T08:55:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:56:50,881 - root - INFO -  MACD calculation for BITF due to high change percent: 13.5838
-2025-10-07 08:56:50,954 - root - INFO - MACD not positive for BITF: MACD=0.005864861474199401, Signal=0.021558404730186963, Hist=-0.015693543255987562
-2025-10-07 08:56:51,007 - root - INFO -  MACD calculation for BJDX due to high change percent: 30.9677
-2025-10-07 08:56:51,533 - root - INFO -  update_current_price: start time 2025-10-07T08:55:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:56:52,923 - root - INFO -  MACD calculation for CISS due to high change percent: 42.9864
-2025-10-07 08:56:52,962 - root - INFO - MACD not positive for CISS: MACD=-0.01715340849682212, Signal=-0.008572159757558973, Hist=-0.008581248739263147
-2025-10-07 08:56:53,438 - root - INFO -  update_current_price: start time 2025-10-07T08:55:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:56:53,568 - root - INFO -  MACD calculation for COCH due to high change percent: 141.696
-2025-10-07 08:56:55,258 - root - INFO -  MACD calculation for DVLT due to high change percent: 30.2933
-2025-10-07 08:56:55,334 - root - INFO - MACD not positive for DVLT: MACD=0.025521193218407845, Signal=0.03566184182477011, Hist=-0.010140648606362268
-2025-10-07 08:56:55,393 - root - INFO -  update_current_price: start time 2025-10-07T08:55:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:56:55,687 - root - INFO -  MACD calculation for ELAB due to high change percent: 18.2994
-2025-10-07 08:56:55,723 - root - INFO - MACD not positive for ELAB: MACD=0.11184748327669514, Signal=0.152855029005789, Hist=-0.041007545729093875
-2025-10-07 08:56:56,978 - root - INFO -  update_current_price: start time 2025-10-07T08:55:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:56:57,645 - root - INFO -  MACD calculation for GLTO due to high change percent: 594.07
-2025-10-07 08:56:57,696 - root - INFO - MACD not positive for GLTO: MACD=1.6354137086175058, Signal=2.491262303746924, Hist=-0.8558485951294181
-2025-10-07 08:56:57,820 - root - INFO -  MACD calculation for GPUS due to high change percent: 17.3387
-2025-10-07 08:56:58,466 - root - INFO -  update_current_price: start time 2025-10-07T08:55:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:56:58,651 - root - INFO -  MACD calculation for HIVE due to high change percent: 10.5889
-2025-10-07 08:56:59,483 - root - INFO -  MACD calculation for INDP due to high change percent: 19.1223
-2025-10-07 08:56:59,671 - root - INFO -  update_current_price: start time 2025-10-07T08:55:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:57:00,839 - root - INFO -  MACD calculation for LAR due to high change percent: 11.991
-2025-10-07 08:57:01,053 - root - INFO -  MACD calculation for LIDR due to high change percent: 14.7887
-2025-10-07 08:57:01,451 - root - INFO -  update_current_price: start time 2025-10-07T08:56:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:57:01,608 - root - INFO -  MACD calculation for LXEO due to high change percent: 29.0572
-2025-10-07 08:57:01,642 - root - INFO - MACD not positive for LXEO: MACD=0.08166543471083365, Signal=0.16687774499557534, Hist=-0.08521231028474169
-2025-10-07 08:57:01,734 - root - INFO -  MACD calculation for MAIA due to high change percent: 11.5607
-2025-10-07 08:57:02,397 - root - INFO -  MACD calculation for NAK due to high change percent: 31.1258
-2025-10-07 08:57:02,575 - root - INFO -  update_current_price: start time 2025-10-07T08:56:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:57:03,090 - root - INFO -  MACD calculation for NXXT due to high change percent: 10.6135
-2025-10-07 08:57:03,254 - root - INFO -  MACD calculation for OMEX due to high change percent: 10.5263
-2025-10-07 08:57:03,532 - root - INFO -  update_current_price: start time 2025-10-07T08:56:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:57:04,261 - root - INFO - Real mode: Today's profit so far: 1249.2599749999972
-2025-10-07 08:57:04,281 - root - INFO - Running real_trade for all top movers
-2025-10-07 08:57:04,320 - root - INFO -  update_current_price: start time 2025-10-07T08:56:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:57:04,320 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 08:57:04,373 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
-2025-10-07 08:57:04,391 - root - INFO - 1min candle is not positive for COCH: open 1.93 close 1.96
-2025-10-07 08:57:04,410 - root - INFO - latest trade price: 1.9399
-2025-10-07 08:57:04,418 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
-2025-10-07 08:57:04,519 - root - INFO -  MACD calculation for REKR due to high change percent: 19.8895
-2025-10-07 08:57:04,571 - root - INFO - MACD not positive for REKR: MACD=0.036393661536614275, Signal=0.051921660798860195, Hist=-0.01552799926224592
-2025-10-07 08:57:04,579 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
-2025-10-07 08:57:04,598 - root - INFO - latest trade price: 1.9899
-2025-10-07 08:57:04,609 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 08:57:04,647 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 08:57:04,697 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-07 08:57:04,697 - root - INFO - BJDX:======= 2.08===>BUY========>TrendUp367334
-2025-10-07 08:57:04,835 - root - INFO - Placed BUY order for BJDX, qty: 462, price: 2.16, success: True
-2025-10-07 08:57:04,835 - root - INFO - Trade successfully COMPLETED for BJDX
-2025-10-07 08:57:04,844 - root - INFO -  MACD calculation for RVPH due to high change percent: 12.0424
-2025-10-07 08:57:04,896 - root - INFO - ALready an open order
-2025-10-07 08:57:04,896 - root - INFO - ALready an open order
-2025-10-07 08:57:04,905 - root - INFO - MACD not positive for RVPH: MACD=-0.014422573977337372, Signal=-0.010852516456088823, Hist=-0.0035700575212485493
-2025-10-07 08:57:05,748 - root - INFO -  update_current_price: start time 2025-10-07T08:56:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:57:06,233 - root - INFO -  MACD calculation for SNGX due to high change percent: 20.438
-2025-10-07 08:57:07,182 - root - INFO -  MACD calculation for TELO due to high change percent: 25.3521
-2025-10-07 08:57:07,246 - root - INFO -  update_current_price: start time 2025-10-07T08:56:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:57:07,473 - root - INFO -  MACD calculation for TMQ due to high change percent: 239.234
-2025-10-07 08:57:07,512 - root - INFO - MACD not positive for TMQ: MACD=0.2837070249995719, Signal=0.29827821188850373, Hist=-0.01457118688893183
-2025-10-07 08:57:08,167 - root - INFO -  update_current_price: start time 2025-10-07T08:56:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:57:09,459 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-07 08:57:19,935 - root - INFO - Real mode: Today's profit so far: 1244.8599749999994
-2025-10-07 08:57:19,956 - root - INFO - Running real_trade for all top movers
-2025-10-07 08:57:20,002 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 08:57:20,065 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
-2025-10-07 08:57:20,086 - root - INFO - 1min candle is not positive for COCH: open 1.93 close 1.96
-2025-10-07 08:57:20,104 - root - INFO - latest trade price: 1.93
-2025-10-07 08:57:20,115 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 08:57:20,160 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 08:57:20,220 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-07 08:57:20,220 - root - INFO - BJDX:======= 2.08===>BUY========>TrendUp367334
-2025-10-07 08:57:20,240 - root - WARNING - ***** stock is already in the positions
-2025-10-07 08:57:20,240 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
-2025-10-07 08:57:20,392 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
-2025-10-07 08:57:20,410 - root - INFO - latest trade price: 1.9807
-2025-10-07 08:57:20,491 - root - INFO - ALready an open order
-2025-10-07 08:57:20,491 - root - INFO - ALready an open order
-2025-10-07 08:57:35,529 - root - INFO - Real mode: Today's profit so far: 1248.8699749999978
-2025-10-07 08:57:35,550 - root - INFO - Running real_trade for all top movers
-2025-10-07 08:57:35,597 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 08:57:35,652 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
-2025-10-07 08:57:35,715 - root - INFO - Trend up basic conditions not met for COCH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 08:57:35,733 - root - INFO - latest trade price: 1.93
-2025-10-07 08:57:35,744 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 08:57:35,785 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 08:57:35,811 - root - INFO - 1min RSI is overbought for BJDX: 76.13856506125471
-2025-10-07 08:57:35,829 - root - INFO - latest trade price: 2.17
-2025-10-07 08:57:35,840 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
-2025-10-07 08:57:36,001 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
-2025-10-07 08:57:36,020 - root - INFO - latest trade price: 1.98
-2025-10-07 08:57:36,109 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 08:57:36,168 - root - INFO - Profit percent for BJDX is 0
-2025-10-07 08:57:36,169 - root - INFO - Latest 1min close price for BJDX: 2.16
-2025-10-07 08:57:36,194 - root - INFO - High price DETECTED for BJDX is 0.0 and setting no_scalp to True
-2025-10-07 08:57:36,216 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
-2025-10-07 08:57:36,366 - root - INFO - Profit percent for NAK is 0.50505
-2025-10-07 08:57:36,367 - root - INFO - Latest 1min close price for NAK: 1.9899
-2025-10-07 08:57:36,461 - root - INFO - MACD is still rising for stock NAK
-2025-10-07 08:57:36,461 - root - INFO - Not enough profit percent to scalp for NAK: 0.50505
-2025-10-07 08:57:51,521 - root - INFO - Real mode: Today's profit so far: 1253.8699749999978
-2025-10-07 08:57:51,545 - root - INFO - Running real_trade for all top movers
-2025-10-07 08:57:51,591 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 08:57:51,650 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
-2025-10-07 08:57:51,709 - root - INFO - Trend up basic conditions not met for COCH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 08:57:51,729 - root - INFO - latest trade price: 1.92
-2025-10-07 08:57:51,739 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 08:57:51,781 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 08:57:51,804 - root - INFO - 1min RSI is overbought for BJDX: 76.13856506125471
-2025-10-07 08:57:51,827 - root - INFO - latest trade price: 2.17
-2025-10-07 08:57:51,837 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
-2025-10-07 08:57:52,063 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
-2025-10-07 08:57:52,081 - root - INFO - latest trade price: 1.9899
-2025-10-07 08:57:52,173 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 08:57:52,215 - root - INFO - Profit percent for BJDX is 0.467593
-2025-10-07 08:57:52,215 - root - INFO - Latest 1min close price for BJDX: 2.16
-2025-10-07 08:57:52,292 - root - INFO - MACD is still rising for stock BJDX
-2025-10-07 08:57:52,293 - root - INFO - Not enough profit percent to scalp for BJDX: 0.467593
-2025-10-07 08:57:52,320 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
-2025-10-07 08:57:52,475 - root - INFO - Profit percent for NAK is 0.0
-2025-10-07 08:57:52,475 - root - INFO - Latest 1min close price for NAK: 1.9899
-2025-10-07 08:57:52,569 - root - INFO - MACD is still rising for stock NAK
-2025-10-07 08:57:52,569 - root - INFO - Not enough profit percent to scalp for NAK: 0.0
-2025-10-07 08:58:07,627 - root - INFO - Real mode: Today's profit so far: 1225.7699749999992
-2025-10-07 08:58:07,649 - root - INFO - Running real_trade for all top movers
-2025-10-07 08:58:07,700 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 08:58:07,759 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
-2025-10-07 08:58:07,815 - root - INFO - Trend up basic conditions not met for COCH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 08:58:07,833 - root - INFO - latest trade price: 1.91
-2025-10-07 08:58:07,849 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 08:58:07,895 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 08:58:07,914 - root - INFO - 1min RSI is overbought for BJDX: 76.13856506125471
-2025-10-07 08:58:07,934 - root - INFO - latest trade price: 2.121
-2025-10-07 08:58:07,947 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
-2025-10-07 08:58:08,119 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
-2025-10-07 08:58:08,138 - root - INFO - latest trade price: 1.98
-2025-10-07 08:58:08,234 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 08:58:08,276 - root - INFO - Profit percent for BJDX is 0.462963
-2025-10-07 08:58:08,277 - root - INFO - Latest 1min close price for BJDX: 2.16
-2025-10-07 08:58:08,367 - root - INFO - MACD is still rising for stock BJDX
-2025-10-07 08:58:08,367 - root - INFO - Not enough profit percent to scalp for BJDX: 0.462963
-2025-10-07 08:58:08,395 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
-2025-10-07 08:58:08,557 - root - INFO - Profit percent for NAK is 0.5
-2025-10-07 08:58:08,557 - root - INFO - Latest 1min close price for NAK: 1.9899
-2025-10-07 08:58:08,651 - root - INFO - MACD is still rising for stock NAK
-2025-10-07 08:58:08,651 - root - INFO - Not enough profit percent to scalp for NAK: 0.5
-2025-10-07 08:58:09,543 - root - INFO - Real mode: Today's profit so far: 1225.7699749999992
-2025-10-07 08:58:09,563 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
-2025-10-07 08:58:09,564 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
-2025-10-07 08:58:09,593 - root - INFO -  update_current_price: start time 2025-10-07T08:57:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:58:10,975 - root - INFO -  MACD calculation for APVO due to high change percent: 15.6028
-2025-10-07 08:58:11,043 - root - INFO - MACD not positive for APVO: MACD=-0.05095558700105873, Signal=-0.0498039405431029, Hist=-0.0011516464579558322
-2025-10-07 08:58:11,409 - root - INFO -  update_current_price: start time 2025-10-07T08:57:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:58:11,985 - root - INFO -  MACD calculation for BITF due to high change percent: 13.5838
-2025-10-07 08:58:12,056 - root - INFO - MACD not positive for BITF: MACD=0.00588879309813084, Signal=0.02156319105497325, Hist=-0.01567439795684241
-2025-10-07 08:58:12,116 - root - INFO -  MACD calculation for BJDX due to high change percent: 34.1936
-2025-10-07 08:58:12,664 - root - INFO -  update_current_price: start time 2025-10-07T08:57:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:58:13,762 - root - INFO -  MACD calculation for CISS due to high change percent: 42.5339
-2025-10-07 08:58:13,802 - root - INFO - MACD not positive for CISS: MACD=-0.017951129294543122, Signal=-0.008731703917103175, Hist=-0.009219425377439947
-2025-10-07 08:58:13,908 - root - INFO -  update_current_price: start time 2025-10-07T08:57:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:58:14,020 - root - INFO -  MACD calculation for COCH due to high change percent: 142.935
-2025-10-07 08:58:14,946 - root - INFO -  MACD calculation for DVLT due to high change percent: 29.3269
-2025-10-07 08:58:15,027 - root - INFO - MACD not positive for DVLT: MACD=0.024723472420687287, Signal=0.035502297665226, Hist=-0.010778825244538714
-2025-10-07 08:58:15,028 - root - INFO -  update_current_price: start time 2025-10-07T08:57:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:58:15,329 - root - INFO -  MACD calculation for ELAB due to high change percent: 16.6359
-2025-10-07 08:58:15,366 - root - INFO - MACD not positive for ELAB: MACD=0.11503836646757826, Signal=0.15349320564396562, Hist=-0.03845483917638737
-2025-10-07 08:58:16,017 - root - INFO -  update_current_price: start time 2025-10-07T08:57:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:58:16,662 - root - INFO -  MACD calculation for GLTO due to high change percent: 600.539
-2025-10-07 08:58:16,714 - root - INFO - MACD not positive for GLTO: MACD=1.6713111445149416, Signal=2.498441790926411, Hist=-0.8271306464114696
-2025-10-07 08:58:17,037 - root - INFO -  MACD calculation for GPUS due to high change percent: 16.9355
-2025-10-07 08:58:17,373 - root - INFO -  update_current_price: start time 2025-10-07T08:57:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:58:17,500 - root - INFO -  MACD calculation for HIVE due to high change percent: 10.2334
-2025-10-07 08:58:18,514 - root - INFO -  MACD calculation for INDP due to high change percent: 23.8527
-2025-10-07 08:58:18,639 - root - INFO -  update_current_price: start time 2025-10-07T08:57:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:58:19,643 - root - INFO -  MACD calculation for LAR due to high change percent: 11.991
-2025-10-07 08:58:19,853 - root - INFO -  MACD calculation for LIDR due to high change percent: 15.493
-2025-10-07 08:58:20,088 - root - INFO -  update_current_price: start time 2025-10-07T08:57:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:58:20,242 - root - INFO -  MACD calculation for LXEO due to high change percent: 28.2844
-2025-10-07 08:58:20,277 - root - INFO - MACD not positive for LXEO: MACD=0.08565403869943644, Signal=0.1676754657932959, Hist=-0.08202142709385946
-2025-10-07 08:58:20,325 - root - INFO -  MACD calculation for MAIA due to high change percent: 10.9827
-2025-10-07 08:58:20,947 - root - INFO -  MACD calculation for NAK due to high change percent: 31.1258
-2025-10-07 08:58:21,148 - root - INFO -  update_current_price: start time 2025-10-07T08:57:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:58:21,599 - root - INFO -  MACD calculation for NMTC due to high change percent: 14.5038
-2025-10-07 08:58:21,828 - root - INFO -  MACD calculation for NXXT due to high change percent: 10.628
-2025-10-07 08:58:22,143 - root - INFO -  MACD calculation for OMEX due to high change percent: 10.5
-2025-10-07 08:58:22,546 - root - INFO -  update_current_price: start time 2025-10-07T08:57:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:58:23,706 - root - INFO - Real mode: Today's profit so far: 1240.0199749999992
-2025-10-07 08:58:23,725 - root - INFO - Running real_trade for all top movers
-2025-10-07 08:58:23,774 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 08:58:23,828 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
-2025-10-07 08:58:23,873 - root - INFO - Trend up basic conditions not met for COCH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 08:58:23,892 - root - INFO - latest trade price: 1.89
-2025-10-07 08:58:23,900 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 08:58:23,939 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 08:58:23,954 - root - INFO - 1min RSI is overbought for BJDX: 76.13856506125471
-2025-10-07 08:58:23,973 - root - INFO - latest trade price: 2.1399
-2025-10-07 08:58:23,981 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
-2025-10-07 08:58:23,999 - root - INFO -  update_current_price: start time 2025-10-07T08:57:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:58:24,143 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
-2025-10-07 08:58:24,162 - root - INFO - latest trade price: 1.99
-2025-10-07 08:58:24,233 - root - INFO -  MACD calculation for REKR due to high change percent: 19.8895
-2025-10-07 08:58:24,248 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
-2025-10-07 08:58:24,289 - root - INFO - MACD not positive for REKR: MACD=0.036393661536614275, Signal=0.051921660798860195, Hist=-0.01552799926224592
-2025-10-07 08:58:24,293 - root - INFO - Profit percent for BJDX is -1.80556
-2025-10-07 08:58:24,293 - root - INFO - Latest 1min close price for BJDX: 2.16
-2025-10-07 08:58:24,362 - root - INFO - MACD is still rising for stock BJDX
-2025-10-07 08:58:24,363 - root - INFO - Not enough profit percent to scalp for BJDX: -1.80556
-2025-10-07 08:58:24,379 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
-2025-10-07 08:58:24,515 - root - INFO - Profit percent for NAK is 0.0
-2025-10-07 08:58:24,515 - root - INFO - Latest 1min close price for NAK: 1.9899
-2025-10-07 08:58:24,578 - root - INFO -  MACD calculation for RVPH due to high change percent: 12.5056
-2025-10-07 08:58:24,588 - root - INFO - MACD is still rising for stock NAK
-2025-10-07 08:58:24,589 - root - INFO - Not enough profit percent to scalp for NAK: 0.0
-2025-10-07 08:58:24,638 - root - INFO - MACD not positive for RVPH: MACD=-0.013824283379046842, Signal=-0.010732858336430718, Hist=-0.0030914250426161242
-2025-10-07 08:58:25,426 - root - INFO -  update_current_price: start time 2025-10-07T08:57:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:58:25,969 - root - INFO -  MACD calculation for SNGX due to high change percent: 18.9781
-2025-10-07 08:58:26,940 - root - INFO -  MACD calculation for TELO due to high change percent: 24.6479
-2025-10-07 08:58:27,006 - root - INFO -  update_current_price: start time 2025-10-07T08:57:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:58:27,267 - root - INFO -  MACD calculation for TMQ due to high change percent: 242.584
-2025-10-07 08:58:27,321 - root - INFO - MACD not positive for TMQ: MACD=0.2789207002132468, Signal=0.29732094693123867, Hist=-0.018400246717991897
-2025-10-07 08:58:28,339 - root - INFO -  update_current_price: start time 2025-10-07T08:57:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:58:29,972 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-07 09:00:16,800 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 09:00:16,800 - root - INFO - Not enough profit percent to scalp for BJDX: -2.77778
+2025-10-07 09:00:16,825 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
+2025-10-07 09:00:16,977 - root - INFO - Profit percent for NAK is 0.50505
+2025-10-07 09:00:16,979 - root - INFO - Latest 1min close price for NAK: 1.99
+2025-10-07 09:00:17,076 - root - INFO - MACD is still rising for stock NAK
+2025-10-07 09:00:17,076 - root - INFO - Not enough profit percent to scalp for NAK: 0.50505
+2025-10-07 09:00:32,137 - root - INFO - Real mode: Today's profit so far: 1240.0599749999965
+2025-10-07 09:00:32,158 - root - INFO - Running real_trade for all top movers
+2025-10-07 09:00:32,213 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 09:00:32,267 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
+2025-10-07 09:00:32,288 - root - INFO - latest trade price: 1.89
+2025-10-07 09:00:32,300 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 09:00:32,346 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 09:00:32,371 - root - INFO - 1min candle is not positive for BJDX: open 2.14 close 2.12
+2025-10-07 09:00:32,391 - root - INFO - latest trade price: 2.12
+2025-10-07 09:00:32,403 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
+2025-10-07 09:00:32,569 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
+2025-10-07 09:00:32,589 - root - INFO - latest trade price: 1.99
+2025-10-07 09:00:32,605 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
+2025-10-07 09:00:32,681 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
+2025-10-07 09:00:32,700 - root - INFO - latest trade price: 4.07
+2025-10-07 09:00:32,800 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 09:00:32,843 - root - INFO - Profit percent for BJDX is -1.85185
+2025-10-07 09:00:32,843 - root - INFO - Latest 1min close price for BJDX: 2.12
+2025-10-07 09:00:32,923 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 09:00:32,924 - root - INFO - Not enough profit percent to scalp for BJDX: -1.85185
+2025-10-07 09:00:32,948 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
+2025-10-07 09:00:33,107 - root - INFO - Profit percent for NAK is 0.50505
+2025-10-07 09:00:33,107 - root - INFO - Latest 1min close price for NAK: 1.99
+2025-10-07 09:00:33,360 - root - INFO - MACD is still rising for stock NAK
+2025-10-07 09:00:33,360 - root - INFO - Not enough profit percent to scalp for NAK: 0.50505
+2025-10-07 09:00:48,418 - root - INFO - Real mode: Today's profit so far: 1221.5099749999972
+2025-10-07 09:00:48,438 - root - INFO - Running real_trade for all top movers
+2025-10-07 09:00:48,486 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 09:00:48,544 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
+2025-10-07 09:00:48,569 - root - INFO - 1min candle is not positive for COCH: open 1.86 close 1.8887
+2025-10-07 09:00:48,588 - root - INFO - latest trade price: 1.88
+2025-10-07 09:00:48,600 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 09:00:48,645 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 09:00:48,672 - root - INFO - 1min candle is not positive for BJDX: open 2.11 close 2.12
+2025-10-07 09:00:48,691 - root - INFO - latest trade price: 2.11
+2025-10-07 09:00:48,704 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
+2025-10-07 09:00:48,872 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
+2025-10-07 09:00:48,891 - root - INFO - latest trade price: 1.99
+2025-10-07 09:00:48,906 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
+2025-10-07 09:00:48,980 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
+2025-10-07 09:00:49,000 - root - INFO - latest trade price: 4.1797
+2025-10-07 09:00:49,092 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 09:00:49,140 - root - INFO - Profit percent for BJDX is -1.85185
+2025-10-07 09:00:49,141 - root - INFO - Latest 1min close price for BJDX: 2.12
+2025-10-07 09:00:49,224 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 09:00:49,224 - root - INFO - Not enough profit percent to scalp for BJDX: -1.85185
+2025-10-07 09:00:49,251 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
+2025-10-07 09:00:49,408 - root - INFO - Profit percent for NAK is 0.50505
+2025-10-07 09:00:49,409 - root - INFO - Latest 1min close price for NAK: 1.99
+2025-10-07 09:00:49,504 - root - INFO - MACD is still rising for stock NAK
+2025-10-07 09:00:49,505 - root - INFO - Not enough profit percent to scalp for NAK: 0.50505
+2025-10-07 09:01:00,176 - root - INFO - Real mode: Today's profit so far: 1207.2899749999997
+2025-10-07 09:01:00,202 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
+2025-10-07 09:01:00,203 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
+2025-10-07 09:01:00,236 - root - INFO -  update_current_price: start time 2025-10-07T09:00:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:01:01,747 - root - INFO -  MACD calculation for APVO due to high change percent: 12.7872
+2025-10-07 09:01:01,817 - root - INFO - MACD not positive for APVO: MACD=-0.05077940059220154, Signal=-0.05012666788055795, Hist=-0.0006527327116435874
+2025-10-07 09:01:02,118 - root - INFO -  update_current_price: start time 2025-10-07T09:00:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:01:02,922 - root - INFO -  MACD calculation for BITF due to high change percent: 13.6127
+2025-10-07 09:01:02,999 - root - INFO - MACD not positive for BITF: MACD=0.002398451557899861, Signal=0.01772641409572954, Hist=-0.01532796253782968
+2025-10-07 09:01:03,059 - root - INFO -  MACD calculation for BJDX due to high change percent: 38.0645
+2025-10-07 09:01:03,399 - root - INFO -  update_current_price: start time 2025-10-07T09:00:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:01:04,560 - root - INFO - Real mode: Today's profit so far: 1207.339974999999
+2025-10-07 09:01:04,579 - root - INFO - Running real_trade for all top movers
+2025-10-07 09:01:04,620 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 09:01:04,705 - root - INFO -  MACD calculation for CISS due to high change percent: 42.0814
+2025-10-07 09:01:04,707 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
+2025-10-07 09:01:04,725 - root - INFO - 1min candle is not positive for COCH: open 1.86 close 1.8887
+2025-10-07 09:01:04,734 - root - INFO - MACD not positive for CISS: MACD=-0.019624738200589853, Signal=-0.010910310773800511, Hist=-0.008714427426789342
+2025-10-07 09:01:04,745 - root - INFO - latest trade price: 1.84
+2025-10-07 09:01:04,755 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 09:01:04,793 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 09:01:04,808 - root - INFO - 1min candle is not positive for BJDX: open 2.11 close 2.12
+2025-10-07 09:01:04,827 - root - INFO - latest trade price: 2.0801
+2025-10-07 09:01:04,834 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
+2025-10-07 09:01:04,882 - root - INFO -  update_current_price: start time 2025-10-07T09:00:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:01:04,995 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
+2025-10-07 09:01:05,016 - root - INFO - latest trade price: 1.98
+2025-10-07 09:01:05,025 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
+2025-10-07 09:01:05,035 - root - INFO -  MACD calculation for COCH due to high change percent: 131.78
+2025-10-07 09:01:05,092 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
+2025-10-07 09:01:05,111 - root - INFO - latest trade price: 4.04
+2025-10-07 09:01:05,196 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 09:01:05,234 - root - INFO - Profit percent for BJDX is -2.31481
+2025-10-07 09:01:05,235 - root - INFO - Latest 1min close price for BJDX: 2.12
+2025-10-07 09:01:05,292 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 09:01:05,293 - root - INFO - Not enough profit percent to scalp for BJDX: -2.31481
+2025-10-07 09:01:05,305 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
+2025-10-07 09:01:05,449 - root - INFO - Profit percent for NAK is 0.50505
+2025-10-07 09:01:05,449 - root - INFO - Latest 1min close price for NAK: 1.99
+2025-10-07 09:01:05,556 - root - INFO -  MACD calculation for DGNX due to high change percent: 13.7374
+2025-10-07 09:01:05,563 - root - INFO - MACD is still rising for stock NAK
+2025-10-07 09:01:05,563 - root - INFO - Not enough profit percent to scalp for NAK: 0.50505
+2025-10-07 09:01:05,857 - root - INFO -  MACD calculation for DVLT due to high change percent: 27.4038
+2025-10-07 09:01:05,927 - root - INFO - MACD not positive for DVLT: MACD=0.01682068538986492, Signal=0.031383069227247776, Hist=-0.014562383837382856
+2025-10-07 09:01:05,928 - root - INFO -  update_current_price: start time 2025-10-07T09:00:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:01:06,973 - root - INFO -  update_current_price: start time 2025-10-07T09:00:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:01:07,720 - root - INFO -  MACD calculation for GLTO due to high change percent: 612.938
+2025-10-07 09:01:07,776 - root - INFO - MACD not positive for GLTO: MACD=1.5952897196779539, Signal=2.317939012004355, Hist=-0.722649292326401
+2025-10-07 09:01:07,945 - root - INFO -  MACD calculation for GPUS due to high change percent: 16.0968
+2025-10-07 09:01:08,398 - root - INFO -  update_current_price: start time 2025-10-07T09:00:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:01:08,709 - root - INFO -  MACD calculation for HIVE due to high change percent: 10.2334
+2025-10-07 09:01:09,441 - root - INFO -  MACD calculation for INDP due to high change percent: 30.4075
+2025-10-07 09:01:09,611 - root - INFO -  update_current_price: start time 2025-10-07T09:00:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:01:10,725 - root - INFO -  MACD calculation for LAR due to high change percent: 11.5385
+2025-10-07 09:01:11,043 - root - INFO -  MACD calculation for LIDR due to high change percent: 17.6056
+2025-10-07 09:01:11,441 - root - INFO -  update_current_price: start time 2025-10-07T09:00:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:01:11,641 - root - INFO -  MACD calculation for LXEO due to high change percent: 29.83
+2025-10-07 09:01:11,687 - root - INFO - MACD not positive for LXEO: MACD=0.09438942986254695, Signal=0.15365643524532313, Hist=-0.05926700538277618
+2025-10-07 09:01:12,553 - root - INFO -  MACD calculation for NAK due to high change percent: 31.7881
+2025-10-07 09:01:12,743 - root - INFO -  update_current_price: start time 2025-10-07T09:00:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:01:13,098 - root - INFO -  MACD calculation for NMTC due to high change percent: 20.5303
+2025-10-07 09:01:13,659 - root - INFO -  MACD calculation for NXXT due to high change percent: 11.0435
+2025-10-07 09:01:13,839 - root - INFO -  MACD calculation for OMEX due to high change percent: 10.5263
+2025-10-07 09:01:14,235 - root - INFO -  update_current_price: start time 2025-10-07T09:00:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:01:14,707 - root - INFO -  MACD calculation for PAPL due to high change percent: 34.357005758157385
+2025-10-07 09:01:15,971 - root - INFO -  update_current_price: start time 2025-10-07T09:00:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:01:16,440 - root - INFO -  MACD calculation for REKR due to high change percent: 19.8895
+2025-10-07 09:01:16,519 - root - INFO - MACD not positive for REKR: MACD=0.03445269916915228, Signal=0.04842786847291861, Hist=-0.013975169303766334
+2025-10-07 09:01:17,093 - root - INFO -  MACD calculation for RVPH due to high change percent: 16.0317
+2025-10-07 09:01:17,175 - root - INFO - MACD not positive for RVPH: MACD=-0.010587339294370834, Signal=-0.010498261650525857, Hist=-8.907764384497724e-05
+2025-10-07 09:01:17,934 - root - INFO -  update_current_price: start time 2025-10-07T09:00:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:01:18,480 - root - INFO -  MACD calculation for SNGX due to high change percent: 18.9781
+2025-10-07 09:01:19,388 - root - INFO -  MACD calculation for TELO due to high change percent: 24.6479
+2025-10-07 09:01:19,582 - root - INFO -  update_current_price: start time 2025-10-07T09:00:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:01:19,947 - root - INFO -  MACD calculation for TMQ due to high change percent: 241.627
+2025-10-07 09:01:20,005 - root - INFO - MACD not positive for TMQ: MACD=0.2600381412744479, Signal=0.29037492711042184, Hist=-0.030336785835973934
+2025-10-07 09:01:20,608 - root - INFO - Real mode: Today's profit so far: 1212.339974999999
+2025-10-07 09:01:20,630 - root - INFO - Running real_trade for all top movers
+2025-10-07 09:01:20,670 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 09:01:20,722 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
+2025-10-07 09:01:20,738 - root - INFO - 1min candle is not positive for COCH: open 1.86 close 1.8887
+2025-10-07 09:01:20,756 - root - INFO - latest trade price: 1.85
+2025-10-07 09:01:20,765 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 09:01:20,803 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 09:01:20,816 - root - INFO - 1min candle is not positive for BJDX: open 2.11 close 2.12
+2025-10-07 09:01:20,845 - root - INFO - latest trade price: 2.08
+2025-10-07 09:01:20,851 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
+2025-10-07 09:01:20,877 - root - INFO -  update_current_price: start time 2025-10-07T09:00:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:01:20,991 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
+2025-10-07 09:01:21,012 - root - INFO - latest trade price: 1.99
+2025-10-07 09:01:21,019 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
+2025-10-07 09:01:21,084 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
+2025-10-07 09:01:21,104 - root - INFO - latest trade price: 4.05
+2025-10-07 09:01:21,190 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 09:01:21,226 - root - INFO - Profit percent for BJDX is -3.69907
+2025-10-07 09:01:21,227 - root - INFO - Latest 1min close price for BJDX: 2.12
+2025-10-07 09:01:21,277 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 09:01:21,277 - root - INFO - Not enough profit percent to scalp for BJDX: -3.69907
+2025-10-07 09:01:21,289 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
+2025-10-07 09:01:21,421 - root - INFO - Profit percent for NAK is 0.0
+2025-10-07 09:01:21,421 - root - INFO - Latest 1min close price for NAK: 1.99
+2025-10-07 09:01:21,488 - root - INFO - MACD is still rising for stock NAK
+2025-10-07 09:01:21,489 - root - INFO - Not enough profit percent to scalp for NAK: 0.0
+2025-10-07 09:01:22,045 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-07 09:01:36,529 - root - INFO - Real mode: Today's profit so far: 1206.8599749999994
+2025-10-07 09:01:36,549 - root - INFO - Running real_trade for all top movers
+2025-10-07 09:01:36,591 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 09:01:36,648 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
+2025-10-07 09:01:36,668 - root - INFO - latest trade price: 1.86
+2025-10-07 09:01:36,683 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 09:01:36,727 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 09:01:36,746 - root - INFO - 1min candle is not positive for BJDX: open 2.13 close 2.09
+2025-10-07 09:01:36,765 - root - INFO - latest trade price: 2.09
+2025-10-07 09:01:36,776 - root - INFO - swing_strategy_open_long for scale 5Min stock PAPL
+2025-10-07 09:01:36,836 - root - INFO - Last 5 minutes maximum volume candle is red for PAPL
+2025-10-07 09:01:36,856 - root - INFO - latest trade price: 5.9001
+2025-10-07 09:01:36,868 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
+2025-10-07 09:01:37,029 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
+2025-10-07 09:01:37,047 - root - INFO - latest trade price: 1.97
+2025-10-07 09:01:37,142 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 09:01:37,186 - root - INFO - Profit percent for BJDX is -3.7037
+2025-10-07 09:01:37,186 - root - INFO - Latest 1min close price for BJDX: 2.09
+2025-10-07 09:01:37,345 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 09:01:37,345 - root - INFO - Not enough profit percent to scalp for BJDX: -3.7037
+2025-10-07 09:01:37,369 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
+2025-10-07 09:01:37,534 - root - INFO - Profit percent for NAK is 0.50505
+2025-10-07 09:01:37,535 - root - INFO - Latest 1min close price for NAK: 1.97
+2025-10-07 09:01:37,638 - root - INFO - No close long conditions met for NAK
+2025-10-07 09:01:52,696 - root - INFO - Real mode: Today's profit so far: 1197.6199749999978
+2025-10-07 09:01:52,721 - root - INFO - Running real_trade for all top movers
+2025-10-07 09:01:52,769 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 09:01:52,823 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
+2025-10-07 09:01:52,842 - root - INFO - latest trade price: 1.85
+2025-10-07 09:01:52,853 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 09:01:52,894 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 09:01:52,919 - root - INFO - 1min candle is not positive for BJDX: open 2.13 close 2.09
+2025-10-07 09:01:52,938 - root - INFO - latest trade price: 2.07
+2025-10-07 09:01:52,950 - root - INFO - swing_strategy_open_long for scale 5Min stock PAPL
+2025-10-07 09:01:52,992 - root - INFO - Last 5 minutes maximum volume candle is red for PAPL
+2025-10-07 09:01:53,012 - root - INFO - latest trade price: 5.6622
+2025-10-07 09:01:53,023 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
+2025-10-07 09:01:53,183 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
+2025-10-07 09:01:53,202 - root - INFO - latest trade price: 1.97
+2025-10-07 09:01:53,298 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 09:01:53,343 - root - INFO - Profit percent for BJDX is -3.24074
+2025-10-07 09:01:53,344 - root - INFO - Latest 1min close price for BJDX: 2.09
+2025-10-07 09:01:53,423 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 09:01:53,425 - root - INFO - Not enough profit percent to scalp for BJDX: -3.24074
+2025-10-07 09:01:53,453 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
+2025-10-07 09:01:53,603 - root - INFO - Profit percent for NAK is -0.50505
+2025-10-07 09:01:53,603 - root - INFO - Latest 1min close price for NAK: 1.97
+2025-10-07 09:01:53,698 - root - INFO - No close long conditions met for NAK
+2025-10-07 09:02:08,762 - root - INFO - Real mode: Today's profit so far: 1202.6299749999998
+2025-10-07 09:02:08,784 - root - INFO - Running real_trade for all top movers
+2025-10-07 09:02:08,828 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 09:02:08,885 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
+2025-10-07 09:02:08,904 - root - INFO - latest trade price: 1.85
+2025-10-07 09:02:08,915 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 09:02:08,964 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 09:02:08,986 - root - INFO - 1min candle is not positive for BJDX: open 2.13 close 2.09
+2025-10-07 09:02:09,006 - root - INFO - latest trade price: 2.0699
+2025-10-07 09:02:09,016 - root - INFO - swing_strategy_open_long for scale 5Min stock PAPL
+2025-10-07 09:02:09,058 - root - INFO - Last 5 minutes maximum volume candle is red for PAPL
+2025-10-07 09:02:09,077 - root - INFO - latest trade price: 5.89
+2025-10-07 09:02:09,092 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
+2025-10-07 09:02:09,257 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
+2025-10-07 09:02:09,276 - root - INFO - latest trade price: 1.98
+2025-10-07 09:02:09,381 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 09:02:09,425 - root - INFO - Profit percent for BJDX is -4.16204
+2025-10-07 09:02:09,425 - root - INFO - Latest 1min close price for BJDX: 2.09
+2025-10-07 09:02:09,511 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 09:02:09,511 - root - INFO - Not enough profit percent to scalp for BJDX: -4.16204
+2025-10-07 09:02:09,536 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
+2025-10-07 09:02:09,709 - root - INFO - Profit percent for NAK is -0.50505
+2025-10-07 09:02:09,709 - root - INFO - Latest 1min close price for NAK: 1.97
+2025-10-07 09:02:09,799 - root - INFO - No close long conditions met for NAK
+2025-10-07 09:02:22,127 - root - INFO - Real mode: Today's profit so far: 1192.9999749999988
+2025-10-07 09:02:22,599 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
+2025-10-07 09:02:22,599 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
+2025-10-07 09:02:22,627 - root - INFO -  update_current_price: start time 2025-10-07T09:01:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:02:23,951 - root - INFO -  MACD calculation for APVO due to high change percent: 14.8936
+2025-10-07 09:02:24,014 - root - INFO - MACD not positive for APVO: MACD=-0.05317256298536388, Signal=-0.05060530035919042, Hist=-0.002567262626173461
+2025-10-07 09:02:24,217 - root - INFO -  update_current_price: start time 2025-10-07T09:01:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:02:24,859 - root - INFO - Real mode: Today's profit so far: 1198.049974999998
+2025-10-07 09:02:24,880 - root - INFO - Running real_trade for all top movers
+2025-10-07 09:02:24,921 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 09:02:24,977 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
+2025-10-07 09:02:24,996 - root - INFO - latest trade price: 1.87
+2025-10-07 09:02:25,006 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 09:02:25,044 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 09:02:25,059 - root - INFO - 1min candle is not positive for BJDX: open 2.13 close 2.09
+2025-10-07 09:02:25,078 - root - INFO - latest trade price: 2.06
+2025-10-07 09:02:25,085 - root - INFO - swing_strategy_open_long for scale 5Min stock PAPL
+2025-10-07 09:02:25,120 - root - INFO - Last 5 minutes maximum volume candle is red for PAPL
+2025-10-07 09:02:25,123 - root - INFO -  MACD calculation for BITF due to high change percent: 13.5838
+2025-10-07 09:02:25,139 - root - INFO - latest trade price: 5.8
+2025-10-07 09:02:25,147 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
+2025-10-07 09:02:25,184 - root - INFO - MACD not positive for BITF: MACD=0.0039779387373872765, Signal=0.018042311531627026, Hist=-0.014064372794239749
+2025-10-07 09:02:25,226 - root - INFO -  MACD calculation for BJDX due to high change percent: 36.7742
+2025-10-07 09:02:25,291 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
+2025-10-07 09:02:25,309 - root - INFO - latest trade price: 1.98
+2025-10-07 09:02:25,392 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 09:02:25,431 - root - INFO - Profit percent for BJDX is -4.1713
+2025-10-07 09:02:25,431 - root - INFO - Latest 1min close price for BJDX: 2.09
+2025-10-07 09:02:25,494 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 09:02:25,495 - root - INFO - Not enough profit percent to scalp for BJDX: -4.1713
+2025-10-07 09:02:25,510 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
+2025-10-07 09:02:25,521 - root - INFO -  update_current_price: start time 2025-10-07T09:01:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:02:25,646 - root - INFO - Profit percent for NAK is 0.0
+2025-10-07 09:02:25,647 - root - INFO - Latest 1min close price for NAK: 1.97
+2025-10-07 09:02:25,722 - root - INFO - No close long conditions met for NAK
+2025-10-07 09:02:26,574 - root - INFO -  MACD calculation for CISS due to high change percent: 42.0814
+2025-10-07 09:02:26,612 - root - INFO - MACD not positive for CISS: MACD=-0.010052088627940492, Signal=-0.008995780859270639, Hist=-0.0010563077686698528
+2025-10-07 09:02:26,883 - root - INFO -  update_current_price: start time 2025-10-07T09:01:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:02:27,000 - root - INFO -  MACD calculation for COCH due to high change percent: 134.098
+2025-10-07 09:02:28,090 - root - INFO -  MACD calculation for DVLT due to high change percent: 27.4038
+2025-10-07 09:02:28,157 - root - INFO - MACD not positive for DVLT: MACD=0.01680473097391033, Signal=0.03137987834405685, Hist=-0.014575147370146521
+2025-10-07 09:02:28,158 - root - INFO -  update_current_price: start time 2025-10-07T09:01:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:02:28,267 - root - INFO -  MACD calculation for ELAB due to high change percent: 19.0388
+2025-10-07 09:02:28,296 - root - INFO - MACD not positive for ELAB: MACD=0.12045578852983319, Signal=0.14803444016985717, Hist=-0.027578651640023988
+2025-10-07 09:02:29,206 - root - INFO -  update_current_price: start time 2025-10-07T09:01:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:02:30,082 - root - INFO -  MACD calculation for GLTO due to high change percent: 622.369
+2025-10-07 09:02:30,135 - root - INFO - MACD not positive for GLTO: MACD=1.5913090928973261, Signal=2.3171428866482295, Hist=-0.7258337937509034
+2025-10-07 09:02:30,240 - root - INFO -  MACD calculation for GPUS due to high change percent: 16.129
+2025-10-07 09:02:30,711 - root - INFO -  update_current_price: start time 2025-10-07T09:01:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:02:30,876 - root - INFO -  MACD calculation for HIVE due to high change percent: 10.1436
+2025-10-07 09:02:31,745 - root - INFO -  MACD calculation for INDP due to high change percent: 27.5862
+2025-10-07 09:02:32,058 - root - INFO -  update_current_price: start time 2025-10-07T09:01:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:02:33,137 - root - INFO -  MACD calculation for LAR due to high change percent: 11.991
+2025-10-07 09:02:33,415 - root - INFO -  MACD calculation for LIDR due to high change percent: 18.3451
+2025-10-07 09:02:33,774 - root - INFO -  update_current_price: start time 2025-10-07T09:01:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:02:34,009 - root - INFO -  MACD calculation for LXEO due to high change percent: 31.8393
+2025-10-07 09:02:34,062 - root - INFO - MACD not positive for LXEO: MACD=0.07604185151497056, Signal=0.14998691957580784, Hist=-0.07394506806083728
+2025-10-07 09:02:35,187 - root - INFO -  MACD calculation for NAK due to high change percent: 31.7881
+2025-10-07 09:02:35,371 - root - INFO -  update_current_price: start time 2025-10-07T09:01:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:02:35,976 - root - INFO -  MACD calculation for NMTC due to high change percent: 20.5203
+2025-10-07 09:02:36,541 - root - INFO -  MACD calculation for NXXT due to high change percent: 11.1111
+2025-10-07 09:02:36,661 - root - INFO -  MACD calculation for NYXH due to high change percent: 13.6207
+2025-10-07 09:02:36,865 - root - INFO -  MACD calculation for OMEX due to high change percent: 10.5263
+2025-10-07 09:02:37,433 - root - INFO -  update_current_price: start time 2025-10-07T09:01:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:02:37,792 - root - INFO -  MACD calculation for PAPL due to high change percent: 34.357
+2025-10-07 09:02:39,418 - root - INFO -  update_current_price: start time 2025-10-07T09:01:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:02:39,953 - root - INFO -  MACD calculation for REKR due to high change percent: 19.8895
+2025-10-07 09:02:40,017 - root - INFO - MACD not positive for REKR: MACD=0.03525041996687284, Signal=0.048587412632462725, Hist=-0.013336992665589888
+2025-10-07 09:02:40,535 - root - INFO -  MACD calculation for RVPH due to high change percent: 16.5397
+2025-10-07 09:02:40,760 - root - INFO - Real mode: Today's profit so far: 1192.9999749999988
+2025-10-07 09:02:40,778 - root - INFO - Running real_trade for all top movers
+2025-10-07 09:02:40,816 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 09:02:40,865 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
+2025-10-07 09:02:40,884 - root - INFO - latest trade price: 1.95
+2025-10-07 09:02:40,892 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 09:02:40,930 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 09:02:40,949 - root - INFO - latest trade price: 2.06
+2025-10-07 09:02:40,956 - root - INFO - swing_strategy_open_long for scale 5Min stock PAPL
+2025-10-07 09:02:40,990 - root - INFO - Last 5 minutes maximum volume candle is red for PAPL
+2025-10-07 09:02:41,006 - root - INFO - latest trade price: 5.83
+2025-10-07 09:02:41,013 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
+2025-10-07 09:02:41,089 - root - INFO -  MACD calculation for SES due to high change percent: 10.6996
+2025-10-07 09:02:41,209 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
+2025-10-07 09:02:41,227 - root - INFO - latest trade price: 1.97
+2025-10-07 09:02:41,298 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 09:02:41,334 - root - INFO - Profit percent for BJDX is -4.62963
+2025-10-07 09:02:41,334 - root - INFO - Latest 1min close price for BJDX: 2.06
+2025-10-07 09:02:41,343 - root - INFO -  update_current_price: start time 2025-10-07T09:01:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:02:41,383 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 09:02:41,383 - root - INFO - Not enough profit percent to scalp for BJDX: -4.62963
+2025-10-07 09:02:41,399 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
+2025-10-07 09:02:41,532 - root - INFO - Profit percent for NAK is 0.0
+2025-10-07 09:02:41,532 - root - INFO - Latest 1min close price for NAK: 1.98
+2025-10-07 09:02:41,592 - root - INFO - MACD is still rising for stock NAK
+2025-10-07 09:02:41,592 - root - INFO - Not enough profit percent to scalp for NAK: 0.0
+2025-10-07 09:02:41,747 - root - INFO -  MACD calculation for SNGX due to high change percent: 20.438
+2025-10-07 09:02:42,775 - root - INFO -  MACD calculation for TELO due to high change percent: 25.7042
+2025-10-07 09:02:42,846 - root - INFO -  update_current_price: start time 2025-10-07T09:01:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:02:43,268 - root - INFO -  MACD calculation for TMQ due to high change percent: 241.148
+2025-10-07 09:02:43,329 - root - INFO - MACD not positive for TMQ: MACD=0.2568472580835648, Signal=0.28973675047224523, Hist=-0.03288949238868044
+2025-10-07 09:02:44,087 - root - INFO -  MACD calculation for ULY due to high change percent: 13.7821
+2025-10-07 09:02:45,034 - root - INFO -  update_current_price: start time 2025-10-07T09:01:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 09:02:46,906 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-07 09:02:56,642 - root - INFO - Real mode: Today's profit so far: 1198.1499749999966
+2025-10-07 09:02:56,665 - root - INFO - Running real_trade for all top movers
+2025-10-07 09:02:56,711 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 09:02:56,764 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
+2025-10-07 09:02:56,783 - root - INFO - latest trade price: 1.93
+2025-10-07 09:02:56,798 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 09:02:56,837 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 09:02:56,858 - root - INFO - latest trade price: 2.06
+2025-10-07 09:02:56,870 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
+2025-10-07 09:02:57,032 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
+2025-10-07 09:02:57,052 - root - INFO - latest trade price: 1.9802
+2025-10-07 09:02:57,150 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 09:02:57,190 - root - INFO - Profit percent for BJDX is -4.62963
+2025-10-07 09:02:57,191 - root - INFO - Latest 1min close price for BJDX: 2.06
+2025-10-07 09:02:57,261 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 09:02:57,262 - root - INFO - Not enough profit percent to scalp for BJDX: -4.62963
+2025-10-07 09:02:57,279 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
+2025-10-07 09:02:57,439 - root - INFO - Profit percent for NAK is -0.50505
+2025-10-07 09:02:57,439 - root - INFO - Latest 1min close price for NAK: 1.98
+2025-10-07 09:02:57,533 - root - INFO - MACD is still rising for stock NAK
+2025-10-07 09:02:57,533 - root - INFO - Not enough profit percent to scalp for NAK: -0.50505
+2025-10-07 09:03:12,594 - root - INFO - Real mode: Today's profit so far: 1202.9799749999984
+2025-10-07 09:03:12,616 - root - INFO - Running real_trade for all top movers
+2025-10-07 09:03:12,664 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 09:03:12,726 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
+2025-10-07 09:03:12,752 - root - INFO - latest trade price: 1.92
+2025-10-07 09:03:12,767 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 09:03:12,812 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 09:03:12,831 - root - INFO - latest trade price: 2.07
+2025-10-07 09:03:12,850 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
+2025-10-07 09:03:13,008 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
+2025-10-07 09:03:13,027 - root - INFO - latest trade price: 1.9806
+2025-10-07 09:03:13,126 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 09:03:13,170 - root - INFO - Profit percent for BJDX is -4.62963
+2025-10-07 09:03:13,171 - root - INFO - Latest 1min close price for BJDX: 2.06
+2025-10-07 09:03:13,248 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 09:03:13,248 - root - INFO - Not enough profit percent to scalp for BJDX: -4.62963
+2025-10-07 09:03:13,275 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
+2025-10-07 09:03:13,434 - root - INFO - Profit percent for NAK is 0.010101
+2025-10-07 09:03:13,434 - root - INFO - Latest 1min close price for NAK: 1.98
+2025-10-07 09:03:13,527 - root - INFO - MACD is still rising for stock NAK
+2025-10-07 09:03:13,527 - root - INFO - Not enough profit percent to scalp for NAK: 0.010101
+2025-10-07 09:03:28,583 - root - INFO - Real mode: Today's profit so far: 1212.0599749999965
+2025-10-07 09:03:28,606 - root - INFO - Running real_trade for all top movers
+2025-10-07 09:03:28,653 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 09:03:28,708 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
+2025-10-07 09:03:28,731 - root - INFO - latest trade price: 1.93
+2025-10-07 09:03:28,742 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 09:03:28,785 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 09:03:28,803 - root - INFO - latest trade price: 2.09
+2025-10-07 09:03:28,814 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
+2025-10-07 09:03:28,978 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
+2025-10-07 09:03:28,997 - root - INFO - latest trade price: 1.9803
+2025-10-07 09:03:29,092 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 09:03:29,135 - root - INFO - Profit percent for BJDX is -4.16667
+2025-10-07 09:03:29,135 - root - INFO - Latest 1min close price for BJDX: 2.06
+2025-10-07 09:03:29,215 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 09:03:29,215 - root - INFO - Not enough profit percent to scalp for BJDX: -4.16667
+2025-10-07 09:03:29,243 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
+2025-10-07 09:03:29,392 - root - INFO - Profit percent for NAK is 0.030303
+2025-10-07 09:03:29,392 - root - INFO - Latest 1min close price for NAK: 1.98
+2025-10-07 09:03:29,484 - root - INFO - MACD is still rising for stock NAK
+2025-10-07 09:03:29,484 - root - INFO - Not enough profit percent to scalp for NAK: 0.030303
