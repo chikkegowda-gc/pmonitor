@@ -15,34 +15,6 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-07 14:25:08,235 - root - INFO - Last 5 minutes maximum volume candle is red for NXXT
-2025-10-07 14:25:08,255 - root - INFO - latest trade price: 2.73
-2025-10-07 14:25:08,371 - root - INFO - swing_strategy_close_long for scale 5Min stock RVSN
-2025-10-07 14:25:08,552 - root - INFO - Profit percent for RVSN is 0
-2025-10-07 14:25:08,553 - root - INFO - Latest 1min close price for RVSN: 0.7619
-2025-10-07 14:25:08,585 - root - INFO - High price DETECTED for RVSN is 0.0 and setting no_scalp to True
-2025-10-07 14:25:08,619 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 14:25:08,741 - root - INFO - Profit percent for TMQ is -0.372808
-2025-10-07 14:25:08,741 - root - INFO - Latest 1min close price for TMQ: 7.0992
-2025-10-07 14:25:08,850 - root - INFO - MACD is still rising for stock TMQ
-2025-10-07 14:25:08,850 - root - INFO - Not enough profit percent to scalp for TMQ: -0.372808
-2025-10-07 14:25:23,909 - root - INFO - Real mode: Today's profit so far: 2271.9099749999987
-2025-10-07 14:25:23,932 - root - INFO - Running real_trade for all top movers
-2025-10-07 14:25:23,987 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 14:25:24,138 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 14:25:24,163 - root - INFO - 1min candle is not positive for TMQ: open 7.135 close 7.0992
-2025-10-07 14:25:24,183 - root - INFO - latest trade price: 7.0871
-2025-10-07 14:25:24,198 - root - INFO - swing_strategy_open_long for scale 5Min stock RVSN
-2025-10-07 14:25:24,390 - root - INFO - Last 5 minutes maximum volume candle is green for RVSN
-2025-10-07 14:25:24,534 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-07 14:25:24,534 - root - INFO - RVSN:======= 0.7619===>BUY========>TrendUp5654357
-2025-10-07 14:25:24,558 - root - WARNING - ***** stock is already in the positions
-2025-10-07 14:25:24,558 - root - INFO - swing_strategy_open_long for scale 5Min stock APVO
-2025-10-07 14:25:24,694 - root - INFO - Last 5 minutes maximum volume candle is red for APVO
-2025-10-07 14:25:24,712 - root - INFO - latest trade price: 1.82
-2025-10-07 14:25:24,733 - root - INFO - swing_strategy_open_long for scale 5Min stock NXXT
-2025-10-07 14:25:24,891 - root - INFO - Last 5 minutes maximum volume candle is red for NXXT
-2025-10-07 14:25:24,910 - root - INFO - latest trade price: 2.73
 2025-10-07 14:25:25,030 - root - INFO - swing_strategy_close_long for scale 5Min stock RVSN
 2025-10-07 14:25:25,211 - root - INFO - Profit percent for RVSN is 0.0129116
 2025-10-07 14:25:25,212 - root - INFO - Latest 1min close price for RVSN: 0.7619
@@ -415,3 +387,31 @@ Manual Movers:
 2025-10-07 14:52:39,994 - root - INFO - Target profit of 2700.0 achieved with total profit 2732.0399749999997. Exiting trading for the day.
 2025-10-07 14:52:39,995 - root - CRITICAL - Target profit achieved! Closing all positions and stopping trading.
 2025-10-07 14:52:40,095 - root - INFO - Ticker ALFIQ is in the exclude list, skipping order submission.
+2025-10-07 17:43:14,836 - root - INFO - Resetting stock DB fields...
+2025-10-07 17:43:14,837 - root - INFO - Parameters - price_update_clear: True, buy_sell_clear: False, scan_clear: False, clear_for_day: False
+2025-10-07 17:43:15,371 - root - INFO - Stock DB fields reset completed.
+2025-10-07 17:43:15,395 - root - CRITICAL - Waiting for market to open...
+2025-10-07 17:43:15,396 - root - CRITICAL - Premarket scan completed.
+2025-10-07 17:43:15,397 - root - CRITICAL - Price update completed.
+2025-10-07 17:43:15,397 - root - CRITICAL - Market opened.
+2025-10-07 17:43:15,397 - root - INFO - STARTING BUY-SELL THREAD
+2025-10-07 17:43:15,419 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
+2025-10-07 17:43:15,419 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
+2025-10-07 17:43:15,437 - root - INFO -  update_current_price: start time 2025-10-07T04:00:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 17:43:17,924 - root - INFO -  update_current_price: start time 2025-10-07T04:00:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 17:43:19,142 - root - INFO - Resetting stock DB fields...
+2025-10-07 17:43:19,143 - root - INFO - Parameters - price_update_clear: False, buy_sell_clear: True, scan_clear: False, clear_for_day: False
+2025-10-07 17:43:19,184 - root - INFO - Stock DB fields reset completed.
+2025-10-07 17:43:19,204 - root - CRITICAL - Waiting for market to open...
+2025-10-07 17:43:19,205 - root - CRITICAL - Price update completed.
+2025-10-07 17:43:19,205 - root - CRITICAL - Market opened.
+2025-10-07 17:43:19,205 - root - INFO - STARTING BUY-SELL THREAD
+2025-10-07 17:43:19,224 - root - INFO - Running real_trade for all top movers
+2025-10-07 17:43:19,477 - root - INFO -  update_current_price: start time 2025-10-07T04:00:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 17:43:21,799 - root - INFO -  update_current_price: start time 2025-10-07T04:00:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 17:43:24,449 - root - INFO -  update_current_price: start time 2025-10-07T04:00:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 17:43:27,556 - root - INFO -  update_current_price: start time 2025-10-07T04:00:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 17:43:34,361 - root - INFO - Real mode: Today's profit so far: 2675.119974999998
+2025-10-07 17:43:34,381 - root - INFO - Running real_trade for all top movers
+2025-10-07 17:43:49,556 - root - INFO - Real mode: Today's profit so far: 2675.119974999998
+2025-10-07 17:43:49,585 - root - INFO - Running real_trade for all top movers
