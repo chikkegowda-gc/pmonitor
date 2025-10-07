@@ -2,8 +2,9 @@ Top Movers:
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  TMQ   |      0      |     0     |    224.402     | 67705479 |      6.78     |        2.09        | 100660000.0  |  2.128   |  9214481   |      0      | 2025-10-07 11:39:58 |
-|  BJDX  |      0      |     0     |    41.6129     | 24226013 |     2.195     |        1.55        |   550000.0   |   1.55   |   221393   |      0      | 2025-10-07 11:38:28 |
+|  TMQ   |      0      |     0     |    223.923     | 67877051 |      6.77     |        2.09        | 100660000.0  |  2.128   |  9214481   |      0      | 2025-10-07 11:43:00 |
+|  COCH  |      0      |     0     |    100.793     | 59445837 |      1.74     |       0.8068       |  10090000.0  |  0.7851  |   144283   |      0      | 2025-10-07 11:44:40 |
+|  BJDX  |      1      |     0     |    38.7097     | 24332269 |     2.2298    |        1.55        |   550000.0   |   1.55   |   221393   |      0      | 2025-10-07 11:44:30 |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -17,377 +18,6 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-07 11:36:00,060 - root - INFO - MACD not positive for DVLT: MACD=-0.06290385331499904, Signal=-0.0319562539282215, Hist=-0.03094759938677754
-2025-10-07 11:36:00,257 - root - INFO -  update_current_price: start time 2025-10-07T11:35:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:36:01,047 - root - INFO -  MACD calculation for EDUC due to high change percent: 16.5468
-2025-10-07 11:36:01,210 - root - INFO -  MACD calculation for EGAN due to high change percent: 10.4962
-2025-10-07 11:36:01,746 - root - INFO -  MACD calculation for ELPW due to high change percent: 12.1915
-2025-10-07 11:36:01,811 - root - INFO - MACD not positive for ELPW: MACD=0.006767653303599852, Signal=0.011661975654847497, Hist=-0.004894322351247645
-2025-10-07 11:36:06,102 - root - INFO -  MACD calculation for FLX due to high change percent: 11.3354
-2025-10-07 11:36:06,200 - root - INFO -  update_current_price: start time 2025-10-07T11:35:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:36:08,956 - root - INFO -  MACD calculation for GIGGW due to high change percent: 18.7538
-2025-10-07 11:36:08,999 - root - INFO - MACD not positive for GIGGW: MACD=0.014938471694798117, Signal=0.023065149473591447, Hist=-0.00812667777879333
-2025-10-07 11:36:09,232 - root - INFO -  MACD calculation for GLTO due to high change percent: 577.388
-2025-10-07 11:36:09,308 - root - INFO - MACD not positive for GLTO: MACD=-0.007317618769128842, Signal=0.081472954123883, Hist=-0.08879057289301184
-2025-10-07 11:36:11,986 - root - INFO -  update_current_price: start time 2025-10-07T11:35:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:36:13,629 - root - INFO - Real mode: Today's profit so far: 1912.1099749999994
-2025-10-07 11:36:13,649 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:36:13,685 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:36:13,790 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:36:13,804 - root - INFO - 1min candle is not positive for TMQ: open 6.92 close 6.8989
-2025-10-07 11:36:13,831 - root - INFO - latest trade price: 6.875
-2025-10-07 11:36:13,838 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 11:36:13,882 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-07 11:36:13,903 - root - INFO - latest trade price: 2.1601
-2025-10-07 11:36:13,909 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
-2025-10-07 11:36:13,975 - root - INFO - Last 5 minutes maximum volume candle is green for LXEO
-2025-10-07 11:36:13,986 - root - INFO - 1min candle is not positive for LXEO: open 8.47 close 8.41
-2025-10-07 11:36:14,004 - root - INFO - latest trade price: 8.4
-2025-10-07 11:36:14,120 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:36:14,185 - root - INFO - Profit percent for LXEO is -0.268553
-2025-10-07 11:36:14,185 - root - INFO - Latest 1min close price for LXEO: 8.41
-2025-10-07 11:36:14,237 - root - INFO - MACD is still rising for stock LXEO
-2025-10-07 11:36:14,237 - root - INFO - Not enough profit percent to scalp for LXEO: -0.268553
-2025-10-07 11:36:14,435 - root - INFO -  MACD calculation for HTCO due to high change percent: 11.0533
-2025-10-07 11:36:14,459 - root - INFO - MACD not positive for HTCO: MACD=0.1973149783269772, Signal=0.2079348828987234, Hist=-0.010619904571746192
-2025-10-07 11:36:18,301 - root - INFO -  update_current_price: start time 2025-10-07T11:35:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:36:18,484 - root - INFO -  MACD calculation for ITRM due to high change percent: 16.6857
-2025-10-07 11:36:18,522 - root - INFO - MACD not positive for ITRM: MACD=0.014785175189311328, Signal=0.015603418050128196, Hist=-0.0008182428608168677
-2025-10-07 11:36:20,976 - root - INFO -  MACD calculation for KLTO due to high change percent: 11.25
-2025-10-07 11:36:21,038 - root - INFO - MACD not positive for KLTO: MACD=0.008536135674563239, Signal=0.010880549689152712, Hist=-0.0023444140145894733
-2025-10-07 11:36:22,438 - root - INFO -  MACD calculation for KZIA due to high change percent: 15.1917
-2025-10-07 11:36:22,681 - root - INFO - MACD not positive for KZIA: MACD=0.17865261617105865, Signal=0.18677784208999162, Hist=-0.008125225918932971
-2025-10-07 11:36:23,009 - root - INFO -  MACD calculation for LAR due to high change percent: 13.1018
-2025-10-07 11:36:23,077 - root - INFO - MACD not positive for LAR: MACD=0.007943668405569149, Signal=0.027023166102126794, Hist=-0.019079497696557646
-2025-10-07 11:36:23,800 - root - INFO -  MACD calculation for LESL due to high change percent: 10.9513
-2025-10-07 11:36:26,061 - root - INFO -  update_current_price: start time 2025-10-07T11:35:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:36:26,469 - root - INFO -  MACD calculation for LXEO due to high change percent: 31.0046
-2025-10-07 11:36:28,767 - root - INFO -  MACD calculation for MGX due to high change percent: 10.4089
-2025-10-07 11:36:28,827 - root - INFO - MACD not positive for MGX: MACD=0.04704064714254397, Signal=0.053522420578469385, Hist=-0.006481773435925417
-2025-10-07 11:36:28,985 - root - INFO -  MACD calculation for MIGI due to high change percent: 11.0378
-2025-10-07 11:36:29,032 - root - INFO - MACD not positive for MIGI: MACD=0.014453408175711946, Signal=0.022060827171856638, Hist=-0.007607418996144692
-2025-10-07 11:36:29,277 - root - INFO - Real mode: Today's profit so far: 1914.049974999998
-2025-10-07 11:36:29,297 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:36:29,336 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:36:29,440 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:36:29,457 - root - INFO - 1min candle is not positive for TMQ: open 6.92 close 6.8989
-2025-10-07 11:36:29,475 - root - INFO - latest trade price: 6.82
-2025-10-07 11:36:29,483 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 11:36:29,519 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-07 11:36:29,537 - root - INFO - latest trade price: 2.1601
-2025-10-07 11:36:29,543 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
-2025-10-07 11:36:29,618 - root - INFO - Last 5 minutes maximum volume candle is green for LXEO
-2025-10-07 11:36:29,628 - root - INFO - 1min candle is not positive for LXEO: open 8.47 close 8.41
-2025-10-07 11:36:29,647 - root - INFO - latest trade price: 8.4164
-2025-10-07 11:36:29,725 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:36:29,787 - root - INFO - Profit percent for LXEO is -0.623469
-2025-10-07 11:36:29,787 - root - INFO - Latest 1min close price for LXEO: 8.41
-2025-10-07 11:36:29,836 - root - INFO - MACD is still rising for stock LXEO
-2025-10-07 11:36:29,836 - root - INFO - Not enough profit percent to scalp for LXEO: -0.623469
-2025-10-07 11:36:31,121 - root - INFO -  MACD calculation for NAK due to high change percent: 18.8742
-2025-10-07 11:36:31,495 - root - INFO -  update_current_price: start time 2025-10-07T11:35:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:36:31,897 - root - INFO -  MACD calculation for NCNA due to high change percent: 16.7264
-2025-10-07 11:36:36,042 - root - INFO -  MACD calculation for NXXT due to high change percent: 21.4348
-2025-10-07 11:36:36,097 - root - INFO - MACD not positive for NXXT: MACD=0.02213011295199685, Signal=0.03911539162372825, Hist=-0.0169852786717314
-2025-10-07 11:36:38,539 - root - INFO -  update_current_price: start time 2025-10-07T11:35:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:36:39,563 - root - INFO -  MACD calculation for PAPL due to high change percent: 10.1823
-2025-10-07 11:36:39,616 - root - INFO - MACD not positive for PAPL: MACD=0.11264634253104688, Signal=0.1197999680246747, Hist=-0.007153625493627816
-2025-10-07 11:36:40,160 - root - INFO -  MACD calculation for PC due to high change percent: 10.7863
-2025-10-07 11:36:40,213 - root - INFO - MACD not positive for PC: MACD=0.11837668893068987, Signal=0.14015230329449496, Hist=-0.021775614363805096
-2025-10-07 11:36:44,877 - root - INFO - Real mode: Today's profit so far: 1913.2899749999997
-2025-10-07 11:36:44,896 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:36:44,913 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:36:45,010 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:36:45,017 - root - INFO - 1min candle is not positive for TMQ: open 6.895 close 6.82
-2025-10-07 11:36:45,035 - root - INFO - latest trade price: 6.7801
-2025-10-07 11:36:45,041 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 11:36:45,111 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 11:36:45,120 - root - INFO - 1min candle is not positive for BJDX: open 2.13 close 2.16
-2025-10-07 11:36:45,155 - root - INFO - latest trade price: 2.16
-2025-10-07 11:36:45,160 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
-2025-10-07 11:36:45,256 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
-2025-10-07 11:36:45,279 - root - INFO - latest trade price: 8.41
-2025-10-07 11:36:45,358 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:36:45,470 - root - INFO - Profit percent for LXEO is -0.429449
-2025-10-07 11:36:45,470 - root - INFO - Latest 1min close price for LXEO: 8.4159
-2025-10-07 11:36:45,568 - root - INFO - MACD is still rising for stock LXEO
-2025-10-07 11:36:45,568 - root - INFO - Not enough profit percent to scalp for LXEO: -0.429449
-2025-10-07 11:36:45,706 - root - INFO -  update_current_price: start time 2025-10-07T11:35:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:36:45,867 - root - INFO -  MACD calculation for QUIK due to high change percent: 11.0561
-2025-10-07 11:36:47,247 - root - INFO -  MACD calculation for REKR due to high change percent: 18.5083
-2025-10-07 11:36:47,313 - root - INFO - MACD not positive for REKR: MACD=-0.008088045700508584, Signal=-0.0036495812468181794, Hist=-0.004438464453690404
-2025-10-07 11:36:50,302 - root - INFO -  MACD calculation for RVPH due to high change percent: 18.7958
-2025-10-07 11:36:50,398 - root - INFO - MACD not positive for RVPH: MACD=-0.0002363034225969507, Signal=0.0066656516931452425, Hist=-0.006901955115742193
-2025-10-07 11:36:50,463 - root - INFO -  MACD calculation for RVSN due to high change percent: 21.8537
-2025-10-07 11:36:50,516 - root - INFO - MACD not positive for RVSN: MACD=0.013048064971832973, Signal=0.013325911057167485, Hist=-0.000277846085334512
-2025-10-07 11:36:54,200 - root - INFO -  update_current_price: start time 2025-10-07T11:35:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:36:57,033 - root - INFO -  MACD calculation for SNGX due to high change percent: 17.5328
-2025-10-07 11:36:57,099 - root - INFO - MACD not positive for SNGX: MACD=0.011911929720528347, Signal=0.012320579160740567, Hist=-0.0004086494402122196
-2025-10-07 11:37:00,611 - root - INFO - Real mode: Today's profit so far: 1912.209974999998
-2025-10-07 11:37:00,651 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:37:00,693 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:37:00,858 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:37:00,932 - root - INFO - 1min candle is not positive for TMQ: open 6.895 close 6.82
-2025-10-07 11:37:00,953 - root - INFO - latest trade price: 6.78
-2025-10-07 11:37:00,960 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 11:37:00,994 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 11:37:01,003 - root - INFO - 1min candle is not positive for BJDX: open 2.13 close 2.16
-2025-10-07 11:37:01,020 - root - INFO - latest trade price: 2.1601
-2025-10-07 11:37:01,025 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
-2025-10-07 11:37:01,090 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
-2025-10-07 11:37:01,108 - root - INFO - latest trade price: 8.4008
-2025-10-07 11:37:01,182 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:37:01,255 - root - INFO - Profit percent for LXEO is -0.505164
-2025-10-07 11:37:01,255 - root - INFO - Latest 1min close price for LXEO: 8.4159
-2025-10-07 11:37:01,302 - root - INFO - MACD is still rising for stock LXEO
-2025-10-07 11:37:01,302 - root - INFO - Not enough profit percent to scalp for LXEO: -0.505164
-2025-10-07 11:37:01,692 - root - INFO -  MACD calculation for TELO due to high change percent: 24.8732
-2025-10-07 11:37:01,999 - root - INFO -  update_current_price: start time 2025-10-07T11:36:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:37:03,075 - root - INFO -  MACD calculation for TLPH due to high change percent: 15.4545
-2025-10-07 11:37:03,129 - root - INFO - MACD not positive for TLPH: MACD=0.015391209030761077, Signal=0.02398789463345325, Hist=-0.008596685602692174
-2025-10-07 11:37:03,365 - root - INFO -  MACD calculation for TMC due to high change percent: 14.8316
-2025-10-07 11:37:03,439 - root - INFO - MACD not positive for TMC: MACD=0.15084952379093863, Signal=0.1819561342127621, Hist=-0.031106610421823472
-2025-10-07 11:37:03,492 - root - INFO -  MACD calculation for TMCWW due to high change percent: 31.1438
-2025-10-07 11:37:03,526 - root - INFO - MACD not positive for TMCWW: MACD=0.08054470746818354, Signal=0.0931558080963437, Hist=-0.012611100628160163
-2025-10-07 11:37:03,631 - root - INFO -  MACD calculation for TMQ due to high change percent: 230.105
-2025-10-07 11:37:06,030 - root - INFO -  MACD calculation for ULY due to high change percent: 17.3077
-2025-10-07 11:37:06,058 - root - INFO - MACD not positive for ULY: MACD=-0.08482552938233123, Signal=-0.0653683043823221, Hist=-0.019457225000009126
-2025-10-07 11:37:06,493 - root - INFO -  MACD calculation for UPC due to high change percent: 10.9705
-2025-10-07 11:37:06,524 - root - INFO - MACD not positive for UPC: MACD=0.06230019739778392, Signal=0.07520042242920673, Hist=-0.01290022503142281
-2025-10-07 11:37:08,970 - root - INFO -  update_current_price: start time 2025-10-07T11:36:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:37:12,654 - root - INFO -  MACD calculation for YCBD due to high change percent: 14.6154
-2025-10-07 11:37:12,725 - root - INFO - MACD not positive for YCBD: MACD=0.026259817240776195, Signal=0.02969258397431432, Hist=-0.003432766733538123
-2025-10-07 11:37:14,637 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-07 11:37:16,341 - root - INFO - Real mode: Today's profit so far: 1912.1099749999994
-2025-10-07 11:37:16,363 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:37:16,412 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:37:16,535 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:37:16,562 - root - INFO - 1min candle is not positive for TMQ: open 6.895 close 6.82
-2025-10-07 11:37:16,581 - root - INFO - latest trade price: 6.81
-2025-10-07 11:37:16,592 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 11:37:16,632 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 11:37:16,659 - root - INFO - 1min candle is not positive for BJDX: open 2.13 close 2.16
-2025-10-07 11:37:16,678 - root - INFO - latest trade price: 2.195
-2025-10-07 11:37:16,778 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:37:16,866 - root - INFO - Profit percent for LXEO is -0.614005
-2025-10-07 11:37:16,866 - root - INFO - Latest 1min close price for LXEO: 8.4159
-2025-10-07 11:37:16,946 - root - INFO - MACD is still rising for stock LXEO
-2025-10-07 11:37:16,946 - root - INFO - Not enough profit percent to scalp for LXEO: -0.614005
-2025-10-07 11:37:31,988 - root - INFO - Real mode: Today's profit so far: 1910.929974999999
-2025-10-07 11:37:32,011 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:37:32,057 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:37:32,174 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:37:32,194 - root - INFO - 1min candle is not positive for TMQ: open 6.895 close 6.82
-2025-10-07 11:37:32,210 - root - INFO - latest trade price: 6.83
-2025-10-07 11:37:32,219 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 11:37:32,262 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 11:37:32,282 - root - INFO - 1min candle is not positive for BJDX: open 2.13 close 2.16
-2025-10-07 11:37:32,300 - root - INFO - latest trade price: 2.195
-2025-10-07 11:37:32,395 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:37:32,473 - root - INFO - Profit percent for LXEO is -0.623469
-2025-10-07 11:37:32,474 - root - INFO - Latest 1min close price for LXEO: 8.4159
-2025-10-07 11:37:32,568 - root - INFO - MACD is still rising for stock LXEO
-2025-10-07 11:37:32,568 - root - INFO - Not enough profit percent to scalp for LXEO: -0.623469
-2025-10-07 11:37:47,623 - root - INFO - Real mode: Today's profit so far: 1911.829974999997
-2025-10-07 11:37:47,644 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:37:47,692 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:37:47,813 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:37:47,842 - root - INFO - 1min candle is not positive for TMQ: open 6.815 close 6.845
-2025-10-07 11:37:47,861 - root - INFO - latest trade price: 6.8497
-2025-10-07 11:37:47,870 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 11:37:47,912 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 11:37:47,969 - root - INFO - Trend up basic conditions not met for BJDX: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 11:37:47,987 - root - INFO - latest trade price: 2.18
-2025-10-07 11:37:48,094 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:37:48,170 - root - INFO - Profit percent for LXEO is -0.741775
-2025-10-07 11:37:48,170 - root - INFO - Latest 1min close price for LXEO: 8.39
-2025-10-07 11:37:48,285 - root - INFO - No close long conditions met for LXEO
-2025-10-07 11:38:03,344 - root - INFO - Real mode: Today's profit so far: 1910.929974999999
-2025-10-07 11:38:03,365 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:38:03,421 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:38:03,541 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:38:03,571 - root - INFO - 1min candle is not positive for TMQ: open 6.815 close 6.845
-2025-10-07 11:38:03,592 - root - INFO - latest trade price: 6.835
-2025-10-07 11:38:03,608 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 11:38:03,654 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 11:38:03,721 - root - INFO - Trend up basic conditions not met for BJDX: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 11:38:03,742 - root - INFO - latest trade price: 2.1502
-2025-10-07 11:38:03,846 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:38:03,945 - root - INFO - Profit percent for LXEO is -0.651863
-2025-10-07 11:38:03,945 - root - INFO - Latest 1min close price for LXEO: 8.39
-2025-10-07 11:38:04,034 - root - INFO - No close long conditions met for LXEO
-2025-10-07 11:38:14,713 - root - INFO - Real mode: Today's profit so far: 1910.929974999999
-2025-10-07 11:38:14,736 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
-2025-10-07 11:38:14,737 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
-2025-10-07 11:38:14,767 - root - INFO -  update_current_price: start time 2025-10-07T11:37:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:38:19,083 - root - INFO - Real mode: Today's profit so far: 1910.929974999999
-2025-10-07 11:38:19,102 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:38:19,142 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:38:19,248 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:38:19,263 - root - INFO - 1min candle is not positive for TMQ: open 6.815 close 6.845
-2025-10-07 11:38:19,282 - root - INFO - latest trade price: 6.78
-2025-10-07 11:38:19,289 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 11:38:19,328 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 11:38:19,344 - root - INFO -  MACD calculation for AMBI due to high change percent: 18.5185
-2025-10-07 11:38:19,367 - root - INFO - Trend up basic conditions not met for BJDX: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 11:38:19,385 - root - INFO - latest trade price: 2.15
-2025-10-07 11:38:19,461 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:38:19,524 - root - INFO - Profit percent for LXEO is -0.741775
-2025-10-07 11:38:19,524 - root - INFO - Latest 1min close price for LXEO: 8.39
-2025-10-07 11:38:19,587 - root - INFO - No close long conditions met for LXEO
-2025-10-07 11:38:19,926 - root - INFO -  MACD calculation for ANIX due to high change percent: 12.1538
-2025-10-07 11:38:19,954 - root - INFO - MACD not positive for ANIX: MACD=0.06753544802257228, Signal=0.07498764169589753, Hist=-0.0074521936733252525
-2025-10-07 11:38:20,791 - root - INFO -  MACD calculation for APVO due to high change percent: 23.3617
-2025-10-07 11:38:20,864 - root - INFO - MACD not positive for APVO: MACD=0.0016786917120614753, Signal=0.0034406380438843616, Hist=-0.0017619463318228864
-2025-10-07 11:38:22,253 - root - INFO -  update_current_price: start time 2025-10-07T11:37:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:38:22,788 - root - INFO -  MACD calculation for ASNS due to high change percent: 21.7145
-2025-10-07 11:38:27,861 - root - INFO -  MACD calculation for BJDX due to high change percent: 37.4839
-2025-10-07 11:38:28,761 - root - INFO -  MACD calculation for BNAI due to high change percent: 42.8288
-2025-10-07 11:38:28,848 - root - INFO - MACD not positive for BNAI: MACD=0.028243906901981752, Signal=0.04564651570999773, Hist=-0.01740260880801598
-2025-10-07 11:38:29,531 - root - INFO -  MACD calculation for BQ due to high change percent: 154.312
-2025-10-07 11:38:29,726 - root - INFO -  update_current_price: start time 2025-10-07T11:37:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:38:32,222 - root - INFO -  MACD calculation for CAPS due to high change percent: 12.5126
-2025-10-07 11:38:33,120 - root - INFO -  MACD calculation for CCTG due to high change percent: 27.1523
-2025-10-07 11:38:33,177 - root - INFO - MACD not positive for CCTG: MACD=0.03688146070609499, Signal=0.046433092558442725, Hist=-0.009551631852347732
-2025-10-07 11:38:34,617 - root - INFO - Real mode: Today's profit so far: 1912.469975
-2025-10-07 11:38:34,636 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:38:34,671 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:38:34,834 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:38:34,843 - root - INFO - 9 EMA is in downtrend, not opening long position for TMQ
-2025-10-07 11:38:34,861 - root - INFO - latest trade price: 6.8181
-2025-10-07 11:38:34,866 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 11:38:34,899 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 11:38:34,938 - root - INFO - Trend up basic conditions not met for BJDX: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 11:38:34,959 - root - INFO - latest trade price: 2.15
-2025-10-07 11:38:35,031 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:38:35,042 - root - INFO -  MACD calculation for CISS due to high change percent: 68.552
-2025-10-07 11:38:35,068 - root - INFO - MACD not positive for CISS: MACD=-0.04230800379002453, Signal=0.07992173860237127, Hist=-0.1222297423923958
-2025-10-07 11:38:35,105 - root - INFO - Profit percent for LXEO is -0.741775
-2025-10-07 11:38:35,105 - root - INFO - Latest 1min close price for LXEO: 8.403
-2025-10-07 11:38:35,156 - root - INFO - No close long conditions met for LXEO
-2025-10-07 11:38:35,889 - root - INFO -  update_current_price: start time 2025-10-07T11:37:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:38:36,345 - root - INFO -  MACD calculation for CNTB due to high change percent: 15.0
-2025-10-07 11:38:36,578 - root - INFO -  MACD calculation for COCH due to high change percent: 94.5959
-2025-10-07 11:38:36,613 - root - INFO - MACD not positive for COCH: MACD=-0.004358959169864507, Signal=0.009597004530737667, Hist=-0.013955963700602174
-2025-10-07 11:38:42,949 - root - INFO -  MACD calculation for DGNX due to high change percent: 15.202
-2025-10-07 11:38:43,015 - root - INFO - MACD not positive for DGNX: MACD=-0.015764957009221092, Signal=0.028480687330262332, Hist=-0.04424564433948343
-2025-10-07 11:38:45,910 - root - INFO -  MACD calculation for DVLT due to high change percent: 18.75
-2025-10-07 11:38:45,980 - root - INFO - MACD not positive for DVLT: MACD=-0.06290385331499904, Signal=-0.0319562539282215, Hist=-0.03094759938677754
-2025-10-07 11:38:46,087 - root - INFO -  update_current_price: start time 2025-10-07T11:37:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:38:47,200 - root - INFO -  MACD calculation for EDUC due to high change percent: 14.3885
-2025-10-07 11:38:47,590 - root - INFO -  MACD calculation for EGAN due to high change percent: 11.6412
-2025-10-07 11:38:48,414 - root - INFO -  MACD calculation for ELAB due to high change percent: 12.939
-2025-10-07 11:38:48,451 - root - INFO - MACD not positive for ELAB: MACD=-0.07471776679715614, Signal=-0.04214754269041769, Hist=-0.032570224106738446
-2025-10-07 11:38:48,757 - root - INFO -  MACD calculation for ELPW due to high change percent: 12.8913
-2025-10-07 11:38:48,824 - root - INFO - MACD not positive for ELPW: MACD=0.008371072107018707, Signal=0.011982659415531267, Hist=-0.0036115873085125604
-2025-10-07 11:38:50,199 - root - INFO - Real mode: Today's profit so far: 1912.1099749999994
-2025-10-07 11:38:50,218 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:38:50,259 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:38:50,361 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:38:50,377 - root - INFO - 9 EMA is in downtrend, not opening long position for TMQ
-2025-10-07 11:38:50,395 - root - INFO - latest trade price: 6.8393
-2025-10-07 11:38:50,402 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 11:38:50,442 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 11:38:50,481 - root - INFO - Trend up basic conditions not met for BJDX: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 11:38:50,496 - root - INFO - latest trade price: 2.155
-2025-10-07 11:38:50,570 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:38:50,647 - root - INFO - Profit percent for LXEO is -0.587978
-2025-10-07 11:38:50,647 - root - INFO - Latest 1min close price for LXEO: 8.403
-2025-10-07 11:38:50,695 - root - INFO - No close long conditions met for LXEO
-2025-10-07 11:38:53,605 - root - INFO -  update_current_price: start time 2025-10-07T11:37:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:38:58,589 - root - INFO -  MACD calculation for GLTO due to high change percent: 575.286
-2025-10-07 11:38:58,646 - root - INFO - MACD not positive for GLTO: MACD=0.06582540117389257, Signal=0.09610155811248729, Hist=-0.030276156938594714
-2025-10-07 11:39:02,262 - root - INFO -  update_current_price: start time 2025-10-07T11:38:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:39:05,739 - root - INFO - Real mode: Today's profit so far: 1914.469975
-2025-10-07 11:39:05,758 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:39:05,796 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:39:05,901 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:39:05,917 - root - INFO - 9 EMA is in downtrend, not opening long position for TMQ
-2025-10-07 11:39:05,934 - root - INFO - latest trade price: 6.8111
-2025-10-07 11:39:05,942 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 11:39:05,983 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 11:39:06,022 - root - INFO - Trend up basic conditions not met for BJDX: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 11:39:06,039 - root - INFO - latest trade price: 2.165
-2025-10-07 11:39:06,127 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:39:06,199 - root - INFO - Profit percent for LXEO is -0.623469
-2025-10-07 11:39:06,199 - root - INFO - Latest 1min close price for LXEO: 8.403
-2025-10-07 11:39:06,260 - root - INFO - No close long conditions met for LXEO
-2025-10-07 11:39:08,339 - root - INFO -  update_current_price: start time 2025-10-07T11:38:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:39:08,608 - root - INFO -  MACD calculation for ITRM due to high change percent: 16.4429
-2025-10-07 11:39:08,656 - root - INFO - MACD not positive for ITRM: MACD=0.015160103964240168, Signal=0.015678403805113962, Hist=-0.000518299840873794
-2025-10-07 11:39:11,026 - root - INFO -  MACD calculation for KLTO due to high change percent: 10.4423
-2025-10-07 11:39:11,091 - root - INFO - MACD not positive for KLTO: MACD=0.008240978979406455, Signal=0.010821518350121354, Hist=-0.0025805393707148995
-2025-10-07 11:39:12,549 - root - INFO -  MACD calculation for KZIA due to high change percent: 16.2242
-2025-10-07 11:39:12,583 - root - INFO - MACD not positive for KZIA: MACD=0.18184349936194089, Signal=0.18741601872816807, Hist=-0.0055725193662271855
-2025-10-07 11:39:12,946 - root - INFO -  MACD calculation for LAR due to high change percent: 12.3303
-2025-10-07 11:39:13,016 - root - INFO - MACD not positive for LAR: MACD=0.006268454730355977, Signal=0.02668812336708416, Hist=-0.020419668636728183
-2025-10-07 11:39:13,546 - root - INFO -  MACD calculation for LESL due to high change percent: 11.615
-2025-10-07 11:39:15,419 - root - INFO -  update_current_price: start time 2025-10-07T11:38:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:39:16,005 - root - INFO -  MACD calculation for LXEO due to high change percent: 29.9845
-2025-10-07 11:39:18,109 - root - INFO -  MACD calculation for MEGL due to high change percent: 12.4438
-2025-10-07 11:39:18,743 - root - INFO -  MACD calculation for MIGI due to high change percent: 11.8294
-2025-10-07 11:39:18,798 - root - INFO - MACD not positive for MIGI: MACD=0.0139109580332617, Signal=0.021952337143366592, Hist=-0.008041379110104892
-2025-10-07 11:39:21,306 - root - INFO - Real mode: Today's profit so far: 1917.6599749999987
-2025-10-07 11:39:21,328 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:39:21,365 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:39:21,467 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:39:21,484 - root - INFO - 9 EMA is in downtrend, not opening long position for TMQ
-2025-10-07 11:39:21,501 - root - INFO - latest trade price: 6.78
-2025-10-07 11:39:21,507 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 11:39:21,545 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-07 11:39:21,586 - root - INFO - Trend up basic conditions not met for BJDX: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 11:39:21,603 - root - INFO - latest trade price: 2.16
-2025-10-07 11:39:21,669 - root - INFO -  MACD calculation for MYO due to high change percent: 10.4069
-2025-10-07 11:39:21,746 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:39:21,819 - root - INFO - Profit percent for LXEO is -0.386859
-2025-10-07 11:39:21,819 - root - INFO - Latest 1min close price for LXEO: 8.403
-2025-10-07 11:39:21,884 - root - INFO - No close long conditions met for LXEO
-2025-10-07 11:39:21,984 - root - INFO -  MACD calculation for NAK due to high change percent: 18.2119
-2025-10-07 11:39:22,293 - root - INFO -  update_current_price: start time 2025-10-07T11:38:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:39:22,783 - root - INFO -  MACD calculation for NCNA due to high change percent: 17.126
-2025-10-07 11:39:24,097 - root - INFO -  MACD calculation for NITO due to high change percent: 11.8619
-2025-10-07 11:39:24,150 - root - INFO - MACD not positive for NITO: MACD=0.09032749608586244, Signal=0.11258601996438633, Hist=-0.022258523878523895
-2025-10-07 11:39:26,655 - root - INFO -  MACD calculation for NXXT due to high change percent: 20.7729
-2025-10-07 11:39:26,713 - root - INFO - MACD not positive for NXXT: MACD=0.018149486171370022, Signal=0.03831926626760288, Hist=-0.02016978009623286
-2025-10-07 11:39:28,569 - root - INFO -  update_current_price: start time 2025-10-07T11:38:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:39:30,401 - root - INFO -  MACD calculation for PC due to high change percent: 10.0716
-2025-10-07 11:39:30,448 - root - INFO - MACD not positive for PC: MACD=0.0989043242583243, Signal=0.13625783036002187, Hist=-0.037353506101697576
-2025-10-07 11:39:36,868 - root - INFO -  update_current_price: start time 2025-10-07T11:38:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:39:36,941 - root - INFO - Real mode: Today's profit so far: 1913.2899749999997
-2025-10-07 11:39:36,967 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:39:37,008 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:39:37,049 - root - INFO -  MACD calculation for QUIK due to high change percent: 10.5479
-2025-10-07 11:39:37,130 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
-2025-10-07 11:39:37,151 - root - INFO - latest trade price: 6.7701
-2025-10-07 11:39:37,160 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 11:39:37,210 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-07 11:39:37,229 - root - INFO - latest trade price: 2.16
-2025-10-07 11:39:37,332 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:39:37,407 - root - INFO - Profit percent for LXEO is -0.0674341
-2025-10-07 11:39:37,408 - root - INFO - Latest 1min close price for LXEO: 8.41
-2025-10-07 11:39:37,484 - root - INFO - MACD is still rising for stock LXEO
-2025-10-07 11:39:37,484 - root - INFO - Not enough profit percent to scalp for LXEO: -0.0674341
-2025-10-07 11:39:38,408 - root - INFO -  MACD calculation for REKR due to high change percent: 18.232
-2025-10-07 11:39:38,482 - root - INFO - MACD not positive for REKR: MACD=-0.009380353392816065, Signal=-0.003908042785279676, Hist=-0.0054723106075363894
-2025-10-07 11:39:41,846 - root - INFO -  MACD calculation for RVPH due to high change percent: 17.0775
-2025-10-07 11:39:41,916 - root - INFO - MACD not positive for RVPH: MACD=-0.0006431410294345241, Signal=0.006584284171777728, Hist=-0.007227425201212252
-2025-10-07 11:39:42,051 - root - INFO -  MACD calculation for RVSN due to high change percent: 20.6049
-2025-10-07 11:39:42,116 - root - INFO - MACD not positive for RVSN: MACD=0.01237797950174746, Signal=0.013191893963150384, Hist=-0.0008139144614029235
-2025-10-07 11:39:46,498 - root - INFO -  update_current_price: start time 2025-10-07T11:38:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:39:49,869 - root - INFO -  MACD calculation for SNGX due to high change percent: 17.5182
-2025-10-07 11:39:49,933 - root - INFO - MACD not positive for SNGX: MACD=0.009518767327366007, Signal=0.011841946682108098, Hist=-0.0023231793547420915
-2025-10-07 11:39:52,530 - root - INFO - Real mode: Today's profit so far: 1913.2899749999997
-2025-10-07 11:39:52,548 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:39:52,592 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:39:52,700 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
-2025-10-07 11:39:52,717 - root - INFO - latest trade price: 6.8
-2025-10-07 11:39:52,726 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-07 11:39:52,763 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-07 11:39:52,780 - root - INFO - latest trade price: 2.16
-2025-10-07 11:39:52,863 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:39:52,941 - root - INFO - Profit percent for LXEO is -0.505164
-2025-10-07 11:39:52,942 - root - INFO - Latest 1min close price for LXEO: 8.41
-2025-10-07 11:39:53,005 - root - INFO - MACD is still rising for stock LXEO
 2025-10-07 11:39:53,005 - root - INFO - Not enough profit percent to scalp for LXEO: -0.505164
 2025-10-07 11:39:55,896 - root - INFO -  MACD calculation for TELO due to high change percent: 25.0
 2025-10-07 11:39:56,156 - root - INFO -  update_current_price: start time 2025-10-07T11:38:00-04:00 end_time 2025-10-07T21:55:00-04:00
@@ -417,3 +47,374 @@ Manual Movers:
 2025-10-07 11:40:08,560 - root - INFO - MACD is still rising for stock LXEO
 2025-10-07 11:40:08,560 - root - INFO - Not enough profit percent to scalp for LXEO: -0.505164
 2025-10-07 11:40:12,002 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-07 11:40:23,610 - root - INFO - Real mode: Today's profit so far: 1965.8799749999998
+2025-10-07 11:40:23,656 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:40:23,704 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:40:23,833 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 11:40:23,856 - root - INFO - latest trade price: 6.835
+2025-10-07 11:40:23,868 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 11:40:23,917 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 11:40:23,936 - root - INFO - latest trade price: 2.16
+2025-10-07 11:40:24,036 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
+2025-10-07 11:40:24,123 - root - INFO - Profit percent for LXEO is -0.268553
+2025-10-07 11:40:24,124 - root - INFO - Latest 1min close price for LXEO: 8.41
+2025-10-07 11:40:24,219 - root - INFO - MACD is still rising for stock LXEO
+2025-10-07 11:40:24,219 - root - INFO - Not enough profit percent to scalp for LXEO: -0.268553
+2025-10-07 11:40:39,265 - root - INFO - Real mode: Today's profit so far: 1936.0199749999992
+2025-10-07 11:40:39,285 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:40:39,338 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:40:39,464 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 11:40:39,483 - root - INFO - latest trade price: 6.8065
+2025-10-07 11:40:39,499 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 11:40:39,556 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 11:40:39,581 - root - INFO - 1min candle is not positive for BJDX: open 2.168 close 2.15
+2025-10-07 11:40:39,602 - root - INFO - latest trade price: 2.16
+2025-10-07 11:40:39,707 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
+2025-10-07 11:40:39,792 - root - INFO - Profit percent for LXEO is -0.505164
+2025-10-07 11:40:39,793 - root - INFO - Latest 1min close price for LXEO: 8.4
+2025-10-07 11:40:39,893 - root - INFO - No close long conditions met for LXEO
+2025-10-07 11:40:54,945 - root - INFO - Real mode: Today's profit so far: 2139.249974999999
+2025-10-07 11:40:54,964 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:40:55,015 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:40:55,145 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 11:40:55,164 - root - INFO - latest trade price: 6.805
+2025-10-07 11:40:55,179 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 11:40:55,234 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 11:40:55,265 - root - INFO - 1min candle is not positive for BJDX: open 2.168 close 2.15
+2025-10-07 11:40:55,287 - root - INFO - latest trade price: 2.155
+2025-10-07 11:40:55,387 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
+2025-10-07 11:40:55,479 - root - INFO - Profit percent for LXEO is -0.741775
+2025-10-07 11:40:55,480 - root - INFO - Latest 1min close price for LXEO: 8.4
+2025-10-07 11:40:55,569 - root - INFO - No close long conditions met for LXEO
+2025-10-07 11:41:10,625 - root - INFO - Real mode: Today's profit so far: 2221.3499749999974
+2025-10-07 11:41:10,646 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:41:10,697 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:41:10,823 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 11:41:10,844 - root - INFO - latest trade price: 6.7913
+2025-10-07 11:41:10,858 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 11:41:10,911 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 11:41:10,939 - root - INFO - 1min candle is not positive for BJDX: open 2.168 close 2.15
+2025-10-07 11:41:10,962 - root - INFO - latest trade price: 2.15
+2025-10-07 11:41:11,071 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
+2025-10-07 11:41:11,169 - root - INFO - Profit percent for LXEO is -0.919233
+2025-10-07 11:41:11,170 - root - INFO - Latest 1min close price for LXEO: 8.4
+2025-10-07 11:41:11,269 - root - INFO - No close long conditions met for LXEO
+2025-10-07 11:41:12,110 - root - INFO - Real mode: Today's profit so far: 2218.499974999999
+2025-10-07 11:41:12,132 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
+2025-10-07 11:41:12,132 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
+2025-10-07 11:41:12,168 - root - INFO -  update_current_price: start time 2025-10-07T11:40:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:41:17,458 - root - INFO -  MACD calculation for AMBI due to high change percent: 16.6667
+2025-10-07 11:41:17,517 - root - INFO - MACD not positive for AMBI: MACD=0.04064048706616985, Signal=0.043253641432193776, Hist=-0.002613154366023926
+2025-10-07 11:41:18,368 - root - INFO -  MACD calculation for ANIX due to high change percent: 12.2677
+2025-10-07 11:41:18,409 - root - INFO - MACD not positive for ANIX: MACD=0.06087632331537618, Signal=0.07193180537022063, Hist=-0.011055482054844454
+2025-10-07 11:41:19,109 - root - INFO -  MACD calculation for APVO due to high change percent: 23.0496
+2025-10-07 11:41:19,178 - root - INFO - MACD not positive for APVO: MACD=0.0026868188500432932, Signal=0.0034813271965691527, Hist=-0.0007945083465258594
+2025-10-07 11:41:20,821 - root - INFO -  update_current_price: start time 2025-10-07T11:40:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:41:21,324 - root - INFO -  MACD calculation for ASNS due to high change percent: 17.8637
+2025-10-07 11:41:26,311 - root - INFO - Real mode: Today's profit so far: 2225.119974999998
+2025-10-07 11:41:26,331 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:41:26,367 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:41:26,396 - root - INFO -  MACD calculation for BJDX due to high change percent: 41.6129
+2025-10-07 11:41:26,483 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 11:41:26,503 - root - INFO - latest trade price: 6.79
+2025-10-07 11:41:26,513 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 11:41:26,732 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 11:41:26,752 - root - INFO - 1min candle is not positive for BJDX: open 2.168 close 2.15
+2025-10-07 11:41:26,769 - root - INFO - latest trade price: 2.1501
+2025-10-07 11:41:26,857 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
+2025-10-07 11:41:26,927 - root - INFO - Profit percent for LXEO is -1.215
+2025-10-07 11:41:26,927 - root - INFO - Latest 1min close price for LXEO: 8.4
+2025-10-07 11:41:27,002 - root - INFO - No close long conditions met for LXEO
+2025-10-07 11:41:27,078 - root - INFO -  MACD calculation for BNAI due to high change percent: 43.1462
+2025-10-07 11:41:27,220 - root - INFO - MACD not positive for BNAI: MACD=0.025723122159611922, Signal=0.04166311335319693, Hist=-0.01593999119358501
+2025-10-07 11:41:27,605 - root - INFO -  MACD calculation for BQ due to high change percent: 168.781
+2025-10-07 11:41:27,752 - root - INFO -  update_current_price: start time 2025-10-07T11:40:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:41:30,589 - root - INFO -  MACD calculation for CAPS due to high change percent: 13.0252
+2025-10-07 11:41:31,159 - root - INFO -  MACD calculation for CCTG due to high change percent: 27.1523
+2025-10-07 11:41:31,216 - root - INFO - MACD not positive for CCTG: MACD=0.03354805302917496, Signal=0.04399010174660626, Hist=-0.010442048717431297
+2025-10-07 11:41:33,282 - root - INFO -  MACD calculation for CISS due to high change percent: 69.1946
+2025-10-07 11:41:33,313 - root - INFO - MACD not positive for CISS: MACD=-0.050183323076209874, Signal=0.05352803110995989, Hist=-0.10371135418616977
+2025-10-07 11:41:35,022 - root - INFO -  update_current_price: start time 2025-10-07T11:40:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:41:35,442 - root - INFO -  MACD calculation for CNTB due to high change percent: 11.25
+2025-10-07 11:41:35,681 - root - INFO -  MACD calculation for COCH due to high change percent: 94.5959
+2025-10-07 11:41:35,716 - root - INFO - MACD not positive for COCH: MACD=0.0007119680838931775, Signal=0.008329262198633737, Hist=-0.007617294114740559
+2025-10-07 11:41:41,696 - root - INFO -  MACD calculation for DGNX due to high change percent: 15.8657
+2025-10-07 11:41:41,755 - root - INFO - MACD not positive for DGNX: MACD=-0.06375834937938052, Signal=0.006377404204858165, Hist=-0.07013575358423868
+2025-10-07 11:41:42,045 - root - INFO - Real mode: Today's profit so far: 2139.9799749999984
+2025-10-07 11:41:42,526 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:41:42,563 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:41:42,674 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 11:41:42,698 - root - INFO - 9 EMA is in downtrend, not opening long position for TMQ
+2025-10-07 11:41:42,715 - root - INFO - latest trade price: 6.82
+2025-10-07 11:41:42,724 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 11:41:42,763 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 11:41:42,776 - root - INFO - 1min candle is not positive for BJDX: open 2.16 close 2.15
+2025-10-07 11:41:42,805 - root - INFO - latest trade price: 2.15
+2025-10-07 11:41:42,894 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
+2025-10-07 11:41:42,985 - root - INFO - Profit percent for LXEO is -1.3333
+2025-10-07 11:41:42,985 - root - INFO - Latest 1min close price for LXEO: 8.35
+2025-10-07 11:41:43,057 - root - INFO - Three red candles detected for LXEO
+2025-10-07 11:41:43,058 - root - INFO - LXEO:====== 8.35=========>SELL========>three_red_candles
+2025-10-07 11:41:43,058 - root - INFO - ******************** CLOSE by SOLD stock:LXEO
+2025-10-07 11:41:43,104 - root - CRITICAL - LXEO  118 sell
+2025-10-07 11:41:44,102 - root - INFO -  MACD calculation for DVLT due to high change percent: 18.75
+2025-10-07 11:41:44,192 - root - INFO - MACD not positive for DVLT: MACD=-0.06314062359461259, Signal=-0.03761876888714077, Hist=-0.02552185470747182
+2025-10-07 11:41:44,463 - root - INFO -  update_current_price: start time 2025-10-07T11:40:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:41:46,014 - root - INFO -  MACD calculation for EGAN due to high change percent: 11.4504
+2025-10-07 11:41:46,061 - root - INFO - MACD not positive for EGAN: MACD=0.19078448575544904, Signal=0.19181166008583622, Hist=-0.0010271743303871816
+2025-10-07 11:41:46,630 - root - INFO -  MACD calculation for ELAB due to high change percent: 10.9057
+2025-10-07 11:41:46,658 - root - INFO - MACD not positive for ELAB: MACD=-0.08085648177332416, Signal=-0.05014460116226956, Hist=-0.0307118806110546
+2025-10-07 11:41:47,001 - root - INFO -  MACD calculation for ELPW due to high change percent: 16.593
+2025-10-07 11:41:47,072 - root - INFO - MACD not positive for ELPW: MACD=0.007418374380633752, Signal=0.01105448616923552, Hist=-0.003636111788601768
+2025-10-07 11:41:52,769 - root - INFO -  MACD calculation for FLX due to high change percent: 11.1801
+2025-10-07 11:41:52,804 - root - INFO - MACD not positive for FLX: MACD=0.06329704063931141, Signal=0.06382456686432054, Hist=-0.0005275262250091367
+2025-10-07 11:41:52,869 - root - INFO -  update_current_price: start time 2025-10-07T11:40:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:41:57,439 - root - INFO -  MACD calculation for GIGGW due to high change percent: 12.6769
+2025-10-07 11:41:57,486 - root - INFO - MACD not positive for GIGGW: MACD=0.015689068023361563, Signal=0.02148527221488449, Hist=-0.005796204191522925
+2025-10-07 11:41:57,993 - root - INFO -  MACD calculation for GLTO due to high change percent: 600.0
+2025-10-07 11:41:58,181 - root - INFO - Real mode: Today's profit so far: 2097.119974999998
+2025-10-07 11:41:58,202 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:41:58,255 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:41:58,365 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 11:41:58,385 - root - INFO - 9 EMA is in downtrend, not opening long position for TMQ
+2025-10-07 11:41:58,407 - root - INFO - latest trade price: 6.805
+2025-10-07 11:41:58,416 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 11:41:58,456 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 11:41:58,471 - root - INFO - 1min candle is not positive for BJDX: open 2.16 close 2.15
+2025-10-07 11:41:58,491 - root - INFO - latest trade price: 2.155
+2025-10-07 11:42:02,120 - root - INFO -  update_current_price: start time 2025-10-07T11:41:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:42:09,190 - root - INFO -  update_current_price: start time 2025-10-07T11:41:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:42:09,358 - root - INFO -  MACD calculation for ITRM due to high change percent: 17.1143
+2025-10-07 11:42:13,617 - root - INFO - Real mode: Today's profit so far: 2167.119974999998
+2025-10-07 11:42:13,637 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:42:13,679 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:42:13,790 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 11:42:13,810 - root - INFO - 9 EMA is in downtrend, not opening long position for TMQ
+2025-10-07 11:42:13,830 - root - INFO - latest trade price: 6.795
+2025-10-07 11:42:13,841 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 11:42:13,885 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 11:42:13,905 - root - INFO - 1min candle is not positive for BJDX: open 2.16 close 2.15
+2025-10-07 11:42:13,924 - root - INFO - latest trade price: 2.155
+2025-10-07 11:42:13,970 - root - INFO -  MACD calculation for LAR due to high change percent: 11.8552
+2025-10-07 11:42:14,038 - root - INFO - MACD not positive for LAR: MACD=0.003915579770921163, Signal=0.02227401350825052, Hist=-0.018358433737329358
+2025-10-07 11:42:16,667 - root - INFO -  update_current_price: start time 2025-10-07T11:41:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:42:17,004 - root - INFO -  MACD calculation for LXEO due to high change percent: 29.8764
+2025-10-07 11:42:19,065 - root - INFO -  MACD calculation for MEGL due to high change percent: 10.1062
+2025-10-07 11:42:19,900 - root - INFO -  MACD calculation for MGX due to high change percent: 10.7807
+2025-10-07 11:42:19,953 - root - INFO - MACD not positive for MGX: MACD=0.054197747102969984, Signal=0.054614750840634455, Hist=-0.0004170037376644703
+2025-10-07 11:42:20,101 - root - INFO -  MACD calculation for MIGI due to high change percent: 11.0818
+2025-10-07 11:42:20,145 - root - INFO - MACD not positive for MIGI: MACD=0.012496671324403463, Signal=0.020056098566468568, Hist=-0.007559427242065105
+2025-10-07 11:42:23,624 - root - INFO -  MACD calculation for NAK due to high change percent: 17.7285
+2025-10-07 11:42:24,215 - root - INFO -  update_current_price: start time 2025-10-07T11:41:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:42:24,689 - root - INFO -  MACD calculation for NCNA due to high change percent: 17.0276
+2025-10-07 11:42:26,071 - root - INFO -  MACD calculation for NITO due to high change percent: 13.0952
+2025-10-07 11:42:26,128 - root - INFO - MACD not positive for NITO: MACD=0.08908141923111312, Signal=0.10865091178354372, Hist=-0.019569492552430595
+2025-10-07 11:42:29,031 - root - INFO - Real mode: Today's profit so far: 2227.0699749999985
+2025-10-07 11:42:29,051 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:42:29,089 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:42:29,209 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 11:42:29,226 - root - INFO -  MACD calculation for NXXT due to high change percent: 18.3623
+2025-10-07 11:42:29,229 - root - INFO - 9 EMA is in downtrend, not opening long position for TMQ
+2025-10-07 11:42:29,247 - root - INFO - latest trade price: 6.77
+2025-10-07 11:42:29,256 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 11:42:29,282 - root - INFO - MACD not positive for NXXT: MACD=0.014900861710715585, Signal=0.03376194433058434, Hist=-0.018861082619868755
+2025-10-07 11:42:29,298 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 11:42:29,313 - root - INFO - 1min candle is not positive for BJDX: open 2.16 close 2.15
+2025-10-07 11:42:29,331 - root - INFO - latest trade price: 2.159
+2025-10-07 11:42:31,763 - root - INFO -  update_current_price: start time 2025-10-07T11:41:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:42:33,272 - root - INFO -  MACD calculation for PAPL due to high change percent: 13.0518
+2025-10-07 11:42:33,314 - root - INFO - MACD not positive for PAPL: MACD=0.10266298298003029, Signal=0.11556974480491965, Hist=-0.012906761824889354
+2025-10-07 11:42:39,048 - root - INFO -  update_current_price: start time 2025-10-07T11:41:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:42:40,793 - root - INFO -  MACD calculation for REKR due to high change percent: 17.337
+2025-10-07 11:42:40,864 - root - INFO - MACD not positive for REKR: MACD=-0.009511470483812179, Signal=-0.0050287283249861765, Hist=-0.004482742158826002
+2025-10-07 11:42:44,284 - root - INFO -  MACD calculation for RVPH due to high change percent: 16.3156
+2025-10-07 11:42:44,363 - root - INFO - MACD not positive for RVPH: MACD=-0.0035792743490346, Signal=0.004551572467615262, Hist=-0.008130846816649863
+2025-10-07 11:42:44,433 - root - INFO -  MACD calculation for RVSN due to high change percent: 18.9659
+2025-10-07 11:42:44,437 - root - INFO - Real mode: Today's profit so far: 2212.169974999997
+2025-10-07 11:42:44,460 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:42:44,501 - root - INFO - MACD not positive for RVSN: MACD=0.01161537428219217, Signal=0.012876590026958741, Hist=-0.0012612157447665709
+2025-10-07 11:42:44,511 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:42:44,626 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 11:42:44,647 - root - INFO - latest trade price: 6.7855
+2025-10-07 11:42:44,658 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 11:42:44,701 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 11:42:44,718 - root - INFO - latest trade price: 2.16
+2025-10-07 11:42:48,738 - root - INFO -  update_current_price: start time 2025-10-07T11:41:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:42:51,632 - root - INFO -  MACD calculation for SNGX due to high change percent: 15.3285
+2025-10-07 11:42:51,693 - root - INFO - MACD not positive for SNGX: MACD=0.006781508458788776, Signal=0.010829859037444234, Hist=-0.004048350578655458
+2025-10-07 11:42:52,637 - root - INFO -  MACD calculation for SPHL due to high change percent: 11.8669
+2025-10-07 11:42:57,779 - root - INFO -  MACD calculation for TELO due to high change percent: 25.3521
+2025-10-07 11:42:58,096 - root - INFO -  update_current_price: start time 2025-10-07T11:41:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:42:59,788 - root - INFO -  MACD calculation for TLPH due to high change percent: 13.6364
+2025-10-07 11:42:59,836 - root - INFO - MACD not positive for TLPH: MACD=0.012075976106551645, Signal=0.021694855657417706, Hist=-0.009618879550866061
+2025-10-07 11:42:59,887 - root - INFO - Real mode: Today's profit so far: 2197.119974999998
+2025-10-07 11:42:59,905 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:42:59,946 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:43:00,059 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 11:43:00,077 - root - INFO - latest trade price: 6.7701
+2025-10-07 11:43:00,087 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 11:43:00,130 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 11:43:00,136 - root - INFO -  MACD calculation for TMC due to high change percent: 12.8886
+2025-10-07 11:43:00,146 - root - INFO - latest trade price: 2.175
+2025-10-07 11:43:00,202 - root - INFO - MACD not positive for TMC: MACD=0.12427114712351006, Signal=0.1698447778205529, Hist=-0.045573630697042844
+2025-10-07 11:43:00,307 - root - INFO -  MACD calculation for TMCWW due to high change percent: 24.8497
+2025-10-07 11:43:00,340 - root - INFO - MACD not positive for TMCWW: MACD=0.06888325001483375, Signal=0.08792094320368844, Hist=-0.01903769318885469
+2025-10-07 11:43:00,470 - root - INFO -  MACD calculation for TMQ due to high change percent: 224.402
+2025-10-07 11:43:02,898 - root - INFO -  MACD calculation for TVGN due to high change percent: 10.0801
+2025-10-07 11:43:02,951 - root - INFO - MACD not positive for TVGN: MACD=0.010783178320761033, Signal=0.011776137614675605, Hist=-0.0009929592939145714
+2025-10-07 11:43:04,304 - root - INFO -  MACD calculation for ULY due to high change percent: 16.9872
+2025-10-07 11:43:04,339 - root - INFO - MACD not positive for ULY: MACD=-0.07977887555657226, Signal=-0.0685567434034969, Hist=-0.011222132153075354
+2025-10-07 11:43:05,405 - root - INFO -  MACD calculation for USARW due to high change percent: 14.0421
+2025-10-07 11:43:05,456 - root - INFO - MACD not positive for USARW: MACD=0.0901440285731745, Signal=0.32942028608901663, Hist=-0.23927625751584214
+2025-10-07 11:43:08,904 - root - INFO -  update_current_price: start time 2025-10-07T11:42:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:43:12,707 - root - INFO -  MACD calculation for YCBD due to high change percent: 14.6154
+2025-10-07 11:43:12,773 - root - INFO - MACD not positive for YCBD: MACD=0.026194298998197585, Signal=0.02906440276256675, Hist=-0.002870103764369164
+2025-10-07 11:43:14,950 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-07 11:43:15,254 - root - INFO - Real mode: Today's profit so far: 2212.119974999998
+2025-10-07 11:43:15,272 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:43:15,307 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:43:15,423 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 11:43:15,440 - root - INFO - latest trade price: 6.7703
+2025-10-07 11:43:15,452 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 11:43:15,497 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 11:43:15,517 - root - INFO - latest trade price: 2.185
+2025-10-07 11:43:30,622 - root - INFO - Real mode: Today's profit so far: 2142.119974999998
+2025-10-07 11:43:30,644 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:43:30,683 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:43:30,800 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 11:43:30,819 - root - INFO - latest trade price: 6.7795
+2025-10-07 11:43:30,835 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 11:43:30,888 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 11:43:30,907 - root - INFO - latest trade price: 2.225
+2025-10-07 11:43:46,034 - root - INFO - Real mode: Today's profit so far: 2122.119974999998
+2025-10-07 11:43:46,055 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:43:46,105 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:43:46,222 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 11:43:46,244 - root - INFO - latest trade price: 6.755
+2025-10-07 11:43:46,263 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 11:43:46,318 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 11:43:46,377 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 11:43:46,378 - root - INFO - BJDX:======= 2.2298===>BUY========>TrendUp1087633
+2025-10-07 11:43:46,486 - root - CRITICAL - BJDX  450 buy
+2025-10-07 11:43:46,551 - root - INFO - Placed BUY order for BJDX, qty: 450, price: 2.2203, success: True
+2025-10-07 11:43:46,551 - root - INFO - Trade successfully COMPLETED for BJDX
+2025-10-07 11:43:46,701 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 11:43:46,753 - root - INFO - Profit percent for BJDX is 0
+2025-10-07 11:43:46,753 - root - INFO - Latest 1min close price for BJDX: 2.2298
+2025-10-07 11:43:46,777 - root - INFO - High price DETECTED for BJDX is 0.0 and setting no_scalp to True
+2025-10-07 11:44:01,837 - root - INFO - Real mode: Today's profit so far: 2087.999974999999
+2025-10-07 11:44:01,859 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:44:01,918 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:44:02,041 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 11:44:02,061 - root - INFO - latest trade price: 6.76
+2025-10-07 11:44:02,076 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 11:44:02,128 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 11:44:02,191 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 11:44:02,191 - root - INFO - BJDX:======= 2.2298===>BUY========>TrendUp1087633
+2025-10-07 11:44:02,220 - root - WARNING - ***** stock is already in the positions
+2025-10-07 11:44:02,314 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 11:44:02,365 - root - INFO - Profit percent for BJDX is 0.396343
+2025-10-07 11:44:02,365 - root - INFO - Latest 1min close price for BJDX: 2.2298
+2025-10-07 11:44:02,462 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 11:44:02,462 - root - INFO - Not enough profit percent to scalp for BJDX: 0.396343
+2025-10-07 11:44:15,022 - root - INFO - Real mode: Today's profit so far: 2022.9999749999988
+2025-10-07 11:44:15,043 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
+2025-10-07 11:44:15,044 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
+2025-10-07 11:44:15,082 - root - INFO -  update_current_price: start time 2025-10-07T11:43:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:44:17,511 - root - INFO - Real mode: Today's profit so far: 2018.4999749999988
+2025-10-07 11:44:17,530 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:44:17,567 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:44:17,679 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 11:44:17,698 - root - INFO - latest trade price: 6.7508
+2025-10-07 11:44:17,707 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 11:44:17,753 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-07 11:44:17,811 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 11:44:17,811 - root - INFO - BJDX:======= 2.2298===>BUY========>TrendUp1087633
+2025-10-07 11:44:17,831 - root - WARNING - ***** stock is already in the positions
+2025-10-07 11:44:17,923 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 11:44:17,982 - root - INFO - Profit percent for BJDX is -0.0135117
+2025-10-07 11:44:17,982 - root - INFO - Latest 1min close price for BJDX: 2.2298
+2025-10-07 11:44:18,050 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 11:44:18,050 - root - INFO - Not enough profit percent to scalp for BJDX: -0.0135117
+2025-10-07 11:44:20,117 - root - INFO -  MACD calculation for AMBI due to high change percent: 15.9259
+2025-10-07 11:44:20,191 - root - INFO - MACD not positive for AMBI: MACD=0.03946783749352023, Signal=0.04301911151766385, Hist=-0.0035512740241436178
+2025-10-07 11:44:21,405 - root - INFO -  MACD calculation for ANIX due to high change percent: 11.3846
+2025-10-07 11:44:21,449 - root - INFO - MACD not positive for ANIX: MACD=0.0604774629165159, Signal=0.07185203329044858, Hist=-0.011374570373932677
+2025-10-07 11:44:22,131 - root - INFO -  MACD calculation for APVO due to high change percent: 23.7589
+2025-10-07 11:44:24,027 - root - INFO -  update_current_price: start time 2025-10-07T11:43:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:44:24,570 - root - INFO -  MACD calculation for ASNS due to high change percent: 10.7274
+2025-10-07 11:44:29,019 - root - INFO -  MACD calculation for BHST due to high change percent: 13.6041
+2025-10-07 11:44:29,564 - root - INFO -  MACD calculation for BJDX due to high change percent: 38.7097
+2025-10-07 11:44:30,640 - root - INFO -  MACD calculation for BNAI due to high change percent: 43.1462
+2025-10-07 11:44:30,712 - root - INFO - MACD not positive for BNAI: MACD=0.02587468911117885, Signal=0.04169342674351032, Hist=-0.01581873763233147
+2025-10-07 11:44:31,306 - root - INFO -  MACD calculation for BQ due to high change percent: 137.312
+2025-10-07 11:44:31,468 - root - INFO -  update_current_price: start time 2025-10-07T11:43:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:44:33,098 - root - INFO - Real mode: Today's profit so far: 2013.9499749999995
+2025-10-07 11:44:33,120 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:44:33,158 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:44:33,280 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 11:44:33,300 - root - INFO - latest trade price: 6.7491
+2025-10-07 11:44:33,310 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 11:44:33,347 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 11:44:33,367 - root - INFO - latest trade price: 2.2
+2025-10-07 11:44:33,454 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 11:44:33,497 - root - INFO - Profit percent for BJDX is -0.463901
+2025-10-07 11:44:33,497 - root - INFO - Latest 1min close price for BJDX: 2.205
+2025-10-07 11:44:33,558 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 11:44:33,558 - root - INFO - Not enough profit percent to scalp for BJDX: -0.463901
+2025-10-07 11:44:34,390 - root - INFO -  MACD calculation for CAPS due to high change percent: 13.4454
+2025-10-07 11:44:35,427 - root - INFO -  MACD calculation for CCTG due to high change percent: 27.8146
+2025-10-07 11:44:35,475 - root - INFO - MACD not positive for CCTG: MACD=0.032750332231454404, Signal=0.04383055758706215, Hist=-0.011080225355607744
+2025-10-07 11:44:37,668 - root - INFO -  MACD calculation for CISS due to high change percent: 72.1719
+2025-10-07 11:44:37,702 - root - INFO - MACD not positive for CISS: MACD=-0.05059016068304745, Signal=0.05344666358859238, Hist=-0.10403682427163982
+2025-10-07 11:44:39,447 - root - INFO -  update_current_price: start time 2025-10-07T11:43:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:44:39,978 - root - INFO -  MACD calculation for CNTB due to high change percent: 10.625
+2025-10-07 11:44:40,183 - root - INFO -  MACD calculation for COCH due to high change percent: 100.793
+2025-10-07 11:44:46,741 - root - INFO -  MACD calculation for DGNX due to high change percent: 14.899
+2025-10-07 11:44:46,854 - root - INFO - MACD not positive for DGNX: MACD=-0.04461305023408002, Signal=0.010206464033918264, Hist=-0.05481951426799828
+2025-10-07 11:44:48,603 - root - INFO - Real mode: Today's profit so far: 2035.9999749999988
+2025-10-07 11:44:48,626 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:44:48,658 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:44:48,882 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 11:44:48,902 - root - INFO - latest trade price: 6.7589
+2025-10-07 11:44:48,907 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 11:44:48,988 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
+2025-10-07 11:44:48,997 - root - INFO - 1min RSI is overbought for COCH: 76.75994617600912
+2025-10-07 11:44:49,014 - root - INFO - latest trade price: 1.7299
+2025-10-07 11:44:49,019 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 11:44:49,026 - root - INFO -  MACD calculation for DVLT due to high change percent: 20.1587
+2025-10-07 11:44:49,070 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 11:44:49,093 - root - INFO - latest trade price: 2.21
+2025-10-07 11:44:49,112 - root - INFO - MACD not positive for DVLT: MACD=-0.06428136433535325, Signal=-0.037846917035288904, Hist=-0.026434447300064348
+2025-10-07 11:44:49,187 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 11:44:49,266 - root - INFO - Profit percent for BJDX is -0.914291
+2025-10-07 11:44:49,266 - root - INFO - Latest 1min close price for BJDX: 2.205
+2025-10-07 11:44:49,364 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 11:44:49,364 - root - INFO - Not enough profit percent to scalp for BJDX: -0.914291
+2025-10-07 11:44:49,428 - root - INFO -  update_current_price: start time 2025-10-07T11:43:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:44:51,281 - root - INFO -  MACD calculation for EGAN due to high change percent: 10.7271
+2025-10-07 11:44:52,018 - root - INFO -  MACD calculation for ELAB due to high change percent: 11.0444
+2025-10-07 11:44:52,063 - root - INFO - MACD not positive for ELAB: MACD=-0.08532371824055929, Signal=-0.05103804845571659, Hist=-0.034285669784842696
+2025-10-07 11:44:52,453 - root - INFO -  MACD calculation for ELPW due to high change percent: 13.4991
+2025-10-07 11:44:52,555 - root - INFO - MACD not positive for ELPW: MACD=0.007466237628496852, Signal=0.01106405881880814, Hist=-0.003597821190311287
+2025-10-07 11:44:58,865 - root - INFO -  update_current_price: start time 2025-10-07T11:43:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:45:04,409 - root - INFO - Real mode: Today's profit so far: 1973.4999749999988
+2025-10-07 11:45:04,427 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:45:04,467 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:45:04,612 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 11:45:04,632 - root - INFO - latest trade price: 6.7244
+2025-10-07 11:45:04,643 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 11:45:04,708 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
+2025-10-07 11:45:04,724 - root - INFO - 1min RSI is overbought for COCH: 76.75994617600912
+2025-10-07 11:45:04,742 - root - INFO - latest trade price: 1.695
+2025-10-07 11:45:04,750 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 11:45:04,825 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 11:45:04,842 - root - INFO - latest trade price: 2.21
+2025-10-07 11:45:04,934 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-07 11:45:04,998 - root - INFO - Profit percent for BJDX is -0.463901
+2025-10-07 11:45:04,999 - root - INFO - Latest 1min close price for BJDX: 2.205
+2025-10-07 11:45:05,086 - root - INFO - MACD is still rising for stock BJDX
+2025-10-07 11:45:05,086 - root - INFO - Not enough profit percent to scalp for BJDX: -0.463901
+2025-10-07 11:45:07,231 - root - INFO -  update_current_price: start time 2025-10-07T11:44:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:45:14,493 - root - INFO -  update_current_price: start time 2025-10-07T11:44:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:45:14,749 - root - INFO -  MACD calculation for ITRM due to high change percent: 18.5714
