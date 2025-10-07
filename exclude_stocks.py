@@ -1,2 +1,2 @@
-exclude_tickers:["ALFIQ", "NBIS", 'RDDT', 'TSLL', "INTW"]
+exclude_tickers:["ALFIQ", "NBIS", 'RDDT', 'TSLL', "INTW", "AAPL"]
 
