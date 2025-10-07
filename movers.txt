@@ -2,8 +2,9 @@ Top Movers:
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  TMQ   |      0      |     0     |    220.813     | 65955095 |     6.705     |        2.09        | 100660000.0  |  2.128   |  9214481   |      0      | 2025-10-07 11:29:07 |
-|  LXEO  |      1      |     0     |     30.187     | 3499306  |     8.4231    |        6.47        |  25010000.0  |  6.614   |   357163   |      0      | 2025-10-07 11:28:30 |
+|  TMQ   |      0      |     0     |    230.105     | 66955377 |     6.8992    |        2.09        | 100660000.0  |  2.128   |  9214481   |      0      | 2025-10-07 11:34:17 |
+|  BJDX  |      0      |     0     |    37.0968     | 24057492 |     2.125     |        1.55        |   550000.0   |   1.55   |   221393   |      0      | 2025-10-07 11:33:03 |
+|  LXEO  |      1      |     0     |    31.0046     | 3520243  |     8.476     |        6.47        |  25010000.0  |  6.614   |   357163   |      0      | 2025-10-07 11:33:39 |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -17,403 +18,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-07 11:25:45,020 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
-2025-10-07 11:25:45,110 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
-2025-10-07 11:25:45,127 - root - INFO - latest trade price: 8.49
-2025-10-07 11:25:45,212 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:25:45,315 - root - INFO - Profit percent for LXEO is 0.0863629
-2025-10-07 11:25:45,315 - root - INFO - Latest 1min close price for LXEO: 8.46
-2025-10-07 11:25:45,377 - root - INFO - MACD is still rising for stock LXEO
-2025-10-07 11:25:45,377 - root - INFO - Not enough profit percent to scalp for LXEO: 0.0863629
-2025-10-07 11:25:45,986 - root - INFO -  update_current_price: start time 2025-10-07T11:24:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:25:49,018 - root - INFO -  MACD calculation for HTCO due to high change percent: 10.5332
-2025-10-07 11:25:49,651 - root - INFO -  MACD calculation for HYLN due to high change percent: 12.3188
-2025-10-07 11:25:49,715 - root - INFO - MACD not positive for HYLN: MACD=0.022481744383849644, Signal=0.04191614468180494, Hist=-0.019434400297955297
-2025-10-07 11:25:51,462 - root - INFO -  MACD calculation for INDP due to high change percent: 29.4859
-2025-10-07 11:25:51,519 - root - INFO - MACD not positive for INDP: MACD=0.08188051090634474, Signal=0.11079057103017416, Hist=-0.02891006012382942
-2025-10-07 11:25:53,070 - root - INFO -  update_current_price: start time 2025-10-07T11:24:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:25:53,257 - root - INFO -  MACD calculation for ITRM due to high change percent: 14.7857
-2025-10-07 11:25:53,301 - root - INFO - MACD not positive for ITRM: MACD=0.014318384161222664, Signal=0.01586786702710234, Hist=-0.0015494828658796748
-2025-10-07 11:25:55,781 - root - INFO -  MACD calculation for KLTO due to high change percent: 10.8077
-2025-10-07 11:25:55,843 - root - INFO - MACD not positive for KLTO: MACD=0.010115288755991991, Signal=0.011943406749409705, Hist=-0.0018281179934177133
-2025-10-07 11:25:57,121 - root - INFO -  MACD calculation for KZIA due to high change percent: 14.4543
-2025-10-07 11:25:57,160 - root - INFO - MACD not positive for KZIA: MACD=0.18894943389924368, Signal=0.19402352683958782, Hist=-0.005074092940344138
-2025-10-07 11:25:57,572 - root - INFO -  MACD calculation for LAR due to high change percent: 15.5
-2025-10-07 11:25:57,636 - root - INFO - MACD not positive for LAR: MACD=0.028373425674814712, Signal=0.036753488613586266, Hist=-0.008380062938771554
-2025-10-07 11:25:58,272 - root - INFO -  MACD calculation for LESL due to high change percent: 11.2832
-2025-10-07 11:26:00,426 - root - INFO - Real mode: Today's profit so far: 1774.4399749999975
-2025-10-07 11:26:00,446 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:26:00,486 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
-2025-10-07 11:26:00,569 - root - INFO -  update_current_price: start time 2025-10-07T11:25:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:26:00,576 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
-2025-10-07 11:26:00,594 - root - INFO - latest trade price: 8.44
-2025-10-07 11:26:00,681 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:26:00,755 - root - INFO - Profit percent for LXEO is 0.441279
-2025-10-07 11:26:00,755 - root - INFO - Latest 1min close price for LXEO: 8.46
-2025-10-07 11:26:00,809 - root - INFO -  MACD calculation for LXEO due to high change percent: 31.0665
-2025-10-07 11:26:00,838 - root - INFO - MACD is still rising for stock LXEO
-2025-10-07 11:26:00,838 - root - INFO - Not enough profit percent to scalp for LXEO: 0.441279
-2025-10-07 11:26:02,666 - root - INFO -  MACD calculation for MGX due to high change percent: 10.9665
-2025-10-07 11:26:02,827 - root - INFO -  MACD calculation for MIGI due to high change percent: 12.555
-2025-10-07 11:26:02,866 - root - INFO - MACD not positive for MIGI: MACD=0.019356201384640226, Signal=0.02590860913279187, Hist=-0.0065524077481516445
-2025-10-07 11:26:05,236 - root - INFO -  MACD calculation for NAK due to high change percent: 18.2119
-2025-10-07 11:26:05,304 - root - INFO - MACD not positive for NAK: MACD=-0.03548400073116986, Signal=-0.03529987328262724, Hist=-0.00018412744854262586
-2025-10-07 11:26:05,588 - root - INFO -  update_current_price: start time 2025-10-07T11:25:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:26:06,008 - root - INFO -  MACD calculation for NCNA due to high change percent: 14.1732
-2025-10-07 11:26:10,064 - root - INFO -  MACD calculation for NXXT due to high change percent: 19.3237
-2025-10-07 11:26:10,141 - root - INFO - MACD not positive for NXXT: MACD=0.024429731316479852, Signal=0.04800827882894086, Hist=-0.02357854751246101
-2025-10-07 11:26:11,954 - root - INFO -  update_current_price: start time 2025-10-07T11:25:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:26:15,889 - root - INFO - Real mode: Today's profit so far: 1823.7499749999988
-2025-10-07 11:26:15,908 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:26:15,946 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
-2025-10-07 11:26:16,032 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
-2025-10-07 11:26:16,055 - root - INFO - latest trade price: 8.4104
-2025-10-07 11:26:16,144 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:26:16,269 - root - INFO - Profit percent for LXEO is -0.150248
-2025-10-07 11:26:16,269 - root - INFO - Latest 1min close price for LXEO: 8.46
-2025-10-07 11:26:16,316 - root - INFO - MACD is still rising for stock LXEO
-2025-10-07 11:26:16,316 - root - INFO - Not enough profit percent to scalp for LXEO: -0.150248
-2025-10-07 11:26:17,298 - root - INFO -  MACD calculation for QMCO due to high change percent: 11.377
-2025-10-07 11:26:17,360 - root - INFO - MACD not positive for QMCO: MACD=0.025654277476299114, Signal=0.15374694937975544, Hist=-0.12809267190345633
-2025-10-07 11:26:17,653 - root - INFO -  update_current_price: start time 2025-10-07T11:25:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:26:18,645 - root - INFO -  MACD calculation for REKR due to high change percent: 17.7403
-2025-10-07 11:26:18,706 - root - INFO - MACD not positive for REKR: MACD=-0.007836207019682462, Signal=-0.0008478876823485074, Hist=-0.006988319337333954
-2025-10-07 11:26:20,444 - root - INFO -  MACD calculation for RVPH due to high change percent: 18.4372
-2025-10-07 11:26:20,513 - root - INFO - MACD not positive for RVPH: MACD=0.003764305546496871, Signal=0.009897029337194467, Hist=-0.006132723790697596
-2025-10-07 11:26:20,559 - root - INFO -  MACD calculation for RVSN due to high change percent: 21.5415
-2025-10-07 11:26:23,210 - root - INFO -  update_current_price: start time 2025-10-07T11:25:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:26:25,129 - root - INFO -  MACD calculation for SNGX due to high change percent: 18.2847
-2025-10-07 11:26:28,271 - root - INFO -  MACD calculation for TELO due to high change percent: 26.0563
-2025-10-07 11:26:28,473 - root - INFO -  update_current_price: start time 2025-10-07T11:25:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:26:29,317 - root - INFO -  MACD calculation for TLPH due to high change percent: 10.9091
-2025-10-07 11:26:29,348 - root - INFO - MACD not positive for TLPH: MACD=0.015037351280914324, Signal=0.027790889119424, Hist=-0.012753537838509677
-2025-10-07 11:26:29,525 - root - INFO -  MACD calculation for TMC due to high change percent: 16.4197
-2025-10-07 11:26:29,582 - root - INFO - MACD not positive for TMC: MACD=0.1935293140311689, Signal=0.19623329215700713, Hist=-0.0027039781258382245
-2025-10-07 11:26:29,631 - root - INFO -  MACD calculation for TMCWW due to high change percent: 33.3333
-2025-10-07 11:26:29,661 - root - INFO - MACD not positive for TMCWW: MACD=0.09683564414349699, Signal=0.09858019905173032, Hist=-0.0017445549082333311
-2025-10-07 11:26:29,757 - root - INFO -  MACD calculation for TMQ due to high change percent: 213.876
-2025-10-07 11:26:30,971 - root - INFO -  MACD calculation for TVGN due to high change percent: 12.0993
-2025-10-07 11:26:31,363 - root - INFO - Real mode: Today's profit so far: 1847.7699749999992
-2025-10-07 11:26:31,382 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:26:31,417 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:26:31,552 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:26:31,608 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=False, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 11:26:31,626 - root - INFO - latest trade price: 6.69
-2025-10-07 11:26:31,634 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
-2025-10-07 11:26:31,658 - root - INFO -  MACD calculation for ULY due to high change percent: 13.4647
-2025-10-07 11:26:31,684 - root - INFO - MACD not positive for ULY: MACD=-0.08921195530309012, Signal=-0.052913017664456996, Hist=-0.03629893763863312
-2025-10-07 11:26:31,704 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
-2025-10-07 11:26:31,720 - root - INFO - latest trade price: 8.447
-2025-10-07 11:26:31,801 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:26:31,869 - root - INFO - Profit percent for LXEO is -0.500432
-2025-10-07 11:26:31,869 - root - INFO - Latest 1min close price for LXEO: 8.46
-2025-10-07 11:26:31,933 - root - INFO - MACD is still rising for stock LXEO
-2025-10-07 11:26:31,933 - root - INFO - Not enough profit percent to scalp for LXEO: -0.500432
-2025-10-07 11:26:32,013 - root - INFO -  MACD calculation for UPC due to high change percent: 12.8692
-2025-10-07 11:26:32,036 - root - INFO - MACD not positive for UPC: MACD=0.08116640091305705, Signal=0.0829735932726051, Hist=-0.0018071923595480571
-2025-10-07 11:26:32,273 - root - INFO -  MACD calculation for USAR due to high change percent: 12.481
-2025-10-07 11:26:32,339 - root - INFO - MACD not positive for USAR: MACD=0.312680822087934, Signal=0.44490592989398625, Hist=-0.13222510780605223
-2025-10-07 11:26:32,387 - root - INFO -  MACD calculation for USARW due to high change percent: 22.6902
-2025-10-07 11:26:32,423 - root - INFO - MACD not positive for USARW: MACD=0.35564659249137875, Signal=0.5063473737117363, Hist=-0.15070078122035757
-2025-10-07 11:26:34,080 - root - INFO -  update_current_price: start time 2025-10-07T11:25:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:26:36,840 - root - INFO -  MACD calculation for XBIO due to high change percent: 13.6083
-2025-10-07 11:26:36,875 - root - INFO - MACD not positive for XBIO: MACD=0.06633980824410157, Signal=0.13322105019965705, Hist=-0.06688124195555548
-2025-10-07 11:26:38,031 - root - INFO -  MACD calculation for YCBD due to high change percent: 11.3077
-2025-10-07 11:26:38,091 - root - INFO - MACD not positive for YCBD: MACD=0.02450233739705099, Signal=0.031756129792885536, Hist=-0.007253792395834548
-2025-10-07 11:26:38,233 - root - INFO -  MACD calculation for YJ due to high change percent: 10.1168
-2025-10-07 11:26:40,314 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-07 11:26:46,979 - root - INFO - Real mode: Today's profit so far: 1863.0699749999985
-2025-10-07 11:26:46,999 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:26:47,039 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:26:47,145 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:26:47,209 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 11:26:47,228 - root - INFO - latest trade price: 6.715
-2025-10-07 11:26:47,239 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
-2025-10-07 11:26:47,316 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
-2025-10-07 11:26:47,333 - root - INFO - latest trade price: 8.42
-2025-10-07 11:26:47,427 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:26:47,499 - root - INFO - Profit percent for LXEO is -0.0674341
-2025-10-07 11:26:47,500 - root - INFO - Latest 1min close price for LXEO: 8.447
-2025-10-07 11:26:47,575 - root - INFO - MACD is still rising for stock LXEO
-2025-10-07 11:26:47,575 - root - INFO - Not enough profit percent to scalp for LXEO: -0.0674341
-2025-10-07 11:27:02,630 - root - INFO - Real mode: Today's profit so far: 1843.6399749999982
-2025-10-07 11:27:03,017 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:27:03,055 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:27:03,173 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:27:03,236 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 11:27:03,260 - root - INFO - latest trade price: 6.665
-2025-10-07 11:27:03,271 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
-2025-10-07 11:27:03,350 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
-2025-10-07 11:27:03,367 - root - INFO - latest trade price: 8.423
-2025-10-07 11:27:03,467 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:27:03,541 - root - INFO - Profit percent for LXEO is -0.386859
-2025-10-07 11:27:03,542 - root - INFO - Latest 1min close price for LXEO: 8.447
-2025-10-07 11:27:03,616 - root - INFO - MACD is still rising for stock LXEO
-2025-10-07 11:27:03,616 - root - INFO - Not enough profit percent to scalp for LXEO: -0.386859
-2025-10-07 11:27:18,668 - root - INFO - Real mode: Today's profit so far: 1821.579974999997
-2025-10-07 11:27:18,690 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:27:18,730 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:27:18,846 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:27:18,911 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 11:27:18,928 - root - INFO - latest trade price: 6.6976
-2025-10-07 11:27:18,938 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
-2025-10-07 11:27:19,016 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
-2025-10-07 11:27:19,036 - root - INFO - latest trade price: 8.42
-2025-10-07 11:27:19,128 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:27:19,205 - root - INFO - Profit percent for LXEO is -0.351367
-2025-10-07 11:27:19,205 - root - INFO - Latest 1min close price for LXEO: 8.447
-2025-10-07 11:27:19,280 - root - INFO - MACD is still rising for stock LXEO
-2025-10-07 11:27:19,280 - root - INFO - Not enough profit percent to scalp for LXEO: -0.351367
-2025-10-07 11:27:34,329 - root - INFO - Real mode: Today's profit so far: 1832.9499749999995
-2025-10-07 11:27:34,349 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:27:34,388 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:27:34,510 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:27:34,569 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 11:27:34,587 - root - INFO - latest trade price: 6.71
-2025-10-07 11:27:34,598 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
-2025-10-07 11:27:34,677 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
-2025-10-07 11:27:34,695 - root - INFO - latest trade price: 8.4231
-2025-10-07 11:27:34,781 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:27:34,858 - root - INFO - Profit percent for LXEO is -0.386859
-2025-10-07 11:27:34,859 - root - INFO - Latest 1min close price for LXEO: 8.4231
-2025-10-07 11:27:34,929 - root - INFO - MACD is still rising for stock LXEO
-2025-10-07 11:27:34,929 - root - INFO - Not enough profit percent to scalp for LXEO: -0.386859
-2025-10-07 11:27:40,399 - root - INFO - Real mode: Today's profit so far: 1858.9499749999995
-2025-10-07 11:27:40,420 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
-2025-10-07 11:27:40,420 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
-2025-10-07 11:27:40,450 - root - INFO -  update_current_price: start time 2025-10-07T11:26:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:27:46,152 - root - INFO -  MACD calculation for ANIX due to high change percent: 12.3077
-2025-10-07 11:27:46,186 - root - INFO - MACD not positive for ANIX: MACD=0.07406894000057695, Signal=0.07839041217812305, Hist=-0.004321472177546096
-2025-10-07 11:27:46,853 - root - INFO -  MACD calculation for APVO due to high change percent: 23.4184
-2025-10-07 11:27:46,920 - root - INFO - MACD not positive for APVO: MACD=0.0040004503864568, Signal=0.004368130562580111, Hist=-0.0003676801761233117
-2025-10-07 11:27:48,193 - root - INFO -  update_current_price: start time 2025-10-07T11:26:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:27:48,620 - root - INFO -  MACD calculation for ASNS due to high change percent: 29.6455
-2025-10-07 11:27:49,977 - root - INFO - Real mode: Today's profit so far: 1911.7599749999972
-2025-10-07 11:27:49,996 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:27:50,033 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:27:50,144 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:27:50,201 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 11:27:50,219 - root - INFO - latest trade price: 6.6745
-2025-10-07 11:27:50,228 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
-2025-10-07 11:27:50,349 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
-2025-10-07 11:27:50,364 - root - INFO - latest trade price: 8.413
-2025-10-07 11:27:50,444 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:27:50,512 - root - INFO - Profit percent for LXEO is -0.350184
-2025-10-07 11:27:50,512 - root - INFO - Latest 1min close price for LXEO: 8.4231
-2025-10-07 11:27:50,581 - root - INFO - MACD is still rising for stock LXEO
-2025-10-07 11:27:50,581 - root - INFO - Not enough profit percent to scalp for LXEO: -0.350184
-2025-10-07 11:27:52,771 - root - INFO -  MACD calculation for BGLWW due to high change percent: 14.2
-2025-10-07 11:27:52,803 - root - INFO - MACD not positive for BGLWW: MACD=0.003237044825584734, Signal=0.003252640326195943, Hist=-1.559550061120893e-05
-2025-10-07 11:27:53,599 - root - INFO -  MACD calculation for BJDX due to high change percent: 29.6774
-2025-10-07 11:27:53,635 - root - INFO - MACD not positive for BJDX: MACD=-0.017442043559593223, Signal=-0.009775458156307235, Hist=-0.007666585403285988
-2025-10-07 11:27:54,417 - root - INFO -  MACD calculation for BNAI due to high change percent: 36.4213
-2025-10-07 11:27:54,487 - root - INFO - MACD not positive for BNAI: MACD=0.03588034690949127, Signal=0.0549887295883494, Hist=-0.01910838267885813
-2025-10-07 11:27:54,898 - root - INFO -  MACD calculation for BQ due to high change percent: 126.156
-2025-10-07 11:27:55,058 - root - INFO -  update_current_price: start time 2025-10-07T11:26:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:27:57,571 - root - INFO -  MACD calculation for CAPS due to high change percent: 13.4454
-2025-10-07 11:27:58,341 - root - INFO -  MACD calculation for CCTG due to high change percent: 31.7815
-2025-10-07 11:27:58,390 - root - INFO - MACD not positive for CCTG: MACD=0.04509816221024732, Signal=0.05105521055082775, Hist=-0.005957048340580431
-2025-10-07 11:28:00,552 - root - INFO -  MACD calculation for CISS due to high change percent: 69.6833
-2025-10-07 11:28:00,595 - root - INFO - MACD not positive for CISS: MACD=0.008311256198346051, Signal=0.1464620954820914, Hist=-0.13815083928374536
-2025-10-07 11:28:02,213 - root - INFO -  update_current_price: start time 2025-10-07T11:27:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:28:02,505 - root - INFO -  MACD calculation for CNTB due to high change percent: 10.9375
-2025-10-07 11:28:02,653 - root - INFO -  MACD calculation for COCH due to high change percent: 95.2157
-2025-10-07 11:28:02,682 - root - INFO - MACD not positive for COCH: MACD=0.002149625391946408, Signal=0.017279770061344, Hist=-0.015130144669397591
-2025-10-07 11:28:04,840 - root - INFO -  MACD calculation for CTXR due to high change percent: 10.5263
-2025-10-07 11:28:04,890 - root - INFO - MACD not positive for CTXR: MACD=0.010339452036448371, Signal=0.011763209705412623, Hist=-0.0014237576689642515
-2025-10-07 11:28:05,629 - root - INFO - Real mode: Today's profit so far: 1974.7599749999972
-2025-10-07 11:28:05,650 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:28:05,694 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:28:05,803 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:28:05,851 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 11:28:05,867 - root - INFO - latest trade price: 6.695
-2025-10-07 11:28:05,871 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
-2025-10-07 11:28:05,930 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
-2025-10-07 11:28:05,946 - root - INFO - latest trade price: 8.413
-2025-10-07 11:28:06,020 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:28:06,086 - root - INFO - Profit percent for LXEO is -0.469672
-2025-10-07 11:28:06,086 - root - INFO - Latest 1min close price for LXEO: 8.4231
-2025-10-07 11:28:06,145 - root - INFO - MACD is still rising for stock LXEO
-2025-10-07 11:28:06,145 - root - INFO - Not enough profit percent to scalp for LXEO: -0.469672
-2025-10-07 11:28:06,164 - root - INFO -  MACD calculation for DGNX due to high change percent: 19.3939
-2025-10-07 11:28:06,217 - root - INFO - MACD not positive for DGNX: MACD=0.05296440774132449, Signal=0.05376283913463276, Hist=-0.0007984313933082701
-2025-10-07 11:28:07,783 - root - INFO -  MACD calculation for DVLT due to high change percent: 22.6442
-2025-10-07 11:28:07,857 - root - INFO - MACD not positive for DVLT: MACD=-0.04586560904197823, Signal=-0.016656625401812068, Hist=-0.02920898364016616
-2025-10-07 11:28:07,998 - root - INFO -  update_current_price: start time 2025-10-07T11:27:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:28:09,002 - root - INFO -  MACD calculation for EGAN due to high change percent: 10.7824
-2025-10-07 11:28:09,431 - root - INFO -  MACD calculation for ELAB due to high change percent: 11.183
-2025-10-07 11:28:09,469 - root - INFO - MACD not positive for ELAB: MACD=-0.06844731170896612, Signal=-0.026045008590652004, Hist=-0.04240230311831411
-2025-10-07 11:28:09,747 - root - INFO -  MACD calculation for ELPW due to high change percent: 12.2468
-2025-10-07 11:28:09,813 - root - INFO - MACD not positive for ELPW: MACD=0.009037080655769358, Signal=0.014226939961495514, Hist=-0.005189859305726156
-2025-10-07 11:28:13,984 - root - INFO -  update_current_price: start time 2025-10-07T11:27:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:28:17,113 - root - INFO -  MACD calculation for GIGGW due to high change percent: 21.2923
-2025-10-07 11:28:17,150 - root - INFO - MACD not positive for GIGGW: MACD=0.023608988421674026, Signal=0.026947791977814196, Hist=-0.00333880355614017
-2025-10-07 11:28:17,337 - root - INFO -  MACD calculation for GLTO due to high change percent: 626.146
-2025-10-07 11:28:17,385 - root - INFO - MACD not positive for GLTO: MACD=0.09621466137084411, Signal=0.1234102716758525, Hist=-0.02719561030500839
-2025-10-07 11:28:19,514 - root - INFO -  update_current_price: start time 2025-10-07T11:27:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:28:21,184 - root - INFO - Real mode: Today's profit so far: 1986.919974999997
-2025-10-07 11:28:21,203 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:28:21,242 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:28:21,342 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:28:21,392 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 11:28:21,408 - root - INFO - latest trade price: 6.695
-2025-10-07 11:28:21,413 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
-2025-10-07 11:28:21,478 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
-2025-10-07 11:28:21,493 - root - INFO - latest trade price: 8.45
-2025-10-07 11:28:21,572 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:28:21,648 - root - INFO - Profit percent for LXEO is -0.469672
-2025-10-07 11:28:21,648 - root - INFO - Latest 1min close price for LXEO: 8.4231
-2025-10-07 11:28:21,696 - root - INFO - MACD is still rising for stock LXEO
-2025-10-07 11:28:21,696 - root - INFO - Not enough profit percent to scalp for LXEO: -0.469672
-2025-10-07 11:28:21,871 - root - INFO -  MACD calculation for HYLN due to high change percent: 12.3188
-2025-10-07 11:28:21,921 - root - INFO - MACD not positive for HYLN: MACD=0.021285163187268363, Signal=0.041676828442488684, Hist=-0.02039166525522032
-2025-10-07 11:28:23,162 - root - INFO -  MACD calculation for INDP due to high change percent: 24.1348
-2025-10-07 11:28:23,217 - root - INFO - MACD not positive for INDP: MACD=0.06362068184651548, Signal=0.10713860521820831, Hist=-0.04351792337169283
-2025-10-07 11:28:24,481 - root - INFO -  update_current_price: start time 2025-10-07T11:27:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:28:24,642 - root - INFO -  MACD calculation for ITRM due to high change percent: 14.7571
-2025-10-07 11:28:24,687 - root - INFO - MACD not positive for ITRM: MACD=0.014302429745268297, Signal=0.015864676143911467, Hist=-0.0015622463986431703
-2025-10-07 11:28:26,497 - root - INFO -  MACD calculation for KLTO due to high change percent: 10.7885
-2025-10-07 11:28:26,552 - root - INFO - MACD not positive for KLTO: MACD=0.010434377075080437, Signal=0.012007224413227394, Hist=-0.001572847338146957
-2025-10-07 11:28:27,667 - root - INFO -  MACD calculation for LAR due to high change percent: 15.0792
-2025-10-07 11:28:27,730 - root - INFO - MACD not positive for LAR: MACD=0.026259465560854345, Signal=0.036330696590794194, Hist=-0.01007123102993985
-2025-10-07 11:28:29,748 - root - INFO -  update_current_price: start time 2025-10-07T11:27:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:28:30,080 - root - INFO -  MACD calculation for LXEO due to high change percent: 30.7573
-2025-10-07 11:28:32,182 - root - INFO -  MACD calculation for MGX due to high change percent: 10.7807
-2025-10-07 11:28:32,425 - root - INFO -  MACD calculation for MIGI due to high change percent: 13.2036
-2025-10-07 11:28:32,477 - root - INFO - MACD not positive for MIGI: MACD=0.017808623037061766, Signal=0.025599093463276178, Hist=-0.007790470426214412
-2025-10-07 11:28:34,700 - root - INFO -  MACD calculation for MYO due to high change percent: 10.274
-2025-10-07 11:28:34,949 - root - INFO -  MACD calculation for NAK due to high change percent: 19.7947
-2025-10-07 11:28:35,024 - root - INFO - MACD not positive for NAK: MACD=-0.03579511184228079, Signal=-0.03536209550484942, Hist=-0.0004330163374313689
-2025-10-07 11:28:35,205 - root - INFO -  update_current_price: start time 2025-10-07T11:27:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:28:35,493 - root - INFO -  MACD calculation for NCNA due to high change percent: 16.1417
-2025-10-07 11:28:36,933 - root - INFO - Real mode: Today's profit so far: 1993.9899749999968
-2025-10-07 11:28:36,953 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:28:36,992 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:28:37,100 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:28:37,187 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 11:28:37,502 - root - INFO - latest trade price: 6.7
-2025-10-07 11:28:37,511 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
-2025-10-07 11:28:37,762 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
-2025-10-07 11:28:37,778 - root - INFO - latest trade price: 8.5099
-2025-10-07 11:28:37,951 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:28:38,103 - root - INFO - Profit percent for LXEO is -0.0319425
-2025-10-07 11:28:38,104 - root - INFO - Latest 1min close price for LXEO: 8.47
-2025-10-07 11:28:38,171 - root - INFO - MACD is still rising for stock LXEO
-2025-10-07 11:28:38,171 - root - INFO - Not enough profit percent to scalp for LXEO: -0.0319425
-2025-10-07 11:28:39,601 - root - INFO -  MACD calculation for NXXT due to high change percent: 21.0145
-2025-10-07 11:28:39,717 - root - INFO - MACD not positive for NXXT: MACD=0.02642403331078169, Signal=0.04840713922780123, Hist=-0.02198310591701954
-2025-10-07 11:28:42,257 - root - INFO -  update_current_price: start time 2025-10-07T11:27:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:28:49,587 - root - INFO -  MACD calculation for QMCO due to high change percent: 11.5709
-2025-10-07 11:28:49,666 - root - INFO - MACD not positive for QMCO: MACD=0.018227496849519298, Signal=0.15226159325439947, Hist=-0.13403409640488018
-2025-10-07 11:28:50,074 - root - INFO -  update_current_price: start time 2025-10-07T11:27:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:28:50,218 - root - INFO -  MACD calculation for QUIK due to high change percent: 10.5611
-2025-10-07 11:28:51,463 - root - INFO -  MACD calculation for REKR due to high change percent: 18.5083
-2025-10-07 11:28:51,583 - root - INFO - MACD not positive for REKR: MACD=-0.008968970552445832, Signal=-0.0010744403889011815, Hist=-0.00789453016354465
-2025-10-07 11:28:53,223 - root - INFO - Real mode: Today's profit so far: 1989.6499749999966
-2025-10-07 11:28:53,240 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:28:53,280 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:28:53,383 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:28:53,444 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 11:28:53,467 - root - INFO - latest trade price: 6.745
-2025-10-07 11:28:53,475 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
-2025-10-07 11:28:53,635 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
-2025-10-07 11:28:53,654 - root - INFO - latest trade price: 8.495
-2025-10-07 11:28:53,740 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:28:53,807 - root - INFO - Profit percent for LXEO is 0.676707
-2025-10-07 11:28:53,808 - root - INFO - Latest 1min close price for LXEO: 8.47
-2025-10-07 11:28:53,911 - root - INFO - MACD is still rising for stock LXEO
-2025-10-07 11:28:53,911 - root - INFO - Not enough profit percent to scalp for LXEO: 0.676707
-2025-10-07 11:28:53,913 - root - INFO -  MACD calculation for RVPH due to high change percent: 18.8555
-2025-10-07 11:28:53,974 - root - INFO - MACD not positive for RVPH: MACD=0.0036446474268386764, Signal=0.009873097713262828, Hist=-0.006228450286424152
-2025-10-07 11:28:54,020 - root - INFO -  MACD calculation for RVSN due to high change percent: 20.6829
-2025-10-07 11:28:56,624 - root - INFO -  MACD calculation for SES due to high change percent: 10.251
-2025-10-07 11:28:56,688 - root - INFO - MACD not positive for SES: MACD=-0.021329459926238137, Signal=-0.0008630278539854719, Hist=-0.020466432072252665
-2025-10-07 11:28:57,552 - root - INFO -  update_current_price: start time 2025-10-07T11:27:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:28:59,947 - root - INFO -  MACD calculation for SNGX due to high change percent: 19.6715
-2025-10-07 11:29:05,110 - root - INFO -  MACD calculation for TELO due to high change percent: 28.0704
-2025-10-07 11:29:05,438 - root - INFO -  update_current_price: start time 2025-10-07T11:28:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:29:06,395 - root - INFO -  MACD calculation for TLPH due to high change percent: 10.9091
-2025-10-07 11:29:06,435 - root - INFO - MACD not positive for TLPH: MACD=0.017430513674076664, Signal=0.028269521598056468, Hist=-0.010839007923979804
-2025-10-07 11:29:06,719 - root - INFO -  MACD calculation for TMC due to high change percent: 16.5155
-2025-10-07 11:29:06,835 - root - INFO - MACD not positive for TMC: MACD=0.18555210605396155, Signal=0.19463785056156566, Hist=-0.009085744507604104
-2025-10-07 11:29:06,881 - root - INFO -  MACD calculation for TMCWW due to high change percent: 32.5948
-2025-10-07 11:29:06,909 - root - INFO - MACD not positive for TMCWW: MACD=0.09454618545403837, Signal=0.0981223073138386, Hist=-0.0035761218598002326
-2025-10-07 11:29:07,003 - root - INFO -  MACD calculation for TMQ due to high change percent: 217.703
-2025-10-07 11:29:08,552 - root - INFO -  MACD calculation for TVGN due to high change percent: 11.5752
-2025-10-07 11:29:08,971 - root - INFO - Real mode: Today's profit so far: 1991.6399749999982
-2025-10-07 11:29:08,990 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:29:09,030 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:29:09,140 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:29:09,224 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 11:29:09,241 - root - INFO - latest trade price: 6.8312
-2025-10-07 11:29:09,249 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
-2025-10-07 11:29:09,321 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
-2025-10-07 11:29:09,336 - root - INFO - latest trade price: 8.49
-2025-10-07 11:29:09,418 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:29:09,428 - root - INFO -  MACD calculation for ULY due to high change percent: 19.5513
-2025-10-07 11:29:09,457 - root - INFO - MACD not positive for ULY: MACD=-0.09160511769625179, Signal=-0.05339165014308933, Hist=-0.03821346755316246
-2025-10-07 11:29:09,512 - root - INFO - Profit percent for LXEO is 0.500432
-2025-10-07 11:29:09,512 - root - INFO - Latest 1min close price for LXEO: 8.47
-2025-10-07 11:29:09,580 - root - INFO - MACD is still rising for stock LXEO
-2025-10-07 11:29:09,580 - root - INFO - Not enough profit percent to scalp for LXEO: 0.500432
-2025-10-07 11:29:09,704 - root - INFO -  MACD calculation for UPC due to high change percent: 11.8143
-2025-10-07 11:29:09,731 - root - INFO - MACD not positive for UPC: MACD=0.07318919293584969, Signal=0.08137815167716364, Hist=-0.00818895874131395
-2025-10-07 11:29:10,014 - root - INFO -  MACD calculation for USAR due to high change percent: 11.8921
-2025-10-07 11:29:10,084 - root - INFO - MACD not positive for USAR: MACD=0.2795754089825202, Signal=0.4382848472729035, Hist=-0.1587094382903833
-2025-10-07 11:29:10,132 - root - INFO -  MACD calculation for USARW due to high change percent: 21.5353
-2025-10-07 11:29:10,166 - root - INFO - MACD not positive for USARW: MACD=0.326130922975711, Signal=0.5004442398086028, Hist=-0.17431331683289175
-2025-10-07 11:29:12,370 - root - INFO -  update_current_price: start time 2025-10-07T11:28:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:29:14,899 - root - INFO -  MACD calculation for XBIO due to high change percent: 13.6083
-2025-10-07 11:29:14,931 - root - INFO - MACD not positive for XBIO: MACD=0.06394664585093901, Signal=0.13274241772102452, Hist=-0.06879577187008551
-2025-10-07 11:29:16,004 - root - INFO -  MACD calculation for YCBD due to high change percent: 13.0692
-2025-10-07 11:29:16,072 - root - INFO - MACD not positive for YCBD: MACD=0.024111454206168004, Signal=0.031677953154708935, Hist=-0.007566498948540931
-2025-10-07 11:29:16,167 - root - INFO -  MACD calculation for YJ due to high change percent: 10.6599
-2025-10-07 11:29:17,966 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-07 11:29:24,625 - root - INFO - Real mode: Today's profit so far: 1946.8199749999985
-2025-10-07 11:29:24,647 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:29:24,692 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:29:24,803 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:29:24,862 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-07 11:29:24,878 - root - INFO - latest trade price: 6.805
-2025-10-07 11:29:24,888 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
-2025-10-07 11:29:24,962 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
-2025-10-07 11:29:24,979 - root - INFO - latest trade price: 8.465
-2025-10-07 11:29:25,064 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:29:25,139 - root - INFO - Profit percent for LXEO is 0.441279
-2025-10-07 11:29:25,139 - root - INFO - Latest 1min close price for LXEO: 8.47
-2025-10-07 11:29:25,214 - root - INFO - MACD is still rising for stock LXEO
-2025-10-07 11:29:25,214 - root - INFO - Not enough profit percent to scalp for LXEO: 0.441279
-2025-10-07 11:29:25,235 - root - WARNING - Skipping RGTI: invalid strategy format (None)
-2025-10-07 11:29:25,252 - root - INFO - latest trade price: 41.8936
-2025-10-07 11:29:40,339 - root - INFO - Real mode: Today's profit so far: 1915.9099749999987
-2025-10-07 11:29:40,359 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:29:40,397 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:29:40,780 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:29:40,798 - root - INFO - 1min RSI is overbought for TMQ: 70.60059927263208
-2025-10-07 11:29:40,816 - root - INFO - latest trade price: 6.785
-2025-10-07 11:29:40,826 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
-2025-10-07 11:29:40,953 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
-2025-10-07 11:29:41,120 - root - INFO - latest trade price: 8.46
-2025-10-07 11:29:41,236 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:29:41,477 - root - INFO - Profit percent for LXEO is 0.145516
-2025-10-07 11:29:41,477 - root - INFO - Latest 1min close price for LXEO: 8.4405
-2025-10-07 11:29:41,657 - root - INFO - MACD is still rising for stock LXEO
-2025-10-07 11:29:41,657 - root - INFO - Not enough profit percent to scalp for LXEO: 0.145516
-2025-10-07 11:29:41,678 - root - WARNING - Skipping RGTI: invalid strategy format (None)
-2025-10-07 11:29:41,697 - root - INFO - latest trade price: 41.9773
-2025-10-07 11:29:56,749 - root - INFO - Real mode: Today's profit so far: 1948.0699749999985
-2025-10-07 11:29:56,769 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:29:56,807 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 11:29:56,976 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 11:29:56,996 - root - INFO - 1min RSI is overbought for TMQ: 70.60059927263208
-2025-10-07 11:29:57,018 - root - INFO - latest trade price: 6.725
-2025-10-07 11:29:57,029 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
-2025-10-07 11:29:57,203 - root - INFO - Last 5 minutes maximum volume candle is red for LXEO
-2025-10-07 11:29:57,222 - root - INFO - latest trade price: 8.465
-2025-10-07 11:29:57,310 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
-2025-10-07 11:29:57,482 - root - INFO - Profit percent for LXEO is 0.0863629
-2025-10-07 11:29:57,482 - root - INFO - Latest 1min close price for LXEO: 8.4405
-2025-10-07 11:29:57,602 - root - INFO - MACD is still rising for stock LXEO
-2025-10-07 11:29:57,603 - root - INFO - Not enough profit percent to scalp for LXEO: 0.0863629
-2025-10-07 11:29:57,623 - root - WARNING - Skipping RGTI: invalid strategy format (None)
-2025-10-07 11:29:57,640 - root - INFO - latest trade price: 41.91
+2025-10-07 11:31:02,795 - root - INFO - MACD not positive for ITRM: MACD=0.015270078139905108, Signal=0.015879773637127285, Hist=-0.000609695497222177
+2025-10-07 11:31:04,382 - root - INFO -  MACD calculation for KLTO due to high change percent: 11.5577
+2025-10-07 11:31:04,516 - root - INFO - MACD not positive for KLTO: MACD=0.01034938255610518, Signal=0.011707564873711773, Hist=-0.0013581823176065932
+2025-10-07 11:31:05,587 - root - INFO -  MACD calculation for KZIA due to high change percent: 14.4543
+2025-10-07 11:31:05,623 - root - INFO - MACD not positive for KZIA: MACD=0.1758998885996519, Signal=0.18817097193154825, Hist=-0.01227108333189636
+2025-10-07 11:31:05,951 - root - INFO -  MACD calculation for LAR due to high change percent: 14.4796
+2025-10-07 11:31:06,086 - root - INFO - MACD not positive for LAR: MACD=0.01997631940205835, Signal=0.03274073283395866, Hist=-0.01276441343190031
+2025-10-07 11:31:06,697 - root - INFO -  MACD calculation for LESL due to high change percent: 11.7257
+2025-10-07 11:31:08,346 - root - INFO -  update_current_price: start time 2025-10-07T11:30:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:31:08,640 - root - INFO -  MACD calculation for LXEO due to high change percent: 30.187
+2025-10-07 11:31:10,852 - root - INFO -  MACD calculation for MIGI due to high change percent: 11.0708
+2025-10-07 11:31:10,923 - root - INFO - MACD not positive for MIGI: MACD=0.01606091039523405, Signal=0.023882909841120757, Hist=-0.007821999445886706
+2025-10-07 11:31:13,288 - root - INFO -  MACD calculation for NAK due to high change percent: 19.5364
+2025-10-07 11:31:13,711 - root - INFO -  update_current_price: start time 2025-10-07T11:30:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:31:13,979 - root - INFO -  MACD calculation for NCNA due to high change percent: 17.1181
+2025-10-07 11:31:15,690 - root - INFO - Real mode: Today's profit so far: 1944.959974999998
+2025-10-07 11:31:15,709 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:31:15,745 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:31:15,851 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 11:31:15,909 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-07 11:31:16,009 - root - INFO - latest trade price: 6.8401
+2025-10-07 11:31:16,018 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 11:31:16,099 - root - INFO - Last 5 minutes maximum volume candle is green for LXEO
+2025-10-07 11:31:16,117 - root - INFO - 1min candle is not positive for LXEO: open 8.47 close 8.4624
+2025-10-07 11:31:16,135 - root - INFO - latest trade price: 8.485
+2025-10-07 11:31:16,227 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
+2025-10-07 11:31:16,295 - root - INFO - Profit percent for LXEO is 0.322974
+2025-10-07 11:31:16,295 - root - INFO - Latest 1min close price for LXEO: 8.4624
+2025-10-07 11:31:16,367 - root - INFO - MACD is still rising for stock LXEO
+2025-10-07 11:31:16,368 - root - INFO - Not enough profit percent to scalp for LXEO: 0.322974
+2025-10-07 11:31:16,377 - root - WARNING - Skipping RGTI: invalid strategy format (None)
+2025-10-07 11:31:16,396 - root - INFO - latest trade price: 41.94
+2025-10-07 11:31:16,895 - root - INFO -  MACD calculation for NXXT due to high change percent: 22.2222
+2025-10-07 11:31:16,954 - root - INFO - MACD not positive for NXXT: MACD=0.026211338578439936, Signal=0.04384034377029361, Hist=-0.017629005191853675
+2025-10-07 11:31:18,762 - root - INFO -  update_current_price: start time 2025-10-07T11:30:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:31:24,445 - root - INFO -  MACD calculation for QMCO due to high change percent: 10.7893
+2025-10-07 11:31:24,510 - root - INFO - MACD not positive for QMCO: MACD=-0.004195791748816902, Signal=0.12065102793466798, Hist=-0.12484681968348488
+2025-10-07 11:31:24,833 - root - INFO -  update_current_price: start time 2025-10-07T11:30:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:31:24,999 - root - INFO -  MACD calculation for QUIK due to high change percent: 10.5594
+2025-10-07 11:31:26,018 - root - INFO -  MACD calculation for REKR due to high change percent: 17.7238
+2025-10-07 11:31:26,083 - root - INFO - MACD not positive for REKR: MACD=-0.011039329068637915, Signal=-0.003160591914022332, Hist=-0.007878737154615583
+2025-10-07 11:31:28,057 - root - INFO -  MACD calculation for RVPH due to high change percent: 18.6314
+2025-10-07 11:31:28,138 - root - INFO - MACD not positive for RVPH: MACD=0.0019431975472387064, Signal=0.00836880428974461, Hist=-0.006425606742505904
+2025-10-07 11:31:28,185 - root - INFO -  MACD calculation for RVSN due to high change percent: 22.5366
+2025-10-07 11:31:30,703 - root - INFO -  update_current_price: start time 2025-10-07T11:30:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:31:31,441 - root - INFO - Real mode: Today's profit so far: 1918.169974999997
+2025-10-07 11:31:31,459 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:31:31,494 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:31:31,620 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 11:31:31,669 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-07 11:31:31,686 - root - INFO - latest trade price: 6.86
+2025-10-07 11:31:31,694 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 11:31:31,761 - root - INFO - Last 5 minutes maximum volume candle is green for LXEO
+2025-10-07 11:31:31,774 - root - INFO - 1min candle is not positive for LXEO: open 8.47 close 8.4624
+2025-10-07 11:31:31,802 - root - INFO - latest trade price: 8.49
+2025-10-07 11:31:31,878 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
+2025-10-07 11:31:31,939 - root - INFO - Profit percent for LXEO is 0.382126
+2025-10-07 11:31:31,940 - root - INFO - Latest 1min close price for LXEO: 8.4624
+2025-10-07 11:31:31,994 - root - INFO - MACD is still rising for stock LXEO
+2025-10-07 11:31:31,994 - root - INFO - Not enough profit percent to scalp for LXEO: 0.382126
+2025-10-07 11:31:32,005 - root - WARNING - Skipping RGTI: invalid strategy format (None)
+2025-10-07 11:31:32,022 - root - INFO - latest trade price: 42.08
+2025-10-07 11:31:32,150 - root - INFO -  MACD calculation for SNGX due to high change percent: 18.6131
+2025-10-07 11:31:35,586 - root - INFO -  MACD calculation for TELO due to high change percent: 28.162
+2025-10-07 11:31:35,841 - root - INFO -  update_current_price: start time 2025-10-07T11:30:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:31:37,127 - root - INFO -  MACD calculation for TLPH due to high change percent: 13.6364
+2025-10-07 11:31:37,157 - root - INFO - MACD not positive for TLPH: MACD=0.015214081385243272, Signal=0.02565843355549383, Hist=-0.010444352170250557
+2025-10-07 11:31:37,391 - root - INFO -  MACD calculation for TMC due to high change percent: 15.2202
+2025-10-07 11:31:37,461 - root - INFO - MACD not positive for TMC: MACD=0.17186273127502538, Signal=0.1900279435133746, Hist=-0.018165212238349215
+2025-10-07 11:31:37,507 - root - INFO -  MACD calculation for TMCWW due to high change percent: 30.719
+2025-10-07 11:31:37,535 - root - INFO - MACD not positive for TMCWW: MACD=0.0911676471255245, Signal=0.09673137527617579, Hist=-0.005563728150651287
+2025-10-07 11:31:37,677 - root - INFO -  MACD calculation for TMQ due to high change percent: 220.813
+2025-10-07 11:31:39,245 - root - INFO -  MACD calculation for TVGN due to high change percent: 12.0068
+2025-10-07 11:31:40,253 - root - INFO -  MACD calculation for ULY due to high change percent: 18.5897
+2025-10-07 11:31:40,291 - root - INFO - MACD not positive for ULY: MACD=-0.08210096843681924, Signal=-0.05906969613801774, Hist=-0.023031272298801503
+2025-10-07 11:31:41,178 - root - INFO -  MACD calculation for USAR due to high change percent: 10.3153
+2025-10-07 11:31:41,245 - root - INFO - MACD not positive for USAR: MACD=0.22499880269425176, Signal=0.39677635630589136, Hist=-0.1717775536116396
+2025-10-07 11:31:41,294 - root - INFO -  MACD calculation for USARW due to high change percent: 19.0217
+2025-10-07 11:31:41,329 - root - INFO - MACD not positive for USARW: MACD=0.2826261030940955, Signal=0.45688061246570133, Hist=-0.1742545093716058
+2025-10-07 11:31:43,495 - root - INFO -  update_current_price: start time 2025-10-07T11:30:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:31:47,070 - root - INFO - Real mode: Today's profit so far: 1930.3599749999994
+2025-10-07 11:31:47,097 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:31:47,135 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:31:47,265 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 11:31:47,281 - root - INFO - 1min RSI is overbought for TMQ: 70.18000525652192
+2025-10-07 11:31:47,302 - root - INFO - latest trade price: 6.855
+2025-10-07 11:31:47,310 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 11:31:47,376 - root - INFO - Last 5 minutes maximum volume candle is green for LXEO
+2025-10-07 11:31:47,429 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 11:31:47,429 - root - INFO - LXEO:======= 8.48===>BUY========>TrendUp366505
+2025-10-07 11:31:47,447 - root - WARNING - ***** stock is already in the positions
+2025-10-07 11:31:47,462 - root - INFO -  MACD calculation for YCBD due to high change percent: 12.6923
+2025-10-07 11:31:47,516 - root - INFO - MACD not positive for YCBD: MACD=0.025762863390456303, Signal=0.030622570529493697, Hist=-0.004859707139037394
+2025-10-07 11:31:47,528 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
+2025-10-07 11:31:47,599 - root - INFO - Profit percent for LXEO is 0.441279
+2025-10-07 11:31:47,599 - root - INFO - Latest 1min close price for LXEO: 8.48
+2025-10-07 11:31:47,664 - root - INFO - MACD is still rising for stock LXEO
+2025-10-07 11:31:47,664 - root - INFO - Not enough profit percent to scalp for LXEO: 0.441279
+2025-10-07 11:31:47,680 - root - WARNING - Skipping RGTI: invalid strategy format (None)
+2025-10-07 11:31:47,707 - root - INFO - latest trade price: 42.0149
+2025-10-07 11:31:49,460 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-07 11:32:02,754 - root - INFO - Real mode: Today's profit so far: 1921.089974999999
+2025-10-07 11:32:02,929 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:32:02,968 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:32:03,136 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 11:32:03,155 - root - INFO - 1min RSI is overbought for TMQ: 70.18000525652192
+2025-10-07 11:32:03,171 - root - INFO - latest trade price: 6.918
+2025-10-07 11:32:03,182 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 11:32:03,257 - root - INFO - Last 5 minutes maximum volume candle is green for LXEO
+2025-10-07 11:32:03,317 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 11:32:03,317 - root - INFO - LXEO:======= 8.48===>BUY========>TrendUp366505
+2025-10-07 11:32:03,337 - root - WARNING - ***** stock is already in the positions
+2025-10-07 11:32:03,419 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
+2025-10-07 11:32:03,495 - root - INFO - Profit percent for LXEO is 0.500432
+2025-10-07 11:32:03,495 - root - INFO - Latest 1min close price for LXEO: 8.48
+2025-10-07 11:32:03,570 - root - INFO - MACD is still rising for stock LXEO
+2025-10-07 11:32:03,570 - root - INFO - Not enough profit percent to scalp for LXEO: 0.500432
+2025-10-07 11:32:03,592 - root - WARNING - Skipping RGTI: invalid strategy format (None)
+2025-10-07 11:32:03,609 - root - INFO - latest trade price: 42.01
+2025-10-07 11:32:18,666 - root - INFO - Real mode: Today's profit so far: 1933.0099749999972
+2025-10-07 11:32:18,687 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:32:18,726 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:32:18,853 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 11:32:18,872 - root - INFO - 1min RSI is overbought for TMQ: 70.18000525652192
+2025-10-07 11:32:18,889 - root - INFO - latest trade price: 6.9
+2025-10-07 11:32:18,899 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 11:32:18,975 - root - INFO - Last 5 minutes maximum volume candle is green for LXEO
+2025-10-07 11:32:19,032 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 11:32:19,032 - root - INFO - LXEO:======= 8.48===>BUY========>TrendUp366505
+2025-10-07 11:32:19,052 - root - WARNING - ***** stock is already in the positions
+2025-10-07 11:32:19,131 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
+2025-10-07 11:32:19,203 - root - INFO - Profit percent for LXEO is 0.322974
+2025-10-07 11:32:19,203 - root - INFO - Latest 1min close price for LXEO: 8.48
+2025-10-07 11:32:19,278 - root - INFO - MACD is still rising for stock LXEO
+2025-10-07 11:32:19,278 - root - INFO - Not enough profit percent to scalp for LXEO: 0.322974
+2025-10-07 11:32:19,300 - root - WARNING - Skipping RGTI: invalid strategy format (None)
+2025-10-07 11:32:19,320 - root - INFO - latest trade price: 41.9968
+2025-10-07 11:32:34,424 - root - INFO - Real mode: Today's profit so far: 1901.4799749999984
+2025-10-07 11:32:34,551 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:32:34,590 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:32:34,703 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 11:32:34,722 - root - INFO - 1min RSI is overbought for TMQ: 72.08009965512873
+2025-10-07 11:32:34,741 - root - INFO - latest trade price: 6.895
+2025-10-07 11:32:34,751 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 11:32:34,839 - root - INFO - Last 5 minutes maximum volume candle is green for LXEO
+2025-10-07 11:32:34,894 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 11:32:34,894 - root - INFO - LXEO:======= 8.4833===>BUY========>TrendUp366882
+2025-10-07 11:32:34,919 - root - WARNING - ***** stock is already in the positions
+2025-10-07 11:32:35,001 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
+2025-10-07 11:32:35,108 - root - INFO - Profit percent for LXEO is 0.67789
+2025-10-07 11:32:35,109 - root - INFO - Latest 1min close price for LXEO: 8.4833
+2025-10-07 11:32:35,184 - root - INFO - MACD is still rising for stock LXEO
+2025-10-07 11:32:35,184 - root - INFO - Not enough profit percent to scalp for LXEO: 0.67789
+2025-10-07 11:32:35,204 - root - WARNING - Skipping RGTI: invalid strategy format (None)
+2025-10-07 11:32:35,222 - root - INFO - latest trade price: 42.08
+2025-10-07 11:32:49,565 - root - INFO - Real mode: Today's profit so far: 1960.6399749999982
+2025-10-07 11:32:49,587 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
+2025-10-07 11:32:49,587 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
+2025-10-07 11:32:49,619 - root - INFO -  update_current_price: start time 2025-10-07T11:31:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:32:50,281 - root - INFO - Real mode: Today's profit so far: 1964.219975
+2025-10-07 11:32:50,301 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:32:50,341 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:32:50,447 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 11:32:50,464 - root - INFO - 1min RSI is overbought for TMQ: 72.08009965512873
+2025-10-07 11:32:50,481 - root - INFO - latest trade price: 6.895
+2025-10-07 11:32:50,489 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 11:32:50,589 - root - INFO - Last 5 minutes maximum volume candle is green for LXEO
+2025-10-07 11:32:50,636 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 11:32:50,636 - root - INFO - LXEO:======= 8.4833===>BUY========>TrendUp366882
+2025-10-07 11:32:50,658 - root - WARNING - ***** stock is already in the positions
+2025-10-07 11:32:50,727 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
+2025-10-07 11:32:50,797 - root - INFO - Profit percent for LXEO is 0.362015
+2025-10-07 11:32:50,797 - root - INFO - Latest 1min close price for LXEO: 8.4833
+2025-10-07 11:32:50,854 - root - INFO - MACD is still rising for stock LXEO
+2025-10-07 11:32:50,854 - root - INFO - Not enough profit percent to scalp for LXEO: 0.362015
+2025-10-07 11:32:50,864 - root - WARNING - Skipping RGTI: invalid strategy format (None)
+2025-10-07 11:32:50,881 - root - INFO - latest trade price: 41.76
+2025-10-07 11:32:54,066 - root - INFO -  MACD calculation for AMBI due to high change percent: 17.3611
+2025-10-07 11:32:55,144 - root - INFO -  MACD calculation for ANIX due to high change percent: 13.1385
+2025-10-07 11:32:55,181 - root - INFO - MACD not positive for ANIX: MACD=0.07069180185865198, Signal=0.07685069011422883, Hist=-0.006158888255576853
+2025-10-07 11:32:55,967 - root - INFO -  MACD calculation for APVO due to high change percent: 23.4043
+2025-10-07 11:32:56,031 - root - INFO - MACD not positive for APVO: MACD=0.0018469470377260322, Signal=0.003737534883250338, Hist=-0.001890587845524306
+2025-10-07 11:32:57,506 - root - INFO -  update_current_price: start time 2025-10-07T11:31:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:32:57,976 - root - INFO -  MACD calculation for ASNS due to high change percent: 22.173
+2025-10-07 11:33:03,202 - root - INFO -  MACD calculation for BJDX due to high change percent: 38.7097
+2025-10-07 11:33:04,031 - root - INFO -  MACD calculation for BNAI due to high change percent: 36.0841
+2025-10-07 11:33:04,095 - root - INFO - MACD not positive for BNAI: MACD=0.029821918357608057, Signal=0.049749874464708264, Hist=-0.019927956107100207
+2025-10-07 11:33:04,808 - root - INFO -  update_current_price: start time 2025-10-07T11:32:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:33:05,928 - root - INFO - Real mode: Today's profit so far: 1931.1599749999987
+2025-10-07 11:33:05,951 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:33:05,991 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:33:06,097 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 11:33:06,113 - root - INFO - 1min RSI is overbought for TMQ: 72.08009965512873
+2025-10-07 11:33:06,131 - root - INFO - latest trade price: 6.8876
+2025-10-07 11:33:06,139 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 11:33:06,177 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 11:33:06,196 - root - INFO - latest trade price: 2.1299
+2025-10-07 11:33:06,204 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 11:33:06,285 - root - INFO - Last 5 minutes maximum volume candle is green for LXEO
+2025-10-07 11:33:06,358 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 11:33:06,358 - root - INFO - LXEO:======= 8.4833===>BUY========>TrendUp366882
+2025-10-07 11:33:06,377 - root - WARNING - ***** stock is already in the positions
+2025-10-07 11:33:06,451 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
+2025-10-07 11:33:06,522 - root - INFO - Profit percent for LXEO is 0.641215
+2025-10-07 11:33:06,522 - root - INFO - Latest 1min close price for LXEO: 8.4833
+2025-10-07 11:33:06,585 - root - INFO - MACD is still rising for stock LXEO
+2025-10-07 11:33:06,585 - root - INFO - Not enough profit percent to scalp for LXEO: 0.641215
+2025-10-07 11:33:06,593 - root - WARNING - Skipping RGTI: invalid strategy format (None)
+2025-10-07 11:33:06,617 - root - INFO - latest trade price: 42.01
+2025-10-07 11:33:06,653 - root - INFO -  MACD calculation for CAPS due to high change percent: 12.1849
+2025-10-07 11:33:09,105 - root - INFO -  MACD calculation for CISS due to high change percent: 59.8371
+2025-10-07 11:33:09,144 - root - INFO - MACD not positive for CISS: MACD=-0.029566015199519402, Signal=0.11001330525460119, Hist=-0.13957932045412058
+2025-10-07 11:33:10,290 - root - INFO -  update_current_price: start time 2025-10-07T11:32:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:33:10,599 - root - INFO -  MACD calculation for CNTB due to high change percent: 13.125
+2025-10-07 11:33:10,772 - root - INFO -  MACD calculation for COCH due to high change percent: 97.6946
+2025-10-07 11:33:10,808 - root - INFO - MACD not positive for COCH: MACD=0.0009536320768002149, Signal=0.01378479887469165, Hist=-0.012831166797891435
+2025-10-07 11:33:14,933 - root - INFO -  MACD calculation for DGNX due to high change percent: 17.0707
+2025-10-07 11:33:14,989 - root - INFO - MACD not positive for DGNX: MACD=0.022864263742263802, Signal=0.043371158244193284, Hist=-0.020506894501929482
+2025-10-07 11:33:16,393 - root - INFO -  MACD calculation for DVLT due to high change percent: 24.0385
+2025-10-07 11:33:16,485 - root - INFO - MACD not positive for DVLT: MACD=-0.05037955654967474, Signal=-0.023262089124262083, Hist=-0.02711746742541266
+2025-10-07 11:33:16,634 - root - INFO -  update_current_price: start time 2025-10-07T11:32:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:33:17,519 - root - INFO -  MACD calculation for EGAN due to high change percent: 10.9618
+2025-10-07 11:33:17,881 - root - INFO -  MACD calculation for ELAB due to high change percent: 12.9945
+2025-10-07 11:33:17,914 - root - INFO - MACD not positive for ELAB: MACD=-0.06740204995320909, Signal=-0.03416453082327737, Hist=-0.03323751912993172
+2025-10-07 11:33:18,108 - root - INFO -  MACD calculation for ELPW due to high change percent: 12.1731
+2025-10-07 11:33:18,180 - root - INFO - MACD not positive for ELPW: MACD=0.007492898860192554, Signal=0.012852051969155148, Hist=-0.005359153108962594
+2025-10-07 11:33:21,517 - root - INFO -  MACD calculation for FLX due to high change percent: 11.1801
+2025-10-07 11:33:21,611 - root - INFO -  update_current_price: start time 2025-10-07T11:32:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:33:21,661 - root - INFO - Real mode: Today's profit so far: 1953.4499749999995
+2025-10-07 11:33:22,713 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:33:22,753 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:33:22,868 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 11:33:22,885 - root - INFO - 1min RSI is overbought for TMQ: 72.08009965512873
+2025-10-07 11:33:22,907 - root - INFO - latest trade price: 6.895
+2025-10-07 11:33:22,915 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 11:33:22,953 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 11:33:22,970 - root - INFO - latest trade price: 2.1389
+2025-10-07 11:33:22,977 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 11:33:23,050 - root - INFO - Last 5 minutes maximum volume candle is green for LXEO
+2025-10-07 11:33:23,114 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 11:33:23,115 - root - INFO - LXEO:======= 8.4833===>BUY========>TrendUp366882
+2025-10-07 11:33:23,136 - root - WARNING - ***** stock is already in the positions
+2025-10-07 11:33:23,212 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
+2025-10-07 11:33:23,280 - root - INFO - Profit percent for LXEO is 0.330072
+2025-10-07 11:33:23,280 - root - INFO - Latest 1min close price for LXEO: 8.4833
+2025-10-07 11:33:23,352 - root - INFO - MACD is still rising for stock LXEO
+2025-10-07 11:33:23,352 - root - INFO - Not enough profit percent to scalp for LXEO: 0.330072
+2025-10-07 11:33:23,363 - root - WARNING - Skipping RGTI: invalid strategy format (None)
+2025-10-07 11:33:23,380 - root - INFO - latest trade price: 41.9
+2025-10-07 11:33:23,915 - root - INFO -  MACD calculation for GIGGW due to high change percent: 20.1538
+2025-10-07 11:33:23,953 - root - INFO - MACD not positive for GIGGW: MACD=0.02070192952919503, Signal=0.025444625186096064, Hist=-0.004742695656901035
+2025-10-07 11:33:24,206 - root - INFO -  MACD calculation for GLTO due to high change percent: 575.472
+2025-10-07 11:33:24,262 - root - INFO - MACD not positive for GLTO: MACD=0.03788227040264047, Signal=0.10432632384286254, Hist=-0.06644405344022207
+2025-10-07 11:33:26,754 - root - INFO -  update_current_price: start time 2025-10-07T11:32:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:33:29,597 - root - INFO -  MACD calculation for HYLN due to high change percent: 10.1449
+2025-10-07 11:33:29,651 - root - INFO - MACD not positive for HYLN: MACD=0.012921246144074416, Signal=0.03579807665517047, Hist=-0.022876830511096055
+2025-10-07 11:33:32,539 - root - INFO -  update_current_price: start time 2025-10-07T11:32:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:33:35,282 - root - INFO -  MACD calculation for KLTO due to high change percent: 11.75
+2025-10-07 11:33:35,351 - root - INFO - MACD not positive for KLTO: MACD=0.010141975148697746, Signal=0.011666083392230287, Hist=-0.001524108243532541
+2025-10-07 11:33:36,708 - root - INFO -  MACD calculation for LAR due to high change percent: 13.6878
+2025-10-07 11:33:36,775 - root - INFO - MACD not positive for LAR: MACD=0.017910222535960862, Signal=0.03232751346073916, Hist=-0.014417290924778295
+2025-10-07 11:33:38,429 - root - INFO - Real mode: Today's profit so far: 1956.8699749999978
+2025-10-07 11:33:38,448 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:33:38,492 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:33:38,591 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 11:33:38,605 - root - INFO - 1min RSI is overbought for TMQ: 72.83634176439357
+2025-10-07 11:33:38,623 - root - INFO - latest trade price: 6.895
+2025-10-07 11:33:38,630 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 11:33:38,672 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 11:33:38,690 - root - INFO - latest trade price: 2.13
+2025-10-07 11:33:38,697 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 11:33:38,798 - root - INFO - Last 5 minutes maximum volume candle is green for LXEO
+2025-10-07 11:33:38,812 - root - INFO - 1min candle is not positive for LXEO: open 8.4831 close 8.476
+2025-10-07 11:33:38,828 - root - INFO - latest trade price: 8.476
+2025-10-07 11:33:38,919 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
+2025-10-07 11:33:38,923 - root - INFO -  update_current_price: start time 2025-10-07T11:32:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:33:38,985 - root - INFO - Profit percent for LXEO is 0.559584
+2025-10-07 11:33:38,985 - root - INFO - Latest 1min close price for LXEO: 8.476
+2025-10-07 11:33:39,078 - root - INFO - MACD is still rising for stock LXEO
+2025-10-07 11:33:39,078 - root - INFO - Not enough profit percent to scalp for LXEO: 0.559584
+2025-10-07 11:33:39,092 - root - WARNING - Skipping RGTI: invalid strategy format (None)
+2025-10-07 11:33:39,108 - root - INFO - latest trade price: 41.875
+2025-10-07 11:33:39,148 - root - INFO -  MACD calculation for LXEO due to high change percent: 30.7944
+2025-10-07 11:33:42,150 - root - INFO -  MACD calculation for MGX due to high change percent: 10.316
+2025-10-07 11:33:42,269 - root - INFO - MACD not positive for MGX: MACD=0.05467403806911664, Signal=0.05562149641608325, Hist=-0.0009474583469666134
+2025-10-07 11:33:45,757 - root - INFO -  MACD calculation for NAK due to high change percent: 18.8742
+2025-10-07 11:33:46,230 - root - INFO -  update_current_price: start time 2025-10-07T11:32:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:33:46,769 - root - INFO -  MACD calculation for NCNA due to high change percent: 17.9134
+2025-10-07 11:33:51,799 - root - INFO -  MACD calculation for NXXT due to high change percent: 22.2222
+2025-10-07 11:33:51,864 - root - INFO - MACD not positive for NXXT: MACD=0.02491105367815516, Signal=0.04358028679023666, Hist=-0.018669233112081497
+2025-10-07 11:33:54,158 - root - INFO - Real mode: Today's profit so far: 1993.6199749999978
+2025-10-07 11:33:54,178 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:33:54,217 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:33:54,237 - root - INFO -  update_current_price: start time 2025-10-07T11:32:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:33:54,339 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 11:33:54,357 - root - INFO - 1min RSI is overbought for TMQ: 72.83634176439357
+2025-10-07 11:33:54,376 - root - INFO - latest trade price: 6.905
+2025-10-07 11:33:54,385 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 11:33:54,423 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 11:33:54,441 - root - INFO - latest trade price: 2.13
+2025-10-07 11:33:54,450 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 11:33:54,522 - root - INFO - Last 5 minutes maximum volume candle is green for LXEO
+2025-10-07 11:33:54,537 - root - INFO - 1min candle is not positive for LXEO: open 8.4831 close 8.476
+2025-10-07 11:33:54,555 - root - INFO - latest trade price: 8.48
+2025-10-07 11:33:54,647 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
+2025-10-07 11:33:54,722 - root - INFO - Profit percent for LXEO is 0.275652
+2025-10-07 11:33:54,722 - root - INFO - Latest 1min close price for LXEO: 8.476
+2025-10-07 11:33:54,785 - root - INFO - MACD is still rising for stock LXEO
+2025-10-07 11:33:54,785 - root - INFO - Not enough profit percent to scalp for LXEO: 0.275652
+2025-10-07 11:33:54,798 - root - WARNING - Skipping RGTI: invalid strategy format (None)
+2025-10-07 11:33:54,816 - root - INFO - latest trade price: 41.7
+2025-10-07 11:33:59,859 - root - INFO -  MACD calculation for QMCO due to high change percent: 10.1595
+2025-10-07 11:33:59,938 - root - INFO - MACD not positive for QMCO: MACD=-0.010577558130583142, Signal=0.11937467465831472, Hist=-0.12995223278889786
+2025-10-07 11:34:00,366 - root - INFO -  update_current_price: start time 2025-10-07T11:33:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:34:01,768 - root - INFO -  MACD calculation for REKR due to high change percent: 17.1271
+2025-10-07 11:34:01,845 - root - INFO - MACD not positive for REKR: MACD=-0.009045027074336076, Signal=-0.0027617315151619646, Hist=-0.006283295559174111
+2025-10-07 11:34:04,470 - root - INFO -  MACD calculation for RVPH due to high change percent: 18.0338
+2025-10-07 11:34:04,546 - root - INFO - MACD not positive for RVPH: MACD=0.00235003515407628, Signal=0.008450171811112125, Hist=-0.006100136657035845
+2025-10-07 11:34:04,612 - root - INFO -  MACD calculation for RVSN due to high change percent: 22.2829
+2025-10-07 11:34:07,824 - root - INFO -  update_current_price: start time 2025-10-07T11:33:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:34:09,866 - root - INFO - Real mode: Today's profit so far: 1986.2299749999984
+2025-10-07 11:34:09,888 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:34:09,917 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:34:10,029 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 11:34:10,045 - root - INFO - 1min RSI is overbought for TMQ: 72.83634176439357
+2025-10-07 11:34:10,063 - root - INFO - latest trade price: 6.885
+2025-10-07 11:34:10,073 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 11:34:10,096 - root - INFO -  MACD calculation for SNGX due to high change percent: 17.8832
+2025-10-07 11:34:10,172 - root - INFO - MACD not positive for SNGX: MACD=0.012293164432156889, Signal=0.012408382546434626, Hist=-0.00011521811427773684
+2025-10-07 11:34:10,185 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 11:34:10,206 - root - INFO - latest trade price: 2.1513
+2025-10-07 11:34:10,218 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 11:34:10,301 - root - INFO - Last 5 minutes maximum volume candle is green for LXEO
+2025-10-07 11:34:10,319 - root - INFO - 1min candle is not positive for LXEO: open 8.4831 close 8.476
+2025-10-07 11:34:10,339 - root - INFO - latest trade price: 8.46
+2025-10-07 11:34:10,426 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
+2025-10-07 11:34:10,489 - root - INFO - Profit percent for LXEO is 0.322974
+2025-10-07 11:34:10,490 - root - INFO - Latest 1min close price for LXEO: 8.476
+2025-10-07 11:34:10,558 - root - INFO - MACD is still rising for stock LXEO
+2025-10-07 11:34:10,558 - root - INFO - Not enough profit percent to scalp for LXEO: 0.322974
+2025-10-07 11:34:10,568 - root - WARNING - Skipping RGTI: invalid strategy format (None)
+2025-10-07 11:34:10,584 - root - INFO - latest trade price: 41.76
+2025-10-07 11:34:14,390 - root - INFO -  MACD calculation for TELO due to high change percent: 26.7958
+2025-10-07 11:34:14,654 - root - INFO -  update_current_price: start time 2025-10-07T11:33:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:34:16,007 - root - INFO -  MACD calculation for TLPH due to high change percent: 12.7273
+2025-10-07 11:34:16,045 - root - INFO - MACD not positive for TLPH: MACD=0.017607243778405612, Signal=0.026137066034126296, Hist=-0.008529822255720684
+2025-10-07 11:34:16,275 - root - INFO -  MACD calculation for TMC due to high change percent: 14.6826
+2025-10-07 11:34:16,348 - root - INFO - MACD not positive for TMC: MACD=0.17278011019240402, Signal=0.19021141929685031, Hist=-0.01743130910444629
+2025-10-07 11:34:16,527 - root - INFO -  MACD calculation for TMQ due to high change percent: 227.751
+2025-10-07 11:34:18,334 - root - INFO -  MACD calculation for TVGN due to high change percent: 10.9741
+2025-10-07 11:34:19,596 - root - INFO -  MACD calculation for ULY due to high change percent: 19.8686
+2025-10-07 11:34:19,624 - root - INFO - MACD not positive for ULY: MACD=-0.08847475761060863, Signal=-0.060344453972775616, Hist=-0.028130303637833018
+2025-10-07 11:34:20,130 - root - INFO -  MACD calculation for UPC due to high change percent: 10.865
+2025-10-07 11:34:20,166 - root - INFO - MACD not positive for UPC: MACD=0.06661478672665755, Signal=0.07842547868706243, Hist=-0.011810691960404879
+2025-10-07 11:34:20,693 - root - INFO -  MACD calculation for USARW due to high change percent: 19.7011
+2025-10-07 11:34:20,748 - root - INFO - MACD not positive for USARW: MACD=0.24114462161261585, Signal=0.44858431616940536, Hist=-0.2074396945567895
+2025-10-07 11:34:23,311 - root - INFO -  update_current_price: start time 2025-10-07T11:33:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:34:25,623 - root - INFO - Real mode: Today's profit so far: 1978.7299749999984
+2025-10-07 11:34:25,642 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:34:25,665 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:34:25,830 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 11:34:25,846 - root - INFO - 1min RSI is overbought for TMQ: 72.83634176439357
+2025-10-07 11:34:25,864 - root - INFO - latest trade price: 6.915
+2025-10-07 11:34:25,869 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 11:34:25,915 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 11:34:25,932 - root - INFO - latest trade price: 2.1599
+2025-10-07 11:34:25,938 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 11:34:25,999 - root - INFO - Last 5 minutes maximum volume candle is green for LXEO
+2025-10-07 11:34:26,010 - root - INFO - 1min candle is not positive for LXEO: open 8.4831 close 8.476
+2025-10-07 11:34:26,026 - root - INFO - latest trade price: 8.46
+2025-10-07 11:34:26,100 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
+2025-10-07 11:34:26,164 - root - INFO - Profit percent for LXEO is 0.0863629
+2025-10-07 11:34:26,164 - root - INFO - Latest 1min close price for LXEO: 8.476
+2025-10-07 11:34:26,220 - root - INFO - MACD is still rising for stock LXEO
+2025-10-07 11:34:26,220 - root - INFO - Not enough profit percent to scalp for LXEO: 0.0863629
+2025-10-07 11:34:26,234 - root - WARNING - Skipping RGTI: invalid strategy format (None)
+2025-10-07 11:34:26,251 - root - INFO - latest trade price: 41.77
+2025-10-07 11:34:27,205 - root - INFO -  MACD calculation for YCBD due to high change percent: 14.2308
+2025-10-07 11:34:27,265 - root - INFO - MACD not positive for YCBD: MACD=0.026161723789316804, Signal=0.030702342609265798, Hist=-0.004540618819948994
+2025-10-07 11:34:29,395 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-07 11:34:41,297 - root - INFO - Real mode: Today's profit so far: 1934.0999749999974
+2025-10-07 11:34:41,320 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:34:41,367 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 11:34:41,487 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 11:34:41,509 - root - INFO - 1min RSI is overbought for TMQ: 73.94941599957421
+2025-10-07 11:34:41,535 - root - INFO - latest trade price: 6.9001
+2025-10-07 11:34:41,548 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-07 11:34:41,602 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-07 11:34:41,621 - root - INFO - latest trade price: 2.16
+2025-10-07 11:34:41,631 - root - INFO - swing_strategy_open_long for scale 5Min stock LXEO
+2025-10-07 11:34:41,796 - root - INFO - Last 5 minutes maximum volume candle is green for LXEO
+2025-10-07 11:34:41,823 - root - INFO - 1min candle is not positive for LXEO: open 8.48 close 8.4517
+2025-10-07 11:34:41,842 - root - INFO - latest trade price: 8.4631
+2025-10-07 11:34:41,950 - root - INFO - swing_strategy_close_long for scale 5Min stock LXEO
+2025-10-07 11:34:42,100 - root - INFO - Profit percent for LXEO is 0.0863629
+2025-10-07 11:34:42,100 - root - INFO - Latest 1min close price for LXEO: 8.4517
+2025-10-07 11:34:42,225 - root - INFO - MACD is still rising for stock LXEO
+2025-10-07 11:34:42,226 - root - INFO - Not enough profit percent to scalp for LXEO: 0.0863629
+2025-10-07 11:34:42,249 - root - WARNING - Skipping RGTI: invalid strategy format (None)
+2025-10-07 11:34:42,267 - root - INFO - latest trade price: 41.97
