@@ -2,8 +2,8 @@ Top Movers:
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  TMQ   |      0      |     0     |    251.196     | 34946264 |      7.34     |        2.09        | 100660000.0  |  2.128   |  9214481   |      0      | 2025-10-07 08:46:22 |
-|  COCH  |      0      |     0     |    113.188     | 32912545 |     1.785     |       0.8068       |  10090000.0  |  0.7851  |   144283   |      0      | 2025-10-07 08:47:28 |
+|  TMQ   |      0      |     0     |    252.153     | 35304239 |      7.36     |        2.09        | 100660000.0  |  2.128   |  9214481   |      0      | 2025-10-07 08:47:37 |
+|  COCH  |      0      |     0     |    121.244     | 32912545 |     1.785     |       0.8068       |  10090000.0  |  0.7851  |   144283   |      0      | 2025-10-07 08:47:28 |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -17,6 +17,262 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
+2025-10-07 08:44:58,090 - root - INFO -  update_current_price: start time 2025-10-07T08:43:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:44:58,527 - root - INFO -  MACD calculation for REKR due to high change percent: 17.4033
+2025-10-07 08:44:58,583 - root - INFO - MACD not positive for REKR: MACD=0.04621901287388619, Signal=0.06514386018847515, Hist=-0.01892484731458896
+2025-10-07 08:44:59,002 - root - INFO -  MACD calculation for RVPH due to high change percent: 13.7308
+2025-10-07 08:44:59,075 - root - INFO - MACD not positive for RVPH: MACD=-0.01103838230850529, Signal=-0.007642371955148437, Hist=-0.003396010353356853
+2025-10-07 08:44:59,785 - root - INFO -  update_current_price: start time 2025-10-07T08:43:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:45:00,346 - root - INFO -  MACD calculation for SNGX due to high change percent: 18.9781
+2025-10-07 08:45:01,487 - root - INFO -  MACD calculation for TELO due to high change percent: 23.2394
+2025-10-07 08:45:01,550 - root - INFO -  update_current_price: start time 2025-10-07T08:44:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:45:01,833 - root - INFO -  MACD calculation for TMQ due to high change percent: 250.957
+2025-10-07 08:45:02,696 - root - INFO -  update_current_price: start time 2025-10-07T08:44:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:45:03,755 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:03] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
+2025-10-07 08:45:03,814 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:03] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
+2025-10-07 08:45:03,876 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:03] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
+2025-10-07 08:45:03,932 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:03] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
+2025-10-07 08:45:03,997 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:03] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
+2025-10-07 08:45:04,055 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:04] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
+2025-10-07 08:45:04,120 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:04] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
+2025-10-07 08:45:04,243 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-07 08:45:07,599 - root - INFO - Real mode: Today's profit so far: 1279.299974999998
+2025-10-07 08:45:07,621 - root - INFO - Running real_trade for all top movers
+2025-10-07 08:45:07,667 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 08:45:07,773 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 08:45:07,793 - root - INFO - latest trade price: 7.34
+2025-10-07 08:45:07,803 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 08:45:07,850 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
+2025-10-07 08:45:07,869 - root - INFO - latest trade price: 1.71
+2025-10-07 08:45:07,879 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
+2025-10-07 08:45:07,952 - root - INFO - Last 5 minutes maximum volume candle is green for INDP
+2025-10-07 08:45:07,973 - root - INFO - 1min RSI is overbought for INDP: 72.27819372210926
+2025-10-07 08:45:07,992 - root - INFO - latest trade price: 4.38
+2025-10-07 08:45:08,078 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 08:45:08,168 - root - INFO - Profit percent for TMQ is 1.97067
+2025-10-07 08:45:08,168 - root - INFO - Latest 1min close price for TMQ: 7.27
+2025-10-07 08:45:08,254 - root - INFO - No close long conditions met for TMQ
+2025-10-07 08:45:13,784 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:13] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
+2025-10-07 08:45:13,881 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:13] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
+2025-10-07 08:45:13,968 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:13] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
+2025-10-07 08:45:14,050 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:14] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
+2025-10-07 08:45:14,132 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:14] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
+2025-10-07 08:45:14,215 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:14] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
+2025-10-07 08:45:14,297 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:14] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
+2025-10-07 08:45:23,298 - root - INFO - Real mode: Today's profit so far: 1277.929974999999
+2025-10-07 08:45:23,320 - root - INFO - Running real_trade for all top movers
+2025-10-07 08:45:23,361 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 08:45:23,458 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
+2025-10-07 08:45:23,493 - root - INFO - latest trade price: 7.34
+2025-10-07 08:45:23,504 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 08:45:23,541 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
+2025-10-07 08:45:23,561 - root - INFO - latest trade price: 1.72
+2025-10-07 08:45:23,572 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
+2025-10-07 08:45:23,644 - root - INFO - Last 5 minutes maximum volume candle is green for INDP
+2025-10-07 08:45:23,664 - root - INFO - 1min RSI is overbought for INDP: 72.27819372210926
+2025-10-07 08:45:23,682 - root - INFO - latest trade price: 4.15
+2025-10-07 08:45:23,770 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 08:45:23,783 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:23] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
+2025-10-07 08:45:23,851 - root - INFO - Profit percent for TMQ is 2.9455
+2025-10-07 08:45:23,851 - root - INFO - Latest 1min close price for TMQ: 7.27
+2025-10-07 08:45:23,870 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:23] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
+2025-10-07 08:45:23,937 - root - INFO - No close long conditions met for TMQ
+2025-10-07 08:45:23,955 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:23] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
+2025-10-07 08:45:24,031 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:24] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
+2025-10-07 08:45:24,116 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:24] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
+2025-10-07 08:45:24,197 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:24] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
+2025-10-07 08:45:24,272 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:24] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
+2025-10-07 08:45:33,804 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:33] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
+2025-10-07 08:45:33,900 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:33] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
+2025-10-07 08:45:33,980 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:33] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
+2025-10-07 08:45:34,063 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:34] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
+2025-10-07 08:45:34,148 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:34] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
+2025-10-07 08:45:34,229 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:34] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
+2025-10-07 08:45:34,310 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:34] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
+2025-10-07 08:45:38,990 - root - INFO - Real mode: Today's profit so far: 1277.8999749999966
+2025-10-07 08:45:39,011 - root - INFO - Running real_trade for all top movers
+2025-10-07 08:45:39,056 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 08:45:39,162 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 08:45:39,220 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-07 08:45:39,240 - root - INFO - latest trade price: 7.33
+2025-10-07 08:45:39,254 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 08:45:39,295 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
+2025-10-07 08:45:39,315 - root - INFO - latest trade price: 1.7302
+2025-10-07 08:45:39,326 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
+2025-10-07 08:45:39,405 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
+2025-10-07 08:45:39,424 - root - INFO - latest trade price: 3.89
+2025-10-07 08:45:39,510 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 08:45:39,587 - root - INFO - Profit percent for TMQ is 2.80544
+2025-10-07 08:45:39,587 - root - INFO - Latest 1min close price for TMQ: 7.34
+2025-10-07 08:45:39,734 - root - INFO - No close long conditions met for TMQ
+2025-10-07 08:45:43,806 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:43] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
+2025-10-07 08:45:43,892 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:43] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
+2025-10-07 08:45:43,978 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:43] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
+2025-10-07 08:45:44,070 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:44] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
+2025-10-07 08:45:44,153 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:44] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
+2025-10-07 08:45:44,231 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:44] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
+2025-10-07 08:45:44,311 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:44] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
+2025-10-07 08:45:53,809 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:53] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
+2025-10-07 08:45:53,900 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:53] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
+2025-10-07 08:45:53,982 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:53] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
+2025-10-07 08:45:54,073 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:54] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
+2025-10-07 08:45:54,157 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:54] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
+2025-10-07 08:45:54,239 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:54] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
+2025-10-07 08:45:54,321 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:54] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
+2025-10-07 08:45:54,784 - root - INFO - Real mode: Today's profit so far: 1276.4999749999988
+2025-10-07 08:45:54,804 - root - INFO - Running real_trade for all top movers
+2025-10-07 08:45:54,845 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 08:45:54,934 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 08:45:54,993 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-07 08:45:55,012 - root - INFO - latest trade price: 7.32
+2025-10-07 08:45:55,022 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 08:45:55,063 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
+2025-10-07 08:45:55,086 - root - INFO - latest trade price: 1.76
+2025-10-07 08:45:55,096 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
+2025-10-07 08:45:55,166 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
+2025-10-07 08:45:55,189 - root - INFO - latest trade price: 3.74
+2025-10-07 08:45:55,276 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 08:45:55,350 - root - INFO - Profit percent for TMQ is 2.66538
+2025-10-07 08:45:55,351 - root - INFO - Latest 1min close price for TMQ: 7.34
+2025-10-07 08:45:55,430 - root - INFO - No close long conditions met for TMQ
+2025-10-07 08:46:03,830 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:03] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
+2025-10-07 08:46:03,928 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:03] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
+2025-10-07 08:46:04,019 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:04] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
+2025-10-07 08:46:04,103 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:04] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
+2025-10-07 08:46:04,183 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:04] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
+2025-10-07 08:46:04,271 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:04] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
+2025-10-07 08:46:04,318 - root - INFO - Real mode: Today's profit so far: 1275.0999749999974
+2025-10-07 08:46:04,341 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
+2025-10-07 08:46:04,341 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
+2025-10-07 08:46:04,357 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:04] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
+2025-10-07 08:46:04,373 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:46:05,564 - root - INFO -  MACD calculation for APVO due to high change percent: 14.1844
+2025-10-07 08:46:05,630 - root - INFO - MACD not positive for APVO: MACD=-0.0521094664866808, Signal=-0.04883413812169636, Hist=-0.0032753283649844395
+2025-10-07 08:46:05,788 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:46:06,655 - root - INFO -  MACD calculation for BITF due to high change percent: 14.4509
+2025-10-07 08:46:06,725 - root - INFO - MACD not positive for BITF: MACD=0.01637555906623911, Signal=0.029457602965556766, Hist=-0.013082043899317657
+2025-10-07 08:46:06,829 - root - INFO -  MACD calculation for BJDX due to high change percent: 27.7419
+2025-10-07 08:46:06,856 - root - INFO - MACD not positive for BJDX: MACD=-0.0013068813512964184, Signal=0.004793359755611678, Hist=-0.006100241106908096
+2025-10-07 08:46:07,127 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:46:08,184 - root - INFO -  MACD calculation for CISS due to high change percent: 42.5339
+2025-10-07 08:46:08,229 - root - INFO - MACD not positive for CISS: MACD=-0.013506541779536363, Signal=-0.003985543203840391, Hist=-0.009520998575695973
+2025-10-07 08:46:08,342 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:46:08,441 - root - INFO -  MACD calculation for COCH due to high change percent: 110.709
+2025-10-07 08:46:09,189 - root - INFO -  MACD calculation for DVLT due to high change percent: 30.2885
+2025-10-07 08:46:09,272 - root - INFO - MACD not positive for DVLT: MACD=0.029461891476902036, Signal=0.04016771913747358, Hist=-0.010705827660571543
+2025-10-07 08:46:09,352 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:46:09,574 - root - INFO -  MACD calculation for ELBM due to high change percent: 13.4752
+2025-10-07 08:46:10,132 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:46:10,500 - root - INFO - Real mode: Today's profit so far: 1276.469975
+2025-10-07 08:46:10,519 - root - INFO - Running real_trade for all top movers
+2025-10-07 08:46:10,558 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 08:46:10,567 - root - INFO -  MACD calculation for GLTO due to high change percent: 551.752
+2025-10-07 08:46:10,609 - root - INFO - MACD not positive for GLTO: MACD=1.7789339496435659, Signal=2.8986720312437075, Hist=-1.1197380816001417
+2025-10-07 08:46:10,648 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 08:46:10,706 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-07 08:46:10,722 - root - INFO - latest trade price: 7.3198
+2025-10-07 08:46:10,730 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 08:46:10,766 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
+2025-10-07 08:46:10,783 - root - INFO - latest trade price: 1.75
+2025-10-07 08:46:10,791 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
+2025-10-07 08:46:10,829 - root - INFO -  MACD calculation for GPUS due to high change percent: 12.9032
+2025-10-07 08:46:10,857 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
+2025-10-07 08:46:10,873 - root - INFO - latest trade price: 3.8
+2025-10-07 08:46:10,893 - root - INFO - MACD not positive for GPUS: MACD=0.011547147209006403, Signal=0.013174384235075155, Hist=-0.0016272370260687515
+2025-10-07 08:46:10,960 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 08:46:11,030 - root - INFO - Profit percent for TMQ is 2.52532
+2025-10-07 08:46:11,030 - root - INFO - Latest 1min close price for TMQ: 7.34
+2025-10-07 08:46:11,102 - root - INFO - No close long conditions met for TMQ
+2025-10-07 08:46:11,115 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:46:11,984 - root - INFO -  MACD calculation for INDP due to high change percent: 30.4075
+2025-10-07 08:46:12,415 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:46:12,767 - root - INFO -  MACD calculation for JBIO due to high change percent: 21.9912
+2025-10-07 08:46:12,803 - root - INFO - MACD not positive for JBIO: MACD=0.4306180805957194, Signal=0.5082082491885442, Hist=-0.07759016859282486
+2025-10-07 08:46:13,494 - root - INFO -  MACD calculation for LAR due to high change percent: 11.7647
+2025-10-07 08:46:13,859 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:13] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
+2025-10-07 08:46:13,891 - root - INFO -  MACD calculation for LIDR due to high change percent: 16.1972
+2025-10-07 08:46:13,952 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:13] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
+2025-10-07 08:46:14,039 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:14] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
+2025-10-07 08:46:14,129 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:14] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
+2025-10-07 08:46:14,207 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:14] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
+2025-10-07 08:46:14,249 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:46:14,294 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:14] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
+2025-10-07 08:46:14,377 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:14] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
+2025-10-07 08:46:14,403 - root - INFO -  MACD calculation for LXEO due to high change percent: 27.5116
+2025-10-07 08:46:14,451 - root - INFO - MACD not positive for LXEO: MACD=0.1130447781352526, Signal=0.21118736234871746, Hist=-0.09814258421346486
+2025-10-07 08:46:15,128 - root - INFO -  MACD calculation for NAK due to high change percent: 28.4702
+2025-10-07 08:46:15,358 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:46:16,640 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:46:18,156 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:46:18,745 - root - INFO -  MACD calculation for REKR due to high change percent: 16.6188
+2025-10-07 08:46:18,816 - root - INFO - MACD not positive for REKR: MACD=0.037877184477610015, Signal=0.05969052504630212, Hist=-0.021813340568692108
+2025-10-07 08:46:19,134 - root - INFO -  MACD calculation for RVPH due to high change percent: 12.655
+2025-10-07 08:46:19,229 - root - INFO - MACD not positive for RVPH: MACD=-0.01465185890754983, Signal=-0.009044269345628715, Hist=-0.005607589561921115
+2025-10-07 08:46:19,859 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:46:20,365 - root - INFO -  MACD calculation for SNGX due to high change percent: 18.2482
+2025-10-07 08:46:21,474 - root - INFO -  MACD calculation for TELO due to high change percent: 22.5352
+2025-10-07 08:46:21,560 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:46:21,862 - root - INFO -  MACD calculation for TMQ due to high change percent: 247.847
+2025-10-07 08:46:22,411 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:46:23,703 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-07 08:46:23,825 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:23] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
+2025-10-07 08:46:23,902 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:23] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
+2025-10-07 08:46:23,993 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:23] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
+2025-10-07 08:46:24,093 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:24] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
+2025-10-07 08:46:24,180 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:24] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
+2025-10-07 08:46:24,279 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:24] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
+2025-10-07 08:46:24,375 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:24] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
+2025-10-07 08:46:26,141 - root - INFO - Real mode: Today's profit so far: 1273.6999749999995
+2025-10-07 08:46:26,162 - root - INFO - Running real_trade for all top movers
+2025-10-07 08:46:26,213 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 08:46:26,331 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 08:46:26,405 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-07 08:46:26,424 - root - INFO - latest trade price: 7.3
+2025-10-07 08:46:26,434 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 08:46:26,482 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
+2025-10-07 08:46:26,501 - root - INFO - latest trade price: 1.77
+2025-10-07 08:46:26,611 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 08:46:26,696 - root - INFO - Profit percent for TMQ is 2.52252
+2025-10-07 08:46:26,696 - root - INFO - Latest 1min close price for TMQ: 7.34
+2025-10-07 08:46:26,803 - root - INFO - No close long conditions met for TMQ
+2025-10-07 08:46:33,867 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:33] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
+2025-10-07 08:46:33,965 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:33] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
+2025-10-07 08:46:34,071 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:34] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
+2025-10-07 08:46:34,192 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:34] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
+2025-10-07 08:46:34,297 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:34] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
+2025-10-07 08:46:34,403 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:34] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
+2025-10-07 08:46:34,499 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:34] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
+2025-10-07 08:46:41,855 - root - INFO - Real mode: Today's profit so far: 1275.1199749999978
+2025-10-07 08:46:42,151 - root - INFO - Running real_trade for all top movers
+2025-10-07 08:46:42,202 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 08:46:42,316 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 08:46:42,344 - root - INFO - 9 EMA is in downtrend, not opening long position for TMQ
+2025-10-07 08:46:42,362 - root - INFO - latest trade price: 7.3101
+2025-10-07 08:46:42,374 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 08:46:42,418 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
+2025-10-07 08:46:42,440 - root - INFO - latest trade price: 1.7899
+2025-10-07 08:46:42,551 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 08:46:42,646 - root - INFO - Profit percent for TMQ is 2.24519
+2025-10-07 08:46:42,646 - root - INFO - Latest 1min close price for TMQ: 7.3
+2025-10-07 08:46:42,741 - root - INFO - No close long conditions met for TMQ
+2025-10-07 08:46:43,868 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:43] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
+2025-10-07 08:46:43,965 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:43] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
+2025-10-07 08:46:44,065 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:44] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
+2025-10-07 08:46:44,153 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:44] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
+2025-10-07 08:46:44,246 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:44] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
+2025-10-07 08:46:44,351 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:44] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
+2025-10-07 08:46:44,544 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:44] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
+2025-10-07 08:46:53,904 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:53] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
+2025-10-07 08:46:54,004 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:54] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
+2025-10-07 08:46:54,111 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:54] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
+2025-10-07 08:46:54,203 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:54] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
+2025-10-07 08:46:54,291 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:54] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
+2025-10-07 08:46:54,401 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:54] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
+2025-10-07 08:46:54,489 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:54] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
+2025-10-07 08:46:57,792 - root - INFO - Real mode: Today's profit so far: 1277.719975
+2025-10-07 08:46:57,812 - root - INFO - Running real_trade for all top movers
+2025-10-07 08:46:57,869 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 08:46:57,961 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
 2025-10-07 08:46:57,984 - root - INFO - 9 EMA is in downtrend, not opening long position for TMQ
 2025-10-07 08:46:58,003 - root - INFO - latest trade price: 7.3287
 2025-10-07 08:46:58,015 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
@@ -117,3 +373,47 @@ Manual Movers:
 2025-10-07 08:47:36,575 - root - INFO -  MACD calculation for SMTK due to high change percent: 12.5993
 2025-10-07 08:47:36,602 - root - INFO - MACD not positive for SMTK: MACD=0.07231223808903264, Signal=0.09673886693178006, Hist=-0.02442662884274742
 2025-10-07 08:47:36,706 - root - INFO -  MACD calculation for SNGX due to high change percent: 18.2482
+2025-10-07 08:47:37,189 - root - INFO -  MACD calculation for TELO due to high change percent: 23.2394
+2025-10-07 08:47:37,244 - root - INFO -  update_current_price: start time 2025-10-07T08:46:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:47:37,414 - root - INFO -  MACD calculation for TMQ due to high change percent: 251.196
+2025-10-07 08:47:38,215 - root - INFO -  update_current_price: start time 2025-10-07T08:46:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:47:40,404 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-07 08:47:44,686 - root - INFO - Real mode: Today's profit so far: 1283.4999749999988
+2025-10-07 08:47:44,711 - root - INFO - Running real_trade for all top movers
+2025-10-07 08:47:44,761 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 08:47:44,873 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 08:47:44,939 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-07 08:47:44,959 - root - INFO - latest trade price: 7.3601
+2025-10-07 08:47:44,975 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 08:47:45,024 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
+2025-10-07 08:47:45,043 - root - INFO - latest trade price: 1.82
+2025-10-07 08:47:45,138 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 08:47:45,221 - root - INFO - Profit percent for TMQ is 3.22282
+2025-10-07 08:47:45,222 - root - INFO - Latest 1min close price for TMQ: 7.36
+2025-10-07 08:47:45,313 - root - INFO - No close long conditions met for TMQ
+2025-10-07 08:48:00,366 - root - INFO - Real mode: Today's profit so far: 1279.3199749999985
+2025-10-07 08:48:00,388 - root - INFO - Running real_trade for all top movers
+2025-10-07 08:48:00,431 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 08:48:00,509 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 08:48:00,583 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-07 08:48:00,599 - root - INFO - latest trade price: 7.3401
+2025-10-07 08:48:00,611 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 08:48:00,653 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
+2025-10-07 08:48:00,671 - root - INFO - latest trade price: 1.83
+2025-10-07 08:48:00,765 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 08:48:00,864 - root - INFO - Profit percent for TMQ is 3.08556
+2025-10-07 08:48:00,864 - root - INFO - Latest 1min close price for TMQ: 7.36
+2025-10-07 08:48:00,979 - root - INFO - No close long conditions met for TMQ
+2025-10-07 08:48:16,032 - root - INFO - Real mode: Today's profit so far: 1280.6999749999995
+2025-10-07 08:48:16,059 - root - INFO - Running real_trade for all top movers
+2025-10-07 08:48:16,116 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 08:48:16,216 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 08:48:16,281 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-07 08:48:16,302 - root - INFO - latest trade price: 7.35
+2025-10-07 08:48:16,315 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 08:48:16,367 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
+2025-10-07 08:48:16,388 - root - INFO - latest trade price: 1.83
+2025-10-07 08:48:16,503 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 08:48:16,587 - root - INFO - Profit percent for TMQ is 2.80684
+2025-10-07 08:48:16,588 - root - INFO - Latest 1min close price for TMQ: 7.36
+2025-10-07 08:48:16,696 - root - INFO - No close long conditions met for TMQ
