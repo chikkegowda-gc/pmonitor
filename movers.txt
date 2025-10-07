@@ -2,8 +2,9 @@ Top Movers:
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  TMQ   |      0      |     0     |    252.153     | 35304239 |      7.36     |        2.09        | 100660000.0  |  2.128   |  9214481   |      0      | 2025-10-07 08:47:37 |
-|  COCH  |      0      |     0     |    121.244     | 32912545 |     1.785     |       0.8068       |  10090000.0  |  0.7851  |   144283   |      0      | 2025-10-07 08:47:28 |
+|  TMQ   |      0      |     0     |    251.675     | 35678976 |      7.35     |        2.09        | 100660000.0  |  2.128   |  9214481   |      0      | 2025-10-07 08:53:05 |
+|  COCH  |      0      |     0     |    125.583     | 33707466 |      1.82     |       0.8068       |  10090000.0  |  0.7851  |   144283   |      0      | 2025-10-07 08:52:49 |
+|  NAK   |      1      |     0     |    31.1258     | 2284089  |      1.98     |        1.51        | 527840000.0  |  1.286   |  16329790  |      0      | 2025-10-07 08:53:00 |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -17,403 +18,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-07 08:44:58,090 - root - INFO -  update_current_price: start time 2025-10-07T08:43:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:44:58,527 - root - INFO -  MACD calculation for REKR due to high change percent: 17.4033
-2025-10-07 08:44:58,583 - root - INFO - MACD not positive for REKR: MACD=0.04621901287388619, Signal=0.06514386018847515, Hist=-0.01892484731458896
-2025-10-07 08:44:59,002 - root - INFO -  MACD calculation for RVPH due to high change percent: 13.7308
-2025-10-07 08:44:59,075 - root - INFO - MACD not positive for RVPH: MACD=-0.01103838230850529, Signal=-0.007642371955148437, Hist=-0.003396010353356853
-2025-10-07 08:44:59,785 - root - INFO -  update_current_price: start time 2025-10-07T08:43:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:45:00,346 - root - INFO -  MACD calculation for SNGX due to high change percent: 18.9781
-2025-10-07 08:45:01,487 - root - INFO -  MACD calculation for TELO due to high change percent: 23.2394
-2025-10-07 08:45:01,550 - root - INFO -  update_current_price: start time 2025-10-07T08:44:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:45:01,833 - root - INFO -  MACD calculation for TMQ due to high change percent: 250.957
-2025-10-07 08:45:02,696 - root - INFO -  update_current_price: start time 2025-10-07T08:44:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:45:03,755 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:03] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
-2025-10-07 08:45:03,814 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:03] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
-2025-10-07 08:45:03,876 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:03] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
-2025-10-07 08:45:03,932 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:03] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
-2025-10-07 08:45:03,997 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:03] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
-2025-10-07 08:45:04,055 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:04] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
-2025-10-07 08:45:04,120 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:04] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
-2025-10-07 08:45:04,243 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-07 08:45:07,599 - root - INFO - Real mode: Today's profit so far: 1279.299974999998
-2025-10-07 08:45:07,621 - root - INFO - Running real_trade for all top movers
-2025-10-07 08:45:07,667 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 08:45:07,773 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
-2025-10-07 08:45:07,793 - root - INFO - latest trade price: 7.34
-2025-10-07 08:45:07,803 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 08:45:07,850 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
-2025-10-07 08:45:07,869 - root - INFO - latest trade price: 1.71
-2025-10-07 08:45:07,879 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
-2025-10-07 08:45:07,952 - root - INFO - Last 5 minutes maximum volume candle is green for INDP
-2025-10-07 08:45:07,973 - root - INFO - 1min RSI is overbought for INDP: 72.27819372210926
-2025-10-07 08:45:07,992 - root - INFO - latest trade price: 4.38
-2025-10-07 08:45:08,078 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 08:45:08,168 - root - INFO - Profit percent for TMQ is 1.97067
-2025-10-07 08:45:08,168 - root - INFO - Latest 1min close price for TMQ: 7.27
-2025-10-07 08:45:08,254 - root - INFO - No close long conditions met for TMQ
-2025-10-07 08:45:13,784 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:13] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
-2025-10-07 08:45:13,881 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:13] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
-2025-10-07 08:45:13,968 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:13] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
-2025-10-07 08:45:14,050 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:14] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
-2025-10-07 08:45:14,132 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:14] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
-2025-10-07 08:45:14,215 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:14] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
-2025-10-07 08:45:14,297 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:14] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
-2025-10-07 08:45:23,298 - root - INFO - Real mode: Today's profit so far: 1277.929974999999
-2025-10-07 08:45:23,320 - root - INFO - Running real_trade for all top movers
-2025-10-07 08:45:23,361 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 08:45:23,458 - root - INFO - Last 5 minutes maximum volume candle is red for TMQ
-2025-10-07 08:45:23,493 - root - INFO - latest trade price: 7.34
-2025-10-07 08:45:23,504 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 08:45:23,541 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
-2025-10-07 08:45:23,561 - root - INFO - latest trade price: 1.72
-2025-10-07 08:45:23,572 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
-2025-10-07 08:45:23,644 - root - INFO - Last 5 minutes maximum volume candle is green for INDP
-2025-10-07 08:45:23,664 - root - INFO - 1min RSI is overbought for INDP: 72.27819372210926
-2025-10-07 08:45:23,682 - root - INFO - latest trade price: 4.15
-2025-10-07 08:45:23,770 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 08:45:23,783 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:23] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
-2025-10-07 08:45:23,851 - root - INFO - Profit percent for TMQ is 2.9455
-2025-10-07 08:45:23,851 - root - INFO - Latest 1min close price for TMQ: 7.27
-2025-10-07 08:45:23,870 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:23] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
-2025-10-07 08:45:23,937 - root - INFO - No close long conditions met for TMQ
-2025-10-07 08:45:23,955 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:23] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
-2025-10-07 08:45:24,031 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:24] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
-2025-10-07 08:45:24,116 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:24] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
-2025-10-07 08:45:24,197 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:24] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
-2025-10-07 08:45:24,272 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:24] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
-2025-10-07 08:45:33,804 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:33] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
-2025-10-07 08:45:33,900 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:33] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
-2025-10-07 08:45:33,980 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:33] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
-2025-10-07 08:45:34,063 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:34] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
-2025-10-07 08:45:34,148 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:34] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
-2025-10-07 08:45:34,229 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:34] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
-2025-10-07 08:45:34,310 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:34] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
-2025-10-07 08:45:38,990 - root - INFO - Real mode: Today's profit so far: 1277.8999749999966
-2025-10-07 08:45:39,011 - root - INFO - Running real_trade for all top movers
-2025-10-07 08:45:39,056 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 08:45:39,162 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 08:45:39,220 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 08:45:39,240 - root - INFO - latest trade price: 7.33
-2025-10-07 08:45:39,254 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 08:45:39,295 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
-2025-10-07 08:45:39,315 - root - INFO - latest trade price: 1.7302
-2025-10-07 08:45:39,326 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
-2025-10-07 08:45:39,405 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
-2025-10-07 08:45:39,424 - root - INFO - latest trade price: 3.89
-2025-10-07 08:45:39,510 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 08:45:39,587 - root - INFO - Profit percent for TMQ is 2.80544
-2025-10-07 08:45:39,587 - root - INFO - Latest 1min close price for TMQ: 7.34
-2025-10-07 08:45:39,734 - root - INFO - No close long conditions met for TMQ
-2025-10-07 08:45:43,806 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:43] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
-2025-10-07 08:45:43,892 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:43] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
-2025-10-07 08:45:43,978 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:43] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
-2025-10-07 08:45:44,070 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:44] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
-2025-10-07 08:45:44,153 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:44] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
-2025-10-07 08:45:44,231 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:44] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
-2025-10-07 08:45:44,311 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:44] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
-2025-10-07 08:45:53,809 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:53] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
-2025-10-07 08:45:53,900 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:53] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
-2025-10-07 08:45:53,982 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:53] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
-2025-10-07 08:45:54,073 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:54] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
-2025-10-07 08:45:54,157 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:54] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
-2025-10-07 08:45:54,239 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:54] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
-2025-10-07 08:45:54,321 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:45:54] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
-2025-10-07 08:45:54,784 - root - INFO - Real mode: Today's profit so far: 1276.4999749999988
-2025-10-07 08:45:54,804 - root - INFO - Running real_trade for all top movers
-2025-10-07 08:45:54,845 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 08:45:54,934 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 08:45:54,993 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 08:45:55,012 - root - INFO - latest trade price: 7.32
-2025-10-07 08:45:55,022 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 08:45:55,063 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
-2025-10-07 08:45:55,086 - root - INFO - latest trade price: 1.76
-2025-10-07 08:45:55,096 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
-2025-10-07 08:45:55,166 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
-2025-10-07 08:45:55,189 - root - INFO - latest trade price: 3.74
-2025-10-07 08:45:55,276 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 08:45:55,350 - root - INFO - Profit percent for TMQ is 2.66538
-2025-10-07 08:45:55,351 - root - INFO - Latest 1min close price for TMQ: 7.34
-2025-10-07 08:45:55,430 - root - INFO - No close long conditions met for TMQ
-2025-10-07 08:46:03,830 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:03] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
-2025-10-07 08:46:03,928 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:03] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
-2025-10-07 08:46:04,019 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:04] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
-2025-10-07 08:46:04,103 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:04] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
-2025-10-07 08:46:04,183 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:04] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
-2025-10-07 08:46:04,271 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:04] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
-2025-10-07 08:46:04,318 - root - INFO - Real mode: Today's profit so far: 1275.0999749999974
-2025-10-07 08:46:04,341 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
-2025-10-07 08:46:04,341 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
-2025-10-07 08:46:04,357 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:04] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
-2025-10-07 08:46:04,373 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:46:05,564 - root - INFO -  MACD calculation for APVO due to high change percent: 14.1844
-2025-10-07 08:46:05,630 - root - INFO - MACD not positive for APVO: MACD=-0.0521094664866808, Signal=-0.04883413812169636, Hist=-0.0032753283649844395
-2025-10-07 08:46:05,788 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:46:06,655 - root - INFO -  MACD calculation for BITF due to high change percent: 14.4509
-2025-10-07 08:46:06,725 - root - INFO - MACD not positive for BITF: MACD=0.01637555906623911, Signal=0.029457602965556766, Hist=-0.013082043899317657
-2025-10-07 08:46:06,829 - root - INFO -  MACD calculation for BJDX due to high change percent: 27.7419
-2025-10-07 08:46:06,856 - root - INFO - MACD not positive for BJDX: MACD=-0.0013068813512964184, Signal=0.004793359755611678, Hist=-0.006100241106908096
-2025-10-07 08:46:07,127 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:46:08,184 - root - INFO -  MACD calculation for CISS due to high change percent: 42.5339
-2025-10-07 08:46:08,229 - root - INFO - MACD not positive for CISS: MACD=-0.013506541779536363, Signal=-0.003985543203840391, Hist=-0.009520998575695973
-2025-10-07 08:46:08,342 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:46:08,441 - root - INFO -  MACD calculation for COCH due to high change percent: 110.709
-2025-10-07 08:46:09,189 - root - INFO -  MACD calculation for DVLT due to high change percent: 30.2885
-2025-10-07 08:46:09,272 - root - INFO - MACD not positive for DVLT: MACD=0.029461891476902036, Signal=0.04016771913747358, Hist=-0.010705827660571543
-2025-10-07 08:46:09,352 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:46:09,574 - root - INFO -  MACD calculation for ELBM due to high change percent: 13.4752
-2025-10-07 08:46:10,132 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:46:10,500 - root - INFO - Real mode: Today's profit so far: 1276.469975
-2025-10-07 08:46:10,519 - root - INFO - Running real_trade for all top movers
-2025-10-07 08:46:10,558 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 08:46:10,567 - root - INFO -  MACD calculation for GLTO due to high change percent: 551.752
-2025-10-07 08:46:10,609 - root - INFO - MACD not positive for GLTO: MACD=1.7789339496435659, Signal=2.8986720312437075, Hist=-1.1197380816001417
-2025-10-07 08:46:10,648 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 08:46:10,706 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 08:46:10,722 - root - INFO - latest trade price: 7.3198
-2025-10-07 08:46:10,730 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 08:46:10,766 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
-2025-10-07 08:46:10,783 - root - INFO - latest trade price: 1.75
-2025-10-07 08:46:10,791 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
-2025-10-07 08:46:10,829 - root - INFO -  MACD calculation for GPUS due to high change percent: 12.9032
-2025-10-07 08:46:10,857 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
-2025-10-07 08:46:10,873 - root - INFO - latest trade price: 3.8
-2025-10-07 08:46:10,893 - root - INFO - MACD not positive for GPUS: MACD=0.011547147209006403, Signal=0.013174384235075155, Hist=-0.0016272370260687515
-2025-10-07 08:46:10,960 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 08:46:11,030 - root - INFO - Profit percent for TMQ is 2.52532
-2025-10-07 08:46:11,030 - root - INFO - Latest 1min close price for TMQ: 7.34
-2025-10-07 08:46:11,102 - root - INFO - No close long conditions met for TMQ
-2025-10-07 08:46:11,115 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:46:11,984 - root - INFO -  MACD calculation for INDP due to high change percent: 30.4075
-2025-10-07 08:46:12,415 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:46:12,767 - root - INFO -  MACD calculation for JBIO due to high change percent: 21.9912
-2025-10-07 08:46:12,803 - root - INFO - MACD not positive for JBIO: MACD=0.4306180805957194, Signal=0.5082082491885442, Hist=-0.07759016859282486
-2025-10-07 08:46:13,494 - root - INFO -  MACD calculation for LAR due to high change percent: 11.7647
-2025-10-07 08:46:13,859 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:13] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
-2025-10-07 08:46:13,891 - root - INFO -  MACD calculation for LIDR due to high change percent: 16.1972
-2025-10-07 08:46:13,952 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:13] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
-2025-10-07 08:46:14,039 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:14] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
-2025-10-07 08:46:14,129 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:14] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
-2025-10-07 08:46:14,207 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:14] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
-2025-10-07 08:46:14,249 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:46:14,294 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:14] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
-2025-10-07 08:46:14,377 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:14] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
-2025-10-07 08:46:14,403 - root - INFO -  MACD calculation for LXEO due to high change percent: 27.5116
-2025-10-07 08:46:14,451 - root - INFO - MACD not positive for LXEO: MACD=0.1130447781352526, Signal=0.21118736234871746, Hist=-0.09814258421346486
-2025-10-07 08:46:15,128 - root - INFO -  MACD calculation for NAK due to high change percent: 28.4702
-2025-10-07 08:46:15,358 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:46:16,640 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:46:18,156 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:46:18,745 - root - INFO -  MACD calculation for REKR due to high change percent: 16.6188
-2025-10-07 08:46:18,816 - root - INFO - MACD not positive for REKR: MACD=0.037877184477610015, Signal=0.05969052504630212, Hist=-0.021813340568692108
-2025-10-07 08:46:19,134 - root - INFO -  MACD calculation for RVPH due to high change percent: 12.655
-2025-10-07 08:46:19,229 - root - INFO - MACD not positive for RVPH: MACD=-0.01465185890754983, Signal=-0.009044269345628715, Hist=-0.005607589561921115
-2025-10-07 08:46:19,859 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:46:20,365 - root - INFO -  MACD calculation for SNGX due to high change percent: 18.2482
-2025-10-07 08:46:21,474 - root - INFO -  MACD calculation for TELO due to high change percent: 22.5352
-2025-10-07 08:46:21,560 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:46:21,862 - root - INFO -  MACD calculation for TMQ due to high change percent: 247.847
-2025-10-07 08:46:22,411 - root - INFO -  update_current_price: start time 2025-10-07T08:45:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:46:23,703 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-07 08:46:23,825 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:23] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
-2025-10-07 08:46:23,902 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:23] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
-2025-10-07 08:46:23,993 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:23] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
-2025-10-07 08:46:24,093 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:24] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
-2025-10-07 08:46:24,180 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:24] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
-2025-10-07 08:46:24,279 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:24] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
-2025-10-07 08:46:24,375 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:24] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
-2025-10-07 08:46:26,141 - root - INFO - Real mode: Today's profit so far: 1273.6999749999995
-2025-10-07 08:46:26,162 - root - INFO - Running real_trade for all top movers
-2025-10-07 08:46:26,213 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 08:46:26,331 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 08:46:26,405 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 08:46:26,424 - root - INFO - latest trade price: 7.3
-2025-10-07 08:46:26,434 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 08:46:26,482 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
-2025-10-07 08:46:26,501 - root - INFO - latest trade price: 1.77
-2025-10-07 08:46:26,611 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 08:46:26,696 - root - INFO - Profit percent for TMQ is 2.52252
-2025-10-07 08:46:26,696 - root - INFO - Latest 1min close price for TMQ: 7.34
-2025-10-07 08:46:26,803 - root - INFO - No close long conditions met for TMQ
-2025-10-07 08:46:33,867 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:33] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
-2025-10-07 08:46:33,965 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:33] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
-2025-10-07 08:46:34,071 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:34] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
-2025-10-07 08:46:34,192 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:34] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
-2025-10-07 08:46:34,297 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:34] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
-2025-10-07 08:46:34,403 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:34] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
-2025-10-07 08:46:34,499 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:34] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
-2025-10-07 08:46:41,855 - root - INFO - Real mode: Today's profit so far: 1275.1199749999978
-2025-10-07 08:46:42,151 - root - INFO - Running real_trade for all top movers
-2025-10-07 08:46:42,202 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 08:46:42,316 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 08:46:42,344 - root - INFO - 9 EMA is in downtrend, not opening long position for TMQ
-2025-10-07 08:46:42,362 - root - INFO - latest trade price: 7.3101
-2025-10-07 08:46:42,374 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 08:46:42,418 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
-2025-10-07 08:46:42,440 - root - INFO - latest trade price: 1.7899
-2025-10-07 08:46:42,551 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 08:46:42,646 - root - INFO - Profit percent for TMQ is 2.24519
-2025-10-07 08:46:42,646 - root - INFO - Latest 1min close price for TMQ: 7.3
-2025-10-07 08:46:42,741 - root - INFO - No close long conditions met for TMQ
-2025-10-07 08:46:43,868 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:43] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
-2025-10-07 08:46:43,965 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:43] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
-2025-10-07 08:46:44,065 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:44] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
-2025-10-07 08:46:44,153 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:44] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
-2025-10-07 08:46:44,246 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:44] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
-2025-10-07 08:46:44,351 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:44] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
-2025-10-07 08:46:44,544 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:44] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
-2025-10-07 08:46:53,904 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:53] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
-2025-10-07 08:46:54,004 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:54] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
-2025-10-07 08:46:54,111 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:54] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
-2025-10-07 08:46:54,203 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:54] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
-2025-10-07 08:46:54,291 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:54] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
-2025-10-07 08:46:54,401 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:54] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
-2025-10-07 08:46:54,489 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:46:54] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
-2025-10-07 08:46:57,792 - root - INFO - Real mode: Today's profit so far: 1277.719975
-2025-10-07 08:46:57,812 - root - INFO - Running real_trade for all top movers
-2025-10-07 08:46:57,869 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 08:46:57,961 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 08:46:57,984 - root - INFO - 9 EMA is in downtrend, not opening long position for TMQ
-2025-10-07 08:46:58,003 - root - INFO - latest trade price: 7.3287
-2025-10-07 08:46:58,015 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 08:46:58,061 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
-2025-10-07 08:46:58,080 - root - INFO - latest trade price: 1.83
-2025-10-07 08:46:58,188 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 08:46:58,274 - root - INFO - Profit percent for TMQ is 2.38665
-2025-10-07 08:46:58,274 - root - INFO - Latest 1min close price for TMQ: 7.3
-2025-10-07 08:46:58,380 - root - INFO - No close long conditions met for TMQ
-2025-10-07 08:47:03,862 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:47:03] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
-2025-10-07 08:47:03,967 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:47:03] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
-2025-10-07 08:47:04,068 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:47:04] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
-2025-10-07 08:47:04,178 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:47:04] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
-2025-10-07 08:47:04,256 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:47:04] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
-2025-10-07 08:47:04,343 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:47:04] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
-2025-10-07 08:47:04,431 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:47:04] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
-2025-10-07 08:47:13,433 - root - INFO - Real mode: Today's profit so far: 1283.4999749999988
-2025-10-07 08:47:13,459 - root - INFO - Running real_trade for all top movers
-2025-10-07 08:47:13,516 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 08:47:13,634 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 08:47:13,665 - root - INFO - 9 EMA is in downtrend, not opening long position for TMQ
-2025-10-07 08:47:13,684 - root - INFO - latest trade price: 7.35
-2025-10-07 08:47:13,695 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 08:47:13,740 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
-2025-10-07 08:47:13,759 - root - INFO - latest trade price: 1.82
-2025-10-07 08:47:13,864 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 08:47:13,871 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:47:13] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
-2025-10-07 08:47:13,948 - root - INFO - Profit percent for TMQ is 2.64717
-2025-10-07 08:47:13,949 - root - INFO - Latest 1min close price for TMQ: 7.3
-2025-10-07 08:47:13,979 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:47:13] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
-2025-10-07 08:47:14,111 - root - INFO - No close long conditions met for TMQ
-2025-10-07 08:47:14,135 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:47:14] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
-2025-10-07 08:47:14,218 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:47:14] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
-2025-10-07 08:47:14,316 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:47:14] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
-2025-10-07 08:47:14,422 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:47:14] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
-2025-10-07 08:47:14,527 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:47:14] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
-2025-10-07 08:47:23,811 - root - INFO - Real mode: Today's profit so far: 1276.5199749999992
-2025-10-07 08:47:23,835 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
-2025-10-07 08:47:23,835 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
-2025-10-07 08:47:23,876 - root - INFO -  update_current_price: start time 2025-10-07T08:46:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:47:23,882 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:47:23] "GET /api/latest_price?ticker=BJDX HTTP/1.1" 200 -
-2025-10-07 08:47:24,102 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:47:24] "GET /api/latest_price?ticker=CISS HTTP/1.1" 200 -
-2025-10-07 08:47:24,196 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:47:24] "GET /api/latest_price?ticker=COCH HTTP/1.1" 200 -
-2025-10-07 08:47:24,285 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:47:24] "GET /api/latest_price?ticker=DVLT HTTP/1.1" 200 -
-2025-10-07 08:47:24,370 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:47:24] "GET /api/latest_price?ticker=LXEO HTTP/1.1" 200 -
-2025-10-07 08:47:24,454 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:47:24] "GET /api/latest_price?ticker=NAK HTTP/1.1" 200 -
-2025-10-07 08:47:24,536 - werkzeug - INFO - 127.0.0.1 - - [07/Oct/2025 08:47:24] "GET /api/latest_price?ticker=TMQ HTTP/1.1" 200 -
-2025-10-07 08:47:25,012 - root - INFO -  MACD calculation for APVO due to high change percent: 14.1844
-2025-10-07 08:47:25,095 - root - INFO - MACD not positive for APVO: MACD=-0.05131174568896002, Signal=-0.04867459396215221, Hist=-0.0026371517268078126
-2025-10-07 08:47:25,479 - root - INFO -  update_current_price: start time 2025-10-07T08:46:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:47:26,326 - root - INFO -  MACD calculation for BITF due to high change percent: 14.7341
-2025-10-07 08:47:26,398 - root - INFO - MACD not positive for BITF: MACD=0.015593792684472252, Signal=0.029301249689203397, Hist=-0.013707457004731145
-2025-10-07 08:47:26,472 - root - INFO -  MACD calculation for BJDX due to high change percent: 29.6774
-2025-10-07 08:47:26,504 - root - INFO - MACD not positive for BJDX: MACD=-0.002096624941040126, Signal=0.004635411037662936, Hist=-0.006732035978703062
-2025-10-07 08:47:26,813 - root - INFO -  update_current_price: start time 2025-10-07T08:46:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:47:27,454 - root - INFO -  MACD calculation for CISS due to high change percent: 43.4389
-2025-10-07 08:47:27,494 - root - INFO - MACD not positive for CISS: MACD=-0.013506541779536363, Signal=-0.003985543203840391, Hist=-0.009520998575695973
-2025-10-07 08:47:27,708 - root - INFO -  update_current_price: start time 2025-10-07T08:46:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:47:27,816 - root - INFO -  MACD calculation for COCH due to high change percent: 113.188
-2025-10-07 08:47:28,612 - root - INFO -  MACD calculation for DVLT due to high change percent: 30.2885
-2025-10-07 08:47:28,688 - root - INFO - MACD not positive for DVLT: MACD=0.03104137865638945, Signal=0.04048361657337106, Hist=-0.009442237916981608
-2025-10-07 08:47:28,811 - root - INFO -  update_current_price: start time 2025-10-07T08:46:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:47:28,911 - root - INFO -  MACD calculation for ELAB due to high change percent: 14.4177
-2025-10-07 08:47:28,938 - root - INFO - MACD not positive for ELAB: MACD=0.11760170248491786, Signal=0.17161590888895129, Hist=-0.05401420640403343
-2025-10-07 08:47:29,176 - root - INFO - Real mode: Today's profit so far: 1283.469975
-2025-10-07 08:47:29,197 - root - INFO - Running real_trade for all top movers
-2025-10-07 08:47:29,233 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 08:47:29,325 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 08:47:29,343 - root - INFO - 9 EMA is in downtrend, not opening long position for TMQ
-2025-10-07 08:47:29,361 - root - INFO - latest trade price: 7.3698
-2025-10-07 08:47:29,367 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 08:47:29,393 - root - INFO -  update_current_price: start time 2025-10-07T08:46:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:47:29,399 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
-2025-10-07 08:47:29,416 - root - INFO - latest trade price: 1.84
-2025-10-07 08:47:29,492 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 08:47:29,513 - root - INFO -  MACD calculation for GLTO due to high change percent: 572.776
-2025-10-07 08:47:29,554 - root - INFO - MACD not positive for GLTO: MACD=1.8291903598999824, Signal=2.908723313294991, Hist=-1.0795329533950087
-2025-10-07 08:47:29,569 - root - INFO - Profit percent for TMQ is 2.9455
-2025-10-07 08:47:29,569 - root - INFO - Latest 1min close price for TMQ: 7.3
-2025-10-07 08:47:29,638 - root - INFO - No close long conditions met for TMQ
-2025-10-07 08:47:29,670 - root - INFO -  MACD calculation for GPUS due to high change percent: 12.9032
-2025-10-07 08:47:29,736 - root - INFO - MACD not positive for GPUS: MACD=0.011547147209006403, Signal=0.013174384235075155, Hist=-0.0016272370260687515
-2025-10-07 08:47:30,213 - root - INFO -  update_current_price: start time 2025-10-07T08:46:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:47:30,660 - root - INFO -  MACD calculation for INDP due to high change percent: 26.0282
-2025-10-07 08:47:30,778 - root - INFO -  update_current_price: start time 2025-10-07T08:46:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:47:31,457 - root - INFO -  MACD calculation for LAR due to high change percent: 11.7647
-2025-10-07 08:47:31,695 - root - INFO -  MACD calculation for LIDR due to high change percent: 17.2535
-2025-10-07 08:47:31,867 - root - INFO -  update_current_price: start time 2025-10-07T08:46:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:47:32,025 - root - INFO -  MACD calculation for LXEO due to high change percent: 27.5116
-2025-10-07 08:47:32,057 - root - INFO - MACD not positive for LXEO: MACD=0.1130447781352526, Signal=0.21118736234871746, Hist=-0.09814258421346486
-2025-10-07 08:47:32,397 - root - INFO -  MACD calculation for NAK due to high change percent: 29.7616
-2025-10-07 08:47:32,557 - root - INFO -  update_current_price: start time 2025-10-07T08:46:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:47:33,610 - root - INFO -  update_current_price: start time 2025-10-07T08:46:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:47:35,340 - root - INFO -  update_current_price: start time 2025-10-07T08:46:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:47:35,592 - root - INFO -  MACD calculation for REKR due to high change percent: 16.0221
-2025-10-07 08:47:35,647 - root - INFO - MACD not positive for REKR: MACD=0.040206529206954666, Signal=0.060156393992171056, Hist=-0.01994986478521639
-2025-10-07 08:47:36,286 - root - INFO -  update_current_price: start time 2025-10-07T08:46:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:47:36,575 - root - INFO -  MACD calculation for SMTK due to high change percent: 12.5993
-2025-10-07 08:47:36,602 - root - INFO - MACD not positive for SMTK: MACD=0.07231223808903264, Signal=0.09673886693178006, Hist=-0.02442662884274742
-2025-10-07 08:47:36,706 - root - INFO -  MACD calculation for SNGX due to high change percent: 18.2482
-2025-10-07 08:47:37,189 - root - INFO -  MACD calculation for TELO due to high change percent: 23.2394
-2025-10-07 08:47:37,244 - root - INFO -  update_current_price: start time 2025-10-07T08:46:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:47:37,414 - root - INFO -  MACD calculation for TMQ due to high change percent: 251.196
-2025-10-07 08:47:38,215 - root - INFO -  update_current_price: start time 2025-10-07T08:46:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 08:47:40,404 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-07 08:47:44,686 - root - INFO - Real mode: Today's profit so far: 1283.4999749999988
-2025-10-07 08:47:44,711 - root - INFO - Running real_trade for all top movers
-2025-10-07 08:47:44,761 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 08:47:44,873 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 08:47:44,939 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 08:47:44,959 - root - INFO - latest trade price: 7.3601
-2025-10-07 08:47:44,975 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 08:47:45,024 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
-2025-10-07 08:47:45,043 - root - INFO - latest trade price: 1.82
-2025-10-07 08:47:45,138 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 08:47:45,221 - root - INFO - Profit percent for TMQ is 3.22282
-2025-10-07 08:47:45,222 - root - INFO - Latest 1min close price for TMQ: 7.36
-2025-10-07 08:47:45,313 - root - INFO - No close long conditions met for TMQ
-2025-10-07 08:48:00,366 - root - INFO - Real mode: Today's profit so far: 1279.3199749999985
-2025-10-07 08:48:00,388 - root - INFO - Running real_trade for all top movers
-2025-10-07 08:48:00,431 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 08:48:00,509 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 08:48:00,583 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 08:48:00,599 - root - INFO - latest trade price: 7.3401
-2025-10-07 08:48:00,611 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 08:48:00,653 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
-2025-10-07 08:48:00,671 - root - INFO - latest trade price: 1.83
-2025-10-07 08:48:00,765 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 08:48:00,864 - root - INFO - Profit percent for TMQ is 3.08556
-2025-10-07 08:48:00,864 - root - INFO - Latest 1min close price for TMQ: 7.36
-2025-10-07 08:48:00,979 - root - INFO - No close long conditions met for TMQ
-2025-10-07 08:48:16,032 - root - INFO - Real mode: Today's profit so far: 1280.6999749999995
-2025-10-07 08:48:16,059 - root - INFO - Running real_trade for all top movers
-2025-10-07 08:48:16,116 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
-2025-10-07 08:48:16,216 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
-2025-10-07 08:48:16,281 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-07 08:48:16,302 - root - INFO - latest trade price: 7.35
-2025-10-07 08:48:16,315 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
-2025-10-07 08:48:16,367 - root - INFO - Last 5 minutes maximum volume candle is red for COCH
-2025-10-07 08:48:16,388 - root - INFO - latest trade price: 1.83
-2025-10-07 08:48:16,503 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
-2025-10-07 08:48:16,587 - root - INFO - Profit percent for TMQ is 2.80684
-2025-10-07 08:48:16,588 - root - INFO - Latest 1min close price for TMQ: 7.36
-2025-10-07 08:48:16,696 - root - INFO - No close long conditions met for TMQ
+2025-10-07 08:50:09,446 - root - INFO -  update_current_price: start time 2025-10-07T08:49:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:50:09,834 - root - INFO -  MACD calculation for GLTO due to high change percent: 609.973
+2025-10-07 08:50:09,887 - root - INFO - MACD not positive for GLTO: MACD=1.9663983371079539, Signal=2.9361649087365853, Hist=-0.9697665716286314
+2025-10-07 08:50:10,098 - root - INFO -  MACD calculation for GPUS due to high change percent: 14.5
+2025-10-07 08:50:10,162 - root - INFO - MACD not positive for GPUS: MACD=0.012727773989633206, Signal=0.013410509591200517, Hist=-0.0006827356015673101
+2025-10-07 08:50:10,505 - root - INFO -  update_current_price: start time 2025-10-07T08:49:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:50:10,616 - root - INFO -  MACD calculation for HIVE due to high change percent: 10.4093
+2025-10-07 08:50:11,294 - root - INFO -  MACD calculation for INDP due to high change percent: 16.6144
+2025-10-07 08:50:11,618 - root - INFO -  update_current_price: start time 2025-10-07T08:49:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:50:11,952 - root - INFO -  MACD calculation for JBIO due to high change percent: 20.3501
+2025-10-07 08:50:11,987 - root - INFO - MACD not positive for JBIO: MACD=0.3588232088008496, Signal=0.4938492748295703, Hist=-0.1350260660287207
+2025-10-07 08:50:12,482 - root - INFO -  MACD calculation for LAR due to high change percent: 11.991
+2025-10-07 08:50:12,812 - root - INFO -  MACD calculation for LIDR due to high change percent: 16.9014
+2025-10-07 08:50:13,049 - root - INFO -  update_current_price: start time 2025-10-07T08:49:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:50:13,149 - root - INFO -  MACD calculation for LXEO due to high change percent: 27.357
+2025-10-07 08:50:13,198 - root - INFO - MACD not positive for LXEO: MACD=0.11384249893297493, Signal=0.21134690650826193, Hist=-0.097504407575287
+2025-10-07 08:50:13,307 - root - INFO -  MACD calculation for MAIA due to high change percent: 10.9827
+2025-10-07 08:50:14,081 - root - INFO -  MACD calculation for NAK due to high change percent: 31.7417
+2025-10-07 08:50:14,252 - root - INFO -  update_current_price: start time 2025-10-07T08:49:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:50:15,404 - root - INFO -  MACD calculation for NXXT due to high change percent: 10.1256
+2025-10-07 08:50:15,468 - root - INFO - MACD not positive for NXXT: MACD=0.021526675581293286, Signal=0.02251959055213348, Hist=-0.000992914970840194
+2025-10-07 08:50:15,925 - root - INFO -  update_current_price: start time 2025-10-07T08:49:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:50:17,058 - root - INFO -  update_current_price: start time 2025-10-07T08:49:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:50:17,402 - root - INFO -  MACD calculation for REKR due to high change percent: 17.6354
+2025-10-07 08:50:17,461 - root - INFO - MACD not positive for REKR: MACD=0.04027034687077258, Signal=0.06016915752493464, Hist=-0.01989881065416206
+2025-10-07 08:50:18,648 - root - INFO -  update_current_price: start time 2025-10-07T08:49:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:50:19,223 - root - INFO -  MACD calculation for SNGX due to high change percent: 18.2482
+2025-10-07 08:50:19,953 - root - INFO -  MACD calculation for TELO due to high change percent: 23.2394
+2025-10-07 08:50:20,028 - root - INFO -  update_current_price: start time 2025-10-07T08:49:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:50:20,267 - root - INFO -  MACD calculation for TMQ due to high change percent: 251.675
+2025-10-07 08:50:20,971 - root - INFO -  update_current_price: start time 2025-10-07T08:49:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:50:22,485 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-07 08:50:23,486 - root - INFO - Real mode: Today's profit so far: 1279.2899749999997
+2025-10-07 08:50:23,508 - root - INFO - Running real_trade for all top movers
+2025-10-07 08:50:23,555 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 08:50:23,651 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 08:50:23,678 - root - INFO - 1min candle is not positive for TMQ: open 7.34 close 7.33
+2025-10-07 08:50:23,708 - root - INFO - latest trade price: 7.34
+2025-10-07 08:50:23,723 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 08:50:23,766 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
+2025-10-07 08:50:23,794 - root - INFO - 1min candle is not positive for COCH: open 1.84 close 1.81
+2025-10-07 08:50:23,814 - root - INFO - latest trade price: 1.7997
+2025-10-07 08:50:23,829 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
+2025-10-07 08:50:23,991 - root - INFO - Last 5 minutes maximum volume candle is green for NAK
+2025-10-07 08:50:24,069 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-07 08:50:24,070 - root - INFO - NAK:======= 1.99===>BUY========>TrendUp746487
+2025-10-07 08:50:24,091 - root - WARNING - ***** stock is already in the positions
+2025-10-07 08:50:24,171 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
+2025-10-07 08:50:24,333 - root - INFO - Profit percent for NAK is -0.50505
+2025-10-07 08:50:24,333 - root - INFO - Latest 1min close price for NAK: 1.99
+2025-10-07 08:50:24,422 - root - INFO - MACD is still rising for stock NAK
+2025-10-07 08:50:24,422 - root - INFO - Not enough profit percent to scalp for NAK: -0.50505
+2025-10-07 08:50:24,445 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 08:50:24,525 - root - INFO - Profit percent for TMQ is 2.52812
+2025-10-07 08:50:24,525 - root - INFO - Latest 1min close price for TMQ: 7.33
+2025-10-07 08:50:24,603 - root - INFO - No close long conditions met for TMQ
+2025-10-07 08:50:39,653 - root - INFO - Real mode: Today's profit so far: 1282.3999749999966
+2025-10-07 08:50:39,674 - root - INFO - Running real_trade for all top movers
+2025-10-07 08:50:39,716 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 08:50:39,857 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 08:50:39,921 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-07 08:50:39,940 - root - INFO - latest trade price: 7.36
+2025-10-07 08:50:39,954 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 08:50:39,992 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
+2025-10-07 08:50:40,015 - root - INFO - 1min candle is not positive for COCH: open 1.8 close 1.8
+2025-10-07 08:50:40,031 - root - INFO - latest trade price: 1.77
+2025-10-07 08:50:40,042 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
+2025-10-07 08:50:40,198 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
+2025-10-07 08:50:40,215 - root - INFO - latest trade price: 1.9806
+2025-10-07 08:50:40,310 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
+2025-10-07 08:50:40,462 - root - INFO - Profit percent for NAK is 0.0
+2025-10-07 08:50:40,462 - root - INFO - Latest 1min close price for NAK: 1.9806
+2025-10-07 08:50:40,556 - root - INFO - MACD is still rising for stock NAK
+2025-10-07 08:50:40,556 - root - INFO - Not enough profit percent to scalp for NAK: 0.0
+2025-10-07 08:50:40,588 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 08:50:40,672 - root - INFO - Profit percent for TMQ is 2.66538
+2025-10-07 08:50:40,672 - root - INFO - Latest 1min close price for TMQ: 7.35
+2025-10-07 08:50:40,756 - root - INFO - No close long conditions met for TMQ
+2025-10-07 08:50:55,805 - root - INFO - Real mode: Today's profit so far: 1284.299974999998
+2025-10-07 08:50:55,825 - root - INFO - Running real_trade for all top movers
+2025-10-07 08:50:55,868 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 08:50:55,968 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 08:50:56,034 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-07 08:50:56,053 - root - INFO - latest trade price: 7.34
+2025-10-07 08:50:56,068 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 08:50:56,109 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
+2025-10-07 08:50:56,129 - root - INFO - 1min candle is not positive for COCH: open 1.8 close 1.8
+2025-10-07 08:50:56,150 - root - INFO - latest trade price: 1.76
+2025-10-07 08:50:56,162 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
+2025-10-07 08:50:56,357 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
+2025-10-07 08:50:56,376 - root - INFO - latest trade price: 1.99
+2025-10-07 08:50:56,482 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
+2025-10-07 08:50:56,625 - root - INFO - Profit percent for NAK is 0.030303
+2025-10-07 08:50:56,625 - root - INFO - Latest 1min close price for NAK: 1.9806
+2025-10-07 08:50:56,723 - root - INFO - MACD is still rising for stock NAK
+2025-10-07 08:50:56,723 - root - INFO - Not enough profit percent to scalp for NAK: 0.030303
+2025-10-07 08:50:56,753 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 08:50:56,828 - root - INFO - Profit percent for TMQ is 3.08556
+2025-10-07 08:50:56,828 - root - INFO - Latest 1min close price for TMQ: 7.35
+2025-10-07 08:50:56,909 - root - INFO - No close long conditions met for TMQ
+2025-10-07 08:51:11,957 - root - INFO - Real mode: Today's profit so far: 1279.9499749999995
+2025-10-07 08:51:11,979 - root - INFO - Running real_trade for all top movers
+2025-10-07 08:51:12,026 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 08:51:12,132 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 08:51:12,197 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-07 08:51:12,219 - root - INFO - latest trade price: 7.34
+2025-10-07 08:51:12,230 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 08:51:12,273 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
+2025-10-07 08:51:12,296 - root - INFO - 1min candle is not positive for COCH: open 1.8 close 1.8
+2025-10-07 08:51:12,313 - root - INFO - latest trade price: 1.76
+2025-10-07 08:51:12,324 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
+2025-10-07 08:51:12,481 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
+2025-10-07 08:51:12,499 - root - INFO - latest trade price: 1.9813
+2025-10-07 08:51:12,598 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
+2025-10-07 08:51:12,748 - root - INFO - Profit percent for NAK is 0.50505
+2025-10-07 08:51:12,749 - root - INFO - Latest 1min close price for NAK: 1.9806
+2025-10-07 08:51:12,842 - root - INFO - MACD is still rising for stock NAK
+2025-10-07 08:51:12,842 - root - INFO - Not enough profit percent to scalp for NAK: 0.50505
+2025-10-07 08:51:12,873 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 08:51:12,956 - root - INFO - Profit percent for TMQ is 2.80544
+2025-10-07 08:51:12,956 - root - INFO - Latest 1min close price for TMQ: 7.35
+2025-10-07 08:51:13,043 - root - INFO - No close long conditions met for TMQ
+2025-10-07 08:51:22,580 - root - INFO - Real mode: Today's profit so far: 1277.8899749999982
+2025-10-07 08:51:22,602 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
+2025-10-07 08:51:22,602 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
+2025-10-07 08:51:22,630 - root - INFO -  update_current_price: start time 2025-10-07T08:50:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:51:23,917 - root - INFO -  MACD calculation for APVO due to high change percent: 14.1844
+2025-10-07 08:51:23,982 - root - INFO - MACD not positive for APVO: MACD=-0.05304131295400505, Signal=-0.0496755730881581, Hist=-0.0033657398658469492
+2025-10-07 08:51:24,470 - root - INFO -  update_current_price: start time 2025-10-07T08:50:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:51:25,100 - root - INFO -  MACD calculation for BITF due to high change percent: 14.4509
+2025-10-07 08:51:25,181 - root - INFO - MACD not positive for BITF: MACD=0.013299110659262592, Signal=0.026100821883215237, Hist=-0.012801711223952645
+2025-10-07 08:51:25,227 - root - INFO -  MACD calculation for BJDX due to high change percent: 29.6774
+2025-10-07 08:51:25,256 - root - INFO - MACD not positive for BJDX: MACD=-0.0007904202261044269, Signal=0.0036766037592684568, Hist=-0.004467023985372884
+2025-10-07 08:51:25,520 - root - INFO -  update_current_price: start time 2025-10-07T08:50:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:51:26,565 - root - INFO -  MACD calculation for CISS due to high change percent: 42.9864
+2025-10-07 08:51:26,605 - root - INFO - MACD not positive for CISS: MACD=-0.013958446814736014, Signal=-0.006107759253654876, Hist=-0.007850687561081138
+2025-10-07 08:51:26,762 - root - INFO -  update_current_price: start time 2025-10-07T08:50:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:51:26,874 - root - INFO -  MACD calculation for COCH due to high change percent: 124.343
+2025-10-07 08:51:27,697 - root - INFO -  MACD calculation for DVLT due to high change percent: 31.25
+2025-10-07 08:51:27,770 - root - INFO - MACD not positive for DVLT: MACD=0.031407020824786525, Signal=0.03867085013020682, Hist=-0.007263829305420293
+2025-10-07 08:51:27,824 - root - INFO -  update_current_price: start time 2025-10-07T08:50:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:51:27,996 - root - INFO -  MACD calculation for ELAB due to high change percent: 18.2994
+2025-10-07 08:51:28,025 - root - INFO - MACD not positive for ELAB: MACD=0.1298686624322274, Signal=0.16454281287395983, Hist=-0.03467415044173244
+2025-10-07 08:51:28,085 - root - INFO - Real mode: Today's profit so far: 1279.3099749999965
+2025-10-07 08:51:28,105 - root - INFO - Running real_trade for all top movers
+2025-10-07 08:51:28,144 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 08:51:28,234 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 08:51:28,287 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-07 08:51:28,310 - root - INFO - latest trade price: 7.3401
+2025-10-07 08:51:28,316 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 08:51:28,350 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
+2025-10-07 08:51:28,361 - root - INFO - 1min candle is not positive for COCH: open 1.8 close 1.8
+2025-10-07 08:51:28,379 - root - INFO - latest trade price: 1.76
+2025-10-07 08:51:28,384 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
+2025-10-07 08:51:28,521 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
+2025-10-07 08:51:28,524 - root - INFO -  update_current_price: start time 2025-10-07T08:50:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:51:28,541 - root - INFO - latest trade price: 1.98
+2025-10-07 08:51:28,615 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
+2025-10-07 08:51:28,708 - root - INFO -  MACD calculation for GLTO due to high change percent: 636.119
+2025-10-07 08:51:28,738 - root - INFO - Profit percent for NAK is 0.0656566
+2025-10-07 08:51:28,738 - root - INFO - Latest 1min close price for NAK: 1.9806
+2025-10-07 08:51:28,756 - root - INFO - MACD not positive for GLTO: MACD=1.9473885536259772, Signal=2.7384096377144638, Hist=-0.7910210840884866
+2025-10-07 08:51:28,811 - root - INFO - MACD is still rising for stock NAK
+2025-10-07 08:51:28,811 - root - INFO - Not enough profit percent to scalp for NAK: 0.0656566
+2025-10-07 08:51:28,823 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 08:51:28,856 - root - INFO -  MACD calculation for GPUS due to high change percent: 15.2903
+2025-10-07 08:51:28,890 - root - INFO - Profit percent for TMQ is 2.80404
+2025-10-07 08:51:28,890 - root - INFO - Latest 1min close price for TMQ: 7.35
+2025-10-07 08:51:28,923 - root - INFO - MACD not positive for GPUS: MACD=0.013119577113387182, Signal=0.01335232309563785, Hist=-0.00023274598225066744
+2025-10-07 08:51:28,954 - root - INFO - No close long conditions met for TMQ
+2025-10-07 08:51:29,170 - root - INFO -  update_current_price: start time 2025-10-07T08:50:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:51:29,325 - root - INFO -  MACD calculation for HIVE due to high change percent: 10.4129
+2025-10-07 08:51:29,964 - root - INFO -  MACD calculation for INDP due to high change percent: 12.8527
+2025-10-07 08:51:30,349 - root - INFO -  update_current_price: start time 2025-10-07T08:50:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:51:30,567 - root - INFO -  MACD calculation for JBIO due to high change percent: 12.1444
+2025-10-07 08:51:30,604 - root - INFO - MACD not positive for JBIO: MACD=0.21694436057366495, Signal=0.4384682919783892, Hist=-0.22152393140472426
+2025-10-07 08:51:31,483 - root - INFO -  MACD calculation for LAR due to high change percent: 11.991
+2025-10-07 08:51:31,703 - root - INFO -  MACD calculation for LIDR due to high change percent: 16.5528
+2025-10-07 08:51:32,083 - root - INFO -  update_current_price: start time 2025-10-07T08:50:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:51:32,249 - root - INFO -  MACD calculation for LXEO due to high change percent: 27.6662
+2025-10-07 08:51:32,284 - root - INFO - MACD not positive for LXEO: MACD=0.08913472041898984, Signal=0.18690446929040752, Hist=-0.09776974887141768
+2025-10-07 08:51:33,330 - root - INFO -  MACD calculation for NAK due to high change percent: 31.7881
+2025-10-07 08:51:33,540 - root - INFO -  update_current_price: start time 2025-10-07T08:50:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:51:34,923 - root - INFO -  update_current_price: start time 2025-10-07T08:50:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:51:36,917 - root - INFO -  update_current_price: start time 2025-10-07T08:50:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:51:37,441 - root - INFO -  MACD calculation for REKR due to high change percent: 17.6796
+2025-10-07 08:51:37,515 - root - INFO - MACD not positive for REKR: MACD=0.03674623137692823, Signal=0.05548457229533336, Hist=-0.01873834091840513
+2025-10-07 08:51:38,991 - root - INFO -  update_current_price: start time 2025-10-07T08:50:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:51:39,854 - root - INFO -  MACD calculation for SNGX due to high change percent: 15.3285
+2025-10-07 08:51:40,906 - root - INFO -  MACD calculation for TELO due to high change percent: 23.9437
+2025-10-07 08:51:40,973 - root - INFO -  update_current_price: start time 2025-10-07T08:50:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:51:41,309 - root - INFO -  MACD calculation for TMQ due to high change percent: 250.718
+2025-10-07 08:51:42,641 - root - INFO -  update_current_price: start time 2025-10-07T08:50:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:51:43,988 - root - INFO - Real mode: Today's profit so far: 1280.6899749999975
+2025-10-07 08:51:44,006 - root - INFO - Running real_trade for all top movers
+2025-10-07 08:51:44,020 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 08:51:44,101 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 08:51:44,142 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-07 08:51:44,160 - root - INFO - latest trade price: 7.35
+2025-10-07 08:51:44,163 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 08:51:44,192 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
+2025-10-07 08:51:44,199 - root - INFO - 1min candle is not positive for COCH: open 1.79 close 1.76
+2025-10-07 08:51:44,214 - root - INFO - latest trade price: 1.79
+2025-10-07 08:51:44,217 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
+2025-10-07 08:51:44,330 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-07 08:51:44,339 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
+2025-10-07 08:51:44,354 - root - INFO - latest trade price: 1.98
+2025-10-07 08:51:44,425 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
+2025-10-07 08:51:44,563 - root - INFO - Profit percent for NAK is 0.0
+2025-10-07 08:51:44,563 - root - INFO - Latest 1min close price for NAK: 1.98
+2025-10-07 08:51:44,663 - root - INFO - MACD is still rising for stock NAK
+2025-10-07 08:51:44,663 - root - INFO - Not enough profit percent to scalp for NAK: 0.0
+2025-10-07 08:51:44,691 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 08:51:44,773 - root - INFO - Profit percent for TMQ is 2.9455
+2025-10-07 08:51:44,773 - root - INFO - Latest 1min close price for TMQ: 7.3498
+2025-10-07 08:51:44,856 - root - INFO - No close long conditions met for TMQ
+2025-10-07 08:51:59,909 - root - INFO - Real mode: Today's profit so far: 1287.1399749999982
+2025-10-07 08:51:59,931 - root - INFO - Running real_trade for all top movers
+2025-10-07 08:51:59,978 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 08:52:00,082 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 08:52:00,151 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-07 08:52:00,170 - root - INFO - latest trade price: 7.36
+2025-10-07 08:52:00,184 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 08:52:00,227 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
+2025-10-07 08:52:00,250 - root - INFO - 1min candle is not positive for COCH: open 1.79 close 1.76
+2025-10-07 08:52:00,268 - root - INFO - latest trade price: 1.8
+2025-10-07 08:52:00,279 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
+2025-10-07 08:52:00,425 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
+2025-10-07 08:52:00,444 - root - INFO - latest trade price: 1.99
+2025-10-07 08:52:00,544 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
+2025-10-07 08:52:00,762 - root - INFO - Profit percent for NAK is 0.0
+2025-10-07 08:52:00,762 - root - INFO - Latest 1min close price for NAK: 1.98
+2025-10-07 08:52:00,852 - root - INFO - MACD is still rising for stock NAK
+2025-10-07 08:52:00,852 - root - INFO - Not enough profit percent to scalp for NAK: 0.0
+2025-10-07 08:52:00,880 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 08:52:00,966 - root - INFO - Profit percent for TMQ is 2.9455
+2025-10-07 08:52:00,966 - root - INFO - Latest 1min close price for TMQ: 7.3498
+2025-10-07 08:52:01,059 - root - INFO - No close long conditions met for TMQ
+2025-10-07 08:52:16,110 - root - INFO - Real mode: Today's profit so far: 1284.339974999999
+2025-10-07 08:52:16,131 - root - INFO - Running real_trade for all top movers
+2025-10-07 08:52:16,179 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 08:52:16,280 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 08:52:16,356 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-07 08:52:16,374 - root - INFO - latest trade price: 7.34
+2025-10-07 08:52:16,384 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 08:52:16,425 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
+2025-10-07 08:52:16,444 - root - INFO - 1min candle is not positive for COCH: open 1.79 close 1.76
+2025-10-07 08:52:16,462 - root - INFO - latest trade price: 1.82
+2025-10-07 08:52:16,472 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
+2025-10-07 08:52:16,632 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
+2025-10-07 08:52:16,650 - root - INFO - latest trade price: 1.99
+2025-10-07 08:52:16,747 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
+2025-10-07 08:52:16,902 - root - INFO - Profit percent for NAK is 0.50505
+2025-10-07 08:52:16,902 - root - INFO - Latest 1min close price for NAK: 1.98
+2025-10-07 08:52:16,993 - root - INFO - MACD is still rising for stock NAK
+2025-10-07 08:52:16,994 - root - INFO - Not enough profit percent to scalp for NAK: 0.50505
+2025-10-07 08:52:17,023 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 08:52:17,100 - root - INFO - Profit percent for TMQ is 3.08556
+2025-10-07 08:52:17,100 - root - INFO - Latest 1min close price for TMQ: 7.3498
+2025-10-07 08:52:17,184 - root - INFO - No close long conditions met for TMQ
+2025-10-07 08:52:32,234 - root - INFO - Real mode: Today's profit so far: 1280.6899749999975
+2025-10-07 08:52:32,255 - root - INFO - Running real_trade for all top movers
+2025-10-07 08:52:32,304 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 08:52:32,405 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 08:52:32,468 - root - INFO - Trend up basic conditions not met for TMQ: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-07 08:52:32,487 - root - INFO - latest trade price: 7.35
+2025-10-07 08:52:32,502 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 08:52:32,540 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
+2025-10-07 08:52:32,559 - root - INFO - 1min candle is not positive for COCH: open 1.79 close 1.76
+2025-10-07 08:52:32,578 - root - INFO - latest trade price: 1.82
+2025-10-07 08:52:32,589 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
+2025-10-07 08:52:32,749 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
+2025-10-07 08:52:32,769 - root - INFO - latest trade price: 1.98
+2025-10-07 08:52:32,865 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
+2025-10-07 08:52:33,023 - root - INFO - Profit percent for NAK is 0.50505
+2025-10-07 08:52:33,023 - root - INFO - Latest 1min close price for NAK: 1.98
+2025-10-07 08:52:33,137 - root - INFO - MACD is still rising for stock NAK
+2025-10-07 08:52:33,137 - root - INFO - Not enough profit percent to scalp for NAK: 0.50505
+2025-10-07 08:52:33,166 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 08:52:33,245 - root - INFO - Profit percent for TMQ is 2.80544
+2025-10-07 08:52:33,245 - root - INFO - Latest 1min close price for TMQ: 7.35
+2025-10-07 08:52:33,331 - root - INFO - No close long conditions met for TMQ
+2025-10-07 08:52:44,405 - root - INFO - Real mode: Today's profit so far: 1280.719975
+2025-10-07 08:52:44,426 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
+2025-10-07 08:52:44,426 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
+2025-10-07 08:52:44,454 - root - INFO -  update_current_price: start time 2025-10-07T08:51:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:52:46,016 - root - INFO -  MACD calculation for APVO due to high change percent: 14.1844
+2025-10-07 08:52:46,078 - root - INFO - MACD not positive for APVO: MACD=-0.05144587135856371, Signal=-0.04935648476906983, Hist=-0.002089386589493883
+2025-10-07 08:52:46,319 - root - INFO -  update_current_price: start time 2025-10-07T08:51:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:52:47,278 - root - INFO -  MACD calculation for BITF due to high change percent: 14.7052
+2025-10-07 08:52:47,347 - root - INFO - MACD not positive for BITF: MACD=0.012597116357268234, Signal=0.025960423022816363, Hist=-0.013363306665548129
+2025-10-07 08:52:47,460 - root - INFO -  MACD calculation for BJDX due to high change percent: 29.6774
+2025-10-07 08:52:47,648 - root - INFO - MACD not positive for BJDX: MACD=-0.001588141023824985, Signal=0.003517059599724345, Hist=-0.00510520062354933
+2025-10-07 08:52:48,067 - root - INFO -  update_current_price: start time 2025-10-07T08:51:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:52:48,375 - root - INFO - Real mode: Today's profit so far: 1282.089974999999
+2025-10-07 08:52:48,394 - root - INFO - Running real_trade for all top movers
+2025-10-07 08:52:48,429 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 08:52:48,521 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 08:52:48,535 - root - INFO - 1min candle is not positive for TMQ: open 7.34 close 7.35
+2025-10-07 08:52:48,553 - root - INFO - latest trade price: 7.36
+2025-10-07 08:52:48,561 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 08:52:48,596 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
+2025-10-07 08:52:48,635 - root - INFO - Trend up basic conditions not met for COCH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-07 08:52:48,653 - root - INFO - latest trade price: 1.82
+2025-10-07 08:52:48,659 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
+2025-10-07 08:52:48,786 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
+2025-10-07 08:52:48,792 - root - INFO -  MACD calculation for CCTG due to high change percent: 12.5828
+2025-10-07 08:52:48,802 - root - INFO - latest trade price: 1.98
+2025-10-07 08:52:48,875 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
+2025-10-07 08:52:49,001 - root - INFO - Profit percent for NAK is 0.0
+2025-10-07 08:52:49,001 - root - INFO - Latest 1min close price for NAK: 1.98
+2025-10-07 08:52:49,074 - root - INFO - MACD is still rising for stock NAK
+2025-10-07 08:52:49,074 - root - INFO - Not enough profit percent to scalp for NAK: 0.0
+2025-10-07 08:52:49,088 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 08:52:49,159 - root - INFO - Profit percent for TMQ is 2.9455
+2025-10-07 08:52:49,160 - root - INFO - Latest 1min close price for TMQ: 7.35
+2025-10-07 08:52:49,200 - root - INFO -  MACD calculation for CISS due to high change percent: 43.8914
+2025-10-07 08:52:49,216 - root - INFO - No close long conditions met for TMQ
+2025-10-07 08:52:49,225 - root - INFO - MACD not positive for CISS: MACD=-0.013958446814736014, Signal=-0.006107759253654876, Hist=-0.007850687561081138
+2025-10-07 08:52:49,328 - root - INFO -  update_current_price: start time 2025-10-07T08:51:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:52:49,458 - root - INFO -  MACD calculation for COCH due to high change percent: 123.104
+2025-10-07 08:52:50,397 - root - INFO -  MACD calculation for DGNX due to high change percent: 17.8283
+2025-10-07 08:52:50,844 - root - INFO -  MACD calculation for DVLT due to high change percent: 31.7212
+2025-10-07 08:52:50,916 - root - INFO - MACD not positive for DVLT: MACD=0.030593345611111378, Signal=0.03850811508747179, Hist=-0.007914769476360412
+2025-10-07 08:52:50,976 - root - INFO -  update_current_price: start time 2025-10-07T08:51:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:52:51,197 - root - INFO -  MACD calculation for ELAB due to high change percent: 19.963
+2025-10-07 08:52:51,225 - root - INFO - MACD not positive for ELAB: MACD=0.11550968807325379, Signal=0.1616710180021651, Hist=-0.04616132992891131
+2025-10-07 08:52:52,424 - root - INFO -  update_current_price: start time 2025-10-07T08:51:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:52:53,231 - root - INFO -  MACD calculation for GLTO due to high change percent: 650.135
+2025-10-07 08:52:53,286 - root - INFO - MACD not positive for GLTO: MACD=1.9043116305490528, Signal=2.7297942530990786, Hist=-0.8254826225500258
+2025-10-07 08:52:53,617 - root - INFO -  MACD calculation for GPUS due to high change percent: 15.9677
+2025-10-07 08:52:54,064 - root - INFO -  update_current_price: start time 2025-10-07T08:51:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:52:54,303 - root - INFO -  MACD calculation for HIVE due to high change percent: 10.4129
+2025-10-07 08:52:55,342 - root - INFO -  MACD calculation for INDP due to high change percent: 15.9875
+2025-10-07 08:52:55,765 - root - INFO -  update_current_price: start time 2025-10-07T08:51:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:52:56,938 - root - INFO -  MACD calculation for LAR due to high change percent: 12.2172
+2025-10-07 08:52:57,620 - root - INFO -  MACD calculation for LIDR due to high change percent: 15.493
+2025-10-07 08:52:57,986 - root - INFO -  update_current_price: start time 2025-10-07T08:51:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:52:58,221 - root - INFO -  MACD calculation for LXEO due to high change percent: 26.7388
+2025-10-07 08:52:58,268 - root - INFO - MACD not positive for LXEO: MACD=0.08937403665830601, Signal=0.18695233253827076, Hist=-0.09757829587996475
+2025-10-07 08:52:59,545 - root - INFO -  MACD calculation for NAK due to high change percent: 31.1656
+2025-10-07 08:52:59,745 - root - INFO -  update_current_price: start time 2025-10-07T08:51:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:53:00,460 - root - INFO -  MACD calculation for NXXT due to high change percent: 10.1449
+2025-10-07 08:53:01,021 - root - INFO -  update_current_price: start time 2025-10-07T08:52:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:53:02,163 - root - INFO -  update_current_price: start time 2025-10-07T08:52:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:53:02,437 - root - INFO -  MACD calculation for REKR due to high change percent: 18.7845
+2025-10-07 08:53:02,501 - root - INFO - MACD not positive for REKR: MACD=0.03834167297236979, Signal=0.05580366061442167, Hist=-0.017461987642051882
+2025-10-07 08:53:02,846 - root - INFO -  MACD calculation for RVPH due to high change percent: 10.5633
+2025-10-07 08:53:02,919 - root - INFO - MACD not positive for RVPH: MACD=-0.014766864620300302, Signal=-0.010012651648426274, Hist=-0.004754212971874028
+2025-10-07 08:53:03,679 - root - INFO -  update_current_price: start time 2025-10-07T08:52:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:53:04,169 - root - INFO -  MACD calculation for SNGX due to high change percent: 18.9781
+2025-10-07 08:53:04,252 - root - INFO - Real mode: Today's profit so far: 1278.799974999998
+2025-10-07 08:53:04,269 - root - INFO - Running real_trade for all top movers
+2025-10-07 08:53:04,307 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 08:53:04,396 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 08:53:04,409 - root - INFO - 1min candle is not positive for TMQ: open 7.34 close 7.35
+2025-10-07 08:53:04,427 - root - INFO - latest trade price: 7.37
+2025-10-07 08:53:04,434 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 08:53:04,472 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
+2025-10-07 08:53:04,513 - root - INFO - Trend up basic conditions not met for COCH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-07 08:53:04,529 - root - INFO - latest trade price: 1.81
+2025-10-07 08:53:04,535 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
+2025-10-07 08:53:04,670 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
+2025-10-07 08:53:04,687 - root - INFO - latest trade price: 1.9707
+2025-10-07 08:53:04,760 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
+2025-10-07 08:53:04,864 - root - INFO -  MACD calculation for TELO due to high change percent: 24.6479
+2025-10-07 08:53:04,894 - root - INFO - Profit percent for NAK is 0.0
+2025-10-07 08:53:04,894 - root - INFO - Latest 1min close price for NAK: 1.98
+2025-10-07 08:53:04,917 - root - INFO -  update_current_price: start time 2025-10-07T08:52:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:53:04,968 - root - INFO - MACD is still rising for stock NAK
+2025-10-07 08:53:04,969 - root - INFO - Not enough profit percent to scalp for NAK: 0.0
+2025-10-07 08:53:04,987 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 08:53:05,054 - root - INFO - Profit percent for TMQ is 3.08556
+2025-10-07 08:53:05,054 - root - INFO - Latest 1min close price for TMQ: 7.35
+2025-10-07 08:53:05,110 - root - INFO - No close long conditions met for TMQ
+2025-10-07 08:53:05,143 - root - INFO -  MACD calculation for TMQ due to high change percent: 251.665
+2025-10-07 08:53:05,942 - root - INFO -  update_current_price: start time 2025-10-07T08:52:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 08:53:07,412 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-07 08:53:20,154 - root - INFO - Real mode: Today's profit so far: 1288.5399749999997
+2025-10-07 08:53:20,176 - root - INFO - Running real_trade for all top movers
+2025-10-07 08:53:20,225 - root - INFO - swing_strategy_open_long for scale 5Min stock TMQ
+2025-10-07 08:53:20,326 - root - INFO - Last 5 minutes maximum volume candle is green for TMQ
+2025-10-07 08:53:20,351 - root - INFO - 1min candle is not positive for TMQ: open 7.34 close 7.35
+2025-10-07 08:53:20,370 - root - INFO - latest trade price: 7.3699
+2025-10-07 08:53:20,385 - root - INFO - swing_strategy_open_long for scale 5Min stock COCH
+2025-10-07 08:53:20,432 - root - INFO - Last 5 minutes maximum volume candle is green for COCH
+2025-10-07 08:53:20,489 - root - INFO - Trend up basic conditions not met for COCH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-07 08:53:20,508 - root - INFO - latest trade price: 1.83
+2025-10-07 08:53:20,522 - root - INFO - swing_strategy_open_long for scale 5Min stock NAK
+2025-10-07 08:53:20,730 - root - INFO - Last 5 minutes maximum volume candle is red for NAK
+2025-10-07 08:53:20,745 - root - INFO - latest trade price: 1.9812
+2025-10-07 08:53:20,834 - root - INFO - swing_strategy_close_long for scale 5Min stock NAK
+2025-10-07 08:53:20,981 - root - INFO - Profit percent for NAK is -0.469697
+2025-10-07 08:53:20,981 - root - INFO - Latest 1min close price for NAK: 1.98
+2025-10-07 08:53:21,071 - root - INFO - MACD is still rising for stock NAK
+2025-10-07 08:53:21,071 - root - INFO - Not enough profit percent to scalp for NAK: -0.469697
+2025-10-07 08:53:21,099 - root - INFO - swing_strategy_close_long for scale 5Min stock TMQ
+2025-10-07 08:53:21,206 - root - INFO - Profit percent for TMQ is 3.22563
+2025-10-07 08:53:21,206 - root - INFO - Latest 1min close price for TMQ: 7.35
+2025-10-07 08:53:21,289 - root - INFO - No close long conditions met for TMQ
