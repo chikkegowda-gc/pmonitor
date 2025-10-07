@@ -1,9 +1,8 @@
 Top Movers:
-+--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-| ticker | in_position | break_out | change_percent |  volume | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
-+--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  INDP  |      0      |     0     |    38.8715     | 2111788 |      4.43     |        3.19        |  12900000.0  |  3.284   |   357825   |      0      | 2025-10-07 11:04:33 |
-+--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
++--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
+| ticker | in_position | break_out | change_percent | volume | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status | update_time |
++--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
++--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 | ticker | in_position | break_out | change_percent | volume | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status | update_time |
@@ -16,264 +15,6 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-07 11:02:37,857 - root - INFO -  MACD calculation for ULY due to high change percent: 18.609
-2025-10-07 11:02:37,909 - root - INFO - MACD not positive for ULY: MACD=-0.06442132721509486, Signal=0.03375906891651425, Hist=-0.09818039613160912
-2025-10-07 11:02:37,963 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
-2025-10-07 11:02:37,984 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:02:38,023 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
-2025-10-07 11:02:38,114 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
-2025-10-07 11:02:38,144 - root - INFO - latest trade price: 4.31
-2025-10-07 11:02:38,215 - root - INFO -  MACD calculation for UPC due to high change percent: 16.0338
-2025-10-07 11:02:38,572 - root - INFO -  MACD calculation for USAR due to high change percent: 12.234
-2025-10-07 11:02:38,648 - root - INFO - MACD not positive for USAR: MACD=0.5514210704197389, Signal=0.6177285160835359, Hist=-0.06630744566379698
-2025-10-07 11:02:38,696 - root - INFO -  MACD calculation for USARW due to high change percent: 23.0292
-2025-10-07 11:02:38,733 - root - INFO - MACD not positive for USARW: MACD=0.6143835112937666, Signal=0.7054608354764864, Hist=-0.09107732418271985
-2025-10-07 11:02:41,124 - root - INFO -  update_current_price: start time 2025-10-07T11:01:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:02:44,705 - root - INFO -  MACD calculation for XBIO due to high change percent: 28.4268
-2025-10-07 11:02:48,928 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-07 11:02:53,271 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
-2025-10-07 11:02:53,291 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:02:53,330 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
-2025-10-07 11:02:53,425 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
-2025-10-07 11:02:53,455 - root - INFO - latest trade price: 4.33
-2025-10-07 11:03:08,571 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
-2025-10-07 11:03:08,594 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:03:08,636 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
-2025-10-07 11:03:08,750 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
-2025-10-07 11:03:08,782 - root - INFO - latest trade price: 4.41
-2025-10-07 11:03:23,904 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
-2025-10-07 11:03:23,922 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:03:23,967 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
-2025-10-07 11:03:24,055 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
-2025-10-07 11:03:24,074 - root - INFO - latest trade price: 4.47
-2025-10-07 11:03:39,193 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
-2025-10-07 11:03:39,215 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:03:39,256 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
-2025-10-07 11:03:39,347 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
-2025-10-07 11:03:39,365 - root - INFO - latest trade price: 4.32
-2025-10-07 11:03:49,008 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
-2025-10-07 11:03:49,029 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
-2025-10-07 11:03:49,029 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
-2025-10-07 11:03:49,056 - root - INFO -  update_current_price: start time 2025-10-07T11:02:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:03:54,476 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
-2025-10-07 11:03:54,494 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:03:54,532 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
-2025-10-07 11:03:54,615 - root - INFO -  MACD calculation for AMBI due to high change percent: 18.4352
-2025-10-07 11:03:54,719 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
-2025-10-07 11:03:54,736 - root - INFO - latest trade price: 4.25
-2025-10-07 11:03:55,835 - root - INFO -  MACD calculation for ANIX due to high change percent: 13.5385
-2025-10-07 11:03:56,538 - root - INFO -  MACD calculation for APVO due to high change percent: 24.4681
-2025-10-07 11:03:56,610 - root - INFO - MACD not positive for APVO: MACD=-0.0011424670778303891, Signal=0.003015425854782225, Hist=-0.004157892932612614
-2025-10-07 11:03:57,922 - root - INFO -  update_current_price: start time 2025-10-07T11:02:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:04:03,613 - root - INFO -  MACD calculation for BJDX due to high change percent: 33.2258
-2025-10-07 11:04:03,657 - root - INFO - MACD not positive for BJDX: MACD=-0.0095351906300718, Signal=0.005734118337349728, Hist=-0.015269308967421527
-2025-10-07 11:04:03,992 - root - INFO -  MACD calculation for BLIN due to high change percent: 10.9333
-2025-10-07 11:04:04,022 - root - INFO - MACD not positive for BLIN: MACD=0.01844311076698113, Signal=0.024895273077969206, Hist=-0.0064521623109880764
-2025-10-07 11:04:04,529 - root - INFO -  MACD calculation for BNAI due to high change percent: 54.1559
-2025-10-07 11:04:04,601 - root - INFO - MACD not positive for BNAI: MACD=0.07020038947890195, Signal=0.07249349834324734, Hist=-0.002293108864345389
-2025-10-07 11:04:05,018 - root - INFO -  update_current_price: start time 2025-10-07T11:03:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:04:07,042 - root - INFO -  MACD calculation for CAPT due to high change percent: 12.1518
-2025-10-07 11:04:09,399 - root - INFO -  MACD calculation for CISS due to high change percent: 79.638
-2025-10-07 11:04:09,440 - root - INFO - MACD not positive for CISS: MACD=0.22410812682041747, Signal=0.2975050569330543, Hist=-0.07339693011263682
-2025-10-07 11:04:09,851 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
-2025-10-07 11:04:09,870 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:04:09,909 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
-2025-10-07 11:04:09,995 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
-2025-10-07 11:04:10,014 - root - INFO - latest trade price: 4.25
-2025-10-07 11:04:10,745 - root - INFO -  update_current_price: start time 2025-10-07T11:03:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:04:11,086 - root - INFO -  MACD calculation for COCH due to high change percent: 109.47
-2025-10-07 11:04:11,121 - root - INFO - MACD not positive for COCH: MACD=0.03275240531957957, Signal=0.03872046224727925, Hist=-0.00596805692769968
-2025-10-07 11:04:13,300 - root - INFO -  MACD calculation for CTXR due to high change percent: 10.9023
-2025-10-07 11:04:14,979 - root - INFO -  MACD calculation for DDD due to high change percent: 10.2524
-2025-10-07 11:04:15,511 - root - INFO -  MACD calculation for DGNX due to high change percent: 14.2854
-2025-10-07 11:04:15,731 - root - INFO - MACD not positive for DGNX: MACD=-0.01823669864530686, Signal=0.1395239136996656, Hist=-0.15776061234497246
-2025-10-07 11:04:17,299 - root - INFO -  MACD calculation for DVLT due to high change percent: 33.1683
-2025-10-07 11:04:17,372 - root - INFO - MACD not positive for DVLT: MACD=0.007978421560116633, Signal=0.02063635935516592, Hist=-0.012657937795049288
-2025-10-07 11:04:17,515 - root - INFO -  update_current_price: start time 2025-10-07T11:03:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:04:17,675 - root - INFO -  MACD calculation for DYN due to high change percent: 10.6885
-2025-10-07 11:04:19,006 - root - INFO -  MACD calculation for ELAB due to high change percent: 17.1904
-2025-10-07 11:04:19,039 - root - INFO - MACD not positive for ELAB: MACD=0.007078683243951112, Signal=0.03710400912205999, Hist=-0.030025325878108876
-2025-10-07 11:04:19,271 - root - INFO -  MACD calculation for ELPW due to high change percent: 19.4659
-2025-10-07 11:04:19,333 - root - INFO - MACD not positive for ELPW: MACD=0.019264053303259532, Signal=0.019775031360012983, Hist=-0.0005109780567534514
-2025-10-07 11:04:23,167 - root - INFO -  update_current_price: start time 2025-10-07T11:03:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:04:25,127 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
-2025-10-07 11:04:25,146 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:04:25,186 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
-2025-10-07 11:04:25,272 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
-2025-10-07 11:04:25,290 - root - INFO - latest trade price: 4.25
-2025-10-07 11:04:25,857 - root - INFO -  MACD calculation for GIGGW due to high change percent: 21.4615
-2025-10-07 11:04:26,272 - root - INFO -  MACD calculation for GLTO due to high change percent: 614.286
-2025-10-07 11:04:26,340 - root - INFO - MACD not positive for GLTO: MACD=0.2569657442462976, Signal=0.2683115708628091, Hist=-0.011345826616511512
-2025-10-07 11:04:27,358 - root - INFO -  MACD calculation for GPUS due to high change percent: 10.1129
-2025-10-07 11:04:27,432 - root - INFO - MACD not positive for GPUS: MACD=-0.004783879074257036, Signal=-0.004074441746911494, Hist=-0.0007094373273455416
-2025-10-07 11:04:28,551 - root - INFO -  update_current_price: start time 2025-10-07T11:03:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:04:31,667 - root - INFO -  MACD calculation for HYLN due to high change percent: 15.7005
-2025-10-07 11:04:31,729 - root - INFO - MACD not positive for HYLN: MACD=0.05487035019482178, Signal=0.06748034789155019, Hist=-0.012609997696728409
-2025-10-07 11:04:33,203 - root - INFO -  MACD calculation for INDP due to high change percent: 48.2759
-2025-10-07 11:04:34,793 - root - INFO -  update_current_price: start time 2025-10-07T11:03:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:04:35,071 - root - INFO -  MACD calculation for ITRM due to high change percent: 15.1571
-2025-10-07 11:04:37,804 - root - INFO -  MACD calculation for KLTO due to high change percent: 10.7692
-2025-10-07 11:04:39,269 - root - INFO -  MACD calculation for KZIA due to high change percent: 14.1593
-2025-10-07 11:04:39,703 - root - INFO -  MACD calculation for LAR due to high change percent: 14.5882
-2025-10-07 11:04:39,783 - root - INFO - MACD not positive for LAR: MACD=0.038024716092337485, Signal=0.052211647896165024, Hist=-0.014186931803827539
-2025-10-07 11:04:40,411 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
-2025-10-07 11:04:40,460 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:04:40,502 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
-2025-10-07 11:04:40,617 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
-2025-10-07 11:04:40,636 - root - INFO - latest trade price: 4.25
-2025-10-07 11:04:42,516 - root - INFO -  update_current_price: start time 2025-10-07T11:03:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:04:42,970 - root - INFO -  MACD calculation for LXEO due to high change percent: 27.2488
-2025-10-07 11:04:43,031 - root - INFO - MACD not positive for LXEO: MACD=0.0051199803342871775, Signal=0.014372269286521324, Hist=-0.009252288952234147
-2025-10-07 11:04:45,501 - root - INFO -  MACD calculation for MGX due to high change percent: 10.4498
-2025-10-07 11:04:45,705 - root - INFO -  MACD calculation for MIGI due to high change percent: 16.5347
-2025-10-07 11:04:48,614 - root - INFO -  MACD calculation for NAK due to high change percent: 16.8874
-2025-10-07 11:04:48,678 - root - INFO - MACD not positive for NAK: MACD=-0.040343273307784644, Signal=-0.02591806373131575, Hist=-0.014425209576468895
-2025-10-07 11:04:48,921 - root - INFO -  update_current_price: start time 2025-10-07T11:03:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:04:49,150 - root - INFO -  MACD calculation for NCNA due to high change percent: 13.189
-2025-10-07 11:04:49,805 - root - INFO -  MACD calculation for NIOBW due to high change percent: 10.7527
-2025-10-07 11:04:49,835 - root - INFO - MACD not positive for NIOBW: MACD=0.030651977271667796, Signal=0.03889721075483034, Hist=-0.008245233483162542
-2025-10-07 11:04:49,942 - root - INFO -  MACD calculation for NITO due to high change percent: 18.3929
-2025-10-07 11:04:51,647 - root - INFO -  MACD calculation for NRXP due to high change percent: 13.4328
-2025-10-07 11:04:53,162 - root - INFO -  MACD calculation for NXXT due to high change percent: 24.3961
-2025-10-07 11:04:53,228 - root - INFO - MACD not positive for NXXT: MACD=0.06891059112232067, Signal=0.08057097466306781, Hist=-0.011660383540747138
-2025-10-07 11:04:53,311 - root - INFO -  MACD calculation for NYXH due to high change percent: 10.3448
-2025-10-07 11:04:53,343 - root - INFO - MACD not positive for NYXH: MACD=0.019135325746222343, Signal=0.051761421590592126, Hist=-0.03262609584436978
-2025-10-07 11:04:55,757 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
-2025-10-07 11:04:55,778 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:04:55,806 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
-2025-10-07 11:04:55,896 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
-2025-10-07 11:04:55,912 - root - INFO - latest trade price: 4.25
-2025-10-07 11:04:56,200 - root - INFO -  update_current_price: start time 2025-10-07T11:03:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:04:57,675 - root - INFO -  MACD calculation for PAPL due to high change percent: 15.9309
-2025-10-07 11:04:58,239 - root - INFO -  MACD calculation for PC due to high change percent: 11.3911
-2025-10-07 11:05:00,697 - root - INFO -  MACD calculation for POET due to high change percent: 10.4232
-2025-10-07 11:05:00,768 - root - INFO - MACD not positive for POET: MACD=0.024501592131777272, Signal=0.04416036343627544, Hist=-0.019658771304498168
-2025-10-07 11:05:03,164 - root - INFO -  MACD calculation for PYXS due to high change percent: 10.5263
-2025-10-07 11:05:03,443 - root - INFO -  MACD calculation for QMCO due to high change percent: 13.0563
-2025-10-07 11:05:03,512 - root - INFO - MACD not positive for QMCO: MACD=0.22014219637537025, Signal=0.3664313148548698, Hist=-0.14628911847949955
-2025-10-07 11:05:03,960 - root - INFO -  update_current_price: start time 2025-10-07T11:04:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:05:05,226 - root - INFO -  MACD calculation for REKR due to high change percent: 21.8232
-2025-10-07 11:05:05,300 - root - INFO - MACD not positive for REKR: MACD=0.0055318456887265555, Signal=0.009926715769973586, Hist=-0.00439487008124703
-2025-10-07 11:05:07,416 - root - INFO -  MACD calculation for RVPH due to high change percent: 26.6099
-2025-10-07 11:05:07,554 - root - INFO -  MACD calculation for RVSN due to high change percent: 21.9317
-2025-10-07 11:05:09,628 - root - INFO -  MACD calculation for SES due to high change percent: 14.4033
-2025-10-07 11:05:09,687 - root - INFO - MACD not positive for SES: MACD=0.013655557265646934, Signal=0.02859681803357327, Hist=-0.014941260767926335
-2025-10-07 11:05:10,306 - root - INFO -  update_current_price: start time 2025-10-07T11:04:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:05:11,026 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
-2025-10-07 11:05:11,045 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:05:11,086 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
-2025-10-07 11:05:11,175 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
-2025-10-07 11:05:11,196 - root - INFO - latest trade price: 4.25
-2025-10-07 11:05:12,310 - root - INFO -  MACD calculation for SNGX due to high change percent: 14.9635
-2025-10-07 11:05:12,370 - root - INFO - MACD not positive for SNGX: MACD=0.008768263327210368, Signal=0.014746568945181986, Hist=-0.005978305617971618
-2025-10-07 11:05:16,085 - root - INFO -  MACD calculation for TELO due to high change percent: 23.9437
-2025-10-07 11:05:16,232 - root - INFO -  update_current_price: start time 2025-10-07T11:04:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:05:17,176 - root - INFO -  MACD calculation for TLPH due to high change percent: 19.0364
-2025-10-07 11:05:17,510 - root - INFO -  MACD calculation for TMC due to high change percent: 16.2565
-2025-10-07 11:05:17,620 - root - INFO -  MACD calculation for TMCWW due to high change percent: 32.4967
-2025-10-07 11:05:17,755 - root - INFO -  MACD calculation for TMQ due to high change percent: 218.713
-2025-10-07 11:05:17,792 - root - INFO - MACD not positive for TMQ: MACD=-0.05117484809194828, Signal=-0.047718685541056995, Hist=-0.0034561625508912827
-2025-10-07 11:05:18,727 - root - INFO -  MACD calculation for TSSI due to high change percent: 11.7205
-2025-10-07 11:05:18,787 - root - INFO - MACD not positive for TSSI: MACD=0.2646013519830852, Signal=0.3957055738317529, Hist=-0.1311042218486677
-2025-10-07 11:05:19,219 - root - INFO -  MACD calculation for TVGN due to high change percent: 12.1917
-2025-10-07 11:05:19,658 - root - INFO -  MACD calculation for UAMY due to high change percent: 11.7429
-2025-10-07 11:05:19,724 - root - INFO - MACD not positive for UAMY: MACD=0.11793039866894794, Signal=0.14768538423301417, Hist=-0.029754985564066222
-2025-10-07 11:05:20,194 - root - INFO -  MACD calculation for ULY due to high change percent: 18.266
-2025-10-07 11:05:20,229 - root - INFO - MACD not positive for ULY: MACD=-0.066056654850422, Signal=0.03343200338944882, Hist=-0.09948865823987083
-2025-10-07 11:05:20,603 - root - INFO -  MACD calculation for UPC due to high change percent: 14.2405
-2025-10-07 11:05:21,012 - root - INFO -  MACD calculation for USAR due to high change percent: 12.367
-2025-10-07 11:05:21,113 - root - INFO - MACD not positive for USAR: MACD=0.5219054009040676, Signal=0.6118253821804016, Hist=-0.08991998127633405
-2025-10-07 11:05:21,160 - root - INFO -  MACD calculation for USARW due to high change percent: 22.2826
-2025-10-07 11:05:21,196 - root - INFO - MACD not positive for USARW: MACD=0.5864632833735364, Signal=0.6998767898924404, Hist=-0.11341350651890403
-2025-10-07 11:05:23,124 - root - INFO -  update_current_price: start time 2025-10-07T11:04:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:05:26,267 - root - INFO -  MACD calculation for YCBD due to high change percent: 11.9615
-2025-10-07 11:05:26,305 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
-2025-10-07 11:05:26,324 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:05:26,340 - root - INFO - MACD not positive for YCBD: MACD=0.034283021533055624, Signal=0.04425639105049257, Hist=-0.009973369517436943
-2025-10-07 11:05:26,365 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
-2025-10-07 11:05:26,449 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
-2025-10-07 11:05:26,466 - root - INFO - latest trade price: 4.25
-2025-10-07 11:05:28,267 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-07 11:05:41,582 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
-2025-10-07 11:05:42,814 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:05:42,852 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
-2025-10-07 11:05:42,941 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
-2025-10-07 11:05:42,959 - root - INFO - latest trade price: 4.25
-2025-10-07 11:05:58,102 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
-2025-10-07 11:05:58,122 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:05:58,160 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
-2025-10-07 11:05:58,266 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
-2025-10-07 11:05:58,341 - root - INFO - latest trade price: 4.25
-2025-10-07 11:06:13,459 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
-2025-10-07 11:06:13,479 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:06:13,518 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
-2025-10-07 11:06:13,613 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
-2025-10-07 11:06:13,632 - root - INFO - latest trade price: 4.25
-2025-10-07 11:06:28,352 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
-2025-10-07 11:06:28,372 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
-2025-10-07 11:06:28,372 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
-2025-10-07 11:06:28,399 - root - INFO -  update_current_price: start time 2025-10-07T11:05:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:06:28,771 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
-2025-10-07 11:06:28,795 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:06:28,832 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
-2025-10-07 11:06:28,922 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
-2025-10-07 11:06:28,941 - root - INFO - latest trade price: 4.25
-2025-10-07 11:06:32,951 - root - INFO -  MACD calculation for AMBI due to high change percent: 15.8796
-2025-10-07 11:06:33,970 - root - INFO -  MACD calculation for ANIX due to high change percent: 13.2308
-2025-10-07 11:06:34,585 - root - INFO -  MACD calculation for APVO due to high change percent: 24.1135
-2025-10-07 11:06:35,779 - root - INFO -  update_current_price: start time 2025-10-07T11:05:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:06:41,583 - root - INFO -  MACD calculation for BJDX due to high change percent: 32.2581
-2025-10-07 11:06:41,615 - root - INFO - MACD not positive for BJDX: MACD=-0.010245656444711315, Signal=0.0024743457171198745, Hist=-0.01272000216183119
-2025-10-07 11:06:41,995 - root - INFO -  MACD calculation for BLIN due to high change percent: 11.0519
-2025-10-07 11:06:42,025 - root - INFO - MACD not positive for BLIN: MACD=0.018182142911202126, Signal=0.02355264704461579, Hist=-0.005370504133413664
-2025-10-07 11:06:42,567 - root - INFO -  MACD calculation for BNAI due to high change percent: 50.7439
-2025-10-07 11:06:42,638 - root - INFO - MACD not positive for BNAI: MACD=0.06574728357446091, Signal=0.07134209014732482, Hist=-0.005594806572863903
-2025-10-07 11:06:43,130 - root - INFO -  MACD calculation for BQ due to high change percent: 99.735
-2025-10-07 11:06:43,244 - root - INFO -  update_current_price: start time 2025-10-07T11:05:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:06:44,058 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
-2025-10-07 11:06:44,079 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:06:44,114 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
-2025-10-07 11:06:44,248 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
-2025-10-07 11:06:44,267 - root - INFO - latest trade price: 4.25
-2025-10-07 11:06:45,518 - root - INFO -  MACD calculation for CAPS due to high change percent: 10.084
-2025-10-07 11:06:46,350 - root - INFO -  MACD calculation for CCTG due to high change percent: 31.755
-2025-10-07 11:06:46,395 - root - INFO - MACD not positive for CCTG: MACD=0.049881247810427576, Signal=0.058389893818237754, Hist=-0.008508646007810178
-2025-10-07 11:06:48,841 - root - INFO -  MACD calculation for CISS due to high change percent: 85.0679
-2025-10-07 11:06:48,876 - root - INFO - MACD not positive for CISS: MACD=0.18285807413088673, Signal=0.27479264042960094, Hist=-0.09193456629871422
-2025-10-07 11:06:50,413 - root - INFO -  update_current_price: start time 2025-10-07T11:05:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:06:50,946 - root - INFO -  MACD calculation for COCH due to high change percent: 101.413
-2025-10-07 11:06:50,980 - root - INFO - MACD not positive for COCH: MACD=0.02794131385712917, Signal=0.03669226789688456, Hist=-0.008750954039755392
-2025-10-07 11:06:53,776 - root - INFO -  MACD calculation for CTXR due to high change percent: 10.9023
-2025-10-07 11:06:55,598 - root - INFO -  MACD calculation for DBVT due to high change percent: 12.8668
-2025-10-07 11:06:55,638 - root - INFO - MACD not positive for DBVT: MACD=0.2300781220114274, Signal=0.24925774073595203, Hist=-0.019179618724524616
-2025-10-07 11:06:56,491 - root - INFO -  MACD calculation for DGNX due to high change percent: 14.1414
-2025-10-07 11:06:56,550 - root - INFO - MACD not positive for DGNX: MACD=-0.04034928261965476, Signal=0.10437890406543149, Hist=-0.14472818668508625
-2025-10-07 11:06:58,560 - root - INFO -  MACD calculation for DVLT due to high change percent: 30.7692
-2025-10-07 11:06:58,647 - root - INFO - MACD not positive for DVLT: MACD=-0.0034953862886677456, Signal=0.015554739571128537, Hist=-0.019050125859796284
-2025-10-07 11:06:58,829 - root - INFO -  update_current_price: start time 2025-10-07T11:05:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:06:59,384 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
-2025-10-07 11:06:59,403 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:06:59,442 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
-2025-10-07 11:06:59,585 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
-2025-10-07 11:06:59,611 - root - INFO - latest trade price: 4.25
-2025-10-07 11:07:00,717 - root - INFO -  MACD calculation for ELAB due to high change percent: 14.2329
-2025-10-07 11:07:00,757 - root - INFO - MACD not positive for ELAB: MACD=-0.028713913531093205, Signal=0.02368515393615877, Hist=-0.052399067467251974
-2025-10-07 11:07:01,096 - root - INFO -  MACD calculation for ELPW due to high change percent: 20.6262
-2025-10-07 11:07:01,164 - root - INFO - MACD not positive for ELPW: MACD=0.01666616993187031, Signal=0.018970740555865905, Hist=-0.0023045706239955936
-2025-10-07 11:07:06,370 - root - INFO -  update_current_price: start time 2025-10-07T11:06:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:07:09,567 - root - INFO -  MACD calculation for GIGGW due to high change percent: 21.3846
-2025-10-07 11:07:09,943 - root - INFO -  MACD calculation for GLTO due to high change percent: 593.531
-2025-10-07 11:07:09,995 - root - INFO - MACD not positive for GLTO: MACD=0.12117617557201399, Signal=0.2266315003516583, Hist=-0.10545532477964431
-2025-10-07 11:07:12,562 - root - INFO -  update_current_price: start time 2025-10-07T11:06:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:07:14,737 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
-2025-10-07 11:07:14,758 - root - INFO - Running real_trade for all top movers
-2025-10-07 11:07:14,798 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
-2025-10-07 11:07:14,885 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
-2025-10-07 11:07:14,904 - root - INFO - latest trade price: 4.25
-2025-10-07 11:07:15,693 - root - INFO -  MACD calculation for HYLN due to high change percent: 14.5266
-2025-10-07 11:07:15,770 - root - INFO - MACD not positive for HYLN: MACD=0.046324106833878, Signal=0.0629951053780214, Hist=-0.016670998544143403
-2025-10-07 11:07:19,201 - root - INFO -  update_current_price: start time 2025-10-07T11:06:00-04:00 end_time 2025-10-07T21:55:00-04:00
-2025-10-07 11:07:19,408 - root - INFO -  MACD calculation for ITRM due to high change percent: 15.1714
 2025-10-07 11:07:21,565 - root - INFO -  MACD calculation for KLTO due to high change percent: 10.5
 2025-10-07 11:07:21,627 - root - INFO - MACD not positive for KLTO: MACD=0.013035132134222582, Signal=0.013587268346565321, Hist=-0.0005521362123427388
 2025-10-07 11:07:23,286 - root - INFO -  MACD calculation for LAR due to high change percent: 13.1493
@@ -416,3 +157,261 @@ Manual Movers:
 2025-10-07 11:09:47,951 - root - INFO - latest trade price: 4.4149
 2025-10-07 11:09:49,217 - root - INFO -  update_current_price: start time 2025-10-07T11:08:00-04:00 end_time 2025-10-07T21:55:00-04:00
 2025-10-07 11:09:52,036 - root - INFO -  MACD calculation for GIGGW due to high change percent: 19.3077
+2025-10-07 11:09:52,296 - root - INFO -  MACD calculation for GLTO due to high change percent: 578.841
+2025-10-07 11:09:52,345 - root - INFO - MACD not positive for GLTO: MACD=0.15468044907628808, Signal=0.23333235505251312, Hist=-0.07865190597622504
+2025-10-07 11:09:54,430 - root - INFO -  update_current_price: start time 2025-10-07T11:08:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:09:58,482 - root - INFO -  MACD calculation for HYLN due to high change percent: 13.0048
+2025-10-07 11:09:58,541 - root - INFO - MACD not positive for HYLN: MACD=0.042463138172909254, Signal=0.06222291164582765, Hist=-0.019759773472918393
+2025-10-07 11:10:00,814 - root - INFO -  MACD calculation for INDP due to high change percent: 38.8715
+2025-10-07 11:10:02,622 - root - INFO -  update_current_price: start time 2025-10-07T11:09:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:10:02,824 - root - INFO -  MACD calculation for ITRM due to high change percent: 15.0143
+2025-10-07 11:10:03,060 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
+2025-10-07 11:10:03,627 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:10:03,665 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
+2025-10-07 11:10:03,767 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
+2025-10-07 11:10:03,784 - root - INFO - latest trade price: 4.39
+2025-10-07 11:10:05,056 - root - INFO -  MACD calculation for KLTO due to high change percent: 10.1346
+2025-10-07 11:10:05,120 - root - INFO - MACD not positive for KLTO: MACD=0.012724021023111542, Signal=0.013525046124343115, Hist=-0.0008010251012315721
+2025-10-07 11:10:06,760 - root - INFO -  MACD calculation for LAR due to high change percent: 13.4615
+2025-10-07 11:10:06,820 - root - INFO - MACD not positive for LAR: MACD=0.03159587439060196, Signal=0.048088493195052415, Hist=-0.01649261880445045
+2025-10-07 11:10:09,362 - root - INFO -  update_current_price: start time 2025-10-07T11:09:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:10:09,702 - root - INFO -  MACD calculation for LXEO due to high change percent: 25.5332
+2025-10-07 11:10:09,762 - root - INFO - MACD not positive for LXEO: MACD=-0.0011444072434709796, Signal=0.011268933980522863, Hist=-0.012413341223993842
+2025-10-07 11:10:12,071 - root - INFO -  MACD calculation for MGX due to high change percent: 11.5242
+2025-10-07 11:10:12,264 - root - INFO -  MACD calculation for MIGI due to high change percent: 15.4354
+2025-10-07 11:10:12,304 - root - INFO - MACD not positive for MIGI: MACD=0.028532956692527423, Signal=0.03214614104165324, Hist=-0.003613184349125817
+2025-10-07 11:10:15,444 - root - INFO -  MACD calculation for NAK due to high change percent: 15.3576
+2025-10-07 11:10:15,512 - root - INFO - MACD not positive for NAK: MACD=-0.043994481566696164, Signal=-0.029533347298391834, Hist=-0.01446113426830433
+2025-10-07 11:10:15,797 - root - INFO -  update_current_price: start time 2025-10-07T11:09:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:10:16,094 - root - INFO -  MACD calculation for NCNA due to high change percent: 13.5827
+2025-10-07 11:10:17,118 - root - INFO -  MACD calculation for NIOBW due to high change percent: 10.7527
+2025-10-07 11:10:17,158 - root - INFO - MACD not positive for NIOBW: MACD=0.029767764795002094, Signal=0.03707132156286469, Hist=-0.007303556767862596
+2025-10-07 11:10:17,210 - root - INFO -  MACD calculation for NITO due to high change percent: 16.9595
+2025-10-07 11:10:18,691 - root - INFO -  MACD calculation for NRXP due to high change percent: 13.4328
+2025-10-07 11:10:18,891 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
+2025-10-07 11:10:18,912 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:10:18,951 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
+2025-10-07 11:10:19,034 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
+2025-10-07 11:10:19,053 - root - INFO - latest trade price: 4.31
+2025-10-07 11:10:19,830 - root - INFO -  MACD calculation for NXXT due to high change percent: 24.1546
+2025-10-07 11:10:19,960 - root - INFO - MACD not positive for NXXT: MACD=0.05416889009691417, Signal=0.07529055774983709, Hist=-0.02112166765292292
+2025-10-07 11:10:22,122 - root - INFO -  update_current_price: start time 2025-10-07T11:09:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:10:29,300 - root - INFO -  update_current_price: start time 2025-10-07T11:09:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:10:30,603 - root - INFO -  MACD calculation for REKR due to high change percent: 16.0221
+2025-10-07 11:10:30,681 - root - INFO - MACD not positive for REKR: MACD=-0.0012225255826474601, Signal=0.007696867499449376, Hist=-0.008919393082096837
+2025-10-07 11:10:32,793 - root - INFO -  MACD calculation for RVPH due to high change percent: 25.9525
+2025-10-07 11:10:32,865 - root - INFO - MACD not positive for RVPH: MACD=0.014011220879567965, Signal=0.014723347474656997, Hist=-0.0007121265950890323
+2025-10-07 11:10:32,912 - root - INFO -  MACD calculation for RVSN due to high change percent: 20.0195
+2025-10-07 11:10:34,309 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
+2025-10-07 11:10:34,331 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:10:34,368 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
+2025-10-07 11:10:34,483 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
+2025-10-07 11:10:34,502 - root - INFO - latest trade price: 4.2984
+2025-10-07 11:10:35,425 - root - INFO -  update_current_price: start time 2025-10-07T11:09:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:10:37,855 - root - INFO -  MACD calculation for SNGX due to high change percent: 15.3358
+2025-10-07 11:10:37,922 - root - INFO - MACD not positive for SNGX: MACD=0.007782270101824196, Signal=0.012314296530033235, Hist=-0.004532026428209039
+2025-10-07 11:10:38,750 - root - INFO -  MACD calculation for SPHL due to high change percent: 11.9035
+2025-10-07 11:10:42,696 - root - INFO -  MACD calculation for TELO due to high change percent: 23.9437
+2025-10-07 11:10:42,953 - root - INFO -  update_current_price: start time 2025-10-07T11:09:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:10:44,098 - root - INFO -  MACD calculation for TLPH due to high change percent: 12.7273
+2025-10-07 11:10:44,137 - root - INFO - MACD not positive for TLPH: MACD=0.030288203050365947, Signal=0.03677485916855952, Hist=-0.006486656118193573
+2025-10-07 11:10:44,416 - root - INFO -  MACD calculation for TMC due to high change percent: 13.9249
+2025-10-07 11:10:44,485 - root - INFO - MACD not positive for TMC: MACD=0.18196365631547984, Signal=0.1955708139997928, Hist=-0.013607157684312948
+2025-10-07 11:10:44,535 - root - INFO -  MACD calculation for TMCWW due to high change percent: 25.4902
+2025-10-07 11:10:44,564 - root - INFO - MACD not positive for TMCWW: MACD=0.09446955271382329, Signal=0.09727231015740403, Hist=-0.0028027574435807445
+2025-10-07 11:10:44,656 - root - INFO -  MACD calculation for TMQ due to high change percent: 207.895
+2025-10-07 11:10:44,693 - root - INFO - MACD not positive for TMQ: MACD=-0.07254000610163835, Signal=-0.05529758707064554, Hist=-0.017242419030992814
+2025-10-07 11:10:46,636 - root - INFO -  MACD calculation for TVGN due to high change percent: 12.1301
+2025-10-07 11:10:47,676 - root - INFO -  MACD calculation for ULY due to high change percent: 14.4231
+2025-10-07 11:10:47,713 - root - INFO - MACD not positive for ULY: MACD=-0.09474043802744747, Signal=-0.01121063407457026, Hist=-0.08352980395287721
+2025-10-07 11:10:48,171 - root - INFO -  MACD calculation for UPC due to high change percent: 11.8439
+2025-10-07 11:10:48,567 - root - INFO -  MACD calculation for USAR due to high change percent: 10.3944
+2025-10-07 11:10:48,632 - root - INFO - MACD not positive for USAR: MACD=0.3875200126731144, Signal=0.5404403525183452, Hist=-0.1529203398452308
+2025-10-07 11:10:48,681 - root - INFO -  MACD calculation for USARW due to high change percent: 19.2595
+2025-10-07 11:10:48,721 - root - INFO - MACD not positive for USARW: MACD=0.4521287382118544, Signal=0.619415186431432, Hist=-0.1672864482195776
+2025-10-07 11:10:49,618 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
+2025-10-07 11:10:49,640 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:10:49,678 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
+2025-10-07 11:10:49,805 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
+2025-10-07 11:10:49,825 - root - INFO - latest trade price: 4.2881
+2025-10-07 11:10:51,361 - root - INFO -  update_current_price: start time 2025-10-07T11:09:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:10:54,584 - root - INFO -  MACD calculation for XBIO due to high change percent: 27.0375
+2025-10-07 11:10:54,607 - root - INFO - MACD not positive for XBIO: MACD=0.1760536758120015, Signal=0.18385480197090942, Hist=-0.007801126158907934
+2025-10-07 11:10:55,817 - root - INFO -  MACD calculation for YCBD due to high change percent: 10.7692
+2025-10-07 11:10:55,881 - root - INFO - MACD not positive for YCBD: MACD=0.027553948839876385, Signal=0.03884799051344471, Hist=-0.011294041673568324
+2025-10-07 11:10:58,171 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-07 11:11:04,954 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
+2025-10-07 11:11:04,973 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:11:05,015 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
+2025-10-07 11:11:05,106 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
+2025-10-07 11:11:05,128 - root - INFO - latest trade price: 4.13
+2025-10-07 11:11:20,238 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
+2025-10-07 11:11:20,257 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:11:20,299 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
+2025-10-07 11:11:20,390 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
+2025-10-07 11:11:20,411 - root - INFO - latest trade price: 3.98
+2025-10-07 11:11:35,523 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
+2025-10-07 11:11:35,541 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:11:35,580 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
+2025-10-07 11:11:35,705 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
+2025-10-07 11:11:35,723 - root - INFO - latest trade price: 4.16
+2025-10-07 11:11:50,841 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
+2025-10-07 11:11:50,861 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:11:50,900 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
+2025-10-07 11:11:50,997 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
+2025-10-07 11:11:51,019 - root - INFO - latest trade price: 4.06
+2025-10-07 11:11:58,244 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
+2025-10-07 11:11:58,267 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
+2025-10-07 11:11:58,267 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
+2025-10-07 11:11:58,294 - root - INFO -  update_current_price: start time 2025-10-07T11:10:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:12:03,846 - root - INFO -  MACD calculation for AMBI due to high change percent: 15.7407
+2025-10-07 11:12:05,006 - root - INFO -  MACD calculation for ANIX due to high change percent: 10.7692
+2025-10-07 11:12:05,038 - root - INFO - MACD not positive for ANIX: MACD=0.07855169861141142, Signal=0.0823620488353696, Hist=-0.0038103502239581755
+2025-10-07 11:12:05,852 - root - INFO -  MACD calculation for APVO due to high change percent: 27.6596
+2025-10-07 11:12:06,132 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
+2025-10-07 11:12:06,153 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:12:06,194 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
+2025-10-07 11:12:06,289 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
+2025-10-07 11:12:06,308 - root - INFO - latest trade price: 4.01
+2025-10-07 11:12:07,354 - root - INFO -  update_current_price: start time 2025-10-07T11:11:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:12:07,831 - root - INFO -  MACD calculation for ASNS due to high change percent: 11.6748
+2025-10-07 11:12:11,747 - root - INFO -  MACD calculation for BHST due to high change percent: 11.269
+2025-10-07 11:12:12,264 - root - INFO -  MACD calculation for BJDX due to high change percent: 31.2903
+2025-10-07 11:12:12,301 - root - INFO - MACD not positive for BJDX: MACD=-0.01581048798917628, Signal=-0.001565527007045296, Hist=-0.014244960982130985
+2025-10-07 11:12:13,081 - root - INFO -  MACD calculation for BNAI due to high change percent: 46.8558
+2025-10-07 11:12:13,159 - root - INFO - MACD not positive for BNAI: MACD=0.05581235420242081, Signal=0.06771921988142093, Hist=-0.011906865679000123
+2025-10-07 11:12:13,480 - root - INFO -  update_current_price: start time 2025-10-07T11:11:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:12:15,740 - root - INFO -  MACD calculation for CAPS due to high change percent: 13.4034
+2025-10-07 11:12:15,853 - root - INFO -  MACD calculation for CAPT due to high change percent: 11.6715
+2025-10-07 11:12:16,681 - root - INFO -  MACD calculation for CCTG due to high change percent: 27.1523
+2025-10-07 11:12:16,725 - root - INFO - MACD not positive for CCTG: MACD=0.04986360023187264, Signal=0.056812270428600056, Hist=-0.006948670196727416
+2025-10-07 11:12:18,564 - root - INFO -  MACD calculation for CISS due to high change percent: 80.9955
+2025-10-07 11:12:18,601 - root - INFO - MACD not positive for CISS: MACD=0.13135351108402205, Signal=0.24444555530122597, Hist=-0.11309204421720392
+2025-10-07 11:12:19,898 - root - INFO -  update_current_price: start time 2025-10-07T11:11:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:12:20,358 - root - INFO -  MACD calculation for COCH due to high change percent: 85.9197
+2025-10-07 11:12:20,396 - root - INFO - MACD not positive for COCH: MACD=0.007370699916751766, Signal=0.029360148033051748, Hist=-0.021989448116299982
+2025-10-07 11:12:21,426 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
+2025-10-07 11:12:21,447 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:12:21,487 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
+2025-10-07 11:12:21,571 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
+2025-10-07 11:12:21,608 - root - INFO - latest trade price: 4.065
+2025-10-07 11:12:24,036 - root - INFO -  MACD calculation for DBVT due to high change percent: 13.9202
+2025-10-07 11:12:24,073 - root - INFO - MACD not positive for DBVT: MACD=0.21866278395621386, Signal=0.2431387493800044, Hist=-0.024475965423790547
+2025-10-07 11:12:24,820 - root - INFO -  MACD calculation for DGNX due to high change percent: 16.1616
+2025-10-07 11:12:24,880 - root - INFO - MACD not positive for DGNX: MACD=-0.0417790338012658, Signal=0.07770002304479895, Hist=-0.11947905684606475
+2025-10-07 11:12:26,604 - root - INFO -  MACD calculation for DVLT due to high change percent: 24.0385
+2025-10-07 11:12:26,684 - root - INFO - MACD not positive for DVLT: MACD=-0.01887904210521718, Signal=0.007902171270047371, Hist=-0.026781213375264554
+2025-10-07 11:12:26,825 - root - INFO -  update_current_price: start time 2025-10-07T11:11:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:12:27,664 - root - INFO -  MACD calculation for EDUC due to high change percent: 10.7914
+2025-10-07 11:12:28,357 - root - INFO -  MACD calculation for ELAB due to high change percent: 10.536
+2025-10-07 11:12:28,393 - root - INFO - MACD not positive for ELAB: MACD=-0.04040672502705078, Signal=0.011696407773146525, Hist=-0.05210313280019731
+2025-10-07 11:12:28,620 - root - INFO -  MACD calculation for ELPW due to high change percent: 13.5543
+2025-10-07 11:12:28,693 - root - INFO - MACD not positive for ELPW: MACD=0.014231978691477298, Signal=0.017923432627432633, Hist=-0.003691453935955335
+2025-10-07 11:12:33,007 - root - INFO -  update_current_price: start time 2025-10-07T11:11:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:12:35,803 - root - INFO -  MACD calculation for GIGGW due to high change percent: 21.2308
+2025-10-07 11:12:36,174 - root - INFO -  MACD calculation for GLTO due to high change percent: 590.162
+2025-10-07 11:12:36,227 - root - INFO - MACD not positive for GLTO: MACD=0.07348458324088014, Signal=0.20136280069018653, Hist=-0.12787821744930639
+2025-10-07 11:12:36,724 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
+2025-10-07 11:12:36,743 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:12:36,780 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
+2025-10-07 11:12:36,865 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
+2025-10-07 11:12:36,884 - root - INFO - latest trade price: 4.06
+2025-10-07 11:12:38,799 - root - INFO -  update_current_price: start time 2025-10-07T11:11:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:12:42,536 - root - INFO -  MACD calculation for HYLN due to high change percent: 10.6667
+2025-10-07 11:12:42,606 - root - INFO - MACD not positive for HYLN: MACD=0.03423612064537407, Signal=0.05662555344573693, Hist=-0.02238943280036286
+2025-10-07 11:12:44,533 - root - INFO -  MACD calculation for INDP due to high change percent: 36.9906
+2025-10-07 11:12:46,189 - root - INFO -  update_current_price: start time 2025-10-07T11:11:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:12:46,398 - root - INFO -  MACD calculation for ITRM due to high change percent: 14.7714
+2025-10-07 11:12:46,433 - root - INFO - MACD not positive for ITRM: MACD=0.01664305933213328, Signal=0.01675075907794147, Hist=-0.00010769974580818881
+2025-10-07 11:12:50,435 - root - INFO -  MACD calculation for KZIA due to high change percent: 15.9292
+2025-10-07 11:12:50,931 - root - INFO -  MACD calculation for LAR due to high change percent: 13.4615
+2025-10-07 11:12:50,993 - root - INFO - MACD not positive for LAR: MACD=0.03058643004433481, Signal=0.04458808056490889, Hist=-0.014001650520574081
+2025-10-07 11:12:51,997 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
+2025-10-07 11:12:52,039 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:12:52,076 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
+2025-10-07 11:12:52,166 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
+2025-10-07 11:12:52,186 - root - INFO - latest trade price: 4.05
+2025-10-07 11:12:53,987 - root - INFO -  update_current_price: start time 2025-10-07T11:11:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:12:54,389 - root - INFO -  MACD calculation for LXEO due to high change percent: 27.2798
+2025-10-07 11:12:54,445 - root - INFO - MACD not positive for LXEO: MACD=-0.007602894294494789, Signal=0.007494568325519332, Hist=-0.01509746262001412
+2025-10-07 11:12:56,888 - root - INFO -  MACD calculation for MGX due to high change percent: 11.7286
+2025-10-07 11:12:57,133 - root - INFO -  MACD calculation for MIGI due to high change percent: 10.1583
+2025-10-07 11:12:57,186 - root - INFO - MACD not positive for MIGI: MACD=0.024929445810883077, Signal=0.030702801995499206, Hist=-0.005773356184616128
+2025-10-07 11:13:00,743 - root - INFO -  MACD calculation for NAK due to high change percent: 15.3841
+2025-10-07 11:13:00,820 - root - INFO - MACD not positive for NAK: MACD=-0.04555603240696349, Signal=-0.032737884320106166, Hist=-0.012818148086857321
+2025-10-07 11:13:01,198 - root - INFO -  update_current_price: start time 2025-10-07T11:12:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:13:01,502 - root - INFO -  MACD calculation for NCNA due to high change percent: 14.5669
+2025-10-07 11:13:02,826 - root - INFO -  MACD calculation for NITO due to high change percent: 13.3333
+2025-10-07 11:13:04,320 - root - INFO -  MACD calculation for NRXP due to high change percent: 10.7463
+2025-10-07 11:13:05,591 - root - INFO -  MACD calculation for NXXT due to high change percent: 17.3913
+2025-10-07 11:13:05,650 - root - INFO - MACD not positive for NXXT: MACD=0.04117218541778467, Signal=0.06846688328342661, Hist=-0.02729469786564194
+2025-10-07 11:13:07,315 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
+2025-10-07 11:13:07,334 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:13:07,372 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
+2025-10-07 11:13:07,457 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
+2025-10-07 11:13:07,475 - root - INFO - latest trade price: 4.04
+2025-10-07 11:13:07,672 - root - INFO -  update_current_price: start time 2025-10-07T11:12:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:13:13,589 - root - INFO -  update_current_price: start time 2025-10-07T11:12:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:13:14,675 - root - INFO -  MACD calculation for REKR due to high change percent: 15.9669
+2025-10-07 11:13:14,733 - root - INFO - MACD not positive for REKR: MACD=-0.006021847512269307, Signal=0.004953124497105639, Hist=-0.010974972009374947
+2025-10-07 11:13:16,872 - root - INFO -  MACD calculation for RVPH due to high change percent: 19.0796
+2025-10-07 11:13:16,959 - root - INFO - MACD not positive for RVPH: MACD=0.011337902705327862, Signal=0.01404625852079117, Hist=-0.002708355815463307
+2025-10-07 11:13:17,056 - root - INFO -  MACD calculation for RVSN due to high change percent: 18.5561
+2025-10-07 11:13:19,954 - root - INFO -  update_current_price: start time 2025-10-07T11:12:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:13:21,972 - root - INFO -  MACD calculation for SNGX due to high change percent: 16.0876
+2025-10-07 11:13:22,034 - root - INFO - MACD not positive for SNGX: MACD=0.00695264047219446, Signal=0.012148370604107287, Hist=-0.005195730131912827
+2025-10-07 11:13:22,592 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
+2025-10-07 11:13:23,000 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:13:23,036 - root - INFO - swing_strategy_open_long for scale 5Min stock INDP
+2025-10-07 11:13:23,127 - root - INFO - Last 5 minutes maximum volume candle is red for INDP
+2025-10-07 11:13:23,145 - root - INFO - latest trade price: 4.04
+2025-10-07 11:13:25,426 - root - INFO -  MACD calculation for TELO due to high change percent: 23.2394
+2025-10-07 11:13:25,689 - root - INFO -  update_current_price: start time 2025-10-07T11:12:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:13:26,819 - root - INFO -  MACD calculation for TLPH due to high change percent: 12.2727
+2025-10-07 11:13:26,862 - root - INFO - MACD not positive for TLPH: MACD=0.030687063449226448, Signal=0.03685463124833162, Hist=-0.00616756779910517
+2025-10-07 11:13:27,094 - root - INFO -  MACD calculation for TMC due to high change percent: 12.8886
+2025-10-07 11:13:27,163 - root - INFO - MACD not positive for TMC: MACD=0.1859522603040844, Signal=0.1963685347975137, Hist=-0.0104162744934293
+2025-10-07 11:13:27,261 - root - INFO -  MACD calculation for TMQ due to high change percent: 209.569
+2025-10-07 11:13:27,296 - root - INFO - MACD not positive for TMQ: MACD=-0.06735482091645295, Signal=-0.05426055003360846, Hist=-0.01309427088284449
+2025-10-07 11:13:28,826 - root - INFO -  MACD calculation for TVGN due to high change percent: 13.0857
+2025-10-07 11:13:29,693 - root - INFO -  MACD calculation for ULY due to high change percent: 14.7436
+2025-10-07 11:13:29,720 - root - INFO - MACD not positive for ULY: MACD=-0.09713360042061003, Signal=-0.011689266553202774, Hist=-0.08544433386740725
+2025-10-07 11:13:30,465 - root - INFO -  MACD calculation for USAR due to high change percent: 10.9422
+2025-10-07 11:13:30,551 - root - INFO - MACD not positive for USAR: MACD=0.38871659386969526, Signal=0.5406796687576614, Hist=-0.15196307488796612
+2025-10-07 11:13:30,600 - root - INFO -  MACD calculation for USARW due to high change percent: 20.5312
+2025-10-07 11:13:30,632 - root - INFO - MACD not positive for USARW: MACD=0.4407851484682652, Signal=0.6171464684827142, Hist=-0.17636132001444893
+2025-10-07 11:13:32,837 - root - INFO -  update_current_price: start time 2025-10-07T11:12:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:13:35,358 - root - INFO -  MACD calculation for XBIO due to high change percent: 23.4873
+2025-10-07 11:13:35,398 - root - INFO - MACD not positive for XBIO: MACD=0.14633059888892452, Signal=0.17791018658629404, Hist=-0.031579587697369516
+2025-10-07 11:13:36,653 - root - INFO -  MACD calculation for YJ due to high change percent: 11.1675
+2025-10-07 11:13:38,247 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
+2025-10-07 11:13:38,268 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:13:38,611 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-07 11:13:53,393 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
+2025-10-07 11:13:53,413 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:14:08,552 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
+2025-10-07 11:14:08,571 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:14:23,717 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
+2025-10-07 11:14:23,739 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:14:38,692 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
+2025-10-07 11:14:38,714 - root - INFO - ('2025-10-07T21:55:00-04:00', '2025-10-07T21:55:00-04:00', '2025-09-30T09:30:00-04:00', '2025-10-07T21:55:00-04:00')
+2025-10-07 11:14:38,714 - root - INFO - Screening stocks | Start: 2025-09-30T09:30:00-04:00 | End: 2025-10-07T21:55:00-04:00
+2025-10-07 11:14:38,740 - root - INFO -  update_current_price: start time 2025-10-07T11:13:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:14:38,879 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
+2025-10-07 11:14:38,900 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:14:43,784 - root - INFO -  MACD calculation for AMBI due to high change percent: 17.5833
+2025-10-07 11:14:44,929 - root - INFO -  MACD calculation for ANIX due to high change percent: 10.4615
+2025-10-07 11:14:44,971 - root - INFO - MACD not positive for ANIX: MACD=0.07775397781369087, Signal=0.08220250467582549, Hist=-0.004448526862134622
+2025-10-07 11:14:45,669 - root - INFO -  MACD calculation for APVO due to high change percent: 25.5319
+2025-10-07 11:14:47,270 - root - INFO -  update_current_price: start time 2025-10-07T11:13:00-04:00 end_time 2025-10-07T21:55:00-04:00
+2025-10-07 11:14:47,828 - root - INFO -  MACD calculation for ASNS due to high change percent: 14.1504
+2025-10-07 11:14:52,237 - root - INFO -  MACD calculation for BHST due to high change percent: 12.6904
+2025-10-07 11:14:52,682 - root - INFO -  MACD calculation for BJDX due to high change percent: 29.6774
+2025-10-07 11:14:52,727 - root - INFO - MACD not positive for BJDX: MACD=-0.016608208786897283, Signal=-0.0017250711665894962, Hist=-0.014883137620307787
+2025-10-07 11:14:53,094 - root - INFO -  MACD calculation for BLIN due to high change percent: 12.5926
+2025-10-07 11:14:53,134 - root - INFO - MACD not positive for BLIN: MACD=0.018880967994387987, Signal=0.022745946562205556, Hist=-0.003864978567817569
+2025-10-07 11:14:53,682 - root - INFO -  MACD calculation for BNAI due to high change percent: 44.3563
+2025-10-07 11:14:53,826 - root - INFO - MACD not positive for BNAI: MACD=0.05590010349017005, Signal=0.06773676973897078, Hist=-0.011836666248800726
+2025-10-07 11:14:54,048 - root - INFO - Real mode: Today's profit so far: 1627.2399749999968
+2025-10-07 11:14:54,066 - root - INFO - Running real_trade for all top movers
+2025-10-07 11:14:54,256 - root - INFO -  update_current_price: start time 2025-10-07T11:13:00-04:00 end_time 2025-10-07T21:55:00-04:00
