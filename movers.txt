@@ -2,11 +2,11 @@ Top Movers:
 +--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  AMBO  |      0      |     0     |    130.209     | 3426729 |      8.09     |       3.5446       |  2620000.0   | 3.57874  |    5248    |      0      | 2025-10-08 17:57:15 |
-|  ACXP  |      0      |     0     |    84.3823     |  106158 |      7.91     |        4.29        |  19450000.0  |  4.456   |  1061867   |      0      | 2025-10-08 17:56:02 |
-|  MSN   |      1      |     0     |     57.148     | 8136249 |     0.8706    |       0.554        |  5800000.0   | 0.46032  |  1035240   |      0      | 2025-10-08 17:56:08 |
+|  AMBO  |      0      |     0     |    118.925     | 3577234 |      7.75     |       3.5446       |  2620000.0   | 3.57874  |    5248    |      0      | 2025-10-08 18:02:19 |
+|  ACXP  |      0      |     0     |    86.4802     |  108915 |      8.0      |        4.29        |  19450000.0  |  4.456   |  1061867   |      0      | 2025-10-08 18:02:19 |
+|  MSN   |      0      |     0     |    53.7726     | 8244692 |     0.8519    |       0.554        |  5800000.0   | 0.46032  |  1035240   |      0      | 2025-10-08 18:01:11 |
 |  ELBM  |      0      |     0     |    38.7927     |  23331  |     2.2762    |        1.64        |  17640000.0  |  1.394   |  2372879   |      0      | 2025-10-08 17:44:37 |
-|  BLBX  |      0      |     0     |    32.0801     |  770776 |      8.97     |       6.788        |  1620000.0   |  6.2836  |   22695    |      0      | 2025-10-08 17:57:16 |
+|  SLNH  |      0      |     0     |    33.0049     |  197398 |      2.7      |        2.03        |  9000000.0   |  2.212   |  12655722  |      0      | 2025-10-08 17:59:59 |
 +--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -20,403 +20,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-08 17:54:54,908 - root - INFO -  update_current_price: start time 2025-10-08T17:49:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:54:55,228 - root - INFO -  update_current_price: start time 2025-10-08T17:49:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:54:55,327 - root - INFO -  MACD calculation for POET due to high change percent: 20.3046
-2025-10-08 17:54:55,390 - root - INFO - MACD not positive for POET
-2025-10-08 17:54:55,812 - root - INFO -  update_current_price: start time 2025-10-08T17:49:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:54:56,188 - root - INFO -  update_current_price: start time 2025-10-08T17:49:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:54:56,381 - root - INFO - Real mode: Today's profit so far: 645.0699749999985
-2025-10-08 17:54:56,399 - root - INFO - Running real_trade for all top movers
-2025-10-08 17:54:56,442 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
-2025-10-08 17:54:56,451 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:54:56,451 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
-2025-10-08 17:54:56,523 - root - INFO - Last 20 minutes volume is low for XBIO: 23408
-2025-10-08 17:54:56,523 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-08 17:54:56,531 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:54:56,531 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-08 17:54:56,553 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-08 17:54:56,596 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 17:54:56,596 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
-2025-10-08 17:54:56,604 - root - INFO - Time since last close for MSN is 452.84341286666665 minutes, net percent 12.016
-2025-10-08 17:54:56,611 - root - INFO -  MACD calculation for RXRX due to high change percent: 16.2524
-2025-10-08 17:54:56,663 - root - INFO - Last 5 minutes maximum volume candle is red for MSN
-2025-10-08 17:54:56,663 - root - INFO - swing_strategy_open_long for scale 5Min stock ELBM
-2025-10-08 17:54:56,671 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:54:56,671 - root - INFO - Time since last close for ELBM is None minutes, net percent 0
-2025-10-08 17:54:56,771 - root - INFO - Last 20 minutes volume is low for ELBM: 20748
-2025-10-08 17:54:56,772 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-08 17:54:56,781 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:54:56,781 - root - INFO - Time since last close for BAOS is None minutes, net percent 0
-2025-10-08 17:54:56,792 - root - INFO -  update_current_price: start time 2025-10-08T17:49:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:54:56,805 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-08 17:54:56,873 - root - INFO - ALready an open order
-2025-10-08 17:54:56,873 - root - INFO - ALready an open order
-2025-10-08 17:54:56,873 - root - INFO - ALready an open order
-2025-10-08 17:54:56,873 - root - INFO - ALready an open order
-2025-10-08 17:54:57,238 - root - INFO -  update_current_price: start time 2025-10-08T17:49:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:54:57,341 - root - INFO -  MACD calculation for SLDB due to high change percent: 14.3116
-2025-10-08 17:54:57,510 - root - INFO -  MACD calculation for SLNH due to high change percent: 33.0049
-2025-10-08 17:54:57,858 - root - INFO -  MACD calculation for SNTG due to high change percent: 21.5686
-2025-10-08 17:54:57,903 - root - INFO -  update_current_price: start time 2025-10-08T17:49:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:54:58,287 - root - INFO -  MACD calculation for SRFM due to high change percent: 12.9232
-2025-10-08 17:54:58,422 - root - INFO -  update_current_price: start time 2025-10-08T17:49:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:54:58,703 - root - INFO -  MACD calculation for TAOP due to high change percent: 22.5806
-2025-10-08 17:54:58,814 - root - INFO -  update_current_price: start time 2025-10-08T17:49:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:54:59,300 - root - INFO -  update_current_price: start time 2025-10-08T17:49:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:54:59,486 - root - INFO -  MACD calculation for TRX due to high change percent: 28.3428
-2025-10-08 17:54:59,758 - root - INFO -  MACD calculation for UAMY due to high change percent: 11.2644
-2025-10-08 17:55:00,158 - root - INFO -  MACD calculation for UPC due to high change percent: 40.2321
-2025-10-08 17:55:00,202 - root - INFO - MACD not positive for UPC
-2025-10-08 17:55:00,309 - root - INFO -  update_current_price: start time 2025-10-08T17:50:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:55:00,478 - root - INFO -  update_current_price: start time 2025-10-08T17:50:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:55:00,644 - root - INFO -  MACD calculation for VTAK due to high change percent: 22.3529
-2025-10-08 17:55:00,675 - root - INFO - MACD not positive for VTAK
-2025-10-08 17:55:00,676 - root - INFO -  update_current_price: start time 2025-10-08T17:50:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:55:00,919 - root - INFO -  MACD calculation for XBIO due to high change percent: 139.86
-2025-10-08 17:55:00,949 - root - INFO - MACD not positive for XBIO
-2025-10-08 17:55:00,995 - root - INFO - FIND stocks Change percent for XTLB: 37.1429
-2025-10-08 17:55:00,996 - root - INFO - XTLB change_percent from DB: 37.1429
-2025-10-08 17:55:01,005 - root - INFO -  MACD calculation for XTLB due to high change percent: 37.1429
-2025-10-08 17:55:01,038 - root - INFO - MACD not positive for XTLB
-2025-10-08 17:55:01,149 - root - INFO -  update_current_price: start time 2025-10-08T17:50:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:55:01,275 - root - INFO - Updating change percent of stocks
-2025-10-08 17:55:01,936 - root - INFO - XTLB change_percent from DB: 38.57142857142858
-2025-10-08 17:55:01,945 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-08 17:55:11,914 - root - INFO - Real mode: Today's profit so far: 648.4899750000004
-2025-10-08 17:55:11,936 - root - INFO - Running real_trade for all top movers
-2025-10-08 17:55:11,985 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-08 17:55:11,997 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:55:11,997 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-08 17:55:12,026 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-08 17:55:12,092 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 17:55:12,093 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
-2025-10-08 17:55:12,104 - root - INFO - Time since last close for MSN is 453.10174565 minutes, net percent 12.016
-2025-10-08 17:55:12,193 - root - INFO - Last 5 minutes maximum volume candle is red for MSN
-2025-10-08 17:55:12,194 - root - INFO - swing_strategy_open_long for scale 5Min stock ELBM
-2025-10-08 17:55:12,207 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:55:12,208 - root - INFO - Time since last close for ELBM is None minutes, net percent 0
-2025-10-08 17:55:12,366 - root - INFO - Last 20 minutes volume is low for ELBM: 20748
-2025-10-08 17:55:12,367 - root - INFO - swing_strategy_open_long for scale 5Min stock BLBX
-2025-10-08 17:55:12,382 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:55:12,382 - root - INFO - Time since last close for BLBX is None minutes, net percent 0
-2025-10-08 17:55:12,420 - root - INFO - Last 20 minutes volume is low for BLBX: 43075
-2025-10-08 17:55:12,421 - root - INFO - swing_strategy_open_long for scale 5Min stock SLNH
-2025-10-08 17:55:12,430 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:55:12,431 - root - INFO - Time since last close for SLNH is None minutes, net percent 0
-2025-10-08 17:55:12,592 - root - INFO - Last 5 minutes maximum volume candle is red for SLNH
-2025-10-08 17:55:12,662 - root - INFO - ALready an open order
-2025-10-08 17:55:12,663 - root - INFO - ALready an open order
-2025-10-08 17:55:12,663 - root - INFO - ALready an open order
-2025-10-08 17:55:12,663 - root - INFO - ALready an open order
-2025-10-08 17:55:27,700 - root - INFO - Real mode: Today's profit so far: 648.5599750000001
-2025-10-08 17:55:27,722 - root - INFO - Running real_trade for all top movers
-2025-10-08 17:55:27,771 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-08 17:55:27,784 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:55:27,785 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-08 17:55:27,812 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-08 17:55:27,867 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 17:55:27,868 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
-2025-10-08 17:55:27,883 - root - INFO - Time since last close for MSN is 453.3647287 minutes, net percent 12.016
-2025-10-08 17:55:27,966 - root - INFO - Last 5 minutes maximum volume candle is red for MSN
-2025-10-08 17:55:27,969 - root - INFO - swing_strategy_open_long for scale 5Min stock ELBM
-2025-10-08 17:55:27,978 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:55:27,978 - root - INFO - Time since last close for ELBM is None minutes, net percent 0
-2025-10-08 17:55:28,122 - root - INFO - Last 20 minutes volume is low for ELBM: 20748
-2025-10-08 17:55:28,123 - root - INFO - swing_strategy_open_long for scale 5Min stock BLBX
-2025-10-08 17:55:28,137 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:55:28,137 - root - INFO - Time since last close for BLBX is None minutes, net percent 0
-2025-10-08 17:55:28,167 - root - INFO - Last 20 minutes volume is low for BLBX: 43075
-2025-10-08 17:55:28,167 - root - INFO - swing_strategy_open_long for scale 5Min stock SLNH
-2025-10-08 17:55:28,181 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:55:28,181 - root - INFO - Time since last close for SLNH is None minutes, net percent 0
-2025-10-08 17:55:28,344 - root - INFO - Last 5 minutes maximum volume candle is red for SLNH
-2025-10-08 17:55:28,419 - root - INFO - ALready an open order
-2025-10-08 17:55:28,419 - root - INFO - ALready an open order
-2025-10-08 17:55:28,419 - root - INFO - ALready an open order
-2025-10-08 17:55:28,419 - root - INFO - ALready an open order
-2025-10-08 17:55:43,455 - root - INFO - Real mode: Today's profit so far: 648.5599750000001
-2025-10-08 17:55:43,478 - root - INFO - Running real_trade for all top movers
-2025-10-08 17:55:43,525 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-08 17:55:43,536 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:55:43,536 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-08 17:55:43,566 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-08 17:55:43,619 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 17:55:43,620 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
-2025-10-08 17:55:43,636 - root - INFO - Time since last close for MSN is 453.62726495 minutes, net percent 12.016
-2025-10-08 17:55:43,713 - root - INFO - Last 5 minutes maximum volume candle is red for MSN
-2025-10-08 17:55:43,714 - root - INFO - swing_strategy_open_long for scale 5Min stock ELBM
-2025-10-08 17:55:43,725 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:55:43,725 - root - INFO - Time since last close for ELBM is None minutes, net percent 0
-2025-10-08 17:55:43,839 - root - INFO - Last 20 minutes volume is low for ELBM: 20748
-2025-10-08 17:55:43,840 - root - INFO - swing_strategy_open_long for scale 5Min stock BLBX
-2025-10-08 17:55:43,852 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:55:43,853 - root - INFO - Time since last close for BLBX is None minutes, net percent 0
-2025-10-08 17:55:43,882 - root - INFO - Last 20 minutes volume is low for BLBX: 43075
-2025-10-08 17:55:43,883 - root - INFO - swing_strategy_open_long for scale 5Min stock SLNH
-2025-10-08 17:55:43,898 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:55:43,898 - root - INFO - Time since last close for SLNH is None minutes, net percent 0
-2025-10-08 17:55:44,058 - root - INFO - Last 5 minutes maximum volume candle is red for SLNH
-2025-10-08 17:55:44,127 - root - INFO - ALready an open order
-2025-10-08 17:55:44,127 - root - INFO - ALready an open order
-2025-10-08 17:55:44,127 - root - INFO - ALready an open order
-2025-10-08 17:55:44,127 - root - INFO - ALready an open order
-2025-10-08 17:55:59,167 - root - INFO - Real mode: Today's profit so far: 648.5599750000001
-2025-10-08 17:55:59,193 - root - INFO - Running real_trade for all top movers
-2025-10-08 17:55:59,231 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-08 17:55:59,239 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:55:59,240 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-08 17:55:59,266 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-08 17:55:59,309 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 17:55:59,310 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
-2025-10-08 17:55:59,321 - root - INFO - Time since last close for MSN is 453.88869075 minutes, net percent 12.016
-2025-10-08 17:55:59,395 - root - INFO - Last 5 minutes maximum volume candle is red for MSN
-2025-10-08 17:55:59,396 - root - INFO - swing_strategy_open_long for scale 5Min stock ELBM
-2025-10-08 17:55:59,406 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:55:59,406 - root - INFO - Time since last close for ELBM is None minutes, net percent 0
-2025-10-08 17:55:59,526 - root - INFO - Last 20 minutes volume is low for ELBM: 20748
-2025-10-08 17:55:59,527 - root - INFO - swing_strategy_open_long for scale 5Min stock BLBX
-2025-10-08 17:55:59,537 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:55:59,537 - root - INFO - Time since last close for BLBX is None minutes, net percent 0
-2025-10-08 17:55:59,567 - root - INFO - Last 20 minutes volume is low for BLBX: 43075
-2025-10-08 17:55:59,568 - root - INFO - swing_strategy_open_long for scale 5Min stock SLNH
-2025-10-08 17:55:59,577 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:55:59,577 - root - INFO - Time since last close for SLNH is None minutes, net percent 0
-2025-10-08 17:55:59,734 - root - INFO - Last 5 minutes maximum volume candle is red for SLNH
-2025-10-08 17:55:59,807 - root - INFO - ALready an open order
-2025-10-08 17:55:59,808 - root - INFO - ALready an open order
-2025-10-08 17:55:59,808 - root - INFO - ALready an open order
-2025-10-08 17:55:59,808 - root - INFO - ALready an open order
-2025-10-08 17:56:02,023 - root - INFO - Real mode: Today's profit so far: 648.5599750000001
-2025-10-08 17:56:02,047 - root - INFO - ('2025-10-08T19:40:00-04:00', '2025-10-08T19:40:00-04:00', '2025-10-01T09:30:00-04:00', '2025-10-08T19:40:00-04:00')
-2025-10-08 17:56:02,047 - root - INFO - Screening stocks | Start: 2025-10-01T09:30:00-04:00 | End: 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:02,075 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:02,163 - root - INFO -  MACD calculation for ABCL due to high change percent: 10.2253
-2025-10-08 17:56:02,378 - root - INFO -  MACD calculation for ACXP due to high change percent: 83.9161
-2025-10-08 17:56:02,470 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:02,576 - root - INFO -  MACD calculation for AG due to high change percent: 11.5831
-2025-10-08 17:56:02,798 - root - INFO -  MACD calculation for AMBO due to high change percent: 125.695
-2025-10-08 17:56:02,883 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:03,117 - root - INFO -  MACD calculation for ARBE due to high change percent: 20.0873
-2025-10-08 17:56:03,270 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:03,545 - root - INFO -  MACD calculation for ATYR due to high change percent: 14.7913
-2025-10-08 17:56:03,595 - root - INFO - MACD not positive for ATYR
-2025-10-08 17:56:03,595 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:03,677 - root - INFO -  MACD calculation for BAOS due to high change percent: 29.9703
-2025-10-08 17:56:03,761 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:03,861 - root - INFO -  MACD calculation for BITF due to high change percent: 16.4265
-2025-10-08 17:56:03,934 - root - INFO - MACD not positive for BITF
-2025-10-08 17:56:04,027 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:04,208 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:04,391 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:04,525 - root - INFO -  MACD calculation for CIFR due to high change percent: 18.2203
-2025-10-08 17:56:04,779 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:05,010 - root - INFO -  MACD calculation for CRML due to high change percent: 16.9661
-2025-10-08 17:56:05,065 - root - INFO - MACD not positive for CRML
-2025-10-08 17:56:05,066 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:05,150 - root - INFO -  MACD calculation for CUE due to high change percent: 11.4833
-2025-10-08 17:56:05,180 - root - INFO - MACD not positive for CUE
-2025-10-08 17:56:05,228 - root - INFO -  MACD calculation for CXAI due to high change percent: 11.881
-2025-10-08 17:56:05,482 - root - INFO -  MACD calculation for DFDV due to high change percent: 14.4262
-2025-10-08 17:56:05,537 - root - INFO - MACD not positive for DFDV
-2025-10-08 17:56:05,538 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:05,717 - root - INFO -  MACD calculation for DUO due to high change percent: 12.0
-2025-10-08 17:56:05,757 - root - INFO - MACD not positive for DUO
-2025-10-08 17:56:05,808 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:05,839 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:06,020 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:06,159 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:06,248 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:06,428 - root - INFO -  MACD calculation for GIGGW due to high change percent: 82.2323
-2025-10-08 17:56:06,526 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:06,703 - root - INFO -  MACD calculation for GSRT due to high change percent: 28.5
-2025-10-08 17:56:06,749 - root - INFO - MACD not positive for GSRT
-2025-10-08 17:56:06,798 - root - INFO -  MACD calculation for GTBP due to high change percent: 31.7148
-2025-10-08 17:56:06,830 - root - INFO - MACD not positive for GTBP
-2025-10-08 17:56:06,879 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:06,981 - root - INFO -  MACD calculation for HBM due to high change percent: 10.513
-2025-10-08 17:56:07,084 - root - INFO -  MACD calculation for HCTI due to high change percent: 22.8261
-2025-10-08 17:56:07,234 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:07,324 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:07,468 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:07,656 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:07,937 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:08,077 - root - INFO -  MACD calculation for LPTX due to high change percent: 14.9425
-2025-10-08 17:56:08,143 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:08,291 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:08,373 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:08,462 - root - INFO -  MACD calculation for MSN due to high change percent: 50.4693
-2025-10-08 17:56:08,600 - root - INFO -  MACD calculation for NAOV due to high change percent: 18.7908
-2025-10-08 17:56:08,633 - root - INFO - MACD not positive for NAOV
-2025-10-08 17:56:08,633 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:08,862 - root - INFO -  MACD calculation for NMG due to high change percent: 15.8576
-2025-10-08 17:56:08,899 - root - INFO - MACD not positive for NMG
-2025-10-08 17:56:08,900 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:09,083 - root - INFO -  MACD calculation for NXL due to high change percent: 67.3417
-2025-10-08 17:56:09,120 - root - INFO - MACD not positive for NXL
-2025-10-08 17:56:09,120 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:09,355 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:09,532 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:09,617 - root - INFO -  MACD calculation for PLG due to high change percent: 14.6703
-2025-10-08 17:56:09,788 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:09,877 - root - INFO -  MACD calculation for POET due to high change percent: 20.6853
-2025-10-08 17:56:09,937 - root - INFO - MACD not positive for POET
-2025-10-08 17:56:10,034 - root - INFO -  MACD calculation for PSNL due to high change percent: 16.2483
-2025-10-08 17:56:10,324 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:10,655 - root - INFO -  MACD calculation for RELL due to high change percent: 28.252
-2025-10-08 17:56:10,684 - root - INFO - MACD not positive for RELL
-2025-10-08 17:56:10,685 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:10,961 - root - INFO -  MACD calculation for RXRX due to high change percent: 16.1568
-2025-10-08 17:56:11,121 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:11,253 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:11,435 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:11,614 - root - INFO -  MACD calculation for SRFM due to high change percent: 12.5253
-2025-10-08 17:56:11,728 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:11,908 - root - INFO -  MACD calculation for TAOP due to high change percent: 26.129
-2025-10-08 17:56:11,948 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:12,188 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:12,317 - root - INFO -  MACD calculation for TRX due to high change percent: 28.3266
-2025-10-08 17:56:12,510 - root - INFO -  MACD calculation for UAMY due to high change percent: 11.4644
-2025-10-08 17:56:12,712 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:12,980 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:13,063 - root - INFO -  MACD calculation for VTAK due to high change percent: 21.9608
-2025-10-08 17:56:13,089 - root - INFO - MACD not positive for VTAK
-2025-10-08 17:56:13,231 - root - INFO -  MACD calculation for WOLF due to high change percent: 17.4597
-2025-10-08 17:56:13,272 - root - INFO - MACD not positive for WOLF
-2025-10-08 17:56:13,272 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:13,411 - root - INFO -  MACD calculation for XBIO due to high change percent: 137.296
-2025-10-08 17:56:13,440 - root - INFO - MACD not positive for XBIO
-2025-10-08 17:56:13,480 - root - INFO - FIND stocks Change percent for XTLB: 38.5714
-2025-10-08 17:56:13,480 - root - INFO - XTLB change_percent from DB: 38.5714
-2025-10-08 17:56:13,490 - root - INFO -  MACD calculation for XTLB due to high change percent: 38.5714
-2025-10-08 17:56:13,518 - root - INFO - MACD not positive for XTLB
-2025-10-08 17:56:13,618 - root - INFO -  update_current_price: start time 2025-10-08T17:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:56:13,690 - root - INFO - Updating change percent of stocks
-2025-10-08 17:56:14,357 - root - INFO - XTLB change_percent from DB: 37.85714285714286
-2025-10-08 17:56:14,365 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-08 17:56:14,835 - root - INFO - Real mode: Today's profit so far: 648.599975000001
-2025-10-08 17:56:14,853 - root - INFO - Running real_trade for all top movers
-2025-10-08 17:56:14,890 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-08 17:56:14,900 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:56:14,900 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-08 17:56:14,925 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-08 17:56:14,974 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 17:56:14,975 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 17:56:14,983 - root - INFO - Time since last close for ACXP is 91.6497219 minutes, net percent -1.07958
-2025-10-08 17:56:15,062 - root - INFO - Last 20 minutes volume is low for ACXP: 21346
-2025-10-08 17:56:15,063 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
-2025-10-08 17:56:15,072 - root - INFO - Time since last close for MSN is 454.1512148333333 minutes, net percent 12.016
-2025-10-08 17:56:15,127 - root - INFO - Last 5 minutes maximum volume candle is red for MSN
-2025-10-08 17:56:15,129 - root - INFO - swing_strategy_open_long for scale 5Min stock ELBM
-2025-10-08 17:56:15,142 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:56:15,142 - root - INFO - Time since last close for ELBM is None minutes, net percent 0
-2025-10-08 17:56:15,254 - root - INFO - Last 20 minutes volume is low for ELBM: 20748
-2025-10-08 17:56:15,255 - root - INFO - swing_strategy_open_long for scale 5Min stock BLBX
-2025-10-08 17:56:15,264 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:56:15,264 - root - INFO - Time since last close for BLBX is None minutes, net percent 0
-2025-10-08 17:56:15,296 - root - INFO - Last 20 minutes volume is low for BLBX: 43075
-2025-10-08 17:56:15,370 - root - INFO - ALready an open order
-2025-10-08 17:56:15,370 - root - INFO - ALready an open order
-2025-10-08 17:56:15,370 - root - INFO - ALready an open order
-2025-10-08 17:56:15,370 - root - INFO - ALready an open order
-2025-10-08 17:56:30,411 - root - INFO - Real mode: Today's profit so far: 644.1599749999987
-2025-10-08 17:56:30,433 - root - INFO - Running real_trade for all top movers
-2025-10-08 17:56:30,474 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-08 17:56:30,486 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:56:30,486 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-08 17:56:30,515 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-08 17:56:30,568 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 17:56:30,569 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 17:56:30,578 - root - INFO - Time since last close for ACXP is 91.90964564999999 minutes, net percent -1.07958
-2025-10-08 17:56:30,658 - root - INFO - Last 20 minutes volume is low for ACXP: 21346
-2025-10-08 17:56:30,659 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
-2025-10-08 17:56:30,668 - root - INFO - Time since last close for MSN is 454.4111445 minutes, net percent 12.016
-2025-10-08 17:56:30,731 - root - INFO - Last 5 minutes maximum volume candle is red for MSN
-2025-10-08 17:56:30,732 - root - INFO - swing_strategy_open_long for scale 5Min stock ELBM
-2025-10-08 17:56:30,742 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:56:30,742 - root - INFO - Time since last close for ELBM is None minutes, net percent 0
-2025-10-08 17:56:30,846 - root - INFO - Last 20 minutes volume is low for ELBM: 20748
-2025-10-08 17:56:30,847 - root - INFO - swing_strategy_open_long for scale 5Min stock BLBX
-2025-10-08 17:56:30,857 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:56:30,857 - root - INFO - Time since last close for BLBX is None minutes, net percent 0
-2025-10-08 17:56:30,886 - root - INFO - Last 20 minutes volume is low for BLBX: 43075
-2025-10-08 17:56:30,956 - root - INFO - ALready an open order
-2025-10-08 17:56:30,957 - root - INFO - ALready an open order
-2025-10-08 17:56:30,957 - root - INFO - ALready an open order
-2025-10-08 17:56:30,957 - root - INFO - ALready an open order
-2025-10-08 17:56:45,992 - root - INFO - Real mode: Today's profit so far: 644.1699750000007
-2025-10-08 17:56:46,013 - root - INFO - Running real_trade for all top movers
-2025-10-08 17:56:46,054 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-08 17:56:46,068 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:56:46,068 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-08 17:56:46,094 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-08 17:56:46,095 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 17:56:46,105 - root - INFO - Time since last close for ACXP is 92.1684267 minutes, net percent -1.07958
-2025-10-08 17:56:46,183 - root - INFO - Last 20 minutes volume is low for ACXP: 21346
-2025-10-08 17:56:46,184 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
-2025-10-08 17:56:46,195 - root - INFO - Time since last close for MSN is 454.66992151666665 minutes, net percent 12.016
-2025-10-08 17:56:46,259 - root - INFO - Last 5 minutes maximum volume candle is red for MSN
-2025-10-08 17:56:46,259 - root - INFO - swing_strategy_open_long for scale 5Min stock ELBM
-2025-10-08 17:56:46,269 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:56:46,269 - root - INFO - Time since last close for ELBM is None minutes, net percent 0
-2025-10-08 17:56:46,393 - root - INFO - Last 20 minutes volume is low for ELBM: 20748
-2025-10-08 17:56:46,394 - root - INFO - swing_strategy_open_long for scale 5Min stock BLBX
-2025-10-08 17:56:46,404 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:56:46,404 - root - INFO - Time since last close for BLBX is None minutes, net percent 0
-2025-10-08 17:56:46,435 - root - INFO - Last 20 minutes volume is low for BLBX: 37492
-2025-10-08 17:56:46,509 - root - INFO - ALready an open order
-2025-10-08 17:56:46,509 - root - INFO - ALready an open order
-2025-10-08 17:56:46,509 - root - INFO - ALready an open order
-2025-10-08 17:56:46,509 - root - INFO - ALready an open order
-2025-10-08 17:57:01,552 - root - INFO - Real mode: Today's profit so far: 644.1799749999991
-2025-10-08 17:57:01,576 - root - INFO - Running real_trade for all top movers
-2025-10-08 17:57:01,623 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-08 17:57:01,635 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:57:01,635 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-08 17:57:01,661 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-08 17:57:01,662 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 17:57:01,672 - root - INFO - Time since last close for ACXP is 92.42787948333333 minutes, net percent -1.07958
-2025-10-08 17:57:01,758 - root - INFO - Last 20 minutes volume is low for ACXP: 21346
-2025-10-08 17:57:01,759 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
-2025-10-08 17:57:01,769 - root - INFO - Time since last close for MSN is 454.9294903666667 minutes, net percent 12.016
-2025-10-08 17:57:01,830 - root - INFO - Last 5 minutes maximum volume candle is red for MSN
-2025-10-08 17:57:01,831 - root - INFO - swing_strategy_open_long for scale 5Min stock ELBM
-2025-10-08 17:57:01,844 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:57:01,844 - root - INFO - Time since last close for ELBM is None minutes, net percent 0
-2025-10-08 17:57:02,035 - root - INFO - Last 20 minutes volume is low for ELBM: 20748
-2025-10-08 17:57:02,035 - root - INFO - swing_strategy_open_long for scale 5Min stock BLBX
-2025-10-08 17:57:02,049 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 17:57:02,049 - root - INFO - Time since last close for BLBX is None minutes, net percent 0
-2025-10-08 17:57:02,084 - root - INFO - Last 20 minutes volume is low for BLBX: 37492
-2025-10-08 17:57:02,153 - root - INFO - ALready an open order
-2025-10-08 17:57:02,153 - root - INFO - ALready an open order
-2025-10-08 17:57:02,153 - root - INFO - ALready an open order
-2025-10-08 17:57:02,153 - root - INFO - ALready an open order
-2025-10-08 17:57:14,416 - root - INFO - Real mode: Today's profit so far: 644.2099750000016
-2025-10-08 17:57:14,443 - root - INFO - ('2025-10-08T19:40:00-04:00', '2025-10-08T19:40:00-04:00', '2025-10-01T09:30:00-04:00', '2025-10-08T19:40:00-04:00')
-2025-10-08 17:57:14,443 - root - INFO - Screening stocks | Start: 2025-10-01T09:30:00-04:00 | End: 2025-10-08T19:40:00-04:00
-2025-10-08 17:57:14,479 - root - INFO -  update_current_price: start time 2025-10-08T17:52:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:57:14,613 - root - INFO -  MACD calculation for ABVE due to high change percent: 28.9398
-2025-10-08 17:57:14,811 - root - INFO -  update_current_price: start time 2025-10-08T17:52:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:57:14,906 - root - INFO -  MACD calculation for AG due to high change percent: 11.5839
-2025-10-08 17:57:14,964 - root - INFO - MACD not positive for AG
-2025-10-08 17:57:15,354 - root - INFO -  MACD calculation for AMBO due to high change percent: 130.209
-2025-10-08 17:57:15,538 - root - INFO -  update_current_price: start time 2025-10-08T17:52:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:57:15,694 - root - INFO -  update_current_price: start time 2025-10-08T17:52:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:57:15,853 - root - INFO -  MACD calculation for ATYR due to high change percent: 14.4804
-2025-10-08 17:57:15,907 - root - INFO - MACD not positive for ATYR
-2025-10-08 17:57:15,907 - root - INFO -  update_current_price: start time 2025-10-08T17:52:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:57:15,999 - root - INFO -  MACD calculation for BAOS due to high change percent: 29.9852
-2025-10-08 17:57:16,146 - root - INFO -  update_current_price: start time 2025-10-08T17:52:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:57:16,241 - root - INFO -  MACD calculation for BITF due to high change percent: 16.4265
-2025-10-08 17:57:16,314 - root - INFO - MACD not positive for BITF
-2025-10-08 17:57:16,397 - root - INFO -  MACD calculation for BLBX due to high change percent: 32.0801
-2025-10-08 17:57:16,509 - root - INFO -  update_current_price: start time 2025-10-08T17:52:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:57:16,702 - root - INFO -  update_current_price: start time 2025-10-08T17:52:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:57:16,774 - root - INFO -  MACD calculation for CDE due to high change percent: 11.5834
-2025-10-08 17:57:16,813 - root - INFO - MACD not positive for CDE
-2025-10-08 17:57:16,887 - root - INFO -  update_current_price: start time 2025-10-08T17:52:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:57:16,965 - root - INFO -  MACD calculation for CIFR due to high change percent: 18.3492
-2025-10-08 17:57:17,132 - root - INFO -  update_current_price: start time 2025-10-08T17:52:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 17:57:17,176 - root - INFO - Real mode: Today's profit so far: 644.1899750000011
-2025-10-08 17:57:17,192 - root - INFO - Running real_trade for all top movers
+2025-10-08 17:59:59,729 - root - INFO -  MACD calculation for SNTG due to high change percent: 18.3007
+2025-10-08 17:59:59,842 - root - INFO -  update_current_price: start time 2025-10-08T17:54:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:00:00,242 - root - INFO -  MACD calculation for SRFM due to high change percent: 13.1313
+2025-10-08 18:00:00,443 - root - INFO -  update_current_price: start time 2025-10-08T17:55:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:00:00,594 - root - INFO -  MACD calculation for TANH due to high change percent: 14.6067
+2025-10-08 18:00:00,699 - root - INFO -  MACD calculation for TAOP due to high change percent: 26.4516
+2025-10-08 18:00:00,873 - root - INFO -  MACD calculation for TCRT due to high change percent: 18.3333
+2025-10-08 18:00:00,902 - root - INFO - MACD not positive for TCRT
+2025-10-08 18:00:00,960 - root - INFO -  update_current_price: start time 2025-10-08T17:55:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:00:01,361 - root - INFO -  update_current_price: start time 2025-10-08T17:55:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:00:01,594 - root - INFO -  MACD calculation for UAMY due to high change percent: 11.4897
+2025-10-08 18:00:01,730 - root - INFO -  update_current_price: start time 2025-10-08T17:55:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:00:02,022 - root - INFO -  update_current_price: start time 2025-10-08T17:55:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:00:02,114 - root - INFO -  MACD calculation for VTAK due to high change percent: 18.4314
+2025-10-08 18:00:02,144 - root - INFO - MACD not positive for VTAK
+2025-10-08 18:00:02,259 - root - INFO -  MACD calculation for WRD due to high change percent: 12.2172
+2025-10-08 18:00:02,321 - root - INFO - MACD not positive for WRD
+2025-10-08 18:00:02,385 - root - INFO -  update_current_price: start time 2025-10-08T17:55:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:00:02,545 - root - INFO -  MACD calculation for XAIR due to high change percent: 14.3443
+2025-10-08 18:00:02,577 - root - INFO - MACD not positive for XAIR
+2025-10-08 18:00:02,637 - root - INFO -  MACD calculation for XBIO due to high change percent: 136.83
+2025-10-08 18:00:02,667 - root - INFO - MACD not positive for XBIO
+2025-10-08 18:00:02,731 - root - INFO -  MACD calculation for XCUR due to high change percent: 18.3295
+2025-10-08 18:00:02,757 - root - INFO - MACD not positive for XCUR
+2025-10-08 18:00:02,946 - root - INFO - FIND stocks Change percent for XTLB: 38.5714
+2025-10-08 18:00:02,946 - root - INFO - XTLB change_percent from DB: 38.5714
+2025-10-08 18:00:02,958 - root - INFO -  MACD calculation for XTLB due to high change percent: 38.5714
+2025-10-08 18:00:02,990 - root - INFO - MACD not positive for XTLB
+2025-10-08 18:00:03,189 - root - INFO -  update_current_price: start time 2025-10-08T17:55:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:00:03,264 - root - INFO - Updating change percent of stocks
+2025-10-08 18:00:03,936 - root - INFO - XTLB change_percent from DB: 37.142857142857146
+2025-10-08 18:00:03,944 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-08 18:00:09,162 - root - INFO - Real mode: Today's profit so far: 622.1199750000014
+2025-10-08 18:00:09,185 - root - INFO - Running real_trade for all top movers
+2025-10-08 18:00:09,234 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-08 18:00:09,245 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:00:09,245 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-08 18:00:09,271 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
+2025-10-08 18:00:09,272 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 18:00:09,282 - root - INFO - Time since last close for ACXP is 95.5547115 minutes, net percent -1.07958
+2025-10-08 18:00:09,356 - root - INFO - Last 20 minutes volume is low for ACXP: 21957
+2025-10-08 18:00:09,357 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
+2025-10-08 18:00:09,368 - root - INFO - Time since last close for MSN is 458.05614415 minutes, net percent 12.016
+2025-10-08 18:00:09,424 - root - INFO - Last 5 minutes maximum volume candle is green for MSN
+2025-10-08 18:00:09,476 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-08 18:00:09,476 - root - INFO - MSN:======= 0.94===>BUY========>TrendUp520677
+2025-10-08 18:00:09,498 - root - WARNING - ***** stock is already in the positions
+2025-10-08 18:00:09,499 - root - INFO - swing_strategy_open_long for scale 5Min stock ELBM
+2025-10-08 18:00:09,509 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:00:09,510 - root - INFO - Time since last close for ELBM is None minutes, net percent 0
+2025-10-08 18:00:09,627 - root - INFO - Last 20 minutes volume is low for ELBM: 20748
+2025-10-08 18:00:09,629 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-08 18:00:09,638 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:00:09,638 - root - INFO - Time since last close for BAOS is None minutes, net percent 0
+2025-10-08 18:00:09,664 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-08 18:00:09,689 - root - INFO - 1min candle is not positive for BAOS: open 4.55 close 4.55
+2025-10-08 18:00:09,785 - root - INFO - swing_strategy_close_long for scale 5Min stock MSN
+2025-10-08 18:00:09,858 - root - INFO - Profit percent for MSN is 0.0
+2025-10-08 18:00:09,858 - root - INFO - Latest 1min close price for MSN: 0.94
+2025-10-08 18:00:09,881 - root - INFO - High price DETECTED for MSN is 0.77 and setting no_scalp to True
+2025-10-08 18:00:09,906 - root - INFO - Skipping SCALP for MSN as it's in no_scalp list
+2025-10-08 18:00:09,915 - root - WARNING - Skipping NAOV: invalid strategy format (None)
+2025-10-08 18:00:09,916 - root - INFO - swing_strategy_close_long for scale 5Min stock NAOV
+2025-10-08 18:00:09,967 - root - INFO - Profit percent for NAOV is 0
+2025-10-08 18:00:09,967 - root - INFO - Latest 1min close price for NAOV: 7.27
+2025-10-08 18:00:10,052 - root - INFO - Closing TrendUp long: price below EMAs or MACD below signal{price_below_emas=True, macd_below_signal=True}
+2025-10-08 18:00:10,053 - root - INFO - NAOV:====== 7.27=========>SELL========>TrendUpExit
+2025-10-08 18:00:10,053 - root - INFO - ******************** CLOSE by SOLD stock:NAOV
+2025-10-08 18:00:10,184 - root - INFO - swing_strategy_close_long for scale 5Min stock PALI
+2025-10-08 18:00:10,455 - root - INFO - Profit percent for PALI is -0.00446429
+2025-10-08 18:00:10,455 - root - INFO - Latest 1min close price for PALI: 2.0601
+2025-10-08 18:00:10,562 - root - INFO - Closing TrendUp long: price below EMAs or MACD below signal{price_below_emas=True, macd_below_signal=True}
+2025-10-08 18:00:10,563 - root - INFO - PALI:====== 2.0601=========>SELL========>TrendUpExit
+2025-10-08 18:00:10,563 - root - INFO - ******************** CLOSE by SOLD stock:PALI
+2025-10-08 18:00:10,680 - root - INFO - swing_strategy_close_long for scale 5Min stock RELL
+2025-10-08 18:00:10,718 - root - INFO - Profit percent for RELL is -4.23994
+2025-10-08 18:00:10,718 - root - INFO - Latest 1min close price for RELL: 12.62
+2025-10-08 18:00:10,800 - root - INFO - Closing TrendUp long: price below EMAs or MACD below signal{price_below_emas=False, macd_below_signal=True}
+2025-10-08 18:00:10,800 - root - INFO - RELL:====== 12.62=========>SELL========>TrendUpExit
+2025-10-08 18:00:10,800 - root - INFO - ******************** CLOSE by SOLD stock:RELL
+2025-10-08 18:00:25,952 - root - INFO - Real mode: Today's profit so far: 623.4499749999995
+2025-10-08 18:00:25,974 - root - INFO - Running real_trade for all top movers
+2025-10-08 18:00:26,025 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-08 18:00:26,039 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:00:26,039 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-08 18:00:26,066 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
+2025-10-08 18:00:26,066 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 18:00:26,080 - root - INFO - Time since last close for ACXP is 95.83466366666667 minutes, net percent -1.07958
+2025-10-08 18:00:26,161 - root - INFO - Last 20 minutes volume is low for ACXP: 21957
+2025-10-08 18:00:26,162 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
+2025-10-08 18:00:26,176 - root - INFO - Time since last close for MSN is 458.3362779333333 minutes, net percent 12.016
+2025-10-08 18:00:26,247 - root - INFO - Last 5 minutes maximum volume candle is green for MSN
+2025-10-08 18:00:26,310 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-08 18:00:26,311 - root - INFO - MSN:======= 0.94===>BUY========>TrendUp520677
+2025-10-08 18:00:26,333 - root - WARNING - ***** stock is already in the positions
+2025-10-08 18:00:26,334 - root - INFO - swing_strategy_open_long for scale 5Min stock ELBM
+2025-10-08 18:00:26,346 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:00:26,347 - root - INFO - Time since last close for ELBM is None minutes, net percent 0
+2025-10-08 18:00:26,466 - root - INFO - Last 20 minutes volume is low for ELBM: 20748
+2025-10-08 18:00:26,467 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-08 18:00:26,478 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:00:26,478 - root - INFO - Time since last close for BAOS is None minutes, net percent 0
+2025-10-08 18:00:26,503 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-08 18:00:26,526 - root - INFO - 1min candle is not positive for BAOS: open 4.55 close 4.55
+2025-10-08 18:00:26,630 - root - INFO - swing_strategy_close_long for scale 5Min stock MSN
+2025-10-08 18:00:26,702 - root - INFO - Profit percent for MSN is 16.8831
+2025-10-08 18:00:26,703 - root - INFO - Latest 1min close price for MSN: 0.94
+2025-10-08 18:00:26,778 - root - INFO - MACD is still rising for stock MSN
+2025-10-08 18:00:26,778 - root - INFO - Sufficient profit percent to scalp for MSN: 16.8831
+2025-10-08 18:00:26,779 - root - INFO - MSN:====== 0.94=========>SELL========>SCALP_PROFIT
+2025-10-08 18:00:26,779 - root - INFO - ******************** CLOSE by SOLD stock:MSN
+2025-10-08 18:00:41,920 - root - INFO - Real mode: Today's profit so far: 623.4299749999991
+2025-10-08 18:00:41,941 - root - INFO - Running real_trade for all top movers
+2025-10-08 18:00:41,988 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-08 18:00:41,999 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:00:42,000 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-08 18:00:42,026 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
+2025-10-08 18:00:42,027 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 18:00:42,038 - root - INFO - Time since last close for ACXP is 96.10063061666666 minutes, net percent -1.07958
+2025-10-08 18:00:42,125 - root - INFO - Last 20 minutes volume is low for ACXP: 21957
+2025-10-08 18:00:42,126 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
+2025-10-08 18:00:42,138 - root - INFO - Time since last close for MSN is 0.53564195 minutes, net percent 10.3896
+2025-10-08 18:00:42,138 - root - INFO - ***** stock: MSN Scale: 5Min Time since last close: 0 minutes
+2025-10-08 18:00:42,139 - root - INFO - swing_strategy_open_long for scale 5Min stock ELBM
+2025-10-08 18:00:42,153 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:00:42,153 - root - INFO - Time since last close for ELBM is None minutes, net percent 0
+2025-10-08 18:00:42,269 - root - INFO - Last 20 minutes volume is low for ELBM: 20748
+2025-10-08 18:00:42,270 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-08 18:00:42,280 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:00:42,280 - root - INFO - Time since last close for BAOS is None minutes, net percent 0
+2025-10-08 18:00:42,308 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-08 18:00:42,328 - root - INFO - 1min candle is not positive for BAOS: open 4.55 close 4.55
+2025-10-08 18:00:42,419 - root - INFO - ALready an open order
+2025-10-08 18:00:57,458 - root - INFO - Real mode: Today's profit so far: 623.4599750000016
+2025-10-08 18:00:57,480 - root - INFO - Running real_trade for all top movers
+2025-10-08 18:00:57,525 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-08 18:00:57,536 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:00:57,536 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-08 18:00:57,563 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
+2025-10-08 18:00:57,564 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 18:00:57,574 - root - INFO - Time since last close for ACXP is 96.35957631666666 minutes, net percent -1.07958
+2025-10-08 18:00:57,661 - root - INFO - Last 20 minutes volume is low for ACXP: 21019
+2025-10-08 18:00:57,662 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
+2025-10-08 18:00:57,677 - root - INFO - Time since last close for MSN is 0.79461665 minutes, net percent 10.3896
+2025-10-08 18:00:57,677 - root - INFO - ***** stock: MSN Scale: 5Min Time since last close: 0 minutes
+2025-10-08 18:00:57,677 - root - INFO - swing_strategy_open_long for scale 5Min stock ELBM
+2025-10-08 18:00:57,689 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:00:57,689 - root - INFO - Time since last close for ELBM is None minutes, net percent 0
+2025-10-08 18:00:57,805 - root - INFO - Last 20 minutes volume is low for ELBM: 20748
+2025-10-08 18:00:57,806 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-08 18:00:57,819 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:00:57,819 - root - INFO - Time since last close for BAOS is None minutes, net percent 0
+2025-10-08 18:00:57,845 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-08 18:00:57,865 - root - INFO - 1min candle is not positive for BAOS: open 4.55 close 4.47
+2025-10-08 18:00:57,957 - root - INFO - ALready an open order
+2025-10-08 18:01:04,047 - root - INFO - Real mode: Today's profit so far: 623.4599750000016
+2025-10-08 18:01:04,072 - root - INFO - ('2025-10-08T19:40:00-04:00', '2025-10-08T19:40:00-04:00', '2025-10-01T09:30:00-04:00', '2025-10-08T19:40:00-04:00')
+2025-10-08 18:01:04,073 - root - INFO - Screening stocks | Start: 2025-10-01T09:30:00-04:00 | End: 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:04,099 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:04,261 - root - INFO -  MACD calculation for ABVE due to high change percent: 31.8052
+2025-10-08 18:01:04,466 - root - INFO -  MACD calculation for ACXP due to high change percent: 84.8485
+2025-10-08 18:01:04,621 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:04,722 - root - INFO -  MACD calculation for AG due to high change percent: 11.5831
+2025-10-08 18:01:04,770 - root - INFO - MACD not positive for AG
+2025-10-08 18:01:04,834 - root - INFO -  MACD calculation for AMBO due to high change percent: 121.746
+2025-10-08 18:01:04,928 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:05,022 - root - INFO -  MACD calculation for ARBE due to high change percent: 20.0873
+2025-10-08 18:01:05,131 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:05,411 - root - INFO -  MACD calculation for ATYR due to high change percent: 14.4924
+2025-10-08 18:01:05,466 - root - INFO - MACD not positive for ATYR
+2025-10-08 18:01:05,529 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:05,617 - root - INFO -  MACD calculation for BAOS due to high change percent: 35.0148
+2025-10-08 18:01:05,641 - root - INFO - MACD not positive for BAOS
+2025-10-08 18:01:05,819 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:05,916 - root - INFO -  MACD calculation for BIAF due to high change percent: 21.6327
+2025-10-08 18:01:06,042 - root - INFO -  MACD calculation for BITF due to high change percent: 16.4265
+2025-10-08 18:01:06,117 - root - INFO - MACD not positive for BITF
+2025-10-08 18:01:06,160 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:06,470 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:06,615 - root - INFO -  MACD calculation for CDE due to high change percent: 11.6897
+2025-10-08 18:01:06,663 - root - INFO - MACD not positive for CDE
+2025-10-08 18:01:06,725 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:06,884 - root - INFO -  MACD calculation for CIFR due to high change percent: 17.9683
+2025-10-08 18:01:07,027 - root - INFO -  MACD calculation for CIIT due to high change percent: 11.5242
+2025-10-08 18:01:07,124 - root - INFO -  MACD calculation for CISO due to high change percent: 10.2804
+2025-10-08 18:01:07,230 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:07,484 - root - INFO -  MACD calculation for CRML due to high change percent: 16.9661
+2025-10-08 18:01:07,550 - root - INFO - MACD not positive for CRML
+2025-10-08 18:01:07,550 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:07,636 - root - INFO -  MACD calculation for DEVS due to high change percent: 18.1435
+2025-10-08 18:01:07,681 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:07,935 - root - INFO -  MACD calculation for DUO due to high change percent: 12.0
+2025-10-08 18:01:08,052 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:08,147 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:08,237 - root - INFO -  MACD calculation for EOSE due to high change percent: 12.6647
+2025-10-08 18:01:08,308 - root - INFO - MACD not positive for EOSE
+2025-10-08 18:01:08,442 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:08,720 - root - INFO -  MACD calculation for FLUX due to high change percent: 10.4723
+2025-10-08 18:01:08,766 - root - INFO - MACD not positive for FLUX
+2025-10-08 18:01:08,767 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:08,929 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:09,016 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:09,232 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:09,321 - root - INFO -  MACD calculation for HCTI due to high change percent: 26.4493
+2025-10-08 18:01:09,506 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:09,585 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:09,744 - root - INFO -  MACD calculation for IMTX due to high change percent: 10.2019
+2025-10-08 18:01:09,796 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:09,956 - root - INFO -  MACD calculation for JFBR due to high change percent: 11.7347
+2025-10-08 18:01:10,064 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:10,391 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:10,490 - root - INFO -  MACD calculation for LGVN due to high change percent: 17.4289
+2025-10-08 18:01:10,529 - root - INFO - MACD not positive for LGVN
+2025-10-08 18:01:10,770 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:10,876 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:11,036 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:11,135 - root - INFO -  MACD calculation for MSN due to high change percent: 69.6751
+2025-10-08 18:01:11,299 - root - INFO -  MACD calculation for NAOV due to high change percent: 18.7908
+2025-10-08 18:01:11,329 - root - INFO - MACD not positive for NAOV
+2025-10-08 18:01:11,330 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:11,484 - root - INFO -  MACD calculation for NERV due to high change percent: 25.2569
+2025-10-08 18:01:11,643 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:11,781 - root - INFO -  MACD calculation for NXL due to high change percent: 66.2758
+2025-10-08 18:01:11,813 - root - INFO - MACD not positive for NXL
+2025-10-08 18:01:11,814 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:12,066 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:12,348 - root - INFO -  MACD calculation for PALI due to high change percent: 22.625
+2025-10-08 18:01:12,443 - root - INFO - MACD not positive for PALI
+2025-10-08 18:01:12,540 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:12,834 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:12,933 - root - INFO -  MACD calculation for POET due to high change percent: 20.4315
+2025-10-08 18:01:12,983 - root - INFO - Real mode: Today's profit so far: 623.4599750000016
+2025-10-08 18:01:12,989 - root - INFO - MACD not positive for POET
+2025-10-08 18:01:13,003 - root - INFO - Running real_trade for all top movers
+2025-10-08 18:01:13,041 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:13,043 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-08 18:01:13,052 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:01:13,052 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-08 18:01:13,079 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
+2025-10-08 18:01:13,080 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 18:01:13,090 - root - INFO - Time since last close for ACXP is 96.61817375000001 minutes, net percent -1.07958
+2025-10-08 18:01:13,162 - root - INFO - Last 20 minutes volume is low for ACXP: 21019
+2025-10-08 18:01:13,163 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
+2025-10-08 18:01:13,172 - root - INFO - Time since last close for MSN is 1.0528646499999998 minutes, net percent 10.3896
+2025-10-08 18:01:13,172 - root - INFO - ***** stock: MSN Scale: 5Min Time since last close: 1 minutes
+2025-10-08 18:01:13,172 - root - INFO - swing_strategy_open_long for scale 5Min stock ELBM
+2025-10-08 18:01:13,180 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:01:13,180 - root - INFO - Time since last close for ELBM is None minutes, net percent 0
+2025-10-08 18:01:13,285 - root - INFO - Last 20 minutes volume is low for ELBM: 20748
+2025-10-08 18:01:13,286 - root - INFO - swing_strategy_open_long for scale 5Min stock SLNH
+2025-10-08 18:01:13,296 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:01:13,296 - root - INFO - Time since last close for SLNH is None minutes, net percent 0
+2025-10-08 18:01:13,310 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:13,445 - root - INFO - Last 5 minutes maximum volume candle is red for SLNH
+2025-10-08 18:01:13,526 - root - INFO - ALready an open order
+2025-10-08 18:01:13,588 - root - INFO -  MACD calculation for RXRX due to high change percent: 16.348
+2025-10-08 18:01:13,755 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:13,912 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:14,010 - root - INFO -  MACD calculation for SIDU due to high change percent: 19.1667
+2025-10-08 18:01:14,060 - root - INFO - MACD not positive for SIDU
+2025-10-08 18:01:14,312 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:14,646 - root - INFO -  MACD calculation for SRFM due to high change percent: 13.1192
+2025-10-08 18:01:14,795 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:14,895 - root - INFO -  MACD calculation for SUGP due to high change percent: 21.7054
+2025-10-08 18:01:14,924 - root - INFO - MACD not positive for SUGP
+2025-10-08 18:01:15,050 - root - INFO -  MACD calculation for TANH due to high change percent: 10.6742
+2025-10-08 18:01:15,159 - root - INFO -  MACD calculation for TAOP due to high change percent: 23.5484
+2025-10-08 18:01:15,333 - root - INFO -  MACD calculation for TCRT due to high change percent: 16.0
+2025-10-08 18:01:15,361 - root - INFO - MACD not positive for TCRT
+2025-10-08 18:01:15,361 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:15,533 - root - INFO -  MACD calculation for THM due to high change percent: 18.1818
+2025-10-08 18:01:15,726 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:15,909 - root - INFO -  MACD calculation for TRX due to high change percent: 28.2134
+2025-10-08 18:01:15,951 - root - INFO - MACD not positive for TRX
+2025-10-08 18:01:16,005 - root - INFO -  MACD calculation for UAMY due to high change percent: 11.3793
+2025-10-08 18:01:16,280 - root - INFO -  MACD calculation for UPC due to high change percent: 38.6847
+2025-10-08 18:01:16,317 - root - INFO - MACD not positive for UPC
+2025-10-08 18:01:16,421 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:16,516 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:16,637 - root - INFO -  MACD calculation for VTAK due to high change percent: 16.4706
+2025-10-08 18:01:16,671 - root - INFO - MACD not positive for VTAK
+2025-10-08 18:01:16,734 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:16,954 - root - INFO -  MACD calculation for XBIO due to high change percent: 139.627
+2025-10-08 18:01:16,992 - root - INFO - MACD not positive for XBIO
+2025-10-08 18:01:17,038 - root - INFO - FIND stocks Change percent for XTLB: 37.1429
+2025-10-08 18:01:17,039 - root - INFO - XTLB change_percent from DB: 37.1429
+2025-10-08 18:01:17,049 - root - INFO -  MACD calculation for XTLB due to high change percent: 37.1429
+2025-10-08 18:01:17,084 - root - INFO - MACD not positive for XTLB
+2025-10-08 18:01:17,297 - root - INFO -  update_current_price: start time 2025-10-08T17:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:01:17,393 - root - INFO - Updating change percent of stocks
+2025-10-08 18:01:18,065 - root - INFO - XTLB change_percent from DB: 40.00000000000001
+2025-10-08 18:01:18,074 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-08 18:01:28,563 - root - INFO - Real mode: Today's profit so far: 623.4899750000004
+2025-10-08 18:01:28,582 - root - INFO - Running real_trade for all top movers
+2025-10-08 18:01:28,630 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-08 18:01:28,640 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:01:28,640 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-08 18:01:28,665 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
+2025-10-08 18:01:28,665 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 18:01:28,678 - root - INFO - Time since last close for ACXP is 96.87797834999999 minutes, net percent -1.07958
+2025-10-08 18:01:28,780 - root - INFO - Last 20 minutes volume is low for ACXP: 21019
+2025-10-08 18:01:28,780 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
+2025-10-08 18:01:28,794 - root - INFO - Time since last close for MSN is 1.3132402833333332 minutes, net percent 10.3896
+2025-10-08 18:01:28,794 - root - INFO - ***** stock: MSN Scale: 5Min Time since last close: 1 minutes
+2025-10-08 18:01:28,795 - root - INFO - swing_strategy_open_long for scale 5Min stock ELBM
+2025-10-08 18:01:28,809 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:01:28,809 - root - INFO - Time since last close for ELBM is None minutes, net percent 0
+2025-10-08 18:01:28,942 - root - INFO - Last 20 minutes volume is low for ELBM: 20748
+2025-10-08 18:01:28,943 - root - INFO - swing_strategy_open_long for scale 5Min stock SLNH
+2025-10-08 18:01:28,953 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:01:28,953 - root - INFO - Time since last close for SLNH is None minutes, net percent 0
+2025-10-08 18:01:29,124 - root - INFO - Last 5 minutes maximum volume candle is red for SLNH
+2025-10-08 18:01:29,206 - root - INFO - ALready an open order
+2025-10-08 18:01:44,241 - root - INFO - Real mode: Today's profit so far: 623.4899750000004
+2025-10-08 18:01:44,264 - root - INFO - Running real_trade for all top movers
+2025-10-08 18:01:44,304 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-08 18:01:44,316 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:01:44,316 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-08 18:01:44,344 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
+2025-10-08 18:01:44,345 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 18:01:44,356 - root - INFO - Time since last close for ACXP is 97.13927268333333 minutes, net percent -1.07958
+2025-10-08 18:01:44,453 - root - INFO - Last 20 minutes volume is low for ACXP: 20966
+2025-10-08 18:01:44,454 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
+2025-10-08 18:01:44,464 - root - INFO - Time since last close for MSN is 1.5744082666666666 minutes, net percent 10.3896
+2025-10-08 18:01:44,464 - root - INFO - ***** stock: MSN Scale: 5Min Time since last close: 1 minutes
+2025-10-08 18:01:44,465 - root - INFO - swing_strategy_open_long for scale 5Min stock ELBM
+2025-10-08 18:01:44,475 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:01:44,475 - root - INFO - Time since last close for ELBM is None minutes, net percent 0
+2025-10-08 18:01:44,596 - root - INFO - Last 20 minutes volume is low for ELBM: 20683
+2025-10-08 18:01:44,597 - root - INFO - swing_strategy_open_long for scale 5Min stock SLNH
+2025-10-08 18:01:44,606 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:01:44,606 - root - INFO - Time since last close for SLNH is None minutes, net percent 0
+2025-10-08 18:01:44,774 - root - INFO - Last 20 minutes volume is low for SLNH: 48816
+2025-10-08 18:01:44,867 - root - INFO - ALready an open order
+2025-10-08 18:01:59,912 - root - INFO - Real mode: Today's profit so far: 623.4799749999984
+2025-10-08 18:01:59,937 - root - INFO - Running real_trade for all top movers
+2025-10-08 18:01:59,977 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-08 18:01:59,988 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:01:59,988 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-08 18:02:00,014 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
+2025-10-08 18:02:00,015 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 18:02:00,026 - root - INFO - Time since last close for ACXP is 97.40043636666665 minutes, net percent -1.07958
+2025-10-08 18:02:00,114 - root - INFO - Last 20 minutes volume is low for ACXP: 20966
+2025-10-08 18:02:00,116 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
+2025-10-08 18:02:00,126 - root - INFO - Time since last close for MSN is 1.8354458333333334 minutes, net percent 10.3896
+2025-10-08 18:02:00,126 - root - INFO - ***** stock: MSN Scale: 5Min Time since last close: 1 minutes
+2025-10-08 18:02:00,127 - root - INFO - swing_strategy_open_long for scale 5Min stock ELBM
+2025-10-08 18:02:00,137 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:02:00,137 - root - INFO - Time since last close for ELBM is None minutes, net percent 0
+2025-10-08 18:02:00,251 - root - INFO - Last 20 minutes volume is low for ELBM: 20683
+2025-10-08 18:02:00,252 - root - INFO - swing_strategy_open_long for scale 5Min stock SLNH
+2025-10-08 18:02:00,264 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:02:00,265 - root - INFO - Time since last close for SLNH is None minutes, net percent 0
+2025-10-08 18:02:00,443 - root - INFO - Last 20 minutes volume is low for SLNH: 48816
+2025-10-08 18:02:00,531 - root - INFO - ALready an open order
+2025-10-08 18:02:15,573 - root - INFO - Real mode: Today's profit so far: 623.4499749999995
+2025-10-08 18:02:15,597 - root - INFO - Running real_trade for all top movers
+2025-10-08 18:02:15,650 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-08 18:02:15,663 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:02:15,663 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-08 18:02:15,693 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
+2025-10-08 18:02:15,693 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 18:02:15,704 - root - INFO - Time since last close for ACXP is 97.66173853333333 minutes, net percent -1.07958
+2025-10-08 18:02:15,782 - root - INFO - Last 20 minutes volume is low for ACXP: 20966
+2025-10-08 18:02:15,782 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
+2025-10-08 18:02:15,796 - root - INFO - Time since last close for MSN is 2.0965977666666666 minutes, net percent 10.3896
+2025-10-08 18:02:15,796 - root - INFO - ***** stock: MSN Scale: 5Min Time since last close: 2 minutes
+2025-10-08 18:02:15,796 - root - INFO - swing_strategy_open_long for scale 5Min stock ELBM
+2025-10-08 18:02:15,811 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:02:15,811 - root - INFO - Time since last close for ELBM is None minutes, net percent 0
+2025-10-08 18:02:15,968 - root - INFO - Last 20 minutes volume is low for ELBM: 20683
+2025-10-08 18:02:15,969 - root - INFO - swing_strategy_open_long for scale 5Min stock SLNH
+2025-10-08 18:02:15,984 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 18:02:15,984 - root - INFO - Time since last close for SLNH is None minutes, net percent 0
+2025-10-08 18:02:16,159 - root - INFO - Last 20 minutes volume is low for SLNH: 48816
+2025-10-08 18:02:16,254 - root - INFO - ALready an open order
+2025-10-08 18:02:18,116 - root - INFO - Real mode: Today's profit so far: 623.4399750000011
+2025-10-08 18:02:18,139 - root - INFO - ('2025-10-08T19:40:00-04:00', '2025-10-08T19:40:00-04:00', '2025-10-01T09:30:00-04:00', '2025-10-08T19:40:00-04:00')
+2025-10-08 18:02:18,139 - root - INFO - Screening stocks | Start: 2025-10-01T09:30:00-04:00 | End: 2025-10-08T19:40:00-04:00
+2025-10-08 18:02:18,164 - root - INFO -  update_current_price: start time 2025-10-08T17:57:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:02:18,397 - root - INFO -  MACD calculation for ABVE due to high change percent: 31.8052
+2025-10-08 18:02:18,597 - root - INFO -  MACD calculation for ACXP due to high change percent: 86.4802
+2025-10-08 18:02:18,697 - root - INFO -  update_current_price: start time 2025-10-08T17:57:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:02:18,862 - root - INFO -  MACD calculation for AMBO due to high change percent: 118.925
+2025-10-08 18:02:18,925 - root - INFO -  update_current_price: start time 2025-10-08T17:57:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:02:19,074 - root - INFO -  MACD calculation for ARBE due to high change percent: 19.6507
+2025-10-08 18:02:19,223 - root - INFO -  update_current_price: start time 2025-10-08T17:57:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:02:19,349 - root - INFO -  MACD calculation for ATYR due to high change percent: 14.4924
+2025-10-08 18:02:19,393 - root - INFO - MACD not positive for ATYR
+2025-10-08 18:02:19,394 - root - INFO -  update_current_price: start time 2025-10-08T17:57:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:02:19,479 - root - INFO -  MACD calculation for BAOS due to high change percent: 32.6409
+2025-10-08 18:02:19,503 - root - INFO - MACD not positive for BAOS
+2025-10-08 18:02:19,559 - root - INFO -  MACD calculation for BCAB due to high change percent: 15.6981
+2025-10-08 18:02:19,593 - root - INFO - MACD not positive for BCAB
+2025-10-08 18:02:19,632 - root - INFO -  update_current_price: start time 2025-10-08T17:57:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 18:02:19,705 - root - INFO -  MACD calculation for BIAF due to high change percent: 21.6327
+2025-10-08 18:02:19,789 - root - INFO -  MACD calculation for BITF due to high change percent: 16.1383
+2025-10-08 18:02:19,858 - root - INFO - MACD not positive for BITF
+2025-10-08 18:02:19,897 - root - INFO -  MACD calculation for BLBX due to high change percent: 32.145
+2025-10-08 18:02:19,968 - root - INFO -  update_current_price: start time 2025-10-08T17:57:00-04:00 end_time 2025-10-08T19:40:00-04:00
