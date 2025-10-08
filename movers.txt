@@ -2,11 +2,9 @@ Top Movers:
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  UPC   |      0      |     0     |    84.1451     | 12985986 |     9.5203    |        5.17        |   210000.0   |  4.702   |   220771   |      0      | 2025-10-08 11:56:16 |
-|  XTLB  |      0      |     0     |    56.0714     | 18765523 |     2.185     |        1.4         |  12230000.0  |  1.207   |  2303189   |      0      | 2025-10-08 11:56:23 |
-|  KYTX  |      1      |     0     |    37.5342     | 1506336  |      7.5      |        5.41        |  19630000.0  |  5.774   |   372459   |      0      | 2025-10-08 11:58:24 |
-|  BFRG  |      0      |     0     |    32.8859     |  613245  |     1.9294    |        1.49        |  6830000.0   |  1.472   |   189614   |      0      | 2025-10-08 11:57:39 |
-|  BIAF  |      0      |     0     |    32.6816     | 19927216 |      3.29     |        2.45        |  11040000.0  |   2.66   |   914437   |      0      | 2025-10-08 11:57:40 |
+|  XTLB  |      0      |     0     |    60.7143     | 18832822 |      2.25     |        1.4         |  12230000.0  |  1.207   |  2303189   |      0      | 2025-10-08 12:02:09 |
+|  KYTX  |      1      |     0     |    38.2625     | 1520091  |      7.48     |        5.41        |  19630000.0  |  5.774   |   372459   |      0      | 2025-10-08 12:01:14 |
+|  BIAF  |      0      |     0     |     35.902     | 20090107 |      3.37     |        2.45        |  11040000.0  |   2.66   |   914437   |      0      | 2025-10-08 12:03:25 |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -20,403 +18,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-08 11:56:17,034 - root - INFO -  update_current_price: start time 2025-10-08T11:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:56:19,146 - root - INFO -  update_current_price: start time 2025-10-08T11:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:56:20,988 - root - INFO -  MACD calculation for WLACW due to high change percent: 12.4088
-2025-10-08 11:56:21,028 - root - INFO - MACD not positive for WLACW
-2025-10-08 11:56:21,624 - root - INFO -  update_current_price: start time 2025-10-08T11:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:56:22,392 - root - INFO -  MACD calculation for XBIO due to high change percent: 132.226
-2025-10-08 11:56:22,435 - root - INFO - MACD not positive for XBIO
-2025-10-08 11:56:23,321 - root - INFO - FIND stocks Change percent for XTLB: 60.7071
-2025-10-08 11:56:23,321 - root - INFO - XTLB change_percent from DB: 60.7071
-2025-10-08 11:56:23,336 - root - INFO -  MACD calculation for XTLB due to high change percent: 60.7071
-2025-10-08 11:56:23,511 - root - INFO -  MACD calculation for YAAS due to high change percent: 10.9091
-2025-10-08 11:56:23,754 - root - INFO -  MACD calculation for YTRA due to high change percent: 15.5823
-2025-10-08 11:56:23,785 - root - INFO - MACD not positive for YTRA
-2025-10-08 11:56:24,036 - root - INFO -  update_current_price: start time 2025-10-08T11:51:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:56:24,817 - root - INFO - Updating change percent of stocks
-2025-10-08 11:56:25,810 - root - INFO - XTLB change_percent from DB: 56.071428571428584
-2025-10-08 11:56:25,820 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-08 11:56:28,906 - root - INFO - Real mode: Today's profit so far: 949.8599749999994
-2025-10-08 11:56:28,927 - root - INFO - Running real_trade for all top movers
-2025-10-08 11:56:28,974 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 11:56:28,985 - root - INFO - Time since last close for UPC is 3.9664300000000003 minutes, net percent 0.305499
-2025-10-08 11:56:29,041 - root - INFO - Last 5 minutes maximum volume candle is red for UPC
-2025-10-08 11:56:29,042 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 11:56:29,056 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:56:29,057 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 11:56:29,089 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
-2025-10-08 11:56:29,116 - root - INFO - 1min candle is not positive for XTLB: open 2.1902 close 2.185
-2025-10-08 11:56:29,117 - root - INFO - swing_strategy_open_long for scale 5Min stock KYTX
-2025-10-08 11:56:29,131 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:56:29,131 - root - INFO - Time since last close for KYTX is None minutes, net percent 0
-2025-10-08 11:56:29,198 - root - INFO - Last 5 minutes maximum volume candle is green for KYTX
-2025-10-08 11:56:29,226 - root - INFO - 1min RSI is overbought for KYTX: 74.74356688421955
-2025-10-08 11:56:29,227 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
-2025-10-08 11:56:29,237 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:56:29,237 - root - INFO - Time since last close for NERV is None minutes, net percent 0
-2025-10-08 11:56:29,270 - root - INFO - Last 5 minutes maximum volume candle is green for NERV
-2025-10-08 11:56:29,326 - root - INFO - Trend up basic conditions not met for NERV: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 11:56:29,327 - root - INFO - swing_strategy_open_long for scale 5Min stock BFRG
-2025-10-08 11:56:29,337 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:56:29,337 - root - INFO - Time since last close for BFRG is None minutes, net percent 0
-2025-10-08 11:56:29,373 - root - INFO - Last 5 minutes maximum volume candle is red for BFRG
-2025-10-08 11:56:44,482 - root - INFO - Real mode: Today's profit so far: 940.5599750000001
-2025-10-08 11:56:44,504 - root - INFO - Running real_trade for all top movers
-2025-10-08 11:56:44,555 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 11:56:44,568 - root - INFO - Time since last close for UPC is 4.2261346 minutes, net percent 0.305499
-2025-10-08 11:56:44,689 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
-2025-10-08 11:56:44,715 - root - INFO - 1min candle is not positive for UPC: open 9.51 close 9.5527
-2025-10-08 11:56:44,716 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 11:56:44,725 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:56:44,725 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 11:56:44,951 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
-2025-10-08 11:56:44,974 - root - INFO - 9 EMA is in downtrend, not opening long position for XTLB
-2025-10-08 11:56:44,975 - root - INFO - swing_strategy_open_long for scale 5Min stock KYTX
-2025-10-08 11:56:44,986 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:56:44,986 - root - INFO - Time since last close for KYTX is None minutes, net percent 0
-2025-10-08 11:56:45,072 - root - INFO - Last 5 minutes maximum volume candle is green for KYTX
-2025-10-08 11:56:45,158 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-08 11:56:45,159 - root - INFO - KYTX:======= 7.485===>BUY========>TrendUp914625
-2025-10-08 11:56:45,373 - root - CRITICAL - KYTX  133 buy
-2025-10-08 11:56:45,432 - root - INFO - Placed BUY order for KYTX, qty: 133, price: 7.4901, success: True
-2025-10-08 11:56:45,432 - root - INFO - Trade successfully COMPLETED for KYTX
-2025-10-08 11:56:45,433 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
-2025-10-08 11:56:45,447 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:56:45,448 - root - INFO - Time since last close for NERV is None minutes, net percent 0
-2025-10-08 11:56:45,481 - root - INFO - Last 5 minutes maximum volume candle is green for NERV
-2025-10-08 11:56:45,533 - root - INFO - Trend up basic conditions not met for NERV: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 11:56:45,533 - root - INFO - swing_strategy_open_long for scale 5Min stock BFRG
-2025-10-08 11:56:45,545 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:56:45,545 - root - INFO - Time since last close for BFRG is None minutes, net percent 0
-2025-10-08 11:56:45,579 - root - INFO - Last 5 minutes maximum volume candle is red for BFRG
-2025-10-08 11:56:45,664 - root - INFO - swing_strategy_close_long for scale 5Min stock KYTX
-2025-10-08 11:56:45,742 - root - INFO - Profit percent for KYTX is 0
-2025-10-08 11:56:45,743 - root - INFO - Latest 1min close price for KYTX: 7.485
-2025-10-08 11:56:45,763 - root - INFO - High price DETECTED for KYTX is 0.0 and setting no_scalp to True
-2025-10-08 11:57:00,817 - root - INFO - Real mode: Today's profit so far: 898.2299749999984
-2025-10-08 11:57:00,837 - root - INFO - Running real_trade for all top movers
-2025-10-08 11:57:00,886 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 11:57:00,897 - root - INFO - Time since last close for UPC is 4.49829435 minutes, net percent 0.305499
-2025-10-08 11:57:00,953 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
-2025-10-08 11:57:00,977 - root - INFO - 1min candle is not positive for UPC: open 9.51 close 9.5527
-2025-10-08 11:57:00,978 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 11:57:00,989 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:57:00,989 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 11:57:01,024 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
-2025-10-08 11:57:01,049 - root - INFO - 9 EMA is in downtrend, not opening long position for XTLB
-2025-10-08 11:57:01,050 - root - INFO - swing_strategy_open_long for scale 5Min stock KYTX
-2025-10-08 11:57:01,061 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:57:01,062 - root - INFO - Time since last close for KYTX is None minutes, net percent 0
-2025-10-08 11:57:01,128 - root - INFO - Last 5 minutes maximum volume candle is green for KYTX
-2025-10-08 11:57:01,196 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-08 11:57:01,197 - root - INFO - KYTX:======= 7.485===>BUY========>TrendUp914625
-2025-10-08 11:57:01,217 - root - WARNING - ***** stock is already in the positions
-2025-10-08 11:57:01,218 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
-2025-10-08 11:57:01,229 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:57:01,229 - root - INFO - Time since last close for NERV is None minutes, net percent 0
-2025-10-08 11:57:01,263 - root - INFO - Last 5 minutes maximum volume candle is green for NERV
-2025-10-08 11:57:01,322 - root - INFO - Trend up basic conditions not met for NERV: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 11:57:01,323 - root - INFO - swing_strategy_open_long for scale 5Min stock BFRG
-2025-10-08 11:57:01,334 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:57:01,334 - root - INFO - Time since last close for BFRG is None minutes, net percent 0
-2025-10-08 11:57:01,366 - root - INFO - Last 5 minutes maximum volume candle is red for BFRG
-2025-10-08 11:57:01,455 - root - INFO - swing_strategy_close_long for scale 5Min stock KYTX
-2025-10-08 11:57:01,533 - root - INFO - Profit percent for KYTX is 0.110813
-2025-10-08 11:57:01,533 - root - INFO - Latest 1min close price for KYTX: 7.485
-2025-10-08 11:57:01,617 - root - INFO - MACD is still rising for stock KYTX
-2025-10-08 11:57:01,618 - root - INFO - Not enough profit percent to scalp for KYTX: 0.110813
-2025-10-08 11:57:16,736 - root - INFO - Real mode: Today's profit so far: 897.6099749999994
-2025-10-08 11:57:16,756 - root - INFO - Running real_trade for all top movers
-2025-10-08 11:57:16,805 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 11:57:16,814 - root - INFO - Time since last close for UPC is 4.763568733333333 minutes, net percent 0.305499
-2025-10-08 11:57:16,867 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
-2025-10-08 11:57:16,893 - root - INFO - 1min candle is not positive for UPC: open 9.51 close 9.5527
-2025-10-08 11:57:16,894 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 11:57:16,906 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:57:16,906 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 11:57:16,941 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
-2025-10-08 11:57:16,966 - root - INFO - 9 EMA is in downtrend, not opening long position for XTLB
-2025-10-08 11:57:16,966 - root - INFO - swing_strategy_open_long for scale 5Min stock KYTX
-2025-10-08 11:57:16,976 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:57:16,976 - root - INFO - Time since last close for KYTX is None minutes, net percent 0
-2025-10-08 11:57:17,041 - root - INFO - Last 5 minutes maximum volume candle is green for KYTX
-2025-10-08 11:57:17,105 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-08 11:57:17,106 - root - INFO - KYTX:======= 7.485===>BUY========>TrendUp914625
-2025-10-08 11:57:17,126 - root - WARNING - ***** stock is already in the positions
-2025-10-08 11:57:17,127 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
-2025-10-08 11:57:17,138 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:57:17,138 - root - INFO - Time since last close for NERV is None minutes, net percent 0
-2025-10-08 11:57:17,169 - root - INFO - Last 5 minutes maximum volume candle is green for NERV
-2025-10-08 11:57:17,219 - root - INFO - Trend up basic conditions not met for NERV: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 11:57:17,220 - root - INFO - swing_strategy_open_long for scale 5Min stock BFRG
-2025-10-08 11:57:17,232 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:57:17,232 - root - INFO - Time since last close for BFRG is None minutes, net percent 0
-2025-10-08 11:57:17,268 - root - INFO - Last 5 minutes maximum volume candle is red for BFRG
-2025-10-08 11:57:17,352 - root - INFO - swing_strategy_close_long for scale 5Min stock KYTX
-2025-10-08 11:57:17,739 - root - INFO - Profit percent for KYTX is -0.268354
-2025-10-08 11:57:17,740 - root - INFO - Latest 1min close price for KYTX: 7.485
-2025-10-08 11:57:17,819 - root - INFO - MACD is still rising for stock KYTX
-2025-10-08 11:57:17,819 - root - INFO - Not enough profit percent to scalp for KYTX: -0.268354
-2025-10-08 11:57:25,906 - root - INFO - Real mode: Today's profit so far: 894.2399750000004
-2025-10-08 11:57:25,929 - root - INFO - ('2025-10-08T19:40:00-04:00', '2025-10-08T19:40:00-04:00', '2025-10-01T09:30:00-04:00', '2025-10-08T19:40:00-04:00')
-2025-10-08 11:57:25,929 - root - INFO - Screening stocks | Start: 2025-10-01T09:30:00-04:00 | End: 2025-10-08T19:40:00-04:00
-2025-10-08 11:57:25,956 - root - INFO -  update_current_price: start time 2025-10-08T11:52:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:57:26,388 - root - INFO -  MACD calculation for ABCL due to high change percent: 10.8319
-2025-10-08 11:57:26,782 - root - INFO -  MACD calculation for ABSI due to high change percent: 13.9973
-2025-10-08 11:57:26,920 - root - INFO -  MACD calculation for ABVE due to high change percent: 24.3553
-2025-10-08 11:57:27,839 - root - INFO -  MACD calculation for ACXP due to high change percent: 57.7716
-2025-10-08 11:57:27,880 - root - INFO - MACD not positive for ACXP
-2025-10-08 11:57:28,554 - root - INFO -  MACD calculation for AEI due to high change percent: 10.7586
-2025-10-08 11:57:28,613 - root - INFO - MACD not positive for AEI
-2025-10-08 11:57:29,002 - root - INFO -  update_current_price: start time 2025-10-08T11:52:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:57:29,173 - root - INFO -  MACD calculation for AG due to high change percent: 10.9535
-2025-10-08 11:57:32,078 - root - INFO -  update_current_price: start time 2025-10-08T11:52:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:57:32,824 - root - INFO -  MACD calculation for ANY due to high change percent: 11.3074
-2025-10-08 11:57:32,869 - root - INFO - Real mode: Today's profit so far: 894.2599750000008
-2025-10-08 11:57:32,888 - root - INFO - Running real_trade for all top movers
-2025-10-08 11:57:32,930 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 11:57:32,938 - root - INFO - Time since last close for UPC is 5.032310483333333 minutes, net percent 0.305499
-2025-10-08 11:57:32,990 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
-2025-10-08 11:57:33,005 - root - INFO - 1min candle is not positive for UPC: open 9.51 close 9.5527
-2025-10-08 11:57:33,006 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 11:57:33,014 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:57:33,014 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 11:57:33,045 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
-2025-10-08 11:57:33,060 - root - INFO - 9 EMA is in downtrend, not opening long position for XTLB
-2025-10-08 11:57:33,061 - root - INFO - swing_strategy_open_long for scale 5Min stock KYTX
-2025-10-08 11:57:33,067 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:57:33,067 - root - INFO - Time since last close for KYTX is None minutes, net percent 0
-2025-10-08 11:57:33,126 - root - INFO - Last 5 minutes maximum volume candle is green for KYTX
-2025-10-08 11:57:33,168 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-08 11:57:33,168 - root - INFO - KYTX:======= 7.485===>BUY========>TrendUp914625
-2025-10-08 11:57:33,187 - root - WARNING - ***** stock is already in the positions
-2025-10-08 11:57:33,187 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
-2025-10-08 11:57:33,193 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:57:33,193 - root - INFO - Time since last close for NERV is None minutes, net percent 0
-2025-10-08 11:57:33,223 - root - INFO - Last 5 minutes maximum volume candle is green for NERV
-2025-10-08 11:57:33,262 - root - INFO - Trend up basic conditions not met for NERV: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 11:57:33,262 - root - INFO - swing_strategy_open_long for scale 5Min stock BFRG
-2025-10-08 11:57:33,267 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:57:33,267 - root - INFO - Time since last close for BFRG is None minutes, net percent 0
-2025-10-08 11:57:33,297 - root - INFO - Last 5 minutes maximum volume candle is red for BFRG
-2025-10-08 11:57:33,379 - root - INFO - swing_strategy_close_long for scale 5Min stock KYTX
-2025-10-08 11:57:33,385 - root - INFO -  MACD calculation for ARBE due to high change percent: 19.214
-2025-10-08 11:57:33,441 - root - INFO - MACD not positive for ARBE
-2025-10-08 11:57:33,457 - root - INFO - Profit percent for KYTX is -0.268354
-2025-10-08 11:57:33,457 - root - INFO - Latest 1min close price for KYTX: 7.485
-2025-10-08 11:57:33,518 - root - INFO - MACD is still rising for stock KYTX
-2025-10-08 11:57:33,518 - root - INFO - Not enough profit percent to scalp for KYTX: -0.268354
-2025-10-08 11:57:33,739 - root - INFO -  MACD calculation for AREB due to high change percent: 38.0035
-2025-10-08 11:57:33,809 - root - INFO - MACD not positive for AREB
-2025-10-08 11:57:34,499 - root - INFO -  update_current_price: start time 2025-10-08T11:52:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:57:36,425 - root - INFO -  MACD calculation for AUROW due to high change percent: 12.6072
-2025-10-08 11:57:36,521 - root - INFO -  MACD calculation for AUST due to high change percent: 14.473
-2025-10-08 11:57:36,637 - root - INFO -  MACD calculation for AUTL due to high change percent: 16.7785
-2025-10-08 11:57:37,084 - root - INFO -  MACD calculation for AVTX due to high change percent: 14.9852
-2025-10-08 11:57:37,141 - root - INFO - MACD not positive for AVTX
-2025-10-08 11:57:37,193 - root - INFO -  update_current_price: start time 2025-10-08T11:52:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:57:39,375 - root - INFO -  MACD calculation for BFRG due to high change percent: 32.8859
-2025-10-08 11:57:39,570 - root - INFO -  update_current_price: start time 2025-10-08T11:52:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:57:40,164 - root - INFO -  MACD calculation for BIAF due to high change percent: 32.6816
-2025-10-08 11:57:40,604 - root - INFO -  MACD calculation for BLBX due to high change percent: 16.5292
-2025-10-08 11:57:41,665 - root - INFO -  MACD calculation for BNZI due to high change percent: 10.1852
-2025-10-08 11:57:41,714 - root - INFO - MACD not positive for BNZI
-2025-10-08 11:57:41,959 - root - INFO -  MACD calculation for BQ due to high change percent: 10.5628
-2025-10-08 11:57:42,019 - root - INFO - MACD not positive for BQ
-2025-10-08 11:57:42,080 - root - INFO -  update_current_price: start time 2025-10-08T11:52:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:57:42,188 - root - INFO -  MACD calculation for BRLT due to high change percent: 11.4155
-2025-10-08 11:57:44,528 - root - INFO -  MACD calculation for CABA due to high change percent: 11.6681
-2025-10-08 11:57:44,591 - root - INFO - MACD not positive for CABA
-2025-10-08 11:57:44,651 - root - INFO -  MACD calculation for CADL due to high change percent: 13.6767
-2025-10-08 11:57:44,698 - root - INFO - MACD not positive for CADL
-2025-10-08 11:57:45,229 - root - INFO -  update_current_price: start time 2025-10-08T11:52:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:57:45,655 - root - INFO -  MACD calculation for CATX due to high change percent: 10.8069
-2025-10-08 11:57:45,742 - root - INFO - MACD not positive for CATX
-2025-10-08 11:57:46,364 - root - INFO -  MACD calculation for CCTG due to high change percent: 17.1713
-2025-10-08 11:57:46,421 - root - INFO - MACD not positive for CCTG
-2025-10-08 11:57:47,129 - root - INFO -  MACD calculation for CENX due to high change percent: 11.57
-2025-10-08 11:57:47,192 - root - INFO - MACD not positive for CENX
-2025-10-08 11:57:47,668 - root - INFO -  MACD calculation for CFLT due to high change percent: 10.8297
-2025-10-08 11:57:48,424 - root - INFO -  update_current_price: start time 2025-10-08T11:52:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:57:48,552 - root - INFO - Real mode: Today's profit so far: 900.9099749999987
-2025-10-08 11:57:48,570 - root - INFO - Running real_trade for all top movers
-2025-10-08 11:57:48,596 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 11:57:48,603 - root - INFO - Time since last close for UPC is 5.293391349999999 minutes, net percent 0.305499
-2025-10-08 11:57:48,648 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
-2025-10-08 11:57:48,662 - root - INFO - 1min candle is not positive for UPC: open 9.72 close 9.445
-2025-10-08 11:57:48,663 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 11:57:48,670 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:57:48,670 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 11:57:48,700 - root - INFO - Last 5 minutes maximum volume candle is red for XTLB
-2025-10-08 11:57:48,700 - root - INFO - swing_strategy_open_long for scale 5Min stock KYTX
-2025-10-08 11:57:48,707 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:57:48,707 - root - INFO - Time since last close for KYTX is None minutes, net percent 0
-2025-10-08 11:57:48,771 - root - INFO - Last 5 minutes maximum volume candle is green for KYTX
-2025-10-08 11:57:48,786 - root - INFO - 1min candle is not positive for KYTX: open 7.4901 close 7.5
-2025-10-08 11:57:48,786 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
-2025-10-08 11:57:48,792 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:57:48,792 - root - INFO - Time since last close for NERV is None minutes, net percent 0
-2025-10-08 11:57:48,823 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
-2025-10-08 11:57:48,823 - root - INFO - swing_strategy_open_long for scale 5Min stock BFRG
-2025-10-08 11:57:48,829 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:57:48,829 - root - INFO - Time since last close for BFRG is None minutes, net percent 0
-2025-10-08 11:57:48,862 - root - INFO - Last 5 minutes maximum volume candle is red for BFRG
-2025-10-08 11:57:48,931 - root - INFO - swing_strategy_close_long for scale 5Min stock KYTX
-2025-10-08 11:57:49,001 - root - INFO - Profit percent for KYTX is -0.667548
-2025-10-08 11:57:49,001 - root - INFO - Latest 1min close price for KYTX: 7.5
-2025-10-08 11:57:49,013 - root - INFO - High price DETECTED for KYTX is 7.485 and setting no_scalp to True
-2025-10-08 11:57:49,399 - root - INFO -  MACD calculation for CLLS due to high change percent: 14.6571
-2025-10-08 11:57:49,742 - root - INFO -  MACD calculation for CLPT due to high change percent: 10.1175
-2025-10-08 11:57:50,867 - root - INFO -  update_current_price: start time 2025-10-08T11:52:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:57:52,586 - root - INFO -  MACD calculation for CRBU due to high change percent: 11.5226
-2025-10-08 11:57:52,645 - root - INFO - MACD not positive for CRBU
-2025-10-08 11:57:53,146 - root - INFO -  MACD calculation for CRML due to high change percent: 16.2176
-2025-10-08 11:57:53,224 - root - INFO - MACD not positive for CRML
-2025-10-08 11:57:53,275 - root - INFO -  MACD calculation for CRMLW due to high change percent: 33.429
-2025-10-08 11:57:54,293 - root - INFO -  update_current_price: start time 2025-10-08T11:52:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:57:57,615 - root - INFO -  MACD calculation for DEVS due to high change percent: 11.8143
-2025-10-08 11:57:57,738 - root - INFO - MACD not positive for DEVS
-2025-10-08 11:57:57,803 - root - INFO -  update_current_price: start time 2025-10-08T11:52:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:57:57,965 - root - INFO -  MACD calculation for DGNX due to high change percent: 22.731
-2025-10-08 11:57:59,053 - root - INFO -  MACD calculation for DNA due to high change percent: 13.2591
-2025-10-08 11:57:59,116 - root - INFO - MACD not positive for DNA
-2025-10-08 11:58:00,909 - root - INFO -  update_current_price: start time 2025-10-08T11:53:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:58:01,643 - root - INFO -  MACD calculation for EDIT due to high change percent: 12.7226
-2025-10-08 11:58:02,742 - root - INFO -  MACD calculation for ELBM due to high change percent: 25.0
-2025-10-08 11:58:02,814 - root - INFO - MACD not positive for ELBM
-2025-10-08 11:58:03,039 - root - INFO -  update_current_price: start time 2025-10-08T11:53:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:58:04,060 - root - INFO - Real mode: Today's profit so far: 899.5599750000001
-2025-10-08 11:58:04,078 - root - INFO - Running real_trade for all top movers
-2025-10-08 11:58:04,116 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 11:58:04,124 - root - INFO - Time since last close for UPC is 5.552066666666667 minutes, net percent 0.305499
-2025-10-08 11:58:04,174 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
-2025-10-08 11:58:04,189 - root - INFO - 1min candle is not positive for UPC: open 9.72 close 9.445
-2025-10-08 11:58:04,190 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 11:58:04,196 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:58:04,196 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 11:58:04,227 - root - INFO - Last 5 minutes maximum volume candle is red for XTLB
-2025-10-08 11:58:04,227 - root - INFO - swing_strategy_open_long for scale 5Min stock KYTX
-2025-10-08 11:58:04,233 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:58:04,233 - root - INFO - Time since last close for KYTX is None minutes, net percent 0
-2025-10-08 11:58:04,293 - root - INFO - Last 5 minutes maximum volume candle is green for KYTX
-2025-10-08 11:58:04,305 - root - INFO - 1min candle is not positive for KYTX: open 7.4901 close 7.5
-2025-10-08 11:58:04,305 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
-2025-10-08 11:58:04,312 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:58:04,312 - root - INFO - Time since last close for NERV is None minutes, net percent 0
-2025-10-08 11:58:04,342 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
-2025-10-08 11:58:04,342 - root - INFO - swing_strategy_open_long for scale 5Min stock BFRG
-2025-10-08 11:58:04,348 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:58:04,348 - root - INFO - Time since last close for BFRG is None minutes, net percent 0
-2025-10-08 11:58:04,377 - root - INFO - Last 5 minutes maximum volume candle is red for BFRG
-2025-10-08 11:58:04,443 - root - INFO - swing_strategy_close_long for scale 5Min stock KYTX
-2025-10-08 11:58:04,505 - root - INFO - Profit percent for KYTX is 0.0
-2025-10-08 11:58:04,505 - root - INFO - Latest 1min close price for KYTX: 7.5
-2025-10-08 11:58:04,558 - root - INFO - MACD is still rising for stock KYTX
-2025-10-08 11:58:04,558 - root - INFO - Not enough profit percent to scalp for KYTX: 0.0
-2025-10-08 11:58:04,560 - root - INFO -  MACD calculation for EVAX due to high change percent: 18.9825
-2025-10-08 11:58:04,617 - root - INFO - MACD not positive for EVAX
-2025-10-08 11:58:05,066 - root - INFO -  update_current_price: start time 2025-10-08T11:53:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:58:07,280 - root - INFO -  update_current_price: start time 2025-10-08T11:53:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:58:07,794 - root - INFO -  MACD calculation for FORD due to high change percent: 11.2051
-2025-10-08 11:58:08,530 - root - INFO -  MACD calculation for FTEL due to high change percent: 11.1554
-2025-10-08 11:58:08,601 - root - INFO - MACD not positive for FTEL
-2025-10-08 11:58:08,982 - root - INFO -  MACD calculation for FURY due to high change percent: 10.6248
-2025-10-08 11:58:09,495 - root - INFO -  MACD calculation for GAU due to high change percent: 10.1562
-2025-10-08 11:58:09,551 - root - INFO - MACD not positive for GAU
-2025-10-08 11:58:09,602 - root - INFO -  update_current_price: start time 2025-10-08T11:53:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:58:10,588 - root - INFO -  MACD calculation for GIGGW due to high change percent: 41.4698
-2025-10-08 11:58:10,970 - root - INFO -  MACD calculation for GLDG due to high change percent: 13.3028
-2025-10-08 11:58:11,440 - root - INFO -  update_current_price: start time 2025-10-08T11:53:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:58:13,376 - root - INFO -  MACD calculation for GSRT due to high change percent: 12.8058
-2025-10-08 11:58:13,456 - root - INFO - MACD not positive for GSRT
-2025-10-08 11:58:14,192 - root - INFO -  update_current_price: start time 2025-10-08T11:53:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:58:14,692 - root - INFO -  MACD calculation for HCWB due to high change percent: 10.4218
-2025-10-08 11:58:14,723 - root - INFO - MACD not positive for HCWB
-2025-10-08 11:58:16,847 - root - INFO -  update_current_price: start time 2025-10-08T11:53:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:58:19,228 - root - INFO -  update_current_price: start time 2025-10-08T11:53:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:58:19,499 - root - INFO -  MACD calculation for IMAB due to high change percent: 19.222
-2025-10-08 11:58:19,577 - root - INFO - MACD not positive for IMAB
-2025-10-08 11:58:19,595 - root - INFO - Real mode: Today's profit so far: 902.2099750000016
-2025-10-08 11:58:19,612 - root - INFO - Running real_trade for all top movers
-2025-10-08 11:58:19,655 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 11:58:19,665 - root - INFO - Time since last close for UPC is 5.811082916666667 minutes, net percent 0.305499
-2025-10-08 11:58:19,715 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
-2025-10-08 11:58:19,731 - root - INFO - 1min candle is not positive for UPC: open 9.72 close 9.445
-2025-10-08 11:58:19,731 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 11:58:19,739 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:58:19,739 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 11:58:19,771 - root - INFO - Last 5 minutes maximum volume candle is red for XTLB
-2025-10-08 11:58:19,772 - root - INFO - swing_strategy_open_long for scale 5Min stock KYTX
-2025-10-08 11:58:19,779 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:58:19,780 - root - INFO - Time since last close for KYTX is None minutes, net percent 0
-2025-10-08 11:58:19,839 - root - INFO - Last 5 minutes maximum volume candle is green for KYTX
-2025-10-08 11:58:19,853 - root - INFO - 1min candle is not positive for KYTX: open 7.4901 close 7.5
-2025-10-08 11:58:19,854 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
-2025-10-08 11:58:19,860 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:58:19,860 - root - INFO - Time since last close for NERV is None minutes, net percent 0
-2025-10-08 11:58:19,891 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
-2025-10-08 11:58:19,891 - root - INFO - swing_strategy_open_long for scale 5Min stock BFRG
-2025-10-08 11:58:19,897 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:58:19,898 - root - INFO - Time since last close for BFRG is None minutes, net percent 0
-2025-10-08 11:58:19,931 - root - INFO - Last 5 minutes maximum volume candle is red for BFRG
-2025-10-08 11:58:20,004 - root - INFO - swing_strategy_close_long for scale 5Min stock KYTX
-2025-10-08 11:58:20,094 - root - INFO - Profit percent for KYTX is -0.134845
-2025-10-08 11:58:20,095 - root - INFO - Latest 1min close price for KYTX: 7.5
-2025-10-08 11:58:20,150 - root - INFO - MACD is still rising for stock KYTX
-2025-10-08 11:58:20,150 - root - INFO - Not enough profit percent to scalp for KYTX: -0.134845
-2025-10-08 11:58:20,291 - root - INFO -  MACD calculation for IONR due to high change percent: 13.8889
-2025-10-08 11:58:21,007 - root - INFO -  update_current_price: start time 2025-10-08T11:53:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:58:22,014 - root - INFO -  MACD calculation for JFBR due to high change percent: 16.6667
-2025-10-08 11:58:23,160 - root - INFO -  update_current_price: start time 2025-10-08T11:53:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:58:24,385 - root - INFO -  MACD calculation for KYTX due to high change percent: 37.5342
-2025-10-08 11:58:25,029 - root - INFO -  MACD calculation for LAZR due to high change percent: 10.7902
-2025-10-08 11:58:25,097 - root - INFO - MACD not positive for LAZR
-2025-10-08 11:58:25,535 - root - INFO -  update_current_price: start time 2025-10-08T11:53:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:58:27,083 - root - INFO -  MACD calculation for LSH due to high change percent: 12.6812
-2025-10-08 11:58:27,550 - root - INFO -  update_current_price: start time 2025-10-08T11:53:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:58:29,534 - root - INFO -  update_current_price: start time 2025-10-08T11:53:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:58:31,542 - root - INFO -  update_current_price: start time 2025-10-08T11:53:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:58:32,321 - root - INFO -  MACD calculation for MRX due to high change percent: 12.1813
-2025-10-08 11:58:32,371 - root - INFO - MACD not positive for MRX
-2025-10-08 11:58:32,600 - root - INFO -  MACD calculation for MSN due to high change percent: 24.2058
-2025-10-08 11:58:32,650 - root - INFO - MACD not positive for MSN
-2025-10-08 11:58:33,697 - root - INFO -  MACD calculation for MYO due to high change percent: 22.4286
-2025-10-08 11:58:33,760 - root - INFO - MACD not positive for MYO
-2025-10-08 11:58:34,119 - root - INFO -  update_current_price: start time 2025-10-08T11:53:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:58:35,076 - root - INFO -  MACD calculation for NERV due to high change percent: 34.8624
-2025-10-08 11:58:35,115 - root - INFO - MACD not positive for NERV
-2025-10-08 11:58:35,189 - root - INFO - Real mode: Today's profit so far: 903.5499750000017
-2025-10-08 11:58:35,209 - root - INFO - Running real_trade for all top movers
-2025-10-08 11:58:35,249 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 11:58:35,257 - root - INFO - Time since last close for UPC is 6.07095395 minutes, net percent 0.305499
-2025-10-08 11:58:35,311 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
-2025-10-08 11:58:35,328 - root - INFO - 1min candle is not positive for UPC: open 9.72 close 9.445
-2025-10-08 11:58:35,329 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 11:58:35,336 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:58:35,336 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 11:58:35,366 - root - INFO - Last 5 minutes maximum volume candle is red for XTLB
-2025-10-08 11:58:35,367 - root - INFO - swing_strategy_open_long for scale 5Min stock KYTX
-2025-10-08 11:58:35,374 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:58:35,374 - root - INFO - Time since last close for KYTX is None minutes, net percent 0
-2025-10-08 11:58:35,439 - root - INFO - Last 5 minutes maximum volume candle is green for KYTX
-2025-10-08 11:58:35,453 - root - INFO - 1min candle is not positive for KYTX: open 7.4901 close 7.5
-2025-10-08 11:58:35,454 - root - INFO - swing_strategy_open_long for scale 5Min stock BFRG
-2025-10-08 11:58:35,461 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:58:35,461 - root - INFO - Time since last close for BFRG is None minutes, net percent 0
-2025-10-08 11:58:35,492 - root - INFO - Last 5 minutes maximum volume candle is red for BFRG
-2025-10-08 11:58:35,493 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
-2025-10-08 11:58:35,500 - root - INFO - Time since last close for BIAF is 107.65833171666667 minutes, net percent -3.53225
-2025-10-08 11:58:35,577 - root - INFO - Last 5 minutes maximum volume candle is green for BIAF
-2025-10-08 11:58:35,638 - root - INFO - Trend up basic conditions not met for BIAF: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-08 11:58:35,712 - root - INFO - swing_strategy_close_long for scale 5Min stock KYTX
-2025-10-08 11:58:35,773 - root - INFO - Profit percent for KYTX is 0.0600793
-2025-10-08 11:58:35,773 - root - INFO - Latest 1min close price for KYTX: 7.5
-2025-10-08 11:58:35,828 - root - INFO - MACD is still rising for stock KYTX
-2025-10-08 11:58:35,828 - root - INFO - Not enough profit percent to scalp for KYTX: 0.0600793
-2025-10-08 11:58:36,064 - root - INFO -  update_current_price: start time 2025-10-08T11:53:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:58:36,863 - root - INFO -  MACD calculation for NPWR due to high change percent: 21.0826
-2025-10-08 11:58:37,214 - root - INFO -  MACD calculation for NTLA due to high change percent: 24.4706
-2025-10-08 11:58:37,962 - root - INFO -  MACD calculation for NXL due to high change percent: 62.0124
-2025-10-08 11:58:38,012 - root - INFO - MACD not positive for NXL
-2025-10-08 11:58:38,092 - root - INFO -  update_current_price: start time 2025-10-08T11:53:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:01:08,587 - root - INFO -  MACD calculation for IMAB due to high change percent: 19.222
+2025-10-08 12:01:08,640 - root - INFO - MACD not positive for IMAB
+2025-10-08 12:01:09,836 - root - INFO -  MACD calculation for INO due to high change percent: 11.2971
+2025-10-08 12:01:09,896 - root - INFO - MACD not positive for INO
+2025-10-08 12:01:10,376 - root - INFO -  MACD calculation for IONR due to high change percent: 15.1515
+2025-10-08 12:01:10,437 - root - INFO - MACD not positive for IONR
+2025-10-08 12:01:11,121 - root - INFO -  update_current_price: start time 2025-10-08T11:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:01:12,716 - root - INFO - Real mode: Today's profit so far: 901.719975
+2025-10-08 12:01:12,844 - root - INFO - Running real_trade for all top movers
+2025-10-08 12:01:12,876 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
+2025-10-08 12:01:12,882 - root - INFO - Time since last close for UPC is 8.698047050000001 minutes, net percent 0.305499
+2025-10-08 12:01:12,932 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
+2025-10-08 12:01:12,946 - root - INFO - 1min candle is not positive for UPC: open 9.54 close 9.31
+2025-10-08 12:01:12,946 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 12:01:12,953 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:01:12,953 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 12:01:12,988 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 12:01:13,004 - root - INFO -  update_current_price: start time 2025-10-08T11:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:01:13,032 - root - INFO - MACD has been up for last 10 candles for XTLB, not opening long position
+2025-10-08 12:01:13,032 - root - INFO - Trend up basic conditions not met for XTLB: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=False, price_close_above_upper_bb=False
+2025-10-08 12:01:13,033 - root - INFO - swing_strategy_open_long for scale 5Min stock KYTX
+2025-10-08 12:01:13,040 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:01:13,040 - root - INFO - Time since last close for KYTX is None minutes, net percent 0
+2025-10-08 12:01:13,102 - root - INFO - Last 5 minutes maximum volume candle is green for KYTX
+2025-10-08 12:01:13,115 - root - INFO - 1min candle is not positive for KYTX: open 7.4927 close 7.48
+2025-10-08 12:01:13,115 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
+2025-10-08 12:01:13,122 - root - INFO - Time since last close for BIAF is 110.28537741666668 minutes, net percent -3.53225
+2025-10-08 12:01:13,195 - root - INFO - Last 5 minutes maximum volume candle is green for BIAF
+2025-10-08 12:01:13,207 - root - INFO - 1min RSI is overbought for BIAF: 78.832833495475
+2025-10-08 12:01:13,277 - root - INFO - swing_strategy_close_long for scale 5Min stock KYTX
+2025-10-08 12:01:13,345 - root - INFO - Profit percent for KYTX is -0.335109
+2025-10-08 12:01:13,345 - root - INFO - Latest 1min close price for KYTX: 7.48
+2025-10-08 12:01:13,400 - root - INFO - MACD is still rising for stock KYTX
+2025-10-08 12:01:13,401 - root - INFO - Not enough profit percent to scalp for KYTX: -0.335109
+2025-10-08 12:01:14,296 - root - INFO -  MACD calculation for KYTX due to high change percent: 38.6322
+2025-10-08 12:01:14,736 - root - INFO -  MACD calculation for LAZR due to high change percent: 11.4634
+2025-10-08 12:01:14,798 - root - INFO - MACD not positive for LAZR
+2025-10-08 12:01:15,151 - root - INFO -  update_current_price: start time 2025-10-08T11:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:01:16,549 - root - INFO -  MACD calculation for LSH due to high change percent: 13.7681
+2025-10-08 12:01:17,023 - root - INFO -  update_current_price: start time 2025-10-08T11:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:01:19,227 - root - INFO -  update_current_price: start time 2025-10-08T11:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:01:21,128 - root - INFO -  update_current_price: start time 2025-10-08T11:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:01:21,680 - root - INFO -  MACD calculation for MRX due to high change percent: 11.898
+2025-10-08 12:01:21,741 - root - INFO - MACD not positive for MRX
+2025-10-08 12:01:21,992 - root - INFO -  MACD calculation for MSN due to high change percent: 23.3393
+2025-10-08 12:01:22,024 - root - INFO - MACD not positive for MSN
+2025-10-08 12:01:23,147 - root - INFO -  MACD calculation for MYO due to high change percent: 20.4762
+2025-10-08 12:01:23,210 - root - INFO - MACD not positive for MYO
+2025-10-08 12:01:23,725 - root - INFO -  update_current_price: start time 2025-10-08T11:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:01:23,889 - root - INFO -  MACD calculation for NBTX due to high change percent: 23.8565
+2025-10-08 12:01:23,935 - root - INFO - MACD not positive for NBTX
+2025-10-08 12:01:24,736 - root - INFO -  MACD calculation for NERV due to high change percent: 32.5688
+2025-10-08 12:01:24,775 - root - INFO - MACD not positive for NERV
+2025-10-08 12:01:25,339 - root - INFO -  MACD calculation for NGNE due to high change percent: 11.7597
+2025-10-08 12:01:25,400 - root - INFO - MACD not positive for NGNE
+2025-10-08 12:01:26,191 - root - INFO -  update_current_price: start time 2025-10-08T11:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:01:26,710 - root - INFO -  MACD calculation for NPWR due to high change percent: 19.9459
+2025-10-08 12:01:27,214 - root - INFO -  MACD calculation for NTLA due to high change percent: 24.1438
+2025-10-08 12:01:27,270 - root - INFO - MACD not positive for NTLA
+2025-10-08 12:01:28,442 - root - INFO - Real mode: Today's profit so far: 904.8799749999998
+2025-10-08 12:01:28,463 - root - INFO - Running real_trade for all top movers
+2025-10-08 12:01:28,503 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
+2025-10-08 12:01:28,506 - root - INFO -  MACD calculation for NXL due to high change percent: 60.4136
+2025-10-08 12:01:28,511 - root - INFO - Time since last close for UPC is 8.958521183333334 minutes, net percent 0.305499
+2025-10-08 12:01:28,550 - root - INFO - MACD not positive for NXL
+2025-10-08 12:01:28,578 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
+2025-10-08 12:01:28,595 - root - INFO - 1min candle is not positive for UPC: open 9.54 close 9.31
+2025-10-08 12:01:28,596 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 12:01:28,596 - root - INFO -  update_current_price: start time 2025-10-08T11:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:01:28,604 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:01:28,604 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 12:01:28,633 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 12:01:28,687 - root - INFO - MACD has been up for last 10 candles for XTLB, not opening long position
+2025-10-08 12:01:28,687 - root - INFO - Trend up basic conditions not met for XTLB: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=False, price_close_above_upper_bb=False
+2025-10-08 12:01:28,687 - root - INFO - swing_strategy_open_long for scale 5Min stock KYTX
+2025-10-08 12:01:28,697 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:01:28,697 - root - INFO - Time since last close for KYTX is None minutes, net percent 0
+2025-10-08 12:01:28,759 - root - INFO - Last 5 minutes maximum volume candle is green for KYTX
+2025-10-08 12:01:28,774 - root - INFO - 1min candle is not positive for KYTX: open 7.4927 close 7.48
+2025-10-08 12:01:28,775 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
+2025-10-08 12:01:28,784 - root - INFO - Time since last close for BIAF is 110.5464022 minutes, net percent -3.53225
+2025-10-08 12:01:28,854 - root - INFO - Last 5 minutes maximum volume candle is green for BIAF
+2025-10-08 12:01:28,872 - root - INFO - 1min RSI is overbought for BIAF: 78.832833495475
+2025-10-08 12:01:28,950 - root - INFO - swing_strategy_close_long for scale 5Min stock KYTX
+2025-10-08 12:01:29,013 - root - INFO - Profit percent for KYTX is 0.666213
+2025-10-08 12:01:29,014 - root - INFO - Latest 1min close price for KYTX: 7.48
+2025-10-08 12:01:29,088 - root - INFO - MACD is still rising for stock KYTX
+2025-10-08 12:01:29,088 - root - INFO - Not enough profit percent to scalp for KYTX: 0.666213
+2025-10-08 12:01:29,978 - root - INFO -  MACD calculation for ONFO due to high change percent: 16.271
+2025-10-08 12:01:30,014 - root - INFO - MACD not positive for ONFO
+2025-10-08 12:01:30,782 - root - INFO -  update_current_price: start time 2025-10-08T11:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:01:32,342 - root - INFO -  MACD calculation for PALI due to high change percent: 17.5595
+2025-10-08 12:01:33,506 - root - INFO -  update_current_price: start time 2025-10-08T11:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:01:34,786 - root - INFO -  MACD calculation for PLG due to high change percent: 17.724
+2025-10-08 12:01:34,861 - root - INFO - MACD not positive for PLG
+2025-10-08 12:01:35,271 - root - INFO -  update_current_price: start time 2025-10-08T11:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:01:36,104 - root - INFO -  MACD calculation for PRME due to high change percent: 10.4855
+2025-10-08 12:01:36,196 - root - INFO - MACD not positive for PRME
+2025-10-08 12:01:37,565 - root - INFO -  MACD calculation for PXLW due to high change percent: 13.6522
+2025-10-08 12:01:37,621 - root - INFO - MACD not positive for PXLW
+2025-10-08 12:01:38,023 - root - INFO -  update_current_price: start time 2025-10-08T11:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:01:38,249 - root - INFO -  MACD calculation for QTTB due to high change percent: 18.0556
+2025-10-08 12:01:40,482 - root - INFO -  MACD calculation for RGNX due to high change percent: 13.2255
+2025-10-08 12:01:40,547 - root - INFO -  update_current_price: start time 2025-10-08T11:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:01:40,976 - root - INFO -  MACD calculation for RKDA due to high change percent: 16.8639
+2025-10-08 12:01:41,581 - root - INFO -  MACD calculation for RNAZ due to high change percent: 13.0115
+2025-10-08 12:01:42,834 - root - INFO -  MACD calculation for RXRX due to high change percent: 19.1205
+2025-10-08 12:01:43,308 - root - INFO -  update_current_price: start time 2025-10-08T11:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:01:44,130 - root - INFO - Real mode: Today's profit so far: 902.219975
+2025-10-08 12:01:44,148 - root - INFO - Running real_trade for all top movers
+2025-10-08 12:01:44,186 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
+2025-10-08 12:01:44,194 - root - INFO - Time since last close for UPC is 9.219909166666667 minutes, net percent 0.305499
+2025-10-08 12:01:44,244 - root - INFO - Last 5 minutes maximum volume candle is red for UPC
+2025-10-08 12:01:44,244 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 12:01:44,252 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:01:44,252 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 12:01:44,284 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 12:01:44,327 - root - INFO - MACD has been up for last 10 candles for XTLB, not opening long position
+2025-10-08 12:01:44,327 - root - INFO - Trend up basic conditions not met for XTLB: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 12:01:44,327 - root - INFO - swing_strategy_open_long for scale 5Min stock KYTX
+2025-10-08 12:01:44,335 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:01:44,335 - root - INFO - Time since last close for KYTX is None minutes, net percent 0
+2025-10-08 12:01:44,415 - root - INFO - Last 5 minutes maximum volume candle is green for KYTX
+2025-10-08 12:01:44,465 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-08 12:01:44,465 - root - INFO - KYTX:======= 7.5===>BUY========>TrendUp990897
+2025-10-08 12:01:44,486 - root - WARNING - ***** stock is already in the positions
+2025-10-08 12:01:44,486 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
+2025-10-08 12:01:44,493 - root - INFO - Time since last close for BIAF is 110.80822473333333 minutes, net percent -3.53225
+2025-10-08 12:01:44,561 - root - INFO - Last 5 minutes maximum volume candle is green for BIAF
+2025-10-08 12:01:44,616 - root - INFO - Trend up basic conditions not met for BIAF: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 12:01:44,687 - root - INFO - swing_strategy_close_long for scale 5Min stock KYTX
+2025-10-08 12:01:44,750 - root - INFO - Profit percent for KYTX is 0.399194
+2025-10-08 12:01:44,750 - root - INFO - Latest 1min close price for KYTX: 7.5
+2025-10-08 12:01:44,805 - root - INFO - MACD is still rising for stock KYTX
+2025-10-08 12:01:44,805 - root - INFO - Not enough profit percent to scalp for KYTX: 0.399194
+2025-10-08 12:01:44,852 - root - INFO -  MACD calculation for SEM due to high change percent: 11.4647
+2025-10-08 12:01:44,905 - root - INFO - MACD not positive for SEM
+2025-10-08 12:01:45,876 - root - INFO -  update_current_price: start time 2025-10-08T11:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:01:47,531 - root - INFO -  MACD calculation for SLDB due to high change percent: 20.1087
+2025-10-08 12:01:48,682 - root - INFO -  MACD calculation for SMSI due to high change percent: 16.3107
+2025-10-08 12:01:49,226 - root - INFO -  MACD calculation for SNGX due to high change percent: 13.4146
+2025-10-08 12:01:49,292 - root - INFO - MACD not positive for SNGX
+2025-10-08 12:01:49,340 - root - INFO -  update_current_price: start time 2025-10-08T11:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:01:52,321 - root - INFO -  update_current_price: start time 2025-10-08T11:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:01:54,333 - root - INFO -  MACD calculation for TAOX due to high change percent: 10.5263
+2025-10-08 12:01:54,397 - root - INFO - MACD not positive for TAOX
+2025-10-08 12:01:55,119 - root - INFO -  MACD calculation for TDOC due to high change percent: 10.0956
+2025-10-08 12:01:55,191 - root - INFO - MACD not positive for TDOC
+2025-10-08 12:01:55,305 - root - INFO -  update_current_price: start time 2025-10-08T11:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:01:56,371 - root - INFO -  MACD calculation for THM due to high change percent: 13.0428
+2025-10-08 12:01:56,809 - root - INFO -  MACD calculation for TIL due to high change percent: 13.8321
+2025-10-08 12:01:56,859 - root - INFO - MACD not positive for TIL
+2025-10-08 12:01:57,212 - root - INFO -  MACD calculation for TLPH due to high change percent: 10.3175
+2025-10-08 12:01:57,269 - root - INFO - MACD not positive for TLPH
+2025-10-08 12:01:58,573 - root - INFO -  MACD calculation for TRAW due to high change percent: 19.0
+2025-10-08 12:01:58,611 - root - INFO - MACD not positive for TRAW
+2025-10-08 12:01:58,943 - root - INFO -  MACD calculation for TRON due to high change percent: 15.4639
+2025-10-08 12:01:59,144 - root - INFO -  update_current_price: start time 2025-10-08T11:56:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:01:59,342 - root - INFO -  MACD calculation for TRX due to high change percent: 27.0493
+2025-10-08 12:01:59,851 - root - INFO - Real mode: Today's profit so far: 904.8699750000014
+2025-10-08 12:01:59,869 - root - INFO - Running real_trade for all top movers
+2025-10-08 12:01:59,908 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
+2025-10-08 12:01:59,917 - root - INFO - Time since last close for UPC is 9.481961983333333 minutes, net percent 0.305499
+2025-10-08 12:01:59,968 - root - INFO - Last 5 minutes maximum volume candle is red for UPC
+2025-10-08 12:01:59,969 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 12:01:59,979 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:01:59,979 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 12:02:00,013 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 12:02:00,057 - root - INFO - MACD has been up for last 10 candles for XTLB, not opening long position
+2025-10-08 12:02:00,057 - root - INFO - Trend up basic conditions not met for XTLB: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 12:02:00,057 - root - INFO - swing_strategy_open_long for scale 5Min stock KYTX
+2025-10-08 12:02:00,063 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:02:00,063 - root - INFO - Time since last close for KYTX is None minutes, net percent 0
+2025-10-08 12:02:00,128 - root - INFO - Last 5 minutes maximum volume candle is green for KYTX
+2025-10-08 12:02:00,167 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-08 12:02:00,167 - root - INFO - KYTX:======= 7.5===>BUY========>TrendUp990897
+2025-10-08 12:02:00,187 - root - WARNING - ***** stock is already in the positions
+2025-10-08 12:02:00,188 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
+2025-10-08 12:02:00,194 - root - INFO - Time since last close for BIAF is 111.06989863333334 minutes, net percent -3.53225
+2025-10-08 12:02:00,264 - root - INFO - Last 5 minutes maximum volume candle is green for BIAF
+2025-10-08 12:02:00,313 - root - INFO - Trend up basic conditions not met for BIAF: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 12:02:00,319 - root - INFO -  MACD calculation for UAMY due to high change percent: 10.4483
+2025-10-08 12:02:00,373 - root - INFO - MACD not positive for UAMY
+2025-10-08 12:02:00,389 - root - INFO - swing_strategy_close_long for scale 5Min stock KYTX
+2025-10-08 12:02:00,452 - root - INFO - Profit percent for KYTX is 0.132174
+2025-10-08 12:02:00,452 - root - INFO - Latest 1min close price for KYTX: 7.5
+2025-10-08 12:02:00,523 - root - INFO - MACD is still rising for stock KYTX
+2025-10-08 12:02:00,523 - root - INFO - Not enough profit percent to scalp for KYTX: 0.132174
+2025-10-08 12:02:01,456 - root - INFO -  MACD calculation for UPC due to high change percent: 80.0774
+2025-10-08 12:02:01,545 - root - INFO - MACD not positive for UPC
+2025-10-08 12:02:02,104 - root - INFO -  update_current_price: start time 2025-10-08T11:57:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:02:04,259 - root - INFO -  update_current_price: start time 2025-10-08T11:57:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:02:05,624 - root - INFO -  MACD calculation for WBX due to high change percent: 15.4818
+2025-10-08 12:02:05,659 - root - INFO - MACD not positive for WBX
+2025-10-08 12:02:06,886 - root - INFO -  update_current_price: start time 2025-10-08T11:57:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:02:07,530 - root - INFO -  MACD calculation for XBIO due to high change percent: 128.506
+2025-10-08 12:02:07,572 - root - INFO - MACD not positive for XBIO
+2025-10-08 12:02:08,537 - root - INFO - FIND stocks Change percent for XTLB: 56.0714
+2025-10-08 12:02:08,538 - root - INFO - XTLB change_percent from DB: 56.0714
+2025-10-08 12:02:08,551 - root - INFO -  MACD calculation for XTLB due to high change percent: 56.0714
+2025-10-08 12:02:08,806 - root - INFO -  MACD calculation for YAAS due to high change percent: 11.6364
+2025-10-08 12:02:09,298 - root - INFO -  update_current_price: start time 2025-10-08T11:57:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:02:09,833 - root - INFO - Updating change percent of stocks
+2025-10-08 12:02:10,694 - root - INFO - XTLB change_percent from DB: 60.71428571428572
+2025-10-08 12:02:10,705 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-08 12:02:15,575 - root - INFO - Real mode: Today's profit so far: 900.2299749999984
+2025-10-08 12:02:15,596 - root - INFO - Running real_trade for all top movers
+2025-10-08 12:02:15,645 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 12:02:15,658 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:02:15,658 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 12:02:15,705 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 12:02:15,766 - root - INFO - MACD has been up for last 10 candles for XTLB, not opening long position
+2025-10-08 12:02:15,766 - root - INFO - Trend up basic conditions not met for XTLB: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 12:02:15,767 - root - INFO - swing_strategy_open_long for scale 5Min stock KYTX
+2025-10-08 12:02:15,778 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:02:15,778 - root - INFO - Time since last close for KYTX is None minutes, net percent 0
+2025-10-08 12:02:15,845 - root - INFO - Last 5 minutes maximum volume candle is green for KYTX
+2025-10-08 12:02:15,911 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-08 12:02:15,911 - root - INFO - KYTX:======= 7.5===>BUY========>TrendUp990897
+2025-10-08 12:02:15,931 - root - WARNING - ***** stock is already in the positions
+2025-10-08 12:02:15,931 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
+2025-10-08 12:02:15,943 - root - INFO - Time since last close for BIAF is 111.33238385 minutes, net percent -3.53225
+2025-10-08 12:02:16,019 - root - INFO - Last 5 minutes maximum volume candle is green for BIAF
+2025-10-08 12:02:16,083 - root - INFO - Trend up basic conditions not met for BIAF: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 12:02:16,167 - root - INFO - swing_strategy_close_long for scale 5Min stock KYTX
+2025-10-08 12:02:16,294 - root - INFO - Profit percent for KYTX is 0.397859
+2025-10-08 12:02:16,295 - root - INFO - Latest 1min close price for KYTX: 7.5
+2025-10-08 12:02:16,382 - root - INFO - MACD is still rising for stock KYTX
+2025-10-08 12:02:16,383 - root - INFO - Not enough profit percent to scalp for KYTX: 0.397859
+2025-10-08 12:02:31,436 - root - INFO - Real mode: Today's profit so far: 895.5699749999985
+2025-10-08 12:02:31,459 - root - INFO - Running real_trade for all top movers
+2025-10-08 12:02:31,508 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 12:02:31,519 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:02:31,520 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 12:02:31,577 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 12:02:31,636 - root - INFO - MACD has been up for last 10 candles for XTLB, not opening long position
+2025-10-08 12:02:31,636 - root - INFO - Trend up basic conditions not met for XTLB: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 12:02:31,637 - root - INFO - swing_strategy_open_long for scale 5Min stock KYTX
+2025-10-08 12:02:31,652 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:02:31,652 - root - INFO - Time since last close for KYTX is None minutes, net percent 0
+2025-10-08 12:02:31,752 - root - INFO - Last 5 minutes maximum volume candle is green for KYTX
+2025-10-08 12:02:31,824 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-08 12:02:31,824 - root - INFO - KYTX:======= 7.5===>BUY========>TrendUp990897
+2025-10-08 12:02:31,844 - root - WARNING - ***** stock is already in the positions
+2025-10-08 12:02:31,845 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
+2025-10-08 12:02:31,855 - root - INFO - Time since last close for BIAF is 111.5975928 minutes, net percent -3.53225
+2025-10-08 12:02:31,939 - root - INFO - Last 5 minutes maximum volume candle is green for BIAF
+2025-10-08 12:02:32,061 - root - INFO - Trend up basic conditions not met for BIAF: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 12:02:32,140 - root - INFO - swing_strategy_close_long for scale 5Min stock KYTX
+2025-10-08 12:02:32,214 - root - INFO - Profit percent for KYTX is -0.0680899
+2025-10-08 12:02:32,214 - root - INFO - Latest 1min close price for KYTX: 7.5
+2025-10-08 12:02:32,298 - root - INFO - MACD is still rising for stock KYTX
+2025-10-08 12:02:32,298 - root - INFO - Not enough profit percent to scalp for KYTX: -0.0680899
+2025-10-08 12:02:47,345 - root - INFO - Real mode: Today's profit so far: 882.2699749999992
+2025-10-08 12:02:47,368 - root - INFO - Running real_trade for all top movers
+2025-10-08 12:02:47,416 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 12:02:47,427 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:02:47,428 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 12:02:47,484 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 12:02:47,539 - root - INFO - MACD has been up for last 10 candles for XTLB, not opening long position
+2025-10-08 12:02:47,539 - root - INFO - Trend up basic conditions not met for XTLB: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 12:02:47,540 - root - INFO - swing_strategy_open_long for scale 5Min stock KYTX
+2025-10-08 12:02:47,555 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:02:47,555 - root - INFO - Time since last close for KYTX is None minutes, net percent 0
+2025-10-08 12:02:47,639 - root - INFO - Last 5 minutes maximum volume candle is green for KYTX
+2025-10-08 12:02:47,663 - root - INFO - 1min candle is not positive for KYTX: open 7.5 close 7.3301
+2025-10-08 12:02:47,664 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
+2025-10-08 12:02:47,677 - root - INFO - Time since last close for BIAF is 111.86129413333333 minutes, net percent -3.53225
+2025-10-08 12:02:47,799 - root - INFO - Last 5 minutes maximum volume candle is green for BIAF
+2025-10-08 12:02:47,827 - root - INFO - 1min candle is not positive for BIAF: open 3.39 close 3.37
+2025-10-08 12:02:47,969 - root - INFO - swing_strategy_close_long for scale 5Min stock KYTX
+2025-10-08 12:02:48,058 - root - INFO - Profit percent for KYTX is -0.668883
+2025-10-08 12:02:48,058 - root - INFO - Latest 1min close price for KYTX: 7.3301
+2025-10-08 12:02:48,134 - root - INFO - No close long conditions met for KYTX
+2025-10-08 12:03:03,192 - root - INFO - Real mode: Today's profit so far: 886.2599750000008
+2025-10-08 12:03:03,217 - root - INFO - Running real_trade for all top movers
+2025-10-08 12:03:03,267 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 12:03:03,277 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:03:03,278 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 12:03:03,337 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 12:03:03,401 - root - INFO - MACD has been up for last 10 candles for XTLB, not opening long position
+2025-10-08 12:03:03,401 - root - INFO - Trend up basic conditions not met for XTLB: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 12:03:03,401 - root - INFO - swing_strategy_open_long for scale 5Min stock KYTX
+2025-10-08 12:03:03,412 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:03:03,412 - root - INFO - Time since last close for KYTX is None minutes, net percent 0
+2025-10-08 12:03:03,528 - root - INFO - Last 5 minutes maximum volume candle is green for KYTX
+2025-10-08 12:03:03,555 - root - INFO - 1min candle is not positive for KYTX: open 7.5 close 7.3301
+2025-10-08 12:03:03,556 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
+2025-10-08 12:03:03,566 - root - INFO - Time since last close for BIAF is 112.12610591666666 minutes, net percent -3.53225
+2025-10-08 12:03:03,683 - root - INFO - Last 5 minutes maximum volume candle is green for BIAF
+2025-10-08 12:03:03,710 - root - INFO - 1min candle is not positive for BIAF: open 3.39 close 3.37
+2025-10-08 12:03:03,821 - root - INFO - swing_strategy_close_long for scale 5Min stock KYTX
+2025-10-08 12:03:03,902 - root - INFO - Profit percent for KYTX is -2.00398
+2025-10-08 12:03:03,902 - root - INFO - Latest 1min close price for KYTX: 7.3301
+2025-10-08 12:03:03,995 - root - INFO - No close long conditions met for KYTX
+2025-10-08 12:03:10,787 - root - INFO - Real mode: Today's profit so far: 883.6199750000014
+2025-10-08 12:03:10,813 - root - INFO - ('2025-10-08T19:40:00-04:00', '2025-10-08T19:40:00-04:00', '2025-10-01T09:30:00-04:00', '2025-10-08T19:40:00-04:00')
+2025-10-08 12:03:10,813 - root - INFO - Screening stocks | Start: 2025-10-01T09:30:00-04:00 | End: 2025-10-08T19:40:00-04:00
+2025-10-08 12:03:10,838 - root - INFO -  update_current_price: start time 2025-10-08T11:58:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:03:11,195 - root - INFO -  MACD calculation for ABCL due to high change percent: 11.0919
+2025-10-08 12:03:11,571 - root - INFO -  MACD calculation for ABSI due to high change percent: 14.1711
+2025-10-08 12:03:11,779 - root - INFO -  MACD calculation for ABVE due to high change percent: 24.4986
+2025-10-08 12:03:11,910 - root - INFO -  MACD calculation for ABVEW due to high change percent: 32.8571
+2025-10-08 12:03:12,477 - root - INFO -  MACD calculation for ACON due to high change percent: 10.019
+2025-10-08 12:03:12,691 - root - INFO -  MACD calculation for ACXP due to high change percent: 56.1772
+2025-10-08 12:03:12,724 - root - INFO - MACD not positive for ACXP
+2025-10-08 12:03:13,876 - root - INFO -  update_current_price: start time 2025-10-08T11:58:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:03:14,041 - root - INFO -  MACD calculation for AG due to high change percent: 10.6217
+2025-10-08 12:03:16,069 - root - INFO -  MACD calculation for ALXO due to high change percent: 12.0219
+2025-10-08 12:03:16,520 - root - INFO -  update_current_price: start time 2025-10-08T11:58:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:03:17,428 - root - INFO -  MACD calculation for ANY due to high change percent: 11.6608
+2025-10-08 12:03:18,369 - root - INFO -  MACD calculation for ARBE due to high change percent: 19.4323
+2025-10-08 12:03:18,443 - root - INFO - MACD not positive for ARBE
+2025-10-08 12:03:18,891 - root - INFO -  MACD calculation for AREB due to high change percent: 26.0946
+2025-10-08 12:03:18,967 - root - INFO - MACD not positive for AREB
+2025-10-08 12:03:19,043 - root - INFO - Real mode: Today's profit so far: 882.9399750000011
+2025-10-08 12:03:19,062 - root - INFO - Running real_trade for all top movers
+2025-10-08 12:03:19,103 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 12:03:19,111 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:03:19,111 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 12:03:19,162 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 12:03:19,205 - root - INFO - MACD has been up for last 10 candles for XTLB, not opening long position
+2025-10-08 12:03:19,205 - root - INFO - Trend up basic conditions not met for XTLB: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 12:03:19,206 - root - INFO - swing_strategy_open_long for scale 5Min stock KYTX
+2025-10-08 12:03:19,213 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:03:19,213 - root - INFO - Time since last close for KYTX is None minutes, net percent 0
+2025-10-08 12:03:19,287 - root - INFO - Last 5 minutes maximum volume candle is green for KYTX
+2025-10-08 12:03:19,300 - root - INFO - 1min candle is not positive for KYTX: open 7.5 close 7.3301
+2025-10-08 12:03:19,301 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
+2025-10-08 12:03:19,307 - root - INFO - Time since last close for BIAF is 112.38845768333334 minutes, net percent -3.53225
+2025-10-08 12:03:19,403 - root - INFO - Last 5 minutes maximum volume candle is green for BIAF
+2025-10-08 12:03:19,415 - root - INFO - 1min candle is not positive for BIAF: open 3.39 close 3.37
+2025-10-08 12:03:19,453 - root - INFO -  update_current_price: start time 2025-10-08T11:58:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:03:19,509 - root - INFO - swing_strategy_close_long for scale 5Min stock KYTX
+2025-10-08 12:03:19,571 - root - INFO - Profit percent for KYTX is -1.46994
+2025-10-08 12:03:19,571 - root - INFO - Latest 1min close price for KYTX: 7.3301
+2025-10-08 12:03:19,625 - root - INFO - No close long conditions met for KYTX
+2025-10-08 12:03:20,806 - root - INFO -  MACD calculation for AUST due to high change percent: 16.6667
+2025-10-08 12:03:20,931 - root - INFO -  MACD calculation for AUTL due to high change percent: 16.443
+2025-10-08 12:03:21,558 - root - INFO -  MACD calculation for AVTX due to high change percent: 14.095
+2025-10-08 12:03:21,640 - root - INFO - MACD not positive for AVTX
+2025-10-08 12:03:21,700 - root - INFO -  update_current_price: start time 2025-10-08T11:58:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:03:23,918 - root - INFO -  MACD calculation for BFRG due to high change percent: 14.094
+2025-10-08 12:03:24,177 - root - INFO -  update_current_price: start time 2025-10-08T11:58:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:03:24,707 - root - INFO -  MACD calculation for BIAF due to high change percent: 35.902
+2025-10-08 12:03:25,200 - root - INFO -  MACD calculation for BLBX due to high change percent: 21.9785
+2025-10-08 12:03:26,445 - root - INFO -  MACD calculation for BQ due to high change percent: 12.2078
+2025-10-08 12:03:26,514 - root - INFO - MACD not positive for BQ
+2025-10-08 12:03:26,515 - root - INFO -  update_current_price: start time 2025-10-08T11:58:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:03:28,527 - root - INFO -  MACD calculation for CABA due to high change percent: 11.2069
+2025-10-08 12:03:28,601 - root - INFO - MACD not positive for CABA
+2025-10-08 12:03:28,653 - root - INFO -  MACD calculation for CADL due to high change percent: 13.5027
+2025-10-08 12:03:28,689 - root - INFO - MACD not positive for CADL
+2025-10-08 12:03:29,112 - root - INFO -  update_current_price: start time 2025-10-08T11:58:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:03:29,377 - root - INFO -  MACD calculation for CATX due to high change percent: 10.6628
+2025-10-08 12:03:29,439 - root - INFO - MACD not positive for CATX
+2025-10-08 12:03:30,064 - root - INFO -  MACD calculation for CCTG due to high change percent: 17.5926
+2025-10-08 12:03:30,123 - root - INFO - MACD not positive for CCTG
+2025-10-08 12:03:30,703 - root - INFO -  MACD calculation for CENX due to high change percent: 11.5166
+2025-10-08 12:03:30,765 - root - INFO - MACD not positive for CENX
+2025-10-08 12:03:31,107 - root - INFO -  MACD calculation for CFLT due to high change percent: 11.7463
+2025-10-08 12:03:31,695 - root - INFO -  update_current_price: start time 2025-10-08T11:58:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:03:32,749 - root - INFO -  MACD calculation for CLLS due to high change percent: 14.1361
+2025-10-08 12:03:32,980 - root - INFO -  MACD calculation for CLPT due to high change percent: 10.7617
+2025-10-08 12:03:33,042 - root - INFO - MACD not positive for CLPT
+2025-10-08 12:03:33,757 - root - INFO -  update_current_price: start time 2025-10-08T11:58:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:03:34,675 - root - INFO - Real mode: Today's profit so far: 882.3299750000006
+2025-10-08 12:03:34,701 - root - INFO - Running real_trade for all top movers
+2025-10-08 12:03:34,741 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 12:03:34,748 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:03:34,748 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 12:03:34,806 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 12:03:34,847 - root - INFO - MACD has been up for last 10 candles for XTLB, not opening long position
+2025-10-08 12:03:34,847 - root - INFO - Trend up basic conditions not met for XTLB: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 12:03:34,848 - root - INFO - swing_strategy_open_long for scale 5Min stock KYTX
+2025-10-08 12:03:34,854 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:03:34,854 - root - INFO - Time since last close for KYTX is None minutes, net percent 0
+2025-10-08 12:03:34,918 - root - INFO - Last 5 minutes maximum volume candle is green for KYTX
+2025-10-08 12:03:34,929 - root - INFO - 1min candle is not positive for KYTX: open 7.5 close 7.3301
+2025-10-08 12:03:34,930 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
+2025-10-08 12:03:34,936 - root - INFO - Time since last close for BIAF is 112.64894158333333 minutes, net percent -3.53225
+2025-10-08 12:03:34,951 - root - INFO -  MACD calculation for CRBU due to high change percent: 10.9053
+2025-10-08 12:03:35,001 - root - INFO - MACD not positive for CRBU
+2025-10-08 12:03:35,061 - root - INFO - Last 5 minutes maximum volume candle is green for BIAF
+2025-10-08 12:03:35,074 - root - INFO - 1min candle is not positive for BIAF: open 3.39 close 3.37
+2025-10-08 12:03:35,148 - root - INFO - swing_strategy_close_long for scale 5Min stock KYTX
+2025-10-08 12:03:35,216 - root - INFO - Profit percent for KYTX is -1.80371
+2025-10-08 12:03:35,216 - root - INFO - Latest 1min close price for KYTX: 7.3301
+2025-10-08 12:03:35,271 - root - INFO - No close long conditions met for KYTX
+2025-10-08 12:03:35,308 - root - INFO -  MACD calculation for CRML due to high change percent: 14.5699
+2025-10-08 12:03:35,388 - root - INFO - MACD not positive for CRML
+2025-10-08 12:03:36,017 - root - INFO -  update_current_price: start time 2025-10-08T11:58:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:03:38,774 - root - INFO -  MACD calculation for DEVS due to high change percent: 12.2363
+2025-10-08 12:03:38,824 - root - INFO - MACD not positive for DEVS
+2025-10-08 12:03:38,893 - root - INFO -  update_current_price: start time 2025-10-08T11:58:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:03:39,124 - root - INFO -  MACD calculation for DGNX due to high change percent: 23.0579
+2025-10-08 12:03:39,917 - root - INFO -  MACD calculation for DNA due to high change percent: 12.8205
+2025-10-08 12:03:39,985 - root - INFO - MACD not positive for DNA
+2025-10-08 12:03:41,040 - root - INFO -  update_current_price: start time 2025-10-08T11:58:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:03:41,375 - root - INFO -  MACD calculation for EDIT due to high change percent: 10.5725
