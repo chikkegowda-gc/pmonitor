@@ -1,13 +1,8 @@
 Top Movers:
-+--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-| ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
-+--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  NXL   |      0      |     0     |    70.5393     | 3550165  |      1.6      |       0.9382       |  10790000.0  |  0.915   |   130922   |      0      | 2025-10-08 18:41:35 |
-|  NBTX  |      0      |     0     |    41.7263     |  229349  |     29.72     |       20.97        |  37190000.0  |  20.576  |   131935   |      0      | 2025-10-08 18:36:31 |
-|  KYTX  |      0      |     0     |    34.5656     |  20374   |      7.28     |        5.41        |  19630000.0  |  5.774   |   372459   |      0      | 2025-10-08 18:41:33 |
-|  ABVE  |      0      |     0     |    31.8052     | 37886073 |      4.6      |        3.49        |  27970000.0  |  2.882   |  6236619   |      0      | 2025-10-08 18:37:39 |
-|  SUGP  |      1      |     0     |    30.5426     | 1182744  |      8.42     |        6.45        |  4020000.0   | 6.27954  |   72102    |      0      | 2025-10-08 18:40:24 |
-+--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
++--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
+| ticker | in_position | break_out | change_percent | volume | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status | update_time |
++--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
++--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 | ticker | in_position | break_out | change_percent | volume | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status | update_time |
@@ -20,23 +15,6 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-08 18:37:48,482 - root - INFO -  MACD calculation for QTTB due to high change percent: 22.5714
-2025-10-08 18:37:48,518 - root - INFO - MACD not positive for QTTB
-2025-10-08 18:37:48,786 - root - INFO -  MACD calculation for RELL due to high change percent: 30.8943
-2025-10-08 18:37:48,825 - root - INFO - MACD not positive for RELL
-2025-10-08 18:37:48,826 - root - INFO -  update_current_price: start time 2025-10-08T18:32:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 18:37:49,118 - root - INFO -  MACD calculation for RNAZ due to high change percent: 14.5663
-2025-10-08 18:37:49,372 - root - INFO -  MACD calculation for RXRX due to high change percent: 16.2524
-2025-10-08 18:37:49,611 - root - INFO -  update_current_price: start time 2025-10-08T18:32:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 18:37:49,918 - root - INFO -  update_current_price: start time 2025-10-08T18:32:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 18:37:50,029 - root - INFO -  MACD calculation for SIDU due to high change percent: 17.5
-2025-10-08 18:37:50,105 - root - INFO - MACD not positive for SIDU
-2025-10-08 18:37:50,353 - root - INFO -  MACD calculation for SLNH due to high change percent: 31.0345
-2025-10-08 18:37:50,441 - root - INFO - MACD not positive for SLNH
-2025-10-08 18:37:50,638 - root - INFO -  MACD calculation for SNTG due to high change percent: 15.6863
-2025-10-08 18:37:50,680 - root - INFO -  update_current_price: start time 2025-10-08T18:32:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 18:37:51,060 - root - INFO -  MACD calculation for SRFM due to high change percent: 14.9253
-2025-10-08 18:37:51,286 - root - INFO -  update_current_price: start time 2025-10-08T18:32:00-04:00 end_time 2025-10-08T19:40:00-04:00
 2025-10-08 18:37:51,396 - root - INFO -  MACD calculation for SUGP due to high change percent: 34.5736
 2025-10-08 18:37:51,644 - root - INFO -  MACD calculation for TAOP due to high change percent: 19.3548
 2025-10-08 18:37:51,679 - root - INFO - MACD not positive for TAOP
@@ -420,3 +398,20 @@ Manual Movers:
 2025-10-08 18:41:41,039 - root - INFO - Updating change percent of stocks
 2025-10-08 18:41:41,722 - root - INFO - XTLB change_percent from DB: 33.571428571428584
 2025-10-08 18:41:41,730 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-08 19:43:03,655 - root - INFO - Resetting stock DB fields...
+2025-10-08 19:43:03,655 - root - INFO - Parameters - price_update_clear: True, buy_sell_clear: False, scan_clear: False, clear_for_day: False
+2025-10-08 19:43:04,242 - root - INFO - Stock DB fields reset completed.
+2025-10-08 19:43:04,264 - root - CRITICAL - Waiting for market to open...
+2025-10-08 19:43:04,265 - root - CRITICAL - Premarket scan completed.
+2025-10-08 19:43:04,266 - root - CRITICAL - Price update completed.
+2025-10-08 19:43:04,266 - root - CRITICAL - Market opened.
+2025-10-08 19:43:04,266 - root - INFO - STARTING BUY-SELL THREAD
+2025-10-08 19:43:04,286 - root - INFO - ('2025-10-08T19:40:00-04:00', '2025-10-08T19:40:00-04:00', '2025-10-01T09:30:00-04:00', '2025-10-08T19:40:00-04:00')
+2025-10-08 19:43:04,287 - root - INFO - Screening stocks | Start: 2025-10-01T09:30:00-04:00 | End: 2025-10-08T19:40:00-04:00
+2025-10-08 19:43:04,298 - root - INFO -  update_current_price: start time 2025-10-08T04:00:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 19:43:06,911 - root - INFO -  update_current_price: start time 2025-10-08T04:00:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 19:43:10,169 - root - INFO -  update_current_price: start time 2025-10-08T04:00:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 19:43:13,137 - root - INFO -  update_current_price: start time 2025-10-08T04:00:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 19:43:16,303 - root - INFO -  update_current_price: start time 2025-10-08T04:00:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 19:43:19,217 - root - INFO -  update_current_price: start time 2025-10-08T04:00:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 19:43:21,546 - root - INFO -  update_current_price: start time 2025-10-08T04:00:00-04:00 end_time 2025-10-08T19:40:00-04:00
