@@ -2,11 +2,11 @@ Top Movers:
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  XBIO  |      0      |     0     |    141.259     | 29589167 |     10.35     |        4.29        |  1250000.0   | 3.43576  |   78323    |      0      | 2025-10-08 14:07:46 |
-|  ACXP  |      1      |     0     |    75.5221     | 15931112 |      7.73     |        4.29        |  19450000.0  |  4.456   |  1061867   |      0      | 2025-10-08 14:08:52 |
-|  RKDA  |      0      |     0     |     66.568     |  755226  |      5.63     |        3.38        |  1360000.0   |  3.454   |   16584    |      0      | 2025-10-08 14:07:23 |
-|  UPC   |      0      |     0     |    66.3443     | 13543701 |      8.6      |        5.17        |   210000.0   |  4.702   |   220771   |      0      | 2025-10-08 14:07:40 |
-|  NPWR  |      0      |     0     |    38.3191     | 1735204  |     4.855     |        3.51        |  31380000.0  |  3.362   |  1536819   |      0      | 2025-10-08 14:07:08 |
+|  XBIO  |      0      |     0     |    140.093     | 29607247 |      10.3     |        4.29        |  1250000.0   | 3.43576  |   78323    |      0      | 2025-10-08 14:13:36 |
+|  RKDA  |      0      |     0     |    87.8698     | 1400398  |      6.35     |        3.38        |  1360000.0   |  3.454   |   16584    |      0      | 2025-10-08 14:13:13 |
+|  ACXP  |      1      |     0     |    75.0583     | 15972866 |      7.59     |        4.29        |  19450000.0  |  4.456   |  1061867   |      0      | 2025-10-08 14:14:41 |
+|  UPC   |      0      |     0     |    63.4526     | 13551195 |     8.4505    |        5.17        |   210000.0   |  4.702   |   220771   |      0      | 2025-10-08 14:13:30 |
+|  NPWR  |      0      |     0     |    38.7464     | 1779063  |      4.87     |        3.51        |  31380000.0  |  3.362   |  1536819   |      0      | 2025-10-08 14:12:56 |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -20,403 +20,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-08 14:07:44,606 - root - INFO - Running real_trade for all top movers
-2025-10-08 14:07:44,648 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
-2025-10-08 14:07:44,657 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 14:07:44,657 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
-2025-10-08 14:07:44,706 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
-2025-10-08 14:07:44,723 - root - INFO - 1min candle is not positive for XBIO: open 10.34 close 10.35
-2025-10-08 14:07:44,724 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 14:07:44,731 - root - INFO - Time since last close for ACXP is 436.9455224166667 minutes, net percent 11.5238
-2025-10-08 14:07:44,759 - root - INFO -  MACD calculation for WOLF due to high change percent: 11.1465
-2025-10-08 14:07:44,778 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
-2025-10-08 14:07:44,795 - root - INFO - 1min RSI is overbought for ACXP: 70.00464706693175
-2025-10-08 14:07:44,796 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 14:07:44,806 - root - INFO - Time since last close for UPC is 135.23010408333332 minutes, net percent 0.305499
-2025-10-08 14:07:44,868 - root - INFO - Last 5 minutes maximum volume candle is red for UPC
-2025-10-08 14:07:44,868 - root - INFO - swing_strategy_open_long for scale 5Min stock RKDA
-2025-10-08 14:07:44,878 - root - INFO - Time since last close for RKDA is 1.8313099166666666 minutes, net percent 10.1124
-2025-10-08 14:07:44,878 - root - INFO - ***** stock: RKDA Scale: 5Min Time since last close: 1 minutes
-2025-10-08 14:07:44,879 - root - INFO - swing_strategy_open_long for scale 5Min stock NPWR
-2025-10-08 14:07:44,888 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 14:07:44,888 - root - INFO - Time since last close for NPWR is None minutes, net percent 0
-2025-10-08 14:07:44,971 - root - INFO - Last 5 minutes maximum volume candle is green for NPWR
-2025-10-08 14:07:44,988 - root - INFO - 1min candle is not positive for NPWR: open 4.855 close 4.81
-2025-10-08 14:07:45,060 - root - INFO - swing_strategy_close_long for scale 5Min stock ACXP
-2025-10-08 14:07:45,073 - root - INFO -  update_current_price: start time 2025-10-08T14:02:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:07:45,109 - root - INFO - Profit percent for ACXP is 2.86667
-2025-10-08 14:07:45,109 - root - INFO - Latest 1min close price for ACXP: 7.7087
-2025-10-08 14:07:45,130 - root - INFO - High price DETECTED for ACXP is 7.584 and setting no_scalp to True
-2025-10-08 14:07:45,760 - root - INFO -  MACD calculation for XBIO due to high change percent: 142.657
-2025-10-08 14:07:47,030 - root - INFO - FIND stocks Change percent for XTLB: 50.0
-2025-10-08 14:07:47,030 - root - INFO - XTLB change_percent from DB: 50.0
-2025-10-08 14:07:47,043 - root - INFO -  MACD calculation for XTLB due to high change percent: 50.0
-2025-10-08 14:07:47,086 - root - INFO - MACD not positive for XTLB
-2025-10-08 14:07:47,207 - root - INFO -  MACD calculation for YAAS due to high change percent: 12.3636
-2025-10-08 14:07:47,272 - root - INFO - MACD not positive for YAAS
-2025-10-08 14:07:47,552 - root - INFO -  MACD calculation for YTRA due to high change percent: 13.2911
-2025-10-08 14:07:47,594 - root - INFO - MACD not positive for YTRA
-2025-10-08 14:07:47,691 - root - INFO -  MACD calculation for ZBIO due to high change percent: 16.7386
-2025-10-08 14:07:47,932 - root - INFO -  update_current_price: start time 2025-10-08T14:02:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:07:48,836 - root - INFO - Updating change percent of stocks
-2025-10-08 14:07:49,637 - root - INFO - XTLB change_percent from DB: 50.71428571428571
-2025-10-08 14:07:49,647 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-08 14:08:00,185 - root - INFO - Real mode: Today's profit so far: 879.9799749999984
-2025-10-08 14:08:00,207 - root - INFO - Running real_trade for all top movers
-2025-10-08 14:08:00,253 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
-2025-10-08 14:08:00,263 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 14:08:00,264 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
-2025-10-08 14:08:00,318 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
-2025-10-08 14:08:00,346 - root - INFO - 1min candle is not positive for XBIO: open 10.34 close 10.35
-2025-10-08 14:08:00,347 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 14:08:00,359 - root - INFO - Time since last close for ACXP is 437.20599550000003 minutes, net percent 11.5238
-2025-10-08 14:08:00,441 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
-2025-10-08 14:08:00,469 - root - INFO - 1min RSI is overbought for ACXP: 70.00464706693175
-2025-10-08 14:08:00,470 - root - INFO - swing_strategy_open_long for scale 5Min stock RKDA
-2025-10-08 14:08:00,482 - root - INFO - Time since last close for RKDA is 2.0913687666666667 minutes, net percent 10.1124
-2025-10-08 14:08:00,482 - root - INFO - ***** stock: RKDA Scale: 5Min Time since last close: 2 minutes
-2025-10-08 14:08:00,483 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 14:08:00,493 - root - INFO - Time since last close for UPC is 135.49156403333333 minutes, net percent 0.305499
-2025-10-08 14:08:00,555 - root - INFO - Last 5 minutes maximum volume candle is red for UPC
-2025-10-08 14:08:00,555 - root - INFO - swing_strategy_open_long for scale 5Min stock NPWR
-2025-10-08 14:08:00,570 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 14:08:00,570 - root - INFO - Time since last close for NPWR is None minutes, net percent 0
-2025-10-08 14:08:00,653 - root - INFO - Last 5 minutes maximum volume candle is green for NPWR
-2025-10-08 14:08:00,681 - root - INFO - 1min candle is not positive for NPWR: open 4.855 close 4.81
-2025-10-08 14:08:00,764 - root - INFO - swing_strategy_close_long for scale 5Min stock ACXP
-2025-10-08 14:08:00,818 - root - INFO - Profit percent for ACXP is 2.78267
-2025-10-08 14:08:00,819 - root - INFO - Latest 1min close price for ACXP: 7.7087
-2025-10-08 14:08:00,902 - root - INFO - MACD is still rising for stock ACXP
-2025-10-08 14:08:00,902 - root - INFO - Not enough profit percent to scalp for ACXP: 2.78267
-2025-10-08 14:08:15,956 - root - INFO - Real mode: Today's profit so far: 885.2999750000017
-2025-10-08 14:08:15,980 - root - INFO - Running real_trade for all top movers
-2025-10-08 14:08:16,029 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
-2025-10-08 14:08:16,041 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 14:08:16,042 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
-2025-10-08 14:08:16,105 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
-2025-10-08 14:08:16,133 - root - INFO - 1min candle is not positive for XBIO: open 10.34 close 10.35
-2025-10-08 14:08:16,134 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 14:08:16,147 - root - INFO - Time since last close for ACXP is 437.4691195166667 minutes, net percent 11.5238
-2025-10-08 14:08:16,195 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
-2025-10-08 14:08:16,223 - root - INFO - 1min RSI is overbought for ACXP: 70.00464706693175
-2025-10-08 14:08:16,224 - root - INFO - swing_strategy_open_long for scale 5Min stock RKDA
-2025-10-08 14:08:16,236 - root - INFO - Time since last close for RKDA is 2.353945216666667 minutes, net percent 10.1124
-2025-10-08 14:08:16,236 - root - INFO - ***** stock: RKDA Scale: 5Min Time since last close: 2 minutes
-2025-10-08 14:08:16,237 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 14:08:16,246 - root - INFO - Time since last close for UPC is 135.75410785 minutes, net percent 0.305499
-2025-10-08 14:08:16,318 - root - INFO - Last 5 minutes maximum volume candle is red for UPC
-2025-10-08 14:08:16,319 - root - INFO - swing_strategy_open_long for scale 5Min stock NPWR
-2025-10-08 14:08:16,332 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 14:08:16,333 - root - INFO - Time since last close for NPWR is None minutes, net percent 0
-2025-10-08 14:08:16,424 - root - INFO - Last 5 minutes maximum volume candle is green for NPWR
-2025-10-08 14:08:16,443 - root - INFO - 1min candle is not positive for NPWR: open 4.855 close 4.81
-2025-10-08 14:08:16,556 - root - INFO - swing_strategy_close_long for scale 5Min stock ACXP
-2025-10-08 14:08:16,607 - root - INFO - Profit percent for ACXP is 2.66667
-2025-10-08 14:08:16,607 - root - INFO - Latest 1min close price for ACXP: 7.7087
-2025-10-08 14:08:16,692 - root - INFO - MACD is still rising for stock ACXP
-2025-10-08 14:08:16,692 - root - INFO - Not enough profit percent to scalp for ACXP: 2.66667
-2025-10-08 14:08:31,746 - root - INFO - Real mode: Today's profit so far: 888.8899749999982
-2025-10-08 14:08:31,955 - root - INFO - Running real_trade for all top movers
-2025-10-08 14:08:32,006 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
-2025-10-08 14:08:32,015 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 14:08:32,016 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
-2025-10-08 14:08:32,064 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
-2025-10-08 14:08:32,088 - root - INFO - 1min candle is not positive for XBIO: open 10.34 close 10.35
-2025-10-08 14:08:32,089 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 14:08:32,101 - root - INFO - Time since last close for ACXP is 437.73502245 minutes, net percent 11.5238
-2025-10-08 14:08:32,197 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
-2025-10-08 14:08:32,225 - root - INFO - 1min RSI is overbought for ACXP: 70.00464706693175
-2025-10-08 14:08:32,226 - root - INFO - swing_strategy_open_long for scale 5Min stock RKDA
-2025-10-08 14:08:32,237 - root - INFO - Time since last close for RKDA is 2.6206205333333332 minutes, net percent 10.1124
-2025-10-08 14:08:32,237 - root - INFO - ***** stock: RKDA Scale: 5Min Time since last close: 2 minutes
-2025-10-08 14:08:32,238 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 14:08:32,252 - root - INFO - Time since last close for UPC is 136.02087291666666 minutes, net percent 0.305499
-2025-10-08 14:08:32,315 - root - INFO - Last 5 minutes maximum volume candle is red for UPC
-2025-10-08 14:08:32,316 - root - INFO - swing_strategy_open_long for scale 5Min stock NPWR
-2025-10-08 14:08:32,331 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 14:08:32,331 - root - INFO - Time since last close for NPWR is None minutes, net percent 0
-2025-10-08 14:08:32,462 - root - INFO - Last 5 minutes maximum volume candle is green for NPWR
-2025-10-08 14:08:32,482 - root - INFO - 1min candle is not positive for NPWR: open 4.855 close 4.81
-2025-10-08 14:08:32,561 - root - INFO - swing_strategy_close_long for scale 5Min stock ACXP
-2025-10-08 14:08:32,611 - root - INFO - Profit percent for ACXP is 3.33333
-2025-10-08 14:08:32,611 - root - INFO - Latest 1min close price for ACXP: 7.7087
-2025-10-08 14:08:32,698 - root - INFO - MACD is still rising for stock ACXP
-2025-10-08 14:08:32,698 - root - INFO - Not enough profit percent to scalp for ACXP: 3.33333
-2025-10-08 14:08:47,755 - root - INFO - Real mode: Today's profit so far: 876.6599749999987
-2025-10-08 14:08:47,780 - root - INFO - Running real_trade for all top movers
-2025-10-08 14:08:47,828 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
-2025-10-08 14:08:47,841 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 14:08:47,842 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
-2025-10-08 14:08:47,896 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
-2025-10-08 14:08:47,955 - root - INFO - MACD has been up for last 10 candles for XBIO, not opening long position
-2025-10-08 14:08:47,955 - root - INFO - Trend up basic conditions not met for XBIO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-08 14:08:47,955 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 14:08:47,965 - root - INFO - Time since last close for ACXP is 437.9994236 minutes, net percent 11.5238
-2025-10-08 14:08:48,026 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
-2025-10-08 14:08:48,051 - root - INFO - 1min RSI is overbought for ACXP: 70.94709440194572
-2025-10-08 14:08:48,052 - root - INFO - swing_strategy_open_long for scale 5Min stock RKDA
-2025-10-08 14:08:48,063 - root - INFO - Time since last close for RKDA is 2.8843966 minutes, net percent 10.1124
-2025-10-08 14:08:48,064 - root - INFO - ***** stock: RKDA Scale: 5Min Time since last close: 2 minutes
-2025-10-08 14:08:48,064 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 14:08:48,075 - root - INFO - Time since last close for UPC is 136.28458658333335 minutes, net percent 0.305499
-2025-10-08 14:08:48,146 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
-2025-10-08 14:08:48,168 - root - INFO - 1min candle is not positive for UPC: open 8.59 close 8.5
-2025-10-08 14:08:48,169 - root - INFO - swing_strategy_open_long for scale 5Min stock NPWR
-2025-10-08 14:08:48,180 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 14:08:48,180 - root - INFO - Time since last close for NPWR is None minutes, net percent 0
-2025-10-08 14:08:48,339 - root - INFO - Last 5 minutes maximum volume candle is green for NPWR
-2025-10-08 14:08:48,368 - root - INFO - 1min candle is not positive for NPWR: open 4.8 close 4.84
-2025-10-08 14:08:48,460 - root - INFO - swing_strategy_close_long for scale 5Min stock ACXP
-2025-10-08 14:08:48,521 - root - INFO - Profit percent for ACXP is 3.46133
-2025-10-08 14:08:48,521 - root - INFO - Latest 1min close price for ACXP: 7.73
-2025-10-08 14:08:48,547 - root - INFO - High price DETECTED for ACXP is 7.7087 and setting no_scalp to True
-2025-10-08 14:08:49,717 - root - INFO - Real mode: Today's profit so far: 876.6599749999987
-2025-10-08 14:08:49,737 - root - INFO - ('2025-10-08T19:40:00-04:00', '2025-10-08T19:40:00-04:00', '2025-10-01T09:30:00-04:00', '2025-10-08T19:40:00-04:00')
-2025-10-08 14:08:49,737 - root - INFO - Screening stocks | Start: 2025-10-01T09:30:00-04:00 | End: 2025-10-08T19:40:00-04:00
-2025-10-08 14:08:49,768 - root - INFO -  update_current_price: start time 2025-10-08T14:03:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:08:50,210 - root - INFO -  MACD calculation for ABCL due to high change percent: 10.0503
-2025-10-08 14:08:50,293 - root - INFO - MACD not positive for ABCL
-2025-10-08 14:08:50,543 - root - INFO -  MACD calculation for ABSI due to high change percent: 13.1016
-2025-10-08 14:08:50,617 - root - INFO - MACD not positive for ABSI
-2025-10-08 14:08:50,736 - root - INFO -  MACD calculation for ABVE due to high change percent: 55.8711
-2025-10-08 14:08:50,806 - root - INFO - MACD not positive for ABVE
-2025-10-08 14:08:51,508 - root - INFO -  MACD calculation for ACON due to high change percent: 10.4497
-2025-10-08 14:08:51,555 - root - INFO - MACD not positive for ACON
-2025-10-08 14:08:51,973 - root - INFO -  MACD calculation for ACXP due to high change percent: 75.5221
-2025-10-08 14:08:53,519 - root - INFO -  update_current_price: start time 2025-10-08T14:03:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:08:53,711 - root - INFO -  MACD calculation for AG due to high change percent: 10.8692
-2025-10-08 14:08:53,789 - root - INFO - MACD not positive for AG
-2025-10-08 14:08:56,555 - root - INFO -  update_current_price: start time 2025-10-08T14:03:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:08:58,618 - root - INFO -  MACD calculation for ARBE due to high change percent: 21.3974
-2025-10-08 14:08:58,702 - root - INFO - MACD not positive for ARBE
-2025-10-08 14:08:59,175 - root - INFO -  MACD calculation for AREB due to high change percent: 19.0911
-2025-10-08 14:09:00,050 - root - INFO -  update_current_price: start time 2025-10-08T14:04:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:09:01,816 - root - INFO -  MACD calculation for AUROW due to high change percent: 14.3049
-2025-10-08 14:09:01,919 - root - INFO -  MACD calculation for AUST due to high change percent: 17.1171
-2025-10-08 14:09:01,978 - root - INFO - MACD not positive for AUST
-2025-10-08 14:09:02,026 - root - INFO -  MACD calculation for AUTL due to high change percent: 17.1141
-2025-10-08 14:09:02,068 - root - INFO - MACD not positive for AUTL
-2025-10-08 14:09:02,508 - root - INFO -  update_current_price: start time 2025-10-08T14:04:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:09:03,609 - root - INFO - Real mode: Today's profit so far: 876.6599749999987
-2025-10-08 14:09:03,630 - root - INFO - Running real_trade for all top movers
-2025-10-08 14:09:03,665 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
-2025-10-08 14:09:03,669 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 14:09:03,669 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
-2025-10-08 14:09:03,715 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
-2025-10-08 14:09:03,750 - root - INFO - MACD has been up for last 10 candles for XBIO, not opening long position
-2025-10-08 14:09:03,750 - root - INFO - Trend up basic conditions not met for XBIO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-08 14:09:03,750 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 14:09:03,755 - root - INFO - Time since last close for ACXP is 438.26258366666667 minutes, net percent 11.5238
-2025-10-08 14:09:03,796 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
-2025-10-08 14:09:03,804 - root - INFO - 1min RSI is overbought for ACXP: 70.94709440194572
-2025-10-08 14:09:03,804 - root - INFO - swing_strategy_open_long for scale 5Min stock RKDA
-2025-10-08 14:09:03,808 - root - INFO - Time since last close for RKDA is 3.146812783333333 minutes, net percent 10.1124
-2025-10-08 14:09:03,808 - root - INFO - ***** stock: RKDA Scale: 5Min Time since last close: 3 minutes
-2025-10-08 14:09:03,809 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 14:09:03,812 - root - INFO - Time since last close for UPC is 136.54688081666666 minutes, net percent 0.305499
-2025-10-08 14:09:03,864 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
-2025-10-08 14:09:03,872 - root - INFO - 1min candle is not positive for UPC: open 8.59 close 8.5
-2025-10-08 14:09:03,873 - root - INFO - swing_strategy_open_long for scale 5Min stock NPWR
-2025-10-08 14:09:03,877 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 14:09:03,878 - root - INFO - Time since last close for NPWR is None minutes, net percent 0
-2025-10-08 14:09:03,944 - root - INFO - Last 5 minutes maximum volume candle is green for NPWR
-2025-10-08 14:09:03,952 - root - INFO - 1min candle is not positive for NPWR: open 4.8 close 4.84
-2025-10-08 14:09:04,014 - root - INFO - swing_strategy_close_long for scale 5Min stock ACXP
-2025-10-08 14:09:04,048 - root - INFO - Profit percent for ACXP is 2.33333
-2025-10-08 14:09:04,049 - root - INFO - Latest 1min close price for ACXP: 7.73
-2025-10-08 14:09:04,094 - root - INFO - MACD is still rising for stock ACXP
-2025-10-08 14:09:04,094 - root - INFO - Not enough profit percent to scalp for ACXP: 2.33333
-2025-10-08 14:09:04,130 - root - INFO -  MACD calculation for BFRG due to high change percent: 11.4094
-2025-10-08 14:09:04,174 - root - INFO - MACD not positive for BFRG
-2025-10-08 14:09:04,260 - root - INFO -  update_current_price: start time 2025-10-08T14:04:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:09:04,687 - root - INFO -  MACD calculation for BIAF due to high change percent: 35.9184
-2025-10-08 14:09:04,913 - root - INFO -  MACD calculation for BITF due to high change percent: 13.2046
-2025-10-08 14:09:05,280 - root - INFO -  MACD calculation for BLBX due to high change percent: 24.7201
-2025-10-08 14:09:06,250 - root - INFO -  MACD calculation for BNZI due to high change percent: 18.0556
-2025-10-08 14:09:06,313 - root - INFO - MACD not positive for BNZI
-2025-10-08 14:09:06,549 - root - INFO -  update_current_price: start time 2025-10-08T14:04:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:09:06,716 - root - INFO -  MACD calculation for BRLT due to high change percent: 10.9589
-2025-10-08 14:09:09,146 - root - INFO -  MACD calculation for CADL due to high change percent: 15.3641
-2025-10-08 14:09:09,208 - root - INFO - MACD not positive for CADL
-2025-10-08 14:09:09,479 - root - INFO -  update_current_price: start time 2025-10-08T14:04:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:09:09,666 - root - INFO -  MACD calculation for CATX due to high change percent: 10.6628
-2025-10-08 14:09:09,721 - root - INFO - MACD not positive for CATX
-2025-10-08 14:09:10,323 - root - INFO -  MACD calculation for CDE due to high change percent: 10.4145
-2025-10-08 14:09:10,402 - root - INFO - MACD not positive for CDE
-2025-10-08 14:09:10,879 - root - INFO -  MACD calculation for CENX due to high change percent: 12.1752
-2025-10-08 14:09:10,944 - root - INFO - MACD not positive for CENX
-2025-10-08 14:09:11,520 - root - INFO -  MACD calculation for CFLT due to high change percent: 10.2026
-2025-10-08 14:09:11,831 - root - INFO -  MACD calculation for CGEM due to high change percent: 11.6299
-2025-10-08 14:09:11,961 - root - INFO -  update_current_price: start time 2025-10-08T14:04:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:09:12,477 - root - INFO -  MACD calculation for CIFR due to high change percent: 12.8254
-2025-10-08 14:09:12,587 - root - INFO - MACD not positive for CIFR
-2025-10-08 14:09:12,639 - root - INFO -  MACD calculation for CIFRW due to high change percent: 23.0651
-2025-10-08 14:09:12,786 - root - INFO - MACD not positive for CIFRW
-2025-10-08 14:09:13,134 - root - INFO -  MACD calculation for CLLS due to high change percent: 11.1257
-2025-10-08 14:09:13,176 - root - INFO - MACD not positive for CLLS
-2025-10-08 14:09:14,325 - root - INFO -  update_current_price: start time 2025-10-08T14:04:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:09:15,929 - root - INFO -  MACD calculation for CRBU due to high change percent: 11.9342
-2025-10-08 14:09:15,985 - root - INFO - MACD not positive for CRBU
-2025-10-08 14:09:16,421 - root - INFO -  MACD calculation for CRML due to high change percent: 17.2914
-2025-10-08 14:09:17,314 - root - INFO -  update_current_price: start time 2025-10-08T14:04:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:09:18,686 - root - INFO -  MACD calculation for CXAI due to high change percent: 10.4762
-2025-10-08 14:09:18,764 - root - INFO - MACD not positive for CXAI
-2025-10-08 14:09:19,134 - root - INFO - Real mode: Today's profit so far: 885.2999750000017
-2025-10-08 14:09:19,152 - root - INFO - Running real_trade for all top movers
-2025-10-08 14:09:19,190 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
-2025-10-08 14:09:19,197 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 14:09:19,197 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
-2025-10-08 14:09:19,249 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
-2025-10-08 14:09:19,312 - root - INFO - MACD has been up for last 10 candles for XBIO, not opening long position
-2025-10-08 14:09:19,312 - root - INFO - Trend up basic conditions not met for XBIO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-08 14:09:19,312 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 14:09:19,319 - root - INFO - Time since last close for ACXP is 438.5219980666667 minutes, net percent 11.5238
-2025-10-08 14:09:19,355 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
-2025-10-08 14:09:19,369 - root - INFO - 1min RSI is overbought for ACXP: 70.94709440194572
-2025-10-08 14:09:19,369 - root - INFO - swing_strategy_open_long for scale 5Min stock RKDA
-2025-10-08 14:09:19,375 - root - INFO - Time since last close for RKDA is 3.406263516666667 minutes, net percent 10.1124
-2025-10-08 14:09:19,376 - root - INFO - ***** stock: RKDA Scale: 5Min Time since last close: 3 minutes
-2025-10-08 14:09:19,376 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 14:09:19,382 - root - INFO - Time since last close for UPC is 136.80637045 minutes, net percent 0.305499
-2025-10-08 14:09:19,434 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
-2025-10-08 14:09:19,444 - root - INFO - 1min candle is not positive for UPC: open 8.59 close 8.5
-2025-10-08 14:09:19,444 - root - INFO - swing_strategy_open_long for scale 5Min stock NPWR
-2025-10-08 14:09:19,449 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 14:09:19,449 - root - INFO - Time since last close for NPWR is None minutes, net percent 0
-2025-10-08 14:09:19,513 - root - INFO - Last 5 minutes maximum volume candle is green for NPWR
-2025-10-08 14:09:19,523 - root - INFO - 1min candle is not positive for NPWR: open 4.8 close 4.84
-2025-10-08 14:09:19,589 - root - INFO - swing_strategy_close_long for scale 5Min stock ACXP
-2025-10-08 14:09:19,642 - root - INFO - Profit percent for ACXP is 2.33333
-2025-10-08 14:09:19,642 - root - INFO - Latest 1min close price for ACXP: 7.73
-2025-10-08 14:09:19,646 - root - INFO -  MACD calculation for DFDV due to high change percent: 10.099
-2025-10-08 14:09:19,689 - root - INFO - MACD is still rising for stock ACXP
-2025-10-08 14:09:19,689 - root - INFO - Not enough profit percent to scalp for ACXP: 2.33333
-2025-10-08 14:09:19,700 - root - INFO - MACD not positive for DFDV
-2025-10-08 14:09:19,700 - root - INFO -  update_current_price: start time 2025-10-08T14:04:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:09:19,876 - root - INFO -  MACD calculation for DGNX due to high change percent: 24.0289
-2025-10-08 14:09:21,444 - root - INFO -  MACD calculation for DUO due to high change percent: 13.5714
-2025-10-08 14:09:21,793 - root - INFO -  update_current_price: start time 2025-10-08T14:04:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:09:23,502 - root - INFO -  MACD calculation for ELBM due to high change percent: 30.1829
-2025-10-08 14:09:23,916 - root - INFO -  update_current_price: start time 2025-10-08T14:04:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:09:25,599 - root - INFO -  MACD calculation for EVAX due to high change percent: 10.4843
-2025-10-08 14:09:25,699 - root - INFO - MACD not positive for EVAX
-2025-10-08 14:09:26,362 - root - INFO -  update_current_price: start time 2025-10-08T14:04:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:09:27,212 - root - INFO -  MACD calculation for FDMT due to high change percent: 14.0625
-2025-10-08 14:09:27,398 - root - INFO -  MACD calculation for FEAM due to high change percent: 12.2826
-2025-10-08 14:09:27,435 - root - INFO - MACD not positive for FEAM
-2025-10-08 14:09:28,773 - root - INFO -  update_current_price: start time 2025-10-08T14:04:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:09:29,038 - root - INFO -  MACD calculation for FNGR due to high change percent: 16.9532
-2025-10-08 14:09:30,091 - root - INFO -  MACD calculation for FTEL due to high change percent: 19.5717
-2025-10-08 14:09:31,016 - root - INFO -  MACD calculation for GAU due to high change percent: 10.7422
-2025-10-08 14:09:31,118 - root - INFO - MACD not positive for GAU
-2025-10-08 14:09:31,175 - root - INFO -  update_current_price: start time 2025-10-08T14:04:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:09:31,334 - root - INFO -  MACD calculation for GCL due to high change percent: 11.2069
-2025-10-08 14:09:31,377 - root - INFO - MACD not positive for GCL
-2025-10-08 14:09:32,129 - root - INFO -  MACD calculation for GETY due to high change percent: 11.0048
-2025-10-08 14:09:32,193 - root - INFO - MACD not positive for GETY
-2025-10-08 14:09:32,593 - root - INFO -  MACD calculation for GIGGW due to high change percent: 87.0279
-2025-10-08 14:09:32,646 - root - INFO - MACD not positive for GIGGW
-2025-10-08 14:09:32,769 - root - INFO -  MACD calculation for GLDG due to high change percent: 14.4366
-2025-10-08 14:09:33,306 - root - INFO -  update_current_price: start time 2025-10-08T14:04:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:09:34,736 - root - INFO - Real mode: Today's profit so far: 882.6399749999982
-2025-10-08 14:09:34,754 - root - INFO - Running real_trade for all top movers
-2025-10-08 14:09:34,793 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
-2025-10-08 14:09:34,794 - root - INFO -  MACD calculation for GSRT due to high change percent: 16.1667
-2025-10-08 14:09:34,800 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 14:09:34,800 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
-2025-10-08 14:09:34,853 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
-2025-10-08 14:09:34,900 - root - INFO - MACD has been up for last 10 candles for XBIO, not opening long position
-2025-10-08 14:09:34,900 - root - INFO - Trend up basic conditions not met for XBIO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-08 14:09:34,901 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 14:09:34,909 - root - INFO - Time since last close for ACXP is 438.7818233 minutes, net percent 11.5238
-2025-10-08 14:09:34,910 - root - INFO -  MACD calculation for GSRTR due to high change percent: 14.9396
-2025-10-08 14:09:34,959 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
-2025-10-08 14:09:34,979 - root - INFO - 1min RSI is overbought for ACXP: 70.94709440194572
-2025-10-08 14:09:34,980 - root - INFO - swing_strategy_open_long for scale 5Min stock RKDA
-2025-10-08 14:09:34,989 - root - INFO - Time since last close for RKDA is 3.6664884333333334 minutes, net percent 10.1124
-2025-10-08 14:09:34,989 - root - INFO - ***** stock: RKDA Scale: 5Min Time since last close: 3 minutes
-2025-10-08 14:09:34,989 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 14:09:34,999 - root - INFO - Time since last close for UPC is 137.06666421666665 minutes, net percent 0.305499
-2025-10-08 14:09:35,052 - root - INFO -  MACD calculation for GTBP due to high change percent: 21.9769
-2025-10-08 14:09:35,167 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
-2025-10-08 14:09:35,191 - root - INFO - 1min candle is not positive for UPC: open 8.59 close 8.5
-2025-10-08 14:09:35,192 - root - INFO - swing_strategy_open_long for scale 5Min stock NPWR
-2025-10-08 14:09:35,201 - root - INFO - MACD not positive for GTBP
-2025-10-08 14:09:35,202 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 14:09:35,202 - root - INFO - Time since last close for NPWR is None minutes, net percent 0
-2025-10-08 14:09:35,290 - root - INFO - Last 5 minutes maximum volume candle is green for NPWR
-2025-10-08 14:09:35,309 - root - INFO - 1min candle is not positive for NPWR: open 4.8 close 4.84
-2025-10-08 14:09:35,386 - root - INFO - swing_strategy_close_long for scale 5Min stock ACXP
-2025-10-08 14:09:35,442 - root - INFO - Profit percent for ACXP is 3.2
-2025-10-08 14:09:35,442 - root - INFO - Latest 1min close price for ACXP: 7.73
-2025-10-08 14:09:35,510 - root - INFO - MACD is still rising for stock ACXP
-2025-10-08 14:09:35,510 - root - INFO - Not enough profit percent to scalp for ACXP: 3.2
-2025-10-08 14:09:35,627 - root - INFO -  update_current_price: start time 2025-10-08T14:04:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:09:38,295 - root - INFO -  update_current_price: start time 2025-10-08T14:04:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:09:39,810 - root - INFO -  update_current_price: start time 2025-10-08T14:04:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:09:39,956 - root - INFO -  MACD calculation for IMAB due to high change percent: 19.4508
-2025-10-08 14:09:40,007 - root - INFO - MACD not positive for IMAB
-2025-10-08 14:09:40,653 - root - INFO -  MACD calculation for INDP due to high change percent: 20.5962
-2025-10-08 14:09:41,433 - root - INFO -  MACD calculation for IONR due to high change percent: 18.6869
-2025-10-08 14:09:42,046 - root - INFO -  update_current_price: start time 2025-10-08T14:04:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:09:44,439 - root - INFO -  update_current_price: start time 2025-10-08T14:04:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:09:46,423 - root - INFO -  MACD calculation for KYTX due to high change percent: 36.4122
-2025-10-08 14:09:46,488 - root - INFO - MACD not positive for KYTX
-2025-10-08 14:09:47,026 - root - INFO -  MACD calculation for LAZR due to high change percent: 10.2439
-2025-10-08 14:09:47,103 - root - INFO - MACD not positive for LAZR
-2025-10-08 14:09:47,538 - root - INFO -  MACD calculation for LDI due to high change percent: 10.5802
-2025-10-08 14:09:47,611 - root - INFO - MACD not positive for LDI
-2025-10-08 14:09:47,612 - root - INFO -  update_current_price: start time 2025-10-08T14:04:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:09:49,663 - root - INFO -  MACD calculation for LPTX due to high change percent: 15.198
-2025-10-08 14:09:50,129 - root - INFO -  MACD calculation for LSH due to high change percent: 17.3913
-2025-10-08 14:09:50,166 - root - INFO - MACD not positive for LSH
-2025-10-08 14:09:50,511 - root - INFO -  MACD calculation for LUCD due to high change percent: 10.5619
-2025-10-08 14:09:50,555 - root - INFO - Real mode: Today's profit so far: 879.9799749999984
-2025-10-08 14:09:50,575 - root - INFO - Running real_trade for all top movers
-2025-10-08 14:09:50,617 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
-2025-10-08 14:09:50,625 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 14:09:50,625 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
-2025-10-08 14:09:50,670 - root - INFO -  update_current_price: start time 2025-10-08T14:04:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:09:50,670 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
-2025-10-08 14:09:50,721 - root - INFO - MACD has been up for last 10 candles for XBIO, not opening long position
-2025-10-08 14:09:50,721 - root - INFO - Trend up basic conditions not met for XBIO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 14:09:50,721 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 14:09:50,731 - root - INFO - Time since last close for ACXP is 439.04552153333333 minutes, net percent 11.5238
-2025-10-08 14:09:50,770 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
-2025-10-08 14:09:50,786 - root - INFO - 1min RSI is overbought for ACXP: 70.9470944019457
-2025-10-08 14:09:50,787 - root - INFO - swing_strategy_open_long for scale 5Min stock RKDA
-2025-10-08 14:09:50,794 - root - INFO - Time since last close for RKDA is 3.9299114 minutes, net percent 10.1124
-2025-10-08 14:09:50,794 - root - INFO - ***** stock: RKDA Scale: 5Min Time since last close: 3 minutes
-2025-10-08 14:09:50,795 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 14:09:50,802 - root - INFO - Time since last close for UPC is 137.33004396666666 minutes, net percent 0.305499
-2025-10-08 14:09:50,859 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
-2025-10-08 14:09:50,872 - root - INFO - 1min candle is not positive for UPC: open 8.59 close 8.5647
-2025-10-08 14:09:50,872 - root - INFO - swing_strategy_open_long for scale 5Min stock NPWR
-2025-10-08 14:09:50,878 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 14:09:50,878 - root - INFO - Time since last close for NPWR is None minutes, net percent 0
-2025-10-08 14:09:50,928 - root - INFO -  MACD calculation for LWLG due to high change percent: 10.8147
-2025-10-08 14:09:50,951 - root - INFO - Last 5 minutes maximum volume candle is green for NPWR
-2025-10-08 14:09:50,977 - root - INFO - MACD not positive for LWLG
-2025-10-08 14:09:51,003 - root - INFO - Trend up basic conditions not met for NPWR: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 14:09:51,080 - root - INFO - swing_strategy_close_long for scale 5Min stock ACXP
-2025-10-08 14:09:51,123 - root - INFO - Profit percent for ACXP is 2.40133
-2025-10-08 14:09:51,123 - root - INFO - Latest 1min close price for ACXP: 7.73
-2025-10-08 14:09:51,182 - root - INFO - MACD is still rising for stock ACXP
-2025-10-08 14:09:51,182 - root - INFO - Not enough profit percent to scalp for ACXP: 2.40133
-2025-10-08 14:09:52,828 - root - INFO -  MACD calculation for MDAIW due to high change percent: 12.3309
-2025-10-08 14:09:53,315 - root - INFO -  update_current_price: start time 2025-10-08T14:04:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:09:53,469 - root - INFO -  MACD calculation for MESO due to high change percent: 10.1714
-2025-10-08 14:09:53,532 - root - INFO - MACD not positive for MESO
-2025-10-08 14:09:56,350 - root - INFO -  update_current_price: start time 2025-10-08T14:04:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:09:57,108 - root - INFO -  MACD calculation for MRSN due to high change percent: 16.7085
-2025-10-08 14:09:57,149 - root - INFO - MACD not positive for MRSN
-2025-10-08 14:09:57,341 - root - INFO -  MACD calculation for MRX due to high change percent: 12.693
-2025-10-08 14:09:57,402 - root - INFO - MACD not positive for MRX
-2025-10-08 14:09:57,662 - root - INFO -  MACD calculation for MSN due to high change percent: 27.6173
-2025-10-08 14:09:59,229 - root - INFO -  MACD calculation for MYO due to high change percent: 12.3714
-2025-10-08 14:09:59,299 - root - INFO - MACD not positive for MYO
-2025-10-08 14:09:59,848 - root - INFO -  MACD calculation for NAOV due to high change percent: 20.915
-2025-10-08 14:10:00,097 - root - INFO -  update_current_price: start time 2025-10-08T14:05:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 14:10:01,051 - root - INFO -  MACD calculation for NGNE due to high change percent: 11.8875
-2025-10-08 14:10:01,102 - root - INFO - MACD not positive for NGNE
-2025-10-08 14:10:01,419 - root - INFO -  update_current_price: start time 2025-10-08T14:05:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:12:48,613 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 14:12:48,613 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
+2025-10-08 14:12:48,658 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
+2025-10-08 14:12:48,671 - root - INFO - 1min candle is not positive for XBIO: open 10.28 close 10.3
+2025-10-08 14:12:48,671 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 14:12:48,678 - root - INFO - Time since last close for ACXP is 442.01129905 minutes, net percent 11.5238
+2025-10-08 14:12:48,711 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
+2025-10-08 14:12:48,724 - root - INFO - 1min candle is not positive for ACXP: open 7.55 close 7.53
+2025-10-08 14:12:48,725 - root - INFO - swing_strategy_open_long for scale 5Min stock RKDA
+2025-10-08 14:12:48,732 - root - INFO - Time since last close for RKDA is 6.89553425 minutes, net percent 10.1124
+2025-10-08 14:12:48,732 - root - INFO - ***** stock: RKDA Scale: 5Min Time since last close: 6 minutes
+2025-10-08 14:12:48,732 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
+2025-10-08 14:12:48,738 - root - INFO - Time since last close for UPC is 140.2956379833333 minutes, net percent 0.305499
+2025-10-08 14:12:48,795 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
+2025-10-08 14:12:48,807 - root - INFO - 1min candle is not positive for UPC: open 8.48 close 8.4505
+2025-10-08 14:12:48,807 - root - INFO - swing_strategy_open_long for scale 5Min stock NPWR
+2025-10-08 14:12:48,813 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 14:12:48,814 - root - INFO - Time since last close for NPWR is None minutes, net percent 0
+2025-10-08 14:12:48,886 - root - INFO - Last 5 minutes maximum volume candle is red for NPWR
+2025-10-08 14:12:48,956 - root - INFO - swing_strategy_close_long for scale 5Min stock ACXP
+2025-10-08 14:12:48,994 - root - INFO - Profit percent for ACXP is 0.333333
+2025-10-08 14:12:48,994 - root - INFO - Latest 1min close price for ACXP: 7.53
+2025-10-08 14:12:49,003 - root - INFO -  update_current_price: start time 2025-10-08T14:07:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:12:49,056 - root - INFO - MACD is still rising for stock ACXP
+2025-10-08 14:12:49,056 - root - INFO - Not enough profit percent to scalp for ACXP: 0.333333
+2025-10-08 14:12:49,523 - root - INFO -  MACD calculation for MRSN due to high change percent: 16.7085
+2025-10-08 14:12:49,560 - root - INFO - MACD not positive for MRSN
+2025-10-08 14:12:49,720 - root - INFO -  MACD calculation for MRX due to high change percent: 12.8187
+2025-10-08 14:12:49,778 - root - INFO - MACD not positive for MRX
+2025-10-08 14:12:50,177 - root - INFO -  MACD calculation for MSN due to high change percent: 29.4224
+2025-10-08 14:12:51,672 - root - INFO -  MACD calculation for MYO due to high change percent: 10.9524
+2025-10-08 14:12:51,739 - root - INFO - MACD not positive for MYO
+2025-10-08 14:12:52,038 - root - INFO -  MACD calculation for NAOV due to high change percent: 21.1601
+2025-10-08 14:12:52,234 - root - INFO -  update_current_price: start time 2025-10-08T14:07:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:12:53,293 - root - INFO -  MACD calculation for NERV due to high change percent: 33.0275
+2025-10-08 14:12:53,332 - root - INFO - MACD not positive for NERV
+2025-10-08 14:12:54,154 - root - INFO -  MACD calculation for NGNE due to high change percent: 13.3362
+2025-10-08 14:12:54,220 - root - INFO - MACD not positive for NGNE
+2025-10-08 14:12:54,956 - root - INFO -  MACD calculation for NMG due to high change percent: 14.2395
+2025-10-08 14:12:55,013 - root - INFO - MACD not positive for NMG
+2025-10-08 14:12:55,464 - root - INFO -  update_current_price: start time 2025-10-08T14:07:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:12:55,628 - root - INFO -  MACD calculation for NNNN due to high change percent: 12.6952
+2025-10-08 14:12:56,292 - root - INFO -  MACD calculation for NPWR due to high change percent: 37.8974
+2025-10-08 14:12:56,931 - root - INFO -  MACD calculation for NTLA due to high change percent: 28.865
+2025-10-08 14:12:57,061 - root - INFO - MACD not positive for NTLA
+2025-10-08 14:12:58,674 - root - INFO -  MACD calculation for NXL due to high change percent: 70.5074
+2025-10-08 14:12:58,737 - root - INFO - MACD not positive for NXL
+2025-10-08 14:12:58,845 - root - INFO -  update_current_price: start time 2025-10-08T14:07:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:13:01,917 - root - INFO -  update_current_price: start time 2025-10-08T14:08:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:13:03,256 - root - INFO -  MACD calculation for PACB due to high change percent: 10.3571
+2025-10-08 14:13:03,323 - root - INFO - MACD not positive for PACB
+2025-10-08 14:13:03,676 - root - INFO -  MACD calculation for PALI due to high change percent: 22.619
+2025-10-08 14:13:03,766 - root - INFO - MACD not positive for PALI
+2025-10-08 14:13:04,105 - root - INFO - Real mode: Today's profit so far: 858.1899750000011
+2025-10-08 14:13:04,130 - root - INFO - Running real_trade for all top movers
+2025-10-08 14:13:04,172 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
+2025-10-08 14:13:04,180 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 14:13:04,181 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
+2025-10-08 14:13:04,234 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
+2025-10-08 14:13:04,249 - root - INFO - 1min candle is not positive for XBIO: open 10.28 close 10.3
+2025-10-08 14:13:04,250 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 14:13:04,258 - root - INFO - Time since last close for ACXP is 442.27096675 minutes, net percent 11.5238
+2025-10-08 14:13:04,304 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
+2025-10-08 14:13:04,318 - root - INFO - 1min candle is not positive for ACXP: open 7.55 close 7.53
+2025-10-08 14:13:04,318 - root - INFO - swing_strategy_open_long for scale 5Min stock RKDA
+2025-10-08 14:13:04,325 - root - INFO - Time since last close for RKDA is 7.1554264666666665 minutes, net percent 10.1124
+2025-10-08 14:13:04,325 - root - INFO - ***** stock: RKDA Scale: 5Min Time since last close: 7 minutes
+2025-10-08 14:13:04,326 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
+2025-10-08 14:13:04,332 - root - INFO - Time since last close for UPC is 140.55554163333332 minutes, net percent 0.305499
+2025-10-08 14:13:04,404 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
+2025-10-08 14:13:04,415 - root - INFO - 1min candle is not positive for UPC: open 8.48 close 8.4505
+2025-10-08 14:13:04,416 - root - INFO - swing_strategy_open_long for scale 5Min stock NPWR
+2025-10-08 14:13:04,422 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 14:13:04,422 - root - INFO - Time since last close for NPWR is None minutes, net percent 0
+2025-10-08 14:13:04,490 - root - INFO - Last 5 minutes maximum volume candle is red for NPWR
+2025-10-08 14:13:04,556 - root - INFO - swing_strategy_close_long for scale 5Min stock ACXP
+2025-10-08 14:13:04,592 - root - INFO - Profit percent for ACXP is 0.4
+2025-10-08 14:13:04,593 - root - INFO - Latest 1min close price for ACXP: 7.53
+2025-10-08 14:13:04,610 - root - INFO -  update_current_price: start time 2025-10-08T14:08:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:13:04,647 - root - INFO - MACD is still rising for stock ACXP
+2025-10-08 14:13:04,647 - root - INFO - Not enough profit percent to scalp for ACXP: 0.4
+2025-10-08 14:13:05,880 - root - INFO -  MACD calculation for PLG due to high change percent: 11.1075
+2025-10-08 14:13:05,946 - root - INFO - MACD not positive for PLG
+2025-10-08 14:13:06,658 - root - INFO -  update_current_price: start time 2025-10-08T14:08:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:13:06,755 - root - INFO -  MACD calculation for POET due to high change percent: 10.8503
+2025-10-08 14:13:07,484 - root - INFO -  MACD calculation for PRME due to high change percent: 13.9063
+2025-10-08 14:13:07,569 - root - INFO - MACD not positive for PRME
+2025-10-08 14:13:07,720 - root - INFO -  MACD calculation for PROK due to high change percent: 12.5
+2025-10-08 14:13:07,766 - root - INFO - MACD not positive for PROK
+2025-10-08 14:13:08,450 - root - INFO -  MACD calculation for PSNL due to high change percent: 10.1717
+2025-10-08 14:13:08,510 - root - INFO - MACD not positive for PSNL
+2025-10-08 14:13:09,273 - root - INFO -  MACD calculation for PWM due to high change percent: 17.916
+2025-10-08 14:13:09,516 - root - INFO -  MACD calculation for PXLW due to high change percent: 17.4348
+2025-10-08 14:13:09,565 - root - INFO - MACD not positive for PXLW
+2025-10-08 14:13:09,622 - root - INFO -  MACD calculation for PYXS due to high change percent: 12.1569
+2025-10-08 14:13:10,223 - root - INFO -  update_current_price: start time 2025-10-08T14:08:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:13:10,499 - root - INFO -  MACD calculation for QTTB due to high change percent: 13.8889
+2025-10-08 14:13:10,553 - root - INFO - MACD not positive for QTTB
+2025-10-08 14:13:11,603 - root - INFO -  MACD calculation for RCKT due to high change percent: 10.6688
+2025-10-08 14:13:11,671 - root - INFO - MACD not positive for RCKT
+2025-10-08 14:13:12,772 - root - INFO -  MACD calculation for RGNX due to high change percent: 13.0352
+2025-10-08 14:13:12,868 - root - INFO - MACD not positive for RGNX
+2025-10-08 14:13:12,868 - root - INFO -  update_current_price: start time 2025-10-08T14:08:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:13:13,088 - root - INFO -  MACD calculation for RILY due to high change percent: 11.1492
+2025-10-08 14:13:13,146 - root - INFO - MACD not positive for RILY
+2025-10-08 14:13:13,512 - root - INFO -  MACD calculation for RKDA due to high change percent: 70.2219
+2025-10-08 14:13:13,776 - root - INFO -  MACD calculation for RNAZ due to high change percent: 23.2406
+2025-10-08 14:13:15,236 - root - INFO -  MACD calculation for RXRX due to high change percent: 19.1205
+2025-10-08 14:13:15,349 - root - INFO - MACD not positive for RXRX
+2025-10-08 14:13:15,724 - root - INFO -  update_current_price: start time 2025-10-08T14:08:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:13:16,270 - root - INFO -  MACD calculation for SANA due to high change percent: 12.1359
+2025-10-08 14:13:16,367 - root - INFO - MACD not positive for SANA
+2025-10-08 14:13:16,651 - root - INFO -  MACD calculation for SAVA due to high change percent: 11.9883
+2025-10-08 14:13:16,723 - root - INFO - MACD not positive for SAVA
+2025-10-08 14:13:17,727 - root - INFO -  MACD calculation for SEM due to high change percent: 10.6595
+2025-10-08 14:13:18,388 - root - INFO -  update_current_price: start time 2025-10-08T14:08:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:13:19,027 - root - INFO -  MACD calculation for SIDU due to high change percent: 14.1667
+2025-10-08 14:13:19,091 - root - INFO - MACD not positive for SIDU
+2025-10-08 14:13:19,156 - root - INFO -  MACD calculation for SIEB due to high change percent: 10.7143
+2025-10-08 14:13:19,691 - root - INFO - Real mode: Today's profit so far: 851.1199750000014
+2025-10-08 14:13:19,714 - root - INFO - Running real_trade for all top movers
+2025-10-08 14:13:19,759 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
+2025-10-08 14:13:19,767 - root - INFO -  MACD calculation for SLDB due to high change percent: 16.1232
+2025-10-08 14:13:19,769 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 14:13:19,769 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
+2025-10-08 14:13:19,815 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
+2025-10-08 14:13:19,817 - root - INFO - MACD not positive for SLDB
+2025-10-08 14:13:19,835 - root - INFO - 1min candle is not positive for XBIO: open 10.28 close 10.3
+2025-10-08 14:13:19,836 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 14:13:19,844 - root - INFO - Time since last close for ACXP is 442.53074125 minutes, net percent 11.5238
+2025-10-08 14:13:19,893 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
+2025-10-08 14:13:19,909 - root - INFO - 1min candle is not positive for ACXP: open 7.55 close 7.53
+2025-10-08 14:13:19,909 - root - INFO - swing_strategy_open_long for scale 5Min stock RKDA
+2025-10-08 14:13:19,918 - root - INFO - Time since last close for RKDA is 7.415298766666667 minutes, net percent 10.1124
+2025-10-08 14:13:19,918 - root - INFO - ***** stock: RKDA Scale: 5Min Time since last close: 7 minutes
+2025-10-08 14:13:19,918 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
+2025-10-08 14:13:19,925 - root - INFO - Time since last close for UPC is 140.8154236 minutes, net percent 0.305499
+2025-10-08 14:13:20,006 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
+2025-10-08 14:13:20,019 - root - INFO - 1min candle is not positive for UPC: open 8.48 close 8.4505
+2025-10-08 14:13:20,020 - root - INFO - swing_strategy_open_long for scale 5Min stock NPWR
+2025-10-08 14:13:20,026 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 14:13:20,026 - root - INFO - Time since last close for NPWR is None minutes, net percent 0
+2025-10-08 14:13:20,053 - root - INFO -  MACD calculation for SLNH due to high change percent: 30.5369
+2025-10-08 14:13:20,103 - root - INFO - Last 5 minutes maximum volume candle is red for NPWR
+2025-10-08 14:13:20,122 - root - INFO - MACD not positive for SLNH
+2025-10-08 14:13:20,176 - root - INFO - swing_strategy_close_long for scale 5Min stock ACXP
+2025-10-08 14:13:20,219 - root - INFO - Profit percent for ACXP is 0.466667
+2025-10-08 14:13:20,219 - root - INFO - Latest 1min close price for ACXP: 7.53
+2025-10-08 14:13:20,280 - root - INFO - MACD is still rising for stock ACXP
+2025-10-08 14:13:20,280 - root - INFO - Not enough profit percent to scalp for ACXP: 0.466667
+2025-10-08 14:13:21,001 - root - INFO -  MACD calculation for SNGX due to high change percent: 10.6707
+2025-10-08 14:13:21,073 - root - INFO - MACD not positive for SNGX
+2025-10-08 14:13:21,074 - root - INFO -  update_current_price: start time 2025-10-08T14:08:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:13:23,341 - root - INFO -  MACD calculation for STOK due to high change percent: 16.2944
+2025-10-08 14:13:23,398 - root - INFO - MACD not positive for STOK
+2025-10-08 14:13:23,399 - root - INFO -  update_current_price: start time 2025-10-08T14:08:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:13:24,838 - root - INFO -  MACD calculation for TCRT due to high change percent: 11.6667
+2025-10-08 14:13:25,358 - root - INFO -  update_current_price: start time 2025-10-08T14:08:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:13:26,004 - root - INFO -  MACD calculation for THM due to high change percent: 11.2299
+2025-10-08 14:13:26,060 - root - INFO - MACD not positive for THM
+2025-10-08 14:13:27,833 - root - INFO -  MACD calculation for TRON due to high change percent: 23.6632
+2025-10-08 14:13:27,890 - root - INFO - MACD not positive for TRON
+2025-10-08 14:13:27,957 - root - INFO -  update_current_price: start time 2025-10-08T14:08:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:13:28,232 - root - INFO -  MACD calculation for TRX due to high change percent: 26.92
+2025-10-08 14:13:30,446 - root - INFO -  MACD calculation for UPC due to high change percent: 65.6615
+2025-10-08 14:13:30,970 - root - INFO -  update_current_price: start time 2025-10-08T14:08:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:13:32,112 - root - INFO -  MACD calculation for VFF due to high change percent: 10.8761
+2025-10-08 14:13:32,179 - root - INFO - MACD not positive for VFF
+2025-10-08 14:13:32,581 - root - INFO -  MACD calculation for VIR due to high change percent: 10.6007
+2025-10-08 14:13:33,387 - root - INFO -  update_current_price: start time 2025-10-08T14:08:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:13:34,310 - root - INFO -  MACD calculation for VYGR due to high change percent: 13.7209
+2025-10-08 14:13:35,329 - root - INFO - Real mode: Today's profit so far: 846.6199750000014
+2025-10-08 14:13:35,394 - root - INFO - Running real_trade for all top movers
+2025-10-08 14:13:35,435 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
+2025-10-08 14:13:35,442 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 14:13:35,442 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
+2025-10-08 14:13:35,476 - root - INFO -  MACD calculation for WOLF due to high change percent: 13.9003
+2025-10-08 14:13:35,492 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
+2025-10-08 14:13:35,510 - root - INFO - 1min candle is not positive for XBIO: open 10.28 close 10.3
+2025-10-08 14:13:35,511 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 14:13:35,520 - root - INFO - Time since last close for ACXP is 442.79201118333333 minutes, net percent 11.5238
+2025-10-08 14:13:35,571 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
+2025-10-08 14:13:35,586 - root - INFO - 1min candle is not positive for ACXP: open 7.55 close 7.53
+2025-10-08 14:13:35,587 - root - INFO - swing_strategy_open_long for scale 5Min stock RKDA
+2025-10-08 14:13:35,595 - root - INFO - Time since last close for RKDA is 7.676596466666667 minutes, net percent 10.1124
+2025-10-08 14:13:35,596 - root - INFO - ***** stock: RKDA Scale: 5Min Time since last close: 7 minutes
+2025-10-08 14:13:35,596 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
+2025-10-08 14:13:35,603 - root - INFO - Time since last close for UPC is 141.07672706666665 minutes, net percent 0.305499
+2025-10-08 14:13:35,660 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
+2025-10-08 14:13:35,675 - root - INFO - 1min candle is not positive for UPC: open 8.48 close 8.4505
+2025-10-08 14:13:35,675 - root - INFO - swing_strategy_open_long for scale 5Min stock NPWR
+2025-10-08 14:13:35,682 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 14:13:35,682 - root - INFO - Time since last close for NPWR is None minutes, net percent 0
+2025-10-08 14:13:35,753 - root - INFO - Last 5 minutes maximum volume candle is red for NPWR
+2025-10-08 14:13:35,774 - root - INFO -  update_current_price: start time 2025-10-08T14:08:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:13:35,823 - root - INFO - swing_strategy_close_long for scale 5Min stock ACXP
+2025-10-08 14:13:35,870 - root - INFO - Profit percent for ACXP is 0.798667
+2025-10-08 14:13:35,870 - root - INFO - Latest 1min close price for ACXP: 7.53
+2025-10-08 14:13:35,930 - root - INFO - MACD is still rising for stock ACXP
+2025-10-08 14:13:35,931 - root - INFO - Not enough profit percent to scalp for ACXP: 0.798667
+2025-10-08 14:13:36,209 - root - INFO -  MACD calculation for XBIO due to high change percent: 142.191
+2025-10-08 14:13:37,099 - root - INFO - FIND stocks Change percent for XTLB: 48.2143
+2025-10-08 14:13:37,100 - root - INFO - XTLB change_percent from DB: 48.2143
+2025-10-08 14:13:37,115 - root - INFO -  MACD calculation for XTLB due to high change percent: 48.2143
+2025-10-08 14:13:37,152 - root - INFO - MACD not positive for XTLB
+2025-10-08 14:13:37,457 - root - INFO -  MACD calculation for YTRA due to high change percent: 12.3544
+2025-10-08 14:13:37,497 - root - INFO - MACD not positive for YTRA
+2025-10-08 14:13:37,611 - root - INFO -  MACD calculation for ZBIO due to high change percent: 16.235
+2025-10-08 14:13:37,751 - root - INFO -  update_current_price: start time 2025-10-08T14:08:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:13:38,267 - root - INFO - Updating change percent of stocks
+2025-10-08 14:13:39,137 - root - INFO - XTLB change_percent from DB: 47.857142857142854
+2025-10-08 14:13:39,147 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-08 14:13:50,976 - root - INFO - Real mode: Today's profit so far: 850.1399749999982
+2025-10-08 14:13:50,999 - root - INFO - Running real_trade for all top movers
+2025-10-08 14:13:51,047 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
+2025-10-08 14:13:51,058 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 14:13:51,059 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
+2025-10-08 14:13:51,173 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
+2025-10-08 14:13:51,276 - root - INFO - MACD has been up for last 10 candles for XBIO, not opening long position
+2025-10-08 14:13:51,276 - root - INFO - Trend up basic conditions not met for XBIO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=False, price_close_above_upper_bb=False
+2025-10-08 14:13:51,277 - root - INFO - swing_strategy_open_long for scale 5Min stock RKDA
+2025-10-08 14:13:51,288 - root - INFO - Time since last close for RKDA is 7.9381436 minutes, net percent 10.1124
+2025-10-08 14:13:51,289 - root - INFO - ***** stock: RKDA Scale: 5Min Time since last close: 7 minutes
+2025-10-08 14:13:51,289 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 14:13:51,301 - root - INFO - Time since last close for ACXP is 443.0550200166666 minutes, net percent 11.5238
+2025-10-08 14:13:51,358 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
+2025-10-08 14:13:51,358 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
+2025-10-08 14:13:51,373 - root - INFO - Time since last close for UPC is 141.33956213333335 minutes, net percent 0.305499
+2025-10-08 14:13:51,443 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
+2025-10-08 14:13:51,511 - root - INFO - Trend up basic conditions not met for UPC: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 14:13:51,512 - root - INFO - swing_strategy_open_long for scale 5Min stock NPWR
+2025-10-08 14:13:51,523 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 14:13:51,523 - root - INFO - Time since last close for NPWR is None minutes, net percent 0
+2025-10-08 14:13:51,630 - root - INFO - Last 5 minutes maximum volume candle is red for NPWR
+2025-10-08 14:13:51,712 - root - INFO - swing_strategy_close_long for scale 5Min stock ACXP
+2025-10-08 14:13:51,772 - root - INFO - Profit percent for ACXP is 1.06667
+2025-10-08 14:13:51,772 - root - INFO - Latest 1min close price for ACXP: 7.59
+2025-10-08 14:13:51,864 - root - INFO - MACD is still rising for stock ACXP
+2025-10-08 14:13:51,864 - root - INFO - Not enough profit percent to scalp for ACXP: 1.06667
+2025-10-08 14:14:06,921 - root - INFO - Real mode: Today's profit so far: 842.4999749999988
+2025-10-08 14:14:06,941 - root - INFO - Running real_trade for all top movers
+2025-10-08 14:14:06,991 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
+2025-10-08 14:14:07,000 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 14:14:07,001 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
+2025-10-08 14:14:07,052 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
+2025-10-08 14:14:07,127 - root - INFO - MACD has been up for last 10 candles for XBIO, not opening long position
+2025-10-08 14:14:07,127 - root - INFO - Trend up basic conditions not met for XBIO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=False, price_close_above_upper_bb=False
+2025-10-08 14:14:07,128 - root - INFO - swing_strategy_open_long for scale 5Min stock RKDA
+2025-10-08 14:14:07,143 - root - INFO - Time since last close for RKDA is 8.202391383333334 minutes, net percent 10.1124
+2025-10-08 14:14:07,143 - root - INFO - ***** stock: RKDA Scale: 5Min Time since last close: 8 minutes
+2025-10-08 14:14:07,144 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 14:14:07,158 - root - INFO - Time since last close for ACXP is 443.31931131666664 minutes, net percent 11.5238
+2025-10-08 14:14:07,214 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
+2025-10-08 14:14:07,215 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
+2025-10-08 14:14:07,230 - root - INFO - Time since last close for UPC is 141.60383643333336 minutes, net percent 0.305499
+2025-10-08 14:14:07,291 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
+2025-10-08 14:14:07,359 - root - INFO - Trend up basic conditions not met for UPC: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 14:14:07,360 - root - INFO - swing_strategy_open_long for scale 5Min stock NPWR
+2025-10-08 14:14:07,371 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 14:14:07,371 - root - INFO - Time since last close for NPWR is None minutes, net percent 0
+2025-10-08 14:14:07,452 - root - INFO - Last 5 minutes maximum volume candle is red for NPWR
+2025-10-08 14:14:07,562 - root - INFO - swing_strategy_close_long for scale 5Min stock ACXP
+2025-10-08 14:14:07,614 - root - INFO - Profit percent for ACXP is 1.916
+2025-10-08 14:14:07,614 - root - INFO - Latest 1min close price for ACXP: 7.59
+2025-10-08 14:14:07,697 - root - INFO - MACD is still rising for stock ACXP
+2025-10-08 14:14:07,697 - root - INFO - Not enough profit percent to scalp for ACXP: 1.916
+2025-10-08 14:14:22,758 - root - INFO - Real mode: Today's profit so far: 924.6499750000003
+2025-10-08 14:14:22,777 - root - INFO - Running real_trade for all top movers
+2025-10-08 14:14:22,815 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
+2025-10-08 14:14:22,826 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 14:14:22,826 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
+2025-10-08 14:14:22,874 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
+2025-10-08 14:14:22,934 - root - INFO - MACD has been up for last 10 candles for XBIO, not opening long position
+2025-10-08 14:14:22,934 - root - INFO - Trend up basic conditions not met for XBIO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=False, price_close_above_upper_bb=False
+2025-10-08 14:14:22,935 - root - INFO - swing_strategy_open_long for scale 5Min stock RKDA
+2025-10-08 14:14:22,951 - root - INFO - Time since last close for RKDA is 8.465852316666666 minutes, net percent 10.1124
+2025-10-08 14:14:22,951 - root - INFO - ***** stock: RKDA Scale: 5Min Time since last close: 8 minutes
+2025-10-08 14:14:22,951 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 14:14:22,966 - root - INFO - Time since last close for ACXP is 443.5827640333334 minutes, net percent 11.5238
+2025-10-08 14:14:23,020 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
+2025-10-08 14:14:23,021 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
+2025-10-08 14:14:23,033 - root - INFO - Time since last close for UPC is 141.86722939999999 minutes, net percent 0.305499
+2025-10-08 14:14:23,095 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
+2025-10-08 14:14:23,160 - root - INFO - Trend up basic conditions not met for UPC: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 14:14:23,161 - root - INFO - swing_strategy_open_long for scale 5Min stock NPWR
+2025-10-08 14:14:23,173 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 14:14:23,173 - root - INFO - Time since last close for NPWR is None minutes, net percent 0
+2025-10-08 14:14:23,253 - root - INFO - Last 5 minutes maximum volume candle is red for NPWR
+2025-10-08 14:14:23,340 - root - INFO - swing_strategy_close_long for scale 5Min stock ACXP
+2025-10-08 14:14:23,388 - root - INFO - Profit percent for ACXP is 1.45067
+2025-10-08 14:14:23,388 - root - INFO - Latest 1min close price for ACXP: 7.59
+2025-10-08 14:14:23,480 - root - INFO - MACD is still rising for stock ACXP
+2025-10-08 14:14:23,480 - root - INFO - Not enough profit percent to scalp for ACXP: 1.45067
+2025-10-08 14:14:38,538 - root - INFO - Real mode: Today's profit so far: 896.6899750000011
+2025-10-08 14:14:38,558 - root - INFO - Running real_trade for all top movers
+2025-10-08 14:14:38,604 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
+2025-10-08 14:14:38,614 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 14:14:38,615 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
+2025-10-08 14:14:38,665 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
+2025-10-08 14:14:38,730 - root - INFO - MACD has been up for last 10 candles for XBIO, not opening long position
+2025-10-08 14:14:38,730 - root - INFO - Trend up basic conditions not met for XBIO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=False, price_close_above_upper_bb=False
+2025-10-08 14:14:38,731 - root - INFO - swing_strategy_open_long for scale 5Min stock RKDA
+2025-10-08 14:14:38,746 - root - INFO - Time since last close for RKDA is 8.72910225 minutes, net percent 10.1124
+2025-10-08 14:14:38,746 - root - INFO - ***** stock: RKDA Scale: 5Min Time since last close: 8 minutes
+2025-10-08 14:14:38,746 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 14:14:38,760 - root - INFO - Time since last close for ACXP is 443.8460064166667 minutes, net percent 11.5238
+2025-10-08 14:14:38,811 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
+2025-10-08 14:14:38,812 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
+2025-10-08 14:14:38,822 - root - INFO - Time since last close for UPC is 142.13037371666667 minutes, net percent 0.305499
+2025-10-08 14:14:38,888 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
+2025-10-08 14:14:38,964 - root - INFO - Trend up basic conditions not met for UPC: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 14:14:38,965 - root - INFO - swing_strategy_open_long for scale 5Min stock NPWR
+2025-10-08 14:14:38,976 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 14:14:38,976 - root - INFO - Time since last close for NPWR is None minutes, net percent 0
+2025-10-08 14:14:39,056 - root - INFO - Last 5 minutes maximum volume candle is red for NPWR
+2025-10-08 14:14:39,132 - root - INFO - swing_strategy_close_long for scale 5Min stock ACXP
+2025-10-08 14:14:39,176 - root - INFO - Profit percent for ACXP is 1.86667
+2025-10-08 14:14:39,176 - root - INFO - Latest 1min close price for ACXP: 7.59
+2025-10-08 14:14:39,244 - root - INFO - Real mode: Today's profit so far: 904.6099749999994
+2025-10-08 14:14:39,253 - root - INFO - MACD is still rising for stock ACXP
+2025-10-08 14:14:39,253 - root - INFO - Not enough profit percent to scalp for ACXP: 1.86667
+2025-10-08 14:14:39,263 - root - INFO - ('2025-10-08T19:40:00-04:00', '2025-10-08T19:40:00-04:00', '2025-10-01T09:30:00-04:00', '2025-10-08T19:40:00-04:00')
+2025-10-08 14:14:39,263 - root - INFO - Screening stocks | Start: 2025-10-01T09:30:00-04:00 | End: 2025-10-08T19:40:00-04:00
+2025-10-08 14:14:39,286 - root - INFO -  update_current_price: start time 2025-10-08T14:09:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:14:39,570 - root - INFO -  MACD calculation for ABCL due to high change percent: 10.6586
+2025-10-08 14:14:39,642 - root - INFO - MACD not positive for ABCL
+2025-10-08 14:14:39,992 - root - INFO -  MACD calculation for ABSI due to high change percent: 13.5027
+2025-10-08 14:14:40,052 - root - INFO - MACD not positive for ABSI
+2025-10-08 14:14:40,154 - root - INFO -  MACD calculation for ABVE due to high change percent: 48.4527
+2025-10-08 14:14:40,227 - root - INFO - MACD not positive for ABVE
+2025-10-08 14:14:40,965 - root - INFO -  MACD calculation for ACXP due to high change percent: 75.0583
+2025-10-08 14:14:41,774 - root - INFO -  MACD calculation for AEI due to high change percent: 14.9119
+2025-10-08 14:14:41,828 - root - INFO - MACD not positive for AEI
+2025-10-08 14:14:42,077 - root - INFO -  update_current_price: start time 2025-10-08T14:09:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:14:42,177 - root - INFO -  MACD calculation for AG due to high change percent: 10.1781
+2025-10-08 14:14:42,260 - root - INFO - MACD not positive for AG
+2025-10-08 14:14:45,031 - root - INFO -  update_current_price: start time 2025-10-08T14:09:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:14:46,507 - root - INFO -  MACD calculation for ANY due to high change percent: 10.1413
+2025-10-08 14:14:46,567 - root - INFO - MACD not positive for ANY
+2025-10-08 14:14:47,454 - root - INFO -  MACD calculation for ARBE due to high change percent: 21.179
+2025-10-08 14:14:47,526 - root - INFO - MACD not positive for ARBE
+2025-10-08 14:14:47,989 - root - INFO -  MACD calculation for AREB due to high change percent: 26.9702
+2025-10-08 14:14:48,826 - root - INFO -  update_current_price: start time 2025-10-08T14:09:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:14:50,846 - root - INFO -  MACD calculation for ATXS due to high change percent: 12.0482
+2025-10-08 14:14:51,329 - root - INFO -  MACD calculation for AUST due to high change percent: 16.2162
+2025-10-08 14:14:51,391 - root - INFO - MACD not positive for AUST
+2025-10-08 14:14:51,444 - root - INFO -  MACD calculation for AUTL due to high change percent: 17.1141
+2025-10-08 14:14:51,487 - root - INFO - MACD not positive for AUTL
+2025-10-08 14:14:52,381 - root - INFO -  update_current_price: start time 2025-10-08T14:09:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:14:54,298 - root - INFO - Real mode: Today's profit so far: 893.9299749999991
+2025-10-08 14:14:54,318 - root - INFO - Running real_trade for all top movers
+2025-10-08 14:14:54,355 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
+2025-10-08 14:14:54,362 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 14:14:54,362 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
+2025-10-08 14:14:54,415 - root - INFO - Last 5 minutes maximum volume candle is red for XBIO
+2025-10-08 14:14:54,415 - root - INFO - swing_strategy_open_long for scale 5Min stock RKDA
+2025-10-08 14:14:54,423 - root - INFO - Time since last close for RKDA is 8.990383633333332 minutes, net percent 10.1124
+2025-10-08 14:14:54,423 - root - INFO - ***** stock: RKDA Scale: 5Min Time since last close: 8 minutes
+2025-10-08 14:14:54,423 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 14:14:54,430 - root - INFO - Time since last close for ACXP is 444.1071775 minutes, net percent 11.5238
+2025-10-08 14:14:54,485 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
+2025-10-08 14:14:54,486 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
+2025-10-08 14:14:54,494 - root - INFO - Time since last close for UPC is 142.3915724 minutes, net percent 0.305499
+2025-10-08 14:14:54,561 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
+2025-10-08 14:14:54,608 - root - INFO - Trend up basic conditions not met for UPC: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 14:14:54,609 - root - INFO - swing_strategy_open_long for scale 5Min stock NPWR
+2025-10-08 14:14:54,617 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 14:14:54,617 - root - INFO - Time since last close for NPWR is None minutes, net percent 0
+2025-10-08 14:14:54,693 - root - INFO - Last 5 minutes maximum volume candle is red for NPWR
+2025-10-08 14:14:54,765 - root - INFO - swing_strategy_close_long for scale 5Min stock ACXP
+2025-10-08 14:14:54,807 - root - INFO - Profit percent for ACXP is 1.46667
+2025-10-08 14:14:54,807 - root - INFO - Latest 1min close price for ACXP: 7.61
+2025-10-08 14:14:54,875 - root - INFO - MACD is still rising for stock ACXP
+2025-10-08 14:14:54,876 - root - INFO - Not enough profit percent to scalp for ACXP: 1.46667
+2025-10-08 14:14:55,110 - root - INFO -  MACD calculation for BFRG due to high change percent: 10.0671
+2025-10-08 14:14:55,154 - root - INFO - MACD not positive for BFRG
+2025-10-08 14:14:55,315 - root - INFO -  update_current_price: start time 2025-10-08T14:09:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:14:55,890 - root - INFO -  MACD calculation for BIAF due to high change percent: 34.898
+2025-10-08 14:14:56,280 - root - INFO -  MACD calculation for BITF due to high change percent: 12.8991
+2025-10-08 14:14:56,388 - root - INFO - MACD not positive for BITF
+2025-10-08 14:14:56,724 - root - INFO -  MACD calculation for BLBX due to high change percent: 24.0306
+2025-10-08 14:14:58,210 - root - INFO -  MACD calculation for BNZI due to high change percent: 18.6728
+2025-10-08 14:14:58,281 - root - INFO - MACD not positive for BNZI
+2025-10-08 14:14:58,672 - root - INFO -  MACD calculation for BQ due to high change percent: 12.5541
+2025-10-08 14:14:58,754 - root - INFO - MACD not positive for BQ
+2025-10-08 14:14:58,807 - root - INFO -  update_current_price: start time 2025-10-08T14:09:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:14:58,911 - root - INFO -  MACD calculation for BRLT due to high change percent: 10.9589
+2025-10-08 14:15:02,195 - root - INFO -  update_current_price: start time 2025-10-08T14:10:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:15:02,442 - root - INFO -  MACD calculation for CATX due to high change percent: 10.5187
+2025-10-08 14:15:02,504 - root - INFO - MACD not positive for CATX
+2025-10-08 14:15:03,459 - root - INFO -  MACD calculation for CDE due to high change percent: 10.0425
+2025-10-08 14:15:03,519 - root - INFO - MACD not positive for CDE
+2025-10-08 14:15:03,799 - root - INFO -  MACD calculation for CENX due to high change percent: 11.8548
+2025-10-08 14:15:03,852 - root - INFO - MACD not positive for CENX
+2025-10-08 14:15:04,267 - root - INFO -  MACD calculation for CGEM due to high change percent: 11.0357
+2025-10-08 14:15:04,442 - root - INFO -  update_current_price: start time 2025-10-08T14:10:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 14:15:04,622 - root - INFO -  MACD calculation for CIFR due to high change percent: 13.3968
+2025-10-08 14:15:04,711 - root - INFO - MACD not positive for CIFR
+2025-10-08 14:15:04,761 - root - INFO -  MACD calculation for CIFRW due to high change percent: 23.0667
+2025-10-08 14:15:04,796 - root - INFO - MACD not positive for CIFRW
