@@ -2,11 +2,11 @@ Top Movers:
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  XBIO  |      0      |     0     |    131.002     | 29432693 |      9.91     |        4.29        |  1250000.0   | 3.43576  |   78323    |      0      | 2025-10-08 13:22:20 |
-|  ACXP  |      0      |     0     |    72.7273     | 15599550 |      7.53     |        4.29        |  19450000.0  |  4.456   |  1061867   |      0      | 2025-10-08 13:23:25 |
-|  XTLB  |      0      |     0     |    56.7857     | 19507790 |     2.195     |        1.4         |  12230000.0  |  1.207   |  2303189   |      0      | 2025-10-08 13:22:20 |
-|  ABVE  |      1      |     0     |      51.0      | 5705659  |     5.4091    |        3.49        |  27970000.0  |  2.882   |  6236619   |      0      | 2025-10-08 13:23:24 |
-|  NERV  |      1      |     0     |    41.9725     | 4791273  |     3.1101    |        2.18        |  5440000.0   | 2.12508  |   779668   |      0      | 2025-10-08 13:24:27 |
+|  XBIO  |      0      |     0     |    128.089     | 29446159 |     9.785     |        4.29        |  1250000.0   | 3.43576  |   78323    |      0      | 2025-10-08 13:27:40 |
+|  ACXP  |      0      |     0     |    77.6224     | 15730544 |     7.723     |        4.29        |  19450000.0  |  4.456   |  1061867   |      0      | 2025-10-08 13:28:46 |
+|  XTLB  |      1      |     0     |    56.4286     | 19542450 |      2.19     |        1.4         |  12230000.0  |  1.207   |  2303189   |      0      | 2025-10-08 13:27:41 |
+|  ABVE  |      0      |     0     |    51.8625     | 5916412  |     5.4001    |        3.49        |  27970000.0  |  2.882   |  6236619   |      0      | 2025-10-08 13:28:45 |
+|  NERV  |      1      |     0     |    42.4312     | 4796123  |     3.105     |        2.18        |  5440000.0   | 2.12508  |   779668   |      0      | 2025-10-08 13:27:03 |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -20,403 +20,404 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-08 13:22:23,919 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
-2025-10-08 13:22:23,989 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-08 13:22:23,989 - root - INFO - ABVE:======= 5.3991===>BUY========>TrendUp3856697
-2025-10-08 13:22:24,010 - root - WARNING - ***** stock is already in the positions
-2025-10-08 13:22:24,011 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
-2025-10-08 13:22:24,024 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 13:22:24,025 - root - INFO - Time since last close for NERV is None minutes, net percent 0
-2025-10-08 13:22:24,057 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
-2025-10-08 13:22:24,128 - root - INFO - swing_strategy_close_long for scale 5Min stock ABVE
-2025-10-08 13:22:24,299 - root - INFO - Profit percent for ABVE is 9.05585
-2025-10-08 13:22:24,299 - root - INFO - Latest 1min close price for ABVE: 5.3991
-2025-10-08 13:22:24,417 - root - INFO - MACD is still rising for stock ABVE
-2025-10-08 13:22:24,418 - root - INFO - Not enough profit percent to scalp for ABVE: 9.05585
-2025-10-08 13:22:39,474 - root - INFO - Real mode: Today's profit so far: 835.0199749999992
-2025-10-08 13:22:39,508 - root - INFO - Running real_trade for all top movers
-2025-10-08 13:22:39,558 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
-2025-10-08 13:22:39,569 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 13:22:39,569 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
-2025-10-08 13:22:39,622 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
-2025-10-08 13:22:39,650 - root - INFO - 1min candle is not positive for XBIO: open 9.89 close 9.91
-2025-10-08 13:22:39,651 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 13:22:39,663 - root - INFO - Time since last close for ACXP is 391.86105041666667 minutes, net percent 11.5238
-2025-10-08 13:22:39,709 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
-2025-10-08 13:22:39,737 - root - INFO - 1min candle is not positive for ACXP: open 7.3524 close 7.3838
-2025-10-08 13:22:39,738 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 13:22:39,751 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 13:22:39,751 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 13:22:39,785 - root - INFO - Last 5 minutes maximum volume candle is red for XTLB
-2025-10-08 13:22:39,786 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
-2025-10-08 13:22:39,796 - root - INFO - Time since last close for ABVE is 35.96327475 minutes, net percent -1.0145
-2025-10-08 13:22:39,963 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
-2025-10-08 13:22:40,048 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-08 13:22:40,049 - root - INFO - ABVE:======= 5.3991===>BUY========>TrendUp3856697
-2025-10-08 13:22:40,071 - root - WARNING - ***** stock is already in the positions
-2025-10-08 13:22:40,072 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
-2025-10-08 13:22:40,084 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 13:22:40,085 - root - INFO - Time since last close for NERV is None minutes, net percent 0
-2025-10-08 13:22:40,134 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
-2025-10-08 13:22:40,214 - root - INFO - swing_strategy_close_long for scale 5Min stock ABVE
-2025-10-08 13:22:40,426 - root - INFO - Profit percent for ABVE is 8.65417
-2025-10-08 13:22:40,426 - root - INFO - Latest 1min close price for ABVE: 5.3991
-2025-10-08 13:22:40,524 - root - INFO - MACD is still rising for stock ABVE
-2025-10-08 13:22:40,524 - root - INFO - Not enough profit percent to scalp for ABVE: 8.65417
-2025-10-08 13:22:55,585 - root - INFO - Real mode: Today's profit so far: 819.1899750000011
-2025-10-08 13:22:55,604 - root - INFO - Running real_trade for all top movers
-2025-10-08 13:22:55,650 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
-2025-10-08 13:22:55,660 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 13:22:55,661 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
-2025-10-08 13:22:55,717 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
-2025-10-08 13:22:55,743 - root - INFO - 1min candle is not positive for XBIO: open 9.9 close 9.86
-2025-10-08 13:22:55,744 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 13:22:55,754 - root - INFO - Time since last close for ACXP is 392.12924523333334 minutes, net percent 11.5238
-2025-10-08 13:22:55,805 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
-2025-10-08 13:22:55,833 - root - INFO - 1min RSI is overbought for ACXP: 76.1162236492294
-2025-10-08 13:22:55,834 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 13:22:55,846 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 13:22:55,846 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 13:22:55,894 - root - INFO - Last 5 minutes maximum volume candle is red for XTLB
-2025-10-08 13:22:55,895 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
-2025-10-08 13:22:55,913 - root - INFO - Time since last close for ABVE is 36.23188623333333 minutes, net percent -1.0145
-2025-10-08 13:22:56,174 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
-2025-10-08 13:22:56,259 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-08 13:22:56,260 - root - INFO - ABVE:======= 5.4091===>BUY========>TrendUp3865080
-2025-10-08 13:22:56,277 - root - WARNING - ***** stock is already in the positions
-2025-10-08 13:22:56,278 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
-2025-10-08 13:22:56,288 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 13:22:56,288 - root - INFO - Time since last close for NERV is None minutes, net percent 0
-2025-10-08 13:22:56,335 - root - INFO - Last 5 minutes maximum volume candle is green for NERV
-2025-10-08 13:22:56,389 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-08 13:22:56,389 - root - INFO - NERV:======= 3.1003===>BUY========>TrendUp268222
-2025-10-08 13:22:56,632 - root - CRITICAL - NERV  319 buy
-2025-10-08 13:22:56,680 - root - INFO - Placed BUY order for NERV, qty: 319, price: 3.1264, success: True
-2025-10-08 13:22:56,680 - root - INFO - Trade successfully COMPLETED for NERV
-2025-10-08 13:22:56,761 - root - INFO - swing_strategy_close_long for scale 5Min stock ABVE
-2025-10-08 13:22:56,966 - root - INFO - Profit percent for ABVE is 8.6361
-2025-10-08 13:22:56,966 - root - INFO - Latest 1min close price for ABVE: 5.4091
-2025-10-08 13:22:56,991 - root - INFO - High price DETECTED for ABVE is 5.3991 and setting no_scalp to True
-2025-10-08 13:22:57,015 - root - INFO - swing_strategy_close_long for scale 5Min stock NERV
-2025-10-08 13:22:57,058 - root - INFO - Profit percent for NERV is 0
-2025-10-08 13:22:57,058 - root - INFO - Latest 1min close price for NERV: 3.1003
-2025-10-08 13:22:57,077 - root - INFO - High price DETECTED for NERV is 0.0 and setting no_scalp to True
-2025-10-08 13:22:57,098 - root - WARNING - Skipping XBIO: invalid strategy format (None)
-2025-10-08 13:22:57,098 - root - INFO - swing_strategy_close_long for scale 5Min stock XBIO
-2025-10-08 13:22:57,141 - root - INFO - Profit percent for XBIO is 0
-2025-10-08 13:22:57,141 - root - INFO - Latest 1min close price for XBIO: 9.86
-2025-10-08 13:22:57,221 - root - INFO - Closing TrendUp long: price below EMAs or MACD below signal{price_below_emas=True, macd_below_signal=False}
-2025-10-08 13:22:57,222 - root - INFO - XBIO:====== 9.86=========>SELL========>TrendUpExit
-2025-10-08 13:22:57,222 - root - INFO - ******************** CLOSE by SOLD stock:XBIO
-2025-10-08 13:22:57,275 - root - CRITICAL - XBIO  200 sell
-2025-10-08 13:23:12,373 - root - INFO - Real mode: Today's profit so far: 813.7499749999988
-2025-10-08 13:23:12,393 - root - INFO - Running real_trade for all top movers
-2025-10-08 13:23:12,443 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
-2025-10-08 13:23:12,453 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 13:23:12,454 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
-2025-10-08 13:23:12,508 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
-2025-10-08 13:23:12,531 - root - INFO - 1min candle is not positive for XBIO: open 9.9 close 9.86
-2025-10-08 13:23:12,532 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 13:23:12,546 - root - INFO - Time since last close for ACXP is 392.4091033833334 minutes, net percent 11.5238
-2025-10-08 13:23:12,591 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
-2025-10-08 13:23:12,619 - root - INFO - 1min RSI is overbought for ACXP: 76.1162236492294
-2025-10-08 13:23:12,621 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 13:23:12,633 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 13:23:12,633 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 13:23:12,673 - root - INFO - Last 5 minutes maximum volume candle is red for XTLB
-2025-10-08 13:23:12,674 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
-2025-10-08 13:23:12,686 - root - INFO - Time since last close for ABVE is 36.5114334 minutes, net percent -1.0145
-2025-10-08 13:23:12,841 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
-2025-10-08 13:23:12,910 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-08 13:23:12,911 - root - INFO - ABVE:======= 5.4091===>BUY========>TrendUp3865080
-2025-10-08 13:23:12,930 - root - WARNING - ***** stock is already in the positions
-2025-10-08 13:23:12,931 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
-2025-10-08 13:23:12,946 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 13:23:12,946 - root - INFO - Time since last close for NERV is None minutes, net percent 0
-2025-10-08 13:23:12,982 - root - INFO - Last 5 minutes maximum volume candle is green for NERV
-2025-10-08 13:23:13,038 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-08 13:23:13,038 - root - INFO - NERV:======= 3.1003===>BUY========>TrendUp268222
-2025-10-08 13:23:13,055 - root - WARNING - ***** stock is already in the positions
-2025-10-08 13:23:13,132 - root - INFO - swing_strategy_close_long for scale 5Min stock ABVE
-2025-10-08 13:23:13,328 - root - INFO - Profit percent for ABVE is 7.06553
-2025-10-08 13:23:13,328 - root - INFO - Latest 1min close price for ABVE: 5.4091
-2025-10-08 13:23:13,456 - root - INFO - MACD is still rising for stock ABVE
-2025-10-08 13:23:13,456 - root - INFO - Not enough profit percent to scalp for ABVE: 7.06553
-2025-10-08 13:23:13,487 - root - INFO - swing_strategy_close_long for scale 5Min stock NERV
-2025-10-08 13:23:13,533 - root - INFO - Profit percent for NERV is -0.364637
-2025-10-08 13:23:13,533 - root - INFO - Latest 1min close price for NERV: 3.1003
-2025-10-08 13:23:13,613 - root - INFO - MACD is still rising for stock NERV
-2025-10-08 13:23:13,613 - root - INFO - Not enough profit percent to scalp for NERV: -0.364637
-2025-10-08 13:23:22,717 - root - INFO - Real mode: Today's profit so far: 812.6099749999994
-2025-10-08 13:23:22,739 - root - INFO - ('2025-10-08T19:40:00-04:00', '2025-10-08T19:40:00-04:00', '2025-10-01T09:30:00-04:00', '2025-10-08T19:40:00-04:00')
-2025-10-08 13:23:22,739 - root - INFO - Screening stocks | Start: 2025-10-01T09:30:00-04:00 | End: 2025-10-08T19:40:00-04:00
-2025-10-08 13:23:22,767 - root - INFO -  update_current_price: start time 2025-10-08T13:18:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:23:23,054 - root - INFO -  MACD calculation for ABCL due to high change percent: 11.3414
-2025-10-08 13:23:23,119 - root - INFO - MACD not positive for ABCL
-2025-10-08 13:23:23,390 - root - INFO -  MACD calculation for ABSI due to high change percent: 11.8984
-2025-10-08 13:23:23,470 - root - INFO - MACD not positive for ABSI
-2025-10-08 13:23:23,577 - root - INFO -  MACD calculation for ABVE due to high change percent: 51.0
-2025-10-08 13:23:23,701 - root - INFO -  MACD calculation for ABVEW due to high change percent: 38.2286
-2025-10-08 13:23:24,638 - root - INFO -  MACD calculation for ACXP due to high change percent: 72.7273
-2025-10-08 13:23:25,837 - root - INFO -  update_current_price: start time 2025-10-08T13:18:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:23:25,933 - root - INFO -  MACD calculation for AG due to high change percent: 11.5051
-2025-10-08 13:23:25,996 - root - INFO - MACD not positive for AG
-2025-10-08 13:23:28,033 - root - INFO -  MACD calculation for ALXO due to high change percent: 11.4754
-2025-10-08 13:23:28,091 - root - INFO - MACD not positive for ALXO
-2025-10-08 13:23:28,542 - root - INFO -  update_current_price: start time 2025-10-08T13:18:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:23:28,659 - root - INFO - Real mode: Today's profit so far: 813.7099750000016
-2025-10-08 13:23:28,675 - root - INFO - Running real_trade for all top movers
-2025-10-08 13:23:28,711 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
-2025-10-08 13:23:28,719 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 13:23:28,719 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
-2025-10-08 13:23:28,780 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
-2025-10-08 13:23:28,794 - root - INFO - 1min candle is not positive for XBIO: open 9.9 close 9.86
-2025-10-08 13:23:28,795 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 13:23:28,801 - root - INFO - Time since last close for ACXP is 392.6800222333333 minutes, net percent 11.5238
-2025-10-08 13:23:28,907 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
-2025-10-08 13:23:28,915 - root - INFO - 1min RSI is overbought for ACXP: 76.1162236492294
-2025-10-08 13:23:28,916 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 13:23:28,920 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 13:23:28,920 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 13:23:28,955 - root - INFO - Last 5 minutes maximum volume candle is red for XTLB
-2025-10-08 13:23:28,955 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
-2025-10-08 13:23:28,959 - root - INFO - Time since last close for ABVE is 36.78266498333333 minutes, net percent -1.0145
-2025-10-08 13:23:29,105 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
-2025-10-08 13:23:29,161 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-08 13:23:29,162 - root - INFO - ABVE:======= 5.4091===>BUY========>TrendUp3865080
-2025-10-08 13:23:29,181 - root - WARNING - ***** stock is already in the positions
-2025-10-08 13:23:29,182 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
-2025-10-08 13:23:29,186 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 13:23:29,186 - root - INFO - Time since last close for NERV is None minutes, net percent 0
-2025-10-08 13:23:29,219 - root - INFO - Last 5 minutes maximum volume candle is green for NERV
-2025-10-08 13:23:29,256 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-08 13:23:29,256 - root - INFO - NERV:======= 3.1003===>BUY========>TrendUp268222
-2025-10-08 13:23:29,272 - root - WARNING - ***** stock is already in the positions
-2025-10-08 13:23:29,335 - root - INFO - swing_strategy_close_long for scale 5Min stock ABVE
-2025-10-08 13:23:29,356 - root - INFO -  MACD calculation for ARBE due to high change percent: 19.869
-2025-10-08 13:23:29,422 - root - INFO - MACD not positive for ARBE
-2025-10-08 13:23:29,510 - root - INFO - Profit percent for ABVE is 7.44914
-2025-10-08 13:23:29,510 - root - INFO - Latest 1min close price for ABVE: 5.4091
-2025-10-08 13:23:29,599 - root - INFO - MACD is still rising for stock ABVE
-2025-10-08 13:23:29,599 - root - INFO - Not enough profit percent to scalp for ABVE: 7.44914
-2025-10-08 13:23:29,612 - root - INFO - swing_strategy_close_long for scale 5Min stock NERV
-2025-10-08 13:23:29,642 - root - INFO -  MACD calculation for AREB due to high change percent: 16.9895
-2025-10-08 13:23:29,657 - root - INFO - Profit percent for NERV is -0.364637
-2025-10-08 13:23:29,657 - root - INFO - Latest 1min close price for NERV: 3.1003
-2025-10-08 13:23:29,710 - root - INFO - MACD not positive for AREB
-2025-10-08 13:23:29,710 - root - INFO - MACD is still rising for stock NERV
-2025-10-08 13:23:29,711 - root - INFO - Not enough profit percent to scalp for NERV: -0.364637
-2025-10-08 13:23:30,347 - root - INFO -  update_current_price: start time 2025-10-08T13:18:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:23:31,801 - root - INFO -  MACD calculation for ATOS due to high change percent: 12.3762
-2025-10-08 13:23:32,146 - root - INFO -  MACD calculation for AUST due to high change percent: 21.8739
-2025-10-08 13:23:32,274 - root - INFO -  MACD calculation for AUTL due to high change percent: 16.1074
-2025-10-08 13:23:32,327 - root - INFO - MACD not positive for AUTL
-2025-10-08 13:23:32,768 - root - INFO -  MACD calculation for AVTX due to high change percent: 11.7582
-2025-10-08 13:23:32,821 - root - INFO - MACD not positive for AVTX
-2025-10-08 13:23:32,936 - root - INFO -  update_current_price: start time 2025-10-08T13:18:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:23:35,218 - root - INFO -  update_current_price: start time 2025-10-08T13:18:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:23:35,453 - root - INFO -  MACD calculation for BIAF due to high change percent: 31.8408
-2025-10-08 13:23:35,536 - root - INFO - MACD not positive for BIAF
-2025-10-08 13:23:35,720 - root - INFO -  MACD calculation for BITF due to high change percent: 11.6715
-2025-10-08 13:23:37,113 - root - INFO -  MACD calculation for BNZI due to high change percent: 18.6728
-2025-10-08 13:23:37,397 - root - INFO -  MACD calculation for BQ due to high change percent: 12.7273
-2025-10-08 13:23:37,486 - root - INFO -  update_current_price: start time 2025-10-08T13:18:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:23:39,117 - root - INFO -  MACD calculation for CADL due to high change percent: 15.2753
-2025-10-08 13:23:39,178 - root - INFO - MACD not positive for CADL
-2025-10-08 13:23:39,552 - root - INFO -  update_current_price: start time 2025-10-08T13:18:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:23:39,748 - root - INFO -  MACD calculation for CATX due to high change percent: 11.6715
-2025-10-08 13:23:39,800 - root - INFO - MACD not positive for CATX
-2025-10-08 13:23:40,309 - root - INFO -  MACD calculation for CCTG due to high change percent: 14.8148
-2025-10-08 13:23:40,363 - root - INFO - MACD not positive for CCTG
-2025-10-08 13:23:40,424 - root - INFO -  MACD calculation for CDE due to high change percent: 10.7614
-2025-10-08 13:23:40,488 - root - INFO - MACD not positive for CDE
-2025-10-08 13:23:40,977 - root - INFO -  MACD calculation for CENX due to high change percent: 11.926
-2025-10-08 13:23:41,036 - root - INFO - MACD not positive for CENX
-2025-10-08 13:23:41,856 - root - INFO -  update_current_price: start time 2025-10-08T13:18:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:23:42,251 - root - INFO -  MACD calculation for CIFR due to high change percent: 12.5708
-2025-10-08 13:23:42,439 - root - INFO -  MACD calculation for CIFRW due to high change percent: 24.751
-2025-10-08 13:23:44,345 - root - INFO -  update_current_price: start time 2025-10-08T13:18:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:23:44,763 - root - INFO - Real mode: Today's profit so far: 803.1799749999991
-2025-10-08 13:23:44,783 - root - INFO - Running real_trade for all top movers
-2025-10-08 13:23:44,823 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
-2025-10-08 13:23:44,832 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 13:23:44,833 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
-2025-10-08 13:23:44,888 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
-2025-10-08 13:23:44,901 - root - INFO - 9 EMA is in downtrend, not opening long position for XBIO
-2025-10-08 13:23:44,901 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 13:23:44,908 - root - INFO - Time since last close for ACXP is 392.94846896666667 minutes, net percent 11.5238
-2025-10-08 13:23:44,966 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
-2025-10-08 13:23:44,981 - root - INFO - 1min RSI is overbought for ACXP: 76.58473054725799
-2025-10-08 13:23:44,981 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 13:23:44,988 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 13:23:44,988 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 13:23:45,035 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
-2025-10-08 13:23:45,080 - root - INFO - Trend up basic conditions not met for XTLB: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-08 13:23:45,081 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
-2025-10-08 13:23:45,088 - root - INFO - Time since last close for ABVE is 37.05146901666667 minutes, net percent -1.0145
-2025-10-08 13:23:45,307 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
-2025-10-08 13:23:45,324 - root - INFO - 1min candle is not positive for ABVE: open 5.4099 close 5.31
-2025-10-08 13:23:45,325 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
-2025-10-08 13:23:45,334 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 13:23:45,335 - root - INFO - Time since last close for NERV is None minutes, net percent 0
-2025-10-08 13:23:45,387 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
-2025-10-08 13:23:45,459 - root - INFO - swing_strategy_close_long for scale 5Min stock ABVE
-2025-10-08 13:23:45,646 - root - INFO - Profit percent for ABVE is 7.62588
-2025-10-08 13:23:45,646 - root - INFO - Latest 1min close price for ABVE: 5.31
-2025-10-08 13:23:45,742 - root - INFO - MACD is still rising for stock ABVE
-2025-10-08 13:23:45,742 - root - INFO - Not enough profit percent to scalp for ABVE: 7.62588
-2025-10-08 13:23:45,759 - root - INFO - swing_strategy_close_long for scale 5Min stock NERV
-2025-10-08 13:23:45,796 - root - INFO -  MACD calculation for CRBU due to high change percent: 10.4938
-2025-10-08 13:23:45,819 - root - INFO - Profit percent for NERV is -0.444601
-2025-10-08 13:23:45,819 - root - INFO - Latest 1min close price for NERV: 3.1101
-2025-10-08 13:23:45,836 - root - INFO - High price DETECTED for NERV is 3.1003 and setting no_scalp to True
-2025-10-08 13:23:45,862 - root - INFO - MACD not positive for CRBU
-2025-10-08 13:23:46,504 - root - INFO -  MACD calculation for CRML due to high change percent: 16.3673
-2025-10-08 13:23:46,829 - root - INFO -  MACD calculation for CRMLW due to high change percent: 33.7278
-2025-10-08 13:23:47,707 - root - INFO -  update_current_price: start time 2025-10-08T13:18:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:23:49,339 - root - INFO -  MACD calculation for CXAI due to high change percent: 10.8571
-2025-10-08 13:23:49,418 - root - INFO - MACD not positive for CXAI
-2025-10-08 13:23:51,187 - root - INFO -  MACD calculation for DEVS due to high change percent: 12.2363
-2025-10-08 13:23:51,316 - root - INFO -  update_current_price: start time 2025-10-08T13:18:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:23:51,524 - root - INFO -  MACD calculation for DGNX due to high change percent: 21.7074
-2025-10-08 13:23:51,667 - root - INFO - MACD not positive for DGNX
-2025-10-08 13:23:52,402 - root - INFO -  MACD calculation for DNA due to high change percent: 11.471
-2025-10-08 13:23:52,507 - root - INFO - MACD not positive for DNA
-2025-10-08 13:23:54,253 - root - INFO -  update_current_price: start time 2025-10-08T13:18:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:23:56,444 - root - INFO -  MACD calculation for ELBM due to high change percent: 31.4817
-2025-10-08 13:23:56,914 - root - INFO -  update_current_price: start time 2025-10-08T13:18:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:23:57,690 - root - INFO -  MACD calculation for EOSE due to high change percent: 10.7247
-2025-10-08 13:23:57,761 - root - INFO - MACD not positive for EOSE
-2025-10-08 13:23:58,944 - root - INFO -  MACD calculation for EVAX due to high change percent: 13.6364
-2025-10-08 13:23:59,003 - root - INFO - MACD not positive for EVAX
-2025-10-08 13:23:59,757 - root - INFO -  update_current_price: start time 2025-10-08T13:18:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:24:00,651 - root - INFO -  MACD calculation for FDMT due to high change percent: 11.238
-2025-10-08 13:24:00,716 - root - INFO - MACD not positive for FDMT
-2025-10-08 13:24:00,818 - root - INFO -  MACD calculation for FEAM due to high change percent: 13.0435
-2025-10-08 13:24:00,878 - root - INFO - Real mode: Today's profit so far: 795.2599750000008
-2025-10-08 13:24:00,897 - root - INFO - Running real_trade for all top movers
-2025-10-08 13:24:00,936 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
-2025-10-08 13:24:00,945 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 13:24:00,945 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
-2025-10-08 13:24:01,085 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
-2025-10-08 13:24:01,104 - root - INFO - 9 EMA is in downtrend, not opening long position for XBIO
-2025-10-08 13:24:01,104 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 13:24:01,114 - root - INFO - Time since last close for ACXP is 393.21857825 minutes, net percent 11.5238
-2025-10-08 13:24:01,170 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
-2025-10-08 13:24:01,188 - root - INFO - 1min RSI is overbought for ACXP: 76.58473054725799
-2025-10-08 13:24:01,189 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 13:24:01,198 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 13:24:01,199 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 13:24:01,243 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
-2025-10-08 13:24:01,291 - root - INFO - Trend up basic conditions not met for XTLB: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-08 13:24:01,291 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
-2025-10-08 13:24:01,300 - root - INFO - Time since last close for ABVE is 37.32167381666667 minutes, net percent -1.0145
-2025-10-08 13:24:01,478 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
-2025-10-08 13:24:01,494 - root - INFO - 1min candle is not positive for ABVE: open 5.4099 close 5.31
-2025-10-08 13:24:01,496 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
-2025-10-08 13:24:01,503 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 13:24:01,503 - root - INFO - Time since last close for NERV is None minutes, net percent 0
-2025-10-08 13:24:01,533 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
-2025-10-08 13:24:01,605 - root - INFO - swing_strategy_close_long for scale 5Min stock ABVE
-2025-10-08 13:24:01,780 - root - INFO - Profit percent for ABVE is 6.44494
-2025-10-08 13:24:01,780 - root - INFO - Latest 1min close price for ABVE: 5.31
-2025-10-08 13:24:01,812 - root - INFO -  MACD calculation for FLNC due to high change percent: 10.0868
-2025-10-08 13:24:01,891 - root - INFO - MACD is still rising for stock ABVE
-2025-10-08 13:24:01,891 - root - INFO - Not enough profit percent to scalp for ABVE: 6.44494
-2025-10-08 13:24:01,911 - root - INFO - swing_strategy_close_long for scale 5Min stock NERV
-2025-10-08 13:24:01,953 - root - INFO - Profit percent for NERV is -0.844422
-2025-10-08 13:24:01,953 - root - INFO - Latest 1min close price for NERV: 3.1101
-2025-10-08 13:24:02,035 - root - INFO - MACD is still rising for stock NERV
-2025-10-08 13:24:02,035 - root - INFO - Not enough profit percent to scalp for NERV: -0.844422
-2025-10-08 13:24:02,061 - root - INFO -  update_current_price: start time 2025-10-08T13:19:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:24:02,966 - root - INFO -  MACD calculation for FTEL due to high change percent: 20.3187
-2025-10-08 13:24:03,328 - root - INFO -  MACD calculation for FURY due to high change percent: 15.5223
-2025-10-08 13:24:03,813 - root - INFO -  MACD calculation for GAU due to high change percent: 10.7422
-2025-10-08 13:24:03,870 - root - INFO - MACD not positive for GAU
-2025-10-08 13:24:03,967 - root - INFO -  update_current_price: start time 2025-10-08T13:19:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:24:04,541 - root - INFO -  MACD calculation for GETY due to high change percent: 11.9617
-2025-10-08 13:24:04,607 - root - INFO - MACD not positive for GETY
-2025-10-08 13:24:04,942 - root - INFO -  MACD calculation for GIGGW due to high change percent: 77.4368
-2025-10-08 13:24:04,995 - root - INFO - MACD not positive for GIGGW
-2025-10-08 13:24:05,189 - root - INFO -  MACD calculation for GLDG due to high change percent: 13.7535
-2025-10-08 13:24:05,490 - root - INFO -  update_current_price: start time 2025-10-08T13:19:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:24:07,101 - root - INFO -  MACD calculation for GSRT due to high change percent: 11.2083
-2025-10-08 13:24:07,158 - root - INFO - MACD not positive for GSRT
-2025-10-08 13:24:07,254 - root - INFO -  MACD calculation for GTBP due to high change percent: 37.0227
-2025-10-08 13:24:07,304 - root - INFO - MACD not positive for GTBP
-2025-10-08 13:24:07,997 - root - INFO -  update_current_price: start time 2025-10-08T13:19:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:24:09,108 - root - INFO -  MACD calculation for HL due to high change percent: 10.251
-2025-10-08 13:24:10,536 - root - INFO -  update_current_price: start time 2025-10-08T13:19:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:24:12,280 - root - INFO -  update_current_price: start time 2025-10-08T13:19:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:24:12,465 - root - INFO -  MACD calculation for IMAB due to high change percent: 19.9085
-2025-10-08 13:24:12,556 - root - INFO - MACD not positive for IMAB
-2025-10-08 13:24:13,474 - root - INFO -  MACD calculation for INV due to high change percent: 10.6211
-2025-10-08 13:24:13,982 - root - INFO -  MACD calculation for IONR due to high change percent: 14.3098
-2025-10-08 13:24:14,541 - root - INFO -  update_current_price: start time 2025-10-08T13:19:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:24:16,474 - root - INFO -  update_current_price: start time 2025-10-08T13:19:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:24:17,088 - root - INFO - Real mode: Today's profit so far: 798.7099750000016
-2025-10-08 13:24:17,113 - root - INFO - Running real_trade for all top movers
-2025-10-08 13:24:17,151 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
-2025-10-08 13:24:17,160 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 13:24:17,160 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
-2025-10-08 13:24:17,227 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
-2025-10-08 13:24:17,243 - root - INFO - 9 EMA is in downtrend, not opening long position for XBIO
-2025-10-08 13:24:17,244 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 13:24:17,253 - root - INFO - Time since last close for ACXP is 393.48755453333337 minutes, net percent 11.5238
-2025-10-08 13:24:17,493 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
-2025-10-08 13:24:17,512 - root - INFO - 1min RSI is overbought for ACXP: 76.58473054725799
-2025-10-08 13:24:17,513 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 13:24:17,521 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 13:24:17,521 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 13:24:17,558 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
-2025-10-08 13:24:17,650 - root - INFO - Trend up basic conditions not met for XTLB: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-08 13:24:17,651 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
-2025-10-08 13:24:17,660 - root - INFO - Time since last close for ABVE is 37.594338 minutes, net percent -1.0145
-2025-10-08 13:24:17,854 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
-2025-10-08 13:24:17,865 - root - INFO -  MACD calculation for KYTX due to high change percent: 38.2606
-2025-10-08 13:24:17,872 - root - INFO - 1min candle is not positive for ABVE: open 5.4099 close 5.31
-2025-10-08 13:24:17,873 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
-2025-10-08 13:24:17,883 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 13:24:17,883 - root - INFO - Time since last close for NERV is None minutes, net percent 0
-2025-10-08 13:24:17,911 - root - INFO - MACD not positive for KYTX
-2025-10-08 13:24:17,925 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
-2025-10-08 13:24:18,000 - root - INFO - swing_strategy_close_long for scale 5Min stock ABVE
-2025-10-08 13:24:18,372 - root - INFO -  MACD calculation for LAZR due to high change percent: 11.561
-2025-10-08 13:24:18,399 - root - INFO - Profit percent for ABVE is 6.17381
-2025-10-08 13:24:18,400 - root - INFO - Latest 1min close price for ABVE: 5.31
-2025-10-08 13:24:18,432 - root - INFO - MACD not positive for LAZR
-2025-10-08 13:24:18,480 - root - INFO -  MACD calculation for LBGJ due to high change percent: 15.5172
-2025-10-08 13:24:18,494 - root - INFO - MACD is still rising for stock ABVE
-2025-10-08 13:24:18,495 - root - INFO - Not enough profit percent to scalp for ABVE: 6.17381
-2025-10-08 13:24:18,513 - root - INFO - swing_strategy_close_long for scale 5Min stock NERV
-2025-10-08 13:24:18,562 - root - INFO - Profit percent for NERV is -0.844422
-2025-10-08 13:24:18,562 - root - INFO - Latest 1min close price for NERV: 3.1101
-2025-10-08 13:24:18,638 - root - INFO - MACD is still rising for stock NERV
-2025-10-08 13:24:18,638 - root - INFO - Not enough profit percent to scalp for NERV: -0.844422
-2025-10-08 13:24:19,099 - root - INFO -  update_current_price: start time 2025-10-08T13:19:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:24:20,418 - root - INFO -  MACD calculation for LPTX due to high change percent: 12.484
-2025-10-08 13:24:21,038 - root - INFO -  update_current_price: start time 2025-10-08T13:19:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:24:21,283 - root - INFO -  MACD calculation for LWLG due to high change percent: 10.7759
-2025-10-08 13:24:22,961 - root - INFO -  MACD calculation for MDAIW due to high change percent: 13.60735256573909
-2025-10-08 13:24:23,143 - root - INFO -  update_current_price: start time 2025-10-08T13:19:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:24:24,528 - root - INFO -  update_current_price: start time 2025-10-08T13:19:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:24:24,876 - root - INFO -  MACD calculation for MRSN due to high change percent: 15.8354
-2025-10-08 13:24:25,064 - root - INFO -  MACD calculation for MRX due to high change percent: 12.022
-2025-10-08 13:24:25,098 - root - INFO - MACD not positive for MRX
-2025-10-08 13:24:25,237 - root - INFO -  MACD calculation for MSN due to high change percent: 25.8845
-2025-10-08 13:24:25,277 - root - INFO - MACD not positive for MSN
-2025-10-08 13:24:26,096 - root - INFO -  MACD calculation for MYO due to high change percent: 16.6667
-2025-10-08 13:24:26,147 - root - INFO - MACD not positive for MYO
-2025-10-08 13:24:26,482 - root - INFO -  MACD calculation for NAOV due to high change percent: 16.6667
-2025-10-08 13:24:26,621 - root - INFO -  update_current_price: start time 2025-10-08T13:19:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:24:27,372 - root - INFO -  MACD calculation for NERV due to high change percent: 41.9725
-2025-10-08 13:24:28,317 - root - INFO -  MACD calculation for NMG due to high change percent: 15.6602
-2025-10-08 13:24:28,392 - root - INFO - MACD not positive for NMG
-2025-10-08 13:24:28,640 - root - INFO -  update_current_price: start time 2025-10-08T13:19:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 13:24:29,249 - root - INFO -  MACD calculation for NPWR due to high change percent: 23.0769
-2025-10-08 13:24:29,306 - root - INFO - MACD not positive for NPWR
-2025-10-08 13:24:29,611 - root - INFO -  MACD calculation for NTLA due to high change percent: 28.9628
-2025-10-08 13:24:29,662 - root - INFO - MACD not positive for NTLA
-2025-10-08 13:24:30,370 - root - INFO -  MACD calculation for NXL due to high change percent: 67.3417
-2025-10-08 13:24:30,436 - root - INFO - MACD not positive for NXL
-2025-10-08 13:24:30,436 - root - INFO -  update_current_price: start time 2025-10-08T13:19:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:27:30,067 - root - INFO -  MACD calculation for TCRT due to high change percent: 13.5967
+2025-10-08 13:27:30,174 - root - INFO -  MACD calculation for TDOC due to high change percent: 10.5137
+2025-10-08 13:27:30,233 - root - INFO - MACD not positive for TDOC
+2025-10-08 13:27:30,356 - root - INFO -  update_current_price: start time 2025-10-08T13:22:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:27:31,044 - root - INFO -  MACD calculation for TIL due to high change percent: 12.9171
+2025-10-08 13:27:31,109 - root - INFO - MACD not positive for TIL
+2025-10-08 13:27:32,538 - root - INFO -  MACD calculation for TRON due to high change percent: 23.5395
+2025-10-08 13:27:32,602 - root - INFO - MACD not positive for TRON
+2025-10-08 13:27:32,665 - root - INFO -  update_current_price: start time 2025-10-08T13:22:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:27:32,899 - root - INFO -  MACD calculation for TRX due to high change percent: 22.4737
+2025-10-08 13:27:32,950 - root - INFO - MACD not positive for TRX
+2025-10-08 13:27:33,051 - root - INFO - Real mode: Today's profit so far: 792.7699749999992
+2025-10-08 13:27:33,068 - root - INFO - Running real_trade for all top movers
+2025-10-08 13:27:33,117 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
+2025-10-08 13:27:33,125 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 13:27:33,125 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
+2025-10-08 13:27:33,203 - root - INFO - Last 5 minutes maximum volume candle is red for XBIO
+2025-10-08 13:27:33,204 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 13:27:33,213 - root - INFO - Time since last close for ACXP is 396.7535565833333 minutes, net percent 11.5238
+2025-10-08 13:27:33,252 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
+2025-10-08 13:27:33,268 - root - INFO - 1min RSI is overbought for ACXP: 75.13755229213375
+2025-10-08 13:27:33,268 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 13:27:33,276 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 13:27:33,276 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 13:27:33,310 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 13:27:33,323 - root - INFO - 1min candle is not positive for XTLB: open 2.1901 close 2.19
+2025-10-08 13:27:33,324 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
+2025-10-08 13:27:33,331 - root - INFO - Time since last close for ABVE is 1.8888491333333335 minutes, net percent 6.84662
+2025-10-08 13:27:33,563 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
+2025-10-08 13:27:33,640 - root - INFO - Trend up basic conditions not met for ABVE: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-08 13:27:33,641 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
+2025-10-08 13:27:33,649 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 13:27:33,649 - root - INFO - Time since last close for NERV is None minutes, net percent 0
+2025-10-08 13:27:33,690 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
+2025-10-08 13:27:33,763 - root - INFO - swing_strategy_close_long for scale 5Min stock NERV
+2025-10-08 13:27:33,840 - root - INFO - Profit percent for NERV is -1.16428
+2025-10-08 13:27:33,840 - root - INFO - Latest 1min close price for NERV: 3.105
+2025-10-08 13:27:33,919 - root - INFO - MACD is still rising for stock NERV
+2025-10-08 13:27:33,920 - root - INFO - Not enough profit percent to scalp for NERV: -1.16428
+2025-10-08 13:27:33,940 - root - INFO - swing_strategy_close_long for scale 5Min stock XTLB
+2025-10-08 13:27:33,984 - root - INFO - Profit percent for XTLB is -0.227273
+2025-10-08 13:27:33,984 - root - INFO - Latest 1min close price for XTLB: 2.19
+2025-10-08 13:27:34,052 - root - INFO - MACD is still rising for stock XTLB
+2025-10-08 13:27:34,052 - root - INFO - Not enough profit percent to scalp for XTLB: -0.227273
+2025-10-08 13:27:34,197 - root - INFO -  MACD calculation for UPC due to high change percent: 46.8897
+2025-10-08 13:27:34,232 - root - INFO - MACD not positive for UPC
+2025-10-08 13:27:34,717 - root - INFO -  update_current_price: start time 2025-10-08T13:22:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:27:35,796 - root - INFO -  MACD calculation for VFF due to high change percent: 11.4804
+2025-10-08 13:27:35,860 - root - INFO - MACD not positive for VFF
+2025-10-08 13:27:36,912 - root - INFO -  update_current_price: start time 2025-10-08T13:22:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:27:37,888 - root - INFO -  MACD calculation for VYGR due to high change percent: 11.5222
+2025-10-08 13:27:37,951 - root - INFO - MACD not positive for VYGR
+2025-10-08 13:27:39,494 - root - INFO -  update_current_price: start time 2025-10-08T13:22:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:27:40,183 - root - INFO -  MACD calculation for XBIO due to high change percent: 131.669
+2025-10-08 13:27:40,964 - root - INFO - FIND stocks Change percent for XTLB: 57.1429
+2025-10-08 13:27:40,964 - root - INFO - XTLB change_percent from DB: 57.1429
+2025-10-08 13:27:40,980 - root - INFO -  MACD calculation for XTLB due to high change percent: 57.1429
+2025-10-08 13:27:41,140 - root - INFO -  MACD calculation for YAAS due to high change percent: 14.5455
+2025-10-08 13:27:41,207 - root - INFO - MACD not positive for YAAS
+2025-10-08 13:27:41,544 - root - INFO -  MACD calculation for YTRA due to high change percent: 13.9241
+2025-10-08 13:27:41,582 - root - INFO - MACD not positive for YTRA
+2025-10-08 13:27:41,807 - root - INFO -  update_current_price: start time 2025-10-08T13:22:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:27:42,551 - root - INFO - Updating change percent of stocks
+2025-10-08 13:27:43,335 - root - INFO - XTLB change_percent from DB: 56.42857142857144
+2025-10-08 13:27:43,344 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-08 13:27:49,236 - root - INFO - Real mode: Today's profit so far: 786.2099750000016
+2025-10-08 13:27:49,262 - root - INFO - Running real_trade for all top movers
+2025-10-08 13:27:49,307 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
+2025-10-08 13:27:49,318 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 13:27:49,319 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
+2025-10-08 13:27:49,381 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
+2025-10-08 13:27:49,406 - root - INFO - 1min candle is not positive for XBIO: open 9.7507 close 9.8
+2025-10-08 13:27:49,407 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 13:27:49,422 - root - INFO - Time since last close for ACXP is 397.02370394999997 minutes, net percent 11.5238
+2025-10-08 13:27:49,495 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
+2025-10-08 13:27:49,523 - root - INFO - 1min candle is not positive for ACXP: open 7.59 close 7.58
+2025-10-08 13:27:49,524 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 13:27:49,534 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 13:27:49,534 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 13:27:49,576 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 13:27:49,601 - root - INFO - 1min candle is not positive for XTLB: open 2.19 close 2.16
+2025-10-08 13:27:49,602 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
+2025-10-08 13:27:49,612 - root - INFO - Time since last close for ABVE is 2.1602083833333334 minutes, net percent 6.84662
+2025-10-08 13:27:49,949 - root - INFO - Last 5 minutes maximum volume candle is red for ABVE
+2025-10-08 13:27:49,951 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
+2025-10-08 13:27:49,966 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 13:27:49,966 - root - INFO - Time since last close for NERV is None minutes, net percent 0
+2025-10-08 13:27:50,007 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
+2025-10-08 13:27:50,101 - root - INFO - swing_strategy_close_long for scale 5Min stock NERV
+2025-10-08 13:27:50,151 - root - INFO - Profit percent for NERV is -1.16428
+2025-10-08 13:27:50,151 - root - INFO - Latest 1min close price for NERV: 3.1
+2025-10-08 13:27:50,226 - root - INFO - MACD is still rising for stock NERV
+2025-10-08 13:27:50,227 - root - INFO - Not enough profit percent to scalp for NERV: -1.16428
+2025-10-08 13:27:50,250 - root - INFO - swing_strategy_close_long for scale 5Min stock XTLB
+2025-10-08 13:27:50,303 - root - INFO - Profit percent for XTLB is -0.681818
+2025-10-08 13:27:50,303 - root - INFO - Latest 1min close price for XTLB: 2.16
+2025-10-08 13:27:50,381 - root - INFO - MACD is still rising for stock XTLB
+2025-10-08 13:27:50,381 - root - INFO - Not enough profit percent to scalp for XTLB: -0.681818
+2025-10-08 13:28:05,440 - root - INFO - Real mode: Today's profit so far: 797.5599750000001
+2025-10-08 13:28:05,470 - root - INFO - Running real_trade for all top movers
+2025-10-08 13:28:05,518 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
+2025-10-08 13:28:05,530 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 13:28:05,530 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
+2025-10-08 13:28:05,584 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
+2025-10-08 13:28:05,613 - root - INFO - 1min candle is not positive for XBIO: open 9.7507 close 9.8
+2025-10-08 13:28:05,614 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 13:28:05,624 - root - INFO - Time since last close for ACXP is 397.29373316666664 minutes, net percent 11.5238
+2025-10-08 13:28:05,682 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
+2025-10-08 13:28:05,711 - root - INFO - 1min candle is not positive for ACXP: open 7.59 close 7.58
+2025-10-08 13:28:05,712 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 13:28:05,721 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 13:28:05,722 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 13:28:05,769 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 13:28:05,797 - root - INFO - 1min candle is not positive for XTLB: open 2.19 close 2.16
+2025-10-08 13:28:05,798 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
+2025-10-08 13:28:05,811 - root - INFO - Time since last close for ABVE is 2.4301941166666667 minutes, net percent 6.84662
+2025-10-08 13:28:06,041 - root - INFO - Last 5 minutes maximum volume candle is red for ABVE
+2025-10-08 13:28:06,043 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
+2025-10-08 13:28:06,056 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 13:28:06,056 - root - INFO - Time since last close for NERV is None minutes, net percent 0
+2025-10-08 13:28:06,125 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
+2025-10-08 13:28:06,221 - root - INFO - swing_strategy_close_long for scale 5Min stock NERV
+2025-10-08 13:28:06,275 - root - INFO - Profit percent for NERV is -0.684493
+2025-10-08 13:28:06,276 - root - INFO - Latest 1min close price for NERV: 3.1
+2025-10-08 13:28:06,366 - root - INFO - MACD is still rising for stock NERV
+2025-10-08 13:28:06,367 - root - INFO - Not enough profit percent to scalp for NERV: -0.684493
+2025-10-08 13:28:06,397 - root - INFO - swing_strategy_close_long for scale 5Min stock XTLB
+2025-10-08 13:28:06,450 - root - INFO - Profit percent for XTLB is -1.81818
+2025-10-08 13:28:06,450 - root - INFO - Latest 1min close price for XTLB: 2.16
+2025-10-08 13:28:06,533 - root - INFO - MACD is still rising for stock XTLB
+2025-10-08 13:28:06,533 - root - INFO - Not enough profit percent to scalp for XTLB: -1.81818
+2025-10-08 13:28:21,586 - root - INFO - Real mode: Today's profit so far: 790.4999749999988
+2025-10-08 13:28:21,686 - root - INFO - Running real_trade for all top movers
+2025-10-08 13:28:21,738 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
+2025-10-08 13:28:21,749 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 13:28:21,749 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
+2025-10-08 13:28:21,817 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
+2025-10-08 13:28:21,845 - root - INFO - 1min candle is not positive for XBIO: open 9.7507 close 9.8
+2025-10-08 13:28:21,846 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 13:28:21,859 - root - INFO - Time since last close for ACXP is 397.5643145166667 minutes, net percent 11.5238
+2025-10-08 13:28:21,908 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
+2025-10-08 13:28:21,936 - root - INFO - 1min candle is not positive for ACXP: open 7.59 close 7.58
+2025-10-08 13:28:21,937 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 13:28:21,946 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 13:28:21,947 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 13:28:21,996 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 13:28:22,019 - root - INFO - 1min candle is not positive for XTLB: open 2.19 close 2.16
+2025-10-08 13:28:22,020 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
+2025-10-08 13:28:22,030 - root - INFO - Time since last close for ABVE is 2.7005033666666667 minutes, net percent 6.84662
+2025-10-08 13:28:22,200 - root - INFO - Last 5 minutes maximum volume candle is red for ABVE
+2025-10-08 13:28:22,201 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
+2025-10-08 13:28:22,213 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 13:28:22,213 - root - INFO - Time since last close for NERV is None minutes, net percent 0
+2025-10-08 13:28:22,254 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
+2025-10-08 13:28:22,341 - root - INFO - swing_strategy_close_long for scale 5Min stock NERV
+2025-10-08 13:28:22,385 - root - INFO - Profit percent for NERV is -0.684493
+2025-10-08 13:28:22,385 - root - INFO - Latest 1min close price for NERV: 3.1
+2025-10-08 13:28:22,466 - root - INFO - MACD is still rising for stock NERV
+2025-10-08 13:28:22,466 - root - INFO - Not enough profit percent to scalp for NERV: -0.684493
+2025-10-08 13:28:22,489 - root - INFO - swing_strategy_close_long for scale 5Min stock XTLB
+2025-10-08 13:28:22,540 - root - INFO - Profit percent for XTLB is -0.818182
+2025-10-08 13:28:22,540 - root - INFO - Latest 1min close price for XTLB: 2.16
+2025-10-08 13:28:22,629 - root - INFO - MACD is still rising for stock XTLB
+2025-10-08 13:28:22,629 - root - INFO - Not enough profit percent to scalp for XTLB: -0.818182
+2025-10-08 13:28:37,684 - root - INFO - Real mode: Today's profit so far: 790.4999749999988
+2025-10-08 13:28:37,705 - root - INFO - Running real_trade for all top movers
+2025-10-08 13:28:37,768 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
+2025-10-08 13:28:37,780 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 13:28:37,780 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
+2025-10-08 13:28:37,830 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
+2025-10-08 13:28:37,855 - root - INFO - 1min candle is not positive for XBIO: open 9.7507 close 9.8
+2025-10-08 13:28:37,856 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 13:28:37,867 - root - INFO - Time since last close for ACXP is 397.83112958333334 minutes, net percent 11.5238
+2025-10-08 13:28:37,919 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
+2025-10-08 13:28:37,944 - root - INFO - 1min candle is not positive for ACXP: open 7.59 close 7.58
+2025-10-08 13:28:37,945 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 13:28:37,954 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 13:28:37,955 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 13:28:37,994 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 13:28:38,016 - root - INFO - 1min candle is not positive for XTLB: open 2.19 close 2.16
+2025-10-08 13:28:38,017 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
+2025-10-08 13:28:38,030 - root - INFO - Time since last close for ABVE is 2.9671711333333333 minutes, net percent 6.84662
+2025-10-08 13:28:38,215 - root - INFO - Last 5 minutes maximum volume candle is red for ABVE
+2025-10-08 13:28:38,217 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
+2025-10-08 13:28:38,229 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 13:28:38,229 - root - INFO - Time since last close for NERV is None minutes, net percent 0
+2025-10-08 13:28:38,275 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
+2025-10-08 13:28:38,354 - root - INFO - swing_strategy_close_long for scale 5Min stock NERV
+2025-10-08 13:28:38,401 - root - INFO - Profit percent for NERV is -1.16428
+2025-10-08 13:28:38,401 - root - INFO - Latest 1min close price for NERV: 3.1
+2025-10-08 13:28:38,468 - root - INFO - MACD is still rising for stock NERV
+2025-10-08 13:28:38,468 - root - INFO - Not enough profit percent to scalp for NERV: -1.16428
+2025-10-08 13:28:38,491 - root - INFO - swing_strategy_close_long for scale 5Min stock XTLB
+2025-10-08 13:28:38,536 - root - INFO - Profit percent for XTLB is -0.909091
+2025-10-08 13:28:38,536 - root - INFO - Latest 1min close price for XTLB: 2.16
+2025-10-08 13:28:38,611 - root - INFO - MACD is still rising for stock XTLB
+2025-10-08 13:28:38,611 - root - INFO - Not enough profit percent to scalp for XTLB: -0.909091
+2025-10-08 13:28:43,434 - root - INFO - Real mode: Today's profit so far: 790.5499750000017
+2025-10-08 13:28:43,457 - root - INFO - ('2025-10-08T19:40:00-04:00', '2025-10-08T19:40:00-04:00', '2025-10-01T09:30:00-04:00', '2025-10-08T19:40:00-04:00')
+2025-10-08 13:28:43,457 - root - INFO - Screening stocks | Start: 2025-10-01T09:30:00-04:00 | End: 2025-10-08T19:40:00-04:00
+2025-10-08 13:28:43,487 - root - INFO -  update_current_price: start time 2025-10-08T13:23:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:28:44,172 - root - INFO -  MACD calculation for ABCL due to high change percent: 11.5251
+2025-10-08 13:28:44,255 - root - INFO - MACD not positive for ABCL
+2025-10-08 13:28:44,428 - root - INFO -  MACD calculation for ABSI due to high change percent: 12.9385
+2025-10-08 13:28:44,497 - root - INFO - MACD not positive for ABSI
+2025-10-08 13:28:44,615 - root - INFO -  MACD calculation for ABVE due to high change percent: 51.8625
+2025-10-08 13:28:44,756 - root - INFO -  MACD calculation for ABVEW due to high change percent: 35.7286
+2025-10-08 13:28:45,779 - root - INFO -  MACD calculation for ACXP due to high change percent: 77.6224
+2025-10-08 13:28:47,240 - root - INFO -  update_current_price: start time 2025-10-08T13:23:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:28:47,408 - root - INFO -  MACD calculation for AG due to high change percent: 11.1899
+2025-10-08 13:28:47,484 - root - INFO - MACD not positive for AG
+2025-10-08 13:28:49,906 - root - INFO -  MACD calculation for ALXO due to high change percent: 11.4426
+2025-10-08 13:28:49,962 - root - INFO - MACD not positive for ALXO
+2025-10-08 13:28:50,576 - root - INFO -  update_current_price: start time 2025-10-08T13:23:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:28:51,636 - root - INFO -  MACD calculation for ANY due to high change percent: 10.7067
+2025-10-08 13:28:51,689 - root - INFO - MACD not positive for ANY
+2025-10-08 13:28:52,732 - root - INFO -  MACD calculation for ARBE due to high change percent: 21.8341
+2025-10-08 13:28:53,332 - root - INFO -  MACD calculation for AREB due to high change percent: 12.4361
+2025-10-08 13:28:53,393 - root - INFO - MACD not positive for AREB
+2025-10-08 13:28:53,662 - root - INFO - Real mode: Today's profit so far: 790.1199750000014
+2025-10-08 13:28:53,682 - root - INFO - Running real_trade for all top movers
+2025-10-08 13:28:53,724 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
+2025-10-08 13:28:53,731 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 13:28:53,731 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
+2025-10-08 13:28:53,793 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
+2025-10-08 13:28:53,808 - root - INFO - 9 EMA is in downtrend, not opening long position for XBIO
+2025-10-08 13:28:53,808 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 13:28:53,815 - root - INFO - Time since last close for ACXP is 398.09692623333336 minutes, net percent 11.5238
+2025-10-08 13:28:53,865 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
+2025-10-08 13:28:53,878 - root - INFO - 1min RSI is overbought for ACXP: 79.89284423083653
+2025-10-08 13:28:53,878 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 13:28:53,885 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 13:28:53,885 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 13:28:53,927 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 13:28:53,940 - root - INFO - 1min candle is not positive for XTLB: open 2.165 close 2.185
+2025-10-08 13:28:53,941 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
+2025-10-08 13:28:53,948 - root - INFO - Time since last close for ABVE is 3.23246735 minutes, net percent 6.84662
+2025-10-08 13:28:53,977 - root - INFO -  update_current_price: start time 2025-10-08T13:23:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:28:54,173 - root - INFO - Last 5 minutes maximum volume candle is red for ABVE
+2025-10-08 13:28:54,174 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
+2025-10-08 13:28:54,185 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 13:28:54,185 - root - INFO - Time since last close for NERV is None minutes, net percent 0
+2025-10-08 13:28:54,228 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
+2025-10-08 13:28:54,311 - root - INFO - swing_strategy_close_long for scale 5Min stock NERV
+2025-10-08 13:28:54,374 - root - INFO - Profit percent for NERV is -1.16428
+2025-10-08 13:28:54,374 - root - INFO - Latest 1min close price for NERV: 3.09
+2025-10-08 13:28:54,449 - root - INFO - MACD is still rising for stock NERV
+2025-10-08 13:28:54,449 - root - INFO - Not enough profit percent to scalp for NERV: -1.16428
+2025-10-08 13:28:54,469 - root - INFO - swing_strategy_close_long for scale 5Min stock XTLB
+2025-10-08 13:28:54,577 - root - INFO - Profit percent for XTLB is -0.909091
+2025-10-08 13:28:54,577 - root - INFO - Latest 1min close price for XTLB: 2.185
+2025-10-08 13:28:54,638 - root - INFO - MACD is still rising for stock XTLB
+2025-10-08 13:28:54,638 - root - INFO - Not enough profit percent to scalp for XTLB: -0.909091
+2025-10-08 13:28:55,211 - root - INFO -  MACD calculation for ATOS due to high change percent: 11.8812
+2025-10-08 13:28:55,717 - root - INFO -  MACD calculation for AUST due to high change percent: 24.4414
+2025-10-08 13:28:55,846 - root - INFO -  MACD calculation for AUTL due to high change percent: 16.7785
+2025-10-08 13:28:55,930 - root - INFO - MACD not positive for AUTL
+2025-10-08 13:28:56,421 - root - INFO -  update_current_price: start time 2025-10-08T13:23:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:28:59,196 - root - INFO -  MACD calculation for BGLWW due to high change percent: 20.0
+2025-10-08 13:28:59,244 - root - INFO - MACD not positive for BGLWW
+2025-10-08 13:28:59,244 - root - INFO -  update_current_price: start time 2025-10-08T13:23:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:28:59,992 - root - INFO -  MACD calculation for BIAF due to high change percent: 31.8367
+2025-10-08 13:29:00,056 - root - INFO - MACD not positive for BIAF
+2025-10-08 13:29:00,278 - root - INFO -  MACD calculation for BITF due to high change percent: 12.3919
+2025-10-08 13:29:00,656 - root - INFO -  MACD calculation for BLBX due to high change percent: 21.3907
+2025-10-08 13:29:01,641 - root - INFO -  MACD calculation for BNZI due to high change percent: 20.9877
+2025-10-08 13:29:02,178 - root - INFO -  MACD calculation for BQ due to high change percent: 10.9091
+2025-10-08 13:29:02,337 - root - INFO -  update_current_price: start time 2025-10-08T13:24:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:29:02,530 - root - INFO -  MACD calculation for BRLT due to high change percent: 10.5023
+2025-10-08 13:29:02,577 - root - INFO - MACD not positive for BRLT
+2025-10-08 13:29:05,286 - root - INFO -  update_current_price: start time 2025-10-08T13:24:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:29:05,950 - root - INFO -  MACD calculation for CCTG due to high change percent: 13.6528
+2025-10-08 13:29:06,033 - root - INFO - MACD not positive for CCTG
+2025-10-08 13:29:06,096 - root - INFO -  MACD calculation for CDE due to high change percent: 10.0951
+2025-10-08 13:29:06,204 - root - INFO - MACD not positive for CDE
+2025-10-08 13:29:06,592 - root - INFO -  MACD calculation for CENX due to high change percent: 12.2108
+2025-10-08 13:29:06,666 - root - INFO - MACD not positive for CENX
+2025-10-08 13:29:06,968 - root - INFO -  MACD calculation for CETY due to high change percent: 10.6557
+2025-10-08 13:29:07,028 - root - INFO - MACD not positive for CETY
+2025-10-08 13:29:07,611 - root - INFO -  update_current_price: start time 2025-10-08T13:24:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:29:08,111 - root - INFO -  MACD calculation for CIFR due to high change percent: 13.5556
+2025-10-08 13:29:08,289 - root - INFO -  MACD calculation for CIFRW due to high change percent: 26.1303
+2025-10-08 13:29:09,087 - root - INFO -  MACD calculation for CLLS due to high change percent: 15.445
+2025-10-08 13:29:09,172 - root - INFO - MACD not positive for CLLS
+2025-10-08 13:29:09,681 - root - INFO - Real mode: Today's profit so far: 789.5799750000006
+2025-10-08 13:29:09,703 - root - INFO - Running real_trade for all top movers
+2025-10-08 13:29:09,740 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
+2025-10-08 13:29:09,749 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 13:29:09,749 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
+2025-10-08 13:29:09,798 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
+2025-10-08 13:29:09,817 - root - INFO - 9 EMA is in downtrend, not opening long position for XBIO
+2025-10-08 13:29:09,818 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 13:29:09,827 - root - INFO - Time since last close for ACXP is 398.3637835833333 minutes, net percent 11.5238
+2025-10-08 13:29:09,873 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
+2025-10-08 13:29:09,889 - root - INFO - 1min RSI is overbought for ACXP: 79.89284423083653
+2025-10-08 13:29:09,890 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 13:29:09,896 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 13:29:09,897 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 13:29:09,932 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 13:29:09,945 - root - INFO - 1min candle is not positive for XTLB: open 2.165 close 2.185
+2025-10-08 13:29:09,946 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
+2025-10-08 13:29:09,953 - root - INFO - Time since last close for ABVE is 3.49921705 minutes, net percent 6.84662
+2025-10-08 13:29:10,085 - root - INFO - Last 5 minutes maximum volume candle is red for ABVE
+2025-10-08 13:29:10,086 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
+2025-10-08 13:29:10,093 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 13:29:10,093 - root - INFO - Time since last close for NERV is None minutes, net percent 0
+2025-10-08 13:29:10,118 - root - INFO -  update_current_price: start time 2025-10-08T13:24:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:29:10,133 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
+2025-10-08 13:29:10,204 - root - INFO - swing_strategy_close_long for scale 5Min stock NERV
+2025-10-08 13:29:10,247 - root - INFO - Profit percent for NERV is -1.42976
+2025-10-08 13:29:10,248 - root - INFO - Latest 1min close price for NERV: 3.09
+2025-10-08 13:29:10,313 - root - INFO - MACD is still rising for stock NERV
+2025-10-08 13:29:10,313 - root - INFO - Not enough profit percent to scalp for NERV: -1.42976
+2025-10-08 13:29:10,328 - root - INFO - swing_strategy_close_long for scale 5Min stock XTLB
+2025-10-08 13:29:10,370 - root - INFO - Profit percent for XTLB is -0.681818
+2025-10-08 13:29:10,370 - root - INFO - Latest 1min close price for XTLB: 2.185
+2025-10-08 13:29:10,426 - root - INFO - MACD is still rising for stock XTLB
+2025-10-08 13:29:10,426 - root - INFO - Not enough profit percent to scalp for XTLB: -0.681818
+2025-10-08 13:29:11,333 - root - INFO -  MACD calculation for CRBU due to high change percent: 10.9342
+2025-10-08 13:29:11,401 - root - INFO - MACD not positive for CRBU
+2025-10-08 13:29:11,948 - root - INFO -  MACD calculation for CRML due to high change percent: 17.2275
+2025-10-08 13:29:12,105 - root - INFO -  MACD calculation for CRMLW due to high change percent: 33.7189
+2025-10-08 13:29:12,738 - root - INFO -  update_current_price: start time 2025-10-08T13:24:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:29:13,694 - root - INFO -  MACD calculation for CXAI due to high change percent: 10.5714
+2025-10-08 13:29:13,752 - root - INFO - MACD not positive for CXAI
+2025-10-08 13:29:14,810 - root - INFO -  update_current_price: start time 2025-10-08T13:24:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:29:14,995 - root - INFO -  MACD calculation for DGNX due to high change percent: 21.5012
+2025-10-08 13:29:15,048 - root - INFO - MACD not positive for DGNX
+2025-10-08 13:29:15,426 - root - INFO -  MACD calculation for DNA due to high change percent: 11.6734
+2025-10-08 13:29:16,730 - root - INFO -  update_current_price: start time 2025-10-08T13:24:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:29:17,810 - root - INFO -  MACD calculation for ELBM due to high change percent: 28.2927
+2025-10-08 13:29:18,092 - root - INFO -  update_current_price: start time 2025-10-08T13:24:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:29:18,468 - root - INFO -  MACD calculation for EOSE due to high change percent: 10.5051
+2025-10-08 13:29:18,545 - root - INFO - MACD not positive for EOSE
+2025-10-08 13:29:18,594 - root - INFO -  MACD calculation for EOSEW due to high change percent: 32.899
+2025-10-08 13:29:18,627 - root - INFO - MACD not positive for EOSEW
+2025-10-08 13:29:19,516 - root - INFO -  MACD calculation for EVAX due to high change percent: 11.8881
+2025-10-08 13:29:19,581 - root - INFO - MACD not positive for EVAX
+2025-10-08 13:29:20,236 - root - INFO -  update_current_price: start time 2025-10-08T13:24:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:29:21,116 - root - INFO -  MACD calculation for FDMT due to high change percent: 11.1779
+2025-10-08 13:29:21,247 - root - INFO -  MACD calculation for FEAM due to high change percent: 13.0435
+2025-10-08 13:29:22,713 - root - INFO -  update_current_price: start time 2025-10-08T13:24:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:29:23,764 - root - INFO -  MACD calculation for FTEL due to high change percent: 18.1275
+2025-10-08 13:29:24,329 - root - INFO -  MACD calculation for FURY due to high change percent: 14.6599
+2025-10-08 13:29:24,389 - root - INFO - MACD not positive for FURY
+2025-10-08 13:29:24,884 - root - INFO -  MACD calculation for GAU due to high change percent: 11.1328
+2025-10-08 13:29:24,958 - root - INFO - MACD not positive for GAU
+2025-10-08 13:29:25,018 - root - INFO -  update_current_price: start time 2025-10-08T13:24:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:29:25,231 - root - INFO -  MACD calculation for GCL due to high change percent: 12.069
+2025-10-08 13:29:25,269 - root - INFO - MACD not positive for GCL
+2025-10-08 13:29:25,468 - root - INFO - Real mode: Today's profit so far: 791.849975000001
+2025-10-08 13:29:25,486 - root - INFO - Running real_trade for all top movers
+2025-10-08 13:29:25,526 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
+2025-10-08 13:29:25,535 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 13:29:25,535 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
+2025-10-08 13:29:25,600 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
+2025-10-08 13:29:25,616 - root - INFO - 9 EMA is in downtrend, not opening long position for XBIO
+2025-10-08 13:29:25,617 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 13:29:25,625 - root - INFO - Time since last close for ACXP is 398.6270890166667 minutes, net percent 11.5238
+2025-10-08 13:29:25,665 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
+2025-10-08 13:29:25,680 - root - INFO - 1min RSI is overbought for ACXP: 79.89284423083653
+2025-10-08 13:29:25,681 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 13:29:25,689 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 13:29:25,689 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 13:29:25,723 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 13:29:25,736 - root - INFO - 1min candle is not positive for XTLB: open 2.165 close 2.185
+2025-10-08 13:29:25,737 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
+2025-10-08 13:29:25,744 - root - INFO - Time since last close for ABVE is 3.762399266666667 minutes, net percent 6.84662
+2025-10-08 13:29:25,843 - root - INFO -  MACD calculation for GETY due to high change percent: 11.7225
+2025-10-08 13:29:25,889 - root - INFO - MACD not positive for GETY
+2025-10-08 13:29:25,918 - root - INFO - Last 5 minutes maximum volume candle is red for ABVE
+2025-10-08 13:29:25,919 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
+2025-10-08 13:29:25,929 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 13:29:25,930 - root - INFO - Time since last close for NERV is None minutes, net percent 0
+2025-10-08 13:29:25,963 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
+2025-10-08 13:29:26,042 - root - INFO - swing_strategy_close_long for scale 5Min stock NERV
+2025-10-08 13:29:26,087 - root - INFO - Profit percent for NERV is -1.48414
+2025-10-08 13:29:26,087 - root - INFO - Latest 1min close price for NERV: 3.09
+2025-10-08 13:29:26,154 - root - INFO - MACD is still rising for stock NERV
+2025-10-08 13:29:26,155 - root - INFO - Not enough profit percent to scalp for NERV: -1.48414
+2025-10-08 13:29:26,169 - root - INFO - swing_strategy_close_long for scale 5Min stock XTLB
+2025-10-08 13:29:26,206 - root - INFO - Profit percent for XTLB is -0.681818
+2025-10-08 13:29:26,206 - root - INFO - Latest 1min close price for XTLB: 2.185
+2025-10-08 13:29:26,248 - root - INFO -  MACD calculation for GIGGW due to high change percent: 78.6237
+2025-10-08 13:29:26,260 - root - INFO - MACD is still rising for stock XTLB
+2025-10-08 13:29:26,260 - root - INFO - Not enough profit percent to scalp for XTLB: -0.681818
+2025-10-08 13:29:26,282 - root - INFO - MACD not positive for GIGGW
+2025-10-08 13:29:26,403 - root - INFO -  MACD calculation for GLDG due to high change percent: 12.6901
+2025-10-08 13:29:26,973 - root - INFO -  update_current_price: start time 2025-10-08T13:24:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:29:28,917 - root - INFO -  MACD calculation for GSRT due to high change percent: 10.5
+2025-10-08 13:29:28,986 - root - INFO - MACD not positive for GSRT
+2025-10-08 13:29:29,079 - root - INFO -  MACD calculation for GTBP due to high change percent: 46.3483
+2025-10-08 13:29:29,115 - root - INFO - MACD not positive for GTBP
+2025-10-08 13:29:29,637 - root - INFO -  update_current_price: start time 2025-10-08T13:24:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:29:30,744 - root - INFO -  MACD calculation for HL due to high change percent: 10.0126
+2025-10-08 13:29:30,838 - root - INFO - MACD not positive for HL
+2025-10-08 13:29:32,164 - root - INFO -  update_current_price: start time 2025-10-08T13:24:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:29:33,253 - root - INFO -  update_current_price: start time 2025-10-08T13:24:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 13:29:33,358 - root - INFO -  MACD calculation for IMAB due to high change percent: 19.968
+2025-10-08 13:29:33,415 - root - INFO - MACD not positive for IMAB
+2025-10-08 13:29:34,129 - root - INFO -  update_current_price: start time 2025-10-08T13:24:00-04:00 end_time 2025-10-08T19:40:00-04:00
