@@ -2,10 +2,11 @@ Top Movers:
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  NXL   |      1      |     0     |    71.0723     | 72144642 |     1.605     |       0.9382       |  10790000.0  |  0.915   |   130922   |      0      | 2025-10-08 12:47:30 |
-|  ACXP  |      0      |     0     |    65.8508     | 15401753 |     7.115     |        4.29        |  19450000.0  |  4.456   |  1061867   |      0      | 2025-10-08 12:46:20 |
-|  GTBP  |      0      |     0     |    62.9639     | 12458122 |     1.225     |       0.7517       |  2230000.0   | 0.67708  |  1046085   |      0      | 2025-10-08 12:47:03 |
-|  ABVE  |      0      |     0     |    39.5415     | 3749899  |      4.87     |        3.49        |  27970000.0  |  2.882   |  6236619   |      0      | 2025-10-08 12:46:19 |
+|  XBIO  |      0      |     0     |    127.958     | 29152540 |     9.7794    |        4.29        |  1250000.0   | 3.43576  |   78323    |      0      | 2025-10-08 12:53:50 |
+|  NXL   |      0      |     0     |    70.5074     | 72309646 |     1.5997    |       0.9382       |  10790000.0  |  0.915   |   130922   |      0      | 2025-10-08 12:53:13 |
+|  ACXP  |      0      |     0     |     65.035     | 15414663 |      7.08     |        4.29        |  19450000.0  |  4.456   |  1061867   |      0      | 2025-10-08 12:52:08 |
+|  GTBP  |      0      |     0     |    57.6427     | 14128619 |     1.185     |       0.7517       |  2230000.0   | 0.67708  |  1046085   |      0      | 2025-10-08 12:52:44 |
+|  ABVE  |      1      |     0     |    42.9799     | 3900662  |      4.99     |        3.49        |  27970000.0  |  2.882   |  6236619   |      0      | 2025-10-08 12:52:07 |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -19,403 +20,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-08 12:46:41,254 - root - INFO - Running real_trade for all top movers
-2025-10-08 12:46:41,296 - root - INFO - swing_strategy_open_long for scale 5Min stock NXL
-2025-10-08 12:46:41,304 - root - INFO - Time since last close for NXL is 17.188403966666666 minutes, net percent -3.7037
-2025-10-08 12:46:41,329 - root - INFO -  MACD calculation for CRBU due to high change percent: 10.3169
-2025-10-08 12:46:41,354 - root - INFO - Last 5 minutes maximum volume candle is green for NXL
-2025-10-08 12:46:41,372 - root - INFO - 1min candle is not positive for NXL: open 1.6185 close 1.6
-2025-10-08 12:46:41,373 - root - INFO - swing_strategy_open_long for scale 5Min stock GTBP
-2025-10-08 12:46:41,377 - root - INFO - MACD not positive for CRBU
-2025-10-08 12:46:41,381 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 12:46:41,382 - root - INFO - Time since last close for GTBP is None minutes, net percent 0
-2025-10-08 12:46:41,457 - root - INFO - Last 5 minutes maximum volume candle is green for GTBP
-2025-10-08 12:46:41,472 - root - INFO - 1min candle is not positive for GTBP: open 1.2892 close 1.2156
-2025-10-08 12:46:41,473 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 12:46:41,481 - root - INFO - Time since last close for ACXP is 355.891357 minutes, net percent 11.5238
-2025-10-08 12:46:41,517 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
-2025-10-08 12:46:41,517 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
-2025-10-08 12:46:41,527 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 12:46:41,527 - root - INFO - Time since last close for ABVE is None minutes, net percent 0
-2025-10-08 12:46:41,720 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
-2025-10-08 12:46:41,737 - root - INFO -  MACD calculation for CRML due to high change percent: 15.4691
-2025-10-08 12:46:41,779 - root - INFO - Trend up basic conditions not met for ABVE: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 12:46:41,849 - root - INFO - swing_strategy_close_long for scale 5Min stock ABVE
-2025-10-08 12:46:41,868 - root - INFO -  MACD calculation for CRMLW due to high change percent: 33.429
-2025-10-08 12:46:41,994 - root - INFO - Profit percent for ABVE is 0.115004
-2025-10-08 12:46:41,994 - root - INFO - Latest 1min close price for ABVE: 4.87
-2025-10-08 12:46:42,075 - root - INFO - No close long conditions met for ABVE
-2025-10-08 12:46:42,088 - root - INFO - swing_strategy_close_long for scale 5Min stock NXL
-2025-10-08 12:46:42,127 - root - INFO - Profit percent for NXL is -0.631501
-2025-10-08 12:46:42,127 - root - INFO - Latest 1min close price for NXL: 1.6
-2025-10-08 12:46:42,187 - root - INFO - No close long conditions met for NXL
-2025-10-08 12:46:42,390 - root - INFO -  update_current_price: start time 2025-10-08T12:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:46:44,737 - root - INFO -  MACD calculation for DEVS due to high change percent: 10.8987
-2025-10-08 12:46:44,798 - root - INFO - MACD not positive for DEVS
-2025-10-08 12:46:44,854 - root - INFO -  update_current_price: start time 2025-10-08T12:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:46:45,079 - root - INFO -  MACD calculation for DGNX due to high change percent: 25.2066
-2025-10-08 12:46:47,876 - root - INFO -  update_current_price: start time 2025-10-08T12:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:46:49,723 - root - INFO -  MACD calculation for ELBM due to high change percent: 20.7317
-2025-10-08 12:46:49,788 - root - INFO - MACD not positive for ELBM
-2025-10-08 12:46:50,364 - root - INFO -  update_current_price: start time 2025-10-08T12:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:46:51,275 - root - INFO -  MACD calculation for EOSE due to high change percent: 10.2855
-2025-10-08 12:46:51,448 - root - INFO -  MACD calculation for EOSEW due to high change percent: 33.5472
-2025-10-08 12:46:52,749 - root - INFO -  MACD calculation for EVAX due to high change percent: 11.8881
-2025-10-08 12:46:52,836 - root - INFO - MACD not positive for EVAX
-2025-10-08 12:46:53,943 - root - INFO -  update_current_price: start time 2025-10-08T12:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:46:56,634 - root - INFO -  update_current_price: start time 2025-10-08T12:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:46:57,024 - root - INFO -  MACD calculation for FNGR due to high change percent: 13.1579
-2025-10-08 12:46:57,228 - root - INFO - Real mode: Today's profit so far: 796.849975000001
-2025-10-08 12:46:57,246 - root - INFO - Running real_trade for all top movers
-2025-10-08 12:46:57,287 - root - INFO - swing_strategy_open_long for scale 5Min stock NXL
-2025-10-08 12:46:57,295 - root - INFO - Time since last close for NXL is 17.4549298 minutes, net percent -3.7037
-2025-10-08 12:46:57,343 - root - INFO - Last 5 minutes maximum volume candle is green for NXL
-2025-10-08 12:46:57,358 - root - INFO - 1min candle is not positive for NXL: open 1.605 close 1.605
-2025-10-08 12:46:57,359 - root - INFO - swing_strategy_open_long for scale 5Min stock GTBP
-2025-10-08 12:46:57,366 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 12:46:57,366 - root - INFO - Time since last close for GTBP is None minutes, net percent 0
-2025-10-08 12:46:57,460 - root - INFO - Last 5 minutes maximum volume candle is green for GTBP
-2025-10-08 12:46:57,475 - root - INFO - 1min candle is not positive for GTBP: open 1.22 close 1.225
-2025-10-08 12:46:57,476 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 12:46:57,484 - root - INFO - Time since last close for ACXP is 356.15806688333333 minutes, net percent 11.5238
-2025-10-08 12:46:57,521 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
-2025-10-08 12:46:57,522 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
-2025-10-08 12:46:57,528 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 12:46:57,528 - root - INFO - Time since last close for ABVE is None minutes, net percent 0
-2025-10-08 12:46:57,691 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
-2025-10-08 12:46:57,755 - root - INFO - Trend up basic conditions not met for ABVE: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 12:46:57,825 - root - INFO - swing_strategy_close_long for scale 5Min stock ABVE
-2025-10-08 12:46:57,971 - root - INFO - Profit percent for ABVE is -0.64279
-2025-10-08 12:46:57,971 - root - INFO - Latest 1min close price for ABVE: 4.8381
-2025-10-08 12:46:58,050 - root - INFO - Closing TrendUp long: shooting star pattern detected
-2025-10-08 12:46:58,051 - root - INFO - ABVE:====== 4.8381=========>SELL========>ShootingStar
-2025-10-08 12:46:58,051 - root - INFO - ******************** CLOSE by SOLD stock:ABVE
-2025-10-08 12:46:58,091 - root - CRITICAL - ABVE  205 sell
-2025-10-08 12:46:58,138 - root - INFO - swing_strategy_close_long for scale 5Min stock NXL
-2025-10-08 12:46:58,176 - root - INFO - Profit percent for NXL is -0.724369
-2025-10-08 12:46:58,176 - root - INFO - Latest 1min close price for NXL: 1.605
-2025-10-08 12:46:58,242 - root - INFO - No close long conditions met for NXL
-2025-10-08 12:46:58,246 - root - INFO -  MACD calculation for FURY due to high change percent: 13.0654
-2025-10-08 12:46:58,288 - root - INFO - MACD not positive for FURY
-2025-10-08 12:46:58,774 - root - INFO -  MACD calculation for GAU due to high change percent: 11.1328
-2025-10-08 12:46:58,834 - root - INFO - MACD not positive for GAU
-2025-10-08 12:46:59,015 - root - INFO -  update_current_price: start time 2025-10-08T12:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:46:59,162 - root - INFO -  MACD calculation for GCL due to high change percent: 13.0905
-2025-10-08 12:47:00,305 - root - INFO -  MACD calculation for GETY due to high change percent: 10.2871
-2025-10-08 12:47:00,373 - root - INFO - MACD not positive for GETY
-2025-10-08 12:47:00,749 - root - INFO -  MACD calculation for GIGGW due to high change percent: 63.05
-2025-10-08 12:47:01,115 - root - INFO -  MACD calculation for GLDG due to high change percent: 12.6761
-2025-10-08 12:47:01,675 - root - INFO -  update_current_price: start time 2025-10-08T12:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:47:03,052 - root - INFO -  MACD calculation for GSRT due to high change percent: 10.4167
-2025-10-08 12:47:03,118 - root - INFO - MACD not positive for GSRT
-2025-10-08 12:47:03,168 - root - INFO -  MACD calculation for GSRTR due to high change percent: 11.4853
-2025-10-08 12:47:03,318 - root - INFO -  MACD calculation for GTBP due to high change percent: 67.6334
-2025-10-08 12:47:03,821 - root - INFO -  update_current_price: start time 2025-10-08T12:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:47:07,113 - root - INFO -  update_current_price: start time 2025-10-08T12:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:47:08,170 - root - INFO -  MACD calculation for HYMC due to high change percent: 11.2308
-2025-10-08 12:47:09,556 - root - INFO -  update_current_price: start time 2025-10-08T12:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:47:09,728 - root - INFO -  MACD calculation for IMAB due to high change percent: 22.508
-2025-10-08 12:47:09,777 - root - INFO - MACD not positive for IMAB
-2025-10-08 12:47:11,002 - root - INFO -  MACD calculation for INO due to high change percent: 10.0418
-2025-10-08 12:47:11,063 - root - INFO - MACD not positive for INO
-2025-10-08 12:47:11,368 - root - INFO -  MACD calculation for IONR due to high change percent: 11.7845
-2025-10-08 12:47:11,426 - root - INFO - MACD not positive for IONR
-2025-10-08 12:47:12,106 - root - INFO -  update_current_price: start time 2025-10-08T12:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:47:13,301 - root - INFO - Real mode: Today's profit so far: 800.2499749999988
-2025-10-08 12:47:13,340 - root - INFO - Running real_trade for all top movers
-2025-10-08 12:47:13,380 - root - INFO - swing_strategy_open_long for scale 5Min stock NXL
-2025-10-08 12:47:13,388 - root - INFO - Time since last close for NXL is 17.723133616666665 minutes, net percent -3.7037
-2025-10-08 12:47:13,442 - root - INFO - Last 5 minutes maximum volume candle is green for NXL
-2025-10-08 12:47:13,455 - root - INFO - 1min candle is not positive for NXL: open 1.605 close 1.605
-2025-10-08 12:47:13,456 - root - INFO - swing_strategy_open_long for scale 5Min stock GTBP
-2025-10-08 12:47:13,462 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 12:47:13,462 - root - INFO - Time since last close for GTBP is None minutes, net percent 0
-2025-10-08 12:47:13,533 - root - INFO - Last 5 minutes maximum volume candle is green for GTBP
-2025-10-08 12:47:13,547 - root - INFO - 1min candle is not positive for GTBP: open 1.22 close 1.225
-2025-10-08 12:47:13,548 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 12:47:13,555 - root - INFO - Time since last close for ACXP is 356.4259183166667 minutes, net percent 11.5238
-2025-10-08 12:47:13,587 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
-2025-10-08 12:47:13,587 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
-2025-10-08 12:47:13,593 - root - INFO - Time since last close for ABVE is 0.5265645333333333 minutes, net percent -1.0145
-2025-10-08 12:47:13,736 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
-2025-10-08 12:47:13,798 - root - INFO - Trend up basic conditions not met for ABVE: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 12:47:13,863 - root - INFO - swing_strategy_close_long for scale 5Min stock NXL
-2025-10-08 12:47:13,899 - root - INFO - Profit percent for NXL is -0.872957
-2025-10-08 12:47:13,899 - root - INFO - Latest 1min close price for NXL: 1.605
-2025-10-08 12:47:13,948 - root - INFO -  update_current_price: start time 2025-10-08T12:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:47:13,949 - root - INFO - No close long conditions met for NXL
-2025-10-08 12:47:15,743 - root - INFO -  MACD calculation for KYTX due to high change percent: 36.414
-2025-10-08 12:47:15,790 - root - INFO - MACD not positive for KYTX
-2025-10-08 12:47:16,356 - root - INFO -  MACD calculation for LAZR due to high change percent: 11.4634
-2025-10-08 12:47:16,426 - root - INFO - MACD not positive for LAZR
-2025-10-08 12:47:16,722 - root - INFO -  update_current_price: start time 2025-10-08T12:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:47:18,915 - root - INFO -  update_current_price: start time 2025-10-08T12:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:47:19,257 - root - INFO -  MACD calculation for LWLG due to high change percent: 10.3427
-2025-10-08 12:47:21,218 - root - INFO -  update_current_price: start time 2025-10-08T12:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:47:23,097 - root - INFO -  update_current_price: start time 2025-10-08T12:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:47:23,820 - root - INFO -  MACD calculation for MRX due to high change percent: 11.6856
-2025-10-08 12:47:23,875 - root - INFO - MACD not positive for MRX
-2025-10-08 12:47:24,984 - root - INFO -  MACD calculation for MYO due to high change percent: 17.1333
-2025-10-08 12:47:25,075 - root - INFO - MACD not positive for MYO
-2025-10-08 12:47:25,384 - root - INFO -  MACD calculation for NAOV due to high change percent: 14.7059
-2025-10-08 12:47:25,553 - root - INFO -  update_current_price: start time 2025-10-08T12:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:47:26,455 - root - INFO -  MACD calculation for NERV due to high change percent: 33.945
-2025-10-08 12:47:26,486 - root - INFO - MACD not positive for NERV
-2025-10-08 12:47:27,892 - root - INFO -  update_current_price: start time 2025-10-08T12:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:47:28,772 - root - INFO -  MACD calculation for NPWR due to high change percent: 21.6524
-2025-10-08 12:47:28,827 - root - INFO - MACD not positive for NPWR
-2025-10-08 12:47:28,984 - root - INFO - Real mode: Today's profit so far: 797.8299750000006
-2025-10-08 12:47:28,985 - root - INFO -  MACD calculation for NTLA due to high change percent: 26.8591
-2025-10-08 12:47:29,002 - root - INFO - Running real_trade for all top movers
-2025-10-08 12:47:29,044 - root - INFO - MACD not positive for NTLA
-2025-10-08 12:47:29,045 - root - INFO - swing_strategy_open_long for scale 5Min stock NXL
-2025-10-08 12:47:29,056 - root - INFO - Time since last close for NXL is 17.984264683333333 minutes, net percent -3.7037
-2025-10-08 12:47:29,103 - root - INFO - Last 5 minutes maximum volume candle is green for NXL
-2025-10-08 12:47:29,118 - root - INFO - 1min candle is not positive for NXL: open 1.605 close 1.605
-2025-10-08 12:47:29,119 - root - INFO - swing_strategy_open_long for scale 5Min stock GTBP
-2025-10-08 12:47:29,127 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 12:47:29,127 - root - INFO - Time since last close for GTBP is None minutes, net percent 0
-2025-10-08 12:47:29,199 - root - INFO - Last 5 minutes maximum volume candle is green for GTBP
-2025-10-08 12:47:29,212 - root - INFO - 1min candle is not positive for GTBP: open 1.22 close 1.225
-2025-10-08 12:47:29,213 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 12:47:29,219 - root - INFO - Time since last close for ACXP is 356.68699166666664 minutes, net percent 11.5238
-2025-10-08 12:47:29,252 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
-2025-10-08 12:47:29,252 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
-2025-10-08 12:47:29,260 - root - INFO - Time since last close for ABVE is 0.7876796666666667 minutes, net percent -1.0145
-2025-10-08 12:47:29,415 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
-2025-10-08 12:47:29,479 - root - INFO - Trend up basic conditions not met for ABVE: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 12:47:29,544 - root - INFO - swing_strategy_close_long for scale 5Min stock NXL
-2025-10-08 12:47:29,596 - root - INFO - Profit percent for NXL is -0.631501
-2025-10-08 12:47:29,597 - root - INFO - Latest 1min close price for NXL: 1.605
-2025-10-08 12:47:29,651 - root - INFO - No close long conditions met for NXL
-2025-10-08 12:47:29,787 - root - INFO -  MACD calculation for NXL due to high change percent: 72.1381
-2025-10-08 12:47:29,861 - root - INFO -  update_current_price: start time 2025-10-08T12:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:47:32,442 - root - INFO -  update_current_price: start time 2025-10-08T12:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:47:33,681 - root - INFO -  MACD calculation for PALI due to high change percent: 18.1429
-2025-10-08 12:47:34,647 - root - INFO -  update_current_price: start time 2025-10-08T12:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:47:36,256 - root - INFO -  MACD calculation for PLG due to high change percent: 13.7993
-2025-10-08 12:47:36,322 - root - INFO - MACD not positive for PLG
-2025-10-08 12:47:36,374 - root - INFO -  MACD calculation for PLRZ due to high change percent: 12.6364
-2025-10-08 12:47:36,406 - root - INFO - MACD not positive for PLRZ
-2025-10-08 12:47:36,963 - root - INFO -  update_current_price: start time 2025-10-08T12:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:47:37,836 - root - INFO -  MACD calculation for PRME due to high change percent: 10.6474
-2025-10-08 12:47:37,901 - root - INFO - MACD not positive for PRME
-2025-10-08 12:47:38,023 - root - INFO -  MACD calculation for PROK due to high change percent: 13.0912
-2025-10-08 12:47:39,412 - root - INFO -  MACD calculation for PXLW due to high change percent: 15.913
-2025-10-08 12:47:39,468 - root - INFO - MACD not positive for PXLW
-2025-10-08 12:47:39,792 - root - INFO -  update_current_price: start time 2025-10-08T12:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:47:39,973 - root - INFO -  MACD calculation for QTTB due to high change percent: 14.5357
-2025-10-08 12:47:40,010 - root - INFO - MACD not positive for QTTB
-2025-10-08 12:47:41,750 - root - INFO -  MACD calculation for RGNX due to high change percent: 13.9391
-2025-10-08 12:47:41,810 - root - INFO - MACD not positive for RGNX
-2025-10-08 12:47:41,811 - root - INFO -  update_current_price: start time 2025-10-08T12:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:47:42,308 - root - INFO -  MACD calculation for RKDA due to high change percent: 13.7574
-2025-10-08 12:47:42,487 - root - INFO - MACD not positive for RKDA
-2025-10-08 12:47:42,794 - root - INFO -  MACD calculation for RMCO due to high change percent: 11.6582
-2025-10-08 12:47:43,175 - root - INFO -  MACD calculation for RNAZ due to high change percent: 16.4484
-2025-10-08 12:47:44,512 - root - INFO -  MACD calculation for RXRX due to high change percent: 15.2964
-2025-10-08 12:47:44,587 - root - INFO - MACD not positive for RXRX
-2025-10-08 12:47:44,690 - root - INFO - Real mode: Today's profit so far: 806.5599750000001
-2025-10-08 12:47:44,709 - root - INFO - Running real_trade for all top movers
-2025-10-08 12:47:44,748 - root - INFO - swing_strategy_open_long for scale 5Min stock NXL
-2025-10-08 12:47:44,757 - root - INFO - Time since last close for NXL is 18.24595628333333 minutes, net percent -3.7037
-2025-10-08 12:47:44,808 - root - INFO - Last 5 minutes maximum volume candle is green for NXL
-2025-10-08 12:47:44,859 - root - INFO - Trend up basic conditions not met for NXL: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 12:47:44,860 - root - INFO - swing_strategy_open_long for scale 5Min stock GTBP
-2025-10-08 12:47:44,868 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 12:47:44,868 - root - INFO - Time since last close for GTBP is None minutes, net percent 0
-2025-10-08 12:47:44,889 - root - INFO -  update_current_price: start time 2025-10-08T12:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:47:44,992 - root - INFO - Last 5 minutes maximum volume candle is green for GTBP
-2025-10-08 12:47:45,034 - root - INFO - MACD has been up for last 10 candles for GTBP, not opening long position
-2025-10-08 12:47:45,034 - root - INFO - Trend up basic conditions not met for GTBP: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=True, price_close_above_upper_bb=False
-2025-10-08 12:47:45,034 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 12:47:45,039 - root - INFO - Time since last close for ACXP is 356.95065215 minutes, net percent 11.5238
-2025-10-08 12:47:45,071 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
-2025-10-08 12:47:45,071 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
-2025-10-08 12:47:45,076 - root - INFO - Time since last close for ABVE is 1.0512668833333334 minutes, net percent -1.0145
-2025-10-08 12:47:45,160 - root - INFO -  MACD calculation for SANA due to high change percent: 14.6845
-2025-10-08 12:47:45,245 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
-2025-10-08 12:47:45,260 - root - INFO - 1min candle is not positive for ABVE: open 4.84 close 4.8701
-2025-10-08 12:47:45,335 - root - INFO - swing_strategy_close_long for scale 5Min stock NXL
-2025-10-08 12:47:45,379 - root - INFO - Profit percent for NXL is -0.390045
-2025-10-08 12:47:45,379 - root - INFO - Latest 1min close price for NXL: 1.61
-2025-10-08 12:47:45,388 - root - INFO -  MACD calculation for SAVA due to high change percent: 11.2573
-2025-10-08 12:47:45,450 - root - INFO - MACD not positive for SAVA
-2025-10-08 12:47:45,470 - root - INFO - MACD is still rising for stock NXL
-2025-10-08 12:47:45,470 - root - INFO - Not enough profit percent to scalp for NXL: -0.390045
-2025-10-08 12:47:46,717 - root - INFO -  MACD calculation for SEM due to high change percent: 10.967
-2025-10-08 12:47:46,779 - root - INFO - MACD not positive for SEM
-2025-10-08 12:47:47,644 - root - INFO -  update_current_price: start time 2025-10-08T12:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:47:48,310 - root - INFO -  MACD calculation for SIDU due to high change percent: 10.8333
-2025-10-08 12:47:48,380 - root - INFO - MACD not positive for SIDU
-2025-10-08 12:47:49,327 - root - INFO -  MACD calculation for SLDB due to high change percent: 21.9203
-2025-10-08 12:47:49,453 - root - INFO - MACD not positive for SLDB
-2025-10-08 12:47:49,826 - root - INFO -  MACD calculation for SLNH due to high change percent: 22.2315
-2025-10-08 12:47:50,561 - root - INFO -  MACD calculation for SMSI due to high change percent: 12.246
-2025-10-08 12:47:50,612 - root - INFO - MACD not positive for SMSI
-2025-10-08 12:47:51,405 - root - INFO -  MACD calculation for SNGX due to high change percent: 12.2134
-2025-10-08 12:47:51,479 - root - INFO - MACD not positive for SNGX
-2025-10-08 12:47:51,532 - root - INFO -  update_current_price: start time 2025-10-08T12:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:47:52,142 - root - INFO -  MACD calculation for SOUNW due to high change percent: 11.2639
-2025-10-08 12:47:52,187 - root - INFO - MACD not positive for SOUNW
-2025-10-08 12:47:54,147 - root - INFO -  MACD calculation for STOK due to high change percent: 13.7312
-2025-10-08 12:47:54,214 - root - INFO -  update_current_price: start time 2025-10-08T12:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:47:55,899 - root - INFO -  MACD calculation for TAOX due to high change percent: 10.2812
-2025-10-08 12:47:55,953 - root - INFO - MACD not positive for TAOX
-2025-10-08 12:47:56,960 - root - INFO -  update_current_price: start time 2025-10-08T12:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:47:57,947 - root - INFO -  MACD calculation for THM due to high change percent: 13.369
-2025-10-08 12:47:58,003 - root - INFO - MACD not positive for THM
-2025-10-08 12:47:58,408 - root - INFO -  MACD calculation for TIL due to high change percent: 13.563
-2025-10-08 12:47:58,460 - root - INFO - MACD not positive for TIL
-2025-10-08 12:48:00,360 - root - INFO -  MACD calculation for TRAW due to high change percent: 15.6
-2025-10-08 12:48:00,403 - root - INFO - MACD not positive for TRAW
-2025-10-08 12:48:00,516 - root - INFO - Real mode: Today's profit so far: 808.4199750000007
-2025-10-08 12:48:00,534 - root - INFO - Running real_trade for all top movers
-2025-10-08 12:48:00,583 - root - INFO - swing_strategy_open_long for scale 5Min stock NXL
-2025-10-08 12:48:00,593 - root - INFO - Time since last close for NXL is 18.509883633333335 minutes, net percent -3.7037
-2025-10-08 12:48:00,642 - root - INFO - Last 5 minutes maximum volume candle is green for NXL
-2025-10-08 12:48:00,688 - root - INFO -  MACD calculation for TRON due to high change percent: 20.2749
-2025-10-08 12:48:00,689 - root - INFO - Trend up basic conditions not met for NXL: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 12:48:00,689 - root - INFO - swing_strategy_open_long for scale 5Min stock GTBP
-2025-10-08 12:48:00,696 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 12:48:00,697 - root - INFO - Time since last close for GTBP is None minutes, net percent 0
-2025-10-08 12:48:00,758 - root - INFO - Last 5 minutes maximum volume candle is green for GTBP
-2025-10-08 12:48:00,796 - root - INFO -  update_current_price: start time 2025-10-08T12:43:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:48:00,808 - root - INFO - MACD has been up for last 10 candles for GTBP, not opening long position
-2025-10-08 12:48:00,809 - root - INFO - Trend up basic conditions not met for GTBP: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=True, price_close_above_upper_bb=False
-2025-10-08 12:48:00,809 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 12:48:00,818 - root - INFO - Time since last close for ACXP is 357.21363855 minutes, net percent 11.5238
-2025-10-08 12:48:00,851 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
-2025-10-08 12:48:00,851 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
-2025-10-08 12:48:00,860 - root - INFO - Time since last close for ABVE is 1.31434375 minutes, net percent -1.0145
-2025-10-08 12:48:00,995 - root - INFO -  MACD calculation for TRX due to high change percent: 28.3428
-2025-10-08 12:48:01,009 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
-2025-10-08 12:48:01,027 - root - INFO - 1min candle is not positive for ABVE: open 4.84 close 4.8701
-2025-10-08 12:48:01,097 - root - INFO - swing_strategy_close_long for scale 5Min stock NXL
-2025-10-08 12:48:01,144 - root - INFO - Profit percent for NXL is -0.321942
-2025-10-08 12:48:01,144 - root - INFO - Latest 1min close price for NXL: 1.61
-2025-10-08 12:48:01,204 - root - INFO - MACD is still rising for stock NXL
-2025-10-08 12:48:01,204 - root - INFO - Not enough profit percent to scalp for NXL: -0.321942
-2025-10-08 12:48:02,735 - root - INFO -  MACD calculation for UK due to high change percent: 10.8179
-2025-10-08 12:48:02,774 - root - INFO - MACD not positive for UK
-2025-10-08 12:48:03,332 - root - INFO -  MACD calculation for UPC due to high change percent: 62.911
-2025-10-08 12:48:03,373 - root - INFO - MACD not positive for UPC
-2025-10-08 12:48:03,776 - root - INFO -  update_current_price: start time 2025-10-08T12:43:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:48:04,842 - root - INFO -  MACD calculation for VFF due to high change percent: 12.0846
-2025-10-08 12:48:06,054 - root - INFO -  update_current_price: start time 2025-10-08T12:43:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:48:08,850 - root - INFO -  update_current_price: start time 2025-10-08T12:43:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:48:09,600 - root - INFO -  MACD calculation for XBIO due to high change percent: 121.911
-2025-10-08 12:48:09,637 - root - INFO - MACD not positive for XBIO
-2025-10-08 12:48:10,463 - root - INFO - FIND stocks Change percent for XTLB: 46.3714
-2025-10-08 12:48:10,464 - root - INFO - XTLB change_percent from DB: 46.3714
-2025-10-08 12:48:10,476 - root - INFO -  MACD calculation for XTLB due to high change percent: 46.3714
-2025-10-08 12:48:10,549 - root - INFO - MACD not positive for XTLB
-2025-10-08 12:48:10,617 - root - INFO -  MACD calculation for YAAS due to high change percent: 11.2727
-2025-10-08 12:48:10,685 - root - INFO - MACD not positive for YAAS
-2025-10-08 12:48:10,867 - root - INFO -  MACD calculation for YHGJ due to high change percent: 10.6529
-2025-10-08 12:48:11,067 - root - INFO -  MACD calculation for YTRA due to high change percent: 15.1899
-2025-10-08 12:48:11,097 - root - INFO - MACD not positive for YTRA
-2025-10-08 12:48:11,421 - root - INFO -  update_current_price: start time 2025-10-08T12:43:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 12:48:12,105 - root - INFO - Updating change percent of stocks
-2025-10-08 12:48:12,938 - root - INFO - XTLB change_percent from DB: 45.857142857142854
-2025-10-08 12:48:12,948 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-08 12:48:16,253 - root - INFO - Real mode: Today's profit so far: 803.339974999999
-2025-10-08 12:48:16,273 - root - INFO - Running real_trade for all top movers
-2025-10-08 12:48:16,323 - root - INFO - swing_strategy_open_long for scale 5Min stock NXL
-2025-10-08 12:48:16,333 - root - INFO - Time since last close for NXL is 18.772221000000002 minutes, net percent -3.7037
-2025-10-08 12:48:16,391 - root - INFO - Last 5 minutes maximum volume candle is green for NXL
-2025-10-08 12:48:16,457 - root - INFO - Trend up basic conditions not met for NXL: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 12:48:16,458 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 12:48:16,471 - root - INFO - Time since last close for ACXP is 357.47452766666663 minutes, net percent 11.5238
-2025-10-08 12:48:16,509 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
-2025-10-08 12:48:16,510 - root - INFO - swing_strategy_open_long for scale 5Min stock GTBP
-2025-10-08 12:48:16,525 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 12:48:16,525 - root - INFO - Time since last close for GTBP is None minutes, net percent 0
-2025-10-08 12:48:16,594 - root - INFO - Last 5 minutes maximum volume candle is green for GTBP
-2025-10-08 12:48:16,656 - root - INFO - MACD has been up for last 10 candles for GTBP, not opening long position
-2025-10-08 12:48:16,656 - root - INFO - Trend up basic conditions not met for GTBP: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=True, price_close_above_upper_bb=False
-2025-10-08 12:48:16,656 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
-2025-10-08 12:48:16,668 - root - INFO - Time since last close for ABVE is 1.5778113333333332 minutes, net percent -1.0145
-2025-10-08 12:48:16,829 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
-2025-10-08 12:48:16,854 - root - INFO - 1min candle is not positive for ABVE: open 4.84 close 4.8701
-2025-10-08 12:48:16,940 - root - INFO - swing_strategy_close_long for scale 5Min stock NXL
-2025-10-08 12:48:16,990 - root - INFO - Profit percent for NXL is -0.253839
-2025-10-08 12:48:16,990 - root - INFO - Latest 1min close price for NXL: 1.61
-2025-10-08 12:48:17,076 - root - INFO - MACD is still rising for stock NXL
-2025-10-08 12:48:17,076 - root - INFO - Not enough profit percent to scalp for NXL: -0.253839
-2025-10-08 12:48:32,129 - root - INFO - Real mode: Today's profit so far: 806.8099750000001
-2025-10-08 12:48:32,527 - root - INFO - Running real_trade for all top movers
-2025-10-08 12:48:32,577 - root - INFO - swing_strategy_open_long for scale 5Min stock NXL
-2025-10-08 12:48:32,586 - root - INFO - Time since last close for NXL is 19.043112883333333 minutes, net percent -3.7037
-2025-10-08 12:48:32,641 - root - INFO - Last 5 minutes maximum volume candle is green for NXL
-2025-10-08 12:48:32,702 - root - INFO - Trend up basic conditions not met for NXL: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 12:48:32,702 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 12:48:32,716 - root - INFO - Time since last close for ACXP is 357.74527066666667 minutes, net percent 11.5238
-2025-10-08 12:48:32,753 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
-2025-10-08 12:48:32,754 - root - INFO - swing_strategy_open_long for scale 5Min stock GTBP
-2025-10-08 12:48:32,763 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 12:48:32,763 - root - INFO - Time since last close for GTBP is None minutes, net percent 0
-2025-10-08 12:48:32,831 - root - INFO - Last 5 minutes maximum volume candle is green for GTBP
-2025-10-08 12:48:32,894 - root - INFO - MACD has been up for last 10 candles for GTBP, not opening long position
-2025-10-08 12:48:32,894 - root - INFO - Trend up basic conditions not met for GTBP: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=True, price_close_above_upper_bb=False
-2025-10-08 12:48:32,895 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
-2025-10-08 12:48:32,909 - root - INFO - Time since last close for ABVE is 1.84849405 minutes, net percent -1.0145
-2025-10-08 12:48:33,070 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
-2025-10-08 12:48:33,093 - root - INFO - 1min candle is not positive for ABVE: open 4.84 close 4.8701
-2025-10-08 12:48:33,176 - root - INFO - swing_strategy_close_long for scale 5Min stock NXL
-2025-10-08 12:48:33,233 - root - INFO - Profit percent for NXL is -0.321942
-2025-10-08 12:48:33,233 - root - INFO - Latest 1min close price for NXL: 1.61
-2025-10-08 12:48:33,326 - root - INFO - MACD is still rising for stock NXL
-2025-10-08 12:48:33,326 - root - INFO - Not enough profit percent to scalp for NXL: -0.321942
-2025-10-08 12:48:48,376 - root - INFO - Real mode: Today's profit so far: 803.339974999999
-2025-10-08 12:48:48,404 - root - INFO - Running real_trade for all top movers
-2025-10-08 12:48:48,450 - root - INFO - swing_strategy_open_long for scale 5Min stock NXL
-2025-10-08 12:48:48,462 - root - INFO - Time since last close for NXL is 19.307704783333335 minutes, net percent -3.7037
-2025-10-08 12:48:48,517 - root - INFO - Last 5 minutes maximum volume candle is green for NXL
-2025-10-08 12:48:48,589 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-08 12:48:48,590 - root - INFO - NXL:======= 1.62===>BUY========>TrendUp1397988
-2025-10-08 12:48:48,607 - root - WARNING - ***** stock is already in the positions
-2025-10-08 12:48:48,608 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 12:48:48,618 - root - INFO - Time since last close for ACXP is 358.01029751666664 minutes, net percent 11.5238
-2025-10-08 12:48:48,657 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
-2025-10-08 12:48:48,658 - root - INFO - swing_strategy_open_long for scale 5Min stock GTBP
-2025-10-08 12:48:48,667 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 12:48:48,667 - root - INFO - Time since last close for GTBP is None minutes, net percent 0
-2025-10-08 12:48:48,738 - root - INFO - Last 5 minutes maximum volume candle is green for GTBP
-2025-10-08 12:48:48,820 - root - INFO - MACD has been up for last 10 candles for GTBP, not opening long position
-2025-10-08 12:48:48,820 - root - INFO - Trend up basic conditions not met for GTBP: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 12:48:48,820 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
-2025-10-08 12:48:48,834 - root - INFO - Time since last close for ABVE is 2.1139126333333333 minutes, net percent -1.0145
-2025-10-08 12:48:48,997 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
-2025-10-08 12:48:49,088 - root - INFO - Trend up basic conditions not met for ABVE: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 12:48:49,165 - root - INFO - swing_strategy_close_long for scale 5Min stock NXL
-2025-10-08 12:48:49,212 - root - INFO - Profit percent for NXL is 0.0247647
-2025-10-08 12:48:49,212 - root - INFO - Latest 1min close price for NXL: 1.62
-2025-10-08 12:48:49,292 - root - INFO - MACD is still rising for stock NXL
-2025-10-08 12:48:49,292 - root - INFO - Not enough profit percent to scalp for NXL: 0.0247647
-2025-10-08 12:49:04,336 - root - INFO - Real mode: Today's profit so far: 809.5299750000013
-2025-10-08 12:49:04,356 - root - INFO - Running real_trade for all top movers
-2025-10-08 12:49:04,403 - root - INFO - swing_strategy_open_long for scale 5Min stock NXL
-2025-10-08 12:49:04,411 - root - INFO - Time since last close for NXL is 19.573529699999998 minutes, net percent -3.7037
-2025-10-08 12:49:04,461 - root - INFO - Last 5 minutes maximum volume candle is green for NXL
-2025-10-08 12:49:04,518 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-08 12:49:04,518 - root - INFO - NXL:======= 1.62===>BUY========>TrendUp1397988
-2025-10-08 12:49:04,543 - root - WARNING - ***** stock is already in the positions
-2025-10-08 12:49:04,544 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 12:49:04,555 - root - INFO - Time since last close for ACXP is 358.2759262166667 minutes, net percent 11.5238
-2025-10-08 12:49:04,641 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
-2025-10-08 12:49:04,641 - root - INFO - swing_strategy_open_long for scale 5Min stock GTBP
-2025-10-08 12:49:04,655 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 12:49:04,656 - root - INFO - Time since last close for GTBP is None minutes, net percent 0
-2025-10-08 12:49:04,810 - root - INFO - Last 5 minutes maximum volume candle is green for GTBP
-2025-10-08 12:49:04,907 - root - INFO - MACD has been up for last 10 candles for GTBP, not opening long position
-2025-10-08 12:49:04,907 - root - INFO - Trend up basic conditions not met for GTBP: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 12:49:04,907 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
-2025-10-08 12:49:04,922 - root - INFO - Time since last close for ABVE is 2.3820380666666665 minutes, net percent -1.0145
-2025-10-08 12:49:05,328 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
-2025-10-08 12:49:05,495 - root - INFO - Trend up basic conditions not met for ABVE: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 12:49:05,577 - root - INFO - swing_strategy_close_long for scale 5Min stock NXL
-2025-10-08 12:49:05,626 - root - INFO - Profit percent for NXL is -0.321942
-2025-10-08 12:49:05,626 - root - INFO - Latest 1min close price for NXL: 1.62
-2025-10-08 12:49:05,788 - root - INFO - MACD is still rising for stock NXL
-2025-10-08 12:49:05,788 - root - INFO - Not enough profit percent to scalp for NXL: -0.321942
+2025-10-08 12:52:15,818 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 12:52:15,826 - root - INFO - Time since last close for ACXP is 361.46377409999997 minutes, net percent 11.5238
+2025-10-08 12:52:15,864 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
+2025-10-08 12:52:15,910 - root - INFO - Trend up basic conditions not met for ACXP: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 12:52:15,911 - root - INFO - swing_strategy_open_long for scale 5Min stock GTBP
+2025-10-08 12:52:15,917 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:52:15,917 - root - INFO - Time since last close for GTBP is None minutes, net percent 0
+2025-10-08 12:52:15,981 - root - INFO - Last 5 minutes maximum volume candle is green for GTBP
+2025-10-08 12:52:15,995 - root - INFO - 1min candle is not positive for GTBP: open 1.1902 close 1.185
+2025-10-08 12:52:15,996 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
+2025-10-08 12:52:16,002 - root - INFO - Time since last close for ABVE is 5.5667087 minutes, net percent -1.0145
+2025-10-08 12:52:16,140 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
+2025-10-08 12:52:16,204 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-08 12:52:16,204 - root - INFO - ABVE:======= 4.99===>BUY========>TrendUp1957622
+2025-10-08 12:52:16,221 - root - WARNING - ***** stock is already in the positions
+2025-10-08 12:52:16,304 - root - INFO - swing_strategy_close_long for scale 5Min stock ABVE
+2025-10-08 12:52:16,419 - root - INFO -  MACD calculation for BFLY due to high change percent: 11.0
+2025-10-08 12:52:16,434 - root - INFO - Profit percent for ABVE is -0.0220923
+2025-10-08 12:52:16,434 - root - INFO - Latest 1min close price for ABVE: 4.99
+2025-10-08 12:52:16,507 - root - INFO - MACD is still rising for stock ABVE
+2025-10-08 12:52:16,507 - root - INFO - Not enough profit percent to scalp for ABVE: -0.0220923
+2025-10-08 12:52:16,687 - root - INFO -  update_current_price: start time 2025-10-08T12:47:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:52:17,059 - root - INFO -  MACD calculation for BIAF due to high change percent: 31.4367
+2025-10-08 12:52:17,120 - root - INFO - MACD not positive for BIAF
+2025-10-08 12:52:17,405 - root - INFO -  MACD calculation for BLBX due to high change percent: 17.855
+2025-10-08 12:52:18,053 - root - INFO -  MACD calculation for BNZI due to high change percent: 17.9012
+2025-10-08 12:52:18,455 - root - INFO -  update_current_price: start time 2025-10-08T12:47:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:52:20,038 - root - INFO -  MACD calculation for CABA due to high change percent: 12.2845
+2025-10-08 12:52:20,087 - root - INFO - MACD not positive for CABA
+2025-10-08 12:52:20,139 - root - INFO -  MACD calculation for CADL due to high change percent: 13.6767
+2025-10-08 12:52:20,175 - root - INFO - MACD not positive for CADL
+2025-10-08 12:52:20,463 - root - INFO -  update_current_price: start time 2025-10-08T12:47:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:52:20,550 - root - INFO -  MACD calculation for CATX due to high change percent: 10.6628
+2025-10-08 12:52:20,585 - root - INFO - MACD not positive for CATX
+2025-10-08 12:52:21,069 - root - INFO -  MACD calculation for CCTG due to high change percent: 17.5926
+2025-10-08 12:52:21,120 - root - INFO - MACD not positive for CCTG
+2025-10-08 12:52:21,169 - root - INFO -  MACD calculation for CDE due to high change percent: 10.4145
+2025-10-08 12:52:21,209 - root - INFO - MACD not positive for CDE
+2025-10-08 12:52:21,570 - root - INFO -  MACD calculation for CENX due to high change percent: 11.9438
+2025-10-08 12:52:21,608 - root - INFO - MACD not positive for CENX
+2025-10-08 12:52:22,334 - root - INFO -  update_current_price: start time 2025-10-08T12:47:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:52:23,568 - root - INFO -  MACD calculation for CLLS due to high change percent: 16.7539
+2025-10-08 12:52:23,970 - root - INFO -  MACD calculation for CLPT due to high change percent: 10.4585
+2025-10-08 12:52:24,034 - root - INFO - MACD not positive for CLPT
+2025-10-08 12:52:24,588 - root - INFO -  MACD calculation for CNF due to high change percent: 10.3687
+2025-10-08 12:52:24,636 - root - INFO -  update_current_price: start time 2025-10-08T12:47:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:52:25,979 - root - INFO -  MACD calculation for CRBU due to high change percent: 10.2881
+2025-10-08 12:52:26,051 - root - INFO - MACD not positive for CRBU
+2025-10-08 12:52:26,634 - root - INFO -  MACD calculation for CRML due to high change percent: 15.506
+2025-10-08 12:52:27,369 - root - INFO -  update_current_price: start time 2025-10-08T12:47:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:52:30,913 - root - INFO -  MACD calculation for DEVS due to high change percent: 10.9705
+2025-10-08 12:52:30,967 - root - INFO - MACD not positive for DEVS
+2025-10-08 12:52:31,031 - root - INFO -  update_current_price: start time 2025-10-08T12:47:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:52:31,263 - root - INFO -  MACD calculation for DGNX due to high change percent: 24.6488
+2025-10-08 12:52:31,323 - root - INFO - MACD not positive for DGNX
+2025-10-08 12:52:31,552 - root - INFO - Real mode: Today's profit so far: 795.4599750000016
+2025-10-08 12:52:31,722 - root - INFO -  MACD calculation for DNA due to high change percent: 10.2901
+2025-10-08 12:52:31,780 - root - INFO - MACD not positive for DNA
+2025-10-08 12:52:31,850 - root - INFO - Running real_trade for all top movers
+2025-10-08 12:52:31,888 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
+2025-10-08 12:52:31,898 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:52:31,898 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
+2025-10-08 12:52:31,946 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
+2025-10-08 12:52:31,964 - root - INFO - 1min candle is not positive for XBIO: open 9.6249 close 9.62
+2025-10-08 12:52:31,964 - root - INFO - swing_strategy_open_long for scale 5Min stock NXL
+2025-10-08 12:52:31,972 - root - INFO - Time since last close for NXL is 2.8995468833333335 minutes, net percent -0.253839
+2025-10-08 12:52:32,028 - root - INFO - Last 5 minutes maximum volume candle is red for NXL
+2025-10-08 12:52:32,028 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 12:52:32,036 - root - INFO - Time since last close for ACXP is 361.7339391166667 minutes, net percent 11.5238
+2025-10-08 12:52:32,073 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
+2025-10-08 12:52:32,126 - root - INFO - Trend up basic conditions not met for ACXP: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 12:52:32,126 - root - INFO - swing_strategy_open_long for scale 5Min stock GTBP
+2025-10-08 12:52:32,133 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:52:32,133 - root - INFO - Time since last close for GTBP is None minutes, net percent 0
+2025-10-08 12:52:32,196 - root - INFO - Last 5 minutes maximum volume candle is green for GTBP
+2025-10-08 12:52:32,209 - root - INFO - 1min candle is not positive for GTBP: open 1.1902 close 1.185
+2025-10-08 12:52:32,209 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
+2025-10-08 12:52:32,215 - root - INFO - Time since last close for ABVE is 5.83692775 minutes, net percent -1.0145
+2025-10-08 12:52:32,353 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
+2025-10-08 12:52:32,414 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-08 12:52:32,414 - root - INFO - ABVE:======= 4.99===>BUY========>TrendUp1957622
+2025-10-08 12:52:32,430 - root - WARNING - ***** stock is already in the positions
+2025-10-08 12:52:32,500 - root - INFO - swing_strategy_close_long for scale 5Min stock ABVE
+2025-10-08 12:52:32,603 - root - INFO -  update_current_price: start time 2025-10-08T12:47:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:52:32,642 - root - INFO - Profit percent for ABVE is -0.182764
+2025-10-08 12:52:32,642 - root - INFO - Latest 1min close price for ABVE: 4.99
+2025-10-08 12:52:32,717 - root - INFO - MACD is still rising for stock ABVE
+2025-10-08 12:52:32,717 - root - INFO - Not enough profit percent to scalp for ABVE: -0.182764
+2025-10-08 12:52:33,917 - root - INFO -  MACD calculation for ELBM due to high change percent: 23.1707
+2025-10-08 12:52:33,968 - root - INFO - MACD not positive for ELBM
+2025-10-08 12:52:34,211 - root - INFO -  update_current_price: start time 2025-10-08T12:47:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:52:34,535 - root - INFO -  MACD calculation for EOSE due to high change percent: 10.981
+2025-10-08 12:52:35,554 - root - INFO -  MACD calculation for EVAX due to high change percent: 10.8217
+2025-10-08 12:52:35,616 - root - INFO - MACD not positive for EVAX
+2025-10-08 12:52:36,196 - root - INFO -  update_current_price: start time 2025-10-08T12:47:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:52:38,078 - root - INFO -  update_current_price: start time 2025-10-08T12:47:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:52:38,312 - root - INFO -  MACD calculation for FNGR due to high change percent: 12.2749
+2025-10-08 12:52:39,113 - root - INFO -  MACD calculation for FTEL due to high change percent: 10.757
+2025-10-08 12:52:39,173 - root - INFO - MACD not positive for FTEL
+2025-10-08 12:52:39,450 - root - INFO -  MACD calculation for FURY due to high change percent: 12.6912
+2025-10-08 12:52:39,503 - root - INFO - MACD not positive for FURY
+2025-10-08 12:52:39,940 - root - INFO -  MACD calculation for GAU due to high change percent: 10.7422
+2025-10-08 12:52:39,998 - root - INFO - MACD not positive for GAU
+2025-10-08 12:52:40,181 - root - INFO -  update_current_price: start time 2025-10-08T12:47:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:52:40,360 - root - INFO -  MACD calculation for GCL due to high change percent: 12.069
+2025-10-08 12:52:41,291 - root - INFO -  MACD calculation for GETY due to high change percent: 10.5263
+2025-10-08 12:52:41,353 - root - INFO - MACD not positive for GETY
+2025-10-08 12:52:41,824 - root - INFO -  MACD calculation for GIGGW due to high change percent: 67.8456
+2025-10-08 12:52:42,024 - root - INFO -  MACD calculation for GLDG due to high change percent: 13.3803
+2025-10-08 12:52:42,363 - root - INFO -  update_current_price: start time 2025-10-08T12:47:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:52:43,951 - root - INFO -  MACD calculation for GSRT due to high change percent: 11.4167
+2025-10-08 12:52:44,018 - root - INFO - MACD not positive for GSRT
+2025-10-08 12:52:44,118 - root - INFO -  MACD calculation for GTBP due to high change percent: 63.7488
+2025-10-08 12:52:44,831 - root - INFO -  update_current_price: start time 2025-10-08T12:47:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:52:47,768 - root - INFO - Real mode: Today's profit so far: 801.3199749999985
+2025-10-08 12:52:47,789 - root - INFO - Running real_trade for all top movers
+2025-10-08 12:52:47,833 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
+2025-10-08 12:52:47,841 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:52:47,841 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
+2025-10-08 12:52:47,890 - root - INFO - Last 5 minutes maximum volume candle is red for XBIO
+2025-10-08 12:52:47,890 - root - INFO - swing_strategy_open_long for scale 5Min stock NXL
+2025-10-08 12:52:47,898 - root - INFO - Time since last close for NXL is 3.1649730333333332 minutes, net percent -0.253839
+2025-10-08 12:52:47,945 - root - INFO - Last 5 minutes maximum volume candle is green for NXL
+2025-10-08 12:52:47,960 - root - INFO - 1min candle is not positive for NXL: open 1.59 close 1.5997
+2025-10-08 12:52:47,961 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 12:52:47,968 - root - INFO - Time since last close for ACXP is 361.9994756166667 minutes, net percent 11.5238
+2025-10-08 12:52:48,001 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
+2025-10-08 12:52:48,060 - root - INFO - Trend up basic conditions not met for ACXP: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 12:52:48,061 - root - INFO - swing_strategy_open_long for scale 5Min stock GTBP
+2025-10-08 12:52:48,068 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:52:48,068 - root - INFO - Time since last close for GTBP is None minutes, net percent 0
+2025-10-08 12:52:48,137 - root - INFO - Last 5 minutes maximum volume candle is green for GTBP
+2025-10-08 12:52:48,155 - root - INFO - 9 EMA is in downtrend, not opening long position for GTBP
+2025-10-08 12:52:48,155 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
+2025-10-08 12:52:48,163 - root - INFO - Time since last close for ABVE is 6.1027301000000005 minutes, net percent -1.0145
+2025-10-08 12:52:48,234 - root - INFO -  update_current_price: start time 2025-10-08T12:47:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:52:48,332 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
+2025-10-08 12:52:48,348 - root - INFO - 1min candle is not positive for ABVE: open 4.9888 close 4.96
+2025-10-08 12:52:48,418 - root - INFO - swing_strategy_close_long for scale 5Min stock ABVE
+2025-10-08 12:52:48,576 - root - INFO - Profit percent for ABVE is -0.785282
+2025-10-08 12:52:48,576 - root - INFO - Latest 1min close price for ABVE: 4.96
+2025-10-08 12:52:48,660 - root - INFO - MACD is still rising for stock ABVE
+2025-10-08 12:52:48,660 - root - INFO - Not enough profit percent to scalp for ABVE: -0.785282
+2025-10-08 12:52:49,400 - root - INFO -  MACD calculation for HYMC due to high change percent: 10.9231
+2025-10-08 12:52:49,465 - root - INFO - MACD not positive for HYMC
+2025-10-08 12:52:50,696 - root - INFO -  update_current_price: start time 2025-10-08T12:47:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:52:50,994 - root - INFO -  MACD calculation for IMAB due to high change percent: 22.6545
+2025-10-08 12:52:51,048 - root - INFO - MACD not positive for IMAB
+2025-10-08 12:52:53,296 - root - INFO -  MACD calculation for IONR due to high change percent: 10.6902
+2025-10-08 12:52:53,366 - root - INFO - MACD not positive for IONR
+2025-10-08 12:52:54,048 - root - INFO -  update_current_price: start time 2025-10-08T12:47:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:52:55,447 - root - INFO -  MACD calculation for JFBR due to high change percent: 10.8005
+2025-10-08 12:52:55,484 - root - INFO - MACD not positive for JFBR
+2025-10-08 12:52:57,025 - root - INFO -  update_current_price: start time 2025-10-08T12:47:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:52:59,027 - root - INFO -  MACD calculation for KYTX due to high change percent: 36.0444
+2025-10-08 12:52:59,076 - root - INFO - MACD not positive for KYTX
+2025-10-08 12:52:59,739 - root - INFO -  MACD calculation for LAZR due to high change percent: 10.9756
+2025-10-08 12:52:59,803 - root - INFO - MACD not positive for LAZR
+2025-10-08 12:53:00,411 - root - INFO -  update_current_price: start time 2025-10-08T12:48:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:53:01,333 - root - INFO -  MACD calculation for LNZA due to high change percent: 18.8255
+2025-10-08 12:53:01,368 - root - INFO - MACD not positive for LNZA
+2025-10-08 12:53:02,166 - root - INFO -  MACD calculation for LSH due to high change percent: 14.4928
+2025-10-08 12:53:02,200 - root - INFO - MACD not positive for LSH
+2025-10-08 12:53:02,678 - root - INFO -  update_current_price: start time 2025-10-08T12:48:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:53:02,992 - root - INFO -  MACD calculation for LWLG due to high change percent: 10.9914
+2025-10-08 12:53:03,713 - root - INFO - Real mode: Today's profit so far: 791.6999749999995
+2025-10-08 12:53:03,733 - root - INFO - Running real_trade for all top movers
+2025-10-08 12:53:03,774 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
+2025-10-08 12:53:03,781 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:53:03,782 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
+2025-10-08 12:53:03,827 - root - INFO - Last 5 minutes maximum volume candle is red for XBIO
+2025-10-08 12:53:03,828 - root - INFO - swing_strategy_open_long for scale 5Min stock NXL
+2025-10-08 12:53:03,836 - root - INFO - Time since last close for NXL is 3.4306004833333335 minutes, net percent -0.253839
+2025-10-08 12:53:03,887 - root - INFO - Last 5 minutes maximum volume candle is green for NXL
+2025-10-08 12:53:03,904 - root - INFO - 1min candle is not positive for NXL: open 1.59 close 1.5997
+2025-10-08 12:53:03,904 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 12:53:03,913 - root - INFO - Time since last close for ACXP is 362.2652154 minutes, net percent 11.5238
+2025-10-08 12:53:03,949 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
+2025-10-08 12:53:03,992 - root - INFO - Trend up basic conditions not met for ACXP: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 12:53:03,992 - root - INFO - swing_strategy_open_long for scale 5Min stock GTBP
+2025-10-08 12:53:03,998 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:53:03,998 - root - INFO - Time since last close for GTBP is None minutes, net percent 0
+2025-10-08 12:53:04,114 - root - INFO - Last 5 minutes maximum volume candle is green for GTBP
+2025-10-08 12:53:04,122 - root - INFO - 9 EMA is in downtrend, not opening long position for GTBP
+2025-10-08 12:53:04,122 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
+2025-10-08 12:53:04,127 - root - INFO - Time since last close for ABVE is 6.368784883333333 minutes, net percent -1.0145
+2025-10-08 12:53:04,257 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
+2025-10-08 12:53:04,265 - root - INFO - 1min candle is not positive for ABVE: open 4.9888 close 4.96
+2025-10-08 12:53:04,330 - root - INFO - swing_strategy_close_long for scale 5Min stock ABVE
+2025-10-08 12:53:04,434 - root - INFO -  update_current_price: start time 2025-10-08T12:48:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:53:04,462 - root - INFO - Profit percent for ABVE is -0.196823
+2025-10-08 12:53:04,462 - root - INFO - Latest 1min close price for ABVE: 4.96
+2025-10-08 12:53:04,539 - root - INFO - MACD is still rising for stock ABVE
+2025-10-08 12:53:04,539 - root - INFO - Not enough profit percent to scalp for ABVE: -0.196823
+2025-10-08 12:53:05,992 - root - INFO -  update_current_price: start time 2025-10-08T12:48:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:53:06,536 - root - INFO -  MACD calculation for MRSN due to high change percent: 11.1809
+2025-10-08 12:53:06,699 - root - INFO -  MACD calculation for MRX due to high change percent: 11.6147
+2025-10-08 12:53:06,755 - root - INFO - MACD not positive for MRX
+2025-10-08 12:53:07,909 - root - INFO -  MACD calculation for MYO due to high change percent: 17.1429
+2025-10-08 12:53:07,967 - root - INFO - MACD not positive for MYO
+2025-10-08 12:53:08,318 - root - INFO -  MACD calculation for NAOV due to high change percent: 14.8693
+2025-10-08 12:53:08,483 - root - INFO -  update_current_price: start time 2025-10-08T12:48:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:53:09,363 - root - INFO -  MACD calculation for NERV due to high change percent: 34.4083
+2025-10-08 12:53:09,403 - root - INFO - MACD not positive for NERV
+2025-10-08 12:53:10,615 - root - INFO -  MACD calculation for NMG due to high change percent: 14.5631
+2025-10-08 12:53:10,945 - root - INFO -  update_current_price: start time 2025-10-08T12:48:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:53:11,501 - root - INFO -  MACD calculation for NPWR due to high change percent: 23.5043
+2025-10-08 12:53:11,959 - root - INFO -  MACD calculation for NTLA due to high change percent: 27.5881
+2025-10-08 12:53:12,025 - root - INFO - MACD not positive for NTLA
+2025-10-08 12:53:13,229 - root - INFO -  MACD calculation for NXL due to high change percent: 71.6052
+2025-10-08 12:53:13,296 - root - INFO -  update_current_price: start time 2025-10-08T12:48:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:53:15,103 - root - INFO -  MACD calculation for ONFO due to high change percent: 18.6916
+2025-10-08 12:53:15,143 - root - INFO - MACD not positive for ONFO
+2025-10-08 12:53:15,828 - root - INFO -  update_current_price: start time 2025-10-08T12:48:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:53:17,167 - root - INFO -  MACD calculation for PALI due to high change percent: 20.1667
+2025-10-08 12:53:17,886 - root - INFO -  update_current_price: start time 2025-10-08T12:48:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:53:19,559 - root - INFO -  MACD calculation for PLG due to high change percent: 14.0215
+2025-10-08 12:53:19,589 - root - INFO - Real mode: Today's profit so far: 796.4599750000016
+2025-10-08 12:53:19,611 - root - INFO - Running real_trade for all top movers
+2025-10-08 12:53:19,623 - root - INFO - MACD not positive for PLG
+2025-10-08 12:53:19,653 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
+2025-10-08 12:53:19,663 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:53:19,663 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
+2025-10-08 12:53:19,672 - root - INFO -  MACD calculation for PLRZ due to high change percent: 12.7273
+2025-10-08 12:53:19,708 - root - INFO - MACD not positive for PLRZ
+2025-10-08 12:53:19,720 - root - INFO - Last 5 minutes maximum volume candle is red for XBIO
+2025-10-08 12:53:19,721 - root - INFO - swing_strategy_open_long for scale 5Min stock NXL
+2025-10-08 12:53:19,732 - root - INFO - Time since last close for NXL is 3.6955320499999997 minutes, net percent -0.253839
+2025-10-08 12:53:19,779 - root - INFO - Last 5 minutes maximum volume candle is green for NXL
+2025-10-08 12:53:19,796 - root - INFO - 1min candle is not positive for NXL: open 1.59 close 1.5997
+2025-10-08 12:53:19,797 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 12:53:19,805 - root - INFO - Time since last close for ACXP is 362.53008324999996 minutes, net percent 11.5238
+2025-10-08 12:53:19,839 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
+2025-10-08 12:53:19,887 - root - INFO - Trend up basic conditions not met for ACXP: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 12:53:19,888 - root - INFO - swing_strategy_open_long for scale 5Min stock GTBP
+2025-10-08 12:53:19,894 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:53:19,894 - root - INFO - Time since last close for GTBP is None minutes, net percent 0
+2025-10-08 12:53:19,954 - root - INFO - Last 5 minutes maximum volume candle is green for GTBP
+2025-10-08 12:53:19,970 - root - INFO - 9 EMA is in downtrend, not opening long position for GTBP
+2025-10-08 12:53:19,970 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
+2025-10-08 12:53:19,977 - root - INFO - Time since last close for ABVE is 6.632960233333334 minutes, net percent -1.0145
+2025-10-08 12:53:19,991 - root - INFO -  update_current_price: start time 2025-10-08T12:48:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:53:20,111 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
+2025-10-08 12:53:20,133 - root - INFO - 1min candle is not positive for ABVE: open 4.9888 close 4.96
+2025-10-08 12:53:20,204 - root - INFO - swing_strategy_close_long for scale 5Min stock ABVE
+2025-10-08 12:53:20,365 - root - INFO - Profit percent for ABVE is -1.16286
+2025-10-08 12:53:20,365 - root - INFO - Latest 1min close price for ABVE: 4.96
+2025-10-08 12:53:20,371 - root - INFO -  MACD calculation for PRME due to high change percent: 10.6474
+2025-10-08 12:53:20,442 - root - INFO - MACD not positive for PRME
+2025-10-08 12:53:20,458 - root - INFO - MACD is still rising for stock ABVE
+2025-10-08 12:53:20,458 - root - INFO - Not enough profit percent to scalp for ABVE: -1.16286
+2025-10-08 12:53:20,594 - root - INFO -  MACD calculation for PROK due to high change percent: 13.7838
+2025-10-08 12:53:22,043 - root - INFO -  MACD calculation for QH due to high change percent: 10.1719
+2025-10-08 12:53:22,097 - root - INFO - MACD not positive for QH
+2025-10-08 12:53:22,467 - root - INFO -  update_current_price: start time 2025-10-08T12:48:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:53:22,752 - root - INFO -  MACD calculation for QTTB due to high change percent: 14.6825
+2025-10-08 12:53:22,796 - root - INFO - MACD not positive for QTTB
+2025-10-08 12:53:24,592 - root - INFO -  MACD calculation for REVB due to high change percent: 10.2671
+2025-10-08 12:53:24,851 - root - INFO -  MACD calculation for RGNX due to high change percent: 14.843
+2025-10-08 12:53:24,905 - root - INFO - MACD not positive for RGNX
+2025-10-08 12:53:24,905 - root - INFO -  update_current_price: start time 2025-10-08T12:48:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:53:25,120 - root - INFO -  MACD calculation for RILY due to high change percent: 10.9777
+2025-10-08 12:53:27,316 - root - INFO -  MACD calculation for RXRX due to high change percent: 15.392
+2025-10-08 12:53:27,450 - root - INFO - MACD not positive for RXRX
+2025-10-08 12:53:27,807 - root - INFO -  update_current_price: start time 2025-10-08T12:48:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:53:28,194 - root - INFO -  MACD calculation for SANA due to high change percent: 14.199
+2025-10-08 12:53:28,442 - root - INFO -  MACD calculation for SAVA due to high change percent: 10.4094
+2025-10-08 12:53:28,496 - root - INFO - MACD not positive for SAVA
+2025-10-08 12:53:29,341 - root - INFO -  MACD calculation for SEM due to high change percent: 10.5445
+2025-10-08 12:53:29,402 - root - INFO - MACD not positive for SEM
+2025-10-08 12:53:30,264 - root - INFO -  update_current_price: start time 2025-10-08T12:48:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:53:31,043 - root - INFO -  MACD calculation for SIDU due to high change percent: 11.25
+2025-10-08 12:53:31,107 - root - INFO - MACD not positive for SIDU
+2025-10-08 12:53:31,523 - root - INFO -  MACD calculation for SLDB due to high change percent: 21.3768
+2025-10-08 12:53:31,581 - root - INFO - MACD not positive for SLDB
+2025-10-08 12:53:31,824 - root - INFO -  MACD calculation for SLNH due to high change percent: 19.7044
+2025-10-08 12:53:33,099 - root - INFO -  MACD calculation for SNGX due to high change percent: 12.1951
+2025-10-08 12:53:33,161 - root - INFO - MACD not positive for SNGX
+2025-10-08 12:53:33,226 - root - INFO -  update_current_price: start time 2025-10-08T12:48:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:53:34,098 - root - INFO -  MACD calculation for SOUNW due to high change percent: 13.1391
+2025-10-08 12:53:35,509 - root - INFO - Real mode: Today's profit so far: 795.6999749999995
+2025-10-08 12:53:35,531 - root - INFO - Running real_trade for all top movers
+2025-10-08 12:53:35,571 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
+2025-10-08 12:53:35,579 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:53:35,579 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
+2025-10-08 12:53:35,630 - root - INFO - Last 5 minutes maximum volume candle is red for XBIO
+2025-10-08 12:53:35,630 - root - INFO - swing_strategy_open_long for scale 5Min stock NXL
+2025-10-08 12:53:35,638 - root - INFO - Time since last close for NXL is 3.9606419833333333 minutes, net percent -0.253839
+2025-10-08 12:53:35,684 - root - INFO -  MACD calculation for STOK due to high change percent: 15.3241
+2025-10-08 12:53:35,690 - root - INFO - Last 5 minutes maximum volume candle is green for NXL
+2025-10-08 12:53:35,709 - root - INFO - 1min candle is not positive for NXL: open 1.59 close 1.5997
+2025-10-08 12:53:35,709 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 12:53:35,719 - root - INFO - Time since last close for ACXP is 362.79531810000003 minutes, net percent 11.5238
+2025-10-08 12:53:35,744 - root - INFO -  update_current_price: start time 2025-10-08T12:48:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:53:35,758 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
+2025-10-08 12:53:35,809 - root - INFO - Trend up basic conditions not met for ACXP: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 12:53:35,809 - root - INFO - swing_strategy_open_long for scale 5Min stock GTBP
+2025-10-08 12:53:35,818 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:53:35,819 - root - INFO - Time since last close for GTBP is None minutes, net percent 0
+2025-10-08 12:53:35,881 - root - INFO - Last 5 minutes maximum volume candle is green for GTBP
+2025-10-08 12:53:35,898 - root - INFO - 9 EMA is in downtrend, not opening long position for GTBP
+2025-10-08 12:53:35,899 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
+2025-10-08 12:53:35,907 - root - INFO - Time since last close for ABVE is 6.8984577 minutes, net percent -1.0145
+2025-10-08 12:53:36,061 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
+2025-10-08 12:53:36,076 - root - INFO - 1min candle is not positive for ABVE: open 4.9888 close 4.96
+2025-10-08 12:53:36,155 - root - INFO - swing_strategy_close_long for scale 5Min stock ABVE
+2025-10-08 12:53:36,301 - root - INFO - Profit percent for ABVE is -0.684863
+2025-10-08 12:53:36,302 - root - INFO - Latest 1min close price for ABVE: 4.96
+2025-10-08 12:53:36,380 - root - INFO - MACD is still rising for stock ABVE
+2025-10-08 12:53:36,380 - root - INFO - Not enough profit percent to scalp for ABVE: -0.684863
+2025-10-08 12:53:37,279 - root - INFO -  update_current_price: start time 2025-10-08T12:48:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:53:37,948 - root - INFO -  MACD calculation for THM due to high change percent: 12.7968
+2025-10-08 12:53:37,997 - root - INFO - MACD not positive for THM
+2025-10-08 12:53:39,564 - root - INFO -  MACD calculation for TRON due to high change percent: 19.5876
+2025-10-08 12:53:39,621 - root - INFO - MACD not positive for TRON
+2025-10-08 12:53:39,733 - root - INFO -  update_current_price: start time 2025-10-08T12:48:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:53:39,887 - root - INFO -  MACD calculation for TRX due to high change percent: 28.3913
+2025-10-08 12:53:42,063 - root - INFO -  MACD calculation for UPC due to high change percent: 52.8046
+2025-10-08 12:53:42,107 - root - INFO - MACD not positive for UPC
+2025-10-08 12:53:42,490 - root - INFO -  update_current_price: start time 2025-10-08T12:48:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:53:43,578 - root - INFO -  MACD calculation for VERO due to high change percent: 10.7595
+2025-10-08 12:53:43,900 - root - INFO -  MACD calculation for VFF due to high change percent: 13.3686
+2025-10-08 12:53:45,174 - root - INFO -  update_current_price: start time 2025-10-08T12:48:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:53:46,990 - root - INFO -  MACD calculation for WBX due to high change percent: 13.7441
+2025-10-08 12:53:47,024 - root - INFO - MACD not positive for WBX
+2025-10-08 12:53:48,706 - root - INFO -  update_current_price: start time 2025-10-08T12:48:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:53:49,657 - root - INFO -  MACD calculation for XBIO due to high change percent: 126.107
+2025-10-08 12:53:50,799 - root - INFO - FIND stocks Change percent for XTLB: 45.7143
+2025-10-08 12:53:50,799 - root - INFO - XTLB change_percent from DB: 45.7143
+2025-10-08 12:53:50,812 - root - INFO -  MACD calculation for XTLB due to high change percent: 45.7143
+2025-10-08 12:53:50,846 - root - INFO - MACD not positive for XTLB
+2025-10-08 12:53:50,955 - root - INFO -  MACD calculation for YAAS due to high change percent: 10.9455
+2025-10-08 12:53:51,011 - root - INFO - MACD not positive for YAAS
+2025-10-08 12:53:51,426 - root - INFO - Real mode: Today's profit so far: 791.0599750000001
+2025-10-08 12:53:51,449 - root - INFO - Running real_trade for all top movers
+2025-10-08 12:53:51,493 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
+2025-10-08 12:53:51,500 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:53:51,500 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
+2025-10-08 12:53:51,530 - root - INFO -  MACD calculation for YTRA due to high change percent: 14.557
+2025-10-08 12:53:51,563 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
+2025-10-08 12:53:51,579 - root - INFO - MACD not positive for YTRA
+2025-10-08 12:53:51,619 - root - INFO -  MACD calculation for ZBIO due to high change percent: 10.6475
+2025-10-08 12:53:51,638 - root - INFO - Trend up basic conditions not met for XBIO: price_above_emas=False, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 12:53:51,638 - root - INFO - swing_strategy_open_long for scale 5Min stock NXL
+2025-10-08 12:53:51,648 - root - INFO - Time since last close for NXL is 4.227474666666667 minutes, net percent -0.253839
+2025-10-08 12:53:51,695 - root - INFO - Last 5 minutes maximum volume candle is green for NXL
+2025-10-08 12:53:51,715 - root - INFO - 9 EMA is in downtrend, not opening long position for NXL
+2025-10-08 12:53:51,715 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 12:53:51,724 - root - INFO - Time since last close for ACXP is 363.0620785 minutes, net percent 11.5238
+2025-10-08 12:53:51,762 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
+2025-10-08 12:53:51,777 - root - INFO - 1min candle is not positive for ACXP: open 7.05 close 7.06
+2025-10-08 12:53:51,778 - root - INFO - swing_strategy_open_long for scale 5Min stock GTBP
+2025-10-08 12:53:51,784 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:53:51,784 - root - INFO - Time since last close for GTBP is None minutes, net percent 0
+2025-10-08 12:53:51,841 - root - INFO -  update_current_price: start time 2025-10-08T12:48:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 12:53:51,845 - root - INFO - Last 5 minutes maximum volume candle is green for GTBP
+2025-10-08 12:53:51,890 - root - INFO - MACD has been up for last 10 candles for GTBP, not opening long position
+2025-10-08 12:53:51,890 - root - INFO - Trend up basic conditions not met for GTBP: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-08 12:53:51,890 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
+2025-10-08 12:53:51,898 - root - INFO - Time since last close for ABVE is 7.164973316666666 minutes, net percent -1.0145
+2025-10-08 12:53:52,050 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
+2025-10-08 12:53:52,062 - root - INFO - 1min candle is not positive for ABVE: open 4.965 close 4.9301
+2025-10-08 12:53:52,130 - root - INFO - swing_strategy_close_long for scale 5Min stock ABVE
+2025-10-08 12:53:52,266 - root - INFO - Profit percent for ABVE is -1.18696
+2025-10-08 12:53:52,266 - root - INFO - Latest 1min close price for ABVE: 4.9301
+2025-10-08 12:53:52,340 - root - INFO - Updating change percent of stocks
+2025-10-08 12:53:52,376 - root - INFO - MACD is still rising for stock ABVE
+2025-10-08 12:53:52,376 - root - INFO - Not enough profit percent to scalp for ABVE: -1.18696
+2025-10-08 12:53:53,120 - root - INFO - XTLB change_percent from DB: 45.73571428571428
+2025-10-08 12:53:53,131 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-08 12:54:07,422 - root - INFO - Real mode: Today's profit so far: 789.4599750000016
+2025-10-08 12:54:07,443 - root - INFO - Running real_trade for all top movers
+2025-10-08 12:54:07,492 - root - INFO - swing_strategy_open_long for scale 5Min stock XBIO
+2025-10-08 12:54:07,502 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:54:07,502 - root - INFO - Time since last close for XBIO is None minutes, net percent 0
+2025-10-08 12:54:07,552 - root - INFO - Last 5 minutes maximum volume candle is green for XBIO
+2025-10-08 12:54:07,621 - root - INFO - Trend up basic conditions not met for XBIO: price_above_emas=False, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 12:54:07,622 - root - INFO - swing_strategy_open_long for scale 5Min stock NXL
+2025-10-08 12:54:07,632 - root - INFO - Time since last close for NXL is 4.493870833333333 minutes, net percent -0.253839
+2025-10-08 12:54:07,696 - root - INFO - Last 5 minutes maximum volume candle is green for NXL
+2025-10-08 12:54:07,723 - root - INFO - 9 EMA is in downtrend, not opening long position for NXL
+2025-10-08 12:54:07,724 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 12:54:07,737 - root - INFO - Time since last close for ACXP is 363.3289624833333 minutes, net percent 11.5238
+2025-10-08 12:54:07,775 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
+2025-10-08 12:54:07,798 - root - INFO - 1min candle is not positive for ACXP: open 7.05 close 7.06
+2025-10-08 12:54:07,799 - root - INFO - swing_strategy_open_long for scale 5Min stock GTBP
+2025-10-08 12:54:07,813 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 12:54:07,813 - root - INFO - Time since last close for GTBP is None minutes, net percent 0
+2025-10-08 12:54:07,888 - root - INFO - Last 5 minutes maximum volume candle is green for GTBP
+2025-10-08 12:54:07,954 - root - INFO - MACD has been up for last 10 candles for GTBP, not opening long position
+2025-10-08 12:54:07,954 - root - INFO - Trend up basic conditions not met for GTBP: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-08 12:54:07,955 - root - INFO - swing_strategy_open_long for scale 5Min stock ABVE
+2025-10-08 12:54:07,969 - root - INFO - Time since last close for ABVE is 7.4328144499999995 minutes, net percent -1.0145
+2025-10-08 12:54:08,155 - root - INFO - Last 5 minutes maximum volume candle is green for ABVE
+2025-10-08 12:54:08,182 - root - INFO - 1min candle is not positive for ABVE: open 4.965 close 4.9301
+2025-10-08 12:54:08,279 - root - INFO - swing_strategy_close_long for scale 5Min stock ABVE
+2025-10-08 12:54:08,477 - root - INFO - Profit percent for ABVE is -1.21106
+2025-10-08 12:54:08,479 - root - INFO - Latest 1min close price for ABVE: 4.9301
+2025-10-08 12:54:08,583 - root - INFO - MACD is still rising for stock ABVE
+2025-10-08 12:54:08,583 - root - INFO - Not enough profit percent to scalp for ABVE: -1.21106
