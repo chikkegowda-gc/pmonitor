@@ -2,11 +2,10 @@ Top Movers:
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  ACXP  |      0      |     0     |    64.4522     | 13400581 |     7.055     |        4.29        |  19450000.0  |  4.456   |  1061867   |      0      | 2025-10-08 10:10:01 |
-|  XTLB  |      0      |     0     |    50.6429     | 17496441 |     2.109     |        1.4         |  12230000.0  |  1.207   |  2303189   |      0      | 2025-10-08 10:11:52 |
-|  MSN   |      0      |     0     |    37.3646     |  908935  |     0.761     |       0.554        |  5800000.0   | 0.46032  |  1035240   |      0      | 2025-10-08 10:11:10 |
-|  BIAF  |      0      |     0     |    36.1061     | 18738191 |     3.3346    |        2.45        |  11040000.0  |   2.66   |   914437   |      0      | 2025-10-08 10:10:14 |
-|  KYTX  |      0      |     0     |     31.976     | 1067231  |     7.1399    |        5.41        |  19630000.0  |  5.774   |   372459   |      0      | 2025-10-08 10:11:04 |
+|  ACXP  |      0      |     0     |    62.0256     | 13553844 |     6.9509    |        4.29        |  19450000.0  |  4.456   |  1061867   |      0      | 2025-10-08 10:15:47 |
+|  UPC   |      0      |     0     |    59.7679     | 11622525 |      8.26     |        5.17        |   210000.0   |  4.702   |   220771   |      0      | 2025-10-08 10:17:27 |
+|  XTLB  |      0      |     0     |    45.0071     | 17592292 |     2.0301    |        1.4         |  12230000.0  |  1.207   |  2303189   |      0      | 2025-10-08 10:17:34 |
+|  MSN   |      0      |     0     |    36.5343     |  978219  |     0.7564    |       0.554        |  5800000.0   | 0.46032  |  1035240   |      0      | 2025-10-08 10:16:50 |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -20,403 +19,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-08 10:08:55,008 - root - INFO -  MACD calculation for XTLB due to high change percent: 48.5714
-2025-10-08 10:08:56,080 - root - INFO -  update_current_price: start time 2025-10-08T10:03:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:08:57,134 - root - INFO - Updating change percent of stocks
-2025-10-08 10:08:58,989 - root - INFO - XTLB change_percent from DB: 44.99999999999999
-2025-10-08 10:08:59,015 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-08 10:09:03,442 - root - INFO - Real mode: Today's profit so far: 522.3099750000001
-2025-10-08 10:09:03,445 - root - INFO - Exclude tickers list: ['ALFIQ', 'NBIS', 'RDDT', 'TSLL', 'INTW', 'RGTI', 'MSTR', 'SOXl', 'SOXS']
-2025-10-08 10:09:03,486 - root - INFO - Running real_trade for all top movers
-2025-10-08 10:09:03,535 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 10:09:03,548 - root - INFO - Time since last close for ACXP is 198.25912664999998 minutes, net percent 11.5238
-2025-10-08 10:09:03,598 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
-2025-10-08 10:09:03,654 - root - INFO - Trend up basic conditions not met for ACXP: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-08 10:09:03,655 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 10:09:03,670 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 10:09:03,670 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 10:09:03,718 - root - INFO - Last 5 minutes maximum volume candle is red for XTLB
-2025-10-08 10:09:03,719 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
-2025-10-08 10:09:03,730 - root - INFO - Time since last close for BIAF is 19.56216166666667 minutes, net percent -9.30556
-2025-10-08 10:09:03,815 - root - INFO - Last 5 minutes maximum volume candle is red for BIAF
-2025-10-08 10:09:03,817 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
-2025-10-08 10:09:03,829 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 10:09:03,829 - root - INFO - Time since last close for MSN is None minutes, net percent 0
-2025-10-08 10:09:03,869 - root - INFO - Last 5 minutes maximum volume candle is green for MSN
-2025-10-08 10:09:03,936 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-08 10:09:03,937 - root - INFO - MSN:======= 0.76===>BUY========>TrendUp683100
-2025-10-08 10:09:04,054 - root - CRITICAL - MSN  2670 buy
-2025-10-08 10:09:04,118 - root - INFO - Placed BUY order for MSN, qty: 2670, price: 0.749, success: True
-2025-10-08 10:09:04,119 - root - INFO - Trade successfully COMPLETED for MSN
-2025-10-08 10:09:04,328 - root - INFO - swing_strategy_close_long for scale 5Min stock BIAF
-2025-10-08 10:09:04,484 - root - INFO - Profit percent for BIAF is -2.91756
-2025-10-08 10:09:04,485 - root - INFO - Latest 1min close price for BIAF: 3.3011
-2025-10-08 10:09:04,581 - root - INFO - No close long conditions met for BIAF
-2025-10-08 10:09:04,608 - root - INFO - swing_strategy_close_long for scale 5Min stock MSN
-2025-10-08 10:09:04,676 - root - INFO - Profit percent for MSN is 0
-2025-10-08 10:09:04,677 - root - INFO - Latest 1min close price for MSN: 0.76
-2025-10-08 10:09:04,700 - root - INFO - High price DETECTED for MSN is 0.0 and setting no_scalp to True
-2025-10-08 10:09:19,744 - root - INFO - Real mode: Today's profit so far: 516.3799749999998
-2025-10-08 10:09:19,745 - root - INFO - Exclude tickers list: ['ALFIQ', 'NBIS', 'RDDT', 'TSLL', 'INTW', 'RGTI', 'MSTR', 'SOXl', 'SOXS']
-2025-10-08 10:09:19,777 - root - INFO - Running real_trade for all top movers
-2025-10-08 10:09:19,820 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 10:09:19,875 - root - INFO - Time since last close for ACXP is 198.53125213333334 minutes, net percent 11.5238
-2025-10-08 10:09:19,944 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
-2025-10-08 10:09:20,030 - root - INFO - Trend up basic conditions not met for ACXP: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-08 10:09:20,031 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 10:09:20,041 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 10:09:20,042 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 10:09:20,083 - root - INFO - Last 5 minutes maximum volume candle is red for XTLB
-2025-10-08 10:09:20,086 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
-2025-10-08 10:09:20,096 - root - INFO - Time since last close for BIAF is 19.834937316666664 minutes, net percent -9.30556
-2025-10-08 10:09:20,201 - root - INFO - Last 5 minutes maximum volume candle is red for BIAF
-2025-10-08 10:09:20,203 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
-2025-10-08 10:09:20,213 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 10:09:20,214 - root - INFO - Time since last close for MSN is None minutes, net percent 0
-2025-10-08 10:09:20,250 - root - INFO - Last 5 minutes maximum volume candle is green for MSN
-2025-10-08 10:09:20,305 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-08 10:09:20,305 - root - INFO - MSN:======= 0.76===>BUY========>TrendUp683100
-2025-10-08 10:09:20,335 - root - WARNING - ***** stock is already in the positions
-2025-10-08 10:09:20,443 - root - INFO - swing_strategy_close_long for scale 5Min stock BIAF
-2025-10-08 10:09:20,542 - root - INFO - Profit percent for BIAF is -3.00285
-2025-10-08 10:09:20,542 - root - INFO - Latest 1min close price for BIAF: 3.3011
-2025-10-08 10:09:20,634 - root - INFO - No close long conditions met for BIAF
-2025-10-08 10:09:20,661 - root - INFO - swing_strategy_close_long for scale 5Min stock MSN
-2025-10-08 10:09:20,747 - root - INFO - Profit percent for MSN is -0.0133511
-2025-10-08 10:09:20,748 - root - INFO - Latest 1min close price for MSN: 0.76
-2025-10-08 10:09:20,832 - root - INFO - MACD is still rising for stock MSN
-2025-10-08 10:09:20,832 - root - INFO - Not enough profit percent to scalp for MSN: -0.0133511
-2025-10-08 10:09:35,896 - root - INFO - Real mode: Today's profit so far: 491.63997499999823
-2025-10-08 10:09:35,898 - root - INFO - Exclude tickers list: ['ALFIQ', 'NBIS', 'RDDT', 'TSLL', 'INTW', 'RGTI', 'MSTR', 'SOXl', 'SOXS']
-2025-10-08 10:09:35,922 - root - INFO - Running real_trade for all top movers
-2025-10-08 10:09:35,966 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 10:09:35,979 - root - INFO - Time since last close for ACXP is 198.79965118333334 minutes, net percent 11.5238
-2025-10-08 10:09:36,036 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
-2025-10-08 10:09:36,118 - root - INFO - Trend up basic conditions not met for ACXP: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-08 10:09:36,119 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 10:09:36,129 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 10:09:36,129 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 10:09:36,171 - root - INFO - Last 5 minutes maximum volume candle is red for XTLB
-2025-10-08 10:09:36,173 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
-2025-10-08 10:09:36,185 - root - INFO - Time since last close for BIAF is 20.1030854 minutes, net percent -9.30556
-2025-10-08 10:09:36,275 - root - INFO - Last 5 minutes maximum volume candle is red for BIAF
-2025-10-08 10:09:36,276 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
-2025-10-08 10:09:36,288 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 10:09:36,288 - root - INFO - Time since last close for MSN is None minutes, net percent 0
-2025-10-08 10:09:36,352 - root - INFO - Last 5 minutes maximum volume candle is green for MSN
-2025-10-08 10:09:36,415 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-08 10:09:36,415 - root - INFO - MSN:======= 0.76===>BUY========>TrendUp683100
-2025-10-08 10:09:36,441 - root - WARNING - ***** stock is already in the positions
-2025-10-08 10:09:36,548 - root - INFO - swing_strategy_close_long for scale 5Min stock BIAF
-2025-10-08 10:09:36,652 - root - INFO - Profit percent for BIAF is -2.64992
-2025-10-08 10:09:36,653 - root - INFO - Latest 1min close price for BIAF: 3.3011
-2025-10-08 10:09:36,783 - root - INFO - No close long conditions met for BIAF
-2025-10-08 10:09:36,808 - root - INFO - swing_strategy_close_long for scale 5Min stock MSN
-2025-10-08 10:09:36,861 - root - INFO - Profit percent for MSN is -0.600801
-2025-10-08 10:09:36,862 - root - INFO - Latest 1min close price for MSN: 0.76
-2025-10-08 10:09:36,964 - root - INFO - MACD is still rising for stock MSN
-2025-10-08 10:09:36,964 - root - INFO - Not enough profit percent to scalp for MSN: -0.600801
-2025-10-08 10:09:52,014 - root - INFO - Real mode: Today's profit so far: 466.9799749999984
-2025-10-08 10:09:52,015 - root - INFO - Exclude tickers list: ['ALFIQ', 'NBIS', 'RDDT', 'TSLL', 'INTW', 'RGTI', 'MSTR', 'SOXl', 'SOXS']
-2025-10-08 10:09:52,034 - root - INFO - Running real_trade for all top movers
-2025-10-08 10:09:52,085 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 10:09:52,094 - root - INFO - Time since last close for ACXP is 199.06824014999998 minutes, net percent 11.5238
-2025-10-08 10:09:52,154 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
-2025-10-08 10:09:52,174 - root - INFO - 1min candle is not positive for ACXP: open 7.3431 close 7.055
-2025-10-08 10:09:52,175 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 10:09:52,185 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 10:09:52,186 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 10:09:52,217 - root - INFO - Last 5 minutes maximum volume candle is red for XTLB
-2025-10-08 10:09:52,218 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
-2025-10-08 10:09:52,227 - root - INFO - Time since last close for BIAF is 20.370461483333333 minutes, net percent -9.30556
-2025-10-08 10:09:52,316 - root - INFO - Last 5 minutes maximum volume candle is red for BIAF
-2025-10-08 10:09:52,317 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
-2025-10-08 10:09:52,327 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 10:09:52,328 - root - INFO - Time since last close for MSN is None minutes, net percent 0
-2025-10-08 10:09:52,375 - root - INFO - Last 5 minutes maximum volume candle is green for MSN
-2025-10-08 10:09:52,396 - root - INFO - 1min candle is not positive for MSN: open 0.7551 close 0.7265
-2025-10-08 10:09:52,488 - root - INFO - swing_strategy_close_long for scale 5Min stock BIAF
-2025-10-08 10:09:52,571 - root - INFO - Profit percent for BIAF is -2.35581
-2025-10-08 10:09:52,572 - root - INFO - Latest 1min close price for BIAF: 3.3346
-2025-10-08 10:09:52,660 - root - INFO - No close long conditions met for BIAF
-2025-10-08 10:09:52,689 - root - INFO - swing_strategy_close_long for scale 5Min stock MSN
-2025-10-08 10:09:52,740 - root - INFO - Profit percent for MSN is -2.12283
-2025-10-08 10:09:52,741 - root - INFO - Latest 1min close price for MSN: 0.7265
-2025-10-08 10:09:52,832 - root - INFO - No close long conditions met for MSN
-2025-10-08 10:09:59,090 - root - INFO - Real mode: Today's profit so far: 498.4799749999984
-2025-10-08 10:09:59,112 - root - INFO - ('2025-10-08T19:40:00-04:00', '2025-10-08T19:40:00-04:00', '2025-10-01T09:30:00-04:00', '2025-10-08T19:40:00-04:00')
-2025-10-08 10:09:59,112 - root - INFO - Screening stocks | Start: 2025-10-01T09:30:00-04:00 | End: 2025-10-08T19:40:00-04:00
-2025-10-08 10:09:59,150 - root - INFO -  update_current_price: start time 2025-10-08T10:04:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:09:59,951 - root - INFO -  MACD calculation for ABVE due to high change percent: 10.0287
-2025-10-08 10:10:01,251 - root - INFO -  MACD calculation for ACXP due to high change percent: 72.028
-2025-10-08 10:10:02,381 - root - INFO -  MACD calculation for AEI due to high change percent: 11.1111
-2025-10-08 10:10:02,903 - root - INFO -  update_current_price: start time 2025-10-08T10:05:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:10:05,416 - root - INFO -  update_current_price: start time 2025-10-08T10:05:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:10:07,712 - root - INFO -  MACD calculation for ARBE due to high change percent: 18.3362
-2025-10-08 10:10:07,879 - root - INFO - Real mode: Today's profit so far: 529.7999750000017
-2025-10-08 10:10:07,879 - root - INFO - Exclude tickers list: ['ALFIQ', 'NBIS', 'RDDT', 'TSLL', 'INTW', 'RGTI', 'MSTR', 'SOXl', 'SOXS']
-2025-10-08 10:10:07,899 - root - INFO - Running real_trade for all top movers
-2025-10-08 10:10:07,939 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 10:10:07,948 - root - INFO - Time since last close for ACXP is 199.33247278333334 minutes, net percent 11.5238
-2025-10-08 10:10:07,997 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
-2025-10-08 10:10:08,013 - root - INFO - 1min candle is not positive for ACXP: open 7.3431 close 7.055
-2025-10-08 10:10:08,013 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 10:10:08,020 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 10:10:08,020 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 10:10:08,051 - root - INFO - Last 5 minutes maximum volume candle is red for XTLB
-2025-10-08 10:10:08,051 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
-2025-10-08 10:10:08,058 - root - INFO - Time since last close for BIAF is 20.634312766666667 minutes, net percent -9.30556
-2025-10-08 10:10:08,133 - root - INFO - Last 5 minutes maximum volume candle is red for BIAF
-2025-10-08 10:10:08,135 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
-2025-10-08 10:10:08,143 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 10:10:08,143 - root - INFO - Time since last close for MSN is None minutes, net percent 0
-2025-10-08 10:10:08,176 - root - INFO - Last 5 minutes maximum volume candle is green for MSN
-2025-10-08 10:10:08,192 - root - INFO - 1min candle is not positive for MSN: open 0.7551 close 0.7265
-2025-10-08 10:10:08,273 - root - INFO - swing_strategy_close_long for scale 5Min stock BIAF
-2025-10-08 10:10:08,357 - root - INFO - Profit percent for BIAF is -2.64992
-2025-10-08 10:10:08,358 - root - INFO - Latest 1min close price for BIAF: 3.3346
-2025-10-08 10:10:08,434 - root - INFO - No close long conditions met for BIAF
-2025-10-08 10:10:08,450 - root - INFO - swing_strategy_close_long for scale 5Min stock MSN
-2025-10-08 10:10:08,473 - root - INFO -  update_current_price: start time 2025-10-08T10:05:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:10:08,491 - root - INFO - Profit percent for MSN is -1.2016
-2025-10-08 10:10:08,491 - root - INFO - Latest 1min close price for MSN: 0.7265
-2025-10-08 10:10:08,558 - root - INFO - No close long conditions met for MSN
-2025-10-08 10:10:10,445 - root - INFO -  update_current_price: start time 2025-10-08T10:05:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:10:13,053 - root - INFO -  update_current_price: start time 2025-10-08T10:05:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:10:13,624 - root - INFO -  MACD calculation for BIAF due to high change percent: 36.3306
-2025-10-08 10:10:15,124 - root - INFO -  MACD calculation for BQ due to high change percent: 18.6147
-2025-10-08 10:10:15,290 - root - INFO -  update_current_price: start time 2025-10-08T10:05:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:10:17,874 - root - INFO -  update_current_price: start time 2025-10-08T10:05:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:10:18,726 - root - INFO -  MACD calculation for CCTG due to high change percent: 18.0556
-2025-10-08 10:10:18,781 - root - INFO - MACD not positive for CCTG
-2025-10-08 10:10:19,452 - root - INFO -  MACD calculation for CETY due to high change percent: 12.7049
-2025-10-08 10:10:19,693 - root - INFO -  MACD calculation for CFLT due to high change percent: 11.2156
-2025-10-08 10:10:19,755 - root - INFO - MACD not positive for CFLT
-2025-10-08 10:10:20,221 - root - INFO -  update_current_price: start time 2025-10-08T10:05:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:10:21,282 - root - INFO -  MACD calculation for CLLS due to high change percent: 14.0052
-2025-10-08 10:10:21,313 - root - INFO - MACD not positive for CLLS
-2025-10-08 10:10:22,498 - root - INFO -  update_current_price: start time 2025-10-08T10:05:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:10:23,613 - root - INFO - Real mode: Today's profit so far: 558.8299750000006
-2025-10-08 10:10:23,613 - root - INFO - Exclude tickers list: ['ALFIQ', 'NBIS', 'RDDT', 'TSLL', 'INTW', 'RGTI', 'MSTR', 'SOXl', 'SOXS']
-2025-10-08 10:10:23,639 - root - INFO - Running real_trade for all top movers
-2025-10-08 10:10:23,685 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 10:10:23,695 - root - INFO - Time since last close for ACXP is 199.5949221 minutes, net percent 11.5238
-2025-10-08 10:10:23,741 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
-2025-10-08 10:10:23,756 - root - INFO - 1min candle is not positive for ACXP: open 7.3431 close 7.055
-2025-10-08 10:10:23,757 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 10:10:23,764 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 10:10:23,764 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 10:10:23,794 - root - INFO - Last 5 minutes maximum volume candle is red for XTLB
-2025-10-08 10:10:23,795 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
-2025-10-08 10:10:23,803 - root - INFO - Time since last close for BIAF is 20.896715500000003 minutes, net percent -9.30556
-2025-10-08 10:10:23,898 - root - INFO - Last 5 minutes maximum volume candle is red for BIAF
-2025-10-08 10:10:23,899 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
-2025-10-08 10:10:23,906 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 10:10:23,907 - root - INFO - Time since last close for MSN is None minutes, net percent 0
-2025-10-08 10:10:23,938 - root - INFO - Last 5 minutes maximum volume candle is green for MSN
-2025-10-08 10:10:23,953 - root - INFO - 1min candle is not positive for MSN: open 0.7551 close 0.7265
-2025-10-08 10:10:24,033 - root - INFO - swing_strategy_close_long for scale 5Min stock BIAF
-2025-10-08 10:10:24,137 - root - INFO - Profit percent for BIAF is -2.69992
-2025-10-08 10:10:24,138 - root - INFO - Latest 1min close price for BIAF: 3.3346
-2025-10-08 10:10:24,223 - root - INFO - No close long conditions met for BIAF
-2025-10-08 10:10:24,240 - root - INFO - swing_strategy_close_long for scale 5Min stock MSN
-2025-10-08 10:10:24,276 - root - INFO - Profit percent for MSN is 0.12016
-2025-10-08 10:10:24,277 - root - INFO - Latest 1min close price for MSN: 0.7265
-2025-10-08 10:10:24,280 - root - INFO -  MACD calculation for CRML due to high change percent: 18.0808
-2025-10-08 10:10:24,332 - root - INFO - No close long conditions met for MSN
-2025-10-08 10:10:24,338 - root - INFO - MACD not positive for CRML
-2025-10-08 10:10:24,863 - root - INFO -  update_current_price: start time 2025-10-08T10:05:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:10:32,134 - root - INFO -  MACD calculation for DBVT due to high change percent: 11.552
-2025-10-08 10:10:32,182 - root - INFO - MACD not positive for DBVT
-2025-10-08 10:10:32,450 - root - INFO -  MACD calculation for DDC due to high change percent: 10.2326
-2025-10-08 10:10:32,494 - root - INFO - MACD not positive for DDC
-2025-10-08 10:10:33,030 - root - INFO -  update_current_price: start time 2025-10-08T10:05:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:10:33,280 - root - INFO -  MACD calculation for DGNX due to high change percent: 18.3314
-2025-10-08 10:10:33,332 - root - INFO - MACD not positive for DGNX
-2025-10-08 10:10:33,977 - root - INFO -  MACD calculation for DNA due to high change percent: 15.1538
-2025-10-08 10:10:34,837 - root - INFO -  MACD calculation for DRMA due to high change percent: 10.0781
-2025-10-08 10:10:34,893 - root - INFO - MACD not positive for DRMA
-2025-10-08 10:10:35,668 - root - INFO -  update_current_price: start time 2025-10-08T10:05:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:10:37,611 - root - INFO -  MACD calculation for ELBM due to high change percent: 11.7073
-2025-10-08 10:10:38,154 - root - INFO -  update_current_price: start time 2025-10-08T10:05:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:10:38,964 - root - INFO -  MACD calculation for EOSEW due to high change percent: 14.0065
-2025-10-08 10:10:39,382 - root - INFO - Real mode: Today's profit so far: 554.5399749999997
-2025-10-08 10:10:39,382 - root - INFO - Exclude tickers list: ['ALFIQ', 'NBIS', 'RDDT', 'TSLL', 'INTW', 'RGTI', 'MSTR', 'SOXl', 'SOXS']
-2025-10-08 10:10:39,405 - root - INFO - Running real_trade for all top movers
-2025-10-08 10:10:39,444 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 10:10:39,453 - root - INFO - Time since last close for ACXP is 199.8575578 minutes, net percent 11.5238
-2025-10-08 10:10:39,510 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
-2025-10-08 10:10:39,526 - root - INFO - 1min candle is not positive for ACXP: open 7.3431 close 7.055
-2025-10-08 10:10:39,526 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 10:10:39,534 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 10:10:39,534 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 10:10:39,561 - root - INFO - Last 5 minutes maximum volume candle is red for XTLB
-2025-10-08 10:10:39,562 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
-2025-10-08 10:10:39,568 - root - INFO - Time since last close for BIAF is 21.159478850000003 minutes, net percent -9.30556
-2025-10-08 10:10:39,636 - root - INFO - Last 5 minutes maximum volume candle is red for BIAF
-2025-10-08 10:10:39,637 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
-2025-10-08 10:10:39,643 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 10:10:39,643 - root - INFO - Time since last close for MSN is None minutes, net percent 0
-2025-10-08 10:10:39,673 - root - INFO - Last 5 minutes maximum volume candle is green for MSN
-2025-10-08 10:10:39,686 - root - INFO - 1min candle is not positive for MSN: open 0.7551 close 0.7265
-2025-10-08 10:10:39,754 - root - INFO - swing_strategy_close_long for scale 5Min stock BIAF
-2025-10-08 10:10:39,913 - root - INFO - Profit percent for BIAF is -2.50287
-2025-10-08 10:10:39,913 - root - INFO - Latest 1min close price for BIAF: 3.3346
-2025-10-08 10:10:39,981 - root - INFO - No close long conditions met for BIAF
-2025-10-08 10:10:39,994 - root - INFO - swing_strategy_close_long for scale 5Min stock MSN
-2025-10-08 10:10:40,032 - root - INFO - Profit percent for MSN is 1.52203
-2025-10-08 10:10:40,032 - root - INFO - Latest 1min close price for MSN: 0.7265
-2025-10-08 10:10:40,049 - root - INFO -  MACD calculation for EVAX due to high change percent: 11.1888
-2025-10-08 10:10:40,086 - root - INFO - No close long conditions met for MSN
-2025-10-08 10:10:40,813 - root - INFO -  update_current_price: start time 2025-10-08T10:05:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:10:41,599 - root - INFO -  MACD calculation for FEAM due to high change percent: 13.5435
-2025-10-08 10:10:42,760 - root - INFO -  update_current_price: start time 2025-10-08T10:05:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:10:44,758 - root - INFO -  update_current_price: start time 2025-10-08T10:05:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:10:47,130 - root - INFO -  MACD calculation for GLDG due to high change percent: 10.5634
-2025-10-08 10:10:47,200 - root - INFO - MACD not positive for GLDG
-2025-10-08 10:10:47,777 - root - INFO -  update_current_price: start time 2025-10-08T10:05:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:10:49,865 - root - INFO -  MACD calculation for GSRT due to high change percent: 13.4167
-2025-10-08 10:10:50,068 - root - INFO -  MACD calculation for GSRTR due to high change percent: 16.5803
-2025-10-08 10:10:51,121 - root - INFO -  update_current_price: start time 2025-10-08T10:05:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:10:53,628 - root - INFO -  MACD calculation for HOTH due to high change percent: 14.7908
-2025-10-08 10:10:54,464 - root - INFO -  update_current_price: start time 2025-10-08T10:05:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:10:55,136 - root - INFO - Real mode: Today's profit so far: 566.5599750000001
-2025-10-08 10:10:55,137 - root - INFO - Exclude tickers list: ['ALFIQ', 'NBIS', 'RDDT', 'TSLL', 'INTW', 'RGTI', 'MSTR', 'SOXl', 'SOXS']
-2025-10-08 10:10:55,156 - root - INFO - Running real_trade for all top movers
-2025-10-08 10:10:55,190 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 10:10:55,198 - root - INFO - Time since last close for ACXP is 200.11996785000002 minutes, net percent 11.5238
-2025-10-08 10:10:55,244 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
-2025-10-08 10:10:55,256 - root - INFO - 1min candle is not positive for ACXP: open 7.0602 close 7.22
-2025-10-08 10:10:55,257 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 10:10:55,262 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 10:10:55,262 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 10:10:55,294 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
-2025-10-08 10:10:55,334 - root - INFO - Trend up basic conditions not met for XTLB: price_above_emas=False, macd_above_signal=True, macd_above_zero=False, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 10:10:55,334 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
-2025-10-08 10:10:55,342 - root - INFO - Time since last close for BIAF is 21.42237898333333 minutes, net percent -9.30556
-2025-10-08 10:10:55,423 - root - INFO - Last 5 minutes maximum volume candle is red for BIAF
-2025-10-08 10:10:55,424 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
-2025-10-08 10:10:55,433 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 10:10:55,433 - root - INFO - Time since last close for MSN is None minutes, net percent 0
-2025-10-08 10:10:55,475 - root - INFO - Last 5 minutes maximum volume candle is green for MSN
-2025-10-08 10:10:55,534 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-08 10:10:55,535 - root - INFO - MSN:======= 0.761===>BUY========>TrendUp756810
-2025-10-08 10:10:55,553 - root - WARNING - ***** stock is already in the positions
-2025-10-08 10:10:55,629 - root - INFO - swing_strategy_close_long for scale 5Min stock BIAF
-2025-10-08 10:10:55,719 - root - INFO - Profit percent for BIAF is -2.22346
-2025-10-08 10:10:55,719 - root - INFO - Latest 1min close price for BIAF: 3.3245
-2025-10-08 10:10:55,811 - root - INFO - No close long conditions met for BIAF
-2025-10-08 10:10:55,832 - root - INFO - swing_strategy_close_long for scale 5Min stock MSN
-2025-10-08 10:10:55,873 - root - INFO - Profit percent for MSN is 0.881175
-2025-10-08 10:10:55,874 - root - INFO - Latest 1min close price for MSN: 0.761
-2025-10-08 10:10:55,892 - root - INFO - High price DETECTED for MSN is 0.76 and setting no_scalp to True
-2025-10-08 10:10:56,955 - root - INFO -  update_current_price: start time 2025-10-08T10:05:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:10:57,139 - root - INFO -  MACD calculation for IMAB due to high change percent: 23.341
-2025-10-08 10:10:59,779 - root - INFO -  update_current_price: start time 2025-10-08T10:05:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:11:02,689 - root - INFO -  update_current_price: start time 2025-10-08T10:06:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:11:03,655 - root - INFO -  MACD calculation for KYTX due to high change percent: 29.5767
-2025-10-08 10:11:03,958 - root - INFO -  MACD calculation for LAZR due to high change percent: 12.9268
-2025-10-08 10:11:04,218 - root - INFO -  update_current_price: start time 2025-10-08T10:06:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:11:05,159 - root - INFO -  update_current_price: start time 2025-10-08T10:06:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:11:07,500 - root - INFO -  update_current_price: start time 2025-10-08T10:06:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:11:09,384 - root - INFO -  update_current_price: start time 2025-10-08T10:06:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:11:10,123 - root - INFO -  MACD calculation for MSN due to high change percent: 33.574
-2025-10-08 10:11:11,722 - root - INFO -  MACD calculation for NAOV due to high change percent: 14.3791
-2025-10-08 10:11:11,761 - root - INFO - MACD not positive for NAOV
-2025-10-08 10:11:11,877 - root - INFO -  update_current_price: start time 2025-10-08T10:06:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:11:12,099 - root - INFO -  MACD calculation for NBTX due to high change percent: 23.5575
-2025-10-08 10:11:12,129 - root - INFO - MACD not positive for NBTX
-2025-10-08 10:11:13,115 - root - INFO -  MACD calculation for NERV due to high change percent: 24.3073
-2025-10-08 10:11:15,016 - root - INFO -  update_current_price: start time 2025-10-08T10:06:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:11:17,187 - root - INFO -  MACD calculation for NXL due to high change percent: 78.5334
-2025-10-08 10:11:17,244 - root - INFO - MACD not positive for NXL
-2025-10-08 10:11:17,244 - root - INFO -  update_current_price: start time 2025-10-08T10:06:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:11:18,297 - root - INFO -  MACD calculation for OKYO due to high change percent: 11.2069
-2025-10-08 10:11:19,335 - root - INFO -  update_current_price: start time 2025-10-08T10:06:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:11:22,144 - root - INFO -  update_current_price: start time 2025-10-08T10:06:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:11:23,543 - root - INFO -  MACD calculation for PLG due to high change percent: 12.0072
-2025-10-08 10:11:23,692 - root - INFO -  MACD calculation for PLRZ due to high change percent: 12.7364
-2025-10-08 10:11:24,237 - root - INFO -  update_current_price: start time 2025-10-08T10:06:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:11:24,443 - root - INFO -  MACD calculation for POET due to high change percent: 11.5482
-2025-10-08 10:11:26,242 - root - INFO -  MACD calculation for PXLW due to high change percent: 11.4783
-2025-10-08 10:11:27,062 - root - INFO -  update_current_price: start time 2025-10-08T10:06:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:11:27,258 - root - INFO -  MACD calculation for QTTB due to high change percent: 20.6349
-2025-10-08 10:11:29,316 - root - INFO -  update_current_price: start time 2025-10-08T10:06:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:11:30,523 - root - INFO -  MACD calculation for RNAZ due to high change percent: 30.1146
-2025-10-08 10:11:30,556 - root - INFO - MACD not positive for RNAZ
-2025-10-08 10:11:31,105 - root - INFO -  update_current_price: start time 2025-10-08T10:06:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:11:31,607 - root - INFO - Resetting stock DB fields...
-2025-10-08 10:11:31,607 - root - INFO - Parameters - price_update_clear: False, buy_sell_clear: True, scan_clear: False, clear_for_day: False
-2025-10-08 10:11:31,642 - root - INFO - Stock DB fields reset completed.
-2025-10-08 10:11:31,664 - root - CRITICAL - Waiting for market to open...
-2025-10-08 10:11:31,664 - root - CRITICAL - Price update completed.
-2025-10-08 10:11:31,664 - root - CRITICAL - Market opened.
-2025-10-08 10:11:31,664 - root - INFO - STARTING BUY-SELL THREAD
-2025-10-08 10:11:31,665 - root - WARNING - exclude_tickers.txt not found. Exclude tickers list is empty.
-2025-10-08 10:11:31,725 - root - INFO -  MACD calculation for SEM due to high change percent: 14.4172
-2025-10-08 10:11:31,831 - root - INFO - Running real_trade for all top movers
-2025-10-08 10:11:31,859 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 10:11:31,866 - root - INFO - Time since last close for ACXP is 200.73111118333333 minutes, net percent 11.5238
-2025-10-08 10:11:31,947 - root - INFO - Last 5 minutes maximum volume candle is green for ACXP
-2025-10-08 10:11:31,960 - root - INFO - 1min candle is not positive for ACXP: open 7.0602 close 7.22
-2025-10-08 10:11:31,960 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 10:11:31,966 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 10:11:31,967 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 10:11:31,998 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
-2025-10-08 10:11:32,037 - root - INFO - Trend up basic conditions not met for XTLB: price_above_emas=False, macd_above_signal=True, macd_above_zero=False, hist_rising=False, price_close_above_upper_bb=False
-2025-10-08 10:11:32,037 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
-2025-10-08 10:11:32,042 - root - INFO - Time since last close for BIAF is 22.0340484 minutes, net percent -9.30556
-2025-10-08 10:11:32,118 - root - INFO - Last 5 minutes maximum volume candle is red for BIAF
-2025-10-08 10:11:32,118 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
-2025-10-08 10:11:32,123 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 10:11:32,123 - root - INFO - Time since last close for MSN is None minutes, net percent 0
-2025-10-08 10:11:32,155 - root - INFO - Last 5 minutes maximum volume candle is green for MSN
-2025-10-08 10:11:32,192 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-08 10:11:32,192 - root - INFO - MSN:======= 0.761===>BUY========>TrendUp756810
-2025-10-08 10:11:32,211 - root - WARNING - ***** stock is already in the positions
-2025-10-08 10:11:32,216 - root - INFO -  update_current_price: start time 2025-10-08T10:06:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:11:32,272 - root - WARNING - Skipping ALFIQ: invalid strategy format (None)
-2025-10-08 10:11:32,273 - root - INFO - swing_strategy_close_long for scale 5Min stock ALFIQ
-2025-10-08 10:11:32,297 - root - INFO - Profit percent for ALFIQ is 0
-2025-10-08 10:11:32,297 - root - INFO - Latest 1min close price for ALFIQ: 0
-2025-10-08 10:11:32,461 - root - INFO -  MACD calculation for SIDU due to high change percent: 10.8333
-2025-10-08 10:11:33,372 - root - INFO -  MACD calculation for SLNH due to high change percent: 23.8916
-2025-10-08 10:11:34,747 - root - INFO -  update_current_price: start time 2025-10-08T10:06:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:11:36,689 - root - INFO -  update_current_price: start time 2025-10-08T10:06:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:11:38,198 - root - INFO -  update_current_price: start time 2025-10-08T10:06:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:11:40,483 - root - INFO -  update_current_price: start time 2025-10-08T10:06:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:11:40,849 - root - INFO -  MACD calculation for TRX due to high change percent: 21.5683
-2025-10-08 10:11:40,909 - root - INFO - MACD not positive for TRX
-2025-10-08 10:11:41,887 - root - INFO -  MACD calculation for UAMY due to high change percent: 10.7494
-2025-10-08 10:11:41,950 - root - INFO - MACD not positive for UAMY
-2025-10-08 10:11:42,887 - root - INFO -  MACD calculation for UPC due to high change percent: 48.7427
-2025-10-08 10:11:42,918 - root - INFO - MACD not positive for UPC
-2025-10-08 10:11:43,308 - root - INFO -  update_current_price: start time 2025-10-08T10:06:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:11:44,914 - root - INFO -  MACD calculation for VGZ due to high change percent: 10.4545
-2025-10-08 10:11:46,216 - root - INFO -  update_current_price: start time 2025-10-08T10:06:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:11:49,302 - root - INFO -  MACD calculation for WLACW due to high change percent: 16.2044
-2025-10-08 10:11:50,017 - root - INFO -  update_current_price: start time 2025-10-08T10:06:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:11:50,885 - root - INFO -  MACD calculation for XBIO due to high change percent: 160.047
-2025-10-08 10:11:50,921 - root - INFO - MACD not positive for XBIO
-2025-10-08 10:11:52,171 - root - INFO - FIND stocks Change percent for XTLB: 45.0
-2025-10-08 10:11:52,171 - root - INFO - XTLB change_percent from DB: 45.0
-2025-10-08 10:11:52,183 - root - INFO -  MACD calculation for XTLB due to high change percent: 45.0
-2025-10-08 10:11:52,450 - root - INFO -  MACD calculation for XTNT due to high change percent: 10.2334
-2025-10-08 10:11:53,449 - root - INFO -  update_current_price: start time 2025-10-08T10:06:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 10:11:54,423 - root - INFO - Updating change percent of stocks
-2025-10-08 10:11:55,279 - root - INFO - XTLB change_percent from DB: 50.64285714285715
-2025-10-08 10:11:55,291 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-08 10:12:07,149 - root - INFO - Resetting stock DB fields...
-2025-10-08 10:12:07,150 - root - INFO - Parameters - price_update_clear: False, buy_sell_clear: True, scan_clear: False, clear_for_day: False
-2025-10-08 10:12:07,231 - root - INFO - Stock DB fields reset completed.
-2025-10-08 10:12:07,252 - root - CRITICAL - Waiting for market to open...
-2025-10-08 10:12:07,253 - root - CRITICAL - Price update completed.
-2025-10-08 10:12:07,253 - root - CRITICAL - Market opened.
-2025-10-08 10:12:07,253 - root - INFO - STARTING BUY-SELL THREAD
-2025-10-08 10:12:32,649 - root - INFO - Resetting stock DB fields...
-2025-10-08 10:12:32,650 - root - INFO - Parameters - price_update_clear: False, buy_sell_clear: True, scan_clear: False, clear_for_day: False
-2025-10-08 10:12:32,727 - root - INFO - Stock DB fields reset completed.
-2025-10-08 10:12:32,775 - root - CRITICAL - Waiting for market to open...
-2025-10-08 10:12:32,776 - root - CRITICAL - Price update completed.
-2025-10-08 10:12:32,777 - root - CRITICAL - Market opened.
-2025-10-08 10:12:32,777 - root - INFO - STARTING BUY-SELL THREAD
+2025-10-08 10:14:33,567 - root - INFO -  MACD calculation for TRX due to high change percent: 19.8383
+2025-10-08 10:14:33,581 - root - INFO - Running real_trade for all top movers
+2025-10-08 10:14:33,598 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 10:14:33,603 - root - INFO - Time since last close for ACXP is 203.76005068333333 minutes, net percent 11.5238
+2025-10-08 10:14:33,618 - root - INFO - MACD not positive for TRX
+2025-10-08 10:14:33,681 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
+2025-10-08 10:14:33,682 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 10:14:33,686 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:14:33,686 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 10:14:33,714 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 10:14:33,723 - root - INFO - 1min candle is not positive for XTLB: open 2.1 close 2.085
+2025-10-08 10:14:33,724 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
+2025-10-08 10:14:33,728 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:14:33,728 - root - INFO - Time since last close for MSN is None minutes, net percent 0
+2025-10-08 10:14:33,756 - root - INFO - Last 5 minutes maximum volume candle is red for MSN
+2025-10-08 10:14:33,756 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
+2025-10-08 10:14:33,760 - root - INFO - Time since last close for BIAF is 3.629344666666667 minutes, net percent -3.53225
+2025-10-08 10:14:33,824 - root - INFO - Last 5 minutes maximum volume candle is red for BIAF
+2025-10-08 10:14:33,824 - root - INFO - swing_strategy_open_long for scale 5Min stock KYTX
+2025-10-08 10:14:33,828 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:14:33,828 - root - INFO - Time since last close for KYTX is None minutes, net percent 0
+2025-10-08 10:14:33,883 - root - INFO - Last 5 minutes maximum volume candle is red for KYTX
+2025-10-08 10:14:33,951 - root - INFO - swing_strategy_close_long for scale 5Min stock MSN
+2025-10-08 10:14:33,981 - root - INFO - Profit percent for MSN is 1.10814
+2025-10-08 10:14:33,981 - root - INFO - Latest 1min close price for MSN: 0.7758
+2025-10-08 10:14:34,023 - root - INFO - MACD is still rising for stock MSN
+2025-10-08 10:14:34,023 - root - INFO - Not enough profit percent to scalp for MSN: 1.10814
+2025-10-08 10:14:34,087 - root - INFO -  MACD calculation for UAMY due to high change percent: 10.0517
+2025-10-08 10:14:34,142 - root - INFO - MACD not positive for UAMY
+2025-10-08 10:14:35,026 - root - INFO -  MACD calculation for UPC due to high change percent: 52.6054
+2025-10-08 10:14:35,064 - root - INFO - MACD not positive for UPC
+2025-10-08 10:14:35,447 - root - INFO -  update_current_price: start time 2025-10-08T10:09:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:14:36,616 - root - INFO -  MACD calculation for VGZ due to high change percent: 10.2409
+2025-10-08 10:14:37,647 - root - INFO -  update_current_price: start time 2025-10-08T10:09:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:14:40,349 - root - INFO -  update_current_price: start time 2025-10-08T10:09:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:14:41,299 - root - INFO -  MACD calculation for XBIO due to high change percent: 182.972
+2025-10-08 10:14:41,405 - root - INFO - MACD not positive for XBIO
+2025-10-08 10:14:42,180 - root - INFO - FIND stocks Change percent for XTLB: 50.6429
+2025-10-08 10:14:42,180 - root - INFO - XTLB change_percent from DB: 50.6429
+2025-10-08 10:14:42,191 - root - INFO -  MACD calculation for XTLB due to high change percent: 50.6429
+2025-10-08 10:14:43,085 - root - INFO -  MACD calculation for YTRA due to high change percent: 10.2532
+2025-10-08 10:14:43,368 - root - INFO -  update_current_price: start time 2025-10-08T10:09:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:14:44,617 - root - INFO - Updating change percent of stocks
+2025-10-08 10:14:45,570 - root - INFO - XTLB change_percent from DB: 48.92857142857144
+2025-10-08 10:14:45,582 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-08 10:14:49,059 - root - INFO - Real mode: Today's profit so far: 502.64997500000027
+2025-10-08 10:14:49,080 - root - INFO - Running real_trade for all top movers
+2025-10-08 10:14:49,133 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 10:14:49,145 - root - INFO - Time since last close for ACXP is 204.01908360000002 minutes, net percent 11.5238
+2025-10-08 10:14:49,194 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
+2025-10-08 10:14:49,194 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 10:14:49,209 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:14:49,209 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 10:14:49,239 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 10:14:49,267 - root - INFO - 1min candle is not positive for XTLB: open 2.08 close 2.06
+2025-10-08 10:14:49,268 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
+2025-10-08 10:14:49,281 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:14:49,281 - root - INFO - Time since last close for MSN is None minutes, net percent 0
+2025-10-08 10:14:49,318 - root - INFO - Last 5 minutes maximum volume candle is red for MSN
+2025-10-08 10:14:49,318 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
+2025-10-08 10:14:49,328 - root - INFO - Time since last close for BIAF is 3.88881185 minutes, net percent -3.53225
+2025-10-08 10:14:49,430 - root - INFO - Last 5 minutes maximum volume candle is red for BIAF
+2025-10-08 10:14:49,516 - root - INFO - swing_strategy_close_long for scale 5Min stock MSN
+2025-10-08 10:14:49,566 - root - INFO - Profit percent for MSN is 0.801068
+2025-10-08 10:14:49,566 - root - INFO - Latest 1min close price for MSN: 0.745
+2025-10-08 10:14:49,646 - root - INFO - No close long conditions met for MSN
+2025-10-08 10:15:04,704 - root - INFO - Real mode: Today's profit so far: 513.3299750000006
+2025-10-08 10:15:04,727 - root - INFO - Running real_trade for all top movers
+2025-10-08 10:15:04,766 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 10:15:04,770 - root - INFO - Time since last close for ACXP is 204.27951085 minutes, net percent 11.5238
+2025-10-08 10:15:04,835 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
+2025-10-08 10:15:04,836 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 10:15:04,848 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:15:04,848 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 10:15:04,881 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 10:15:04,906 - root - INFO - 1min candle is not positive for XTLB: open 2.08 close 2.06
+2025-10-08 10:15:04,906 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
+2025-10-08 10:15:04,918 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:15:04,918 - root - INFO - Time since last close for MSN is None minutes, net percent 0
+2025-10-08 10:15:04,949 - root - INFO - Last 5 minutes maximum volume candle is red for MSN
+2025-10-08 10:15:04,950 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
+2025-10-08 10:15:04,963 - root - INFO - Time since last close for BIAF is 4.149382766666666 minutes, net percent -3.53225
+2025-10-08 10:15:05,033 - root - INFO - Last 5 minutes maximum volume candle is red for BIAF
+2025-10-08 10:15:05,137 - root - INFO - swing_strategy_close_long for scale 5Min stock MSN
+2025-10-08 10:15:05,182 - root - INFO - Profit percent for MSN is 0.133511
+2025-10-08 10:15:05,182 - root - INFO - Latest 1min close price for MSN: 0.745
+2025-10-08 10:15:05,255 - root - INFO - No close long conditions met for MSN
+2025-10-08 10:15:20,308 - root - INFO - Real mode: Today's profit so far: 540.0299750000013
+2025-10-08 10:15:20,328 - root - INFO - Running real_trade for all top movers
+2025-10-08 10:15:20,385 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 10:15:20,397 - root - INFO - Time since last close for ACXP is 204.53996078333333 minutes, net percent 11.5238
+2025-10-08 10:15:20,458 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
+2025-10-08 10:15:20,460 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 10:15:20,476 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:15:20,476 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 10:15:20,515 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 10:15:20,541 - root - INFO - 1min candle is not positive for XTLB: open 2.08 close 2.06
+2025-10-08 10:15:20,542 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
+2025-10-08 10:15:20,555 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:15:20,556 - root - INFO - Time since last close for MSN is None minutes, net percent 0
+2025-10-08 10:15:20,593 - root - INFO - Last 5 minutes maximum volume candle is red for MSN
+2025-10-08 10:15:20,594 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
+2025-10-08 10:15:20,610 - root - INFO - Time since last close for BIAF is 4.410175833333333 minutes, net percent -3.53225
+2025-10-08 10:15:20,696 - root - INFO - Last 5 minutes maximum volume candle is red for BIAF
+2025-10-08 10:15:20,781 - root - INFO - swing_strategy_close_long for scale 5Min stock MSN
+2025-10-08 10:15:20,830 - root - INFO - Profit percent for MSN is 0.12016
+2025-10-08 10:15:20,830 - root - INFO - Latest 1min close price for MSN: 0.745
+2025-10-08 10:15:20,930 - root - INFO - No close long conditions met for MSN
+2025-10-08 10:15:35,986 - root - INFO - Real mode: Today's profit so far: 521.8699750000014
+2025-10-08 10:15:36,009 - root - INFO - Running real_trade for all top movers
+2025-10-08 10:15:36,048 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 10:15:36,053 - root - INFO - Time since last close for ACXP is 204.80089258333334 minutes, net percent 11.5238
+2025-10-08 10:15:36,098 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
+2025-10-08 10:15:36,098 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 10:15:36,108 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:15:36,108 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 10:15:36,137 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 10:15:36,164 - root - INFO - 1min candle is not positive for XTLB: open 2.08 close 2.06
+2025-10-08 10:15:36,164 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
+2025-10-08 10:15:36,177 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:15:36,177 - root - INFO - Time since last close for MSN is None minutes, net percent 0
+2025-10-08 10:15:36,208 - root - INFO - Last 5 minutes maximum volume candle is red for MSN
+2025-10-08 10:15:36,209 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
+2025-10-08 10:15:36,220 - root - INFO - Time since last close for BIAF is 4.670345316666666 minutes, net percent -3.53225
+2025-10-08 10:15:36,301 - root - INFO - Last 5 minutes maximum volume candle is red for BIAF
+2025-10-08 10:15:36,400 - root - INFO - swing_strategy_close_long for scale 5Min stock MSN
+2025-10-08 10:15:36,451 - root - INFO - Profit percent for MSN is 1.45527
+2025-10-08 10:15:36,451 - root - INFO - Latest 1min close price for MSN: 0.745
+2025-10-08 10:15:36,564 - root - INFO - No close long conditions met for MSN
+2025-10-08 10:15:45,657 - root - INFO - Real mode: Today's profit so far: 521.8699750000014
+2025-10-08 10:15:45,685 - root - INFO - ('2025-10-08T19:40:00-04:00', '2025-10-08T19:40:00-04:00', '2025-10-01T09:30:00-04:00', '2025-10-08T19:40:00-04:00')
+2025-10-08 10:15:45,686 - root - INFO - Screening stocks | Start: 2025-10-01T09:30:00-04:00 | End: 2025-10-08T19:40:00-04:00
+2025-10-08 10:15:45,722 - root - INFO -  update_current_price: start time 2025-10-08T10:10:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:15:47,451 - root - INFO -  MACD calculation for ACXP due to high change percent: 61.5361
+2025-10-08 10:15:48,344 - root - INFO -  MACD calculation for AEI due to high change percent: 12.2605
+2025-10-08 10:15:48,566 - root - INFO -  update_current_price: start time 2025-10-08T10:10:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:15:49,387 - root - INFO - Resetting stock DB fields...
+2025-10-08 10:15:49,387 - root - INFO - Parameters - price_update_clear: False, buy_sell_clear: True, scan_clear: False, clear_for_day: False
+2025-10-08 10:15:49,424 - root - INFO - Stock DB fields reset completed.
+2025-10-08 10:15:49,445 - root - CRITICAL - Waiting for market to open...
+2025-10-08 10:15:49,445 - root - CRITICAL - Price update completed.
+2025-10-08 10:15:49,445 - root - CRITICAL - Market opened.
+2025-10-08 10:15:49,445 - root - INFO - STARTING BUY-SELL THREAD
+2025-10-08 10:15:49,466 - root - INFO - Running real_trade for all top movers
+2025-10-08 10:15:49,483 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 10:15:49,488 - root - INFO - Time since last close for ACXP is 205.02480761666666 minutes, net percent 11.5238
+2025-10-08 10:15:49,566 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
+2025-10-08 10:15:49,566 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 10:15:49,571 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:15:49,571 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 10:15:49,598 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 10:15:49,607 - root - INFO - 1min candle is not positive for XTLB: open 2.0609 close 2.05
+2025-10-08 10:15:49,607 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
+2025-10-08 10:15:49,611 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:15:49,612 - root - INFO - Time since last close for MSN is None minutes, net percent 0
+2025-10-08 10:15:49,643 - root - INFO - Last 5 minutes maximum volume candle is red for MSN
+2025-10-08 10:15:49,643 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
+2025-10-08 10:15:49,648 - root - INFO - Time since last close for BIAF is 4.894134816666667 minutes, net percent -3.53225
+2025-10-08 10:15:49,712 - root - INFO - Last 5 minutes maximum volume candle is red for BIAF
+2025-10-08 10:15:49,785 - root - INFO - swing_strategy_close_long for scale 5Min stock MSN
+2025-10-08 10:15:49,837 - root - INFO - Profit percent for MSN is 0.547397
+2025-10-08 10:15:49,837 - root - INFO - Latest 1min close price for MSN: 0.76
+2025-10-08 10:15:49,842 - root - INFO -  MACD calculation for AMIX due to high change percent: 10.0437
+2025-10-08 10:15:49,887 - root - INFO - MACD is still rising for stock MSN
+2025-10-08 10:15:49,887 - root - INFO - Not enough profit percent to scalp for MSN: 0.547397
+2025-10-08 10:15:49,960 - root - INFO -  update_current_price: start time 2025-10-08T10:10:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:15:51,825 - root - INFO -  MACD calculation for ARBE due to high change percent: 16.5939
+2025-10-08 10:15:53,092 - root - INFO -  update_current_price: start time 2025-10-08T10:10:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:15:55,803 - root - INFO -  update_current_price: start time 2025-10-08T10:10:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:15:58,793 - root - INFO -  update_current_price: start time 2025-10-08T10:10:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:15:59,466 - root - INFO -  MACD calculation for BIAF due to high change percent: 33.8776
+2025-10-08 10:15:59,527 - root - INFO - MACD not positive for BIAF
+2025-10-08 10:16:00,228 - root - INFO -  MACD calculation for BLBX due to high change percent: 10.383
+2025-10-08 10:16:00,262 - root - INFO - MACD not positive for BLBX
+2025-10-08 10:16:01,603 - root - INFO -  MACD calculation for BQ due to high change percent: 13.4208
+2025-10-08 10:16:01,683 - root - INFO - MACD not positive for BQ
+2025-10-08 10:16:01,778 - root - INFO -  update_current_price: start time 2025-10-08T10:11:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:16:03,859 - root - INFO -  update_current_price: start time 2025-10-08T10:11:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:16:04,465 - root - INFO -  MACD calculation for CCTG due to high change percent: 17.9352
+2025-10-08 10:16:04,524 - root - INFO - MACD not positive for CCTG
+2025-10-08 10:16:04,920 - root - INFO - Real mode: Today's profit so far: 525.6099749999994
+2025-10-08 10:16:04,939 - root - INFO - Running real_trade for all top movers
+2025-10-08 10:16:04,973 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 10:16:04,980 - root - INFO - Time since last close for ACXP is 205.28301296666666 minutes, net percent 11.5238
+2025-10-08 10:16:05,028 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
+2025-10-08 10:16:05,028 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 10:16:05,035 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:16:05,035 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 10:16:05,063 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 10:16:05,075 - root - INFO - 1min candle is not positive for XTLB: open 2.0609 close 2.05
+2025-10-08 10:16:05,076 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
+2025-10-08 10:16:05,082 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:16:05,083 - root - INFO - Time since last close for MSN is None minutes, net percent 0
+2025-10-08 10:16:05,116 - root - INFO - Last 5 minutes maximum volume candle is red for MSN
+2025-10-08 10:16:05,191 - root - INFO -  MACD calculation for CFLT due to high change percent: 11.4877
+2025-10-08 10:16:05,245 - root - INFO - swing_strategy_close_long for scale 5Min stock MSN
+2025-10-08 10:16:05,256 - root - INFO - MACD not positive for CFLT
+2025-10-08 10:16:05,285 - root - INFO - Profit percent for MSN is 1.00134
+2025-10-08 10:16:05,285 - root - INFO - Latest 1min close price for MSN: 0.76
+2025-10-08 10:16:05,354 - root - INFO - MACD is still rising for stock MSN
+2025-10-08 10:16:05,355 - root - INFO - Not enough profit percent to scalp for MSN: 1.00134
+2025-10-08 10:16:05,659 - root - INFO -  update_current_price: start time 2025-10-08T10:11:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:16:07,112 - root - INFO -  MACD calculation for CLLS due to high change percent: 11.7723
+2025-10-08 10:16:07,150 - root - INFO - MACD not positive for CLLS
+2025-10-08 10:16:08,111 - root - INFO -  update_current_price: start time 2025-10-08T10:11:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:16:09,190 - root - INFO -  MACD calculation for CPSH due to high change percent: 10.6383
+2025-10-08 10:16:09,916 - root - INFO -  MACD calculation for CRML due to high change percent: 17.4651
+2025-10-08 10:16:09,981 - root - INFO - MACD not positive for CRML
+2025-10-08 10:16:10,041 - root - INFO -  MACD calculation for CRMLW due to high change percent: 34.7633
+2025-10-08 10:16:10,074 - root - INFO - MACD not positive for CRMLW
+2025-10-08 10:16:10,707 - root - INFO -  update_current_price: start time 2025-10-08T10:11:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:16:13,082 - root - INFO -  update_current_price: start time 2025-10-08T10:11:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:16:13,358 - root - INFO -  MACD calculation for DGNX due to high change percent: 19.0496
+2025-10-08 10:16:13,415 - root - INFO - MACD not positive for DGNX
+2025-10-08 10:16:14,015 - root - INFO -  MACD calculation for DNA due to high change percent: 17.6788
+2025-10-08 10:16:15,623 - root - INFO -  update_current_price: start time 2025-10-08T10:11:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:16:17,320 - root - INFO -  MACD calculation for ELBM due to high change percent: 13.122
+2025-10-08 10:16:17,707 - root - INFO -  update_current_price: start time 2025-10-08T10:11:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:16:18,234 - root - INFO -  MACD calculation for EOSEW due to high change percent: 17.2638
+2025-10-08 10:16:18,723 - root - INFO -  MACD calculation for ERAS due to high change percent: 10.4032
+2025-10-08 10:16:19,791 - root - INFO -  MACD calculation for EVAX due to high change percent: 18.007
+2025-10-08 10:16:20,407 - root - INFO - Real mode: Today's profit so far: 540.0299750000013
+2025-10-08 10:16:20,426 - root - INFO - Running real_trade for all top movers
+2025-10-08 10:16:20,462 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 10:16:20,470 - root - INFO - Time since last close for ACXP is 205.54117126666668 minutes, net percent 11.5238
+2025-10-08 10:16:20,516 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
+2025-10-08 10:16:20,517 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 10:16:20,525 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:16:20,525 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 10:16:20,552 - root - INFO -  update_current_price: start time 2025-10-08T10:11:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:16:20,555 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 10:16:20,572 - root - INFO - 1min candle is not positive for XTLB: open 2.0609 close 2.05
+2025-10-08 10:16:20,573 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
+2025-10-08 10:16:20,582 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:16:20,582 - root - INFO - Time since last close for MSN is None minutes, net percent 0
+2025-10-08 10:16:20,613 - root - INFO - Last 5 minutes maximum volume candle is red for MSN
+2025-10-08 10:16:20,687 - root - INFO - swing_strategy_close_long for scale 5Min stock MSN
+2025-10-08 10:16:20,726 - root - INFO - Profit percent for MSN is 1.1749
+2025-10-08 10:16:20,726 - root - INFO - Latest 1min close price for MSN: 0.76
+2025-10-08 10:16:20,791 - root - INFO - MACD is still rising for stock MSN
+2025-10-08 10:16:20,791 - root - INFO - Not enough profit percent to scalp for MSN: 1.1749
+2025-10-08 10:16:21,017 - root - INFO -  MACD calculation for FEAM due to high change percent: 13.2609
+2025-10-08 10:16:22,152 - root - INFO -  update_current_price: start time 2025-10-08T10:11:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:16:24,390 - root - INFO -  update_current_price: start time 2025-10-08T10:11:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:16:26,567 - root - INFO -  update_current_price: start time 2025-10-08T10:11:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:16:28,596 - root - INFO -  MACD calculation for GSRT due to high change percent: 14.9167
+2025-10-08 10:16:29,530 - root - INFO -  update_current_price: start time 2025-10-08T10:11:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:16:31,522 - root - INFO -  MACD calculation for HOTH due to high change percent: 14.451
+2025-10-08 10:16:32,269 - root - INFO -  update_current_price: start time 2025-10-08T10:11:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:16:34,339 - root - INFO -  update_current_price: start time 2025-10-08T10:11:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:16:34,489 - root - INFO -  MACD calculation for IMAB due to high change percent: 23.341
+2025-10-08 10:16:35,832 - root - INFO - Real mode: Today's profit so far: 539.7599750000008
+2025-10-08 10:16:35,849 - root - INFO - Running real_trade for all top movers
+2025-10-08 10:16:35,868 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 10:16:35,877 - root - INFO - Time since last close for ACXP is 205.7979619 minutes, net percent 11.5238
+2025-10-08 10:16:35,940 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
+2025-10-08 10:16:35,941 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 10:16:35,982 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:16:35,982 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 10:16:36,012 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 10:16:36,021 - root - INFO - 1min candle is not positive for XTLB: open 2.0609 close 2.05
+2025-10-08 10:16:36,022 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
+2025-10-08 10:16:36,027 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:16:36,027 - root - INFO - Time since last close for MSN is None minutes, net percent 0
+2025-10-08 10:16:36,070 - root - INFO - Last 5 minutes maximum volume candle is red for MSN
+2025-10-08 10:16:36,140 - root - INFO - swing_strategy_close_long for scale 5Min stock MSN
+2025-10-08 10:16:36,181 - root - INFO - Profit percent for MSN is 1.45527
+2025-10-08 10:16:36,182 - root - INFO - Latest 1min close price for MSN: 0.76
+2025-10-08 10:16:36,246 - root - INFO - MACD is still rising for stock MSN
+2025-10-08 10:16:36,246 - root - INFO - Not enough profit percent to scalp for MSN: 1.45527
+2025-10-08 10:16:36,710 - root - INFO -  update_current_price: start time 2025-10-08T10:11:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:16:39,033 - root - INFO -  update_current_price: start time 2025-10-08T10:11:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:16:40,513 - root - INFO -  MACD calculation for KYTX due to high change percent: 29.7597
+2025-10-08 10:16:41,238 - root - INFO -  MACD calculation for LAZR due to high change percent: 12.9268
+2025-10-08 10:16:41,721 - root - INFO -  update_current_price: start time 2025-10-08T10:11:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:16:43,850 - root - INFO -  update_current_price: start time 2025-10-08T10:11:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:16:46,348 - root - INFO -  update_current_price: start time 2025-10-08T10:11:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:16:48,888 - root - INFO -  update_current_price: start time 2025-10-08T10:11:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:16:49,920 - root - INFO -  MACD calculation for MSN due to high change percent: 40.0361
+2025-10-08 10:16:51,287 - root - INFO - Real mode: Today's profit so far: 513.589974999999
+2025-10-08 10:16:51,842 - root - INFO -  MACD calculation for NAOV due to high change percent: 15.5212
+2025-10-08 10:16:51,878 - root - INFO - MACD not positive for NAOV
+2025-10-08 10:16:52,016 - root - INFO - Running real_trade for all top movers
+2025-10-08 10:16:52,047 - root - INFO -  update_current_price: start time 2025-10-08T10:11:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:16:52,062 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 10:16:52,072 - root - INFO - Time since last close for ACXP is 206.0678699 minutes, net percent 11.5238
+2025-10-08 10:16:52,120 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
+2025-10-08 10:16:52,120 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 10:16:52,128 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:16:52,128 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 10:16:52,163 - root - INFO - Last 5 minutes maximum volume candle is red for XTLB
+2025-10-08 10:16:52,163 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
+2025-10-08 10:16:52,170 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:16:52,171 - root - INFO - Time since last close for MSN is None minutes, net percent 0
+2025-10-08 10:16:52,201 - root - INFO - Last 5 minutes maximum volume candle is red for MSN
+2025-10-08 10:16:52,233 - root - INFO -  MACD calculation for NBTX due to high change percent: 23.8197
+2025-10-08 10:16:52,279 - root - INFO - swing_strategy_close_long for scale 5Min stock MSN
+2025-10-08 10:16:52,322 - root - INFO - Profit percent for MSN is 1.44192
+2025-10-08 10:16:52,322 - root - INFO - Latest 1min close price for MSN: 0.7564
+2025-10-08 10:16:52,357 - root - INFO - MACD not positive for NBTX
+2025-10-08 10:16:52,405 - root - INFO - MACD is still rising for stock MSN
+2025-10-08 10:16:52,405 - root - INFO - Not enough profit percent to scalp for MSN: 1.44192
+2025-10-08 10:16:53,110 - root - INFO -  MACD calculation for NERV due to high change percent: 25.6881
+2025-10-08 10:16:54,890 - root - INFO -  update_current_price: start time 2025-10-08T10:11:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:16:57,858 - root - INFO -  MACD calculation for NXL due to high change percent: 69.4735
+2025-10-08 10:16:57,909 - root - INFO - MACD not positive for NXL
+2025-10-08 10:16:57,965 - root - INFO -  update_current_price: start time 2025-10-08T10:11:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:17:00,572 - root - INFO -  update_current_price: start time 2025-10-08T10:12:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:17:03,025 - root - INFO -  update_current_price: start time 2025-10-08T10:12:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:17:04,546 - root - INFO -  MACD calculation for PLG due to high change percent: 10.9319
+2025-10-08 10:17:04,694 - root - INFO -  MACD calculation for PLRZ due to high change percent: 12.7273
+2025-10-08 10:17:05,186 - root - INFO -  update_current_price: start time 2025-10-08T10:12:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:17:05,293 - root - INFO -  MACD calculation for POET due to high change percent: 11.4213
+2025-10-08 10:17:07,425 - root - INFO -  MACD calculation for PXLW due to high change percent: 11.4783
+2025-10-08 10:17:07,455 - root - INFO - Real mode: Today's profit so far: 539.7599750000008
+2025-10-08 10:17:07,480 - root - INFO - Running real_trade for all top movers
+2025-10-08 10:17:07,525 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 10:17:07,533 - root - INFO - Time since last close for ACXP is 206.32556375000001 minutes, net percent 11.5238
+2025-10-08 10:17:07,635 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
+2025-10-08 10:17:07,636 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 10:17:07,644 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:17:07,644 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 10:17:07,674 - root - INFO - Last 5 minutes maximum volume candle is red for XTLB
+2025-10-08 10:17:07,675 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
+2025-10-08 10:17:07,682 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:17:07,682 - root - INFO - Time since last close for MSN is None minutes, net percent 0
+2025-10-08 10:17:07,716 - root - INFO - Last 5 minutes maximum volume candle is red for MSN
+2025-10-08 10:17:07,792 - root - INFO - swing_strategy_close_long for scale 5Min stock MSN
+2025-10-08 10:17:07,835 - root - INFO - Profit percent for MSN is 1.45527
+2025-10-08 10:17:07,835 - root - INFO - Latest 1min close price for MSN: 0.7564
+2025-10-08 10:17:07,859 - root - INFO -  update_current_price: start time 2025-10-08T10:12:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:17:07,887 - root - INFO - MACD is still rising for stock MSN
+2025-10-08 10:17:07,887 - root - INFO - Not enough profit percent to scalp for MSN: 1.45527
+2025-10-08 10:17:08,024 - root - INFO -  MACD calculation for QTTB due to high change percent: 22.2222
+2025-10-08 10:17:09,628 - root - INFO -  update_current_price: start time 2025-10-08T10:12:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:17:10,808 - root - INFO -  MACD calculation for RNAZ due to high change percent: 28.9689
+2025-10-08 10:17:10,862 - root - INFO - MACD not positive for RNAZ
+2025-10-08 10:17:12,213 - root - INFO -  update_current_price: start time 2025-10-08T10:12:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:17:13,756 - root - INFO -  MACD calculation for SEM due to high change percent: 14.1871
+2025-10-08 10:17:14,669 - root - INFO -  update_current_price: start time 2025-10-08T10:12:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:17:15,364 - root - INFO -  MACD calculation for SIDU due to high change percent: 10.4167
+2025-10-08 10:17:16,557 - root - INFO -  MACD calculation for SLNH due to high change percent: 27.0936
+2025-10-08 10:17:17,912 - root - INFO -  update_current_price: start time 2025-10-08T10:12:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:17:20,302 - root - INFO -  update_current_price: start time 2025-10-08T10:12:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:17:22,282 - root - INFO -  update_current_price: start time 2025-10-08T10:12:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:17:22,930 - root - INFO - Real mode: Today's profit so far: 539.7599750000008
+2025-10-08 10:17:22,951 - root - INFO - Running real_trade for all top movers
+2025-10-08 10:17:22,993 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 10:17:23,000 - root - INFO - Time since last close for ACXP is 206.58334061666667 minutes, net percent 11.5238
+2025-10-08 10:17:23,045 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
+2025-10-08 10:17:23,046 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 10:17:23,054 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:17:23,054 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 10:17:23,084 - root - INFO - Last 5 minutes maximum volume candle is red for XTLB
+2025-10-08 10:17:23,084 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
+2025-10-08 10:17:23,092 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:17:23,092 - root - INFO - Time since last close for MSN is None minutes, net percent 0
+2025-10-08 10:17:23,129 - root - INFO - Last 5 minutes maximum volume candle is red for MSN
+2025-10-08 10:17:23,198 - root - INFO - swing_strategy_close_long for scale 5Min stock MSN
+2025-10-08 10:17:23,236 - root - INFO - Profit percent for MSN is 1.44192
+2025-10-08 10:17:23,236 - root - INFO - Latest 1min close price for MSN: 0.7564
+2025-10-08 10:17:23,291 - root - INFO - MACD is still rising for stock MSN
+2025-10-08 10:17:23,291 - root - INFO - Not enough profit percent to scalp for MSN: 1.44192
+2025-10-08 10:17:23,468 - root - INFO -  MACD calculation for TLPH due to high change percent: 10.3175
+2025-10-08 10:17:24,868 - root - INFO -  update_current_price: start time 2025-10-08T10:12:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:17:25,385 - root - INFO -  MACD calculation for TRX due to high change percent: 19.3856
+2025-10-08 10:17:25,440 - root - INFO - MACD not positive for TRX
+2025-10-08 10:17:27,209 - root - INFO -  MACD calculation for UPC due to high change percent: 52.8046
+2025-10-08 10:17:27,624 - root - INFO -  update_current_price: start time 2025-10-08T10:12:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:17:28,867 - root - INFO -  MACD calculation for VGZ due to high change percent: 10.2273
+2025-10-08 10:17:29,928 - root - INFO -  update_current_price: start time 2025-10-08T10:12:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:17:32,378 - root - INFO -  update_current_price: start time 2025-10-08T10:12:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:17:33,017 - root - INFO -  MACD calculation for XBIO due to high change percent: 176.72
+2025-10-08 10:17:33,064 - root - INFO - MACD not positive for XBIO
+2025-10-08 10:17:33,825 - root - INFO - FIND stocks Change percent for XTLB: 48.9286
+2025-10-08 10:17:33,825 - root - INFO - XTLB change_percent from DB: 48.9286
+2025-10-08 10:17:33,834 - root - INFO -  MACD calculation for XTLB due to high change percent: 48.9286
+2025-10-08 10:17:34,301 - root - INFO -  MACD calculation for YTRA due to high change percent: 10.7595
+2025-10-08 10:17:34,654 - root - INFO -  update_current_price: start time 2025-10-08T10:12:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 10:17:35,485 - root - INFO - Updating change percent of stocks
+2025-10-08 10:17:36,357 - root - INFO - XTLB change_percent from DB: 45.00714285714287
+2025-10-08 10:17:36,368 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-08 10:17:38,331 - root - INFO - Real mode: Today's profit so far: 526.9399750000011
+2025-10-08 10:17:38,347 - root - INFO - Running real_trade for all top movers
+2025-10-08 10:17:38,383 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
+2025-10-08 10:17:38,388 - root - INFO - Time since last close for ACXP is 206.83980301666668 minutes, net percent 11.5238
+2025-10-08 10:17:38,431 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
+2025-10-08 10:17:38,432 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
+2025-10-08 10:17:38,443 - root - INFO - Time since last close for UPC is 163.12406173333332 minutes, net percent -24.797
+2025-10-08 10:17:38,473 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
+2025-10-08 10:17:38,522 - root - INFO - Trend up basic conditions not met for UPC: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 10:17:38,522 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 10:17:38,537 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:17:38,537 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 10:17:38,599 - root - INFO - Last 5 minutes maximum volume candle is red for XTLB
+2025-10-08 10:17:38,600 - root - INFO - swing_strategy_open_long for scale 5Min stock MSN
+2025-10-08 10:17:38,634 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 10:17:38,635 - root - INFO - Time since last close for MSN is None minutes, net percent 0
+2025-10-08 10:17:38,668 - root - INFO - Last 5 minutes maximum volume candle is red for MSN
+2025-10-08 10:17:38,741 - root - INFO - swing_strategy_close_long for scale 5Min stock MSN
