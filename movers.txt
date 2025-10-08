@@ -2,11 +2,10 @@ Top Movers:
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  UPC   |      1      |     0     |     107.35     | 12784748 |     10.72     |        5.17        |   210000.0   |  4.702   |   220771   |      0      | 2025-10-08 11:41:32 |
-|  ACXP  |      0      |     0     |    62.1072     | 15190131 |     7.0003    |        4.29        |  19450000.0  |  4.456   |  1061867   |      0      | 2025-10-08 11:42:43 |
-|  XTLB  |      0      |     0     |    53.2143     | 18490402 |     2.145     |        1.4         |  12230000.0  |  1.207   |  2303189   |      0      | 2025-10-08 11:41:39 |
-|  AREB  |      0      |     0     |    49.1419     | 2654013  |      8.11     |        5.71        |  1980000.0   | 5.10428  |  1572247   |      0      | 2025-10-08 11:42:51 |
-|  NERV  |      0      |     0     |    37.6147     | 4352602  |      3.0      |        2.18        |  5440000.0   | 2.12508  |   779668   |      0      | 2025-10-08 11:40:50 |
+|  UPC   |      1      |     0     |     93.617     | 12882082 |     10.01     |        5.17        |   210000.0   |  4.702   |   220771   |      0      | 2025-10-08 11:47:21 |
+|  XTLB  |      0      |     0     |    59.6429     | 18605042 |     2.235     |        1.4         |  12230000.0  |  1.207   |  2303189   |      0      | 2025-10-08 11:47:28 |
+|  NERV  |      0      |     0     |      33.5      | 4429829  |     2.9103    |        2.18        |  5440000.0   | 2.12508  |   779668   |      0      | 2025-10-08 11:46:44 |
+|  BIAF  |      0      |     0     |    31.6327     | 19838557 |     3.225     |        2.45        |  11040000.0  |   2.66   |   914437   |      0      | 2025-10-08 11:45:50 |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -20,403 +19,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-08 11:40:53,028 - root - INFO -  MACD calculation for NPWR due to high change percent: 14.5299
-2025-10-08 11:40:53,867 - root - INFO -  MACD calculation for NTLA due to high change percent: 23.025
-2025-10-08 11:40:55,535 - root - INFO -  MACD calculation for NXL due to high change percent: 65.0821
-2025-10-08 11:40:55,588 - root - INFO - MACD not positive for NXL
-2025-10-08 11:40:55,643 - root - INFO -  update_current_price: start time 2025-10-08T11:35:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:40:57,159 - root - INFO -  MACD calculation for OKYO due to high change percent: 11.0837
-2025-10-08 11:40:57,190 - root - INFO - MACD not positive for OKYO
-2025-10-08 11:40:58,054 - root - INFO -  MACD calculation for ONFO due to high change percent: 18.5047
-2025-10-08 11:40:58,828 - root - INFO -  update_current_price: start time 2025-10-08T11:35:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:41:01,009 - root - INFO - Real mode: Today's profit so far: 664.8799749999998
-2025-10-08 11:41:01,033 - root - INFO - Running real_trade for all top movers
-2025-10-08 11:41:01,074 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 11:41:01,082 - root - INFO - Time since last close for UPC is 246.50137611666665 minutes, net percent -24.797
-2025-10-08 11:41:01,133 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
-2025-10-08 11:41:01,180 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-08 11:41:01,180 - root - INFO - UPC:======= 10.72===>BUY========>TrendUp1078058
-2025-10-08 11:41:01,199 - root - WARNING - ***** stock is already in the positions
-2025-10-08 11:41:01,200 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 11:41:01,206 - root - INFO - Time since last close for ACXP is 290.22011093333333 minutes, net percent 11.5238
-2025-10-08 11:41:01,250 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
-2025-10-08 11:41:01,251 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 11:41:01,257 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:41:01,257 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 11:41:01,297 - root - INFO - Last 5 minutes maximum volume candle is red for XTLB
-2025-10-08 11:41:01,298 - root - INFO - swing_strategy_open_long for scale 5Min stock AREB
-2025-10-08 11:41:01,304 - root - INFO - Time since last close for AREB is 37.00507996666667 minutes, net percent 10.6891
-2025-10-08 11:41:01,429 - root - INFO - Last 5 minutes maximum volume candle is red for AREB
-2025-10-08 11:41:01,430 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
-2025-10-08 11:41:01,436 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:41:01,436 - root - INFO - Time since last close for NERV is None minutes, net percent 0
-2025-10-08 11:41:01,469 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
-2025-10-08 11:41:01,540 - root - INFO - swing_strategy_close_long for scale 5Min stock UPC
-2025-10-08 11:41:01,581 - root - INFO - Profit percent for UPC is 9.77597
-2025-10-08 11:41:01,581 - root - INFO - Latest 1min close price for UPC: 10.72
-2025-10-08 11:41:01,636 - root - INFO - MACD is still rising for stock UPC
-2025-10-08 11:41:01,636 - root - INFO - Not enough profit percent to scalp for UPC: 9.77597
-2025-10-08 11:41:01,651 - root - INFO -  update_current_price: start time 2025-10-08T11:36:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:41:03,247 - root - INFO -  MACD calculation for PLG due to high change percent: 17.2043
-2025-10-08 11:41:03,308 - root - INFO - MACD not positive for PLG
-2025-10-08 11:41:03,422 - root - INFO -  MACD calculation for PLRZ due to high change percent: 16.3545
-2025-10-08 11:41:03,458 - root - INFO - MACD not positive for PLRZ
-2025-10-08 11:41:04,095 - root - INFO -  update_current_price: start time 2025-10-08T11:36:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:41:05,025 - root - INFO -  MACD calculation for PRME due to high change percent: 13.46
-2025-10-08 11:41:11,495 - root - INFO -  MACD calculation for PXLW due to high change percent: 14.7826
-2025-10-08 11:41:11,547 - root - INFO - MACD not positive for PXLW
-2025-10-08 11:41:12,192 - root - INFO -  update_current_price: start time 2025-10-08T11:36:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:41:12,482 - root - INFO -  MACD calculation for QTTB due to high change percent: 15.0794
-2025-10-08 11:41:12,523 - root - INFO - MACD not positive for QTTB
-2025-10-08 11:41:14,399 - root - INFO -  MACD calculation for RGNX due to high change percent: 10.5614
-2025-10-08 11:41:14,474 - root - INFO -  update_current_price: start time 2025-10-08T11:36:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:41:15,014 - root - INFO -  MACD calculation for RKDA due to high change percent: 13.787
-2025-10-08 11:41:15,694 - root - INFO -  MACD calculation for RNAZ due to high change percent: 16.5663
-2025-10-08 11:41:16,694 - root - INFO - Real mode: Today's profit so far: 793.6299749999998
-2025-10-08 11:41:16,732 - root - INFO - Running real_trade for all top movers
-2025-10-08 11:41:16,770 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 11:41:16,778 - root - INFO - Time since last close for UPC is 246.7629801 minutes, net percent -24.797
-2025-10-08 11:41:16,825 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
-2025-10-08 11:41:16,850 - root - INFO -  MACD calculation for RXRX due to high change percent: 11.7342
-2025-10-08 11:41:16,865 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-08 11:41:16,865 - root - INFO - UPC:======= 10.72===>BUY========>TrendUp1078058
-2025-10-08 11:41:16,906 - root - WARNING - ***** stock is already in the positions
-2025-10-08 11:41:16,906 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 11:41:16,917 - root - INFO - Time since last close for ACXP is 290.4819579333333 minutes, net percent 11.5238
-2025-10-08 11:41:16,970 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
-2025-10-08 11:41:16,971 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 11:41:16,983 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:41:16,983 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 11:41:17,017 - root - INFO - Last 5 minutes maximum volume candle is red for XTLB
-2025-10-08 11:41:17,018 - root - INFO - swing_strategy_open_long for scale 5Min stock AREB
-2025-10-08 11:41:17,030 - root - INFO - Time since last close for AREB is 37.26717031666667 minutes, net percent 10.6891
-2025-10-08 11:41:17,218 - root - INFO - Last 5 minutes maximum volume candle is red for AREB
-2025-10-08 11:41:17,219 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
-2025-10-08 11:41:17,225 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:41:17,225 - root - INFO - Time since last close for NERV is None minutes, net percent 0
-2025-10-08 11:41:17,254 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
-2025-10-08 11:41:17,256 - root - INFO -  update_current_price: start time 2025-10-08T11:36:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:41:17,332 - root - INFO - swing_strategy_close_long for scale 5Min stock UPC
-2025-10-08 11:41:17,372 - root - INFO - Profit percent for UPC is 6.92464
-2025-10-08 11:41:17,373 - root - INFO - Latest 1min close price for UPC: 10.72
-2025-10-08 11:41:17,424 - root - INFO - MACD is still rising for stock UPC
-2025-10-08 11:41:17,424 - root - INFO - Not enough profit percent to scalp for UPC: 6.92464
-2025-10-08 11:41:18,479 - root - INFO -  MACD calculation for SEM due to high change percent: 12.8144
-2025-10-08 11:41:18,542 - root - INFO - MACD not positive for SEM
-2025-10-08 11:41:19,566 - root - INFO -  update_current_price: start time 2025-10-08T11:36:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:41:21,037 - root - INFO -  MACD calculation for SLDB due to high change percent: 13.0435
-2025-10-08 11:41:21,502 - root - INFO -  MACD calculation for SLNH due to high change percent: 10.5271
-2025-10-08 11:41:21,569 - root - INFO - MACD not positive for SLNH
-2025-10-08 11:41:22,434 - root - INFO -  MACD calculation for SNGX due to high change percent: 13.3963
-2025-10-08 11:41:22,521 - root - INFO - MACD not positive for SNGX
-2025-10-08 11:41:22,574 - root - INFO -  update_current_price: start time 2025-10-08T11:36:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:41:24,477 - root - INFO -  MACD calculation for STKH due to high change percent: 12.8
-2025-10-08 11:41:24,792 - root - INFO -  update_current_price: start time 2025-10-08T11:36:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:41:25,992 - root - INFO -  MACD calculation for TAOX due to high change percent: 10.1108
-2025-10-08 11:41:27,042 - root - INFO -  update_current_price: start time 2025-10-08T11:36:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:41:27,646 - root - INFO -  MACD calculation for THM due to high change percent: 12.2995
-2025-10-08 11:41:27,897 - root - INFO -  MACD calculation for TIL due to high change percent: 14.3703
-2025-10-08 11:41:27,948 - root - INFO - MACD not positive for TIL
-2025-10-08 11:41:28,328 - root - INFO -  MACD calculation for TLPH due to high change percent: 11.0556
-2025-10-08 11:41:28,379 - root - INFO - MACD not positive for TLPH
-2025-10-08 11:41:29,569 - root - INFO -  MACD calculation for TRAW due to high change percent: 17.6
-2025-10-08 11:41:29,610 - root - INFO - MACD not positive for TRAW
-2025-10-08 11:41:29,913 - root - INFO -  update_current_price: start time 2025-10-08T11:36:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:41:30,095 - root - INFO -  MACD calculation for TRX due to high change percent: 26.4349
-2025-10-08 11:41:31,733 - root - INFO -  MACD calculation for UK due to high change percent: 11.8734
-2025-10-08 11:41:31,774 - root - INFO - MACD not positive for UK
-2025-10-08 11:41:32,359 - root - INFO -  MACD calculation for UPC due to high change percent: 89.5571
-2025-10-08 11:41:32,466 - root - INFO - Real mode: Today's profit so far: 656.1599749999987
-2025-10-08 11:41:32,486 - root - INFO - Running real_trade for all top movers
-2025-10-08 11:41:32,528 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 11:41:32,536 - root - INFO - Time since last close for UPC is 247.02560243333335 minutes, net percent -24.797
-2025-10-08 11:41:32,587 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
-2025-10-08 11:41:32,638 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-08 11:41:32,638 - root - INFO - UPC:======= 10.72===>BUY========>TrendUp1078058
-2025-10-08 11:41:32,659 - root - WARNING - ***** stock is already in the positions
-2025-10-08 11:41:32,661 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 11:41:32,669 - root - INFO - Time since last close for ACXP is 290.7444879166667 minutes, net percent 11.5238
-2025-10-08 11:41:32,719 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
-2025-10-08 11:41:32,720 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 11:41:32,727 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:41:32,727 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 11:41:32,778 - root - INFO - Last 5 minutes maximum volume candle is red for XTLB
-2025-10-08 11:41:32,779 - root - INFO - swing_strategy_open_long for scale 5Min stock AREB
-2025-10-08 11:41:32,786 - root - INFO - Time since last close for AREB is 37.529769949999995 minutes, net percent 10.6891
-2025-10-08 11:41:32,820 - root - INFO -  update_current_price: start time 2025-10-08T11:36:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:41:32,905 - root - INFO - Last 5 minutes maximum volume candle is red for AREB
-2025-10-08 11:41:32,906 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
-2025-10-08 11:41:32,916 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:41:32,916 - root - INFO - Time since last close for NERV is None minutes, net percent 0
-2025-10-08 11:41:32,946 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
-2025-10-08 11:41:33,022 - root - INFO - swing_strategy_close_long for scale 5Min stock UPC
-2025-10-08 11:41:33,063 - root - INFO - Profit percent for UPC is 7.02648
-2025-10-08 11:41:33,063 - root - INFO - Latest 1min close price for UPC: 10.72
-2025-10-08 11:41:33,122 - root - INFO - MACD is still rising for stock UPC
-2025-10-08 11:41:33,122 - root - INFO - Not enough profit percent to scalp for UPC: 7.02648
-2025-10-08 11:41:34,761 - root - INFO -  update_current_price: start time 2025-10-08T11:36:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:41:36,866 - root - INFO -  update_current_price: start time 2025-10-08T11:36:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:41:37,626 - root - INFO -  MACD calculation for XBIO due to high change percent: 152.807
-2025-10-08 11:41:37,666 - root - INFO - MACD not positive for XBIO
-2025-10-08 11:41:37,785 - root - INFO -  MACD calculation for XCUR due to high change percent: 10.3248
-2025-10-08 11:41:38,729 - root - INFO - FIND stocks Change percent for XTLB: 51.7857
-2025-10-08 11:41:38,730 - root - INFO - XTLB change_percent from DB: 51.7857
-2025-10-08 11:41:38,743 - root - INFO -  MACD calculation for XTLB due to high change percent: 51.7857
-2025-10-08 11:41:38,922 - root - INFO -  MACD calculation for YAAS due to high change percent: 11.2836
-2025-10-08 11:41:39,594 - root - INFO -  update_current_price: start time 2025-10-08T11:36:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:41:40,366 - root - INFO - Updating change percent of stocks
-2025-10-08 11:41:41,194 - root - INFO - XTLB change_percent from DB: 53.21428571428572
-2025-10-08 11:41:41,205 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-08 11:41:48,176 - root - INFO - Real mode: Today's profit so far: 647.6199750000014
-2025-10-08 11:41:48,203 - root - INFO - Running real_trade for all top movers
-2025-10-08 11:41:48,251 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 11:41:48,264 - root - INFO - Time since last close for UPC is 247.28773461666665 minutes, net percent -24.797
-2025-10-08 11:41:48,321 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
-2025-10-08 11:41:48,347 - root - INFO - 1min candle is not positive for UPC: open 10.73 close 10.1
-2025-10-08 11:41:48,348 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 11:41:48,363 - root - INFO - Time since last close for ACXP is 291.0060481666667 minutes, net percent 11.5238
-2025-10-08 11:41:48,426 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
-2025-10-08 11:41:48,427 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 11:41:48,440 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:41:48,440 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 11:41:48,480 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
-2025-10-08 11:41:48,508 - root - INFO - 1min RSI is overbought for XTLB: 73.95414262734127
-2025-10-08 11:41:48,509 - root - INFO - swing_strategy_open_long for scale 5Min stock AREB
-2025-10-08 11:41:48,519 - root - INFO - Time since last close for AREB is 37.791984 minutes, net percent 10.6891
-2025-10-08 11:41:48,670 - root - INFO - Last 5 minutes maximum volume candle is green for AREB
-2025-10-08 11:41:48,697 - root - INFO - 1min candle is not positive for AREB: open 7.81 close 8
-2025-10-08 11:41:48,699 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
-2025-10-08 11:41:48,711 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:41:48,712 - root - INFO - Time since last close for NERV is None minutes, net percent 0
-2025-10-08 11:41:48,755 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
-2025-10-08 11:41:48,828 - root - INFO - ALready an open order
-2025-10-08 11:42:03,870 - root - INFO - Real mode: Today's profit so far: 652.6699750000007
-2025-10-08 11:42:03,892 - root - INFO - Running real_trade for all top movers
-2025-10-08 11:42:03,940 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 11:42:03,950 - root - INFO - Time since last close for UPC is 247.54917723333335 minutes, net percent -24.797
-2025-10-08 11:42:04,011 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
-2025-10-08 11:42:04,036 - root - INFO - 1min candle is not positive for UPC: open 10.73 close 10.1
-2025-10-08 11:42:04,036 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 11:42:04,052 - root - INFO - Time since last close for ACXP is 291.26753048333336 minutes, net percent 11.5238
-2025-10-08 11:42:04,102 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
-2025-10-08 11:42:04,103 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 11:42:04,115 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:42:04,116 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 11:42:04,152 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
-2025-10-08 11:42:04,177 - root - INFO - 1min RSI is overbought for XTLB: 73.95414262734127
-2025-10-08 11:42:04,178 - root - INFO - swing_strategy_open_long for scale 5Min stock AREB
-2025-10-08 11:42:04,189 - root - INFO - Time since last close for AREB is 38.053154533333334 minutes, net percent 10.6891
-2025-10-08 11:42:04,336 - root - INFO - Last 5 minutes maximum volume candle is green for AREB
-2025-10-08 11:42:04,363 - root - INFO - 1min candle is not positive for AREB: open 7.81 close 8
-2025-10-08 11:42:04,364 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
-2025-10-08 11:42:04,378 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:42:04,378 - root - INFO - Time since last close for NERV is None minutes, net percent 0
-2025-10-08 11:42:04,415 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
-2025-10-08 11:42:04,526 - root - INFO - ALready an open order
-2025-10-08 11:42:19,573 - root - INFO - Real mode: Today's profit so far: 661.7899749999997
-2025-10-08 11:42:19,596 - root - INFO - Running real_trade for all top movers
-2025-10-08 11:42:19,644 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 11:42:19,654 - root - INFO - Time since last close for UPC is 247.81091123333331 minutes, net percent -24.797
-2025-10-08 11:42:19,707 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
-2025-10-08 11:42:19,734 - root - INFO - 1min candle is not positive for UPC: open 10.73 close 10.1
-2025-10-08 11:42:19,736 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 11:42:19,745 - root - INFO - Time since last close for ACXP is 291.52908415 minutes, net percent 11.5238
-2025-10-08 11:42:19,801 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
-2025-10-08 11:42:19,802 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 11:42:19,816 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:42:19,816 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 11:42:19,851 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
-2025-10-08 11:42:19,878 - root - INFO - 1min RSI is overbought for XTLB: 73.95414262734127
-2025-10-08 11:42:19,879 - root - INFO - swing_strategy_open_long for scale 5Min stock AREB
-2025-10-08 11:42:19,896 - root - INFO - Time since last close for AREB is 38.314936233333334 minutes, net percent 10.6891
-2025-10-08 11:42:20,019 - root - INFO - Last 5 minutes maximum volume candle is green for AREB
-2025-10-08 11:42:20,044 - root - INFO - 1min candle is not positive for AREB: open 7.81 close 8
-2025-10-08 11:42:20,045 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
-2025-10-08 11:42:20,055 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:42:20,055 - root - INFO - Time since last close for NERV is None minutes, net percent 0
-2025-10-08 11:42:20,097 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
-2025-10-08 11:42:20,188 - root - INFO - ALready an open order
-2025-10-08 11:42:35,228 - root - INFO - Real mode: Today's profit so far: 653.6799749999991
-2025-10-08 11:42:35,250 - root - INFO - Running real_trade for all top movers
-2025-10-08 11:42:35,297 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 11:42:35,309 - root - INFO - Time since last close for UPC is 248.07182865000001 minutes, net percent -24.797
-2025-10-08 11:42:35,369 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
-2025-10-08 11:42:35,398 - root - INFO - 1min candle is not positive for UPC: open 10.73 close 10.1
-2025-10-08 11:42:35,398 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 11:42:35,413 - root - INFO - Time since last close for ACXP is 291.790218 minutes, net percent 11.5238
-2025-10-08 11:42:35,461 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
-2025-10-08 11:42:35,462 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 11:42:35,477 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:42:35,477 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 11:42:35,508 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
-2025-10-08 11:42:35,536 - root - INFO - 1min RSI is overbought for XTLB: 73.95414262734127
-2025-10-08 11:42:35,537 - root - INFO - swing_strategy_open_long for scale 5Min stock AREB
-2025-10-08 11:42:35,547 - root - INFO - Time since last close for AREB is 38.575781 minutes, net percent 10.6891
-2025-10-08 11:42:35,662 - root - INFO - Last 5 minutes maximum volume candle is green for AREB
-2025-10-08 11:42:35,689 - root - INFO - 1min candle is not positive for AREB: open 7.81 close 8
-2025-10-08 11:42:35,690 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
-2025-10-08 11:42:35,704 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:42:35,704 - root - INFO - Time since last close for NERV is None minutes, net percent 0
-2025-10-08 11:42:35,736 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
-2025-10-08 11:42:35,801 - root - INFO - ALready an open order
-2025-10-08 11:42:41,273 - root - INFO - Real mode: Today's profit so far: 620.6499750000003
-2025-10-08 11:42:41,295 - root - INFO - ('2025-10-08T19:40:00-04:00', '2025-10-08T19:40:00-04:00', '2025-10-01T09:30:00-04:00', '2025-10-08T19:40:00-04:00')
-2025-10-08 11:42:41,295 - root - INFO - Screening stocks | Start: 2025-10-01T09:30:00-04:00 | End: 2025-10-08T19:40:00-04:00
-2025-10-08 11:42:41,323 - root - INFO -  update_current_price: start time 2025-10-08T11:37:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:42:41,897 - root - INFO -  MACD calculation for ABSI due to high change percent: 10.5615
-2025-10-08 11:42:41,964 - root - INFO - MACD not positive for ABSI
-2025-10-08 11:42:42,143 - root - INFO -  MACD calculation for ABVE due to high change percent: 24.0688
-2025-10-08 11:42:42,288 - root - INFO -  MACD calculation for ABVEW due to high change percent: 16.8571
-2025-10-08 11:42:43,354 - root - INFO -  MACD calculation for ACXP due to high change percent: 62.1072
-2025-10-08 11:42:44,288 - root - INFO -  MACD calculation for AEI due to high change percent: 11.3027
-2025-10-08 11:42:44,324 - root - INFO - MACD not positive for AEI
-2025-10-08 11:42:44,642 - root - INFO -  update_current_price: start time 2025-10-08T11:37:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:42:44,821 - root - INFO -  MACD calculation for AG due to high change percent: 10.5201
-2025-10-08 11:42:47,284 - root - INFO -  MACD calculation for ALXO due to high change percent: 12.0219
-2025-10-08 11:42:47,953 - root - INFO -  update_current_price: start time 2025-10-08T11:37:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:42:50,254 - root - INFO -  MACD calculation for ARBE due to high change percent: 16.8122
-2025-10-08 11:42:50,314 - root - INFO - MACD not positive for ARBE
-2025-10-08 11:42:50,740 - root - INFO -  MACD calculation for AREB due to high change percent: 49.1419
-2025-10-08 11:42:50,830 - root - INFO - Real mode: Today's profit so far: 562.6199750000014
-2025-10-08 11:42:50,852 - root - INFO - Running real_trade for all top movers
-2025-10-08 11:42:50,891 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 11:42:50,900 - root - INFO - Time since last close for UPC is 248.33167975 minutes, net percent -24.797
-2025-10-08 11:42:50,949 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
-2025-10-08 11:42:50,965 - root - INFO - 1min candle is not positive for UPC: open 10.0959 close 10.23
-2025-10-08 11:42:50,966 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 11:42:50,974 - root - INFO - Time since last close for ACXP is 292.0495664666667 minutes, net percent 11.5238
-2025-10-08 11:42:51,021 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
-2025-10-08 11:42:51,021 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 11:42:51,029 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:42:51,029 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 11:42:51,089 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
-2025-10-08 11:42:51,150 - root - INFO - MACD has been up for last 10 candles for XTLB, not opening long position
-2025-10-08 11:42:51,150 - root - INFO - Trend up basic conditions not met for XTLB: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-08 11:42:51,151 - root - INFO - swing_strategy_open_long for scale 5Min stock AREB
-2025-10-08 11:42:51,158 - root - INFO - Time since last close for AREB is 38.8359712 minutes, net percent 10.6891
-2025-10-08 11:42:51,321 - root - INFO - Last 5 minutes maximum volume candle is green for AREB
-2025-10-08 11:42:51,336 - root - INFO - 9 EMA is in downtrend, not opening long position for AREB
-2025-10-08 11:42:51,337 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
-2025-10-08 11:42:51,343 - root - INFO -  update_current_price: start time 2025-10-08T11:37:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:42:51,344 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:42:51,344 - root - INFO - Time since last close for NERV is None minutes, net percent 0
-2025-10-08 11:42:51,375 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
-2025-10-08 11:42:51,450 - root - INFO - swing_strategy_close_long for scale 5Min stock UPC
-2025-10-08 11:42:51,493 - root - INFO - Profit percent for UPC is 5.90631
-2025-10-08 11:42:51,493 - root - INFO - Latest 1min close price for UPC: 10.23
-2025-10-08 11:42:51,547 - root - INFO - MACD is still rising for stock UPC
-2025-10-08 11:42:51,548 - root - INFO - Not enough profit percent to scalp for UPC: 5.90631
-2025-10-08 11:42:53,477 - root - INFO -  MACD calculation for AUTL due to high change percent: 13.4832
-2025-10-08 11:42:54,060 - root - INFO -  MACD calculation for AVR due to high change percent: 10.984
-2025-10-08 11:42:54,245 - root - INFO -  MACD calculation for AVTX due to high change percent: 13.9095
-2025-10-08 11:42:54,286 - root - INFO - MACD not positive for AVTX
-2025-10-08 11:42:54,402 - root - INFO -  update_current_price: start time 2025-10-08T11:37:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:42:57,510 - root - INFO -  MACD calculation for BFRG due to high change percent: 16.302
-2025-10-08 11:42:57,741 - root - INFO -  update_current_price: start time 2025-10-08T11:37:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:42:58,420 - root - INFO -  MACD calculation for BIAF due to high change percent: 32.1633
-2025-10-08 11:42:59,262 - root - INFO -  MACD calculation for BLBX due to high change percent: 11.2257
-2025-10-08 11:43:00,996 - root - INFO -  MACD calculation for BQ due to high change percent: 12.4242
-2025-10-08 11:43:01,053 - root - INFO - MACD not positive for BQ
-2025-10-08 11:43:01,169 - root - INFO -  update_current_price: start time 2025-10-08T11:38:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:43:03,638 - root - INFO -  MACD calculation for CABA due to high change percent: 11.4224
-2025-10-08 11:43:03,699 - root - INFO - MACD not positive for CABA
-2025-10-08 11:43:03,756 - root - INFO -  MACD calculation for CADL due to high change percent: 11.5453
-2025-10-08 11:43:03,794 - root - INFO - MACD not positive for CADL
-2025-10-08 11:43:04,084 - root - INFO -  update_current_price: start time 2025-10-08T11:38:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:43:04,241 - root - INFO -  MACD calculation for CATX due to high change percent: 11.8156
-2025-10-08 11:43:04,998 - root - INFO -  MACD calculation for CCTG due to high change percent: 12.5
-2025-10-08 11:43:05,053 - root - INFO - MACD not positive for CCTG
-2025-10-08 11:43:05,500 - root - INFO -  MACD calculation for CENX due to high change percent: 10.858
-2025-10-08 11:43:05,563 - root - INFO - MACD not positive for CENX
-2025-10-08 11:43:05,806 - root - INFO -  MACD calculation for CFLT due to high change percent: 10.2026
-2025-10-08 11:43:06,240 - root - INFO -  update_current_price: start time 2025-10-08T11:38:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:43:06,599 - root - INFO - Real mode: Today's profit so far: 553.5499750000017
-2025-10-08 11:43:06,620 - root - INFO - Running real_trade for all top movers
-2025-10-08 11:43:06,662 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 11:43:06,670 - root - INFO - Time since last close for UPC is 248.59451131666668 minutes, net percent -24.797
-2025-10-08 11:43:06,722 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
-2025-10-08 11:43:06,737 - root - INFO - 1min candle is not positive for UPC: open 10.0959 close 10.23
-2025-10-08 11:43:06,738 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 11:43:06,746 - root - INFO - Time since last close for ACXP is 292.31244385 minutes, net percent 11.5238
-2025-10-08 11:43:06,790 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
-2025-10-08 11:43:06,791 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 11:43:06,799 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:43:06,799 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 11:43:06,832 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
-2025-10-08 11:43:06,875 - root - INFO - MACD has been up for last 10 candles for XTLB, not opening long position
-2025-10-08 11:43:06,875 - root - INFO - Trend up basic conditions not met for XTLB: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-08 11:43:06,876 - root - INFO - swing_strategy_open_long for scale 5Min stock AREB
-2025-10-08 11:43:06,883 - root - INFO - Time since last close for AREB is 39.09805491666667 minutes, net percent 10.6891
-2025-10-08 11:43:06,988 - root - INFO - Last 5 minutes maximum volume candle is green for AREB
-2025-10-08 11:43:07,001 - root - INFO - 9 EMA is in downtrend, not opening long position for AREB
-2025-10-08 11:43:07,001 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
-2025-10-08 11:43:07,007 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:43:07,007 - root - INFO - Time since last close for NERV is None minutes, net percent 0
-2025-10-08 11:43:07,036 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
-2025-10-08 11:43:07,092 - root - INFO -  MACD calculation for CLLS due to high change percent: 13.2853
-2025-10-08 11:43:07,109 - root - INFO - swing_strategy_close_long for scale 5Min stock UPC
-2025-10-08 11:43:07,149 - root - INFO - Profit percent for UPC is 4.37882
-2025-10-08 11:43:07,149 - root - INFO - Latest 1min close price for UPC: 10.23
-2025-10-08 11:43:07,201 - root - INFO - MACD is still rising for stock UPC
-2025-10-08 11:43:07,201 - root - INFO - Not enough profit percent to scalp for UPC: 4.37882
-2025-10-08 11:43:07,838 - root - INFO -  update_current_price: start time 2025-10-08T11:38:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:43:09,244 - root - INFO -  MACD calculation for CRBU due to high change percent: 11.9342
-2025-10-08 11:43:09,294 - root - INFO - MACD not positive for CRBU
-2025-10-08 11:43:09,682 - root - INFO -  MACD calculation for CRML due to high change percent: 14.478
-2025-10-08 11:43:09,758 - root - INFO - MACD not positive for CRML
-2025-10-08 11:43:09,817 - root - INFO -  MACD calculation for CRMLW due to high change percent: 29.2544
-2025-10-08 11:43:09,856 - root - INFO - MACD not positive for CRMLW
-2025-10-08 11:43:10,536 - root - INFO -  update_current_price: start time 2025-10-08T11:38:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:43:13,167 - root - INFO -  update_current_price: start time 2025-10-08T11:38:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:43:13,511 - root - INFO -  MACD calculation for DGNX due to high change percent: 22.438
-2025-10-08 11:43:15,949 - root - INFO -  update_current_price: start time 2025-10-08T11:38:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:43:16,467 - root - INFO -  MACD calculation for ECDA due to high change percent: 10.1653
-2025-10-08 11:43:16,508 - root - INFO - MACD not positive for ECDA
-2025-10-08 11:43:16,804 - root - INFO -  MACD calculation for EDIT due to high change percent: 11.8321
-2025-10-08 11:43:17,597 - root - INFO -  MACD calculation for ELBM due to high change percent: 25.1585
-2025-10-08 11:43:17,669 - root - INFO - MACD not positive for ELBM
-2025-10-08 11:43:17,971 - root - INFO -  update_current_price: start time 2025-10-08T11:38:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:43:18,520 - root - INFO -  MACD calculation for EOSEW due to high change percent: 22.8013
-2025-10-08 11:43:20,019 - root - INFO -  MACD calculation for EVAX due to high change percent: 19.0559
-2025-10-08 11:43:20,075 - root - INFO - MACD not positive for EVAX
-2025-10-08 11:43:21,010 - root - INFO -  update_current_price: start time 2025-10-08T11:38:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:43:22,054 - root - INFO -  MACD calculation for FEAM due to high change percent: 16.9565
-2025-10-08 11:43:22,109 - root - INFO - MACD not positive for FEAM
-2025-10-08 11:43:22,241 - root - INFO - Real mode: Today's profit so far: 540.9899750000004
-2025-10-08 11:43:22,262 - root - INFO - Running real_trade for all top movers
-2025-10-08 11:43:22,305 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
-2025-10-08 11:43:22,313 - root - INFO - Time since last close for UPC is 248.85522391666666 minutes, net percent -24.797
-2025-10-08 11:43:22,361 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
-2025-10-08 11:43:22,377 - root - INFO - 1min candle is not positive for UPC: open 10.0959 close 10.23
-2025-10-08 11:43:22,378 - root - INFO - swing_strategy_open_long for scale 5Min stock ACXP
-2025-10-08 11:43:22,387 - root - INFO - Time since last close for ACXP is 292.5731184833333 minutes, net percent 11.5238
-2025-10-08 11:43:22,431 - root - INFO - Last 5 minutes maximum volume candle is red for ACXP
-2025-10-08 11:43:22,432 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
-2025-10-08 11:43:22,441 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:43:22,441 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
-2025-10-08 11:43:22,472 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
-2025-10-08 11:43:22,513 - root - INFO - MACD has been up for last 10 candles for XTLB, not opening long position
-2025-10-08 11:43:22,513 - root - INFO - Trend up basic conditions not met for XTLB: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-08 11:43:22,514 - root - INFO - swing_strategy_open_long for scale 5Min stock AREB
-2025-10-08 11:43:22,520 - root - INFO - Time since last close for AREB is 39.35868106666667 minutes, net percent 10.6891
-2025-10-08 11:43:22,652 - root - INFO - Last 5 minutes maximum volume candle is green for AREB
-2025-10-08 11:43:22,666 - root - INFO - 9 EMA is in downtrend, not opening long position for AREB
-2025-10-08 11:43:22,667 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
-2025-10-08 11:43:22,674 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-08 11:43:22,674 - root - INFO - Time since last close for NERV is None minutes, net percent 0
-2025-10-08 11:43:22,702 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
-2025-10-08 11:43:22,773 - root - INFO - swing_strategy_close_long for scale 5Min stock UPC
-2025-10-08 11:43:22,773 - root - INFO -  update_current_price: start time 2025-10-08T11:38:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:43:22,814 - root - INFO - Profit percent for UPC is 3.97149
-2025-10-08 11:43:22,814 - root - INFO - Latest 1min close price for UPC: 10.23
-2025-10-08 11:43:22,870 - root - INFO - MACD is still rising for stock UPC
-2025-10-08 11:43:22,870 - root - INFO - Not enough profit percent to scalp for UPC: 3.97149
-2025-10-08 11:43:23,624 - root - INFO -  MACD calculation for FTEL due to high change percent: 14.5418
-2025-10-08 11:43:24,482 - root - INFO -  update_current_price: start time 2025-10-08T11:38:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:43:25,947 - root - INFO -  MACD calculation for GIGGW due to high change percent: 33.0776
-2025-10-08 11:43:26,266 - root - INFO -  MACD calculation for GLDG due to high change percent: 13.0282
-2025-10-08 11:43:26,549 - root - INFO -  update_current_price: start time 2025-10-08T11:38:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:43:28,406 - root - INFO -  MACD calculation for GSRT due to high change percent: 12.9167
-2025-10-08 11:43:28,461 - root - INFO - MACD not positive for GSRT
-2025-10-08 11:43:28,885 - root - INFO -  update_current_price: start time 2025-10-08T11:38:00-04:00 end_time 2025-10-08T19:40:00-04:00
-2025-10-08 11:43:29,165 - root - INFO -  MACD calculation for HCWB due to high change percent: 12.4069
+2025-10-08 11:45:49,439 - root - INFO -  MACD calculation for BFRG due to high change percent: 18.1208
+2025-10-08 11:45:49,682 - root - INFO -  update_current_price: start time 2025-10-08T11:40:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:45:50,247 - root - INFO -  MACD calculation for BIAF due to high change percent: 31.4571
+2025-10-08 11:45:50,974 - root - INFO -  MACD calculation for BLBX due to high change percent: 11.2257
+2025-10-08 11:45:52,723 - root - INFO -  update_current_price: start time 2025-10-08T11:40:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:45:55,430 - root - INFO -  MACD calculation for CABA due to high change percent: 10.7759
+2025-10-08 11:45:55,495 - root - INFO - MACD not positive for CABA
+2025-10-08 11:45:55,548 - root - INFO -  MACD calculation for CADL due to high change percent: 11.9005
+2025-10-08 11:45:55,590 - root - INFO - MACD not positive for CADL
+2025-10-08 11:45:56,038 - root - INFO -  update_current_price: start time 2025-10-08T11:40:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:45:56,294 - root - INFO -  MACD calculation for CATX due to high change percent: 11.8156
+2025-10-08 11:45:57,150 - root - INFO -  MACD calculation for CCTG due to high change percent: 11.1111
+2025-10-08 11:45:57,219 - root - INFO - MACD not positive for CCTG
+2025-10-08 11:45:57,834 - root - INFO -  MACD calculation for CENX due to high change percent: 11.57
+2025-10-08 11:45:57,893 - root - INFO - MACD not positive for CENX
+2025-10-08 11:45:58,195 - root - INFO -  MACD calculation for CETY due to high change percent: 10.1598
+2025-10-08 11:45:58,266 - root - INFO - MACD not positive for CETY
+2025-10-08 11:45:58,315 - root - INFO -  MACD calculation for CFLT due to high change percent: 10.2991
+2025-10-08 11:45:58,854 - root - INFO -  update_current_price: start time 2025-10-08T11:40:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:45:59,951 - root - INFO - Real mode: Today's profit so far: 725.3199749999985
+2025-10-08 11:45:59,977 - root - INFO - Running real_trade for all top movers
+2025-10-08 11:46:00,020 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
+2025-10-08 11:46:00,029 - root - INFO - Time since last close for UPC is 251.48381558333332 minutes, net percent -24.797
+2025-10-08 11:46:00,079 - root - INFO - Last 5 minutes maximum volume candle is red for UPC
+2025-10-08 11:46:00,079 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 11:46:00,087 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 11:46:00,088 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 11:46:00,119 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 11:46:00,135 - root - INFO - 1min RSI is overbought for XTLB: 75.69606053068453
+2025-10-08 11:46:00,136 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
+2025-10-08 11:46:00,143 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 11:46:00,144 - root - INFO - Time since last close for NERV is None minutes, net percent 0
+2025-10-08 11:46:00,151 - root - INFO -  MACD calculation for CLLS due to high change percent: 13.7696
+2025-10-08 11:46:00,177 - root - INFO - Last 5 minutes maximum volume candle is green for NERV
+2025-10-08 11:46:00,190 - root - INFO - MACD not positive for CLLS
+2025-10-08 11:46:00,195 - root - INFO - 1min candle is not positive for NERV: open 3.015 close 2.9807
+2025-10-08 11:46:00,195 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
+2025-10-08 11:46:00,204 - root - INFO - Time since last close for BIAF is 95.07007951666667 minutes, net percent -3.53225
+2025-10-08 11:46:00,276 - root - INFO - Last 5 minutes maximum volume candle is green for BIAF
+2025-10-08 11:46:00,288 - root - INFO - 1min candle is not positive for BIAF: open 3.2151 close 3.225
+2025-10-08 11:46:00,509 - root - INFO - swing_strategy_close_long for scale 5Min stock UPC
+2025-10-08 11:46:00,552 - root - INFO - Profit percent for UPC is 3.76782
+2025-10-08 11:46:00,553 - root - INFO - Latest 1min close price for UPC: 10.21
+2025-10-08 11:46:00,615 - root - INFO - MACD is still rising for stock UPC
+2025-10-08 11:46:00,615 - root - INFO - Not enough profit percent to scalp for UPC: 3.76782
+2025-10-08 11:46:00,915 - root - INFO -  update_current_price: start time 2025-10-08T11:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:46:02,394 - root - INFO -  MACD calculation for CRBU due to high change percent: 11.1152
+2025-10-08 11:46:02,449 - root - INFO - MACD not positive for CRBU
+2025-10-08 11:46:02,956 - root - INFO -  MACD calculation for CRML due to high change percent: 14.3483
+2025-10-08 11:46:03,031 - root - INFO - MACD not positive for CRML
+2025-10-08 11:46:03,577 - root - INFO -  update_current_price: start time 2025-10-08T11:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:46:06,355 - root - INFO -  update_current_price: start time 2025-10-08T11:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:46:06,511 - root - INFO -  MACD calculation for DGNX due to high change percent: 22.1074
+2025-10-08 11:46:07,276 - root - INFO -  MACD calculation for DNA due to high change percent: 10.7962
+2025-10-08 11:46:07,343 - root - INFO - MACD not positive for DNA
+2025-10-08 11:46:08,896 - root - INFO -  update_current_price: start time 2025-10-08T11:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:46:09,870 - root - INFO -  MACD calculation for EDIT due to high change percent: 13.855
+2025-10-08 11:46:11,050 - root - INFO -  MACD calculation for ELBM due to high change percent: 25.0
+2025-10-08 11:46:11,110 - root - INFO - MACD not positive for ELBM
+2025-10-08 11:46:11,454 - root - INFO -  update_current_price: start time 2025-10-08T11:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:46:11,923 - root - INFO -  MACD calculation for EOSEW due to high change percent: 22.4756
+2025-10-08 11:46:11,984 - root - INFO - MACD not positive for EOSEW
+2025-10-08 11:46:13,181 - root - INFO -  MACD calculation for EVAX due to high change percent: 19.9301
+2025-10-08 11:46:13,242 - root - INFO - MACD not positive for EVAX
+2025-10-08 11:46:14,053 - root - INFO -  update_current_price: start time 2025-10-08T11:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:46:14,974 - root - INFO -  MACD calculation for FEAM due to high change percent: 15.8696
+2025-10-08 11:46:15,031 - root - INFO - MACD not positive for FEAM
+2025-10-08 11:46:15,663 - root - INFO - Real mode: Today's profit so far: 708.4799749999984
+2025-10-08 11:46:15,685 - root - INFO - Running real_trade for all top movers
+2025-10-08 11:46:15,724 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
+2025-10-08 11:46:15,732 - root - INFO - Time since last close for UPC is 251.74554189999998 minutes, net percent -24.797
+2025-10-08 11:46:15,784 - root - INFO - Last 5 minutes maximum volume candle is red for UPC
+2025-10-08 11:46:15,785 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 11:46:15,792 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 11:46:15,792 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 11:46:15,835 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 11:46:15,851 - root - INFO - 1min RSI is overbought for XTLB: 75.69606053068453
+2025-10-08 11:46:15,851 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
+2025-10-08 11:46:15,858 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 11:46:15,858 - root - INFO - Time since last close for NERV is None minutes, net percent 0
+2025-10-08 11:46:15,887 - root - INFO - Last 5 minutes maximum volume candle is green for NERV
+2025-10-08 11:46:15,900 - root - INFO - 1min candle is not positive for NERV: open 3.015 close 2.9807
+2025-10-08 11:46:15,901 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
+2025-10-08 11:46:15,907 - root - INFO - Time since last close for BIAF is 95.33179646666667 minutes, net percent -3.53225
+2025-10-08 11:46:15,936 - root - INFO -  update_current_price: start time 2025-10-08T11:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:46:15,984 - root - INFO - Last 5 minutes maximum volume candle is green for BIAF
+2025-10-08 11:46:15,998 - root - INFO - 1min candle is not positive for BIAF: open 3.2151 close 3.225
+2025-10-08 11:46:16,072 - root - INFO - swing_strategy_close_long for scale 5Min stock UPC
+2025-10-08 11:46:16,112 - root - INFO - Profit percent for UPC is 1.222
+2025-10-08 11:46:16,112 - root - INFO - Latest 1min close price for UPC: 10.21
+2025-10-08 11:46:16,168 - root - INFO - MACD is still rising for stock UPC
+2025-10-08 11:46:16,169 - root - INFO - Not enough profit percent to scalp for UPC: 1.222
+2025-10-08 11:46:16,730 - root - INFO -  MACD calculation for FTEL due to high change percent: 14.5418
+2025-10-08 11:46:17,741 - root - INFO -  MACD calculation for GAU due to high change percent: 10.1562
+2025-10-08 11:46:17,803 - root - INFO - MACD not positive for GAU
+2025-10-08 11:46:17,855 - root - INFO -  update_current_price: start time 2025-10-08T11:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:46:19,216 - root - INFO -  MACD calculation for GIGGW due to high change percent: 55.8566
+2025-10-08 11:46:19,435 - root - INFO -  MACD calculation for GLDG due to high change percent: 13.2887
+2025-10-08 11:46:19,748 - root - INFO -  update_current_price: start time 2025-10-08T11:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:46:21,662 - root - INFO -  MACD calculation for GSRT due to high change percent: 12.5008
+2025-10-08 11:46:21,724 - root - INFO - MACD not positive for GSRT
+2025-10-08 11:46:22,487 - root - INFO -  update_current_price: start time 2025-10-08T11:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:46:22,984 - root - INFO -  MACD calculation for HCWB due to high change percent: 13.0372
+2025-10-08 11:46:25,095 - root - INFO -  update_current_price: start time 2025-10-08T11:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:46:27,062 - root - INFO -  update_current_price: start time 2025-10-08T11:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:46:27,165 - root - INFO -  MACD calculation for IMAB due to high change percent: 21.0526
+2025-10-08 11:46:27,219 - root - INFO - MACD not positive for IMAB
+2025-10-08 11:46:29,909 - root - INFO -  update_current_price: start time 2025-10-08T11:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:46:31,221 - root - INFO - Real mode: Today's profit so far: 721.3999750000003
+2025-10-08 11:46:31,239 - root - INFO - Running real_trade for all top movers
+2025-10-08 11:46:31,272 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
+2025-10-08 11:46:31,276 - root - INFO - Time since last close for UPC is 252.0046062333333 minutes, net percent -24.797
+2025-10-08 11:46:31,322 - root - INFO - Last 5 minutes maximum volume candle is red for UPC
+2025-10-08 11:46:31,322 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 11:46:31,329 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 11:46:31,329 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 11:46:31,360 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 11:46:31,371 - root - INFO - 1min RSI is overbought for XTLB: 75.69606053068453
+2025-10-08 11:46:31,371 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
+2025-10-08 11:46:31,375 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 11:46:31,375 - root - INFO - Time since last close for NERV is None minutes, net percent 0
+2025-10-08 11:46:31,408 - root - INFO - Last 5 minutes maximum volume candle is green for NERV
+2025-10-08 11:46:31,418 - root - INFO - 1min candle is not positive for NERV: open 3.015 close 2.9807
+2025-10-08 11:46:31,418 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
+2025-10-08 11:46:31,422 - root - INFO - Time since last close for BIAF is 95.59037293333334 minutes, net percent -3.53225
+2025-10-08 11:46:31,490 - root - INFO - Last 5 minutes maximum volume candle is green for BIAF
+2025-10-08 11:46:31,501 - root - INFO - 1min candle is not positive for BIAF: open 3.2151 close 3.225
+2025-10-08 11:46:31,578 - root - INFO - swing_strategy_close_long for scale 5Min stock UPC
+2025-10-08 11:46:31,616 - root - INFO - Profit percent for UPC is 2.85132
+2025-10-08 11:46:31,616 - root - INFO - Latest 1min close price for UPC: 10.21
+2025-10-08 11:46:31,672 - root - INFO - MACD is still rising for stock UPC
+2025-10-08 11:46:31,672 - root - INFO - Not enough profit percent to scalp for UPC: 2.85132
+2025-10-08 11:46:31,781 - root - INFO -  update_current_price: start time 2025-10-08T11:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:46:33,311 - root - INFO -  MACD calculation for KYTX due to high change percent: 29.39
+2025-10-08 11:46:33,369 - root - INFO - MACD not positive for KYTX
+2025-10-08 11:46:33,918 - root - INFO -  MACD calculation for LAZR due to high change percent: 13.2537
+2025-10-08 11:46:33,984 - root - INFO - MACD not positive for LAZR
+2025-10-08 11:46:34,425 - root - INFO -  update_current_price: start time 2025-10-08T11:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:46:35,574 - root - INFO -  MACD calculation for LNZA due to high change percent: 16.7847
+2025-10-08 11:46:35,614 - root - INFO - MACD not positive for LNZA
+2025-10-08 11:46:36,677 - root - INFO -  update_current_price: start time 2025-10-08T11:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:46:39,144 - root - INFO -  update_current_price: start time 2025-10-08T11:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:46:41,055 - root - INFO -  update_current_price: start time 2025-10-08T11:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:46:41,523 - root - INFO -  MACD calculation for MRX due to high change percent: 11.3669
+2025-10-08 11:46:41,578 - root - INFO - MACD not positive for MRX
+2025-10-08 11:46:41,753 - root - INFO -  MACD calculation for MSN due to high change percent: 25.1444
+2025-10-08 11:46:41,809 - root - INFO - MACD not positive for MSN
+2025-10-08 11:46:42,849 - root - INFO -  MACD calculation for MYO due to high change percent: 21.4286
+2025-10-08 11:46:42,916 - root - INFO - MACD not positive for MYO
+2025-10-08 11:46:43,299 - root - INFO -  MACD calculation for NAOV due to high change percent: 13.5621
+2025-10-08 11:46:43,338 - root - INFO - MACD not positive for NAOV
+2025-10-08 11:46:43,456 - root - INFO -  update_current_price: start time 2025-10-08T11:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:46:43,703 - root - INFO -  MACD calculation for NBTX due to high change percent: 23.1998
+2025-10-08 11:46:43,737 - root - INFO - MACD not positive for NBTX
+2025-10-08 11:46:44,475 - root - INFO -  MACD calculation for NERV due to high change percent: 38.0734
+2025-10-08 11:46:45,100 - root - INFO -  MACD calculation for NGNE due to high change percent: 14.2974
+2025-10-08 11:46:46,434 - root - INFO -  update_current_price: start time 2025-10-08T11:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:46:46,713 - root - INFO - Real mode: Today's profit so far: 752.4099749999987
+2025-10-08 11:46:46,736 - root - INFO - Running real_trade for all top movers
+2025-10-08 11:46:46,773 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
+2025-10-08 11:46:46,781 - root - INFO - Time since last close for UPC is 252.26301898333335 minutes, net percent -24.797
+2025-10-08 11:46:46,832 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
+2025-10-08 11:46:46,847 - root - INFO - 1min candle is not positive for UPC: open 10.1919 close 10.01
+2025-10-08 11:46:46,848 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 11:46:46,855 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 11:46:46,856 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 11:46:46,887 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 11:46:46,902 - root - INFO - 1min candle is not positive for XTLB: open 2.265 close 2.235
+2025-10-08 11:46:46,902 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
+2025-10-08 11:46:46,909 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 11:46:46,909 - root - INFO - Time since last close for NERV is None minutes, net percent 0
+2025-10-08 11:46:46,938 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
+2025-10-08 11:46:46,939 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
+2025-10-08 11:46:46,946 - root - INFO - Time since last close for BIAF is 95.84910033333334 minutes, net percent -3.53225
+2025-10-08 11:46:47,015 - root - INFO - Last 5 minutes maximum volume candle is green for BIAF
+2025-10-08 11:46:47,047 - root - INFO -  MACD calculation for NPWR due to high change percent: 16.6667
+2025-10-08 11:46:47,079 - root - INFO - Trend up basic conditions not met for BIAF: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 11:46:47,148 - root - INFO - swing_strategy_close_long for scale 5Min stock UPC
+2025-10-08 11:46:47,188 - root - INFO - Profit percent for UPC is 2.19959
+2025-10-08 11:46:47,188 - root - INFO - Latest 1min close price for UPC: 10.01
+2025-10-08 11:46:47,245 - root - INFO - MACD is still rising for stock UPC
+2025-10-08 11:46:47,246 - root - INFO - Not enough profit percent to scalp for UPC: 2.19959
+2025-10-08 11:46:47,437 - root - INFO -  MACD calculation for NTLA due to high change percent: 23.8992
+2025-10-08 11:46:48,860 - root - INFO -  MACD calculation for NXL due to high change percent: 66.2758
+2025-10-08 11:46:48,944 - root - INFO - MACD not positive for NXL
+2025-10-08 11:46:48,945 - root - INFO -  update_current_price: start time 2025-10-08T11:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:46:50,496 - root - INFO -  MACD calculation for OKYO due to high change percent: 10.3448
+2025-10-08 11:46:50,536 - root - INFO - MACD not positive for OKYO
+2025-10-08 11:46:51,240 - root - INFO -  MACD calculation for ONFO due to high change percent: 17.2897
+2025-10-08 11:46:51,903 - root - INFO -  update_current_price: start time 2025-10-08T11:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:46:53,915 - root - INFO -  MACD calculation for PALI due to high change percent: 18.4524
+2025-10-08 11:46:55,317 - root - INFO -  update_current_price: start time 2025-10-08T11:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:46:57,508 - root - INFO -  MACD calculation for PLG due to high change percent: 17.3835
+2025-10-08 11:46:57,648 - root - INFO -  MACD calculation for PLRZ due to high change percent: 15.4182
+2025-10-08 11:46:57,688 - root - INFO - MACD not positive for PLRZ
+2025-10-08 11:46:58,250 - root - INFO -  update_current_price: start time 2025-10-08T11:41:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:46:59,055 - root - INFO -  MACD calculation for PRME due to high change percent: 12.5298
+2025-10-08 11:47:00,894 - root - INFO -  MACD calculation for PXLW due to high change percent: 13.913
+2025-10-08 11:47:00,949 - root - INFO - MACD not positive for PXLW
+2025-10-08 11:47:01,183 - root - INFO -  MACD calculation for QH due to high change percent: 10.3152
+2025-10-08 11:47:01,231 - root - INFO - MACD not positive for QH
+2025-10-08 11:47:01,714 - root - INFO -  update_current_price: start time 2025-10-08T11:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:47:01,987 - root - INFO -  MACD calculation for QTTB due to high change percent: 16.2698
+2025-10-08 11:47:02,292 - root - INFO - Real mode: Today's profit so far: 841.3699750000014
+2025-10-08 11:47:02,312 - root - INFO - Running real_trade for all top movers
+2025-10-08 11:47:02,349 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
+2025-10-08 11:47:02,357 - root - INFO - Time since last close for UPC is 252.52262071666667 minutes, net percent -24.797
+2025-10-08 11:47:02,404 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
+2025-10-08 11:47:02,418 - root - INFO - 1min candle is not positive for UPC: open 10.1919 close 10.01
+2025-10-08 11:47:02,419 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 11:47:02,426 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 11:47:02,426 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 11:47:02,459 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 11:47:02,472 - root - INFO - 1min candle is not positive for XTLB: open 2.265 close 2.235
+2025-10-08 11:47:02,473 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
+2025-10-08 11:47:02,480 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 11:47:02,480 - root - INFO - Time since last close for NERV is None minutes, net percent 0
+2025-10-08 11:47:02,512 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
+2025-10-08 11:47:02,512 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
+2025-10-08 11:47:02,519 - root - INFO - Time since last close for BIAF is 96.10865001666666 minutes, net percent -3.53225
+2025-10-08 11:47:02,583 - root - INFO -  MACD calculation for RCKT due to high change percent: 10.6688
+2025-10-08 11:47:02,586 - root - INFO - Last 5 minutes maximum volume candle is green for BIAF
+2025-10-08 11:47:02,642 - root - INFO - Trend up basic conditions not met for BIAF: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 11:47:02,713 - root - INFO - swing_strategy_close_long for scale 5Min stock UPC
+2025-10-08 11:47:02,760 - root - INFO - Profit percent for UPC is 2.13849
+2025-10-08 11:47:02,760 - root - INFO - Latest 1min close price for UPC: 10.01
+2025-10-08 11:47:02,816 - root - INFO - MACD is still rising for stock UPC
+2025-10-08 11:47:02,816 - root - INFO - Not enough profit percent to scalp for UPC: 2.13849
+2025-10-08 11:47:03,621 - root - INFO -  MACD calculation for RGNX due to high change percent: 11.9886
+2025-10-08 11:47:03,747 - root - INFO -  update_current_price: start time 2025-10-08T11:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:47:04,582 - root - INFO -  MACD calculation for RNAZ due to high change percent: 16.0057
+2025-10-08 11:47:05,945 - root - INFO -  MACD calculation for RXRX due to high change percent: 16.1568
+2025-10-08 11:47:06,525 - root - INFO -  update_current_price: start time 2025-10-08T11:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:47:06,986 - root - INFO -  MACD calculation for SANA due to high change percent: 10.0728
+2025-10-08 11:47:07,224 - root - INFO -  MACD calculation for SAVA due to high change percent: 10.117
+2025-10-08 11:47:08,439 - root - INFO -  MACD calculation for SEM due to high change percent: 12.4233
+2025-10-08 11:47:08,501 - root - INFO - MACD not positive for SEM
+2025-10-08 11:47:09,498 - root - INFO -  update_current_price: start time 2025-10-08T11:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:47:10,811 - root - INFO -  MACD calculation for SLDB due to high change percent: 14.8551
+2025-10-08 11:47:11,274 - root - INFO -  MACD calculation for SLNH due to high change percent: 10.6404
+2025-10-08 11:47:11,345 - root - INFO - MACD not positive for SLNH
+2025-10-08 11:47:12,257 - root - INFO -  MACD calculation for SNGX due to high change percent: 12.8049
+2025-10-08 11:47:12,322 - root - INFO - MACD not positive for SNGX
+2025-10-08 11:47:12,322 - root - INFO -  update_current_price: start time 2025-10-08T11:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:47:14,494 - root - INFO -  update_current_price: start time 2025-10-08T11:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:47:15,008 - root - INFO -  MACD calculation for SVIIW due to high change percent: 10.0899
+2025-10-08 11:47:16,363 - root - INFO -  MACD calculation for TDOC due to high change percent: 10.1553
+2025-10-08 11:47:16,423 - root - INFO - MACD not positive for TDOC
+2025-10-08 11:47:16,662 - root - INFO -  update_current_price: start time 2025-10-08T11:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:47:17,678 - root - INFO -  MACD calculation for THM due to high change percent: 12.8342
+2025-10-08 11:47:17,860 - root - INFO - Real mode: Today's profit so far: 890.7699749999992
+2025-10-08 11:47:17,882 - root - INFO - Running real_trade for all top movers
+2025-10-08 11:47:17,920 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
+2025-10-08 11:47:17,927 - root - INFO - Time since last close for UPC is 252.78211733333333 minutes, net percent -24.797
+2025-10-08 11:47:17,975 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
+2025-10-08 11:47:17,990 - root - INFO - 1min candle is not positive for UPC: open 10.1919 close 10.01
+2025-10-08 11:47:17,991 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 11:47:17,998 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 11:47:17,998 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 11:47:18,031 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 11:47:18,044 - root - INFO - 1min candle is not positive for XTLB: open 2.265 close 2.235
+2025-10-08 11:47:18,045 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
+2025-10-08 11:47:18,051 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 11:47:18,051 - root - INFO - Time since last close for NERV is None minutes, net percent 0
+2025-10-08 11:47:18,092 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
+2025-10-08 11:47:18,093 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
+2025-10-08 11:47:18,100 - root - INFO - Time since last close for BIAF is 96.36833265 minutes, net percent -3.53225
+2025-10-08 11:47:18,167 - root - INFO - Last 5 minutes maximum volume candle is green for BIAF
+2025-10-08 11:47:18,218 - root - INFO - Trend up basic conditions not met for BIAF: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 11:47:18,286 - root - INFO - swing_strategy_close_long for scale 5Min stock UPC
+2025-10-08 11:47:18,327 - root - INFO - Profit percent for UPC is 1.93483
+2025-10-08 11:47:18,327 - root - INFO - Latest 1min close price for UPC: 10.01
+2025-10-08 11:47:18,381 - root - INFO - MACD is still rising for stock UPC
+2025-10-08 11:47:18,381 - root - INFO - Not enough profit percent to scalp for UPC: 1.93483
+2025-10-08 11:47:18,736 - root - INFO -  MACD calculation for TRAW due to high change percent: 17.6
+2025-10-08 11:47:18,777 - root - INFO - MACD not positive for TRAW
+2025-10-08 11:47:19,073 - root - INFO -  update_current_price: start time 2025-10-08T11:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:47:19,233 - root - INFO -  MACD calculation for TRX due to high change percent: 24.8666
+2025-10-08 11:47:21,486 - root - INFO -  MACD calculation for UPC due to high change percent: 94.1992
+2025-10-08 11:47:22,129 - root - INFO -  update_current_price: start time 2025-10-08T11:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:47:24,215 - root - INFO -  update_current_price: start time 2025-10-08T11:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:47:25,569 - root - INFO -  MACD calculation for WBX due to high change percent: 15.3239
+2025-10-08 11:47:25,606 - root - INFO - MACD not positive for WBX
+2025-10-08 11:47:26,778 - root - INFO -  update_current_price: start time 2025-10-08T11:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:47:27,475 - root - INFO -  MACD calculation for XBIO due to high change percent: 146.387
+2025-10-08 11:47:27,530 - root - INFO - MACD not positive for XBIO
+2025-10-08 11:47:27,585 - root - INFO -  MACD calculation for XCUR due to high change percent: 13.0209
+2025-10-08 11:47:28,283 - root - INFO - FIND stocks Change percent for XTLB: 57.1429
+2025-10-08 11:47:28,283 - root - INFO - XTLB change_percent from DB: 57.1429
+2025-10-08 11:47:28,297 - root - INFO -  MACD calculation for XTLB due to high change percent: 57.1429
+2025-10-08 11:47:28,463 - root - INFO -  MACD calculation for YAAS due to high change percent: 10.52
+2025-10-08 11:47:28,880 - root - INFO -  MACD calculation for YTRA due to high change percent: 15.1899
+2025-10-08 11:47:28,920 - root - INFO - MACD not positive for YTRA
+2025-10-08 11:47:29,095 - root - INFO -  update_current_price: start time 2025-10-08T11:42:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:47:29,656 - root - INFO - Updating change percent of stocks
+2025-10-08 11:47:30,467 - root - INFO - XTLB change_percent from DB: 59.64285714285714
+2025-10-08 11:47:30,477 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-08 11:47:33,433 - root - INFO - Real mode: Today's profit so far: 868.2499749999988
+2025-10-08 11:47:33,457 - root - INFO - Running real_trade for all top movers
+2025-10-08 11:47:33,503 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
+2025-10-08 11:47:33,515 - root - INFO - Time since last close for UPC is 253.04191266666666 minutes, net percent -24.797
+2025-10-08 11:47:33,570 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
+2025-10-08 11:47:33,598 - root - INFO - 1min candle is not positive for UPC: open 10.1919 close 10.01
+2025-10-08 11:47:33,600 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 11:47:33,610 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 11:47:33,610 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 11:47:33,692 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 11:47:33,717 - root - INFO - 1min candle is not positive for XTLB: open 2.265 close 2.235
+2025-10-08 11:47:33,718 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
+2025-10-08 11:47:33,730 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 11:47:33,730 - root - INFO - Time since last close for NERV is None minutes, net percent 0
+2025-10-08 11:47:33,764 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
+2025-10-08 11:47:33,765 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
+2025-10-08 11:47:33,778 - root - INFO - Time since last close for BIAF is 96.62963843333334 minutes, net percent -3.53225
+2025-10-08 11:47:33,866 - root - INFO - Last 5 minutes maximum volume candle is green for BIAF
+2025-10-08 11:47:33,940 - root - INFO - Trend up basic conditions not met for BIAF: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-08 11:47:34,029 - root - INFO - swing_strategy_close_long for scale 5Min stock UPC
+2025-10-08 11:47:34,077 - root - INFO - Profit percent for UPC is 1.87169
+2025-10-08 11:47:34,077 - root - INFO - Latest 1min close price for UPC: 10.01
+2025-10-08 11:47:34,165 - root - INFO - MACD is still rising for stock UPC
+2025-10-08 11:47:34,165 - root - INFO - Not enough profit percent to scalp for UPC: 1.87169
+2025-10-08 11:47:49,224 - root - INFO - Real mode: Today's profit so far: 847.6099749999994
+2025-10-08 11:47:49,249 - root - INFO - Running real_trade for all top movers
+2025-10-08 11:47:49,296 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
+2025-10-08 11:47:49,310 - root - INFO - Time since last close for UPC is 253.30516338333334 minutes, net percent -24.797
+2025-10-08 11:47:49,390 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
+2025-10-08 11:47:49,407 - root - INFO - 1min candle is not positive for UPC: open 10.02 close 9.7
+2025-10-08 11:47:49,408 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 11:47:49,417 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 11:47:49,417 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 11:47:49,454 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 11:47:49,473 - root - INFO - 1min candle is not positive for XTLB: open 2.23 close 2.2101
+2025-10-08 11:47:49,474 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
+2025-10-08 11:47:49,484 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 11:47:49,484 - root - INFO - Time since last close for NERV is None minutes, net percent 0
+2025-10-08 11:47:49,517 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
+2025-10-08 11:47:49,518 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
+2025-10-08 11:47:49,528 - root - INFO - Time since last close for BIAF is 96.89214541666666 minutes, net percent -3.53225
+2025-10-08 11:47:49,607 - root - INFO - Last 5 minutes maximum volume candle is red for BIAF
+2025-10-08 11:47:49,710 - root - INFO - swing_strategy_close_long for scale 5Min stock UPC
+2025-10-08 11:47:49,762 - root - INFO - Profit percent for UPC is 0.101833
+2025-10-08 11:47:49,762 - root - INFO - Latest 1min close price for UPC: 9.7
+2025-10-08 11:47:49,844 - root - INFO - No close long conditions met for UPC
+2025-10-08 11:48:04,897 - root - INFO - Real mode: Today's profit so far: 791.2099750000016
+2025-10-08 11:48:04,919 - root - INFO - Running real_trade for all top movers
+2025-10-08 11:48:04,968 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
+2025-10-08 11:48:04,980 - root - INFO - Time since last close for UPC is 253.5663389 minutes, net percent -24.797
+2025-10-08 11:48:05,034 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
+2025-10-08 11:48:05,060 - root - INFO - 1min candle is not positive for UPC: open 10.02 close 9.7
+2025-10-08 11:48:05,062 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 11:48:05,074 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 11:48:05,075 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 11:48:05,111 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 11:48:05,135 - root - INFO - 1min candle is not positive for XTLB: open 2.23 close 2.2101
+2025-10-08 11:48:05,136 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
+2025-10-08 11:48:05,149 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 11:48:05,149 - root - INFO - Time since last close for NERV is None minutes, net percent 0
+2025-10-08 11:48:05,190 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
+2025-10-08 11:48:05,191 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
+2025-10-08 11:48:05,205 - root - INFO - Time since last close for BIAF is 97.15341725 minutes, net percent -3.53225
+2025-10-08 11:48:05,283 - root - INFO - Last 5 minutes maximum volume candle is red for BIAF
+2025-10-08 11:48:05,361 - root - INFO - swing_strategy_close_long for scale 5Min stock UPC
+2025-10-08 11:48:05,416 - root - INFO - Profit percent for UPC is -1.73116
+2025-10-08 11:48:05,416 - root - INFO - Latest 1min close price for UPC: 9.7
+2025-10-08 11:48:05,493 - root - INFO - No close long conditions met for UPC
+2025-10-08 11:48:20,550 - root - INFO - Real mode: Today's profit so far: 754.6399749999982
+2025-10-08 11:48:20,578 - root - INFO - Running real_trade for all top movers
+2025-10-08 11:48:20,629 - root - INFO - swing_strategy_open_long for scale 5Min stock UPC
+2025-10-08 11:48:20,640 - root - INFO - Time since last close for UPC is 253.82733208333332 minutes, net percent -24.797
+2025-10-08 11:48:20,698 - root - INFO - Last 5 minutes maximum volume candle is green for UPC
+2025-10-08 11:48:20,721 - root - INFO - 1min candle is not positive for UPC: open 10.02 close 9.7
+2025-10-08 11:48:20,722 - root - INFO - swing_strategy_open_long for scale 5Min stock XTLB
+2025-10-08 11:48:20,734 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 11:48:20,734 - root - INFO - Time since last close for XTLB is None minutes, net percent 0
+2025-10-08 11:48:20,771 - root - INFO - Last 5 minutes maximum volume candle is green for XTLB
+2025-10-08 11:48:20,796 - root - INFO - 1min candle is not positive for XTLB: open 2.23 close 2.2101
+2025-10-08 11:48:20,798 - root - INFO - swing_strategy_open_long for scale 5Min stock NERV
+2025-10-08 11:48:20,810 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-08 11:48:20,811 - root - INFO - Time since last close for NERV is None minutes, net percent 0
+2025-10-08 11:48:20,876 - root - INFO - Last 5 minutes maximum volume candle is red for NERV
+2025-10-08 11:48:20,877 - root - INFO - swing_strategy_open_long for scale 5Min stock BIAF
+2025-10-08 11:48:20,890 - root - INFO - Time since last close for BIAF is 97.41483341666667 minutes, net percent -3.53225
+2025-10-08 11:48:21,051 - root - INFO - Last 5 minutes maximum volume candle is red for BIAF
+2025-10-08 11:48:21,135 - root - INFO - swing_strategy_close_long for scale 5Min stock UPC
+2025-10-08 11:48:21,193 - root - INFO - Profit percent for UPC is -0.610998
+2025-10-08 11:48:21,193 - root - INFO - Latest 1min close price for UPC: 9.7
+2025-10-08 11:48:21,276 - root - INFO - No close long conditions met for UPC
+2025-10-08 11:48:30,555 - root - INFO - Real mode: Today's profit so far: 755.5599750000001
+2025-10-08 11:48:30,578 - root - INFO - ('2025-10-08T19:40:00-04:00', '2025-10-08T19:40:00-04:00', '2025-10-01T09:30:00-04:00', '2025-10-08T19:40:00-04:00')
+2025-10-08 11:48:30,578 - root - INFO - Screening stocks | Start: 2025-10-01T09:30:00-04:00 | End: 2025-10-08T19:40:00-04:00
+2025-10-08 11:48:30,606 - root - INFO -  update_current_price: start time 2025-10-08T11:43:00-04:00 end_time 2025-10-08T19:40:00-04:00
+2025-10-08 11:48:30,893 - root - INFO -  MACD calculation for ABCL due to high change percent: 10.2253
+2025-10-08 11:48:31,245 - root - INFO -  MACD calculation for ABSI due to high change percent: 12.8289
+2025-10-08 11:48:31,415 - root - INFO -  MACD calculation for ABVE due to high change percent: 23.1805
+2025-10-08 11:48:31,552 - root - INFO -  MACD calculation for ABVEW due to high change percent: 21.4286
+2025-10-08 11:48:31,985 - root - INFO -  MACD calculation for ACXP due to high change percent: 58.676
+2025-10-08 11:48:32,027 - root - INFO - MACD not positive for ACXP
+2025-10-08 11:48:32,396 - root - INFO -  MACD calculation for AEI due to high change percent: 12.2605
+2025-10-08 11:48:32,433 - root - INFO - MACD not positive for AEI
+2025-10-08 11:48:32,590 - root - INFO -  update_current_price: start time 2025-10-08T11:43:00-04:00 end_time 2025-10-08T19:40:00-04:00
