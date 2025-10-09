@@ -2,8 +2,9 @@ Top Movers:
 +--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  BAOS  |      0      |     0     |    129.909     | 8402754 |      7.61     |        3.31        |   900000.0   |  3.392   |   957839   |      0      | 2025-10-09 04:33:35 |
-|  TELO  |      0      |     0     |    36.9697     | 2730460 |      2.26     |        1.65        |  17250000.0  |  1.532   |  8164566   |      0      | 2025-10-09 04:33:43 |
+|  BAOS  |      0      |     0     |    126.284     | 9066795 |      7.49     |        3.31        |   900000.0   |  3.392   |   957839   |      0      | 2025-10-09 04:38:22 |
+|  TELO  |      0      |     0     |    36.3636     | 3136632 |      2.25     |        1.65        |  17250000.0  |  1.532   |  8164566   |      0      | 2025-10-09 04:38:29 |
+|  CDT   |      1      |     0     |     35.722     | 1306451 |      1.0      |       0.7368       |  9640000.0   |  0.738   |  5363070   |      0      | 2025-10-09 04:38:23 |
 +--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -17,403 +18,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-09 04:31:21,140 - root - INFO - Going loop for 2 stocks
-2025-10-09 04:31:21,192 - root - INFO - FIND stocks Change percent for XTLB: -11.2195
-2025-10-09 04:31:21,267 - root - INFO -  update_current_price: start time 2025-10-09T04:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:31:21,292 - root - INFO - Going loop for 0 stocks
-2025-10-09 04:31:21,293 - root - INFO - Updating change percent of stocks
-2025-10-09 04:31:21,936 - root - INFO - XTLB change_percent from DB: -11.21951219512194
-2025-10-09 04:31:21,944 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-09 04:31:33,686 - root - INFO - Real mode: Today's profit so far: 139.58997499999896
-2025-10-09 04:31:33,708 - root - INFO - Running real_trade for all top movers
-2025-10-09 04:31:33,766 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 04:31:33,779 - root - INFO - Time since last close for BAOS is 8.2296475 minutes, net percent 10.7143
-2025-10-09 04:31:33,779 - root - INFO - ***** stock: BAOS Scale: 5Min Time since last close: 8 minutes
-2025-10-09 04:31:33,780 - root - INFO - swing_strategy_open_long for scale 5Min stock TELO
-2025-10-09 04:31:33,794 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 04:31:33,794 - root - INFO - Time since last close for TELO is None minutes, net percent 0
-2025-10-09 04:31:33,972 - root - INFO - Last 5 minutes maximum volume candle is red for TELO
-2025-10-09 04:31:34,087 - root - INFO - swing_strategy_close_long for scale 5Min stock SUGP
-2025-10-09 04:31:34,138 - root - INFO - Profit percent for SUGP is -8.57449
-2025-10-09 04:31:34,138 - root - INFO - Latest 1min close price for SUGP: 8.49
-2025-10-09 04:31:34,241 - root - INFO - MACD is still rising for stock SUGP
-2025-10-09 04:31:34,241 - root - INFO - Not enough profit percent to scalp for SUGP: -8.57449
-2025-10-09 04:31:34,280 - root - INFO - swing_strategy_close_long for scale 5Min stock TELO
-2025-10-09 04:31:34,777 - root - INFO - Profit percent for TELO is 7.65661
-2025-10-09 04:31:34,777 - root - INFO - Latest 1min close price for TELO: 2.31
-2025-10-09 04:31:34,872 - root - INFO - MACD is still rising for stock TELO
-2025-10-09 04:31:34,873 - root - INFO - Not enough profit percent to scalp for TELO: 7.65661
-2025-10-09 04:31:49,965 - root - INFO - Real mode: Today's profit so far: 88.56997499999852
-2025-10-09 04:31:49,986 - root - INFO - Running real_trade for all top movers
-2025-10-09 04:31:50,042 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 04:31:50,056 - root - INFO - Time since last close for BAOS is 8.500934516666666 minutes, net percent 10.7143
-2025-10-09 04:31:50,056 - root - INFO - ***** stock: BAOS Scale: 5Min Time since last close: 8 minutes
-2025-10-09 04:31:50,057 - root - INFO - swing_strategy_open_long for scale 5Min stock TELO
-2025-10-09 04:31:50,070 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 04:31:50,071 - root - INFO - Time since last close for TELO is None minutes, net percent 0
-2025-10-09 04:31:50,282 - root - INFO - Last 5 minutes maximum volume candle is red for TELO
-2025-10-09 04:31:50,364 - root - INFO - swing_strategy_close_long for scale 5Min stock SUGP
-2025-10-09 04:31:50,411 - root - INFO - Profit percent for SUGP is -8.57449
-2025-10-09 04:31:50,411 - root - INFO - Latest 1min close price for SUGP: 8.53
-2025-10-09 04:31:50,496 - root - INFO - MACD is still rising for stock SUGP
-2025-10-09 04:31:50,497 - root - INFO - Not enough profit percent to scalp for SUGP: -8.57449
-2025-10-09 04:31:50,528 - root - INFO - swing_strategy_close_long for scale 5Min stock TELO
-2025-10-09 04:31:50,664 - root - INFO - Profit percent for TELO is 8.58469
-2025-10-09 04:31:50,664 - root - INFO - Latest 1min close price for TELO: 2.31
-2025-10-09 04:31:50,780 - root - INFO - MACD is still rising for stock TELO
-2025-10-09 04:31:50,781 - root - INFO - Not enough profit percent to scalp for TELO: 8.58469
-2025-10-09 04:32:05,853 - root - INFO - Real mode: Today's profit so far: 65.36997500000143
-2025-10-09 04:32:05,874 - root - INFO - Running real_trade for all top movers
-2025-10-09 04:32:05,934 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 04:32:05,945 - root - INFO - Time since last close for BAOS is 8.765751966666667 minutes, net percent 10.7143
-2025-10-09 04:32:05,945 - root - INFO - ***** stock: BAOS Scale: 5Min Time since last close: 8 minutes
-2025-10-09 04:32:05,946 - root - INFO - swing_strategy_open_long for scale 5Min stock TELO
-2025-10-09 04:32:05,957 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 04:32:05,958 - root - INFO - Time since last close for TELO is None minutes, net percent 0
-2025-10-09 04:32:06,794 - root - INFO - Last 5 minutes maximum volume candle is red for TELO
-2025-10-09 04:32:06,891 - root - INFO - swing_strategy_close_long for scale 5Min stock SUGP
-2025-10-09 04:32:06,940 - root - INFO - Profit percent for SUGP is -9.96785
-2025-10-09 04:32:06,940 - root - INFO - Latest 1min close price for SUGP: 8.53
-2025-10-09 04:32:07,018 - root - INFO - MACD is still rising for stock SUGP
-2025-10-09 04:32:07,018 - root - INFO - Not enough profit percent to scalp for SUGP: -9.96785
-2025-10-09 04:32:07,043 - root - INFO - swing_strategy_close_long for scale 5Min stock TELO
-2025-10-09 04:32:07,172 - root - INFO - Profit percent for TELO is 6.96056
-2025-10-09 04:32:07,172 - root - INFO - Latest 1min close price for TELO: 2.31
-2025-10-09 04:32:07,266 - root - INFO - MACD is still rising for stock TELO
-2025-10-09 04:32:07,266 - root - INFO - Not enough profit percent to scalp for TELO: 6.96056
-2025-10-09 04:32:12,957 - root - INFO - Resetting stock DB fields...
-2025-10-09 04:32:12,957 - root - INFO - Parameters - price_update_clear: False, buy_sell_clear: True, scan_clear: False, clear_for_day: False
-2025-10-09 04:32:13,015 - root - INFO - Stock DB fields reset completed.
-2025-10-09 04:32:13,056 - root - CRITICAL - Waiting for market to open...
-2025-10-09 04:32:13,057 - root - CRITICAL - Price update completed.
-2025-10-09 04:32:13,057 - root - CRITICAL - Market opened.
-2025-10-09 04:32:13,057 - root - INFO - STARTING BUY-SELL THREAD
-2025-10-09 04:32:13,082 - root - INFO - Running real_trade for all top movers
-2025-10-09 04:32:13,111 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 04:32:13,118 - root - INFO - Time since last close for BAOS is 8.885299049999999 minutes, net percent 10.7143
-2025-10-09 04:32:13,118 - root - INFO - ***** stock: BAOS Scale: 5Min Time since last close: 8 minutes
-2025-10-09 04:32:13,118 - root - INFO - swing_strategy_open_long for scale 5Min stock TELO
-2025-10-09 04:32:13,123 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 04:32:13,123 - root - INFO - Time since last close for TELO is None minutes, net percent 0
-2025-10-09 04:32:13,320 - root - INFO - Last 5 minutes maximum volume candle is red for TELO
-2025-10-09 04:32:13,393 - root - INFO - swing_strategy_close_long for scale 5Min stock SUGP
-2025-10-09 04:32:13,445 - root - INFO - Profit percent for SUGP is -12.325830653804932
-2025-10-09 04:32:13,445 - root - INFO - Latest 1min close price for SUGP: 8.53
-2025-10-09 04:32:13,528 - root - INFO - MACD is still rising for stock SUGP
-2025-10-09 04:32:13,528 - root - INFO - Not enough profit percent to scalp for SUGP: -12.325830653804932
-2025-10-09 04:32:13,553 - root - INFO - swing_strategy_close_long for scale 5Min stock TELO
-2025-10-09 04:32:13,979 - root - INFO - Profit percent for TELO is 5.348837209302325
-2025-10-09 04:32:13,979 - root - INFO - Latest 1min close price for TELO: 2.31
-2025-10-09 04:32:14,078 - root - INFO - MACD is still rising for stock TELO
-2025-10-09 04:32:14,078 - root - INFO - Not enough profit percent to scalp for TELO: 5.348837209302325
-2025-10-09 04:32:21,979 - root - INFO - Real mode: Today's profit so far: 25.76997499999925
-2025-10-09 04:32:21,998 - root - INFO - ('2025-10-09T20:58:00-04:00', '2025-10-09T20:58:00-04:00', '2025-10-02T09:30:00-04:00', '2025-10-09T20:58:00-04:00')
-2025-10-09 04:32:21,998 - root - INFO - Screening stocks | Start: 2025-10-02T09:30:00-04:00 | End: 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:22,049 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:22,085 - root - INFO - Going loop for 5 stocks
-2025-10-09 04:32:22,385 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:22,424 - root - INFO - Going loop for 1 stocks
-2025-10-09 04:32:22,492 - root - INFO -  MACD calculation for AMBO due to high change percent: 55.1821
-2025-10-09 04:32:22,517 - root - INFO - MACD not positive for AMBO
-2025-10-09 04:32:22,518 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:22,551 - root - INFO - Going loop for 5 stocks
-2025-10-09 04:32:22,896 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:22,936 - root - INFO - Going loop for 2 stocks
-2025-10-09 04:32:23,056 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:23,087 - root - INFO - Going loop for 5 stocks
-2025-10-09 04:32:23,207 - root - INFO -  MACD calculation for BAOS due to high change percent: 138.973
-2025-10-09 04:32:23,409 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:23,441 - root - INFO - Going loop for 3 stocks
-2025-10-09 04:32:23,620 - root - INFO -  MACD calculation for BNAI due to high change percent: 13.0665
-2025-10-09 04:32:23,697 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:23,731 - root - INFO - Going loop for 4 stocks
-2025-10-09 04:32:23,932 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:23,965 - root - INFO - Going loop for 2 stocks
-2025-10-09 04:32:24,074 - root - INFO -  MACD calculation for CDT due to high change percent: 23.9142
-2025-10-09 04:32:24,134 - root - INFO - MACD not positive for CDT
-2025-10-09 04:32:24,135 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:24,168 - root - INFO - Going loop for 4 stocks
-2025-10-09 04:32:24,426 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:24,466 - root - INFO - Going loop for 1 stocks
-2025-10-09 04:32:24,543 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:24,578 - root - INFO - Going loop for 2 stocks
-2025-10-09 04:32:24,702 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:24,735 - root - INFO - Going loop for 2 stocks
-2025-10-09 04:32:24,858 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:24,889 - root - INFO - Going loop for 0 stocks
-2025-10-09 04:32:24,889 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:24,920 - root - INFO - Going loop for 1 stocks
-2025-10-09 04:32:25,006 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:25,040 - root - INFO - Going loop for 0 stocks
-2025-10-09 04:32:25,041 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:25,076 - root - INFO - Going loop for 3 stocks
-2025-10-09 04:32:25,272 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:25,303 - root - INFO - Going loop for 2 stocks
-2025-10-09 04:32:25,440 - root - INFO -  MACD calculation for GLDG due to high change percent: 12.1951
-2025-10-09 04:32:25,505 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:25,538 - root - INFO - Going loop for 2 stocks
-2025-10-09 04:32:25,657 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:26,520 - root - INFO - Going loop for 3 stocks
-2025-10-09 04:32:26,721 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:26,754 - root - INFO - Going loop for 0 stocks
-2025-10-09 04:32:26,755 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:26,793 - root - INFO - Going loop for 3 stocks
-2025-10-09 04:32:26,995 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:27,028 - root - INFO - Going loop for 2 stocks
-2025-10-09 04:32:27,172 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:27,202 - root - INFO - Going loop for 2 stocks
-2025-10-09 04:32:27,345 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:27,378 - root - INFO - Going loop for 0 stocks
-2025-10-09 04:32:27,378 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:27,415 - root - INFO - Going loop for 4 stocks
-2025-10-09 04:32:27,663 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:27,702 - root - INFO - Going loop for 1 stocks
-2025-10-09 04:32:27,774 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:27,814 - root - INFO - Going loop for 5 stocks
-2025-10-09 04:32:28,110 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:28,152 - root - INFO - Going loop for 1 stocks
-2025-10-09 04:32:28,230 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:28,263 - root - INFO - Going loop for 2 stocks
-2025-10-09 04:32:28,397 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:28,432 - root - INFO - Going loop for 4 stocks
-2025-10-09 04:32:28,648 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:29,070 - root - INFO - Going loop for 1 stocks
-2025-10-09 04:32:29,124 - root - INFO - Real mode: Today's profit so far: 23.62997499999983
-2025-10-09 04:32:29,146 - root - INFO - Running real_trade for all top movers
-2025-10-09 04:32:29,148 - root - INFO -  MACD calculation for OVID due to high change percent: 17.0886
-2025-10-09 04:32:29,195 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 04:32:29,207 - root - INFO - Time since last close for BAOS is 9.15345755 minutes, net percent 10.7143
-2025-10-09 04:32:29,208 - root - INFO - ***** stock: BAOS Scale: 5Min Time since last close: 9 minutes
-2025-10-09 04:32:29,208 - root - INFO - swing_strategy_open_long for scale 5Min stock TELO
-2025-10-09 04:32:29,220 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 04:32:29,221 - root - INFO - Time since last close for TELO is None minutes, net percent 0
-2025-10-09 04:32:29,340 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:29,379 - root - INFO - Going loop for 2 stocks
-2025-10-09 04:32:29,433 - root - INFO - Last 5 minutes maximum volume candle is red for TELO
-2025-10-09 04:32:29,507 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:29,539 - root - INFO - Going loop for 3 stocks
-2025-10-09 04:32:29,581 - root - INFO - swing_strategy_close_long for scale 5Min stock SUGP
-2025-10-09 04:32:29,630 - root - INFO - Profit percent for SUGP is -11.361200428724546
-2025-10-09 04:32:29,630 - root - INFO - Latest 1min close price for SUGP: 8.53
-2025-10-09 04:32:29,696 - root - INFO - MACD is still rising for stock SUGP
-2025-10-09 04:32:29,697 - root - INFO - Not enough profit percent to scalp for SUGP: -11.361200428724546
-2025-10-09 04:32:29,698 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:29,718 - root - INFO - swing_strategy_close_long for scale 5Min stock TELO
-2025-10-09 04:32:29,730 - root - INFO - Going loop for 1 stocks
-2025-10-09 04:32:29,787 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:29,835 - root - INFO - Going loop for 5 stocks
-2025-10-09 04:32:29,848 - root - INFO - Profit percent for TELO is 5.5813953488372094
-2025-10-09 04:32:29,848 - root - INFO - Latest 1min close price for TELO: 2.31
-2025-10-09 04:32:29,952 - root - INFO - MACD is still rising for stock TELO
-2025-10-09 04:32:29,952 - root - INFO - Not enough profit percent to scalp for TELO: 5.5813953488372094
-2025-10-09 04:32:30,086 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:30,118 - root - INFO - Going loop for 5 stocks
-2025-10-09 04:32:30,324 - root - INFO -  MACD calculation for SCWO due to high change percent: 17.4286
-2025-10-09 04:32:30,493 - root - INFO - MACD not positive for SCWO
-2025-10-09 04:32:30,606 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:30,694 - root - INFO - Going loop for 2 stocks
-2025-10-09 04:32:30,814 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:30,846 - root - INFO - Going loop for 1 stocks
-2025-10-09 04:32:30,895 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:31,001 - root - INFO - Going loop for 2 stocks
-2025-10-09 04:32:31,064 - root - INFO -  MACD calculation for SUGP due to high change percent: 24.8621
-2025-10-09 04:32:31,164 - root - INFO -  MACD calculation for TAOP due to high change percent: 11.3846
-2025-10-09 04:32:31,231 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:31,261 - root - INFO - Going loop for 6 stocks
-2025-10-09 04:32:31,331 - root - INFO -  MACD calculation for TELO due to high change percent: 40.0
-2025-10-09 04:32:31,701 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:31,742 - root - INFO - Going loop for 5 stocks
-2025-10-09 04:32:31,808 - root - INFO -  MACD calculation for TRUG due to high change percent: 10.4839
-2025-10-09 04:32:32,109 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:32,142 - root - INFO - Going loop for 3 stocks
-2025-10-09 04:32:32,334 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:32,370 - root - INFO - Going loop for 3 stocks
-2025-10-09 04:32:32,552 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:32,600 - root - INFO - Going loop for 5 stocks
-2025-10-09 04:32:32,908 - root - INFO -  update_current_price: start time 2025-10-09T04:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:32:32,935 - root - INFO - Going loop for 0 stocks
-2025-10-09 04:32:32,936 - root - INFO - Updating change percent of stocks
-2025-10-09 04:32:33,584 - root - INFO - XTLB change_percent from DB: -11.21951219512194
-2025-10-09 04:32:33,592 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-09 04:32:44,999 - root - INFO - Real mode: Today's profit so far: 28.26997499999925
-2025-10-09 04:32:45,023 - root - INFO - Running real_trade for all top movers
-2025-10-09 04:32:45,077 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 04:32:45,090 - root - INFO - Time since last close for BAOS is 9.418173883333333 minutes, net percent 10.7143
-2025-10-09 04:32:45,091 - root - INFO - ***** stock: BAOS Scale: 5Min Time since last close: 9 minutes
-2025-10-09 04:32:45,092 - root - INFO - swing_strategy_open_long for scale 5Min stock TELO
-2025-10-09 04:32:45,102 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 04:32:45,103 - root - INFO - Time since last close for TELO is None minutes, net percent 0
-2025-10-09 04:32:45,318 - root - INFO - Last 5 minutes maximum volume candle is red for TELO
-2025-10-09 04:32:45,404 - root - INFO - swing_strategy_close_long for scale 5Min stock SUGP
-2025-10-09 04:32:45,458 - root - INFO - Profit percent for SUGP is -11.361200428724546
-2025-10-09 04:32:45,458 - root - INFO - Latest 1min close price for SUGP: 8.27
-2025-10-09 04:32:45,548 - root - INFO - Three red candles detected for SUGP
-2025-10-09 04:32:45,549 - root - INFO - SUGP:====== 8.27=========>SELL========>three_red_candles
-2025-10-09 04:32:45,549 - root - INFO - ******************** CLOSE by SOLD stock:SUGP
-2025-10-09 04:32:45,765 - root - INFO - swing_strategy_close_long for scale 5Min stock TELO
-2025-10-09 04:32:45,904 - root - INFO - Profit percent for TELO is 5.5813953488372094
-2025-10-09 04:32:45,904 - root - INFO - Latest 1min close price for TELO: 2.26
-2025-10-09 04:32:46,006 - root - INFO - MACD is still rising for stock TELO
-2025-10-09 04:32:46,006 - root - INFO - Not enough profit percent to scalp for TELO: 5.5813953488372094
-2025-10-09 04:33:01,049 - root - INFO - Real mode: Today's profit so far: -43.81002499999886
-2025-10-09 04:33:01,071 - root - INFO - Running real_trade for all top movers
-2025-10-09 04:33:01,124 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 04:33:01,136 - root - INFO - Time since last close for BAOS is 9.6856094 minutes, net percent 10.7143
-2025-10-09 04:33:01,137 - root - INFO - ***** stock: BAOS Scale: 5Min Time since last close: 9 minutes
-2025-10-09 04:33:01,137 - root - INFO - swing_strategy_open_long for scale 5Min stock TELO
-2025-10-09 04:33:01,150 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 04:33:01,150 - root - INFO - Time since last close for TELO is None minutes, net percent 0
-2025-10-09 04:33:01,314 - root - INFO - Last 5 minutes maximum volume candle is red for TELO
-2025-10-09 04:33:01,469 - root - INFO - ALready an open order
-2025-10-09 04:33:01,470 - root - INFO - ALready an open order
-2025-10-09 04:33:16,538 - root - INFO - Real mode: Today's profit so far: 14.299974999998085
-2025-10-09 04:33:16,562 - root - INFO - Running real_trade for all top movers
-2025-10-09 04:33:16,616 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 04:33:16,629 - root - INFO - Time since last close for BAOS is 9.943827916666667 minutes, net percent 10.7143
-2025-10-09 04:33:16,630 - root - INFO - ***** stock: BAOS Scale: 5Min Time since last close: 9 minutes
-2025-10-09 04:33:16,630 - root - INFO - swing_strategy_open_long for scale 5Min stock TELO
-2025-10-09 04:33:16,643 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 04:33:16,643 - root - INFO - Time since last close for TELO is None minutes, net percent 0
-2025-10-09 04:33:16,791 - root - INFO - Last 5 minutes maximum volume candle is red for TELO
-2025-10-09 04:33:16,869 - root - INFO - swing_strategy_close_long for scale 5Min stock TELO
-2025-10-09 04:33:17,003 - root - INFO - Profit percent for TELO is 4.651162790697675
-2025-10-09 04:33:17,003 - root - INFO - Latest 1min close price for TELO: 2.26
-2025-10-09 04:33:17,115 - root - INFO - MACD is still rising for stock TELO
-2025-10-09 04:33:17,115 - root - INFO - Not enough profit percent to scalp for TELO: 4.651162790697675
-2025-10-09 04:33:32,166 - root - INFO - Real mode: Today's profit so far: 23.57997500000056
-2025-10-09 04:33:32,187 - root - INFO - Running real_trade for all top movers
-2025-10-09 04:33:32,241 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 04:33:32,254 - root - INFO - Time since last close for BAOS is 10.204231283333334 minutes, net percent 10.7143
-2025-10-09 04:33:32,299 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 04:33:32,300 - root - INFO - swing_strategy_open_long for scale 5Min stock TELO
-2025-10-09 04:33:32,311 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 04:33:32,311 - root - INFO - Time since last close for TELO is None minutes, net percent 0
-2025-10-09 04:33:32,455 - root - INFO - Last 5 minutes maximum volume candle is red for TELO
-2025-10-09 04:33:32,556 - root - INFO - swing_strategy_close_long for scale 5Min stock TELO
-2025-10-09 04:33:32,696 - root - INFO - Profit percent for TELO is 5.116279069767442
-2025-10-09 04:33:32,696 - root - INFO - Latest 1min close price for TELO: 2.26
-2025-10-09 04:33:32,804 - root - INFO - MACD is still rising for stock TELO
-2025-10-09 04:33:32,805 - root - INFO - Not enough profit percent to scalp for TELO: 5.116279069767442
-2025-10-09 04:33:33,630 - root - INFO - Real mode: Today's profit so far: 18.93997500000114
-2025-10-09 04:33:33,651 - root - INFO - ('2025-10-09T20:58:00-04:00', '2025-10-09T20:58:00-04:00', '2025-10-02T09:30:00-04:00', '2025-10-09T20:58:00-04:00')
-2025-10-09 04:33:33,651 - root - INFO - Screening stocks | Start: 2025-10-02T09:30:00-04:00 | End: 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:33,695 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:33,732 - root - INFO - Going loop for 4 stocks
-2025-10-09 04:33:33,980 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:34,012 - root - INFO - Going loop for 5 stocks
-2025-10-09 04:33:34,208 - root - INFO -  MACD calculation for AMBO due to high change percent: 57.423
-2025-10-09 04:33:34,234 - root - INFO - MACD not positive for AMBO
-2025-10-09 04:33:34,361 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:34,390 - root - INFO - Going loop for 1 stocks
-2025-10-09 04:33:34,461 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:34,496 - root - INFO - Going loop for 3 stocks
-2025-10-09 04:33:34,677 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:34,708 - root - INFO - Going loop for 3 stocks
-2025-10-09 04:33:34,770 - root - INFO -  MACD calculation for BAOS due to high change percent: 132.024
-2025-10-09 04:33:34,950 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:34,982 - root - INFO - Going loop for 5 stocks
-2025-10-09 04:33:35,301 - root - INFO -  MACD calculation for BNAI due to high change percent: 13.0494
-2025-10-09 04:33:35,394 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:35,431 - root - INFO - Going loop for 7 stocks
-2025-10-09 04:33:35,880 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:35,921 - root - INFO - Going loop for 1 stocks
-2025-10-09 04:33:36,002 - root - INFO -  MACD calculation for CDT due to high change percent: 24.8643
-2025-10-09 04:33:36,076 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:36,113 - root - INFO - Going loop for 2 stocks
-2025-10-09 04:33:36,252 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:36,291 - root - INFO - Going loop for 2 stocks
-2025-10-09 04:33:36,413 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:36,447 - root - INFO - Going loop for 4 stocks
-2025-10-09 04:33:36,704 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:36,739 - root - INFO - Going loop for 2 stocks
-2025-10-09 04:33:36,885 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:36,918 - root - INFO - Going loop for 1 stocks
-2025-10-09 04:33:36,987 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:37,023 - root - INFO - Going loop for 1 stocks
-2025-10-09 04:33:37,086 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:37,120 - root - INFO - Going loop for 1 stocks
-2025-10-09 04:33:37,182 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:37,215 - root - INFO - Going loop for 0 stocks
-2025-10-09 04:33:37,215 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:37,250 - root - INFO - Going loop for 2 stocks
-2025-10-09 04:33:37,405 - root - INFO -  MACD calculation for GLDG due to high change percent: 12.1951
-2025-10-09 04:33:37,473 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:37,510 - root - INFO - Going loop for 3 stocks
-2025-10-09 04:33:37,726 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:37,764 - root - INFO - Going loop for 2 stocks
-2025-10-09 04:33:37,901 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:37,935 - root - INFO - Going loop for 3 stocks
-2025-10-09 04:33:38,138 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:38,189 - root - INFO - Going loop for 2 stocks
-2025-10-09 04:33:38,332 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:38,365 - root - INFO - Going loop for 3 stocks
-2025-10-09 04:33:38,547 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:38,583 - root - INFO - Going loop for 7 stocks
-2025-10-09 04:33:39,010 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:39,041 - root - INFO - Going loop for 0 stocks
-2025-10-09 04:33:39,042 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:39,072 - root - INFO - Going loop for 3 stocks
-2025-10-09 04:33:39,286 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:39,321 - root - INFO - Going loop for 1 stocks
-2025-10-09 04:33:39,399 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:39,433 - root - INFO - Going loop for 1 stocks
-2025-10-09 04:33:39,490 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:39,523 - root - INFO - Going loop for 2 stocks
-2025-10-09 04:33:39,648 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:39,680 - root - INFO - Going loop for 1 stocks
-2025-10-09 04:33:39,752 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:39,789 - root - INFO - Going loop for 2 stocks
-2025-10-09 04:33:39,932 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:39,965 - root - INFO - Going loop for 5 stocks
-2025-10-09 04:33:40,024 - root - INFO -  MACD calculation for OVID due to high change percent: 15.8228
-2025-10-09 04:33:40,329 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:40,378 - root - INFO - Going loop for 3 stocks
-2025-10-09 04:33:40,578 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:40,612 - root - INFO - Going loop for 5 stocks
-2025-10-09 04:33:40,918 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:40,956 - root - INFO - Going loop for 2 stocks
-2025-10-09 04:33:41,096 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:41,134 - root - INFO - Going loop for 4 stocks
-2025-10-09 04:33:41,387 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:41,430 - root - INFO - Going loop for 7 stocks
-2025-10-09 04:33:41,676 - root - INFO -  MACD calculation for SCWO due to high change percent: 19.4286
-2025-10-09 04:33:41,737 - root - INFO - MACD not positive for SCWO
-2025-10-09 04:33:41,928 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:41,960 - root - INFO - Going loop for 1 stocks
-2025-10-09 04:33:42,034 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:42,067 - root - INFO - Going loop for 3 stocks
-2025-10-09 04:33:42,255 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:42,287 - root - INFO - Going loop for 2 stocks
-2025-10-09 04:33:42,359 - root - INFO -  MACD calculation for SUGP due to high change percent: 25.4504
-2025-10-09 04:33:42,473 - root - INFO -  MACD calculation for TAOP due to high change percent: 11.0769
-2025-10-09 04:33:42,523 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:42,557 - root - INFO - Going loop for 4 stocks
-2025-10-09 04:33:42,619 - root - INFO -  MACD calculation for TELO due to high change percent: 40.0
-2025-10-09 04:33:42,896 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:42,936 - root - INFO - Going loop for 5 stocks
-2025-10-09 04:33:43,250 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:43,289 - root - INFO - Going loop for 2 stocks
-2025-10-09 04:33:43,434 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:43,469 - root - INFO - Going loop for 1 stocks
-2025-10-09 04:33:43,544 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:43,593 - root - INFO - Going loop for 7 stocks
-2025-10-09 04:33:43,796 - root - INFO - FIND stocks Change percent for XTLB: -11.2195
-2025-10-09 04:33:44,068 - root - INFO -  update_current_price: start time 2025-10-09T04:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 04:33:44,095 - root - INFO - Going loop for 3 stocks
-2025-10-09 04:33:44,276 - root - INFO - Updating change percent of stocks
-2025-10-09 04:33:45,021 - root - INFO - XTLB change_percent from DB: -11.21951219512194
-2025-10-09 04:33:45,029 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-09 04:33:47,857 - root - INFO - Real mode: Today's profit so far: -4.260024999999587
-2025-10-09 04:33:47,879 - root - INFO - Running real_trade for all top movers
-2025-10-09 04:33:47,928 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 04:33:47,941 - root - INFO - Time since last close for BAOS is 10.465681700000001 minutes, net percent 10.7143
-2025-10-09 04:33:47,986 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 04:33:47,987 - root - INFO - swing_strategy_open_long for scale 5Min stock TELO
-2025-10-09 04:33:48,002 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 04:33:48,002 - root - INFO - Time since last close for TELO is None minutes, net percent 0
-2025-10-09 04:33:48,151 - root - INFO - Last 5 minutes maximum volume candle is red for TELO
-2025-10-09 04:33:48,235 - root - INFO - swing_strategy_close_long for scale 5Min stock TELO
-2025-10-09 04:33:48,380 - root - INFO - Profit percent for TELO is 3.7209302325581395
-2025-10-09 04:33:48,380 - root - INFO - Latest 1min close price for TELO: 2.24
-2025-10-09 04:33:48,504 - root - INFO - MACD is still rising for stock TELO
-2025-10-09 04:33:48,504 - root - INFO - Not enough profit percent to scalp for TELO: 3.7209302325581395
+2025-10-09 04:36:58,165 - root - INFO - Time since last close for TELO is None minutes, net percent 0
+2025-10-09 04:36:58,317 - root - INFO - Last 5 minutes maximum volume candle is red for TELO
+2025-10-09 04:36:58,319 - root - INFO - swing_strategy_open_long for scale 5Min stock CDT
+2025-10-09 04:36:58,333 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 04:36:58,333 - root - INFO - Time since last close for CDT is None minutes, net percent 0
+2025-10-09 04:36:58,501 - root - INFO - Last 5 minutes maximum volume candle is green for CDT
+2025-10-09 04:36:58,526 - root - INFO - 1min RSI is overbought for CDT: 77.34616849794199
+2025-10-09 04:36:58,604 - root - INFO - swing_strategy_close_long for scale 5Min stock CDT
+2025-10-09 04:36:58,737 - root - INFO - Profit percent for CDT is 9.232315200866235
+2025-10-09 04:36:58,737 - root - INFO - Latest 1min close price for CDT: 1.03
+2025-10-09 04:36:58,772 - root - INFO - High price DETECTED for CDT is 0.964 and setting no_scalp to True
+2025-10-09 04:36:58,801 - root - INFO - swing_strategy_close_long for scale 5Min stock TELO
+2025-10-09 04:36:58,937 - root - INFO - Profit percent for TELO is 5.348837209302325
+2025-10-09 04:36:58,938 - root - INFO - Latest 1min close price for TELO: 2.25
+2025-10-09 04:36:59,048 - root - INFO - MACD is still rising for stock TELO
+2025-10-09 04:36:59,048 - root - INFO - Not enough profit percent to scalp for TELO: 5.348837209302325
+2025-10-09 04:37:09,150 - root - INFO - Real mode: Today's profit so far: 222.29997499999808
+2025-10-09 04:37:09,172 - root - INFO - ('2025-10-09T20:58:00-04:00', '2025-10-09T20:58:00-04:00', '2025-10-02T09:30:00-04:00', '2025-10-09T20:58:00-04:00')
+2025-10-09 04:37:09,172 - root - INFO - Screening stocks | Start: 2025-10-02T09:30:00-04:00 | End: 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:09,211 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:09,250 - root - INFO - Going loop for 4 stocks
+2025-10-09 04:37:09,521 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:09,564 - root - INFO - Going loop for 4 stocks
+2025-10-09 04:37:09,783 - root - INFO -  MACD calculation for AMBO due to high change percent: 50.7003
+2025-10-09 04:37:09,824 - root - INFO - MACD not positive for AMBO
+2025-10-09 04:37:09,909 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:09,944 - root - INFO - Going loop for 6 stocks
+2025-10-09 04:37:10,278 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:10,314 - root - INFO - Going loop for 1 stocks
+2025-10-09 04:37:10,382 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:10,414 - root - INFO - Going loop for 3 stocks
+2025-10-09 04:37:10,485 - root - INFO -  MACD calculation for BAOS due to high change percent: 118.127
+2025-10-09 04:37:10,661 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:11,098 - root - INFO - Going loop for 4 stocks
+2025-10-09 04:37:11,352 - root - INFO -  MACD calculation for BNAI due to high change percent: 13.0494
+2025-10-09 04:37:11,611 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:11,643 - root - INFO - Going loop for 5 stocks
+2025-10-09 04:37:11,956 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:11,988 - root - INFO - Going loop for 1 stocks
+2025-10-09 04:37:12,072 - root - INFO -  MACD calculation for CDT due to high change percent: 30.836
+2025-10-09 04:37:12,150 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:12,182 - root - INFO - Going loop for 2 stocks
+2025-10-09 04:37:12,312 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:12,439 - root - INFO - Going loop for 2 stocks
+2025-10-09 04:37:12,574 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:12,608 - root - INFO - Going loop for 1 stocks
+2025-10-09 04:37:12,691 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:12,721 - root - INFO - Going loop for 1 stocks
+2025-10-09 04:37:12,789 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:12,820 - root - INFO - Going loop for 1 stocks
+2025-10-09 04:37:12,900 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:12,933 - root - INFO - Going loop for 1 stocks
+2025-10-09 04:37:13,008 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:13,038 - root - INFO - Going loop for 1 stocks
+2025-10-09 04:37:13,112 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:13,145 - root - INFO - Going loop for 1 stocks
+2025-10-09 04:37:13,220 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:13,253 - root - INFO - Going loop for 0 stocks
+2025-10-09 04:37:13,254 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:13,293 - root - INFO - Going loop for 3 stocks
+2025-10-09 04:37:13,530 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:13,569 - root - INFO - Going loop for 3 stocks
+2025-10-09 04:37:13,773 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:13,808 - root - INFO - Going loop for 1 stocks
+2025-10-09 04:37:13,901 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:13,932 - root - INFO - Going loop for 2 stocks
+2025-10-09 04:37:14,084 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:14,088 - root - INFO - Real mode: Today's profit so far: 217.65997499999867
+2025-10-09 04:37:14,109 - root - INFO - Running real_trade for all top movers
+2025-10-09 04:37:14,116 - root - INFO - Going loop for 2 stocks
+2025-10-09 04:37:14,151 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 04:37:14,159 - root - INFO - Time since last close for BAOS is 13.9026557 minutes, net percent 10.7143
+2025-10-09 04:37:14,189 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 04:37:14,190 - root - INFO - swing_strategy_open_long for scale 5Min stock TELO
+2025-10-09 04:37:14,201 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 04:37:14,201 - root - INFO - Time since last close for TELO is None minutes, net percent 0
+2025-10-09 04:37:14,208 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:14,238 - root - INFO - Going loop for 4 stocks
+2025-10-09 04:37:14,323 - root - INFO - Last 5 minutes maximum volume candle is red for TELO
+2025-10-09 04:37:14,325 - root - INFO - swing_strategy_open_long for scale 5Min stock CDT
+2025-10-09 04:37:14,333 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 04:37:14,333 - root - INFO - Time since last close for CDT is None minutes, net percent 0
+2025-10-09 04:37:14,429 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:14,437 - root - INFO - Last 5 minutes maximum volume candle is green for CDT
+2025-10-09 04:37:14,455 - root - INFO - 1min RSI is overbought for CDT: 77.34616849794199
+2025-10-09 04:37:14,459 - root - INFO - Going loop for 1 stocks
+2025-10-09 04:37:14,514 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:14,531 - root - INFO - swing_strategy_close_long for scale 5Min stock CDT
+2025-10-09 04:37:14,545 - root - INFO - Going loop for 2 stocks
+2025-10-09 04:37:14,648 - root - INFO - Profit percent for CDT is 8.211452441979635
+2025-10-09 04:37:14,648 - root - INFO - Latest 1min close price for CDT: 1.03
+2025-10-09 04:37:14,653 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:14,682 - root - INFO - Going loop for 1 stocks
+2025-10-09 04:37:14,734 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:14,735 - root - INFO - MACD is still rising for stock CDT
+2025-10-09 04:37:14,735 - root - INFO - Not enough profit percent to scalp for CDT: 8.211452441979635
+2025-10-09 04:37:14,762 - root - INFO - swing_strategy_close_long for scale 5Min stock TELO
+2025-10-09 04:37:14,763 - root - INFO - Going loop for 5 stocks
+2025-10-09 04:37:14,889 - root - INFO - Profit percent for TELO is 5.5813953488372094
+2025-10-09 04:37:14,889 - root - INFO - Latest 1min close price for TELO: 2.25
+2025-10-09 04:37:14,972 - root - INFO - MACD is still rising for stock TELO
+2025-10-09 04:37:14,972 - root - INFO - Not enough profit percent to scalp for TELO: 5.5813953488372094
+2025-10-09 04:37:15,009 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:15,039 - root - INFO - Going loop for 1 stocks
+2025-10-09 04:37:15,098 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:15,131 - root - INFO - Going loop for 4 stocks
+2025-10-09 04:37:15,391 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:15,433 - root - INFO - Going loop for 4 stocks
+2025-10-09 04:37:15,723 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:15,764 - root - INFO - Going loop for 3 stocks
+2025-10-09 04:37:15,840 - root - INFO -  MACD calculation for OVID due to high change percent: 10.7595
+2025-10-09 04:37:16,037 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:16,073 - root - INFO - Going loop for 4 stocks
+2025-10-09 04:37:16,334 - root - INFO -  MACD calculation for PMAX due to high change percent: 12.3967
+2025-10-09 04:37:16,387 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:16,418 - root - INFO - Going loop for 2 stocks
+2025-10-09 04:37:16,553 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:16,590 - root - INFO - Going loop for 3 stocks
+2025-10-09 04:37:16,782 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:16,816 - root - INFO - Going loop for 4 stocks
+2025-10-09 04:37:17,086 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:17,119 - root - INFO - Going loop for 5 stocks
+2025-10-09 04:37:17,336 - root - INFO -  MACD calculation for SCWO due to high change percent: 19.5714
+2025-10-09 04:37:17,404 - root - INFO - MACD not positive for SCWO
+2025-10-09 04:37:17,549 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:17,583 - root - INFO - Going loop for 5 stocks
+2025-10-09 04:37:17,946 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:17,988 - root - INFO - Going loop for 3 stocks
+2025-10-09 04:37:18,190 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:18,222 - root - INFO - Going loop for 3 stocks
+2025-10-09 04:37:18,299 - root - INFO -  MACD calculation for SUGP due to high change percent: 19.2735
+2025-10-09 04:37:18,332 - root - INFO - MACD not positive for SUGP
+2025-10-09 04:37:18,465 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:18,495 - root - INFO - Going loop for 4 stocks
+2025-10-09 04:37:18,566 - root - INFO -  MACD calculation for TELO due to high change percent: 34.8485
+2025-10-09 04:37:18,851 - root - INFO -  MACD calculation for TRIB due to high change percent: 24.5283
+2025-10-09 04:37:18,909 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:18,946 - root - INFO - Going loop for 1 stocks
+2025-10-09 04:37:19,027 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:19,065 - root - INFO - Going loop for 3 stocks
+2025-10-09 04:37:19,299 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:19,342 - root - INFO - Going loop for 4 stocks
+2025-10-09 04:37:19,608 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:19,652 - root - INFO - Going loop for 4 stocks
+2025-10-09 04:37:19,784 - root - INFO - FIND stocks Change percent for XTLB: -12.6829
+2025-10-09 04:37:19,922 - root - INFO -  update_current_price: start time 2025-10-09T04:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:37:19,950 - root - INFO - Going loop for 0 stocks
+2025-10-09 04:37:19,951 - root - INFO - Updating change percent of stocks
+2025-10-09 04:37:20,600 - root - INFO - XTLB change_percent from DB: -12.682926829268284
+2025-10-09 04:37:20,608 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-09 04:37:30,020 - root - INFO - Real mode: Today's profit so far: 228.81997499999852
+2025-10-09 04:37:30,043 - root - INFO - Running real_trade for all top movers
+2025-10-09 04:37:30,096 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 04:37:30,108 - root - INFO - Time since last close for BAOS is 14.168477849999999 minutes, net percent 10.7143
+2025-10-09 04:37:30,155 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 04:37:30,156 - root - INFO - swing_strategy_open_long for scale 5Min stock CDT
+2025-10-09 04:37:30,170 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 04:37:30,171 - root - INFO - Time since last close for CDT is None minutes, net percent 0
+2025-10-09 04:37:30,309 - root - INFO - Last 5 minutes maximum volume candle is green for CDT
+2025-10-09 04:37:30,335 - root - INFO - 1min RSI is overbought for CDT: 77.34616849794199
+2025-10-09 04:37:30,336 - root - INFO - swing_strategy_open_long for scale 5Min stock TELO
+2025-10-09 04:37:30,350 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 04:37:30,351 - root - INFO - Time since last close for TELO is None minutes, net percent 0
+2025-10-09 04:37:30,479 - root - INFO - Last 5 minutes maximum volume candle is red for TELO
+2025-10-09 04:37:30,568 - root - INFO - swing_strategy_close_long for scale 5Min stock CDT
+2025-10-09 04:37:30,716 - root - INFO - Profit percent for CDT is 9.232315200866235
+2025-10-09 04:37:30,716 - root - INFO - Latest 1min close price for CDT: 1.03
+2025-10-09 04:37:30,828 - root - INFO - MACD is still rising for stock CDT
+2025-10-09 04:37:30,829 - root - INFO - Not enough profit percent to scalp for CDT: 9.232315200866235
+2025-10-09 04:37:30,854 - root - INFO - swing_strategy_close_long for scale 5Min stock TELO
+2025-10-09 04:37:30,999 - root - INFO - Profit percent for TELO is 5.116279069767442
+2025-10-09 04:37:30,999 - root - INFO - Latest 1min close price for TELO: 2.25
+2025-10-09 04:37:31,111 - root - INFO - MACD is still rising for stock TELO
+2025-10-09 04:37:31,112 - root - INFO - Not enough profit percent to scalp for TELO: 5.116279069767442
+2025-10-09 04:37:46,160 - root - INFO - Real mode: Today's profit so far: 17.18997500000114
+2025-10-09 04:37:46,184 - root - INFO - Running real_trade for all top movers
+2025-10-09 04:37:46,242 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 04:37:46,254 - root - INFO - Time since last close for BAOS is 14.437571616666666 minutes, net percent 10.7143
+2025-10-09 04:37:46,305 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 04:37:46,305 - root - INFO - swing_strategy_open_long for scale 5Min stock CDT
+2025-10-09 04:37:46,319 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 04:37:46,319 - root - INFO - Time since last close for CDT is None minutes, net percent 0
+2025-10-09 04:37:46,445 - root - INFO - Last 5 minutes maximum volume candle is red for CDT
+2025-10-09 04:37:46,447 - root - INFO - swing_strategy_open_long for scale 5Min stock TELO
+2025-10-09 04:37:46,458 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 04:37:46,458 - root - INFO - Time since last close for TELO is None minutes, net percent 0
+2025-10-09 04:37:46,586 - root - INFO - Last 5 minutes maximum volume candle is red for TELO
+2025-10-09 04:37:46,669 - root - INFO - swing_strategy_close_long for scale 5Min stock CDT
+2025-10-09 04:37:46,806 - root - INFO - Profit percent for CDT is -0.08816178776842598
+2025-10-09 04:37:46,807 - root - INFO - Latest 1min close price for CDT: 1
+2025-10-09 04:37:46,914 - root - INFO - MACD is still rising for stock CDT
+2025-10-09 04:37:46,914 - root - INFO - Not enough profit percent to scalp for CDT: -0.08816178776842598
+2025-10-09 04:37:46,942 - root - INFO - swing_strategy_close_long for scale 5Min stock TELO
+2025-10-09 04:37:47,084 - root - INFO - Profit percent for TELO is 5.116279069767442
+2025-10-09 04:37:47,084 - root - INFO - Latest 1min close price for TELO: 2.25
+2025-10-09 04:37:47,193 - root - INFO - MACD is still rising for stock TELO
+2025-10-09 04:37:47,193 - root - INFO - Not enough profit percent to scalp for TELO: 5.116279069767442
+2025-10-09 04:38:02,234 - root - INFO - Real mode: Today's profit so far: 13.70997499999794
+2025-10-09 04:38:02,266 - root - INFO - Running real_trade for all top movers
+2025-10-09 04:38:02,309 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 04:38:02,319 - root - INFO - Time since last close for BAOS is 14.7053296 minutes, net percent 10.7143
+2025-10-09 04:38:02,370 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 04:38:02,370 - root - INFO - swing_strategy_open_long for scale 5Min stock CDT
+2025-10-09 04:38:02,385 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 04:38:02,385 - root - INFO - Time since last close for CDT is None minutes, net percent 0
+2025-10-09 04:38:02,508 - root - INFO - Last 5 minutes maximum volume candle is red for CDT
+2025-10-09 04:38:02,509 - root - INFO - swing_strategy_open_long for scale 5Min stock TELO
+2025-10-09 04:38:02,521 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 04:38:02,521 - root - INFO - Time since last close for TELO is None minutes, net percent 0
+2025-10-09 04:38:02,650 - root - INFO - Last 5 minutes maximum volume candle is red for TELO
+2025-10-09 04:38:02,733 - root - INFO - swing_strategy_close_long for scale 5Min stock CDT
+2025-10-09 04:38:02,867 - root - INFO - Profit percent for CDT is -1.6807076916315227
+2025-10-09 04:38:02,867 - root - INFO - Latest 1min close price for CDT: 1
+2025-10-09 04:38:02,966 - root - INFO - MACD is still rising for stock CDT
+2025-10-09 04:38:02,966 - root - INFO - Not enough profit percent to scalp for CDT: -1.6807076916315227
+2025-10-09 04:38:02,995 - root - INFO - swing_strategy_close_long for scale 5Min stock TELO
+2025-10-09 04:38:03,134 - root - INFO - Profit percent for TELO is 4.651162790697675
+2025-10-09 04:38:03,134 - root - INFO - Latest 1min close price for TELO: 2.25
+2025-10-09 04:38:03,244 - root - INFO - MACD is still rising for stock TELO
+2025-10-09 04:38:03,245 - root - INFO - Not enough profit percent to scalp for TELO: 4.651162790697675
+2025-10-09 04:38:18,288 - root - INFO - Real mode: Today's profit so far: 18.75997500000085
+2025-10-09 04:38:18,309 - root - INFO - Running real_trade for all top movers
+2025-10-09 04:38:18,364 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 04:38:18,378 - root - INFO - Time since last close for BAOS is 14.97297365 minutes, net percent 10.7143
+2025-10-09 04:38:18,429 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 04:38:18,430 - root - INFO - swing_strategy_open_long for scale 5Min stock CDT
+2025-10-09 04:38:18,444 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 04:38:18,444 - root - INFO - Time since last close for CDT is None minutes, net percent 0
+2025-10-09 04:38:18,593 - root - INFO - Last 5 minutes maximum volume candle is red for CDT
+2025-10-09 04:38:18,595 - root - INFO - swing_strategy_open_long for scale 5Min stock TELO
+2025-10-09 04:38:18,608 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 04:38:18,609 - root - INFO - Time since last close for TELO is None minutes, net percent 0
+2025-10-09 04:38:18,734 - root - INFO - Last 5 minutes maximum volume candle is red for TELO
+2025-10-09 04:38:18,815 - root - INFO - swing_strategy_close_long for scale 5Min stock CDT
+2025-10-09 04:38:18,952 - root - INFO - Profit percent for CDT is 0.013924488120234058
+2025-10-09 04:38:18,953 - root - INFO - Latest 1min close price for CDT: 1
+2025-10-09 04:38:19,059 - root - INFO - MACD is still rising for stock CDT
+2025-10-09 04:38:19,059 - root - INFO - Not enough profit percent to scalp for CDT: 0.013924488120234058
+2025-10-09 04:38:19,091 - root - INFO - swing_strategy_close_long for scale 5Min stock TELO
+2025-10-09 04:38:19,275 - root - INFO - Profit percent for TELO is 4.651162790697675
+2025-10-09 04:38:19,275 - root - INFO - Latest 1min close price for TELO: 2.25
+2025-10-09 04:38:19,363 - root - INFO - MACD is still rising for stock TELO
+2025-10-09 04:38:19,363 - root - INFO - Not enough profit percent to scalp for TELO: 4.651162790697675
+2025-10-09 04:38:20,647 - root - INFO - Real mode: Today's profit so far: 16.779975000001286
+2025-10-09 04:38:20,667 - root - INFO - ('2025-10-09T20:58:00-04:00', '2025-10-09T20:58:00-04:00', '2025-10-02T09:30:00-04:00', '2025-10-09T20:58:00-04:00')
+2025-10-09 04:38:20,668 - root - INFO - Screening stocks | Start: 2025-10-02T09:30:00-04:00 | End: 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:20,698 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:20,735 - root - INFO - Going loop for 5 stocks
+2025-10-09 04:38:21,063 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:21,105 - root - INFO - Going loop for 4 stocks
+2025-10-09 04:38:21,278 - root - INFO -  MACD calculation for AMBO due to high change percent: 51.2605
+2025-10-09 04:38:21,305 - root - INFO - MACD not positive for AMBO
+2025-10-09 04:38:21,371 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:21,406 - root - INFO - Going loop for 5 stocks
+2025-10-09 04:38:21,713 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:21,752 - root - INFO - Going loop for 1 stocks
+2025-10-09 04:38:21,826 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:21,861 - root - INFO - Going loop for 2 stocks
+2025-10-09 04:38:21,938 - root - INFO -  MACD calculation for BAOS due to high change percent: 116.616
+2025-10-09 04:38:22,044 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:22,075 - root - INFO - Going loop for 2 stocks
+2025-10-09 04:38:22,195 - root - INFO -  MACD calculation for BNAI due to high change percent: 13.0494
+2025-10-09 04:38:22,274 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:22,304 - root - INFO - Going loop for 5 stocks
+2025-10-09 04:38:22,631 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:22,665 - root - INFO - Going loop for 1 stocks
+2025-10-09 04:38:22,738 - root - INFO -  MACD calculation for CDT due to high change percent: 39.7937
+2025-10-09 04:38:22,808 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:22,840 - root - INFO - Going loop for 2 stocks
+2025-10-09 04:38:22,972 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:23,002 - root - INFO - Going loop for 2 stocks
+2025-10-09 04:38:23,142 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:23,169 - root - INFO - Going loop for 2 stocks
+2025-10-09 04:38:23,312 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:23,345 - root - INFO - Going loop for 2 stocks
+2025-10-09 04:38:23,488 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:23,518 - root - INFO - Going loop for 2 stocks
+2025-10-09 04:38:23,664 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:23,694 - root - INFO - Going loop for 1 stocks
+2025-10-09 04:38:23,760 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:23,789 - root - INFO - Going loop for 0 stocks
+2025-10-09 04:38:23,790 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:23,822 - root - INFO - Going loop for 1 stocks
+2025-10-09 04:38:23,917 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:23,950 - root - INFO - Going loop for 1 stocks
+2025-10-09 04:38:24,025 - root - INFO -  MACD calculation for GLDG due to high change percent: 14.6341
+2025-10-09 04:38:24,082 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:24,113 - root - INFO - Going loop for 3 stocks
+2025-10-09 04:38:24,296 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:24,331 - root - INFO - Going loop for 3 stocks
+2025-10-09 04:38:24,528 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:24,561 - root - INFO - Going loop for 3 stocks
+2025-10-09 04:38:24,766 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:24,800 - root - INFO - Going loop for 2 stocks
+2025-10-09 04:38:24,935 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:24,967 - root - INFO - Going loop for 1 stocks
+2025-10-09 04:38:25,039 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:25,067 - root - INFO - Going loop for 2 stocks
+2025-10-09 04:38:25,187 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:25,215 - root - INFO - Going loop for 0 stocks
+2025-10-09 04:38:25,216 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:25,248 - root - INFO - Going loop for 2 stocks
+2025-10-09 04:38:25,374 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:25,403 - root - INFO - Going loop for 2 stocks
+2025-10-09 04:38:25,555 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:25,588 - root - INFO - Going loop for 4 stocks
+2025-10-09 04:38:25,854 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:25,886 - root - INFO - Going loop for 1 stocks
+2025-10-09 04:38:25,960 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:26,005 - root - INFO - Going loop for 3 stocks
+2025-10-09 04:38:26,190 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:26,221 - root - INFO - Going loop for 3 stocks
+2025-10-09 04:38:26,393 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:26,424 - root - INFO - Going loop for 4 stocks
+2025-10-09 04:38:26,689 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:26,727 - root - INFO - Going loop for 4 stocks
+2025-10-09 04:38:26,990 - root - INFO -  MACD calculation for PMAX due to high change percent: 11.7355
+2025-10-09 04:38:27,058 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:27,090 - root - INFO - Going loop for 2 stocks
+2025-10-09 04:38:27,240 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:27,267 - root - INFO - Going loop for 4 stocks
+2025-10-09 04:38:27,518 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:27,549 - root - INFO - Going loop for 4 stocks
+2025-10-09 04:38:27,795 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:27,831 - root - INFO - Going loop for 5 stocks
+2025-10-09 04:38:28,041 - root - INFO -  MACD calculation for SCWO due to high change percent: 19.0143
+2025-10-09 04:38:28,103 - root - INFO - MACD not positive for SCWO
+2025-10-09 04:38:28,243 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:28,275 - root - INFO - Going loop for 1 stocks
+2025-10-09 04:38:28,347 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:28,383 - root - INFO - Going loop for 4 stocks
+2025-10-09 04:38:28,646 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:28,688 - root - INFO - Going loop for 3 stocks
+2025-10-09 04:38:28,839 - root - INFO -  MACD calculation for SUGP due to high change percent: 20.303
+2025-10-09 04:38:28,871 - root - INFO - MACD not positive for SUGP
+2025-10-09 04:38:28,946 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:28,981 - root - INFO - Going loop for 6 stocks
+2025-10-09 04:38:29,052 - root - INFO -  MACD calculation for TELO due to high change percent: 36.3636
+2025-10-09 04:38:29,365 - root - INFO -  MACD calculation for TRIB due to high change percent: 17.9245
+2025-10-09 04:38:29,478 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:29,522 - root - INFO - Going loop for 6 stocks
+2025-10-09 04:38:29,880 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:29,923 - root - INFO - Going loop for 3 stocks
+2025-10-09 04:38:30,124 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:30,153 - root - INFO - Going loop for 4 stocks
+2025-10-09 04:38:30,281 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:30,309 - root - INFO - Going loop for 7 stocks
+2025-10-09 04:38:30,574 - root - INFO - FIND stocks Change percent for XTLB: -12.6829
+2025-10-09 04:38:30,712 - root - INFO -  update_current_price: start time 2025-10-09T04:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 04:38:30,737 - root - INFO - Going loop for 0 stocks
+2025-10-09 04:38:30,738 - root - INFO - Updating change percent of stocks
+2025-10-09 04:38:31,383 - root - INFO - XTLB change_percent from DB: -12.439024390243897
+2025-10-09 04:38:31,391 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-09 04:38:34,414 - root - INFO - Real mode: Today's profit so far: 46.73997500000041
+2025-10-09 04:38:34,434 - root - INFO - Running real_trade for all top movers
+2025-10-09 04:38:34,487 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 04:38:34,500 - root - INFO - Time since last close for BAOS is 15.241666166666667 minutes, net percent 10.7143
+2025-10-09 04:38:34,541 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 04:38:34,542 - root - INFO - swing_strategy_open_long for scale 5Min stock TELO
+2025-10-09 04:38:34,558 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 04:38:34,559 - root - INFO - Time since last close for TELO is None minutes, net percent 0
+2025-10-09 04:38:34,696 - root - INFO - Last 5 minutes maximum volume candle is red for TELO
+2025-10-09 04:38:34,698 - root - INFO - swing_strategy_open_long for scale 5Min stock CDT
+2025-10-09 04:38:34,709 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 04:38:34,709 - root - INFO - Time since last close for CDT is None minutes, net percent 0
+2025-10-09 04:38:34,826 - root - INFO - Last 5 minutes maximum volume candle is red for CDT
+2025-10-09 04:38:34,909 - root - INFO - swing_strategy_close_long for scale 5Min stock CDT
+2025-10-09 04:38:35,039 - root - INFO - Profit percent for CDT is 2.0862758886600328
+2025-10-09 04:38:35,039 - root - INFO - Latest 1min close price for CDT: 1
+2025-10-09 04:38:35,150 - root - INFO - MACD is still rising for stock CDT
+2025-10-09 04:38:35,151 - root - INFO - Not enough profit percent to scalp for CDT: 2.0862758886600328
+2025-10-09 04:38:35,175 - root - INFO - swing_strategy_close_long for scale 5Min stock TELO
+2025-10-09 04:38:35,312 - root - INFO - Profit percent for TELO is 4.186046511627907
+2025-10-09 04:38:35,313 - root - INFO - Latest 1min close price for TELO: 2.25
+2025-10-09 04:38:35,421 - root - INFO - MACD is still rising for stock TELO
+2025-10-09 04:38:35,421 - root - INFO - Not enough profit percent to scalp for TELO: 4.186046511627907
+2025-10-09 04:38:50,472 - root - INFO - Real mode: Today's profit so far: 4.019974999999249
+2025-10-09 04:38:50,494 - root - INFO - Running real_trade for all top movers
+2025-10-09 04:38:50,545 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 04:38:50,558 - root - INFO - Time since last close for BAOS is 15.5093125 minutes, net percent 10.7143
+2025-10-09 04:38:50,608 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 04:38:50,608 - root - INFO - swing_strategy_open_long for scale 5Min stock TELO
+2025-10-09 04:38:50,625 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 04:38:50,625 - root - INFO - Time since last close for TELO is None minutes, net percent 0
+2025-10-09 04:38:50,768 - root - INFO - Last 5 minutes maximum volume candle is green for TELO
+2025-10-09 04:38:50,792 - root - INFO - 1min candle is not positive for TELO: open 2.255 close 2.24
+2025-10-09 04:38:50,794 - root - INFO - swing_strategy_open_long for scale 5Min stock CDT
+2025-10-09 04:38:50,808 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 04:38:50,809 - root - INFO - Time since last close for CDT is None minutes, net percent 0
+2025-10-09 04:38:50,928 - root - INFO - Last 5 minutes maximum volume candle is red for CDT
+2025-10-09 04:38:51,020 - root - INFO - swing_strategy_close_long for scale 5Min stock CDT
+2025-10-09 04:38:51,153 - root - INFO - Profit percent for CDT is -1.0171468983552323
+2025-10-09 04:38:51,153 - root - INFO - Latest 1min close price for CDT: 0.99
+2025-10-09 04:38:51,261 - root - INFO - MACD is still rising for stock CDT
+2025-10-09 04:38:51,261 - root - INFO - Not enough profit percent to scalp for CDT: -1.0171468983552323
+2025-10-09 04:38:51,285 - root - INFO - swing_strategy_close_long for scale 5Min stock TELO
+2025-10-09 04:38:51,425 - root - INFO - Profit percent for TELO is 4.186046511627907
+2025-10-09 04:38:51,425 - root - INFO - Latest 1min close price for TELO: 2.24
+2025-10-09 04:38:51,544 - root - INFO - MACD is still rising for stock TELO
+2025-10-09 04:38:51,544 - root - INFO - Not enough profit percent to scalp for TELO: 4.186046511627907
