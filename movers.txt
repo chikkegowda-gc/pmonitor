@@ -1,10 +1,8 @@
 Top Movers:
-+--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-| ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
-+--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  BAOS  |      0      |     0     |    49.2447     | 20767434 |      4.94     |        3.31        |   900000.0   |  3.392   |   957839   |      0      | 2025-10-09 08:30:57 |
-|  ANVS  |      0      |     0     |    33.9295     | 2893826  |     3.0402    |        2.27        |  16670000.0  |  2.248   |   235510   |      0      | 2025-10-09 08:30:56 |
-+--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
++--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
+| ticker | in_position | break_out | change_percent | volume | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status | update_time |
++--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
++--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 | ticker | in_position | break_out | change_percent | volume | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status | update_time |
@@ -17,403 +15,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-09 08:29:42,522 - root - INFO -  update_current_price: start time 2025-10-09T08:24:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:29:42,691 - root - INFO -  update_current_price: start time 2025-10-09T08:24:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:29:42,758 - root - INFO - Real mode: Today's profit so far: 504.70997499999794
-2025-10-09 08:29:42,779 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:29:42,801 - root - INFO -  MACD calculation for MRM due to high change percent: 43.3498
-2025-10-09 08:29:42,825 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:29:42,836 - root - INFO - Time since last close for BAOS is 246.38060836666668 minutes, net percent 10.7143
-2025-10-09 08:29:42,925 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:29:42,935 - root - INFO - 1min candle is not positive for BAOS: open 4.94 close 4.93
-2025-10-09 08:29:42,936 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
-2025-10-09 08:29:42,937 - root - INFO -  MACD calculation for MSN due to high change percent: 10.0671
-2025-10-09 08:29:42,940 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:29:42,941 - root - INFO - Time since last close for MRM is None minutes, net percent 0
-2025-10-09 08:29:42,969 - root - INFO - MACD not positive for MSN
-2025-10-09 08:29:43,007 - root - INFO - Last 5 minutes maximum volume candle is green for MRM
-2025-10-09 08:29:43,014 - root - INFO - 1min candle is not positive for MRM: open 2.9 close 2.85
-2025-10-09 08:29:43,037 - root - INFO -  MACD calculation for MYO due to high change percent: 13.5593
-2025-10-09 08:29:43,081 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:29:43,137 - root - INFO -  update_current_price: start time 2025-10-09T08:24:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:29:43,167 - root - INFO - Profit percent for MRM is -0.9057971014492752
-2025-10-09 08:29:43,168 - root - INFO - Latest 1min close price for MRM: 2.85
-2025-10-09 08:29:43,249 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:29:43,249 - root - INFO - Not enough profit percent to scalp for MRM: -0.9057971014492752
-2025-10-09 08:29:43,468 - root - INFO -  MACD calculation for NMG due to high change percent: 14.2458
-2025-10-09 08:29:43,502 - root - INFO - MACD not positive for NMG
-2025-10-09 08:29:43,551 - root - INFO -  update_current_price: start time 2025-10-09T08:24:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:29:43,859 - root - INFO -  update_current_price: start time 2025-10-09T08:24:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:29:44,091 - root - INFO -  update_current_price: start time 2025-10-09T08:24:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:29:44,268 - root - INFO -  update_current_price: start time 2025-10-09T08:24:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:29:44,448 - root - INFO -  update_current_price: start time 2025-10-09T08:24:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:29:45,070 - root - INFO -  update_current_price: start time 2025-10-09T08:24:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:29:45,655 - root - INFO -  update_current_price: start time 2025-10-09T08:24:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:29:46,313 - root - INFO -  update_current_price: start time 2025-10-09T08:24:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:29:46,787 - root - INFO -  MACD calculation for SCWO due to high change percent: 22.1429
-2025-10-09 08:29:46,859 - root - INFO - MACD not positive for SCWO
-2025-10-09 08:29:46,938 - root - INFO -  MACD calculation for SERV due to high change percent: 12.841
-2025-10-09 08:29:47,002 - root - INFO - MACD not positive for SERV
-2025-10-09 08:29:47,262 - root - INFO -  update_current_price: start time 2025-10-09T08:24:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:29:47,934 - root - INFO -  update_current_price: start time 2025-10-09T08:24:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:29:48,298 - root - INFO - Real mode: Today's profit so far: 477.61997500000143
-2025-10-09 08:29:48,323 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:29:48,375 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:29:48,388 - root - INFO - Time since last close for BAOS is 246.4731283 minutes, net percent 10.7143
-2025-10-09 08:29:48,433 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:29:48,452 - root - INFO - 1min candle is not positive for BAOS: open 4.91 close 4.9
-2025-10-09 08:29:48,453 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
-2025-10-09 08:29:48,461 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:29:48,462 - root - INFO - Time since last close for MRM is None minutes, net percent 0
-2025-10-09 08:29:48,538 - root - INFO - Last 5 minutes maximum volume candle is green for MRM
-2025-10-09 08:29:48,556 - root - INFO - 1min candle is not positive for MRM: open 2.8499 close 2.745
-2025-10-09 08:29:48,622 - root - INFO -  update_current_price: start time 2025-10-09T08:24:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:29:48,633 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:29:48,730 - root - INFO - Profit percent for MRM is -3.6231884057971007
-2025-10-09 08:29:48,731 - root - INFO - Latest 1min close price for MRM: 2.745
-2025-10-09 08:29:48,802 - root - INFO -  MACD calculation for SUGP due to high change percent: 13.979
-2025-10-09 08:29:48,803 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:29:48,803 - root - INFO - Not enough profit percent to scalp for MRM: -3.6231884057971007
-2025-10-09 08:29:48,832 - root - INFO - MACD not positive for SUGP
-2025-10-09 08:29:48,938 - root - INFO -  MACD calculation for TCRT due to high change percent: 17.2973
-2025-10-09 08:29:48,973 - root - INFO - MACD not positive for TCRT
-2025-10-09 08:29:49,042 - root - INFO -  MACD calculation for TE due to high change percent: 11.2628
-2025-10-09 08:29:49,087 - root - INFO - MACD not positive for TE
-2025-10-09 08:29:49,088 - root - INFO -  update_current_price: start time 2025-10-09T08:24:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:29:49,197 - root - INFO -  MACD calculation for TELO due to high change percent: 20.6061
-2025-10-09 08:29:49,596 - root - INFO -  MACD calculation for TLRY due to high change percent: 13.3721
-2025-10-09 08:29:49,657 - root - INFO - MACD not positive for TLRY
-2025-10-09 08:29:50,070 - root - INFO -  update_current_price: start time 2025-10-09T08:24:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:29:50,371 - root - INFO -  MACD calculation for UAMY due to high change percent: 11.3445
-2025-10-09 08:29:50,913 - root - INFO -  update_current_price: start time 2025-10-09T08:24:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:29:51,384 - root - INFO -  update_current_price: start time 2025-10-09T08:24:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:29:51,875 - root - INFO -  update_current_price: start time 2025-10-09T08:24:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:29:52,471 - root - INFO - FIND stocks Change percent for XTLB: -12.6829
-2025-10-09 08:29:52,848 - root - INFO -  update_current_price: start time 2025-10-09T08:24:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:29:53,053 - root - INFO - Updating change percent of stocks
-2025-10-09 08:29:53,719 - root - INFO - XTLB change_percent from DB: -12.682926829268284
-2025-10-09 08:29:53,728 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-09 08:29:53,847 - root - INFO - Real mode: Today's profit so far: 428.68997500000114
-2025-10-09 08:29:53,865 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:29:53,894 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:29:53,900 - root - INFO - Time since last close for BAOS is 246.56500294999998 minutes, net percent 10.7143
-2025-10-09 08:29:53,947 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:29:53,967 - root - INFO - 1min candle is not positive for BAOS: open 4.91 close 4.9
-2025-10-09 08:29:53,968 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
-2025-10-09 08:29:53,976 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:29:53,977 - root - INFO - Time since last close for MRM is None minutes, net percent 0
-2025-10-09 08:29:54,064 - root - INFO - Last 5 minutes maximum volume candle is green for MRM
-2025-10-09 08:29:54,095 - root - INFO - 1min candle is not positive for MRM: open 2.8499 close 2.745
-2025-10-09 08:29:54,184 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:29:54,282 - root - INFO - Profit percent for MRM is -6.5181159420289845
-2025-10-09 08:29:54,282 - root - INFO - Latest 1min close price for MRM: 2.745
-2025-10-09 08:29:54,406 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:29:54,407 - root - INFO - Not enough profit percent to scalp for MRM: -6.5181159420289845
-2025-10-09 08:29:59,458 - root - INFO - Real mode: Today's profit so far: 417.82997500000056
-2025-10-09 08:29:59,482 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:29:59,538 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:29:59,552 - root - INFO - Time since last close for BAOS is 246.65920093333335 minutes, net percent 10.7143
-2025-10-09 08:29:59,604 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:29:59,640 - root - INFO - 1min candle is not positive for BAOS: open 4.91 close 4.9
-2025-10-09 08:29:59,641 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
-2025-10-09 08:29:59,658 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:29:59,658 - root - INFO - Time since last close for MRM is None minutes, net percent 0
-2025-10-09 08:29:59,761 - root - INFO - Last 5 minutes maximum volume candle is green for MRM
-2025-10-09 08:29:59,793 - root - INFO - 1min candle is not positive for MRM: open 2.8499 close 2.745
-2025-10-09 08:29:59,886 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:29:59,986 - root - INFO - Profit percent for MRM is -6.521739130434782
-2025-10-09 08:29:59,986 - root - INFO - Latest 1min close price for MRM: 2.745
-2025-10-09 08:30:00,096 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:30:00,096 - root - INFO - Not enough profit percent to scalp for MRM: -6.521739130434782
-2025-10-09 08:30:05,145 - root - INFO - Real mode: Today's profit so far: 406.969975
-2025-10-09 08:30:05,169 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:30:05,227 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:30:05,241 - root - INFO - Time since last close for BAOS is 246.75401823333334 minutes, net percent 10.7143
-2025-10-09 08:30:05,293 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:30:05,322 - root - INFO - 1min candle is not positive for BAOS: open 4.91 close 4.9
-2025-10-09 08:30:05,323 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
-2025-10-09 08:30:05,334 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:30:05,335 - root - INFO - Time since last close for MRM is None minutes, net percent 0
-2025-10-09 08:30:05,428 - root - INFO - Last 5 minutes maximum volume candle is green for MRM
-2025-10-09 08:30:05,461 - root - INFO - 1min candle is not positive for MRM: open 2.8499 close 2.745
-2025-10-09 08:30:05,552 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:30:05,653 - root - INFO - Profit percent for MRM is -7.608695652173912
-2025-10-09 08:30:05,653 - root - INFO - Latest 1min close price for MRM: 2.745
-2025-10-09 08:30:05,771 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:30:05,772 - root - INFO - Not enough profit percent to scalp for MRM: -7.608695652173912
-2025-10-09 08:30:10,816 - root - INFO - Real mode: Today's profit so far: 409.68997500000114
-2025-10-09 08:30:10,838 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:30:10,894 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:30:10,908 - root - INFO - Time since last close for BAOS is 246.84846770000001 minutes, net percent 10.7143
-2025-10-09 08:30:10,959 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:30:10,993 - root - INFO - 1min candle is not positive for BAOS: open 4.91 close 4.9
-2025-10-09 08:30:10,994 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
-2025-10-09 08:30:11,010 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:30:11,011 - root - INFO - Time since last close for MRM is None minutes, net percent 0
-2025-10-09 08:30:11,098 - root - INFO - Last 5 minutes maximum volume candle is green for MRM
-2025-10-09 08:30:11,126 - root - INFO - 1min candle is not positive for MRM: open 2.8499 close 2.745
-2025-10-09 08:30:11,206 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:30:11,299 - root - INFO - Profit percent for MRM is -7.065217391304348
-2025-10-09 08:30:11,299 - root - INFO - Latest 1min close price for MRM: 2.745
-2025-10-09 08:30:11,421 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:30:11,421 - root - INFO - Not enough profit percent to scalp for MRM: -7.065217391304348
-2025-10-09 08:30:16,468 - root - INFO - Real mode: Today's profit so far: 417.82997500000056
-2025-10-09 08:30:16,491 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:30:16,541 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:30:16,555 - root - INFO - Time since last close for BAOS is 246.94257963333334 minutes, net percent 10.7143
-2025-10-09 08:30:16,606 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:30:16,638 - root - INFO - 1min candle is not positive for BAOS: open 4.91 close 4.9
-2025-10-09 08:30:16,639 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
-2025-10-09 08:30:16,653 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:30:16,653 - root - INFO - Time since last close for MRM is None minutes, net percent 0
-2025-10-09 08:30:16,745 - root - INFO - Last 5 minutes maximum volume candle is green for MRM
-2025-10-09 08:30:16,764 - root - INFO - 1min candle is not positive for MRM: open 2.8499 close 2.745
-2025-10-09 08:30:16,859 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:30:16,959 - root - INFO - Profit percent for MRM is -6.884057971014493
-2025-10-09 08:30:16,959 - root - INFO - Latest 1min close price for MRM: 2.745
-2025-10-09 08:30:17,078 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:30:17,078 - root - INFO - Not enough profit percent to scalp for MRM: -6.884057971014493
-2025-10-09 08:30:22,130 - root - INFO - Real mode: Today's profit so far: 417.7799750000013
-2025-10-09 08:30:22,153 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:30:22,210 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:30:22,224 - root - INFO - Time since last close for BAOS is 247.03706544999997 minutes, net percent 10.7143
-2025-10-09 08:30:22,279 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:30:22,312 - root - INFO - 1min candle is not positive for BAOS: open 4.91 close 4.9
-2025-10-09 08:30:22,313 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
-2025-10-09 08:30:22,328 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:30:22,329 - root - INFO - Time since last close for MRM is None minutes, net percent 0
-2025-10-09 08:30:22,423 - root - INFO - Last 5 minutes maximum volume candle is green for MRM
-2025-10-09 08:30:22,456 - root - INFO - 1min candle is not positive for MRM: open 2.8499 close 2.745
-2025-10-09 08:30:22,547 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:30:22,637 - root - INFO - Profit percent for MRM is -7.065217391304348
-2025-10-09 08:30:22,638 - root - INFO - Latest 1min close price for MRM: 2.745
-2025-10-09 08:30:22,752 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:30:22,753 - root - INFO - Not enough profit percent to scalp for MRM: -7.065217391304348
-2025-10-09 08:30:27,806 - root - INFO - Real mode: Today's profit so far: 423.25997500000085
-2025-10-09 08:30:27,826 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:30:27,882 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:30:27,898 - root - INFO - Time since last close for BAOS is 247.1316382 minutes, net percent 10.7143
-2025-10-09 08:30:27,946 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:30:27,980 - root - INFO - 1min candle is not positive for BAOS: open 4.91 close 4.9
-2025-10-09 08:30:27,981 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
-2025-10-09 08:30:27,998 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:30:27,998 - root - INFO - Time since last close for MRM is None minutes, net percent 0
-2025-10-09 08:30:28,088 - root - INFO - Last 5 minutes maximum volume candle is green for MRM
-2025-10-09 08:30:28,114 - root - INFO - 1min candle is not positive for MRM: open 2.8499 close 2.745
-2025-10-09 08:30:28,202 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:30:28,292 - root - INFO - Profit percent for MRM is -6.340579710144928
-2025-10-09 08:30:28,293 - root - INFO - Latest 1min close price for MRM: 2.745
-2025-10-09 08:30:28,396 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:30:28,397 - root - INFO - Not enough profit percent to scalp for MRM: -6.340579710144928
-2025-10-09 08:30:33,449 - root - INFO - Real mode: Today's profit so far: 418.3199749999985
-2025-10-09 08:30:33,472 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:30:33,527 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:30:33,541 - root - INFO - Time since last close for BAOS is 247.22568816666666 minutes, net percent 10.7143
-2025-10-09 08:30:33,598 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:30:33,632 - root - INFO - 1min candle is not positive for BAOS: open 4.91 close 4.9
-2025-10-09 08:30:33,633 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
-2025-10-09 08:30:33,652 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:30:33,652 - root - INFO - Time since last close for MRM is None minutes, net percent 0
-2025-10-09 08:30:33,749 - root - INFO - Last 5 minutes maximum volume candle is green for MRM
-2025-10-09 08:30:33,783 - root - INFO - 1min candle is not positive for MRM: open 2.8499 close 2.745
-2025-10-09 08:30:33,875 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:30:33,979 - root - INFO - Profit percent for MRM is -7.065217391304348
-2025-10-09 08:30:33,979 - root - INFO - Latest 1min close price for MRM: 2.745
-2025-10-09 08:30:34,089 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:30:34,089 - root - INFO - Not enough profit percent to scalp for MRM: -7.065217391304348
-2025-10-09 08:30:39,131 - root - INFO - Real mode: Today's profit so far: 412.39997500000027
-2025-10-09 08:30:39,151 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:30:39,197 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:30:39,212 - root - INFO - Time since last close for BAOS is 247.32020826666667 minutes, net percent 10.7143
-2025-10-09 08:30:39,265 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:30:39,301 - root - INFO - 1min candle is not positive for BAOS: open 4.91 close 4.9
-2025-10-09 08:30:39,302 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
-2025-10-09 08:30:39,320 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:30:39,320 - root - INFO - Time since last close for MRM is None minutes, net percent 0
-2025-10-09 08:30:39,417 - root - INFO - Last 5 minutes maximum volume candle is green for MRM
-2025-10-09 08:30:39,449 - root - INFO - 1min candle is not positive for MRM: open 2.8499 close 2.745
-2025-10-09 08:30:39,540 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:30:39,625 - root - INFO - Profit percent for MRM is -7.065217391304348
-2025-10-09 08:30:39,625 - root - INFO - Latest 1min close price for MRM: 2.745
-2025-10-09 08:30:39,724 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:30:39,725 - root - INFO - Not enough profit percent to scalp for MRM: -7.065217391304348
-2025-10-09 08:30:44,773 - root - INFO - Real mode: Today's profit so far: 417.82997500000056
-2025-10-09 08:30:44,793 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:30:44,844 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:30:44,858 - root - INFO - Time since last close for BAOS is 247.4142978666667 minutes, net percent 10.7143
-2025-10-09 08:30:44,911 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:30:44,980 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=False, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 08:30:44,982 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
-2025-10-09 08:30:45,000 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:30:45,000 - root - INFO - Time since last close for MRM is None minutes, net percent 0
-2025-10-09 08:30:45,097 - root - INFO - Last 5 minutes maximum volume candle is red for MRM
-2025-10-09 08:30:45,192 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:30:45,291 - root - INFO - Profit percent for MRM is -6.702898550724637
-2025-10-09 08:30:45,291 - root - INFO - Latest 1min close price for MRM: 2.57
-2025-10-09 08:30:45,405 - root - INFO - No close long conditions met for MRM
-2025-10-09 08:30:50,453 - root - INFO - Real mode: Today's profit so far: 407.0299750000013
-2025-10-09 08:30:50,489 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:30:50,545 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:30:50,559 - root - INFO - Time since last close for BAOS is 247.50931348333333 minutes, net percent 10.7143
-2025-10-09 08:30:50,608 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:30:50,672 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=False, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 08:30:50,673 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
-2025-10-09 08:30:50,689 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:30:50,689 - root - INFO - Time since last close for MRM is None minutes, net percent 0
-2025-10-09 08:30:50,782 - root - INFO - Last 5 minutes maximum volume candle is red for MRM
-2025-10-09 08:30:50,871 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:30:50,968 - root - INFO - Profit percent for MRM is -7.615942028985506
-2025-10-09 08:30:50,968 - root - INFO - Latest 1min close price for MRM: 2.57
-2025-10-09 08:30:51,092 - root - INFO - No close long conditions met for MRM
-2025-10-09 08:30:53,809 - root - INFO - Real mode: Today's profit so far: 396.1099749999994
-2025-10-09 08:30:53,831 - root - INFO - ('2025-10-09T20:58:00-04:00', '2025-10-09T20:58:00-04:00', '2025-10-02T09:30:00-04:00', '2025-10-09T20:58:00-04:00')
-2025-10-09 08:30:53,831 - root - INFO - Screening stocks | Start: 2025-10-02T09:30:00-04:00 | End: 2025-10-09T20:58:00-04:00
-2025-10-09 08:30:53,870 - root - INFO -  update_current_price: start time 2025-10-09T08:25:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:30:54,535 - root - INFO -  update_current_price: start time 2025-10-09T08:25:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:30:55,173 - root - INFO -  MACD calculation for AMBO due to high change percent: 38.0952
-2025-10-09 08:30:55,213 - root - INFO - MACD not positive for AMBO
-2025-10-09 08:30:55,412 - root - INFO -  update_current_price: start time 2025-10-09T08:25:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:30:55,604 - root - INFO -  MACD calculation for ANVS due to high change percent: 16.2996
-2025-10-09 08:30:56,103 - root - INFO -  update_current_price: start time 2025-10-09T08:25:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:30:56,136 - root - INFO - Real mode: Today's profit so far: 401.5399749999997
-2025-10-09 08:30:56,158 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:30:56,209 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:30:56,221 - root - INFO - Time since last close for BAOS is 247.60368941666667 minutes, net percent 10.7143
-2025-10-09 08:30:56,270 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:30:56,318 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=False, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 08:30:56,318 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
-2025-10-09 08:30:56,327 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:30:56,327 - root - INFO - Time since last close for MRM is None minutes, net percent 0
-2025-10-09 08:30:56,410 - root - INFO - Last 5 minutes maximum volume candle is red for MRM
-2025-10-09 08:30:56,486 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:30:56,583 - root - INFO - Profit percent for MRM is -7.971014492753622
-2025-10-09 08:30:56,583 - root - INFO - Latest 1min close price for MRM: 2.57
-2025-10-09 08:30:56,597 - root - INFO -  update_current_price: start time 2025-10-09T08:25:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:30:56,668 - root - INFO - No close long conditions met for MRM
-2025-10-09 08:30:56,687 - root - INFO -  MACD calculation for BAOS due to high change percent: 48.9426
-2025-10-09 08:30:56,835 - root - INFO -  MACD calculation for BDRX due to high change percent: 18.2879
-2025-10-09 08:30:56,864 - root - INFO - MACD not positive for BDRX
-2025-10-09 08:30:56,981 - root - INFO -  update_current_price: start time 2025-10-09T08:25:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:30:57,273 - root - INFO -  MACD calculation for BJDX due to high change percent: 118.182
-2025-10-09 08:30:57,340 - root - INFO - MACD not positive for BJDX
-2025-10-09 08:30:57,867 - root - INFO -  update_current_price: start time 2025-10-09T08:25:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:30:58,579 - root - INFO -  update_current_price: start time 2025-10-09T08:25:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:30:59,082 - root - INFO -  update_current_price: start time 2025-10-09T08:25:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:30:59,528 - root - INFO -  update_current_price: start time 2025-10-09T08:25:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:00,050 - root - INFO -  MACD calculation for CRMLW due to high change percent: 13.8528
-2025-10-09 08:31:00,133 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:00,524 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:01,130 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:01,357 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:01,718 - root - INFO - Real mode: Today's profit so far: 401.5399749999997
-2025-10-09 08:31:01,739 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:31:01,771 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:31:01,778 - root - INFO - Time since last close for BAOS is 247.69630444999999 minutes, net percent 10.7143
-2025-10-09 08:31:01,830 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:01,836 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:31:01,894 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=False, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 08:31:01,895 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
-2025-10-09 08:31:01,903 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:31:01,903 - root - INFO - Time since last close for MRM is None minutes, net percent 0
-2025-10-09 08:31:01,978 - root - INFO - Last 5 minutes maximum volume candle is red for MRM
-2025-10-09 08:31:02,057 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:31:02,133 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:02,147 - root - INFO - Profit percent for MRM is -8.51449275362319
-2025-10-09 08:31:02,147 - root - INFO - Latest 1min close price for MRM: 2.57
-2025-10-09 08:31:02,236 - root - INFO - No close long conditions met for MRM
-2025-10-09 08:31:02,270 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:02,490 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:02,959 - root - INFO -  MACD calculation for GSRTR due to high change percent: 11.4286
-2025-10-09 08:31:03,089 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:03,372 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:03,619 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:03,950 - root - INFO -  MACD calculation for INMD due to high change percent: 10.299
-2025-10-09 08:31:04,159 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:04,772 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:05,251 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:05,554 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:05,998 - root - INFO -  MACD calculation for MCRP due to high change percent: 18.0556
-2025-10-09 08:31:06,141 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:06,525 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:06,646 - root - INFO -  MACD calculation for MRM due to high change percent: 40.3941
-2025-10-09 08:31:06,906 - root - INFO -  MACD calculation for MYO due to high change percent: 13.5593
-2025-10-09 08:31:07,131 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:07,281 - root - INFO - Real mode: Today's profit so far: 412.39997500000027
-2025-10-09 08:31:07,302 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:31:07,341 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:31:07,351 - root - INFO - Time since last close for BAOS is 247.78919069999998 minutes, net percent 10.7143
-2025-10-09 08:31:07,396 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:31:07,440 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=False, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 08:31:07,440 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
-2025-10-09 08:31:07,445 - root - INFO -  MACD calculation for NMG due to high change percent: 11.7318
-2025-10-09 08:31:07,448 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:31:07,448 - root - INFO - Time since last close for MRM is None minutes, net percent 0
-2025-10-09 08:31:07,492 - root - INFO - MACD not positive for NMG
-2025-10-09 08:31:07,493 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:07,532 - root - INFO - Last 5 minutes maximum volume candle is red for MRM
-2025-10-09 08:31:07,609 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:31:07,697 - root - INFO - Profit percent for MRM is -7.427536231884058
-2025-10-09 08:31:07,697 - root - INFO - Latest 1min close price for MRM: 2.57
-2025-10-09 08:31:07,785 - root - INFO - No close long conditions met for MRM
-2025-10-09 08:31:07,804 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:08,295 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:08,698 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:09,050 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:09,504 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:09,858 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:10,572 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:10,870 - root - INFO -  MACD calculation for SCWO due to high change percent: 22.1429
-2025-10-09 08:31:10,927 - root - INFO - MACD not positive for SCWO
-2025-10-09 08:31:11,012 - root - INFO -  MACD calculation for SERV due to high change percent: 11.6042
-2025-10-09 08:31:11,080 - root - INFO - MACD not positive for SERV
-2025-10-09 08:31:11,155 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:11,535 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:12,017 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:12,133 - root - INFO -  MACD calculation for SUGP due to high change percent: 11.7729
-2025-10-09 08:31:12,164 - root - INFO - MACD not positive for SUGP
-2025-10-09 08:31:12,398 - root - INFO -  MACD calculation for TCRT due to high change percent: 18.1081
-2025-10-09 08:31:12,435 - root - INFO - MACD not positive for TCRT
-2025-10-09 08:31:12,501 - root - INFO -  MACD calculation for TE due to high change percent: 11.9454
-2025-10-09 08:31:12,549 - root - INFO - MACD not positive for TE
-2025-10-09 08:31:12,550 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:12,656 - root - INFO -  MACD calculation for TELO due to high change percent: 20.6485
-2025-10-09 08:31:12,826 - root - INFO - Real mode: Today's profit so far: 401.5399749999997
-2025-10-09 08:31:12,845 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:31:12,887 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:31:12,900 - root - INFO - Time since last close for BAOS is 247.88166955 minutes, net percent 10.7143
-2025-10-09 08:31:12,922 - root - INFO -  MACD calculation for TLRY due to high change percent: 15.1163
-2025-10-09 08:31:12,949 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:31:12,973 - root - INFO - MACD not positive for TLRY
-2025-10-09 08:31:13,001 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=False, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 08:31:13,001 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
-2025-10-09 08:31:13,012 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:31:13,012 - root - INFO - Time since last close for MRM is None minutes, net percent 0
-2025-10-09 08:31:13,090 - root - INFO - Last 5 minutes maximum volume candle is red for MRM
-2025-10-09 08:31:13,175 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:31:13,229 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:13,260 - root - INFO - Profit percent for MRM is -7.789855072463768
-2025-10-09 08:31:13,260 - root - INFO - Latest 1min close price for MRM: 2.57
-2025-10-09 08:31:13,353 - root - INFO - No close long conditions met for MRM
-2025-10-09 08:31:13,427 - root - INFO -  MACD calculation for UAMY due to high change percent: 11.3445
-2025-10-09 08:31:13,750 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:14,146 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:14,507 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:14,915 - root - INFO -  update_current_price: start time 2025-10-09T08:26:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:31:15,043 - root - INFO - Updating change percent of stocks
-2025-10-09 08:31:15,718 - root - INFO - XTLB change_percent from DB: -12.682926829268284
-2025-10-09 08:31:15,726 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-09 08:31:18,395 - root - INFO - Real mode: Today's profit so far: 406.969975
-2025-10-09 08:31:18,415 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:31:18,454 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:31:18,460 - root - INFO - Time since last close for BAOS is 247.97433983333335 minutes, net percent 10.7143
-2025-10-09 08:31:18,501 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:31:18,545 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=False, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 08:31:18,545 - root - INFO - swing_strategy_open_long for scale 5Min stock ANVS
-2025-10-09 08:31:18,552 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:31:18,552 - root - INFO - Time since last close for ANVS is None minutes, net percent 0
-2025-10-09 08:31:18,595 - root - INFO - Last 5 minutes maximum volume candle is green for ANVS
-2025-10-09 08:31:18,608 - root - INFO - 1min RSI is overbought for ANVS: 70.2095595459745
-2025-10-09 08:31:18,682 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:31:18,766 - root - INFO - Profit percent for MRM is -7.971014492753622
-2025-10-09 08:31:18,767 - root - INFO - Latest 1min close price for MRM: 2.57
-2025-10-09 08:31:18,827 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:33:38,212 - root - INFO - Last 5 minutes maximum volume candle is red for ANVS
+2025-10-09 08:33:38,278 - root - INFO -  MACD calculation for BJDX due to high change percent: 115.508
+2025-10-09 08:33:38,293 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:33:38,326 - root - INFO - MACD not positive for BJDX
+2025-10-09 08:33:38,378 - root - INFO - Profit percent for MRM is -7.608695652173912
+2025-10-09 08:33:38,379 - root - INFO - Latest 1min close price for MRM: 2.54
+2025-10-09 08:33:38,466 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:33:38,490 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:39,035 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:39,633 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:39,916 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:40,150 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:40,402 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:41,004 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:41,228 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:41,654 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:41,975 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:42,185 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:42,407 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:42,970 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:43,518 - root - INFO - Real mode: Today's profit so far: 401.5399749999997
+2025-10-09 08:33:43,538 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:33:43,582 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:33:43,590 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:43,594 - root - INFO - Time since last close for BAOS is 250.39324038333334 minutes, net percent 10.7143
+2025-10-09 08:33:43,642 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 08:33:43,642 - root - INFO - swing_strategy_open_long for scale 5Min stock ANVS
+2025-10-09 08:33:43,652 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:33:43,652 - root - INFO - Time since last close for ANVS is None minutes, net percent 0
+2025-10-09 08:33:43,696 - root - INFO - Last 5 minutes maximum volume candle is red for ANVS
+2025-10-09 08:33:43,771 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:33:43,847 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:43,855 - root - INFO - Profit percent for MRM is -7.971014492753622
+2025-10-09 08:33:43,855 - root - INFO - Latest 1min close price for MRM: 2.54
+2025-10-09 08:33:44,002 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:33:44,046 - root - INFO -  MACD calculation for INMD due to high change percent: 12.9568
+2025-10-09 08:33:44,145 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:44,382 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:44,934 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:45,521 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:46,125 - root - INFO -  MACD calculation for MCRP due to high change percent: 18.0556
+2025-10-09 08:33:46,194 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:46,554 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:46,738 - root - INFO -  MACD calculation for MRM due to high change percent: 25.6158
+2025-10-09 08:33:46,882 - root - INFO -  MACD calculation for MSN due to high change percent: 10.0671
+2025-10-09 08:33:46,930 - root - INFO - MACD not positive for MSN
+2025-10-09 08:33:47,195 - root - INFO -  MACD calculation for MYO due to high change percent: 12.7119
+2025-10-09 08:33:47,469 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:48,123 - root - INFO -  MACD calculation for NMG due to high change percent: 12.5698
+2025-10-09 08:33:48,180 - root - INFO - MACD not positive for NMG
+2025-10-09 08:33:48,181 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:48,569 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:49,053 - root - INFO - Real mode: Today's profit so far: 406.969975
+2025-10-09 08:33:49,073 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:33:49,114 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:33:49,126 - root - INFO - Time since last close for BAOS is 250.48544293333333 minutes, net percent 10.7143
+2025-10-09 08:33:49,176 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 08:33:49,177 - root - INFO - swing_strategy_open_long for scale 5Min stock ANVS
+2025-10-09 08:33:49,186 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:33:49,186 - root - INFO - Time since last close for ANVS is None minutes, net percent 0
+2025-10-09 08:33:49,218 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:49,227 - root - INFO - Last 5 minutes maximum volume candle is red for ANVS
+2025-10-09 08:33:49,306 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:33:49,392 - root - INFO - Profit percent for MRM is -7.608695652173912
+2025-10-09 08:33:49,392 - root - INFO - Latest 1min close price for MRM: 2.55
+2025-10-09 08:33:49,474 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:33:49,515 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:49,952 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:50,682 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:51,511 - root - INFO -  MACD calculation for RELL due to high change percent: 20.9237
+2025-10-09 08:33:51,544 - root - INFO - MACD not positive for RELL
+2025-10-09 08:33:51,672 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:52,429 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:52,835 - root - INFO -  MACD calculation for SCWO due to high change percent: 24.5714
+2025-10-09 08:33:52,913 - root - INFO - MACD not positive for SCWO
+2025-10-09 08:33:52,991 - root - INFO -  MACD calculation for SERV due to high change percent: 12.6955
+2025-10-09 08:33:53,087 - root - INFO - MACD not positive for SERV
+2025-10-09 08:33:53,489 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:54,320 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:54,519 - root - INFO - Real mode: Today's profit so far: 412.349975000001
+2025-10-09 08:33:54,542 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:33:54,582 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:33:54,592 - root - INFO - Time since last close for BAOS is 250.5765391666667 minutes, net percent 10.7143
+2025-10-09 08:33:54,645 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 08:33:54,646 - root - INFO - swing_strategy_open_long for scale 5Min stock ANVS
+2025-10-09 08:33:54,658 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:33:54,658 - root - INFO - Time since last close for ANVS is None minutes, net percent 0
+2025-10-09 08:33:54,697 - root - INFO - Last 5 minutes maximum volume candle is red for ANVS
+2025-10-09 08:33:54,774 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:33:54,860 - root - INFO - Profit percent for MRM is -7.246376811594201
+2025-10-09 08:33:54,861 - root - INFO - Latest 1min close price for MRM: 2.55
+2025-10-09 08:33:54,949 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:33:55,012 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:55,268 - root - INFO -  MACD calculation for SUGP due to high change percent: 10.3022
+2025-10-09 08:33:55,304 - root - INFO - MACD not positive for SUGP
+2025-10-09 08:33:55,432 - root - INFO -  MACD calculation for TCRT due to high change percent: 15.9459
+2025-10-09 08:33:55,466 - root - INFO - MACD not positive for TCRT
+2025-10-09 08:33:55,531 - root - INFO -  MACD calculation for TE due to high change percent: 11.6041
+2025-10-09 08:33:55,579 - root - INFO - MACD not positive for TE
+2025-10-09 08:33:55,579 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:55,692 - root - INFO -  MACD calculation for TELO due to high change percent: 21.2121
+2025-10-09 08:33:56,002 - root - INFO -  MACD calculation for TLRY due to high change percent: 15.1163
+2025-10-09 08:33:56,072 - root - INFO - MACD not positive for TLRY
+2025-10-09 08:33:56,593 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:56,927 - root - INFO -  MACD calculation for UAMY due to high change percent: 11.0231
+2025-10-09 08:33:57,633 - root - INFO -  MACD calculation for USARW due to high change percent: 14.1068
+2025-10-09 08:33:57,782 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:58,425 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:58,762 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:59,205 - root - INFO - FIND stocks Change percent for XTLB: -10.2439
+2025-10-09 08:33:59,598 - root - INFO -  update_current_price: start time 2025-10-09T08:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:33:59,683 - root - INFO -  MACD calculation for ZNTL due to high change percent: 11.5854
+2025-10-09 08:33:59,904 - root - INFO - MACD not positive for ZNTL
+2025-10-09 08:33:59,999 - root - INFO - Real mode: Today's profit so far: 396.1099749999994
+2025-10-09 08:34:00,021 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:34:00,051 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:34:00,055 - root - INFO - Updating change percent of stocks
+2025-10-09 08:34:00,064 - root - INFO - Time since last close for BAOS is 250.6677377 minutes, net percent 10.7143
+2025-10-09 08:34:00,105 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 08:34:00,105 - root - INFO - swing_strategy_open_long for scale 5Min stock ANVS
+2025-10-09 08:34:00,112 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:34:00,112 - root - INFO - Time since last close for ANVS is None minutes, net percent 0
+2025-10-09 08:34:00,140 - root - INFO - Last 5 minutes maximum volume candle is red for ANVS
+2025-10-09 08:34:00,204 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:34:00,288 - root - INFO - Profit percent for MRM is -8.333333333333332
+2025-10-09 08:34:00,288 - root - INFO - Latest 1min close price for MRM: 2.55
+2025-10-09 08:34:00,335 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:34:00,723 - root - INFO - XTLB change_percent from DB: -9.756097560975597
+2025-10-09 08:34:00,731 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-09 08:34:05,378 - root - INFO - Real mode: Today's profit so far: 396.1099749999994
+2025-10-09 08:34:05,397 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:34:05,436 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:34:05,445 - root - INFO - Time since last close for BAOS is 250.75742556666668 minutes, net percent 10.7143
+2025-10-09 08:34:05,498 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 08:34:05,578 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:34:05,676 - root - INFO - Profit percent for MRM is -8.333333333333332
+2025-10-09 08:34:05,676 - root - INFO - Latest 1min close price for MRM: 2.55
+2025-10-09 08:34:05,779 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:34:10,833 - root - INFO - Real mode: Today's profit so far: 401.5399749999997
+2025-10-09 08:34:10,857 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:34:10,911 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:34:10,925 - root - INFO - Time since last close for BAOS is 250.84875463333336 minutes, net percent 10.7143
+2025-10-09 08:34:10,980 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 08:34:11,076 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:34:11,184 - root - INFO - Profit percent for MRM is -7.971014492753622
+2025-10-09 08:34:11,184 - root - INFO - Latest 1min close price for MRM: 2.55
+2025-10-09 08:34:11,308 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:34:16,364 - root - INFO - Real mode: Today's profit so far: 428.68997500000114
+2025-10-09 08:34:16,386 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:34:16,441 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:34:16,455 - root - INFO - Time since last close for BAOS is 250.94091855 minutes, net percent 10.7143
+2025-10-09 08:34:16,507 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 08:34:16,600 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:34:16,710 - root - INFO - Profit percent for MRM is -6.521739130434782
+2025-10-09 08:34:16,710 - root - INFO - Latest 1min close price for MRM: 2.55
+2025-10-09 08:34:16,820 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:34:21,859 - root - INFO - Real mode: Today's profit so far: 423.3199749999985
+2025-10-09 08:34:21,880 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:34:21,925 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:34:21,936 - root - INFO - Time since last close for BAOS is 251.03226855 minutes, net percent 10.7143
+2025-10-09 08:34:21,989 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 08:34:22,077 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:34:22,192 - root - INFO - Profit percent for MRM is -6.521739130434782
+2025-10-09 08:34:22,192 - root - INFO - Latest 1min close price for MRM: 2.55
+2025-10-09 08:34:22,309 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:34:27,361 - root - INFO - Real mode: Today's profit so far: 428.68997500000114
+2025-10-09 08:34:27,380 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:34:27,434 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:34:27,447 - root - INFO - Time since last close for BAOS is 251.12411718333334 minutes, net percent 10.7143
+2025-10-09 08:34:27,495 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 08:34:27,587 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:34:27,696 - root - INFO - Profit percent for MRM is -6.166666666666666
+2025-10-09 08:34:27,696 - root - INFO - Latest 1min close price for MRM: 2.55
+2025-10-09 08:34:27,818 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:34:32,869 - root - INFO - Real mode: Today's profit so far: 439.5499749999981
+2025-10-09 08:34:32,895 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:34:32,946 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:34:32,960 - root - INFO - Time since last close for BAOS is 251.21599883333334 minutes, net percent 10.7143
+2025-10-09 08:34:33,032 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 08:34:33,129 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:34:33,236 - root - INFO - Profit percent for MRM is -5.797101449275361
+2025-10-09 08:34:33,236 - root - INFO - Latest 1min close price for MRM: 2.55
+2025-10-09 08:34:33,361 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:34:38,417 - root - INFO - Real mode: Today's profit so far: 434.11997500000143
+2025-10-09 08:34:38,438 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:34:38,494 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:34:38,508 - root - INFO - Time since last close for BAOS is 251.3084644 minutes, net percent 10.7143
+2025-10-09 08:34:38,556 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 08:34:38,645 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:34:38,768 - root - INFO - Profit percent for MRM is -5.829710144927536
+2025-10-09 08:34:38,768 - root - INFO - Latest 1min close price for MRM: 2.55
+2025-10-09 08:34:38,940 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:34:43,988 - root - INFO - Real mode: Today's profit so far: 423.25997500000085
+2025-10-09 08:34:44,009 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:34:44,067 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:34:44,081 - root - INFO - Time since last close for BAOS is 251.40135306666667 minutes, net percent 10.7143
+2025-10-09 08:34:44,137 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 08:34:44,226 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:34:44,340 - root - INFO - Profit percent for MRM is -6.521739130434782
+2025-10-09 08:34:44,341 - root - INFO - Latest 1min close price for MRM: 2.55
+2025-10-09 08:34:44,426 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:34:49,481 - root - INFO - Real mode: Today's profit so far: 417.82997500000056
+2025-10-09 08:34:49,504 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:34:49,558 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:34:49,572 - root - INFO - Time since last close for BAOS is 251.49287571666667 minutes, net percent 10.7143
+2025-10-09 08:34:49,624 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 08:34:49,716 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:34:49,837 - root - INFO - Profit percent for MRM is -6.884057971014493
+2025-10-09 08:34:49,838 - root - INFO - Latest 1min close price for MRM: 2.58
+2025-10-09 08:34:49,967 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:34:55,010 - root - INFO - Real mode: Today's profit so far: 412.39997500000027
+2025-10-09 08:34:55,034 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:34:55,088 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:34:55,101 - root - INFO - Time since last close for BAOS is 251.58502148333335 minutes, net percent 10.7143
+2025-10-09 08:34:55,150 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 08:34:55,244 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:34:55,362 - root - INFO - Profit percent for MRM is -6.887681159420289
+2025-10-09 08:34:55,362 - root - INFO - Latest 1min close price for MRM: 2.58
+2025-10-09 08:34:55,478 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:35:00,535 - root - INFO - Real mode: Today's profit so far: 417.82997500000056
+2025-10-09 08:35:00,557 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:35:00,612 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:35:00,626 - root - INFO - Time since last close for BAOS is 251.67710453333333 minutes, net percent 10.7143
+2025-10-09 08:35:00,676 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 08:35:00,767 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:35:00,836 - root - INFO - Real mode: Today's profit so far: 417.82997500000056
+2025-10-09 08:35:00,857 - root - INFO - ('2025-10-09T20:58:00-04:00', '2025-10-09T20:58:00-04:00', '2025-10-02T09:30:00-04:00', '2025-10-09T20:58:00-04:00')
+2025-10-09 08:35:00,857 - root - INFO - Screening stocks | Start: 2025-10-02T09:30:00-04:00 | End: 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:00,872 - root - INFO - Profit percent for MRM is -6.521739130434782
+2025-10-09 08:35:00,873 - root - INFO - Latest 1min close price for MRM: 2.58
+2025-10-09 08:35:00,893 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:00,963 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:35:01,379 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:01,819 - root - INFO -  MACD calculation for AMBO due to high change percent: 38.6555
+2025-10-09 08:35:01,854 - root - INFO - MACD not positive for AMBO
+2025-10-09 08:35:01,939 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:02,058 - root - INFO -  MACD calculation for ANVS due to high change percent: 16.2996
+2025-10-09 08:35:02,668 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:03,186 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:03,295 - root - INFO -  MACD calculation for BAOS due to high change percent: 47.1299
+2025-10-09 08:35:03,327 - root - INFO - MACD not positive for BAOS
+2025-10-09 08:35:03,553 - root - INFO -  MACD calculation for BDRX due to high change percent: 16.7315
+2025-10-09 08:35:03,595 - root - INFO - MACD not positive for BDRX
+2025-10-09 08:35:03,792 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:04,067 - root - INFO -  MACD calculation for BJDX due to high change percent: 112.834
+2025-10-09 08:35:04,127 - root - INFO - MACD not positive for BJDX
+2025-10-09 08:35:04,270 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:05,060 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:05,521 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:05,894 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:06,006 - root - INFO - Real mode: Today's profit so far: 423.25997500000085
+2025-10-09 08:35:06,029 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:35:06,063 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:06,143 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:35:06,246 - root - INFO - Profit percent for MRM is -6.521739130434782
+2025-10-09 08:35:06,246 - root - INFO - Latest 1min close price for MRM: 2.58
+2025-10-09 08:35:06,326 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:35:06,354 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:06,817 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:06,935 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:07,358 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:07,742 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:07,970 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:08,231 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:08,588 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:09,131 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:09,317 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:09,615 - root - INFO -  MACD calculation for INMD due to high change percent: 10.6977
+2025-10-09 08:35:09,829 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:10,222 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:10,929 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:11,375 - root - INFO - Real mode: Today's profit so far: 417.82997500000056
+2025-10-09 08:35:11,384 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:11,396 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:35:11,517 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:35:11,579 - root - INFO -  MACD calculation for MCRP due to high change percent: 16.6667
+2025-10-09 08:35:11,611 - root - INFO - Profit percent for MRM is -6.521739130434782
+2025-10-09 08:35:11,611 - root - INFO - Latest 1min close price for MRM: 2.58
+2025-10-09 08:35:11,629 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:11,697 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:35:11,831 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:11,988 - root - INFO -  MACD calculation for MRM due to high change percent: 25.6158
+2025-10-09 08:35:12,103 - root - INFO -  MACD calculation for MSN due to high change percent: 10.0671
+2025-10-09 08:35:12,142 - root - INFO - MACD not positive for MSN
+2025-10-09 08:35:12,316 - root - INFO -  MACD calculation for MYO due to high change percent: 13.2373
+2025-10-09 08:35:12,505 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:12,770 - root - INFO -  MACD calculation for NEOVW due to high change percent: 11.282051282051281
+2025-10-09 08:35:13,024 - root - INFO -  MACD calculation for NMG due to high change percent: 11.7318
+2025-10-09 08:35:13,101 - root - INFO - MACD not positive for NMG
+2025-10-09 08:35:13,102 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:13,478 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:13,802 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:14,032 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:14,270 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:14,818 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:15,534 - root - INFO -  MACD calculation for RELL due to high change percent: 18.9444
+2025-10-09 08:35:15,573 - root - INFO - MACD not positive for RELL
+2025-10-09 08:35:15,653 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:16,475 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:16,731 - root - INFO -  MACD calculation for SCWO due to high change percent: 22.9714
+2025-10-09 08:35:16,743 - root - INFO - Real mode: Today's profit so far: 412.39997500000027
+2025-10-09 08:35:16,764 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:35:16,793 - root - INFO - MACD not positive for SCWO
+2025-10-09 08:35:16,849 - root - INFO -  MACD calculation for SERV due to high change percent: 12.6308
+2025-10-09 08:35:16,900 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:35:16,913 - root - INFO - MACD not positive for SERV
+2025-10-09 08:35:17,027 - root - INFO - Profit percent for MRM is -7.246376811594201
+2025-10-09 08:35:17,027 - root - INFO - Latest 1min close price for MRM: 2.58
+2025-10-09 08:35:17,093 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:17,120 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:35:17,478 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:17,876 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:18,130 - root - INFO -  MACD calculation for SUGP due to high change percent: 11.6259
+2025-10-09 08:35:18,163 - root - INFO - MACD not positive for SUGP
+2025-10-09 08:35:18,509 - root - INFO -  MACD calculation for TCRT due to high change percent: 17.027
+2025-10-09 08:35:18,548 - root - INFO - MACD not positive for TCRT
+2025-10-09 08:35:18,627 - root - INFO -  MACD calculation for TE due to high change percent: 10.9215
+2025-10-09 08:35:18,668 - root - INFO - MACD not positive for TE
+2025-10-09 08:35:18,669 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:18,789 - root - INFO -  MACD calculation for TELO due to high change percent: 21.8182
+2025-10-09 08:35:19,107 - root - INFO -  MACD calculation for TLRY due to high change percent: 15.6977
+2025-10-09 08:35:19,186 - root - INFO - MACD not positive for TLRY
+2025-10-09 08:35:19,556 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:19,745 - root - INFO -  MACD calculation for UAMY due to high change percent: 10.2941
+2025-10-09 08:35:20,100 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:20,404 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:20,967 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:21,465 - root - INFO -  update_current_price: start time 2025-10-09T08:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:35:21,710 - root - INFO - Updating change percent of stocks
+2025-10-09 08:35:22,164 - root - INFO - Real mode: Today's profit so far: 412.39997500000027
+2025-10-09 08:35:22,180 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:35:22,265 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:35:22,357 - root - INFO - Profit percent for MRM is -7.246376811594201
+2025-10-09 08:35:22,357 - root - INFO - Latest 1min close price for MRM: 2.58
+2025-10-09 08:35:22,385 - root - INFO - XTLB change_percent from DB: -9.756097560975597
+2025-10-09 08:35:22,393 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-09 08:35:22,405 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:35:27,447 - root - INFO - Real mode: Today's profit so far: 401.5399749999997
+2025-10-09 08:35:27,468 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:35:27,597 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:35:27,703 - root - INFO - Profit percent for MRM is -7.971014492753622
+2025-10-09 08:35:27,703 - root - INFO - Latest 1min close price for MRM: 2.58
+2025-10-09 08:35:27,811 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:35:32,869 - root - INFO - Real mode: Today's profit so far: 385.2499749999988
+2025-10-09 08:35:32,890 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:35:33,038 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:35:33,149 - root - INFO - Profit percent for MRM is -9.057971014492754
+2025-10-09 08:35:33,149 - root - INFO - Latest 1min close price for MRM: 2.58
+2025-10-09 08:35:33,266 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:35:38,315 - root - INFO - Real mode: Today's profit so far: 379.32997500000056
+2025-10-09 08:35:38,336 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:35:38,487 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:35:38,594 - root - INFO - Profit percent for MRM is -10.144927536231883
+2025-10-09 08:35:38,594 - root - INFO - Latest 1min close price for MRM: 2.58
+2025-10-09 08:35:38,684 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:35:43,743 - root - INFO - Real mode: Today's profit so far: 374.38997499999823
+2025-10-09 08:35:43,765 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:35:43,909 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:35:44,028 - root - INFO - Profit percent for MRM is -9.782608695652174
+2025-10-09 08:35:44,028 - root - INFO - Latest 1min close price for MRM: 2.58
+2025-10-09 08:35:44,147 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:35:49,199 - root - INFO - Real mode: Today's profit so far: 374.38997499999823
+2025-10-09 08:35:49,227 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:35:49,374 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:35:49,480 - root - INFO - Profit percent for MRM is -9.782608695652174
+2025-10-09 08:35:49,480 - root - INFO - Latest 1min close price for MRM: 2.49
+2025-10-09 08:35:49,605 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:35:54,665 - root - INFO - Real mode: Today's profit so far: 368.95997499999794
+2025-10-09 08:35:54,687 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:35:54,815 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:35:54,926 - root - INFO - Profit percent for MRM is -10.141304347826088
+2025-10-09 08:35:54,926 - root - INFO - Latest 1min close price for MRM: 2.49
+2025-10-09 08:35:55,046 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:36:00,098 - root - INFO - Real mode: Today's profit so far: 363.58997499999896
+2025-10-09 08:36:00,119 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:36:00,244 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:36:00,445 - root - INFO - Profit percent for MRM is -10.144927536231883
+2025-10-09 08:36:00,445 - root - INFO - Latest 1min close price for MRM: 2.49
+2025-10-09 08:36:00,604 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:36:05,661 - root - INFO - Real mode: Today's profit so far: 363.5299750000013
+2025-10-09 08:36:05,682 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:36:05,833 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:36:05,943 - root - INFO - Profit percent for MRM is -10.507246376811594
+2025-10-09 08:36:05,943 - root - INFO - Latest 1min close price for MRM: 2.49
+2025-10-09 08:36:06,055 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:36:11,113 - root - INFO - Real mode: Today's profit so far: 368.90997499999867
+2025-10-09 08:36:11,135 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:36:11,287 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:36:11,404 - root - INFO - Profit percent for MRM is -10.148550724637682
+2025-10-09 08:36:11,404 - root - INFO - Latest 1min close price for MRM: 2.49
+2025-10-09 08:36:11,527 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:36:16,587 - root - INFO - Real mode: Today's profit so far: 374.38997499999823
+2025-10-09 08:36:16,609 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:36:16,755 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:36:16,873 - root - INFO - Profit percent for MRM is -9.782608695652174
+2025-10-09 08:36:16,874 - root - INFO - Latest 1min close price for MRM: 2.49
+2025-10-09 08:36:16,987 - root - INFO - No close long conditions met for MRM
+2025-10-09 08:36:22,032 - root - INFO - Real mode: Today's profit so far: 379.8199749999985
+2025-10-09 08:36:22,083 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:36:22,183 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
