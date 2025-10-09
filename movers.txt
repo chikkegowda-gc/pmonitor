@@ -2,11 +2,11 @@ Top Movers:
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  BJDX  |      0      |     0     |     85.861     | 62814399 |      3.4      |        1.87        |   550000.0   |  1.742   |  8847519   |      0      | 2025-10-09 11:32:21 |
-|  AMBO  |      0      |     0     |    39.7759     | 2192789  |      4.99     |        3.57        |  2620000.0   | 3.54278  |  1350004   |      0      | 2025-10-09 11:29:17 |
-|  BDRX  |      1      |     0     |    34.7601     | 4086196  |     10.31     |        7.71        |     -1.0     |  7.198   |   52029    |      0      | 2025-10-09 11:32:20 |
-|  MCRP  |      0      |     0     |     31.25      |  347860  |     1.8777    |        1.44        |     0.0      |  1.536   |   173633   |      0      | 2025-10-09 11:33:12 |
-|  WWR   |      1      |     0     |     30.719     | 5278758  |      2.0      |        1.53        |  69020000.0  |  1.364   |  8125822   |      0      | 2025-10-09 11:31:04 |
+|  BJDX  |      0      |     0     |    78.3155     | 62957721 |     3.3309    |        1.87        |   550000.0   |  1.742   |  8847519   |      0      | 2025-10-09 11:38:10 |
+|  AMBO  |      0      |     0     |    37.2969     | 2205215  |      5.01     |        3.57        |  2620000.0   | 3.54278  |  1350004   |      0      | 2025-10-09 11:38:00 |
+|  JFU   |      0      |     0     |    33.0254     |  45712   |     3.6715    |        2.76        |     -1.0     |  2.666   |    7354    |      0      | 2025-10-09 11:35:55 |
+|  BDRX  |      1      |     0     |     32.882     | 4131897  |    10.8885    |        7.71        |     -1.0     |  7.198   |   52029    |      0      | 2025-10-09 11:38:08 |
+|  ZSPC  |      1      |     0     |     31.757     | 1982743  |     1.4098    |        1.07        |  4590000.0   | 1.01316  |   806096   |      0      | 2025-10-09 11:36:52 |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -20,403 +20,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-09 11:32:34,482 - root - INFO - Latest 1min close price for BDRX: 10.31
-2025-10-09 11:32:34,558 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:32:34,558 - root - INFO - Not enough profit percent to scalp for BDRX: 0.08320272440548752
-2025-10-09 11:32:34,583 - root - INFO - swing_strategy_close_long for scale 5Min stock WWR
-2025-10-09 11:32:34,747 - root - INFO - Profit percent for WWR is -0.743142144638404
-2025-10-09 11:32:34,747 - root - INFO - Latest 1min close price for WWR: 1.995
-2025-10-09 11:32:34,837 - root - INFO - MACD is still rising for stock WWR
-2025-10-09 11:32:34,837 - root - INFO - Not enough profit percent to scalp for WWR: -0.743142144638404
-2025-10-09 11:32:34,858 - root - INFO -  update_current_price: start time 2025-10-09T11:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:32:36,463 - root - INFO -  MACD calculation for DPRO due to high change percent: 12.8713
-2025-10-09 11:32:36,542 - root - INFO - MACD not positive for DPRO
-2025-10-09 11:32:37,686 - root - INFO -  update_current_price: start time 2025-10-09T11:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:32:39,889 - root - INFO - Real mode: Today's profit so far: 474.51997499999925
-2025-10-09 11:32:39,911 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:32:39,950 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 11:32:39,961 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:32:39,962 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 11:32:40,071 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-09 11:32:40,088 - root - INFO - 1min candle is not positive for BJDX: open 3.39 close 3.4
-2025-10-09 11:32:40,089 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 11:32:40,097 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:32:40,097 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 11:32:40,134 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 11:32:40,151 - root - INFO - 1min candle is not positive for AMBO: open 4.9617 close 4.9699
-2025-10-09 11:32:40,151 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:32:40,158 - root - INFO - Time since last close for BDRX is 34.952638916666665 minutes, net percent -5.42487
-2025-10-09 11:32:40,189 - root - INFO -  update_current_price: start time 2025-10-09T11:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:32:40,190 - root - INFO - Last 5 minutes maximum volume candle is red for BDRX
-2025-10-09 11:32:40,191 - root - INFO - swing_strategy_open_long for scale 5Min stock MCRP
-2025-10-09 11:32:40,198 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:32:40,198 - root - INFO - Time since last close for MCRP is None minutes, net percent 0
-2025-10-09 11:32:40,236 - root - INFO - Last 5 minutes maximum volume candle is red for MCRP
-2025-10-09 11:32:40,237 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
-2025-10-09 11:32:40,247 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:32:40,247 - root - INFO - Time since last close for WWR is None minutes, net percent 0
-2025-10-09 11:32:40,397 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
-2025-10-09 11:32:40,496 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:32:40,549 - root - INFO - Profit percent for BDRX is 0.08320272440548752
-2025-10-09 11:32:40,549 - root - INFO - Latest 1min close price for BDRX: 10.31
-2025-10-09 11:32:40,618 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:32:40,618 - root - INFO - Not enough profit percent to scalp for BDRX: 0.08320272440548752
-2025-10-09 11:32:40,635 - root - INFO - swing_strategy_close_long for scale 5Min stock WWR
-2025-10-09 11:32:40,835 - root - INFO - Profit percent for WWR is -0.7481296758104738
-2025-10-09 11:32:40,835 - root - INFO - Latest 1min close price for WWR: 1.995
-2025-10-09 11:32:40,908 - root - INFO - MACD is still rising for stock WWR
-2025-10-09 11:32:40,908 - root - INFO - Not enough profit percent to scalp for WWR: -0.7481296758104738
-2025-10-09 11:32:41,959 - root - INFO -  update_current_price: start time 2025-10-09T11:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:32:42,650 - root - INFO -  MACD calculation for FEMY due to high change percent: 10.8525
-2025-10-09 11:32:42,716 - root - INFO - MACD not positive for FEMY
-2025-10-09 11:32:44,146 - root - INFO -  update_current_price: start time 2025-10-09T11:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:32:45,958 - root - INFO - Real mode: Today's profit so far: 472.25997500000085
-2025-10-09 11:32:45,978 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:32:46,001 - root - INFO -  update_current_price: start time 2025-10-09T11:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:32:46,018 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 11:32:46,031 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:32:46,031 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 11:32:46,153 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-09 11:32:46,171 - root - INFO - 1min candle is not positive for BJDX: open 3.4007 close 3.3535
-2025-10-09 11:32:46,172 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 11:32:46,181 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:32:46,181 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 11:32:46,224 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 11:32:46,281 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 11:32:46,282 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:32:46,293 - root - INFO - Time since last close for BDRX is 35.05488441666667 minutes, net percent -5.42487
-2025-10-09 11:32:46,326 - root - INFO - Last 5 minutes maximum volume candle is red for BDRX
-2025-10-09 11:32:46,327 - root - INFO - swing_strategy_open_long for scale 5Min stock MCRP
-2025-10-09 11:32:46,337 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:32:46,337 - root - INFO - Time since last close for MCRP is None minutes, net percent 0
-2025-10-09 11:32:46,382 - root - INFO - Last 5 minutes maximum volume candle is red for MCRP
-2025-10-09 11:32:46,383 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
-2025-10-09 11:32:46,392 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:32:46,392 - root - INFO - Time since last close for WWR is None minutes, net percent 0
-2025-10-09 11:32:46,571 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
-2025-10-09 11:32:46,667 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:32:46,724 - root - INFO - Profit percent for BDRX is 0.08320272440548752
-2025-10-09 11:32:46,724 - root - INFO - Latest 1min close price for BDRX: 10.3448
-2025-10-09 11:32:46,799 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:32:46,799 - root - INFO - Not enough profit percent to scalp for BDRX: 0.08320272440548752
-2025-10-09 11:32:46,824 - root - INFO - swing_strategy_close_long for scale 5Min stock WWR
-2025-10-09 11:32:47,050 - root - INFO - Profit percent for WWR is -0.4987531172069825
-2025-10-09 11:32:47,050 - root - INFO - Latest 1min close price for WWR: 1.995
-2025-10-09 11:32:47,137 - root - INFO - MACD is still rising for stock WWR
-2025-10-09 11:32:47,137 - root - INFO - Not enough profit percent to scalp for WWR: -0.4987531172069825
-2025-10-09 11:32:48,350 - root - INFO -  MACD calculation for GLTO due to high change percent: 34.1784
-2025-10-09 11:32:48,410 - root - INFO - MACD not positive for GLTO
-2025-10-09 11:32:48,563 - root - INFO -  update_current_price: start time 2025-10-09T11:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:32:48,856 - root - INFO -  MACD calculation for GNLX due to high change percent: 12.8421
-2025-10-09 11:32:52,180 - root - INFO - Real mode: Today's profit so far: 453.25997500000085
-2025-10-09 11:32:52,202 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:32:52,241 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 11:32:52,252 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:32:52,252 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 11:32:52,361 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-09 11:32:52,372 - root - INFO -  update_current_price: start time 2025-10-09T11:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:32:52,377 - root - INFO - 1min candle is not positive for BJDX: open 3.4007 close 3.3535
-2025-10-09 11:32:52,378 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 11:32:52,386 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:32:52,386 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 11:32:52,417 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 11:32:52,470 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 11:32:52,471 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:32:52,483 - root - INFO - Time since last close for BDRX is 35.158049266666666 minutes, net percent -5.42487
-2025-10-09 11:32:52,518 - root - INFO - Last 5 minutes maximum volume candle is red for BDRX
-2025-10-09 11:32:52,519 - root - INFO - swing_strategy_open_long for scale 5Min stock MCRP
-2025-10-09 11:32:52,528 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:32:52,528 - root - INFO - Time since last close for MCRP is None minutes, net percent 0
-2025-10-09 11:32:52,562 - root - INFO - Last 5 minutes maximum volume candle is red for MCRP
-2025-10-09 11:32:52,563 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
-2025-10-09 11:32:52,572 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:32:52,572 - root - INFO - Time since last close for WWR is None minutes, net percent 0
-2025-10-09 11:32:52,747 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
-2025-10-09 11:32:52,832 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:32:52,893 - root - INFO - Profit percent for BDRX is 0.08320272440548752
-2025-10-09 11:32:52,893 - root - INFO - Latest 1min close price for BDRX: 10.3448
-2025-10-09 11:32:52,974 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:32:52,974 - root - INFO - Not enough profit percent to scalp for BDRX: 0.08320272440548752
-2025-10-09 11:32:52,999 - root - INFO - swing_strategy_close_long for scale 5Min stock WWR
-2025-10-09 11:32:53,174 - root - INFO - Profit percent for WWR is -0.7481296758104738
-2025-10-09 11:32:53,174 - root - INFO - Latest 1min close price for WWR: 1.995
-2025-10-09 11:32:53,264 - root - INFO - MACD is still rising for stock WWR
-2025-10-09 11:32:53,264 - root - INFO - Not enough profit percent to scalp for WWR: -0.7481296758104738
-2025-10-09 11:32:55,324 - root - INFO -  update_current_price: start time 2025-10-09T11:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:32:58,309 - root - INFO - Real mode: Today's profit so far: 442.25997500000085
-2025-10-09 11:32:58,331 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:32:58,368 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 11:32:58,377 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:32:58,378 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 11:32:58,475 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-09 11:32:58,488 - root - INFO - 1min candle is not positive for BJDX: open 3.4007 close 3.3535
-2025-10-09 11:32:58,489 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 11:32:58,496 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:32:58,496 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 11:32:58,530 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 11:32:58,568 - root - INFO -  update_current_price: start time 2025-10-09T11:27:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:32:58,574 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 11:32:58,574 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:32:58,582 - root - INFO - Time since last close for BDRX is 35.2597107 minutes, net percent -5.42487
-2025-10-09 11:32:58,615 - root - INFO - Last 5 minutes maximum volume candle is red for BDRX
-2025-10-09 11:32:58,615 - root - INFO - swing_strategy_open_long for scale 5Min stock MCRP
-2025-10-09 11:32:58,625 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:32:58,625 - root - INFO - Time since last close for MCRP is None minutes, net percent 0
-2025-10-09 11:32:58,663 - root - INFO - Last 5 minutes maximum volume candle is red for MCRP
-2025-10-09 11:32:58,664 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
-2025-10-09 11:32:58,672 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:32:58,672 - root - INFO - Time since last close for WWR is None minutes, net percent 0
-2025-10-09 11:32:58,817 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
-2025-10-09 11:32:58,901 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:32:58,966 - root - INFO - Profit percent for BDRX is 0.08320272440548752
-2025-10-09 11:32:58,966 - root - INFO - Latest 1min close price for BDRX: 10.3448
-2025-10-09 11:32:59,034 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:32:59,034 - root - INFO - Not enough profit percent to scalp for BDRX: 0.08320272440548752
-2025-10-09 11:32:59,051 - root - INFO - swing_strategy_close_long for scale 5Min stock WWR
-2025-10-09 11:32:59,212 - root - INFO - Profit percent for WWR is -0.5336658354114714
-2025-10-09 11:32:59,212 - root - INFO - Latest 1min close price for WWR: 1.995
-2025-10-09 11:32:59,302 - root - INFO - MACD is still rising for stock WWR
-2025-10-09 11:32:59,302 - root - INFO - Not enough profit percent to scalp for WWR: -0.5336658354114714
-2025-10-09 11:32:59,330 - root - INFO -  MACD calculation for INDP due to high change percent: 12.1005
-2025-10-09 11:33:01,498 - root - INFO -  update_current_price: start time 2025-10-09T11:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:33:02,831 - root - INFO -  MACD calculation for JFU due to high change percent: 26.8116
-2025-10-09 11:33:04,154 - root - INFO -  update_current_price: start time 2025-10-09T11:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:33:04,374 - root - INFO - Real mode: Today's profit so far: 432.58997499999896
-2025-10-09 11:33:04,395 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:33:04,435 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 11:33:04,447 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:33:04,448 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 11:33:04,547 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-09 11:33:04,566 - root - INFO - 1min candle is not positive for BJDX: open 3.4007 close 3.3535
-2025-10-09 11:33:04,567 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 11:33:04,576 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:33:04,576 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 11:33:04,611 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 11:33:04,655 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 11:33:04,656 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:33:04,663 - root - INFO - Time since last close for BDRX is 35.36106245 minutes, net percent -5.42487
-2025-10-09 11:33:04,695 - root - INFO - Last 5 minutes maximum volume candle is red for BDRX
-2025-10-09 11:33:04,696 - root - INFO - swing_strategy_open_long for scale 5Min stock MCRP
-2025-10-09 11:33:04,705 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:33:04,705 - root - INFO - Time since last close for MCRP is None minutes, net percent 0
-2025-10-09 11:33:04,742 - root - INFO - Last 5 minutes maximum volume candle is red for MCRP
-2025-10-09 11:33:04,743 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
-2025-10-09 11:33:04,751 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:33:04,751 - root - INFO - Time since last close for WWR is None minutes, net percent 0
-2025-10-09 11:33:04,924 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
-2025-10-09 11:33:05,014 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:33:05,070 - root - INFO - Profit percent for BDRX is 0.08320272440548752
-2025-10-09 11:33:05,070 - root - INFO - Latest 1min close price for BDRX: 10.3448
-2025-10-09 11:33:05,136 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:33:05,137 - root - INFO - Not enough profit percent to scalp for BDRX: 0.08320272440548752
-2025-10-09 11:33:05,156 - root - INFO - swing_strategy_close_long for scale 5Min stock WWR
-2025-10-09 11:33:05,357 - root - INFO - Profit percent for WWR is -0.24937655860349126
-2025-10-09 11:33:05,357 - root - INFO - Latest 1min close price for WWR: 1.995
-2025-10-09 11:33:05,425 - root - INFO - MACD is still rising for stock WWR
-2025-10-09 11:33:05,425 - root - INFO - Not enough profit percent to scalp for WWR: -0.24937655860349126
-2025-10-09 11:33:06,131 - root - INFO -  MACD calculation for LAES due to high change percent: 22.5917
-2025-10-09 11:33:07,014 - root - INFO -  update_current_price: start time 2025-10-09T11:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:33:09,621 - root - INFO -  update_current_price: start time 2025-10-09T11:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:33:10,281 - root - INFO -  MACD calculation for LXRX due to high change percent: 10.4895
-2025-10-09 11:33:10,467 - root - INFO - Real mode: Today's profit so far: 435.8599749999994
-2025-10-09 11:33:10,485 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:33:10,529 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 11:33:10,540 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:33:10,540 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 11:33:10,634 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-09 11:33:10,654 - root - INFO - 1min candle is not positive for BJDX: open 3.4007 close 3.3535
-2025-10-09 11:33:10,655 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 11:33:10,665 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:33:10,666 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 11:33:10,698 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 11:33:10,752 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 11:33:10,753 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:33:10,762 - root - INFO - Time since last close for BDRX is 35.46270756666667 minutes, net percent -5.42487
-2025-10-09 11:33:10,796 - root - INFO - Last 5 minutes maximum volume candle is red for BDRX
-2025-10-09 11:33:10,797 - root - INFO - swing_strategy_open_long for scale 5Min stock MCRP
-2025-10-09 11:33:10,806 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:33:10,807 - root - INFO - Time since last close for MCRP is None minutes, net percent 0
-2025-10-09 11:33:10,845 - root - INFO - Last 5 minutes maximum volume candle is red for MCRP
-2025-10-09 11:33:10,845 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
-2025-10-09 11:33:10,854 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:33:10,855 - root - INFO - Time since last close for WWR is None minutes, net percent 0
-2025-10-09 11:33:11,000 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
-2025-10-09 11:33:11,082 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:33:11,136 - root - INFO - Profit percent for BDRX is 0.08320272440548752
-2025-10-09 11:33:11,136 - root - INFO - Latest 1min close price for BDRX: 10.3448
-2025-10-09 11:33:11,206 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:33:11,206 - root - INFO - Not enough profit percent to scalp for BDRX: 0.08320272440548752
-2025-10-09 11:33:11,225 - root - INFO - swing_strategy_close_long for scale 5Min stock WWR
-2025-10-09 11:33:11,393 - root - INFO - Profit percent for WWR is -0.6583541147132169
-2025-10-09 11:33:11,393 - root - INFO - Latest 1min close price for WWR: 1.995
-2025-10-09 11:33:11,481 - root - INFO - MACD is still rising for stock WWR
-2025-10-09 11:33:11,481 - root - INFO - Not enough profit percent to scalp for WWR: -0.6583541147132169
-2025-10-09 11:33:11,741 - root - INFO -  MACD calculation for MCRP due to high change percent: 31.25
-2025-10-09 11:33:12,203 - root - INFO -  update_current_price: start time 2025-10-09T11:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:33:14,099 - root - INFO -  update_current_price: start time 2025-10-09T11:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:33:16,527 - root - INFO - Real mode: Today's profit so far: 442.25997500000085
-2025-10-09 11:33:16,575 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:33:16,608 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 11:33:16,617 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:33:16,618 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 11:33:16,713 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-09 11:33:16,720 - root - INFO -  update_current_price: start time 2025-10-09T11:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:33:16,730 - root - INFO - 1min candle is not positive for BJDX: open 3.4007 close 3.3535
-2025-10-09 11:33:16,731 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 11:33:16,741 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:33:16,741 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 11:33:16,779 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 11:33:16,813 - root - INFO -  MACD calculation for NB due to high change percent: 14.496
-2025-10-09 11:33:16,830 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 11:33:16,831 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:33:16,843 - root - INFO - Time since last close for BDRX is 35.56405856666667 minutes, net percent -5.42487
-2025-10-09 11:33:16,874 - root - INFO - MACD not positive for NB
-2025-10-09 11:33:16,884 - root - INFO - Last 5 minutes maximum volume candle is red for BDRX
-2025-10-09 11:33:16,885 - root - INFO - swing_strategy_open_long for scale 5Min stock MCRP
-2025-10-09 11:33:16,896 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:33:16,896 - root - INFO - Time since last close for MCRP is None minutes, net percent 0
-2025-10-09 11:33:16,931 - root - INFO - Last 5 minutes maximum volume candle is red for MCRP
-2025-10-09 11:33:16,932 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
-2025-10-09 11:33:16,941 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:33:16,941 - root - INFO - Time since last close for WWR is None minutes, net percent 0
-2025-10-09 11:33:17,095 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
-2025-10-09 11:33:17,173 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:33:17,223 - root - INFO - Profit percent for BDRX is 0.08320272440548752
-2025-10-09 11:33:17,223 - root - INFO - Latest 1min close price for BDRX: 10.3448
-2025-10-09 11:33:17,291 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:33:17,292 - root - INFO - Not enough profit percent to scalp for BDRX: 0.08320272440548752
-2025-10-09 11:33:17,311 - root - INFO - swing_strategy_close_long for scale 5Min stock WWR
-2025-10-09 11:33:17,433 - root - INFO -  MACD calculation for NEOG due to high change percent: 22.3368
-2025-10-09 11:33:17,469 - root - INFO - Profit percent for WWR is -0.4987531172069825
-2025-10-09 11:33:17,469 - root - INFO - Latest 1min close price for WWR: 1.995
-2025-10-09 11:33:17,485 - root - INFO - MACD not positive for NEOG
-2025-10-09 11:33:17,562 - root - INFO - MACD is still rising for stock WWR
-2025-10-09 11:33:17,562 - root - INFO - Not enough profit percent to scalp for WWR: -0.4987531172069825
-2025-10-09 11:33:18,138 - root - INFO -  MACD calculation for NGNE due to high change percent: 12.6597
-2025-10-09 11:33:18,210 - root - INFO - MACD not positive for NGNE
-2025-10-09 11:33:18,751 - root - INFO -  update_current_price: start time 2025-10-09T11:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:33:20,521 - root - INFO -  MACD calculation for NVX due to high change percent: 18.0879
-2025-10-09 11:33:20,586 - root - INFO - MACD not positive for NVX
-2025-10-09 11:33:21,035 - root - INFO -  update_current_price: start time 2025-10-09T11:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:33:22,603 - root - INFO - Real mode: Today's profit so far: 419.0399749999997
-2025-10-09 11:33:22,622 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:33:22,670 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 11:33:22,682 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:33:22,682 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 11:33:22,780 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-09 11:33:22,801 - root - INFO - 1min candle is not positive for BJDX: open 3.4007 close 3.3535
-2025-10-09 11:33:22,802 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 11:33:22,811 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:33:22,812 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 11:33:22,847 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 11:33:22,893 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 11:33:22,893 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:33:22,902 - root - INFO - Time since last close for BDRX is 35.6650321 minutes, net percent -5.42487
-2025-10-09 11:33:22,936 - root - INFO - Last 5 minutes maximum volume candle is red for BDRX
-2025-10-09 11:33:22,937 - root - INFO - swing_strategy_open_long for scale 5Min stock MCRP
-2025-10-09 11:33:22,946 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:33:22,946 - root - INFO - Time since last close for MCRP is None minutes, net percent 0
-2025-10-09 11:33:22,980 - root - INFO - Last 5 minutes maximum volume candle is red for MCRP
-2025-10-09 11:33:22,981 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
-2025-10-09 11:33:22,991 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:33:22,991 - root - INFO - Time since last close for WWR is None minutes, net percent 0
-2025-10-09 11:33:23,059 - root - INFO -  MACD calculation for ONMD due to high change percent: 17.8261
-2025-10-09 11:33:23,149 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
-2025-10-09 11:33:23,230 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:33:23,292 - root - INFO - Profit percent for BDRX is 0.08320272440548752
-2025-10-09 11:33:23,292 - root - INFO - Latest 1min close price for BDRX: 10.3448
-2025-10-09 11:33:23,367 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:33:23,367 - root - INFO - Not enough profit percent to scalp for BDRX: 0.08320272440548752
-2025-10-09 11:33:23,380 - root - INFO - swing_strategy_close_long for scale 5Min stock WWR
-2025-10-09 11:33:23,424 - root - INFO -  update_current_price: start time 2025-10-09T11:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:33:23,556 - root - INFO - Profit percent for WWR is -0.997506234413965
-2025-10-09 11:33:23,556 - root - INFO - Latest 1min close price for WWR: 1.995
-2025-10-09 11:33:23,662 - root - INFO - MACD is still rising for stock WWR
-2025-10-09 11:33:23,662 - root - INFO - Not enough profit percent to scalp for WWR: -0.997506234413965
-2025-10-09 11:33:24,346 - root - INFO -  MACD calculation for OVID due to high change percent: 13.6076
-2025-10-09 11:33:24,413 - root - INFO - MACD not positive for OVID
-2025-10-09 11:33:25,277 - root - INFO -  MACD calculation for PATH due to high change percent: 11.457
-2025-10-09 11:33:26,294 - root - INFO -  update_current_price: start time 2025-10-09T11:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:33:27,149 - root - INFO -  MACD calculation for PHAT due to high change percent: 10.3167
-2025-10-09 11:33:27,217 - root - INFO - MACD not positive for PHAT
-2025-10-09 11:33:28,339 - root - INFO -  update_current_price: start time 2025-10-09T11:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:33:28,671 - root - INFO -  MACD calculation for PPIH due to high change percent: 11.7905
-2025-10-09 11:33:28,707 - root - INFO - Real mode: Today's profit so far: 443.0399749999997
-2025-10-09 11:33:28,711 - root - INFO - MACD not positive for PPIH
-2025-10-09 11:33:28,728 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:33:28,761 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 11:33:28,769 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:33:28,769 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 11:33:28,859 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-09 11:33:28,878 - root - INFO - 1min candle is not positive for BJDX: open 3.4007 close 3.3535
-2025-10-09 11:33:28,879 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 11:33:28,888 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:33:28,888 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 11:33:28,921 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 11:33:28,972 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 11:33:28,973 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:33:28,983 - root - INFO - Time since last close for BDRX is 35.766392083333336 minutes, net percent -5.42487
-2025-10-09 11:33:29,015 - root - INFO - Last 5 minutes maximum volume candle is red for BDRX
-2025-10-09 11:33:29,016 - root - INFO - swing_strategy_open_long for scale 5Min stock MCRP
-2025-10-09 11:33:29,025 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:33:29,025 - root - INFO - Time since last close for MCRP is None minutes, net percent 0
-2025-10-09 11:33:29,060 - root - INFO - Last 5 minutes maximum volume candle is red for MCRP
-2025-10-09 11:33:29,061 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
-2025-10-09 11:33:29,070 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:33:29,071 - root - INFO - Time since last close for WWR is None minutes, net percent 0
-2025-10-09 11:33:29,179 - root - INFO -  MACD calculation for PRSO due to high change percent: 21.1679
-2025-10-09 11:33:29,227 - root - INFO - MACD not positive for PRSO
-2025-10-09 11:33:29,228 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
-2025-10-09 11:33:29,308 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:33:29,355 - root - INFO - Profit percent for BDRX is 0.08320272440548752
-2025-10-09 11:33:29,356 - root - INFO - Latest 1min close price for BDRX: 10.3448
-2025-10-09 11:33:29,429 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:33:29,430 - root - INFO - Not enough profit percent to scalp for BDRX: 0.08320272440548752
-2025-10-09 11:33:29,451 - root - INFO - swing_strategy_close_long for scale 5Min stock WWR
-2025-10-09 11:33:29,611 - root - INFO - Profit percent for WWR is -1.2468827930174562
-2025-10-09 11:33:29,611 - root - INFO - Latest 1min close price for WWR: 1.995
-2025-10-09 11:33:29,713 - root - INFO - MACD is still rising for stock WWR
-2025-10-09 11:33:29,713 - root - INFO - Not enough profit percent to scalp for WWR: -1.2468827930174562
-2025-10-09 11:33:30,297 - root - INFO -  MACD calculation for PYXS due to high change percent: 12.8866
-2025-10-09 11:33:30,892 - root - INFO -  update_current_price: start time 2025-10-09T11:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:33:31,853 - root - INFO -  MACD calculation for RCAT due to high change percent: 10.5707
-2025-10-09 11:33:31,935 - root - INFO - MACD not positive for RCAT
-2025-10-09 11:33:32,720 - root - INFO -  MACD calculation for RELL due to high change percent: 17.3487
-2025-10-09 11:33:32,759 - root - INFO - MACD not positive for RELL
-2025-10-09 11:33:33,333 - root - INFO -  update_current_price: start time 2025-10-09T11:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:33:33,813 - root - INFO -  MACD calculation for RITR due to high change percent: 15.0056
-2025-10-09 11:33:34,745 - root - INFO - Real mode: Today's profit so far: 454.58997499999896
-2025-10-09 11:33:34,763 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:33:34,779 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 11:33:34,784 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:33:34,784 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 11:33:34,862 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-09 11:33:34,870 - root - INFO - 1min candle is not positive for BJDX: open 3.4007 close 3.3535
-2025-10-09 11:33:34,871 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 11:33:34,874 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:33:34,874 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 11:33:34,903 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 11:33:34,934 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 11:33:34,934 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:33:34,939 - root - INFO - Time since last close for BDRX is 35.86565435 minutes, net percent -5.42487
-2025-10-09 11:33:34,972 - root - INFO - Last 5 minutes maximum volume candle is red for BDRX
-2025-10-09 11:33:34,972 - root - INFO - swing_strategy_open_long for scale 5Min stock MCRP
-2025-10-09 11:33:34,977 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:33:34,977 - root - INFO - Time since last close for MCRP is None minutes, net percent 0
-2025-10-09 11:33:35,005 - root - INFO - Last 5 minutes maximum volume candle is red for MCRP
-2025-10-09 11:33:35,006 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
-2025-10-09 11:33:35,010 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:33:35,010 - root - INFO - Time since last close for WWR is None minutes, net percent 0
-2025-10-09 11:33:35,144 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
-2025-10-09 11:33:35,225 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:33:35,272 - root - INFO - Profit percent for BDRX is 0.08320272440548752
-2025-10-09 11:33:35,272 - root - INFO - Latest 1min close price for BDRX: 10.3448
-2025-10-09 11:33:35,282 - root - INFO -  update_current_price: start time 2025-10-09T11:28:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:33:35,314 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:33:35,314 - root - INFO - Not enough profit percent to scalp for BDRX: 0.08320272440548752
-2025-10-09 11:33:35,327 - root - INFO - swing_strategy_close_long for scale 5Min stock WWR
-2025-10-09 11:33:35,464 - root - INFO - Profit percent for WWR is -0.997506234413965
-2025-10-09 11:33:35,464 - root - INFO - Latest 1min close price for WWR: 1.995
-2025-10-09 11:33:35,526 - root - INFO - MACD is still rising for stock WWR
-2025-10-09 11:33:35,526 - root - INFO - Not enough profit percent to scalp for WWR: -0.997506234413965
-2025-10-09 11:33:36,015 - root - INFO -  MACD calculation for SERV due to high change percent: 18.5886
+2025-10-09 11:37:33,605 - root - INFO - Not enough profit percent to scalp for ZSPC: 0.7934805918936307
+2025-10-09 11:37:38,644 - root - INFO - Real mode: Today's profit so far: 476.6099749999994
+2025-10-09 11:37:38,664 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:37:38,723 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 11:37:38,736 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:37:38,737 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 11:37:38,860 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 11:37:38,861 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 11:37:38,875 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:37:38,876 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 11:37:38,919 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 11:37:38,994 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 11:37:38,995 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 11:37:39,013 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:37:39,014 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 11:37:39,042 - root - INFO - Last 20 minutes volume is low for JFU: 37463
+2025-10-09 11:37:39,043 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:37:39,059 - root - INFO - Time since last close for BDRX is 39.9343183 minutes, net percent -5.42487
+2025-10-09 11:37:39,099 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:37:39,163 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:37:39,163 - root - INFO - BDRX:======= 10.54===>BUY========>TrendUp82033
+2025-10-09 11:37:39,185 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:37:39,186 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 11:37:39,196 - root - INFO - Time since last close for ZSPC is 89.98660576666666 minutes, net percent -6.98862
+2025-10-09 11:37:39,301 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
+2025-10-09 11:37:39,368 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:37:39,369 - root - INFO - ZSPC:======= 1.4098===>BUY========>TrendUp708657
+2025-10-09 11:37:39,390 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:37:39,490 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:37:39,552 - root - INFO - Profit percent for BDRX is 3.809910798939649
+2025-10-09 11:37:39,553 - root - INFO - Latest 1min close price for BDRX: 10.54
+2025-10-09 11:37:39,672 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:37:39,672 - root - INFO - Not enough profit percent to scalp for BDRX: 3.809910798939649
+2025-10-09 11:37:39,710 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 11:37:39,811 - root - INFO - Profit percent for ZSPC is 0.7934805918936307
+2025-10-09 11:37:39,811 - root - INFO - Latest 1min close price for ZSPC: 1.4098
+2025-10-09 11:37:39,931 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 11:37:39,931 - root - INFO - Not enough profit percent to scalp for ZSPC: 0.7934805918936307
+2025-10-09 11:37:44,981 - root - INFO - Real mode: Today's profit so far: 473.2999749999981
+2025-10-09 11:37:45,002 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:37:45,053 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 11:37:45,066 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:37:45,067 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 11:37:45,174 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 11:37:45,176 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 11:37:45,190 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:37:45,191 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 11:37:45,229 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 11:37:45,252 - root - INFO - 1min candle is not positive for AMBO: open 5.01 close 5.01
+2025-10-09 11:37:45,253 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 11:37:45,268 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:37:45,268 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 11:37:45,302 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
+2025-10-09 11:37:45,303 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:37:45,321 - root - INFO - Time since last close for BDRX is 40.03867808333334 minutes, net percent -5.42487
+2025-10-09 11:37:45,360 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:37:45,393 - root - INFO - 1min RSI is overbought for BDRX: 73.17957762105851
+2025-10-09 11:37:45,394 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 11:37:45,413 - root - INFO - Time since last close for ZSPC is 90.09021626666666 minutes, net percent -6.98862
+2025-10-09 11:37:45,514 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
+2025-10-09 11:37:45,588 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:37:45,589 - root - INFO - ZSPC:======= 1.4106===>BUY========>TrendUp735205
+2025-10-09 11:37:45,713 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:37:45,859 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:37:45,916 - root - INFO - Profit percent for BDRX is 5.356900988757958
+2025-10-09 11:37:45,917 - root - INFO - Latest 1min close price for BDRX: 10.8885
+2025-10-09 11:37:45,950 - root - INFO - High price DETECTED for BDRX is 10.54 and setting no_scalp to True
+2025-10-09 11:37:45,991 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 11:37:46,105 - root - INFO - Profit percent for ZSPC is 1.4511401815712346
+2025-10-09 11:37:46,106 - root - INFO - Latest 1min close price for ZSPC: 1.4106
+2025-10-09 11:37:46,141 - root - INFO - High price DETECTED for ZSPC is 1.4098 and setting no_scalp to True
+2025-10-09 11:37:51,203 - root - INFO - Real mode: Today's profit so far: 502.1799749999991
+2025-10-09 11:37:51,220 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:37:51,265 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 11:37:51,276 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:37:51,277 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 11:37:51,429 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 11:37:51,431 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 11:37:51,444 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:37:51,445 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 11:37:51,480 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 11:37:51,501 - root - INFO - 1min candle is not positive for AMBO: open 5.01 close 5.01
+2025-10-09 11:37:51,502 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 11:37:51,513 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:37:51,513 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 11:37:51,543 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
+2025-10-09 11:37:51,544 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:37:51,561 - root - INFO - Time since last close for BDRX is 40.142682283333336 minutes, net percent -5.42487
+2025-10-09 11:37:51,596 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:37:51,621 - root - INFO - 1min RSI is overbought for BDRX: 73.17957762105851
+2025-10-09 11:37:51,622 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 11:37:51,636 - root - INFO - Time since last close for ZSPC is 90.19393366666667 minutes, net percent -6.98862
+2025-10-09 11:37:51,723 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
+2025-10-09 11:37:51,790 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:37:51,790 - root - INFO - ZSPC:======= 1.4106===>BUY========>TrendUp735205
+2025-10-09 11:37:51,812 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:37:51,908 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:37:51,966 - root - INFO - Profit percent for BDRX is 5.067626400417948
+2025-10-09 11:37:51,966 - root - INFO - Latest 1min close price for BDRX: 10.8885
+2025-10-09 11:37:52,077 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:37:52,077 - root - INFO - Not enough profit percent to scalp for BDRX: 5.067626400417948
+2025-10-09 11:37:52,117 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 11:37:52,379 - root - INFO - Profit percent for ZSPC is 0.8649653299020659
+2025-10-09 11:37:52,379 - root - INFO - Latest 1min close price for ZSPC: 1.4106
+2025-10-09 11:37:52,496 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 11:37:52,496 - root - INFO - Not enough profit percent to scalp for ZSPC: 0.8649653299020659
+2025-10-09 11:37:54,028 - root - INFO - Real mode: Today's profit so far: 513.0499749999981
+2025-10-09 11:37:54,063 - root - INFO - ('2025-10-09T20:58:00-04:00', '2025-10-09T20:58:00-04:00', '2025-10-02T09:30:00-04:00', '2025-10-09T20:58:00-04:00')
+2025-10-09 11:37:54,063 - root - INFO - Screening stocks | Start: 2025-10-02T09:30:00-04:00 | End: 2025-10-09T20:58:00-04:00
+2025-10-09 11:37:54,100 - root - INFO -  update_current_price: start time 2025-10-09T11:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:37:54,831 - root - INFO -  MACD calculation for ABOS due to high change percent: 20.8032
+2025-10-09 11:37:57,073 - root - INFO -  MACD calculation for ADVM due to high change percent: 10.5512
+2025-10-09 11:37:57,125 - root - INFO - MACD not positive for ADVM
+2025-10-09 11:37:57,552 - root - INFO - Real mode: Today's profit so far: 518.8999750000003
+2025-10-09 11:37:57,572 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:37:57,610 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 11:37:57,622 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:37:57,622 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 11:37:57,715 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 11:37:57,716 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 11:37:57,725 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:37:57,725 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 11:37:57,762 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 11:37:57,770 - root - INFO -  update_current_price: start time 2025-10-09T11:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:37:57,781 - root - INFO - 1min candle is not positive for AMBO: open 5.01 close 5.01
+2025-10-09 11:37:57,782 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 11:37:57,791 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:37:57,791 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 11:37:57,814 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
+2025-10-09 11:37:57,815 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:37:57,825 - root - INFO - Time since last close for BDRX is 40.24709036666666 minutes, net percent -5.42487
+2025-10-09 11:37:57,856 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:37:57,876 - root - INFO - 1min RSI is overbought for BDRX: 73.17957762105851
+2025-10-09 11:37:57,877 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 11:37:57,889 - root - INFO - Time since last close for ZSPC is 90.29815923333334 minutes, net percent -6.98862
+2025-10-09 11:37:57,961 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
+2025-10-09 11:37:58,017 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:37:58,017 - root - INFO - ZSPC:======= 1.4106===>BUY========>TrendUp735205
+2025-10-09 11:37:58,036 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:37:58,113 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:37:58,166 - root - INFO - Profit percent for BDRX is 5.841605232096903
+2025-10-09 11:37:58,166 - root - INFO - Latest 1min close price for BDRX: 10.8885
+2025-10-09 11:37:58,253 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:37:58,254 - root - INFO - Not enough profit percent to scalp for BDRX: 5.841605232096903
+2025-10-09 11:37:58,274 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 11:37:58,362 - root - INFO - Profit percent for ZSPC is 0.7934805918936307
+2025-10-09 11:37:58,362 - root - INFO - Latest 1min close price for ZSPC: 1.4106
+2025-10-09 11:37:58,449 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 11:37:58,449 - root - INFO - Not enough profit percent to scalp for ZSPC: 0.7934805918936307
+2025-10-09 11:38:00,246 - root - INFO -  MACD calculation for AMBO due to high change percent: 37.2969
+2025-10-09 11:38:00,933 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:38:02,860 - root - INFO -  MACD calculation for AQMS due to high change percent: 15.9645
+2025-10-09 11:38:03,132 - root - INFO -  MACD calculation for ARAI due to high change percent: 20.4128
+2025-10-09 11:38:03,194 - root - INFO - MACD not positive for ARAI
+2025-10-09 11:38:03,502 - root - INFO - Real mode: Today's profit so far: 529.9999749999988
+2025-10-09 11:38:03,524 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:38:03,568 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 11:38:03,577 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:38:03,577 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 11:38:03,666 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 11:38:03,667 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 11:38:03,678 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:38:03,679 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 11:38:03,710 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 11:38:03,729 - root - INFO - 1min candle is not positive for AMBO: open 5.01 close 5.01
+2025-10-09 11:38:03,730 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 11:38:03,738 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:38:03,738 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 11:38:03,761 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
+2025-10-09 11:38:03,761 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:38:03,769 - root - INFO - Time since last close for BDRX is 40.34615483333334 minutes, net percent -5.42487
+2025-10-09 11:38:03,803 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:38:03,818 - root - INFO - 1min RSI is overbought for BDRX: 73.17957762105851
+2025-10-09 11:38:03,818 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 11:38:03,825 - root - INFO - Time since last close for ZSPC is 90.39709273333332 minutes, net percent -6.98862
+2025-10-09 11:38:03,895 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
+2025-10-09 11:38:03,945 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:38:03,945 - root - INFO - ZSPC:======= 1.4106===>BUY========>TrendUp735205
+2025-10-09 11:38:03,963 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:38:04,038 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:38:04,093 - root - INFO - Profit percent for BDRX is 6.325342001896248
+2025-10-09 11:38:04,094 - root - INFO - Latest 1min close price for BDRX: 10.8885
+2025-10-09 11:38:04,129 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:38:04,155 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:38:04,155 - root - INFO - Not enough profit percent to scalp for BDRX: 6.325342001896248
+2025-10-09 11:38:04,175 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 11:38:04,316 - root - INFO - Profit percent for ZSPC is 0.8578168561012224
+2025-10-09 11:38:04,317 - root - INFO - Latest 1min close price for ZSPC: 1.4106
+2025-10-09 11:38:04,384 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 11:38:04,384 - root - INFO - Not enough profit percent to scalp for ZSPC: 0.8578168561012224
+2025-10-09 11:38:06,433 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:38:06,725 - root - INFO -  MACD calculation for BACQR due to high change percent: 18.3042
+2025-10-09 11:38:06,748 - root - INFO - MACD not positive for BACQR
+2025-10-09 11:38:06,891 - root - INFO -  MACD calculation for BAOS due to high change percent: 40.9637
+2025-10-09 11:38:06,921 - root - INFO - MACD not positive for BAOS
+2025-10-09 11:38:07,113 - root - INFO -  MACD calculation for BBAR due to high change percent: 11.3582
+2025-10-09 11:38:07,161 - root - INFO - MACD not positive for BBAR
+2025-10-09 11:38:08,498 - root - INFO -  MACD calculation for BDRX due to high change percent: 32.882
+2025-10-09 11:38:09,336 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:38:09,426 - root - INFO - Real mode: Today's profit so far: 517.1299749999998
+2025-10-09 11:38:09,446 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:38:09,492 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 11:38:09,502 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:38:09,503 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 11:38:09,589 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 11:38:09,590 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 11:38:09,598 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:38:09,599 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 11:38:09,634 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 11:38:09,653 - root - INFO - 1min candle is not positive for AMBO: open 5.01 close 5.01
+2025-10-09 11:38:09,653 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 11:38:09,661 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:38:09,661 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 11:38:09,683 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
+2025-10-09 11:38:09,684 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:38:09,692 - root - INFO - Time since last close for BDRX is 40.444873933333334 minutes, net percent -5.42487
+2025-10-09 11:38:09,720 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:38:09,735 - root - INFO - 1min RSI is overbought for BDRX: 73.17957762105851
+2025-10-09 11:38:09,736 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 11:38:09,744 - root - INFO - Time since last close for ZSPC is 90.49573863333333 minutes, net percent -6.98862
+2025-10-09 11:38:09,772 - root - INFO -  MACD calculation for BJDX due to high change percent: 78.3155
+2025-10-09 11:38:09,817 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
+2025-10-09 11:38:09,879 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:38:09,880 - root - INFO - ZSPC:======= 1.4106===>BUY========>TrendUp735205
+2025-10-09 11:38:09,900 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:38:09,981 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:38:10,031 - root - INFO - Profit percent for BDRX is 7.380855633598421
+2025-10-09 11:38:10,031 - root - INFO - Latest 1min close price for BDRX: 10.8885
+2025-10-09 11:38:10,103 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:38:10,103 - root - INFO - Not enough profit percent to scalp for BDRX: 7.380855633598421
+2025-10-09 11:38:10,124 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 11:38:10,208 - root - INFO - Profit percent for ZSPC is 0.07863321180927871
+2025-10-09 11:38:10,209 - root - INFO - Latest 1min close price for ZSPC: 1.4106
+2025-10-09 11:38:10,285 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 11:38:10,285 - root - INFO - Not enough profit percent to scalp for ZSPC: 0.07863321180927871
+2025-10-09 11:38:11,082 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:38:13,103 - root - INFO -  MACD calculation for BYRN due to high change percent: 19.2105
+2025-10-09 11:38:13,168 - root - INFO - MACD not positive for BYRN
+2025-10-09 11:38:14,069 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:38:15,321 - root - INFO - Real mode: Today's profit so far: 554.1999749999995
+2025-10-09 11:38:15,341 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:38:15,382 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 11:38:15,395 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:38:15,395 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 11:38:15,486 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 11:38:15,487 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 11:38:15,497 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:38:15,497 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 11:38:15,529 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 11:38:15,544 - root - INFO - 1min candle is not positive for AMBO: open 5.01 close 5.01
+2025-10-09 11:38:15,544 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 11:38:15,552 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:38:15,552 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 11:38:15,576 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
+2025-10-09 11:38:15,576 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:38:15,584 - root - INFO - Time since last close for BDRX is 40.54307078333333 minutes, net percent -5.42487
+2025-10-09 11:38:15,615 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:38:15,632 - root - INFO - 1min RSI is overbought for BDRX: 73.17957762105851
+2025-10-09 11:38:15,633 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 11:38:15,641 - root - INFO - Time since last close for ZSPC is 90.59401518333334 minutes, net percent -6.98862
+2025-10-09 11:38:15,710 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
+2025-10-09 11:38:15,771 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:38:15,771 - root - INFO - ZSPC:======= 1.4106===>BUY========>TrendUp735205
+2025-10-09 11:38:15,790 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:38:15,875 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:38:15,927 - root - INFO - Profit percent for BDRX is 9.904994098411409
+2025-10-09 11:38:15,927 - root - INFO - Latest 1min close price for BDRX: 10.8885
+2025-10-09 11:38:15,993 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:38:15,993 - root - INFO - Not enough profit percent to scalp for BDRX: 9.904994098411409
+2025-10-09 11:38:16,013 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 11:38:16,109 - root - INFO - Profit percent for ZSPC is 0.07863321180927871
+2025-10-09 11:38:16,110 - root - INFO - Latest 1min close price for ZSPC: 1.4106
+2025-10-09 11:38:16,184 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 11:38:16,184 - root - INFO - Not enough profit percent to scalp for ZSPC: 0.07863321180927871
+2025-10-09 11:38:16,188 - root - INFO -  MACD calculation for CGTX due to high change percent: 10.2273
+2025-10-09 11:38:16,395 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:38:19,028 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:38:21,233 - root - INFO - Real mode: Today's profit so far: 539.839974999999
+2025-10-09 11:38:21,254 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:38:21,294 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 11:38:21,305 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:38:21,306 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 11:38:21,323 - root - INFO -  MACD calculation for CRML due to high change percent: 28.3291
+2025-10-09 11:38:21,395 - root - INFO - MACD not positive for CRML
+2025-10-09 11:38:21,422 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 11:38:21,422 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 11:38:21,432 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:38:21,432 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 11:38:21,448 - root - INFO -  MACD calculation for CRMLW due to high change percent: 40.6926
+2025-10-09 11:38:21,473 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 11:38:21,483 - root - INFO - MACD not positive for CRMLW
+2025-10-09 11:38:21,493 - root - INFO - 1min candle is not positive for AMBO: open 5.01 close 5.01
+2025-10-09 11:38:21,494 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 11:38:21,503 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:38:21,503 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 11:38:21,531 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
+2025-10-09 11:38:21,532 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:38:21,542 - root - INFO - Time since last close for BDRX is 40.64237515 minutes, net percent -5.42487
+2025-10-09 11:38:21,577 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:38:21,596 - root - INFO - 1min RSI is overbought for BDRX: 73.17957762105851
+2025-10-09 11:38:21,597 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 11:38:21,606 - root - INFO - Time since last close for ZSPC is 90.69344021666667 minutes, net percent -6.98862
+2025-10-09 11:38:21,675 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
+2025-10-09 11:38:21,732 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:38:21,732 - root - INFO - ZSPC:======= 1.4106===>BUY========>TrendUp735205
+2025-10-09 11:38:21,753 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:38:21,833 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:38:21,889 - root - INFO - Profit percent for BDRX is 9.944660513534954
+2025-10-09 11:38:21,889 - root - INFO - Latest 1min close price for BDRX: 10.8885
+2025-10-09 11:38:21,968 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:38:21,968 - root - INFO - Not enough profit percent to scalp for BDRX: 9.944660513534954
+2025-10-09 11:38:21,991 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 11:38:22,091 - root - INFO - Profit percent for ZSPC is 0.07148473800843519
+2025-10-09 11:38:22,091 - root - INFO - Latest 1min close price for ZSPC: 1.4106
+2025-10-09 11:38:22,162 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:38:22,183 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 11:38:22,183 - root - INFO - Not enough profit percent to scalp for ZSPC: 0.07148473800843519
+2025-10-09 11:38:25,580 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:38:27,100 - root - INFO -  MACD calculation for DPRO due to high change percent: 12.6005
+2025-10-09 11:38:27,180 - root - INFO - MACD not positive for DPRO
+2025-10-09 11:38:27,228 - root - INFO - Real mode: Today's profit so far: 527.0599750000001
+2025-10-09 11:38:27,247 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:38:27,293 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 11:38:27,303 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:38:27,304 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 11:38:27,406 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 11:38:27,408 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 11:38:27,416 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:38:27,417 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 11:38:27,455 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 11:38:27,475 - root - INFO - 1min candle is not positive for AMBO: open 5.01 close 5.01
+2025-10-09 11:38:27,475 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 11:38:27,484 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:38:27,485 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 11:38:27,514 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
+2025-10-09 11:38:27,514 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:38:27,524 - root - INFO - Time since last close for BDRX is 40.74206313333333 minutes, net percent -5.42487
+2025-10-09 11:38:27,556 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:38:27,573 - root - INFO - 1min RSI is overbought for BDRX: 73.17957762105851
+2025-10-09 11:38:27,574 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 11:38:27,581 - root - INFO - Time since last close for ZSPC is 90.79303031666667 minutes, net percent -6.98862
+2025-10-09 11:38:27,652 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
+2025-10-09 11:38:27,703 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:38:27,704 - root - INFO - ZSPC:======= 1.4106===>BUY========>TrendUp735205
+2025-10-09 11:38:27,724 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:38:27,804 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:38:27,854 - root - INFO - Profit percent for BDRX is 9.907896519030203
+2025-10-09 11:38:27,854 - root - INFO - Latest 1min close price for BDRX: 10.8885
+2025-10-09 11:38:27,919 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:38:27,919 - root - INFO - Not enough profit percent to scalp for BDRX: 9.907896519030203
+2025-10-09 11:38:27,940 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 11:38:28,030 - root - INFO - Profit percent for ZSPC is -0.6362141682750733
+2025-10-09 11:38:28,030 - root - INFO - Latest 1min close price for ZSPC: 1.4106
+2025-10-09 11:38:28,054 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:38:28,111 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 11:38:28,111 - root - INFO - Not enough profit percent to scalp for ZSPC: -0.6362141682750733
+2025-10-09 11:38:30,198 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:38:30,579 - root - INFO -  MACD calculation for ENTX due to high change percent: 11.9816
+2025-10-09 11:38:30,622 - root - INFO - MACD not positive for ENTX
+2025-10-09 11:38:33,170 - root - INFO - Real mode: Today's profit so far: 509.50997500000085
+2025-10-09 11:38:33,190 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:38:33,236 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 11:38:33,249 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:38:33,249 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 11:38:33,290 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:38:33,343 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 11:38:33,344 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 11:38:33,354 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:38:33,354 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 11:38:33,387 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 11:38:33,408 - root - INFO - 1min candle is not positive for AMBO: open 5.01 close 5.01
+2025-10-09 11:38:33,409 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 11:38:33,418 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:38:33,418 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 11:38:33,445 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
+2025-10-09 11:38:33,446 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:38:33,456 - root - INFO - Time since last close for BDRX is 40.84093621666667 minutes, net percent -5.42487
+2025-10-09 11:38:33,487 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:38:33,507 - root - INFO - 1min RSI is overbought for BDRX: 73.17957762105851
+2025-10-09 11:38:33,507 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 11:38:33,516 - root - INFO - Time since last close for ZSPC is 90.89194218333334 minutes, net percent -6.98862
+2025-10-09 11:38:33,588 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
+2025-10-09 11:38:33,649 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:38:33,650 - root - INFO - ZSPC:======= 1.4106===>BUY========>TrendUp735205
+2025-10-09 11:38:33,672 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:38:33,759 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:38:33,813 - root - INFO - Profit percent for BDRX is 9.421257328612063
+2025-10-09 11:38:33,813 - root - INFO - Latest 1min close price for BDRX: 10.8885
+2025-10-09 11:38:33,893 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:38:33,893 - root - INFO - Not enough profit percent to scalp for BDRX: 9.421257328612063
+2025-10-09 11:38:33,914 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 11:38:34,036 - root - INFO - Profit percent for ZSPC is -0.6362141682750733
+2025-10-09 11:38:34,036 - root - INFO - Latest 1min close price for ZSPC: 1.4106
+2025-10-09 11:38:34,122 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 11:38:34,122 - root - INFO - Not enough profit percent to scalp for ZSPC: -0.6362141682750733
+2025-10-09 11:38:34,822 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:38:37,151 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:38:38,275 - root - INFO -  MACD calculation for GLTO due to high change percent: 39.4366
+2025-10-09 11:38:38,326 - root - INFO - MACD not positive for GLTO
+2025-10-09 11:38:38,437 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
