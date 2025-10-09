@@ -2,10 +2,11 @@ Top Movers:
 +--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  ZSPC  |      0      |     0     |    54.2056     | 3851330 |      1.65     |        1.07        |  4590000.0   | 1.01316  |   806096   |      0      | 2025-10-09 14:33:16 |
-|  JFU   |      1      |     0     |    43.1159     |  573489 |      3.94     |        2.76        |     -1.0     |  2.666   |    7354    |      0      | 2025-10-09 14:35:16 |
-|  GLTO  |      1      |     0     |    39.7981     | 4579710 |    15.0989    |       10.65        |  1140000.0   |  8.004   |  16125358  |      0      | 2025-10-09 14:35:05 |
-|  SUGP  |      0      |     0     |    39.2014     | 1233377 |     9.465     |       6.7995       |  4020000.0   | 6.49744  |   333597   |      0      | 2025-10-09 14:32:59 |
+|  ZSPC  |      0      |     0     |    56.9346     | 4273669 |     1.6792    |        1.07        |  4590000.0   | 1.01316  |   806096   |      0      | 2025-10-09 14:39:09 |
+|  JFU   |      1      |     0     |    46.3768     |  574390 |      4.04     |        2.76        |     -1.0     |  2.666   |    7354    |      0      | 2025-10-09 14:38:08 |
+|  BDRX  |      0      |     0     |    41.2451     | 4623256 |     10.94     |        7.71        |     -1.0     |  7.198   |   52029    |      0      | 2025-10-09 14:40:24 |
+|  GLTO  |      0      |     0     |    41.1296     | 4586525 |    15.0303    |       10.65        |  1140000.0   |  8.004   |  16125358  |      0      | 2025-10-09 14:37:54 |
+|  SUGP  |      0      |     0     |    36.9218     | 1236994 |      9.31     |       6.7995       |  4020000.0   | 6.49744  |   333597   |      0      | 2025-10-09 14:38:50 |
 +--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -19,403 +20,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-09 14:33:48,454 - root - INFO - Time since last close for SUGP is 601.3075660333333 minutes, net percent -11.3612
-2025-10-09 14:33:48,544 - root - INFO - Last 20 minutes volume is low for SUGP: 34805
-2025-10-09 14:33:48,655 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 14:33:48,940 - root - INFO - Profit percent for GLTO is 2.9901007541314613
-2025-10-09 14:33:48,940 - root - INFO - Latest 1min close price for GLTO: 15.1
-2025-10-09 14:33:48,970 - root - INFO - High price DETECTED for GLTO is 15.08 and setting no_scalp to True
-2025-10-09 14:33:54,020 - root - INFO - Real mode: Today's profit so far: 1500.4799749999984
-2025-10-09 14:33:54,098 - root - INFO - Running real_trade for all top movers
-2025-10-09 14:33:54,157 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 14:33:54,170 - root - INFO - Time since last close for ZSPC is 3.5695077166666667 minutes, net percent 10.7801
-2025-10-09 14:33:54,171 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 3 minutes
-2025-10-09 14:33:54,171 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 14:33:54,184 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 14:33:54,184 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 14:33:54,288 - root - INFO - Last 20 minutes volume is low for JFU: 13009
-2025-10-09 14:33:54,289 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 14:33:54,307 - root - INFO - Time since last close for GLTO is 272.2384589166667 minutes, net percent -12.4153
-2025-10-09 14:33:54,531 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 14:33:54,533 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
-2025-10-09 14:33:54,544 - root - INFO - Time since last close for SUGP is 601.40907375 minutes, net percent -11.3612
-2025-10-09 14:33:54,612 - root - INFO - Last 20 minutes volume is low for SUGP: 34805
-2025-10-09 14:33:54,726 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 14:33:54,984 - root - INFO - Profit percent for GLTO is 2.9901007541314613
-2025-10-09 14:33:54,985 - root - INFO - Latest 1min close price for GLTO: 15.1
-2025-10-09 14:33:55,194 - root - INFO - MACD is still rising for stock GLTO
-2025-10-09 14:33:55,194 - root - INFO - Not enough profit percent to scalp for GLTO: 2.9901007541314613
-2025-10-09 14:34:00,248 - root - INFO - Real mode: Today's profit so far: 1500.4799749999984
-2025-10-09 14:34:00,271 - root - INFO - Running real_trade for all top movers
-2025-10-09 14:34:00,326 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 14:34:00,340 - root - INFO - Time since last close for ZSPC is 3.6723389333333336 minutes, net percent 10.7801
-2025-10-09 14:34:00,341 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 3 minutes
-2025-10-09 14:34:00,341 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 14:34:00,355 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 14:34:00,356 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 14:34:00,460 - root - INFO - Last 20 minutes volume is low for JFU: 13009
-2025-10-09 14:34:00,462 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 14:34:00,480 - root - INFO - Time since last close for GLTO is 272.3413369333333 minutes, net percent -12.4153
-2025-10-09 14:34:00,665 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 14:34:00,666 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
-2025-10-09 14:34:00,680 - root - INFO - Time since last close for SUGP is 601.51133165 minutes, net percent -11.3612
-2025-10-09 14:34:00,721 - root - INFO - Last 20 minutes volume is low for SUGP: 34805
-2025-10-09 14:34:00,829 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 14:34:00,987 - root - INFO - Profit percent for GLTO is 2.9901007541314613
-2025-10-09 14:34:00,987 - root - INFO - Latest 1min close price for GLTO: 15.1
-2025-10-09 14:34:01,111 - root - INFO - MACD is still rising for stock GLTO
-2025-10-09 14:34:01,111 - root - INFO - Not enough profit percent to scalp for GLTO: 2.9901007541314613
-2025-10-09 14:34:06,157 - root - INFO - Real mode: Today's profit so far: 1500.4799749999984
-2025-10-09 14:34:06,175 - root - INFO - Running real_trade for all top movers
-2025-10-09 14:34:06,216 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 14:34:06,228 - root - INFO - Time since last close for ZSPC is 3.7704622166666666 minutes, net percent 10.7801
-2025-10-09 14:34:06,228 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 3 minutes
-2025-10-09 14:34:06,228 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 14:34:06,239 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 14:34:06,240 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 14:34:06,409 - root - INFO - Last 20 minutes volume is low for JFU: 13009
-2025-10-09 14:34:06,410 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 14:34:06,419 - root - INFO - Time since last close for GLTO is 272.44032696666665 minutes, net percent -12.4153
-2025-10-09 14:34:06,586 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 14:34:06,587 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
-2025-10-09 14:34:06,598 - root - INFO - Time since last close for SUGP is 601.6099642833334 minutes, net percent -11.3612
-2025-10-09 14:34:06,640 - root - INFO - Last 20 minutes volume is low for SUGP: 34805
-2025-10-09 14:34:06,735 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 14:34:06,927 - root - INFO - Profit percent for GLTO is 2.9901007541314613
-2025-10-09 14:34:06,927 - root - INFO - Latest 1min close price for GLTO: 15.1
-2025-10-09 14:34:07,089 - root - INFO - MACD is still rising for stock GLTO
-2025-10-09 14:34:07,089 - root - INFO - Not enough profit percent to scalp for GLTO: 2.9901007541314613
-2025-10-09 14:34:12,140 - root - INFO - Real mode: Today's profit so far: 1495.839974999999
-2025-10-09 14:34:12,162 - root - INFO - Running real_trade for all top movers
-2025-10-09 14:34:12,218 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 14:34:12,232 - root - INFO - Time since last close for ZSPC is 3.8705306333333334 minutes, net percent 10.7801
-2025-10-09 14:34:12,232 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 3 minutes
-2025-10-09 14:34:12,233 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 14:34:12,246 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 14:34:12,246 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 14:34:12,377 - root - INFO - Last 20 minutes volume is low for JFU: 13009
-2025-10-09 14:34:12,378 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 14:34:12,396 - root - INFO - Time since last close for GLTO is 272.53993235 minutes, net percent -12.4153
-2025-10-09 14:34:12,595 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 14:34:12,597 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
-2025-10-09 14:34:12,607 - root - INFO - Time since last close for SUGP is 601.7101175666667 minutes, net percent -11.3612
-2025-10-09 14:34:12,655 - root - INFO - Last 20 minutes volume is low for SUGP: 34805
-2025-10-09 14:34:12,752 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 14:34:12,949 - root - INFO - Profit percent for GLTO is 2.681808018321397
-2025-10-09 14:34:12,949 - root - INFO - Latest 1min close price for GLTO: 15.1
-2025-10-09 14:34:13,083 - root - INFO - MACD is still rising for stock GLTO
-2025-10-09 14:34:13,084 - root - INFO - Not enough profit percent to scalp for GLTO: 2.681808018321397
-2025-10-09 14:34:17,589 - root - INFO - Real mode: Today's profit so far: 1495.839974999999
-2025-10-09 14:34:17,617 - root - INFO - ('2025-10-09T20:58:00-04:00', '2025-10-09T20:58:00-04:00', '2025-10-02T09:30:00-04:00', '2025-10-09T20:58:00-04:00')
-2025-10-09 14:34:17,618 - root - INFO - Screening stocks | Start: 2025-10-02T09:30:00-04:00 | End: 2025-10-09T20:58:00-04:00
-2025-10-09 14:34:17,653 - root - INFO -  update_current_price: start time 2025-10-09T14:29:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 14:34:18,135 - root - INFO - Real mode: Today's profit so far: 1493.0399749999997
-2025-10-09 14:34:18,158 - root - INFO - Running real_trade for all top movers
-2025-10-09 14:34:18,202 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 14:34:18,214 - root - INFO - Time since last close for ZSPC is 3.9702265999999997 minutes, net percent 10.7801
-2025-10-09 14:34:18,214 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 3 minutes
-2025-10-09 14:34:18,215 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 14:34:18,225 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 14:34:18,225 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 14:34:18,253 - root - INFO -  MACD calculation for ABOS due to high change percent: 13.8298
-2025-10-09 14:34:18,310 - root - INFO - MACD not positive for ABOS
-2025-10-09 14:34:18,435 - root - INFO - Last 20 minutes volume is low for JFU: 13009
-2025-10-09 14:34:18,436 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 14:34:18,446 - root - INFO - Time since last close for GLTO is 272.64077735 minutes, net percent -12.4153
-2025-10-09 14:34:18,644 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 14:34:18,645 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
-2025-10-09 14:34:18,653 - root - INFO - Time since last close for SUGP is 601.8108948666667 minutes, net percent -11.3612
-2025-10-09 14:34:18,686 - root - INFO - Last 20 minutes volume is low for SUGP: 34805
-2025-10-09 14:34:18,760 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 14:34:18,921 - root - INFO - Profit percent for GLTO is 2.4954772439306985
-2025-10-09 14:34:18,922 - root - INFO - Latest 1min close price for GLTO: 15.1
-2025-10-09 14:34:19,012 - root - INFO - MACD is still rising for stock GLTO
-2025-10-09 14:34:19,012 - root - INFO - Not enough profit percent to scalp for GLTO: 2.4954772439306985
-2025-10-09 14:34:20,075 - root - INFO -  MACD calculation for ADVM due to high change percent: 10.4508
-2025-10-09 14:34:20,205 - root - INFO - MACD not positive for ADVM
-2025-10-09 14:34:20,677 - root - INFO -  update_current_price: start time 2025-10-09T14:29:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 14:34:23,292 - root - INFO -  MACD calculation for AMBO due to high change percent: 43.1373
-2025-10-09 14:34:23,337 - root - INFO - MACD not positive for AMBO
-2025-10-09 14:34:23,579 - root - INFO -  MACD calculation for AMLX due to high change percent: 11.2018
-2025-10-09 14:34:23,907 - root - INFO -  update_current_price: start time 2025-10-09T14:29:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 14:34:24,058 - root - INFO - Real mode: Today's profit so far: 1494.0299750000013
-2025-10-09 14:34:24,077 - root - INFO - Running real_trade for all top movers
-2025-10-09 14:34:24,122 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 14:34:24,135 - root - INFO - Time since last close for ZSPC is 4.0689222 minutes, net percent 10.7801
-2025-10-09 14:34:24,136 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 4 minutes
-2025-10-09 14:34:24,137 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 14:34:24,146 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 14:34:24,147 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 14:34:24,246 - root - INFO - Last 20 minutes volume is low for JFU: 13009
-2025-10-09 14:34:24,247 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 14:34:24,256 - root - INFO - Time since last close for GLTO is 272.73760706666667 minutes, net percent -12.4153
-2025-10-09 14:34:24,397 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 14:34:24,398 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
-2025-10-09 14:34:24,409 - root - INFO - Time since last close for SUGP is 601.9068168833332 minutes, net percent -11.3612
-2025-10-09 14:34:24,444 - root - INFO - Last 20 minutes volume is low for SUGP: 34805
-2025-10-09 14:34:24,526 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 14:34:24,689 - root - INFO - Profit percent for GLTO is 2.56120118980669
-2025-10-09 14:34:24,689 - root - INFO - Latest 1min close price for GLTO: 15.1
-2025-10-09 14:34:24,791 - root - INFO - MACD is still rising for stock GLTO
-2025-10-09 14:34:24,791 - root - INFO - Not enough profit percent to scalp for GLTO: 2.56120118980669
-2025-10-09 14:34:25,349 - root - INFO -  MACD calculation for AQMS due to high change percent: 10.2054
-2025-10-09 14:34:25,431 - root - INFO - MACD not positive for AQMS
-2025-10-09 14:34:25,669 - root - INFO -  MACD calculation for ARAI due to high change percent: 22.7064
-2025-10-09 14:34:27,082 - root - INFO -  update_current_price: start time 2025-10-09T14:29:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 14:34:29,461 - root - INFO -  update_current_price: start time 2025-10-09T14:29:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 14:34:29,835 - root - INFO - Real mode: Today's profit so far: 1495.3799749999998
-2025-10-09 14:34:29,855 - root - INFO - Running real_trade for all top movers
-2025-10-09 14:34:29,889 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 14:34:29,897 - root - INFO - Time since last close for ZSPC is 4.164950116666667 minutes, net percent 10.7801
-2025-10-09 14:34:29,897 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 4 minutes
-2025-10-09 14:34:29,897 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 14:34:29,908 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 14:34:29,908 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 14:34:29,968 - root - INFO -  MACD calculation for BAOS due to high change percent: 49.3505
-2025-10-09 14:34:29,980 - root - INFO - Last 20 minutes volume is low for JFU: 13009
-2025-10-09 14:34:29,983 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 14:34:29,993 - root - INFO - Time since last close for GLTO is 272.8332230166667 minutes, net percent -12.4153
-2025-10-09 14:34:30,014 - root - INFO - MACD not positive for BAOS
-2025-10-09 14:34:30,123 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 14:34:30,124 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
-2025-10-09 14:34:30,137 - root - INFO - Time since last close for SUGP is 602.0022913833333 minutes, net percent -11.3612
-2025-10-09 14:34:30,173 - root - INFO - Last 20 minutes volume is low for SUGP: 34805
-2025-10-09 14:34:30,235 - root - INFO -  MACD calculation for BBAR due to high change percent: 12.0192
-2025-10-09 14:34:30,256 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 14:34:30,393 - root - INFO - Profit percent for GLTO is 2.651317527966555
-2025-10-09 14:34:30,393 - root - INFO - Latest 1min close price for GLTO: 15.1
-2025-10-09 14:34:30,478 - root - INFO - MACD is still rising for stock GLTO
-2025-10-09 14:34:30,479 - root - INFO - Not enough profit percent to scalp for GLTO: 2.651317527966555
-2025-10-09 14:34:31,362 - root - INFO -  MACD calculation for BDRX due to high change percent: 36.8353
-2025-10-09 14:34:31,419 - root - INFO - MACD not positive for BDRX
-2025-10-09 14:34:32,340 - root - INFO -  update_current_price: start time 2025-10-09T14:29:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 14:34:33,090 - root - INFO -  MACD calculation for BJDX due to high change percent: 89.3048
-2025-10-09 14:34:33,162 - root - INFO - MACD not positive for BJDX
-2025-10-09 14:34:33,252 - root - INFO -  MACD calculation for BKD due to high change percent: 10.702
-2025-10-09 14:34:34,584 - root - INFO -  update_current_price: start time 2025-10-09T14:29:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 14:34:35,522 - root - INFO - Real mode: Today's profit so far: 1495.3799749999998
-2025-10-09 14:34:35,540 - root - INFO - Running real_trade for all top movers
-2025-10-09 14:34:35,581 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 14:34:35,593 - root - INFO - Time since last close for ZSPC is 4.259889616666666 minutes, net percent 10.7801
-2025-10-09 14:34:35,594 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 4 minutes
-2025-10-09 14:34:35,594 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 14:34:35,606 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 14:34:35,606 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 14:34:35,689 - root - INFO - Last 20 minutes volume is low for JFU: 13009
-2025-10-09 14:34:35,690 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 14:34:35,700 - root - INFO - Time since last close for GLTO is 272.9283362 minutes, net percent -12.4153
-2025-10-09 14:34:35,836 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 14:34:35,837 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
-2025-10-09 14:34:35,847 - root - INFO - Time since last close for SUGP is 602.0974520333333 minutes, net percent -11.3612
-2025-10-09 14:34:35,887 - root - INFO - Last 20 minutes volume is low for SUGP: 34805
-2025-10-09 14:34:35,973 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 14:34:36,141 - root - INFO - Profit percent for GLTO is 2.651317527966555
-2025-10-09 14:34:36,141 - root - INFO - Latest 1min close price for GLTO: 15.1
-2025-10-09 14:34:36,243 - root - INFO - MACD is still rising for stock GLTO
-2025-10-09 14:34:36,243 - root - INFO - Not enough profit percent to scalp for GLTO: 2.651317527966555
-2025-10-09 14:34:36,739 - root - INFO -  MACD calculation for BYRN due to high change percent: 18.4211
-2025-10-09 14:34:37,151 - root - INFO -  MACD calculation for CABA due to high change percent: 30.2905
-2025-10-09 14:34:37,221 - root - INFO - MACD not positive for CABA
-2025-10-09 14:34:37,598 - root - INFO -  update_current_price: start time 2025-10-09T14:29:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 14:34:39,115 - root - INFO -  MACD calculation for CEPU due to high change percent: 12.4842
-2025-10-09 14:34:40,054 - root - INFO -  update_current_price: start time 2025-10-09T14:29:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 14:34:41,290 - root - INFO - Real mode: Today's profit so far: 1494.8699750000014
-2025-10-09 14:34:41,308 - root - INFO - Running real_trade for all top movers
-2025-10-09 14:34:41,352 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 14:34:41,364 - root - INFO - Time since last close for ZSPC is 4.356068716666667 minutes, net percent 10.7801
-2025-10-09 14:34:41,365 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 4 minutes
-2025-10-09 14:34:41,366 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 14:34:41,377 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 14:34:41,378 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 14:34:41,432 - root - INFO - Last 20 minutes volume is low for JFU: 13009
-2025-10-09 14:34:41,433 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 14:34:41,442 - root - INFO - Time since last close for GLTO is 273.02404291666664 minutes, net percent -12.4153
-2025-10-09 14:34:41,563 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 14:34:41,564 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
-2025-10-09 14:34:41,573 - root - INFO - Time since last close for SUGP is 602.1928962000001 minutes, net percent -11.3612
-2025-10-09 14:34:41,607 - root - INFO - Last 20 minutes volume is low for SUGP: 34805
-2025-10-09 14:34:41,685 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 14:34:41,805 - root - INFO - Profit percent for GLTO is 2.6174392053500646
-2025-10-09 14:34:41,805 - root - INFO - Latest 1min close price for GLTO: 15.1
-2025-10-09 14:34:41,893 - root - INFO - MACD is still rising for stock GLTO
-2025-10-09 14:34:41,893 - root - INFO - Not enough profit percent to scalp for GLTO: 2.6174392053500646
-2025-10-09 14:34:42,250 - root - INFO -  update_current_price: start time 2025-10-09T14:29:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 14:34:42,768 - root - INFO -  MACD calculation for CNTX due to high change percent: 17.5439
-2025-10-09 14:34:43,035 - root - INFO -  MACD calculation for CODI due to high change percent: 10.0917
-2025-10-09 14:34:43,156 - root - INFO - MACD not positive for CODI
-2025-10-09 14:34:44,436 - root - INFO -  MACD calculation for CRML due to high change percent: 20.5683
-2025-10-09 14:34:44,515 - root - INFO - MACD not positive for CRML
-2025-10-09 14:34:45,154 - root - INFO -  MACD calculation for CSIQ due to high change percent: 10.8817
-2025-10-09 14:34:45,222 - root - INFO - MACD not positive for CSIQ
-2025-10-09 14:34:45,547 - root - INFO -  update_current_price: start time 2025-10-09T14:29:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 14:34:46,942 - root - INFO - Real mode: Today's profit so far: 1488.549974999998
-2025-10-09 14:34:46,962 - root - INFO - Running real_trade for all top movers
-2025-10-09 14:34:47,005 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 14:34:47,020 - root - INFO - Time since last close for ZSPC is 4.450328616666667 minutes, net percent 10.7801
-2025-10-09 14:34:47,020 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 4 minutes
-2025-10-09 14:34:47,022 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 14:34:47,034 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 14:34:47,035 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 14:34:47,123 - root - INFO - Last 20 minutes volume is low for JFU: 13887
-2025-10-09 14:34:47,124 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 14:34:47,132 - root - INFO - Time since last close for GLTO is 273.11887088333333 minutes, net percent -12.4153
-2025-10-09 14:34:47,312 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 14:34:47,313 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
-2025-10-09 14:34:47,325 - root - INFO - Time since last close for SUGP is 602.2887489 minutes, net percent -11.3612
-2025-10-09 14:34:47,387 - root - INFO - Last 20 minutes volume is low for SUGP: 35022
-2025-10-09 14:34:47,477 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 14:34:47,763 - root - INFO - Profit percent for GLTO is 2.722462005461186
-2025-10-09 14:34:47,764 - root - INFO - Latest 1min close price for GLTO: 15.0989
-2025-10-09 14:34:47,937 - root - INFO - MACD is still rising for stock GLTO
-2025-10-09 14:34:47,937 - root - INFO - Not enough profit percent to scalp for GLTO: 2.722462005461186
-2025-10-09 14:34:49,179 - root - INFO -  update_current_price: start time 2025-10-09T14:29:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 14:34:50,901 - root - INFO -  MACD calculation for DPRO due to high change percent: 12.8686
-2025-10-09 14:34:52,437 - root - INFO -  update_current_price: start time 2025-10-09T14:29:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 14:34:52,981 - root - INFO - Real mode: Today's profit so far: 1497.0099750000008
-2025-10-09 14:34:53,002 - root - INFO - Running real_trade for all top movers
-2025-10-09 14:34:53,044 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 14:34:53,056 - root - INFO - Time since last close for ZSPC is 4.550931866666667 minutes, net percent 10.7801
-2025-10-09 14:34:53,056 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 4 minutes
-2025-10-09 14:34:53,057 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 14:34:53,068 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 14:34:53,068 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 14:34:53,095 - root - INFO - Last 20 minutes volume is low for JFU: 13887
-2025-10-09 14:34:53,095 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 14:34:53,104 - root - INFO - Time since last close for GLTO is 273.2183988833333 minutes, net percent -12.4153
-2025-10-09 14:34:53,232 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 14:34:53,233 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
-2025-10-09 14:34:53,242 - root - INFO - Time since last close for SUGP is 602.3873719000001 minutes, net percent -11.3612
-2025-10-09 14:34:53,279 - root - INFO - Last 20 minutes volume is low for SUGP: 35022
-2025-10-09 14:34:53,367 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 14:34:53,523 - root - INFO - Profit percent for GLTO is 2.7597281603393253
-2025-10-09 14:34:53,524 - root - INFO - Latest 1min close price for GLTO: 15.0989
-2025-10-09 14:34:53,626 - root - INFO - MACD is still rising for stock GLTO
-2025-10-09 14:34:53,626 - root - INFO - Not enough profit percent to scalp for GLTO: 2.7597281603393253
-2025-10-09 14:34:54,724 - root - INFO -  update_current_price: start time 2025-10-09T14:29:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 14:34:55,174 - root - INFO -  MACD calculation for ENTO due to high change percent: 10.5
-2025-10-09 14:34:55,347 - root - INFO -  MACD calculation for ENTX due to high change percent: 16.129
-2025-10-09 14:34:58,677 - root - INFO - Real mode: Today's profit so far: 1475.429974999999
-2025-10-09 14:34:58,696 - root - INFO - Running real_trade for all top movers
-2025-10-09 14:34:58,728 - root - INFO -  update_current_price: start time 2025-10-09T14:29:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 14:34:58,735 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 14:34:58,745 - root - INFO - Time since last close for ZSPC is 4.645750366666666 minutes, net percent 10.7801
-2025-10-09 14:34:58,745 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 4 minutes
-2025-10-09 14:34:58,746 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 14:34:58,756 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 14:34:58,757 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 14:34:58,789 - root - INFO - Last 20 minutes volume is low for JFU: 13887
-2025-10-09 14:34:58,790 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 14:34:58,801 - root - INFO - Time since last close for GLTO is 273.31336225 minutes, net percent -12.4153
-2025-10-09 14:34:58,964 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 14:34:58,967 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
-2025-10-09 14:34:58,978 - root - INFO - Time since last close for SUGP is 602.4829638499999 minutes, net percent -11.3612
-2025-10-09 14:34:59,020 - root - INFO - Last 20 minutes volume is low for SUGP: 35022
-2025-10-09 14:34:59,115 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 14:34:59,256 - root - INFO - Profit percent for GLTO is 1.349712373040986
-2025-10-09 14:34:59,256 - root - INFO - Latest 1min close price for GLTO: 15.0989
-2025-10-09 14:34:59,369 - root - INFO - MACD is still rising for stock GLTO
-2025-10-09 14:34:59,370 - root - INFO - Not enough profit percent to scalp for GLTO: 1.349712373040986
-2025-10-09 14:35:01,327 - root - INFO -  update_current_price: start time 2025-10-09T14:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 14:35:03,729 - root - INFO -  update_current_price: start time 2025-10-09T14:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 14:35:04,416 - root - INFO - Real mode: Today's profit so far: 1470.8999750000003
-2025-10-09 14:35:04,439 - root - INFO - Running real_trade for all top movers
-2025-10-09 14:35:04,482 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 14:35:04,493 - root - INFO - Time since last close for ZSPC is 4.7415495000000005 minutes, net percent 10.7801
-2025-10-09 14:35:04,493 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 4 minutes
-2025-10-09 14:35:04,494 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 14:35:04,503 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 14:35:04,504 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 14:35:04,553 - root - INFO - Last 20 minutes volume is low for JFU: 13887
-2025-10-09 14:35:04,553 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 14:35:04,564 - root - INFO - Time since last close for GLTO is 273.4094039333333 minutes, net percent -12.4153
-2025-10-09 14:35:04,775 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 14:35:04,777 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
-2025-10-09 14:35:04,786 - root - INFO - Time since last close for SUGP is 602.5797731 minutes, net percent -11.3612
-2025-10-09 14:35:04,868 - root - INFO - Last 20 minutes volume is low for SUGP: 35022
-2025-10-09 14:35:04,876 - root - INFO -  MACD calculation for GGAL due to high change percent: 12.1298
-2025-10-09 14:35:04,953 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 14:35:05,129 - root - INFO - Profit percent for GLTO is 1.025158042375006
-2025-10-09 14:35:05,129 - root - INFO - Latest 1min close price for GLTO: 15.0989
-2025-10-09 14:35:05,245 - root - INFO - MACD is still rising for stock GLTO
-2025-10-09 14:35:05,245 - root - INFO - Not enough profit percent to scalp for GLTO: 1.025158042375006
-2025-10-09 14:35:05,298 - root - INFO -  MACD calculation for GLTO due to high change percent: 39.7981
-2025-10-09 14:35:05,694 - root - INFO -  update_current_price: start time 2025-10-09T14:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 14:35:05,898 - root - INFO -  MACD calculation for GNLX due to high change percent: 10.7368
-2025-10-09 14:35:05,946 - root - INFO - MACD not positive for GNLX
-2025-10-09 14:35:08,482 - root - INFO -  update_current_price: start time 2025-10-09T14:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 14:35:10,289 - root - INFO - Real mode: Today's profit so far: 1470.8999750000003
-2025-10-09 14:35:10,309 - root - INFO - Running real_trade for all top movers
-2025-10-09 14:35:10,349 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 14:35:10,360 - root - INFO - Time since last close for ZSPC is 4.839332099999999 minutes, net percent 10.7801
-2025-10-09 14:35:10,360 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 4 minutes
-2025-10-09 14:35:10,360 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 14:35:10,370 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 14:35:10,370 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 14:35:10,404 - root - INFO - Last 20 minutes volume is low for JFU: 13887
-2025-10-09 14:35:10,405 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 14:35:10,414 - root - INFO - Time since last close for GLTO is 273.50690241666666 minutes, net percent -12.4153
-2025-10-09 14:35:10,570 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 14:35:10,571 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
-2025-10-09 14:35:10,582 - root - INFO - Time since last close for SUGP is 602.6763706999999 minutes, net percent -11.3612
-2025-10-09 14:35:10,620 - root - INFO - Last 20 minutes volume is low for SUGP: 35022
-2025-10-09 14:35:10,676 - root - INFO -  update_current_price: start time 2025-10-09T14:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 14:35:10,710 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 14:35:10,847 - root - INFO - Profit percent for GLTO is 1.025158042375006
-2025-10-09 14:35:10,847 - root - INFO - Latest 1min close price for GLTO: 15.0989
-2025-10-09 14:35:10,999 - root - INFO - MACD is still rising for stock GLTO
-2025-10-09 14:35:11,000 - root - INFO - Not enough profit percent to scalp for GLTO: 1.025158042375006
-2025-10-09 14:35:12,748 - root - INFO -  update_current_price: start time 2025-10-09T14:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 14:35:15,045 - root - INFO -  update_current_price: start time 2025-10-09T14:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 14:35:15,663 - root - INFO -  MACD calculation for IVVD due to high change percent: 14.0244
-2025-10-09 14:35:15,904 - root - INFO - MACD not positive for IVVD
-2025-10-09 14:35:16,100 - root - INFO - Real mode: Today's profit so far: 1460.1199750000014
-2025-10-09 14:35:16,121 - root - INFO - Running real_trade for all top movers
-2025-10-09 14:35:16,162 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 14:35:16,175 - root - INFO - Time since last close for ZSPC is 4.936247 minutes, net percent 10.7801
-2025-10-09 14:35:16,175 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 4 minutes
-2025-10-09 14:35:16,176 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 14:35:16,188 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 14:35:16,188 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 14:35:16,221 - root - INFO - Last 20 minutes volume is low for JFU: 13887
-2025-10-09 14:35:16,222 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 14:35:16,232 - root - INFO - Time since last close for GLTO is 273.6038704333333 minutes, net percent -12.4153
-2025-10-09 14:35:16,415 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 14:35:16,416 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
-2025-10-09 14:35:16,425 - root - INFO - Time since last close for SUGP is 602.7737603666667 minutes, net percent -11.3612
-2025-10-09 14:35:16,443 - root - INFO -  MACD calculation for JFU due to high change percent: 43.1159
-2025-10-09 14:35:16,459 - root - INFO - Last 20 minutes volume is low for SUGP: 35022
-2025-10-09 14:35:16,541 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 14:35:16,800 - root - INFO - Profit percent for GLTO is 0.3089703022623944
-2025-10-09 14:35:16,800 - root - INFO - Latest 1min close price for GLTO: 15.0989
-2025-10-09 14:35:16,916 - root - INFO - MACD is still rising for stock GLTO
-2025-10-09 14:35:16,916 - root - INFO - Not enough profit percent to scalp for GLTO: 0.3089703022623944
-2025-10-09 14:35:17,459 - root - INFO -  update_current_price: start time 2025-10-09T14:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 14:35:19,337 - root - INFO -  MACD calculation for LAES due to high change percent: 28.211
-2025-10-09 14:35:20,169 - root - INFO -  update_current_price: start time 2025-10-09T14:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 14:35:21,969 - root - INFO - Real mode: Today's profit so far: 1460.1199750000014
-2025-10-09 14:35:21,989 - root - INFO - Running real_trade for all top movers
-2025-10-09 14:35:22,031 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 14:35:22,043 - root - INFO - Time since last close for ZSPC is 5.034060066666667 minutes, net percent 10.7801
-2025-10-09 14:35:22,044 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 5 minutes
-2025-10-09 14:35:22,044 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 14:35:22,053 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 14:35:22,054 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 14:35:22,089 - root - INFO - Last 20 minutes volume is low for JFU: 13887
-2025-10-09 14:35:22,090 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 14:35:22,100 - root - INFO - Time since last close for GLTO is 273.70166825 minutes, net percent -12.4153
-2025-10-09 14:35:22,108 - root - INFO -  update_current_price: start time 2025-10-09T14:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 14:35:22,296 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 14:35:22,298 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
-2025-10-09 14:35:22,307 - root - INFO - Time since last close for SUGP is 602.8717957166666 minutes, net percent -11.3612
-2025-10-09 14:35:22,308 - root - INFO -  MACD calculation for LWLG due to high change percent: 14.3689
-2025-10-09 14:35:22,348 - root - INFO - Last 20 minutes volume is low for SUGP: 35022
-2025-10-09 14:35:22,361 - root - INFO - MACD not positive for LWLG
-2025-10-09 14:35:22,441 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 14:35:22,589 - root - INFO -  MACD calculation for LXRX due to high change percent: 13.2937
-2025-10-09 14:35:22,620 - root - INFO - Profit percent for GLTO is 0.3089703022623944
-2025-10-09 14:35:22,620 - root - INFO - Latest 1min close price for GLTO: 15.0989
-2025-10-09 14:35:22,640 - root - INFO - MACD not positive for LXRX
-2025-10-09 14:35:22,747 - root - INFO - MACD is still rising for stock GLTO
-2025-10-09 14:35:22,748 - root - INFO - Not enough profit percent to scalp for GLTO: 0.3089703022623944
-2025-10-09 14:35:23,588 - root - INFO -  update_current_price: start time 2025-10-09T14:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 14:35:24,367 - root - INFO -  update_current_price: start time 2025-10-09T14:30:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 14:39:07,403 - root - INFO - MACD not positive for WWR
+2025-10-09 14:39:08,243 - root - INFO - Real mode: Today's profit so far: 1480.5799750000006
+2025-10-09 14:39:08,261 - root - INFO - Running real_trade for all top movers
+2025-10-09 14:39:08,303 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 14:39:08,310 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:39:08,311 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 14:39:08,430 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-09 14:39:08,442 - root - INFO - FIND stocks Change percent for XTLB: -16.1512
+2025-10-09 14:39:08,490 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 14:39:08,490 - root - INFO - BJDX:======= 3.579===>BUY========>TrendUp494392
+2025-10-09 14:39:08,513 - root - WARNING - ***** stock is already in the positions
+2025-10-09 14:39:08,513 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 14:39:08,524 - root - INFO - Time since last close for ZSPC is 8.808741683333333 minutes, net percent 10.7801
+2025-10-09 14:39:08,524 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 8 minutes
+2025-10-09 14:39:08,525 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 14:39:08,534 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:39:08,534 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 14:39:08,578 - root - INFO - Last 20 minutes volume is low for JFU: 30850
+2025-10-09 14:39:08,579 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 14:39:08,588 - root - INFO - Time since last close for GLTO is 277.4764769833333 minutes, net percent -12.4153
+2025-10-09 14:39:08,698 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
+2025-10-09 14:39:08,699 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
+2025-10-09 14:39:08,708 - root - INFO - Time since last close for SUGP is 606.6451323 minutes, net percent -11.3612
+2025-10-09 14:39:08,742 - root - INFO - Last 20 minutes volume is low for SUGP: 34018
+2025-10-09 14:39:08,824 - root - WARNING - Skipping BJDX: invalid strategy format (None)
+2025-10-09 14:39:08,825 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-09 14:39:08,936 - root - INFO - Profit percent for BJDX is 0.09641014007826236
+2025-10-09 14:39:08,936 - root - INFO - Latest 1min close price for BJDX: 3.579
+2025-10-09 14:39:09,023 - root - INFO - MACD is still rising for stock BJDX
+2025-10-09 14:39:09,023 - root - INFO - Not enough profit percent to scalp for BJDX: 0.09641014007826236
+2025-10-09 14:39:09,040 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 14:39:09,047 - root - INFO -  update_current_price: start time 2025-10-09T14:34:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 14:39:09,211 - root - INFO -  MACD calculation for ZSPC due to high change percent: 60.1495
+2025-10-09 14:39:09,218 - root - INFO - Profit percent for GLTO is 1.634967849471837
+2025-10-09 14:39:09,218 - root - INFO - Latest 1min close price for GLTO: 15.0411
+2025-10-09 14:39:09,330 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 14:39:09,330 - root - INFO - Not enough profit percent to scalp for GLTO: 1.634967849471837
+2025-10-09 14:39:09,619 - root - INFO - Updating change percent of stocks
+2025-10-09 14:39:10,458 - root - INFO - XTLB change_percent from DB: -16.585365853658534
+2025-10-09 14:39:10,468 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-09 14:39:14,380 - root - INFO - Real mode: Today's profit so far: 1482.589974999999
+2025-10-09 14:39:14,562 - root - INFO - Running real_trade for all top movers
+2025-10-09 14:39:14,608 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 14:39:14,618 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:39:14,618 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 14:39:14,744 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-09 14:39:14,820 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 14:39:14,821 - root - INFO - BJDX:======= 3.579===>BUY========>TrendUp494392
+2025-10-09 14:39:14,847 - root - WARNING - ***** stock is already in the positions
+2025-10-09 14:39:14,848 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 14:39:14,864 - root - INFO - Time since last close for ZSPC is 8.914402833333332 minutes, net percent 10.7801
+2025-10-09 14:39:14,864 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 8 minutes
+2025-10-09 14:39:14,865 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 14:39:14,875 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:39:14,875 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 14:39:14,908 - root - INFO - Last 20 minutes volume is low for JFU: 30850
+2025-10-09 14:39:14,909 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 14:39:14,921 - root - INFO - Time since last close for GLTO is 277.58202256666664 minutes, net percent -12.4153
+2025-10-09 14:39:15,053 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
+2025-10-09 14:39:15,054 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
+2025-10-09 14:39:15,064 - root - INFO - Time since last close for SUGP is 606.7510776333334 minutes, net percent -11.3612
+2025-10-09 14:39:15,106 - root - INFO - Last 20 minutes volume is low for SUGP: 34018
+2025-10-09 14:39:15,203 - root - WARNING - Skipping BJDX: invalid strategy format (None)
+2025-10-09 14:39:15,204 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-09 14:39:15,326 - root - INFO - Profit percent for BJDX is 0.09641014007826236
+2025-10-09 14:39:15,326 - root - INFO - Latest 1min close price for BJDX: 3.579
+2025-10-09 14:39:15,461 - root - INFO - MACD is still rising for stock BJDX
+2025-10-09 14:39:15,461 - root - INFO - Not enough profit percent to scalp for BJDX: 0.09641014007826236
+2025-10-09 14:39:15,489 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 14:39:15,634 - root - INFO - Profit percent for GLTO is 1.634967849471837
+2025-10-09 14:39:15,634 - root - INFO - Latest 1min close price for GLTO: 15.0411
+2025-10-09 14:39:15,759 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 14:39:15,759 - root - INFO - Not enough profit percent to scalp for GLTO: 1.634967849471837
+2025-10-09 14:39:20,800 - root - INFO - Real mode: Today's profit so far: 1490.1899750000011
+2025-10-09 14:39:20,821 - root - INFO - Running real_trade for all top movers
+2025-10-09 14:39:20,875 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 14:39:20,889 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:39:20,890 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 14:39:21,012 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-09 14:39:21,105 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 14:39:21,106 - root - INFO - BJDX:======= 3.579===>BUY========>TrendUp494392
+2025-10-09 14:39:21,128 - root - WARNING - ***** stock is already in the positions
+2025-10-09 14:39:21,129 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 14:39:21,148 - root - INFO - Time since last close for ZSPC is 9.019139733333333 minutes, net percent 10.7801
+2025-10-09 14:39:21,149 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 9 minutes
+2025-10-09 14:39:21,150 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 14:39:21,168 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:39:21,169 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 14:39:21,204 - root - INFO - Last 20 minutes volume is low for JFU: 30850
+2025-10-09 14:39:21,206 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 14:39:21,220 - root - INFO - Time since last close for GLTO is 277.6869986666667 minutes, net percent -12.4153
+2025-10-09 14:39:21,404 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
+2025-10-09 14:39:21,405 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
+2025-10-09 14:39:21,417 - root - INFO - Time since last close for SUGP is 606.8569565500001 minutes, net percent -11.3612
+2025-10-09 14:39:21,492 - root - INFO - Last 20 minutes volume is low for SUGP: 34018
+2025-10-09 14:39:21,617 - root - WARNING - Skipping BJDX: invalid strategy format (None)
+2025-10-09 14:39:21,618 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-09 14:39:21,777 - root - INFO - Profit percent for BJDX is -0.1843135030907957
+2025-10-09 14:39:21,777 - root - INFO - Latest 1min close price for BJDX: 3.579
+2025-10-09 14:39:21,894 - root - INFO - MACD is still rising for stock BJDX
+2025-10-09 14:39:21,895 - root - INFO - Not enough profit percent to scalp for BJDX: -0.1843135030907957
+2025-10-09 14:39:21,927 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 14:39:22,116 - root - INFO - Profit percent for GLTO is 1.702724494704818
+2025-10-09 14:39:22,116 - root - INFO - Latest 1min close price for GLTO: 15.0411
+2025-10-09 14:39:22,236 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 14:39:22,236 - root - INFO - Not enough profit percent to scalp for GLTO: 1.702724494704818
+2025-10-09 14:39:27,283 - root - INFO - Real mode: Today's profit so far: 1514.6199750000014
+2025-10-09 14:39:27,306 - root - INFO - Running real_trade for all top movers
+2025-10-09 14:39:27,362 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 14:39:27,376 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:39:27,376 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 14:39:27,497 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-09 14:39:27,574 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 14:39:27,575 - root - INFO - BJDX:======= 3.579===>BUY========>TrendUp494392
+2025-10-09 14:39:27,597 - root - WARNING - ***** stock is already in the positions
+2025-10-09 14:39:27,597 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 14:39:27,616 - root - INFO - Time since last close for ZSPC is 9.12694 minutes, net percent 10.7801
+2025-10-09 14:39:27,617 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 9 minutes
+2025-10-09 14:39:27,618 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 14:39:27,637 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:39:27,638 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 14:39:27,670 - root - INFO - Last 20 minutes volume is low for JFU: 30850
+2025-10-09 14:39:27,672 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 14:39:27,686 - root - INFO - Time since last close for GLTO is 277.7947752666667 minutes, net percent -12.4153
+2025-10-09 14:39:27,812 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
+2025-10-09 14:39:27,814 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
+2025-10-09 14:39:27,824 - root - INFO - Time since last close for SUGP is 606.9637357833333 minutes, net percent -11.3612
+2025-10-09 14:39:27,862 - root - INFO - Last 20 minutes volume is low for SUGP: 34018
+2025-10-09 14:39:27,962 - root - WARNING - Skipping BJDX: invalid strategy format (None)
+2025-10-09 14:39:27,964 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-09 14:39:28,075 - root - INFO - Profit percent for BJDX is -0.04536947768388817
+2025-10-09 14:39:28,076 - root - INFO - Latest 1min close price for BJDX: 3.579
+2025-10-09 14:39:28,200 - root - INFO - MACD is still rising for stock BJDX
+2025-10-09 14:39:28,200 - root - INFO - Not enough profit percent to scalp for BJDX: -0.04536947768388817
+2025-10-09 14:39:28,232 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 14:39:28,373 - root - INFO - Profit percent for GLTO is 1.702724494704818
+2025-10-09 14:39:28,373 - root - INFO - Latest 1min close price for GLTO: 15.0411
+2025-10-09 14:39:28,488 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 14:39:28,488 - root - INFO - Not enough profit percent to scalp for GLTO: 1.702724494704818
+2025-10-09 14:39:33,543 - root - INFO - Real mode: Today's profit so far: 1506.5299750000013
+2025-10-09 14:39:33,749 - root - INFO - Running real_trade for all top movers
+2025-10-09 14:39:33,796 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 14:39:33,806 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:39:33,806 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 14:39:33,922 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-09 14:39:33,992 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 14:39:33,992 - root - INFO - BJDX:======= 3.579===>BUY========>TrendUp494392
+2025-10-09 14:39:34,015 - root - WARNING - ***** stock is already in the positions
+2025-10-09 14:39:34,016 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 14:39:34,032 - root - INFO - Time since last close for ZSPC is 9.233860600000002 minutes, net percent 10.7801
+2025-10-09 14:39:34,032 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 9 minutes
+2025-10-09 14:39:34,033 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 14:39:34,050 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:39:34,050 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 14:39:34,081 - root - INFO - Last 20 minutes volume is low for JFU: 30850
+2025-10-09 14:39:34,082 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 14:39:34,096 - root - INFO - Time since last close for GLTO is 277.9016062 minutes, net percent -12.4153
+2025-10-09 14:39:34,230 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
+2025-10-09 14:39:34,232 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
+2025-10-09 14:39:34,246 - root - INFO - Time since last close for SUGP is 607.0707742666667 minutes, net percent -11.3612
+2025-10-09 14:39:34,284 - root - INFO - Last 20 minutes volume is low for SUGP: 34018
+2025-10-09 14:39:34,379 - root - WARNING - Skipping BJDX: invalid strategy format (None)
+2025-10-09 14:39:34,379 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-09 14:39:34,502 - root - INFO - Profit percent for BJDX is 0.09641014007826236
+2025-10-09 14:39:34,502 - root - INFO - Latest 1min close price for BJDX: 3.579
+2025-10-09 14:39:34,605 - root - INFO - MACD is still rising for stock BJDX
+2025-10-09 14:39:34,606 - root - INFO - Not enough profit percent to scalp for BJDX: 0.09641014007826236
+2025-10-09 14:39:34,626 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 14:39:34,797 - root - INFO - Profit percent for GLTO is 1.702724494704818
+2025-10-09 14:39:34,797 - root - INFO - Latest 1min close price for GLTO: 15.0411
+2025-10-09 14:39:34,910 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 14:39:34,910 - root - INFO - Not enough profit percent to scalp for GLTO: 1.702724494704818
+2025-10-09 14:39:39,962 - root - INFO - Real mode: Today's profit so far: 1485.5799750000006
+2025-10-09 14:39:39,984 - root - INFO - Running real_trade for all top movers
+2025-10-09 14:39:40,040 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 14:39:40,053 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:39:40,054 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 14:39:40,179 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-09 14:39:40,257 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 14:39:40,258 - root - INFO - BJDX:======= 3.579===>BUY========>TrendUp494392
+2025-10-09 14:39:40,281 - root - WARNING - ***** stock is already in the positions
+2025-10-09 14:39:40,282 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 14:39:40,301 - root - INFO - Time since last close for ZSPC is 9.338350166666666 minutes, net percent 10.7801
+2025-10-09 14:39:40,301 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 9 minutes
+2025-10-09 14:39:40,302 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 14:39:40,318 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:39:40,319 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 14:39:40,352 - root - INFO - Last 20 minutes volume is low for JFU: 30850
+2025-10-09 14:39:40,353 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 14:39:40,370 - root - INFO - Time since last close for GLTO is 278.00617395 minutes, net percent -12.4153
+2025-10-09 14:39:40,530 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
+2025-10-09 14:39:40,531 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
+2025-10-09 14:39:40,543 - root - INFO - Time since last close for SUGP is 607.1757177833333 minutes, net percent -11.3612
+2025-10-09 14:39:40,580 - root - INFO - Last 20 minutes volume is low for SUGP: 34018
+2025-10-09 14:39:40,678 - root - WARNING - Skipping BJDX: invalid strategy format (None)
+2025-10-09 14:39:40,679 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-09 14:39:40,790 - root - INFO - Profit percent for BJDX is 0.09924573243350536
+2025-10-09 14:39:40,790 - root - INFO - Latest 1min close price for BJDX: 3.579
+2025-10-09 14:39:40,923 - root - INFO - MACD is still rising for stock BJDX
+2025-10-09 14:39:40,924 - root - INFO - Not enough profit percent to scalp for BJDX: 0.09924573243350536
+2025-10-09 14:39:40,958 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 14:39:41,109 - root - INFO - Profit percent for GLTO is 1.702724494704818
+2025-10-09 14:39:41,109 - root - INFO - Latest 1min close price for GLTO: 15.0411
+2025-10-09 14:39:41,281 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 14:39:41,281 - root - INFO - Not enough profit percent to scalp for GLTO: 1.702724494704818
+2025-10-09 14:39:46,334 - root - INFO - Real mode: Today's profit so far: 1471.4799749999984
+2025-10-09 14:39:46,358 - root - INFO - Running real_trade for all top movers
+2025-10-09 14:39:46,414 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 14:39:46,427 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:39:46,428 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 14:39:46,544 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 14:39:46,545 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 14:39:46,560 - root - INFO - Time since last close for ZSPC is 9.4426655 minutes, net percent 10.7801
+2025-10-09 14:39:46,560 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 9 minutes
+2025-10-09 14:39:46,561 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 14:39:46,575 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:39:46,576 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 14:39:46,608 - root - INFO - Last 20 minutes volume is low for JFU: 33152
+2025-10-09 14:39:46,609 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 14:39:46,624 - root - INFO - Time since last close for GLTO is 278.11040944999996 minutes, net percent -12.4153
+2025-10-09 14:39:46,798 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
+2025-10-09 14:39:46,799 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
+2025-10-09 14:39:46,812 - root - INFO - Time since last close for SUGP is 607.2802070500001 minutes, net percent -11.3612
+2025-10-09 14:39:46,850 - root - INFO - Last 20 minutes volume is low for SUGP: 34414
+2025-10-09 14:39:46,931 - root - WARNING - Skipping BJDX: invalid strategy format (None)
+2025-10-09 14:39:46,931 - root - INFO - swing_strategy_close_long for scale 5Min stock BJDX
+2025-10-09 14:39:47,045 - root - INFO - Profit percent for BJDX is 0.09924573243350536
+2025-10-09 14:39:47,045 - root - INFO - Latest 1min close price for BJDX: 3.5301
+2025-10-09 14:39:47,178 - root - INFO - Closing TrendUp long: price below EMAs or MACD below signal{price_below_emas=False, macd_below_signal=True}
+2025-10-09 14:39:47,179 - root - INFO - BJDX:====== 3.5301=========>SELL========>TrendUpExit
+2025-10-09 14:39:47,179 - root - INFO - ******************** CLOSE by SOLD stock:BJDX
+2025-10-09 14:39:47,237 - root - CRITICAL - BJDX  427 sell
+2025-10-09 14:39:47,331 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 14:39:47,508 - root - INFO - Profit percent for GLTO is 1.363941268539912
+2025-10-09 14:39:47,508 - root - INFO - Latest 1min close price for GLTO: 15.01
+2025-10-09 14:39:47,661 - root - INFO - Closing TrendUp long: shooting star pattern detected
+2025-10-09 14:39:47,662 - root - INFO - GLTO:====== 15.01=========>SELL========>ShootingStar
+2025-10-09 14:39:47,662 - root - INFO - ******************** CLOSE by SOLD stock:GLTO
+2025-10-09 14:39:47,723 - root - CRITICAL - GLTO  102 sell
+2025-10-09 14:39:52,837 - root - INFO - Real mode: Today's profit so far: 1488.2899749999997
+2025-10-09 14:39:52,857 - root - INFO - Running real_trade for all top movers
+2025-10-09 14:39:52,912 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 14:39:52,927 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:39:52,928 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 14:39:53,063 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 14:39:53,064 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 14:39:53,076 - root - INFO - Time since last close for ZSPC is 9.551270066666666 minutes, net percent 10.7801
+2025-10-09 14:39:53,076 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 9 minutes
+2025-10-09 14:39:53,077 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 14:39:53,088 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:39:53,088 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 14:39:53,132 - root - INFO - Last 20 minutes volume is low for JFU: 33152
+2025-10-09 14:39:53,133 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 14:39:53,144 - root - INFO - Time since last close for GLTO is 0.20240391666666666 minutes, net percent 1.90736
+2025-10-09 14:39:53,144 - root - INFO - ***** stock: GLTO Scale: 5Min Time since last close: 0 minutes
+2025-10-09 14:39:53,145 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
+2025-10-09 14:39:53,158 - root - INFO - Time since last close for SUGP is 607.3859646 minutes, net percent -11.3612
+2025-10-09 14:39:53,203 - root - INFO - Last 20 minutes volume is low for SUGP: 34414
+2025-10-09 14:39:58,315 - root - INFO - Real mode: Today's profit so far: 1461.2899749999997
+2025-10-09 14:39:58,336 - root - INFO - Running real_trade for all top movers
+2025-10-09 14:39:58,381 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 14:39:58,395 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:39:58,395 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 14:39:58,522 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 14:39:58,524 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 14:39:58,534 - root - INFO - Time since last close for ZSPC is 9.642244799999999 minutes, net percent 10.7801
+2025-10-09 14:39:58,535 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 9 minutes
+2025-10-09 14:39:58,535 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 14:39:58,547 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:39:58,547 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 14:39:58,579 - root - INFO - Last 20 minutes volume is low for JFU: 33152
+2025-10-09 14:39:58,580 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 14:39:58,594 - root - INFO - Time since last close for GLTO is 0.2932353833333333 minutes, net percent 1.90736
+2025-10-09 14:39:58,594 - root - INFO - ***** stock: GLTO Scale: 5Min Time since last close: 0 minutes
+2025-10-09 14:39:58,595 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
+2025-10-09 14:39:58,610 - root - INFO - Time since last close for SUGP is 607.47683605 minutes, net percent -11.3612
+2025-10-09 14:39:58,657 - root - INFO - Last 20 minutes volume is low for SUGP: 34414
+2025-10-09 14:40:03,770 - root - INFO - Real mode: Today's profit so far: 1461.2899749999997
+2025-10-09 14:40:03,792 - root - INFO - Running real_trade for all top movers
+2025-10-09 14:40:03,848 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 14:40:03,861 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:40:03,862 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 14:40:03,991 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 14:40:03,993 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 14:40:04,008 - root - INFO - Time since last close for ZSPC is 9.733463949999999 minutes, net percent 10.7801
+2025-10-09 14:40:04,008 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 9 minutes
+2025-10-09 14:40:04,009 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 14:40:04,022 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:40:04,022 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 14:40:04,062 - root - INFO - Last 20 minutes volume is low for JFU: 33152
+2025-10-09 14:40:04,063 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 14:40:04,082 - root - INFO - Time since last close for GLTO is 0.38469868333333335 minutes, net percent 1.90736
+2025-10-09 14:40:04,082 - root - INFO - ***** stock: GLTO Scale: 5Min Time since last close: 0 minutes
+2025-10-09 14:40:04,083 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
+2025-10-09 14:40:04,102 - root - INFO - Time since last close for SUGP is 607.5683629166667 minutes, net percent -11.3612
+2025-10-09 14:40:04,158 - root - INFO - Last 20 minutes volume is low for SUGP: 34414
+2025-10-09 14:40:09,285 - root - INFO - Real mode: Today's profit so far: 1464.2899749999997
+2025-10-09 14:40:09,306 - root - INFO - Running real_trade for all top movers
+2025-10-09 14:40:09,344 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 14:40:09,354 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:40:09,354 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 14:40:09,474 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 14:40:09,475 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 14:40:09,485 - root - INFO - Time since last close for ZSPC is 9.824751133333333 minutes, net percent 10.7801
+2025-10-09 14:40:09,485 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 9 minutes
+2025-10-09 14:40:09,485 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 14:40:09,495 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:40:09,495 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 14:40:09,533 - root - INFO - Last 20 minutes volume is low for JFU: 33152
+2025-10-09 14:40:09,534 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 14:40:09,544 - root - INFO - Time since last close for GLTO is 0.47573755 minutes, net percent 1.90736
+2025-10-09 14:40:09,544 - root - INFO - ***** stock: GLTO Scale: 5Min Time since last close: 0 minutes
+2025-10-09 14:40:09,545 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
+2025-10-09 14:40:09,554 - root - INFO - Time since last close for SUGP is 607.6592395499999 minutes, net percent -11.3612
+2025-10-09 14:40:09,595 - root - INFO - Last 20 minutes volume is low for SUGP: 34414
+2025-10-09 14:40:10,554 - root - INFO - Real mode: Today's profit so far: 1458.2899749999997
+2025-10-09 14:40:10,574 - root - INFO - ('2025-10-09T20:58:00-04:00', '2025-10-09T20:58:00-04:00', '2025-10-02T09:30:00-04:00', '2025-10-09T20:58:00-04:00')
+2025-10-09 14:40:10,575 - root - INFO - Screening stocks | Start: 2025-10-02T09:30:00-04:00 | End: 2025-10-09T20:58:00-04:00
+2025-10-09 14:40:10,614 - root - INFO -  update_current_price: start time 2025-10-09T14:35:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 14:40:11,172 - root - INFO -  MACD calculation for ABOS due to high change percent: 13.2979
+2025-10-09 14:40:11,226 - root - INFO - MACD not positive for ABOS
+2025-10-09 14:40:12,821 - root - INFO -  MACD calculation for ADVM due to high change percent: 10.041
+2025-10-09 14:40:12,874 - root - INFO - MACD not positive for ADVM
+2025-10-09 14:40:13,397 - root - INFO -  update_current_price: start time 2025-10-09T14:35:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 14:40:14,712 - root - INFO - Real mode: Today's profit so far: 1467.2899749999997
+2025-10-09 14:40:14,734 - root - INFO - Running real_trade for all top movers
+2025-10-09 14:40:14,780 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 14:40:14,793 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:40:14,794 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 14:40:14,896 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 14:40:14,897 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 14:40:14,907 - root - INFO - Time since last close for ZSPC is 9.915117083333334 minutes, net percent 10.7801
+2025-10-09 14:40:14,907 - root - INFO - ***** stock: ZSPC Scale: 5Min Time since last close: 9 minutes
+2025-10-09 14:40:14,907 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 14:40:14,916 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:40:14,916 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 14:40:14,942 - root - INFO - Last 20 minutes volume is low for JFU: 33152
+2025-10-09 14:40:14,943 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 14:40:14,952 - root - INFO - Time since last close for GLTO is 0.5658792500000001 minutes, net percent 1.90736
+2025-10-09 14:40:14,953 - root - INFO - ***** stock: GLTO Scale: 5Min Time since last close: 0 minutes
+2025-10-09 14:40:14,953 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
+2025-10-09 14:40:14,962 - root - INFO - Time since last close for SUGP is 607.7493752333334 minutes, net percent -11.3612
+2025-10-09 14:40:14,997 - root - INFO - Last 20 minutes volume is low for SUGP: 34414
+2025-10-09 14:40:15,160 - root - INFO -  MACD calculation for AMBO due to high change percent: 41.9048
+2025-10-09 14:40:15,199 - root - INFO - MACD not positive for AMBO
+2025-10-09 14:40:15,547 - root - INFO -  MACD calculation for AMLX due to high change percent: 10.3858
+2025-10-09 14:40:15,613 - root - INFO - MACD not positive for AMLX
+2025-10-09 14:40:15,826 - root - INFO -  update_current_price: start time 2025-10-09T14:35:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 14:40:17,603 - root - INFO -  MACD calculation for AQMS due to high change percent: 11.2979
+2025-10-09 14:40:17,849 - root - INFO -  MACD calculation for ARAI due to high change percent: 21.5596
+2025-10-09 14:40:19,214 - root - INFO -  update_current_price: start time 2025-10-09T14:35:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 14:40:20,110 - root - INFO - Real mode: Today's profit so far: 1467.2899749999997
+2025-10-09 14:40:20,130 - root - INFO - Running real_trade for all top movers
+2025-10-09 14:40:20,174 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 14:40:20,186 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:40:20,187 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 14:40:20,314 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 14:40:20,315 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 14:40:20,325 - root - INFO - Time since last close for ZSPC is 10.005420249999998 minutes, net percent 10.7801
+2025-10-09 14:40:20,397 - root - INFO - Last 5 minutes maximum volume candle is red for ZSPC
+2025-10-09 14:40:20,398 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 14:40:20,407 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:40:20,407 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 14:40:20,432 - root - INFO - Last 20 minutes volume is low for JFU: 33152
+2025-10-09 14:40:20,432 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 14:40:20,442 - root - INFO - Time since last close for GLTO is 0.6573746333333333 minutes, net percent 1.90736
+2025-10-09 14:40:20,442 - root - INFO - ***** stock: GLTO Scale: 5Min Time since last close: 0 minutes
+2025-10-09 14:40:20,443 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
+2025-10-09 14:40:20,451 - root - INFO - Time since last close for SUGP is 607.8408586666667 minutes, net percent -11.3612
+2025-10-09 14:40:20,494 - root - INFO - Last 20 minutes volume is low for SUGP: 34414
+2025-10-09 14:40:21,889 - root - INFO -  update_current_price: start time 2025-10-09T14:35:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 14:40:22,373 - root - INFO -  MACD calculation for BAOS due to high change percent: 49.8489
+2025-10-09 14:40:22,415 - root - INFO - MACD not positive for BAOS
+2025-10-09 14:40:22,772 - root - INFO -  MACD calculation for BBAR due to high change percent: 12.3798
+2025-10-09 14:40:23,862 - root - INFO -  MACD calculation for BDRX due to high change percent: 41.2451
+2025-10-09 14:40:24,693 - root - INFO -  update_current_price: start time 2025-10-09T14:35:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 14:40:25,545 - root - INFO -  MACD calculation for BJDX due to high change percent: 90.9091
+2025-10-09 14:40:25,610 - root - INFO - Real mode: Today's profit so far: 1468.969975
+2025-10-09 14:40:25,622 - root - INFO - MACD not positive for BJDX
+2025-10-09 14:40:25,632 - root - INFO - Running real_trade for all top movers
+2025-10-09 14:40:25,679 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 14:40:25,686 - root - INFO -  MACD calculation for BKD due to high change percent: 10.468
+2025-10-09 14:40:25,688 - root - INFO - Time since last close for ZSPC is 10.094807433333333 minutes, net percent 10.7801
+2025-10-09 14:40:25,785 - root - INFO - Last 5 minutes maximum volume candle is red for ZSPC
+2025-10-09 14:40:25,786 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 14:40:25,796 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 14:40:25,796 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 14:40:25,822 - root - INFO - Last 20 minutes volume is low for JFU: 33152
+2025-10-09 14:40:25,823 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 14:40:25,832 - root - INFO - Time since last close for BDRX is 45.74720908333334 minutes, net percent 0.049511
+2025-10-09 14:40:25,870 - root - INFO - Last 20 minutes volume is low for BDRX: 32888
+2025-10-09 14:40:25,871 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 14:40:25,881 - root - INFO - Time since last close for GLTO is 0.7480169 minutes, net percent 1.90736
+2025-10-09 14:40:25,881 - root - INFO - ***** stock: GLTO Scale: 5Min Time since last close: 0 minutes
+2025-10-09 14:40:25,881 - root - INFO - swing_strategy_open_long for scale 5Min stock SUGP
+2025-10-09 14:40:25,890 - root - INFO - Time since last close for SUGP is 607.93151315 minutes, net percent -11.3612
+2025-10-09 14:40:25,925 - root - INFO - Last 20 minutes volume is low for SUGP: 34414
+2025-10-09 14:40:26,323 - root - INFO -  update_current_price: start time 2025-10-09T14:35:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 14:40:27,357 - root - INFO -  MACD calculation for BYRN due to high change percent: 18.8158
+2025-10-09 14:40:27,514 - root - INFO -  MACD calculation for CABA due to high change percent: 32.3651
