@@ -2,9 +2,8 @@ Top Movers:
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  GLTO  |      1      |     0     |    45.9155     | 2854277  |     15.02     |       10.65        |  1140000.0   |  8.004   |  16125358  |      0      | 2025-10-09 09:57:09 |
-|  BAOS  |      0      |     0     |    43.8066     | 21977719 |     4.7367    |        3.31        |   900000.0   |  3.392   |   957839   |      0      | 2025-10-09 09:56:35 |
-|  ZSPC  |      1      |     0     |    31.3084     | 1088885  |     1.405     |        1.07        |  4590000.0   | 1.01316  |   806096   |      0      | 2025-10-09 09:55:24 |
+|  GLTO  |      0      |     0     |    48.7277     | 3049913  |    15.8395    |       10.65        |  1140000.0   |  8.004   |  16125358  |      0      | 2025-10-09 10:00:15 |
+|  BAOS  |      0      |     0     |    46.5257     | 21995507 |      4.85     |        3.31        |   900000.0   |  3.392   |   957839   |      0      | 2025-10-09 09:59:40 |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -18,403 +17,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-09 09:55:40,456 - root - INFO - Real mode: Today's profit so far: 396.7399750000004
-2025-10-09 09:55:40,479 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:55:40,534 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:55:40,547 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:55:40,547 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:55:40,687 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 09:55:40,689 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:55:40,701 - root - INFO - Time since last close for BAOS is 332.3450220833334 minutes, net percent 10.7143
-2025-10-09 09:55:40,737 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 09:55:40,738 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 09:55:40,749 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:55:40,750 - root - INFO - Time since last close for ZSPC is None minutes, net percent 0
-2025-10-09 09:55:40,829 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
-2025-10-09 09:55:40,848 - root - INFO - 1min RSI is overbought for ZSPC: 78.46016261784209
-2025-10-09 09:55:40,939 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 09:55:41,076 - root - INFO - Profit percent for GLTO is -14.066277912103539
-2025-10-09 09:55:41,076 - root - INFO - Latest 1min close price for GLTO: 15.3
-2025-10-09 09:55:41,200 - root - INFO - No close long conditions met for GLTO
-2025-10-09 09:55:46,251 - root - INFO - Real mode: Today's profit so far: 384.40997499999867
-2025-10-09 09:55:46,268 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:55:46,308 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:55:46,319 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:55:46,319 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:55:46,441 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 09:55:46,442 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:55:46,452 - root - INFO - Time since last close for BAOS is 332.44087391666665 minutes, net percent 10.7143
-2025-10-09 09:55:46,486 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 09:55:46,487 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 09:55:46,497 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:55:46,497 - root - INFO - Time since last close for ZSPC is None minutes, net percent 0
-2025-10-09 09:55:46,619 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
-2025-10-09 09:55:46,684 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 09:55:46,685 - root - INFO - ZSPC:======= 1.37===>BUY========>TrendUp1990319
-2025-10-09 09:55:46,813 - root - CRITICAL - ZSPC  1094 buy
-2025-10-09 09:55:46,859 - root - INFO - Placed BUY order for ZSPC, qty: 1094, price: 1.3708, success: True
-2025-10-09 09:55:46,859 - root - INFO - Trade successfully COMPLETED for ZSPC
-2025-10-09 09:55:46,941 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 09:55:47,428 - root - INFO - Profit percent for GLTO is -15.004977954771725
-2025-10-09 09:55:47,428 - root - INFO - Latest 1min close price for GLTO: 15.03
-2025-10-09 09:55:47,540 - root - INFO - No close long conditions met for GLTO
-2025-10-09 09:55:47,562 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
-2025-10-09 09:55:47,674 - root - INFO - Profit percent for ZSPC is -0.5227998838222481
-2025-10-09 09:55:47,674 - root - INFO - Latest 1min close price for ZSPC: 1.37
-2025-10-09 09:55:47,696 - root - INFO - High price DETECTED for ZSPC is 0.0 and setting no_scalp to True
-2025-10-09 09:55:52,739 - root - INFO - Real mode: Today's profit so far: 382.62997499999983
-2025-10-09 09:55:52,760 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:55:52,798 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:55:52,808 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:55:52,808 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:55:52,932 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 09:55:52,934 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:55:52,945 - root - INFO - Time since last close for BAOS is 332.54909303333335 minutes, net percent 10.7143
-2025-10-09 09:55:52,980 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 09:55:52,981 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 09:55:52,991 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:55:52,991 - root - INFO - Time since last close for ZSPC is None minutes, net percent 0
-2025-10-09 09:55:53,174 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
-2025-10-09 09:55:53,234 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 09:55:53,234 - root - INFO - ZSPC:======= 1.37===>BUY========>TrendUp1990319
-2025-10-09 09:55:53,255 - root - WARNING - ***** stock is already in the positions
-2025-10-09 09:55:53,331 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 09:55:53,458 - root - INFO - Profit percent for GLTO is -15.118759778125442
-2025-10-09 09:55:53,458 - root - INFO - Latest 1min close price for GLTO: 15.03
-2025-10-09 09:55:53,545 - root - INFO - No close long conditions met for GLTO
-2025-10-09 09:55:53,567 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
-2025-10-09 09:55:53,659 - root - INFO - Profit percent for ZSPC is -0.5227998838222481
-2025-10-09 09:55:53,659 - root - INFO - Latest 1min close price for ZSPC: 1.37
-2025-10-09 09:55:53,736 - root - INFO - MACD is still rising for stock ZSPC
-2025-10-09 09:55:53,737 - root - INFO - Not enough profit percent to scalp for ZSPC: -0.5227998838222481
-2025-10-09 09:55:58,783 - root - INFO - Real mode: Today's profit so far: 363.1699750000007
-2025-10-09 09:55:58,802 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:55:58,841 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:55:58,853 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:55:58,853 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:55:59,003 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 09:55:59,004 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:55:59,014 - root - INFO - Time since last close for BAOS is 332.65023768333333 minutes, net percent 10.7143
-2025-10-09 09:55:59,048 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 09:55:59,048 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 09:55:59,058 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:55:59,058 - root - INFO - Time since last close for ZSPC is None minutes, net percent 0
-2025-10-09 09:55:59,173 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
-2025-10-09 09:55:59,240 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 09:55:59,241 - root - INFO - ZSPC:======= 1.37===>BUY========>TrendUp1990319
-2025-10-09 09:55:59,261 - root - WARNING - ***** stock is already in the positions
-2025-10-09 09:55:59,350 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 09:55:59,524 - root - INFO - Profit percent for GLTO is -14.976532498933292
-2025-10-09 09:55:59,524 - root - INFO - Latest 1min close price for GLTO: 15.03
-2025-10-09 09:55:59,610 - root - INFO - No close long conditions met for GLTO
-2025-10-09 09:55:59,631 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
-2025-10-09 09:55:59,718 - root - INFO - Profit percent for ZSPC is -1.6119663084519313
-2025-10-09 09:55:59,718 - root - INFO - Latest 1min close price for ZSPC: 1.37
-2025-10-09 09:55:59,804 - root - INFO - MACD is still rising for stock ZSPC
-2025-10-09 09:55:59,805 - root - INFO - Not enough profit percent to scalp for ZSPC: -1.6119663084519313
-2025-10-09 09:56:04,859 - root - INFO - Real mode: Today's profit so far: 367.5399749999997
-2025-10-09 09:56:04,879 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:56:04,918 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:56:04,928 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:56:04,928 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:56:05,052 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 09:56:05,053 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:56:05,064 - root - INFO - Time since last close for BAOS is 332.7510731666667 minutes, net percent 10.7143
-2025-10-09 09:56:05,096 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 09:56:05,097 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 09:56:05,107 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:56:05,107 - root - INFO - Time since last close for ZSPC is None minutes, net percent 0
-2025-10-09 09:56:05,179 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
-2025-10-09 09:56:05,237 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 09:56:05,238 - root - INFO - ZSPC:======= 1.37===>BUY========>TrendUp1990319
-2025-10-09 09:56:05,265 - root - WARNING - ***** stock is already in the positions
-2025-10-09 09:56:05,342 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 09:56:05,465 - root - INFO - Profit percent for GLTO is -14.754089034276774
-2025-10-09 09:56:05,466 - root - INFO - Latest 1min close price for GLTO: 15.03
-2025-10-09 09:56:05,550 - root - INFO - No close long conditions met for GLTO
-2025-10-09 09:56:05,573 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
-2025-10-09 09:56:05,657 - root - INFO - Profit percent for ZSPC is -1.3287830380482137
-2025-10-09 09:56:05,657 - root - INFO - Latest 1min close price for ZSPC: 1.37
-2025-10-09 09:56:05,739 - root - INFO - MACD is still rising for stock ZSPC
-2025-10-09 09:56:05,739 - root - INFO - Not enough profit percent to scalp for ZSPC: -1.3287830380482137
-2025-10-09 09:56:10,783 - root - INFO - Real mode: Today's profit so far: 350.469975
-2025-10-09 09:56:10,800 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:56:10,840 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:56:10,850 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:56:10,850 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:56:10,977 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 09:56:10,979 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:56:10,988 - root - INFO - Time since last close for BAOS is 332.84980965 minutes, net percent 10.7143
-2025-10-09 09:56:11,028 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 09:56:11,029 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 09:56:11,038 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:56:11,039 - root - INFO - Time since last close for ZSPC is None minutes, net percent 0
-2025-10-09 09:56:11,112 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
-2025-10-09 09:56:11,175 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 09:56:11,175 - root - INFO - ZSPC:======= 1.37===>BUY========>TrendUp1990319
-2025-10-09 09:56:11,204 - root - WARNING - ***** stock is already in the positions
-2025-10-09 09:56:11,283 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 09:56:11,471 - root - INFO - Profit percent for GLTO is -15.175650689802303
-2025-10-09 09:56:11,471 - root - INFO - Latest 1min close price for GLTO: 15.03
-2025-10-09 09:56:11,589 - root - INFO - No close long conditions met for GLTO
-2025-10-09 09:56:11,610 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
-2025-10-09 09:56:11,786 - root - INFO - Profit percent for ZSPC is -2.3380772582050535
-2025-10-09 09:56:11,787 - root - INFO - Latest 1min close price for ZSPC: 1.37
-2025-10-09 09:56:11,866 - root - INFO - MACD is still rising for stock ZSPC
-2025-10-09 09:56:11,866 - root - INFO - Not enough profit percent to scalp for ZSPC: -2.3380772582050535
-2025-10-09 09:56:16,917 - root - INFO - Real mode: Today's profit so far: 364.39997500000027
-2025-10-09 09:56:16,945 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:56:16,984 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:56:16,995 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:56:16,995 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:56:17,233 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 09:56:17,235 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:56:17,245 - root - INFO - Time since last close for BAOS is 332.95408175 minutes, net percent 10.7143
-2025-10-09 09:56:17,329 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 09:56:17,329 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 09:56:17,339 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:56:17,340 - root - INFO - Time since last close for ZSPC is None minutes, net percent 0
-2025-10-09 09:56:17,415 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
-2025-10-09 09:56:17,469 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 09:56:17,470 - root - INFO - ZSPC:======= 1.37===>BUY========>TrendUp1990319
-2025-10-09 09:56:17,491 - root - WARNING - ***** stock is already in the positions
-2025-10-09 09:56:17,565 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 09:56:17,719 - root - INFO - Profit percent for GLTO is -14.20850519129569
-2025-10-09 09:56:17,719 - root - INFO - Latest 1min close price for GLTO: 15.03
-2025-10-09 09:56:17,805 - root - INFO - No close long conditions met for GLTO
-2025-10-09 09:56:17,827 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
-2025-10-09 09:56:17,914 - root - INFO - Profit percent for ZSPC is -2.3889050246877725
-2025-10-09 09:56:17,915 - root - INFO - Latest 1min close price for ZSPC: 1.37
-2025-10-09 09:56:17,999 - root - INFO - MACD is still rising for stock ZSPC
-2025-10-09 09:56:17,999 - root - INFO - Not enough profit percent to scalp for ZSPC: -2.3889050246877725
-2025-10-09 09:56:23,052 - root - INFO - Real mode: Today's profit so far: 367.7899749999997
-2025-10-09 09:56:23,071 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:56:23,110 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:56:23,121 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:56:23,122 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:56:23,264 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 09:56:23,265 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:56:23,275 - root - INFO - Time since last close for BAOS is 333.0545940666667 minutes, net percent 10.7143
-2025-10-09 09:56:23,310 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 09:56:23,311 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 09:56:23,320 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:56:23,321 - root - INFO - Time since last close for ZSPC is None minutes, net percent 0
-2025-10-09 09:56:23,399 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
-2025-10-09 09:56:23,461 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 09:56:23,462 - root - INFO - ZSPC:======= 1.37===>BUY========>TrendUp1990319
-2025-10-09 09:56:23,482 - root - WARNING - ***** stock is already in the positions
-2025-10-09 09:56:23,560 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 09:56:23,687 - root - INFO - Profit percent for GLTO is -13.419428246337647
-2025-10-09 09:56:23,687 - root - INFO - Latest 1min close price for GLTO: 15.03
-2025-10-09 09:56:23,781 - root - INFO - No close long conditions met for GLTO
-2025-10-09 09:56:23,803 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
-2025-10-09 09:56:23,910 - root - INFO - Profit percent for ZSPC is -2.6357827476038342
-2025-10-09 09:56:23,910 - root - INFO - Latest 1min close price for ZSPC: 1.37
-2025-10-09 09:56:23,996 - root - INFO - MACD is still rising for stock ZSPC
-2025-10-09 09:56:23,996 - root - INFO - Not enough profit percent to scalp for ZSPC: -2.6357827476038342
-2025-10-09 09:56:24,944 - root - INFO - Real mode: Today's profit so far: 362.32997500000056
-2025-10-09 09:56:25,076 - root - INFO - ('2025-10-09T20:58:00-04:00', '2025-10-09T20:58:00-04:00', '2025-10-02T09:30:00-04:00', '2025-10-09T20:58:00-04:00')
-2025-10-09 09:56:25,076 - root - INFO - Screening stocks | Start: 2025-10-02T09:30:00-04:00 | End: 2025-10-09T20:58:00-04:00
-2025-10-09 09:56:25,101 - root - INFO -  update_current_price: start time 2025-10-09T09:51:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:56:27,631 - root - INFO -  update_current_price: start time 2025-10-09T09:51:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:56:29,043 - root - INFO - Real mode: Today's profit so far: 364.57997500000056
-2025-10-09 09:56:29,076 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:56:29,116 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:56:29,126 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:56:29,126 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:56:29,268 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 09:56:29,269 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:56:29,279 - root - INFO - Time since last close for BAOS is 333.1546490333333 minutes, net percent 10.7143
-2025-10-09 09:56:29,319 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 09:56:29,319 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 09:56:29,328 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:56:29,329 - root - INFO - Time since last close for ZSPC is None minutes, net percent 0
-2025-10-09 09:56:29,402 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
-2025-10-09 09:56:29,462 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 09:56:29,462 - root - INFO - ZSPC:======= 1.37===>BUY========>TrendUp1990319
-2025-10-09 09:56:29,483 - root - WARNING - ***** stock is already in the positions
-2025-10-09 09:56:29,563 - root - INFO -  MACD calculation for AMBO due to high change percent: 34.0476
-2025-10-09 09:56:29,571 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 09:56:29,592 - root - INFO - MACD not positive for AMBO
-2025-10-09 09:56:29,712 - root - INFO - Profit percent for GLTO is -14.265396102972549
-2025-10-09 09:56:29,712 - root - INFO - Latest 1min close price for GLTO: 15.03
-2025-10-09 09:56:29,810 - root - INFO - No close long conditions met for GLTO
-2025-10-09 09:56:29,831 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
-2025-10-09 09:56:29,921 - root - INFO - Profit percent for ZSPC is -2.701132733081615
-2025-10-09 09:56:29,921 - root - INFO - Latest 1min close price for ZSPC: 1.37
-2025-10-09 09:56:29,991 - root - INFO -  update_current_price: start time 2025-10-09T09:51:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:56:30,002 - root - INFO - MACD is still rising for stock ZSPC
-2025-10-09 09:56:30,002 - root - INFO - Not enough profit percent to scalp for ZSPC: -2.701132733081615
-2025-10-09 09:56:31,701 - root - INFO -  MACD calculation for ARAI due to high change percent: 15.8257
-2025-10-09 09:56:32,853 - root - INFO -  update_current_price: start time 2025-10-09T09:51:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:56:35,045 - root - INFO -  update_current_price: start time 2025-10-09T09:51:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:56:35,054 - root - INFO - Real mode: Today's profit so far: 348.95997499999794
-2025-10-09 09:56:35,072 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:56:35,112 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:56:35,120 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:56:35,120 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:56:35,270 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 09:56:35,271 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:56:35,280 - root - INFO - Time since last close for BAOS is 333.25467091666667 minutes, net percent 10.7143
-2025-10-09 09:56:35,315 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 09:56:35,315 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 09:56:35,324 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:56:35,324 - root - INFO - Time since last close for ZSPC is None minutes, net percent 0
-2025-10-09 09:56:35,395 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
-2025-10-09 09:56:35,397 - root - INFO -  MACD calculation for BAOS due to high change percent: 43.8066
-2025-10-09 09:56:35,450 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 09:56:35,450 - root - INFO - ZSPC:======= 1.37===>BUY========>TrendUp1990319
-2025-10-09 09:56:35,469 - root - WARNING - ***** stock is already in the positions
-2025-10-09 09:56:35,542 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 09:56:35,678 - root - INFO - Profit percent for GLTO is -14.571469207794054
-2025-10-09 09:56:35,679 - root - INFO - Latest 1min close price for GLTO: 15.03
-2025-10-09 09:56:35,767 - root - INFO - No close long conditions met for GLTO
-2025-10-09 09:56:35,787 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
-2025-10-09 09:56:35,874 - root - INFO - Profit percent for ZSPC is -2.701132733081615
-2025-10-09 09:56:35,874 - root - INFO - Latest 1min close price for ZSPC: 1.37
-2025-10-09 09:56:35,959 - root - INFO - MACD is still rising for stock ZSPC
-2025-10-09 09:56:35,960 - root - INFO - Not enough profit percent to scalp for ZSPC: -2.701132733081615
-2025-10-09 09:56:36,504 - root - INFO -  MACD calculation for BDRX due to high change percent: 20.7536
-2025-10-09 09:56:36,531 - root - INFO - MACD not positive for BDRX
-2025-10-09 09:56:37,398 - root - INFO -  update_current_price: start time 2025-10-09T09:51:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:56:37,967 - root - INFO -  MACD calculation for BJDX due to high change percent: 107.219
-2025-10-09 09:56:38,018 - root - INFO - MACD not positive for BJDX
-2025-10-09 09:56:39,400 - root - INFO -  update_current_price: start time 2025-10-09T09:51:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:56:41,005 - root - INFO - Real mode: Today's profit so far: 340.12997499999983
-2025-10-09 09:56:41,024 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:56:41,067 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:56:41,079 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:56:41,079 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:56:41,207 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 09:56:41,209 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:56:41,219 - root - INFO - Time since last close for BAOS is 333.35365093333337 minutes, net percent 10.7143
-2025-10-09 09:56:41,254 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 09:56:41,255 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 09:56:41,265 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:56:41,265 - root - INFO - Time since last close for ZSPC is None minutes, net percent 0
-2025-10-09 09:56:41,345 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
-2025-10-09 09:56:41,370 - root - INFO -  MACD calculation for BYRN due to high change percent: 17.8947
-2025-10-09 09:56:41,407 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 09:56:41,407 - root - INFO - ZSPC:======= 1.37===>BUY========>TrendUp1990319
-2025-10-09 09:56:41,428 - root - WARNING - ***** stock is already in the positions
-2025-10-09 09:56:41,509 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 09:56:41,632 - root - INFO - Profit percent for GLTO is -14.423552837434217
-2025-10-09 09:56:41,632 - root - INFO - Latest 1min close price for GLTO: 15.03
-2025-10-09 09:56:41,716 - root - INFO - No close long conditions met for GLTO
-2025-10-09 09:56:41,738 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
-2025-10-09 09:56:41,822 - root - INFO - Profit percent for ZSPC is -1.9750217833284924
-2025-10-09 09:56:41,823 - root - INFO - Latest 1min close price for ZSPC: 1.37
-2025-10-09 09:56:41,912 - root - INFO - MACD is still rising for stock ZSPC
-2025-10-09 09:56:41,912 - root - INFO - Not enough profit percent to scalp for ZSPC: -1.9750217833284924
-2025-10-09 09:56:41,924 - root - INFO -  update_current_price: start time 2025-10-09T09:51:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:56:44,301 - root - INFO -  update_current_price: start time 2025-10-09T09:51:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:56:46,326 - root - INFO -  update_current_price: start time 2025-10-09T09:51:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:56:46,958 - root - INFO - Real mode: Today's profit so far: 344.51997499999925
-2025-10-09 09:56:46,979 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:56:47,016 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:56:47,023 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:56:47,023 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:56:47,197 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 09:56:47,198 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:56:47,206 - root - INFO - Time since last close for BAOS is 333.45343768333333 minutes, net percent 10.7143
-2025-10-09 09:56:47,288 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 09:56:47,304 - root - INFO - 1min candle is not positive for BAOS: open 4.71 close 4.75
-2025-10-09 09:56:47,305 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 09:56:47,312 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:56:47,313 - root - INFO - Time since last close for ZSPC is None minutes, net percent 0
-2025-10-09 09:56:47,401 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
-2025-10-09 09:56:47,420 - root - INFO - 1min candle is not positive for ZSPC: open 1.38 close 1.34
-2025-10-09 09:56:47,494 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 09:56:47,656 - root - INFO - Profit percent for GLTO is -14.948087043094866
-2025-10-09 09:56:47,656 - root - INFO - Latest 1min close price for GLTO: 15.02
-2025-10-09 09:56:47,763 - root - INFO - No close long conditions met for GLTO
-2025-10-09 09:56:47,784 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
-2025-10-09 09:56:47,902 - root - INFO - Profit percent for ZSPC is -2.701132733081615
-2025-10-09 09:56:47,902 - root - INFO - Latest 1min close price for ZSPC: 1.34
-2025-10-09 09:56:48,011 - root - INFO - MACD is still rising for stock ZSPC
-2025-10-09 09:56:48,011 - root - INFO - Not enough profit percent to scalp for ZSPC: -2.701132733081615
-2025-10-09 09:56:48,472 - root - INFO -  MACD calculation for CRML due to high change percent: 17.1332
-2025-10-09 09:56:48,619 - root - INFO -  MACD calculation for CRMLW due to high change percent: 27.5216
-2025-10-09 09:56:49,448 - root - INFO -  update_current_price: start time 2025-10-09T09:51:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:56:52,739 - root - INFO -  MACD calculation for DFLI due to high change percent: 13.904
-2025-10-09 09:56:52,825 - root - INFO -  update_current_price: start time 2025-10-09T09:51:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:56:53,055 - root - INFO - Real mode: Today's profit so far: 358.25997500000085
-2025-10-09 09:56:53,075 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:56:53,118 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:56:53,127 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:56:53,127 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:56:53,254 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 09:56:53,255 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:56:53,265 - root - INFO - Time since last close for BAOS is 333.5544198333333 minutes, net percent 10.7143
-2025-10-09 09:56:53,310 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 09:56:53,328 - root - INFO - 1min candle is not positive for BAOS: open 4.71 close 4.75
-2025-10-09 09:56:53,329 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 09:56:53,338 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:56:53,338 - root - INFO - Time since last close for ZSPC is None minutes, net percent 0
-2025-10-09 09:56:53,437 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
-2025-10-09 09:56:53,456 - root - INFO - 1min candle is not positive for ZSPC: open 1.38 close 1.34
-2025-10-09 09:56:53,537 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 09:56:53,762 - root - INFO - Profit percent for GLTO is -15.403214336509741
-2025-10-09 09:56:53,762 - root - INFO - Latest 1min close price for GLTO: 15.02
-2025-10-09 09:56:53,852 - root - INFO - No close long conditions met for GLTO
-2025-10-09 09:56:53,872 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
-2025-10-09 09:56:53,977 - root - INFO - Profit percent for ZSPC is -2.0258495498112112
-2025-10-09 09:56:53,977 - root - INFO - Latest 1min close price for ZSPC: 1.34
-2025-10-09 09:56:54,065 - root - INFO - MACD is still rising for stock ZSPC
-2025-10-09 09:56:54,065 - root - INFO - Not enough profit percent to scalp for ZSPC: -2.0258495498112112
-2025-10-09 09:56:54,344 - root - INFO -  MACD calculation for DPRO due to high change percent: 17.7391
-2025-10-09 09:56:55,820 - root - INFO -  update_current_price: start time 2025-10-09T09:51:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:56:58,651 - root - INFO -  update_current_price: start time 2025-10-09T09:51:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:56:59,110 - root - INFO - Real mode: Today's profit so far: 325.14997500000027
-2025-10-09 09:56:59,130 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:56:59,173 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:56:59,185 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:56:59,185 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:56:59,348 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 09:56:59,350 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:56:59,360 - root - INFO - Time since last close for BAOS is 333.65600953333336 minutes, net percent 10.7143
-2025-10-09 09:56:59,398 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 09:56:59,418 - root - INFO - 1min candle is not positive for BAOS: open 4.71 close 4.75
-2025-10-09 09:56:59,419 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 09:56:59,428 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:56:59,428 - root - INFO - Time since last close for ZSPC is None minutes, net percent 0
-2025-10-09 09:56:59,512 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
-2025-10-09 09:56:59,531 - root - INFO - 1min candle is not positive for ZSPC: open 1.38 close 1.34
-2025-10-09 09:56:59,612 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 09:56:59,773 - root - INFO - Profit percent for GLTO is -15.749679988621818
-2025-10-09 09:56:59,773 - root - INFO - Latest 1min close price for GLTO: 15.02
-2025-10-09 09:56:59,868 - root - INFO - No close long conditions met for GLTO
-2025-10-09 09:56:59,887 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
-2025-10-09 09:57:00,016 - root - INFO - Profit percent for ZSPC is -3.4998547778100497
-2025-10-09 09:57:00,016 - root - INFO - Latest 1min close price for ZSPC: 1.34
-2025-10-09 09:57:00,090 - root - INFO - MACD is still rising for stock ZSPC
-2025-10-09 09:57:00,090 - root - INFO - Not enough profit percent to scalp for ZSPC: -3.4998547778100497
-2025-10-09 09:57:02,151 - root - INFO -  update_current_price: start time 2025-10-09T09:52:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:57:04,472 - root - INFO -  update_current_price: start time 2025-10-09T09:52:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:57:05,134 - root - INFO - Real mode: Today's profit so far: 325.26997499999925
-2025-10-09 09:57:05,155 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:57:05,209 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:57:05,221 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:57:05,222 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:57:05,352 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 09:57:05,353 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:57:05,363 - root - INFO - Time since last close for BAOS is 333.7560478 minutes, net percent 10.7143
-2025-10-09 09:57:05,468 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 09:57:05,491 - root - INFO - 1min candle is not positive for BAOS: open 4.71 close 4.75
-2025-10-09 09:57:05,492 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 09:57:05,503 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:57:05,503 - root - INFO - Time since last close for ZSPC is None minutes, net percent 0
-2025-10-09 09:57:05,575 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
-2025-10-09 09:57:05,593 - root - INFO - 1min candle is not positive for ZSPC: open 1.38 close 1.34
-2025-10-09 09:57:05,671 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
-2025-10-09 09:57:05,790 - root - INFO - Profit percent for GLTO is -16.541032570046934
-2025-10-09 09:57:05,790 - root - INFO - Latest 1min close price for GLTO: 15.02
-2025-10-09 09:57:05,889 - root - INFO - No close long conditions met for GLTO
-2025-10-09 09:57:05,910 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
-2025-10-09 09:57:06,005 - root - INFO - Profit percent for ZSPC is -4.15335463258786
-2025-10-09 09:57:06,005 - root - INFO - Latest 1min close price for ZSPC: 1.34
-2025-10-09 09:57:06,107 - root - INFO - MACD is still rising for stock ZSPC
-2025-10-09 09:57:06,107 - root - INFO - Not enough profit percent to scalp for ZSPC: -4.15335463258786
-2025-10-09 09:57:06,970 - root - INFO -  update_current_price: start time 2025-10-09T09:52:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:57:08,901 - root - INFO -  MACD calculation for GLTO due to high change percent: 45.9155
-2025-10-09 09:57:09,126 - root - INFO -  update_current_price: start time 2025-10-09T09:52:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:00:22,917 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 10:00:22,917 - root - INFO - Not enough profit percent to scalp for GLTO: -8.40506329113924
+2025-10-09 10:00:22,935 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 10:00:23,015 - root - INFO - Profit percent for ZSPC is -4.15335463258786
+2025-10-09 10:00:23,015 - root - INFO - Latest 1min close price for ZSPC: 1.335
+2025-10-09 10:00:23,094 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 10:00:23,094 - root - INFO - Not enough profit percent to scalp for ZSPC: -4.15335463258786
+2025-10-09 10:00:23,733 - root - INFO -  update_current_price: start time 2025-10-09T09:55:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:00:26,484 - root - INFO -  update_current_price: start time 2025-10-09T09:55:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:00:28,144 - root - INFO - Real mode: Today's profit so far: 411.15997499999867
+2025-10-09 10:00:28,164 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:00:28,207 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:00:28,220 - root - INFO - Time since last close for BAOS is 337.1370059833333 minutes, net percent 10.7143
+2025-10-09 10:00:28,272 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:00:28,288 - root - INFO - 1min candle is not positive for BAOS: open 4.84 close 4.8571
+2025-10-09 10:00:28,289 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 10:00:28,297 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:00:28,297 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 10:00:28,408 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
+2025-10-09 10:00:28,469 - root - INFO - Trend up basic conditions not met for GLTO: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-09 10:00:28,542 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 10:00:28,661 - root - INFO - Profit percent for GLTO is -9.486559522116341
+2025-10-09 10:00:28,661 - root - INFO - Latest 1min close price for GLTO: 15.8395
+2025-10-09 10:00:28,772 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 10:00:28,772 - root - INFO - Not enough profit percent to scalp for GLTO: -9.486559522116341
+2025-10-09 10:00:28,795 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 10:00:28,923 - root - INFO - Profit percent for ZSPC is -4.806854487365669
+2025-10-09 10:00:28,923 - root - INFO - Latest 1min close price for ZSPC: 1.335
+2025-10-09 10:00:29,009 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 10:00:29,009 - root - INFO - Not enough profit percent to scalp for ZSPC: -4.806854487365669
+2025-10-09 10:00:29,242 - root - INFO -  update_current_price: start time 2025-10-09T09:55:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:00:32,451 - root - INFO -  update_current_price: start time 2025-10-09T09:55:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:00:34,052 - root - INFO - Real mode: Today's profit so far: 427.6799749999991
+2025-10-09 10:00:34,071 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:00:34,110 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:00:34,122 - root - INFO - Time since last close for BAOS is 337.23538 minutes, net percent 10.7143
+2025-10-09 10:00:34,177 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:00:34,195 - root - INFO - 1min candle is not positive for BAOS: open 4.84 close 4.8571
+2025-10-09 10:00:34,196 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 10:00:34,208 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:00:34,208 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 10:00:34,346 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
+2025-10-09 10:00:34,415 - root - INFO - Trend up basic conditions not met for GLTO: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-09 10:00:34,502 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 10:00:34,643 - root - INFO - Profit percent for GLTO is -8.462523111932867
+2025-10-09 10:00:34,643 - root - INFO - Latest 1min close price for GLTO: 15.8395
+2025-10-09 10:00:34,752 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 10:00:34,752 - root - INFO - Not enough profit percent to scalp for GLTO: -8.462523111932867
+2025-10-09 10:00:34,772 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 10:00:34,858 - root - INFO - Profit percent for ZSPC is -4.15335463258786
+2025-10-09 10:00:34,858 - root - INFO - Latest 1min close price for ZSPC: 1.335
+2025-10-09 10:00:34,934 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 10:00:34,934 - root - INFO - Not enough profit percent to scalp for ZSPC: -4.15335463258786
+2025-10-09 10:00:35,117 - root - INFO -  update_current_price: start time 2025-10-09T09:55:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:00:36,935 - root - INFO -  MACD calculation for MCRP due to high change percent: 18.0556
+2025-10-09 10:00:36,982 - root - INFO - MACD not positive for MCRP
+2025-10-09 10:00:37,471 - root - INFO -  update_current_price: start time 2025-10-09T09:55:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:00:39,229 - root - INFO -  MACD calculation for MLTX due to high change percent: 10.2066
+2025-10-09 10:00:39,983 - root - INFO - Real mode: Today's profit so far: 403.87997499999983
+2025-10-09 10:00:40,003 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:00:40,047 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:00:40,059 - root - INFO - Time since last close for BAOS is 337.33431889999997 minutes, net percent 10.7143
+2025-10-09 10:00:40,108 - root - INFO -  update_current_price: start time 2025-10-09T09:55:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:00:40,112 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:00:40,131 - root - INFO - 1min candle is not positive for BAOS: open 4.84 close 4.8571
+2025-10-09 10:00:40,132 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 10:00:40,142 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:00:40,143 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 10:00:40,283 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
+2025-10-09 10:00:40,351 - root - INFO - Trend up basic conditions not met for GLTO: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-09 10:00:40,423 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 10:00:40,534 - root - INFO - Profit percent for GLTO is -10.339923197269236
+2025-10-09 10:00:40,534 - root - INFO - Latest 1min close price for GLTO: 15.8395
+2025-10-09 10:00:40,656 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 10:00:40,656 - root - INFO - Not enough profit percent to scalp for GLTO: -10.339923197269236
+2025-10-09 10:00:40,668 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 10:00:40,747 - root - INFO - Profit percent for ZSPC is -4.516410107464421
+2025-10-09 10:00:40,747 - root - INFO - Latest 1min close price for ZSPC: 1.335
+2025-10-09 10:00:40,805 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 10:00:40,805 - root - INFO - Not enough profit percent to scalp for ZSPC: -4.516410107464421
+2025-10-09 10:00:42,175 - root - INFO -  update_current_price: start time 2025-10-09T09:55:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:00:43,399 - root - INFO -  MACD calculation for NEOG due to high change percent: 18.2131
+2025-10-09 10:00:44,326 - root - INFO -  MACD calculation for NGNE due to high change percent: 11.1111
+2025-10-09 10:00:45,402 - root - INFO -  update_current_price: start time 2025-10-09T09:55:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:00:45,878 - root - INFO - Real mode: Today's profit so far: 405.95997499999794
+2025-10-09 10:00:45,895 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:00:45,935 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:00:45,947 - root - INFO - Time since last close for BAOS is 337.4324563833333 minutes, net percent 10.7143
+2025-10-09 10:00:45,999 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:00:46,015 - root - INFO - 1min candle is not positive for BAOS: open 4.8497 close 4.7903
+2025-10-09 10:00:46,016 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 10:00:46,024 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:00:46,024 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 10:00:46,183 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
+2025-10-09 10:00:46,257 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 10:00:46,421 - root - INFO - Profit percent for GLTO is -9.60034134547006
+2025-10-09 10:00:46,421 - root - INFO - Latest 1min close price for GLTO: 15.7746
+2025-10-09 10:00:46,563 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 10:00:46,563 - root - INFO - Not enough profit percent to scalp for GLTO: -9.60034134547006
+2025-10-09 10:00:46,584 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 10:00:46,691 - root - INFO - Profit percent for ZSPC is -4.69067673540517
+2025-10-09 10:00:46,691 - root - INFO - Latest 1min close price for ZSPC: 1.315
+2025-10-09 10:00:46,777 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 10:00:46,777 - root - INFO - Not enough profit percent to scalp for ZSPC: -4.69067673540517
+2025-10-09 10:00:47,994 - root - INFO -  MACD calculation for NVX due to high change percent: 21.9535
+2025-10-09 10:00:48,652 - root - INFO -  update_current_price: start time 2025-10-09T09:55:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:00:51,819 - root - INFO - Real mode: Today's profit so far: 403.2499749999988
+2025-10-09 10:00:51,840 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:00:51,876 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:00:51,888 - root - INFO - Time since last close for BAOS is 337.53147118333334 minutes, net percent 10.7143
+2025-10-09 10:00:51,939 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:00:51,959 - root - INFO - 1min candle is not positive for BAOS: open 4.8497 close 4.7903
+2025-10-09 10:00:51,959 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 10:00:51,969 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:00:51,969 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 10:00:51,985 - root - INFO -  update_current_price: start time 2025-10-09T09:55:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:00:52,099 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
+2025-10-09 10:00:52,173 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 10:00:52,309 - root - INFO - Profit percent for GLTO is -9.967856634902574
+2025-10-09 10:00:52,310 - root - INFO - Latest 1min close price for GLTO: 15.7746
+2025-10-09 10:00:52,401 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 10:00:52,401 - root - INFO - Not enough profit percent to scalp for GLTO: -9.967856634902574
+2025-10-09 10:00:52,422 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 10:00:52,520 - root - INFO - Profit percent for ZSPC is -4.625326749927389
+2025-10-09 10:00:52,520 - root - INFO - Latest 1min close price for ZSPC: 1.315
+2025-10-09 10:00:52,591 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 10:00:52,591 - root - INFO - Not enough profit percent to scalp for ZSPC: -4.625326749927389
+2025-10-09 10:00:54,009 - root - INFO -  MACD calculation for PALI due to high change percent: 11.25
+2025-10-09 10:00:54,395 - root - INFO -  MACD calculation for PATH due to high change percent: 10.4621
+2025-10-09 10:00:55,806 - root - INFO -  update_current_price: start time 2025-10-09T09:55:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:00:57,633 - root - INFO - Real mode: Today's profit so far: 416.69997499999954
+2025-10-09 10:00:57,656 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:00:57,698 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:00:57,710 - root - INFO - Time since last close for BAOS is 337.6285030833333 minutes, net percent 10.7143
+2025-10-09 10:00:57,760 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:00:57,776 - root - INFO - 1min candle is not positive for BAOS: open 4.8497 close 4.7903
+2025-10-09 10:00:57,777 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 10:00:57,784 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:00:57,784 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 10:00:57,935 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
+2025-10-09 10:00:58,017 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 10:00:58,176 - root - INFO - Profit percent for GLTO is -9.42966861043948
+2025-10-09 10:00:58,177 - root - INFO - Latest 1min close price for GLTO: 15.7746
+2025-10-09 10:00:58,289 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 10:00:58,289 - root - INFO - Not enough profit percent to scalp for GLTO: -9.42966861043948
+2025-10-09 10:00:58,311 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 10:00:58,438 - root - INFO - Profit percent for ZSPC is -4.15335463258786
+2025-10-09 10:00:58,438 - root - INFO - Latest 1min close price for ZSPC: 1.315
+2025-10-09 10:00:58,571 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 10:00:58,572 - root - INFO - Not enough profit percent to scalp for ZSPC: -4.15335463258786
+2025-10-09 10:00:58,984 - root - INFO -  update_current_price: start time 2025-10-09T09:55:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:01:00,521 - root - INFO -  MACD calculation for PRSO due to high change percent: 16.0584
+2025-10-09 10:01:02,871 - root - INFO -  update_current_price: start time 2025-10-09T09:56:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:01:03,637 - root - INFO - Real mode: Today's profit so far: 410.89997500000027
+2025-10-09 10:01:03,656 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:01:03,694 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:01:03,705 - root - INFO - Time since last close for BAOS is 337.72842740000004 minutes, net percent 10.7143
+2025-10-09 10:01:03,755 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:01:03,770 - root - INFO - 1min candle is not positive for BAOS: open 4.8497 close 4.7903
+2025-10-09 10:01:03,771 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 10:01:03,779 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:01:03,779 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 10:01:03,936 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
+2025-10-09 10:01:04,009 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 10:01:04,155 - root - INFO - Profit percent for GLTO is -8.717963305361968
+2025-10-09 10:01:04,155 - root - INFO - Latest 1min close price for GLTO: 15.7746
+2025-10-09 10:01:04,257 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 10:01:04,258 - root - INFO - Not enough profit percent to scalp for GLTO: -8.717963305361968
+2025-10-09 10:01:04,282 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 10:01:04,382 - root - INFO - Profit percent for ZSPC is -4.516410107464421
+2025-10-09 10:01:04,382 - root - INFO - Latest 1min close price for ZSPC: 1.315
+2025-10-09 10:01:04,484 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 10:01:04,484 - root - INFO - Not enough profit percent to scalp for ZSPC: -4.516410107464421
+2025-10-09 10:01:04,570 - root - INFO -  MACD calculation for RELL due to high change percent: 15.9284
+2025-10-09 10:01:04,603 - root - INFO - MACD not positive for RELL
+2025-10-09 10:01:05,136 - root - INFO -  update_current_price: start time 2025-10-09T09:56:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:01:07,564 - root - INFO -  MACD calculation for RVSN due to high change percent: 12.6428
+2025-10-09 10:01:08,271 - root - INFO -  update_current_price: start time 2025-10-09T09:56:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:01:09,536 - root - INFO - Real mode: Today's profit so far: 407.469975
+2025-10-09 10:01:09,556 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:01:09,595 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:01:09,609 - root - INFO - Time since last close for BAOS is 337.8268278 minutes, net percent 10.7143
+2025-10-09 10:01:09,658 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:01:09,677 - root - INFO - 1min candle is not positive for BAOS: open 4.8497 close 4.7903
+2025-10-09 10:01:09,678 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 10:01:09,688 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:01:09,688 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 10:01:09,813 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
+2025-10-09 10:01:09,894 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 10:01:09,928 - root - INFO -  MACD calculation for SCWO due to high change percent: 23.5286
+2025-10-09 10:01:10,003 - root - INFO - MACD not positive for SCWO
+2025-10-09 10:01:10,042 - root - INFO - Profit percent for GLTO is -8.934717678850804
+2025-10-09 10:01:10,042 - root - INFO - Latest 1min close price for GLTO: 15.7746
+2025-10-09 10:01:10,137 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 10:01:10,137 - root - INFO - Not enough profit percent to scalp for GLTO: -8.934717678850804
+2025-10-09 10:01:10,154 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 10:01:10,243 - root - INFO - Profit percent for ZSPC is -4.864943363345919
+2025-10-09 10:01:10,243 - root - INFO - Latest 1min close price for ZSPC: 1.315
+2025-10-09 10:01:10,326 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 10:01:10,326 - root - INFO - Not enough profit percent to scalp for ZSPC: -4.864943363345919
+2025-10-09 10:01:10,646 - root - INFO -  MACD calculation for SERV due to high change percent: 20.3536
+2025-10-09 10:01:10,818 - root - INFO -  MACD calculation for SES due to high change percent: 12.2935
+2025-10-09 10:01:11,720 - root - INFO -  update_current_price: start time 2025-10-09T09:56:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:01:14,690 - root - INFO -  update_current_price: start time 2025-10-09T09:56:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:01:15,365 - root - INFO - Real mode: Today's profit so far: 390.4799749999984
+2025-10-09 10:01:15,382 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:01:15,421 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:01:15,429 - root - INFO - Time since last close for BAOS is 337.92381818333337 minutes, net percent 10.7143
+2025-10-09 10:01:15,485 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:01:15,504 - root - INFO - 1min candle is not positive for BAOS: open 4.8497 close 4.7903
+2025-10-09 10:01:15,505 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 10:01:15,516 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:01:15,516 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 10:01:15,631 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
+2025-10-09 10:01:15,704 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 10:01:16,188 - root - INFO - Profit percent for GLTO is -10.265396102972549
+2025-10-09 10:01:16,188 - root - INFO - Latest 1min close price for GLTO: 15.7746
+2025-10-09 10:01:16,297 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 10:01:16,298 - root - INFO - Not enough profit percent to scalp for GLTO: -10.265396102972549
+2025-10-09 10:01:16,318 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 10:01:16,403 - root - INFO - Profit percent for ZSPC is -4.879465582340982
+2025-10-09 10:01:16,403 - root - INFO - Latest 1min close price for ZSPC: 1.315
+2025-10-09 10:01:16,488 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 10:01:16,488 - root - INFO - Not enough profit percent to scalp for ZSPC: -4.879465582340982
+2025-10-09 10:01:16,729 - root - INFO -  update_current_price: start time 2025-10-09T09:56:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:01:17,106 - root - INFO -  MACD calculation for SUGP due to high change percent: 26.3372
+2025-10-09 10:01:18,629 - root - INFO -  MACD calculation for TCRT due to high change percent: 13.7757
+2025-10-09 10:01:19,095 - root - INFO -  update_current_price: start time 2025-10-09T09:56:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:01:19,226 - root - INFO -  MACD calculation for TELO due to high change percent: 18.4848
+2025-10-09 10:01:19,289 - root - INFO - MACD not positive for TELO
+2025-10-09 10:01:20,404 - root - INFO -  MACD calculation for TLRY due to high change percent: 20.9884
+2025-10-09 10:01:21,537 - root - INFO - Real mode: Today's profit so far: 368.3099750000001
+2025-10-09 10:01:21,556 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:01:21,597 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:01:21,609 - root - INFO - Time since last close for BAOS is 338.02682451666664 minutes, net percent 10.7143
+2025-10-09 10:01:21,663 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:01:21,682 - root - INFO - 1min candle is not positive for BAOS: open 4.8497 close 4.7903
+2025-10-09 10:01:21,683 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 10:01:21,693 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:01:21,693 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 10:01:21,815 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
+2025-10-09 10:01:21,888 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 10:01:21,902 - root - INFO -  update_current_price: start time 2025-10-09T09:56:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:01:22,008 - root - INFO - Profit percent for GLTO is -11.25017778409899
+2025-10-09 10:01:22,008 - root - INFO - Latest 1min close price for GLTO: 15.7746
+2025-10-09 10:01:22,103 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 10:01:22,103 - root - INFO - Not enough profit percent to scalp for GLTO: -11.25017778409899
+2025-10-09 10:01:22,124 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 10:01:22,209 - root - INFO - Profit percent for ZSPC is -4.516410107464421
+2025-10-09 10:01:22,209 - root - INFO - Latest 1min close price for ZSPC: 1.315
+2025-10-09 10:01:22,302 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 10:01:22,302 - root - INFO - Not enough profit percent to scalp for ZSPC: -4.516410107464421
+2025-10-09 10:01:23,295 - root - INFO -  MACD calculation for UAMY due to high change percent: 12.501
+2025-10-09 10:01:25,248 - root - INFO -  MACD calculation for USARW due to high change percent: 17.2024
+2025-10-09 10:01:25,407 - root - INFO -  update_current_price: start time 2025-10-09T09:56:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:01:25,804 - root - INFO -  MACD calculation for UUUU due to high change percent: 11.0
+2025-10-09 10:01:27,345 - root - INFO - Real mode: Today's profit so far: 358.7399750000004
+2025-10-09 10:01:27,362 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:01:27,402 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:01:27,415 - root - INFO - Time since last close for BAOS is 338.1235858333333 minutes, net percent 10.7143
+2025-10-09 10:01:27,464 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:01:27,480 - root - INFO - 1min candle is not positive for BAOS: open 4.8497 close 4.7903
+2025-10-09 10:01:27,481 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 10:01:27,488 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:01:27,488 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 10:01:27,608 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
+2025-10-09 10:01:27,682 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 10:01:27,806 - root - INFO - Profit percent for GLTO is -11.705305077513865
+2025-10-09 10:01:27,806 - root - INFO - Latest 1min close price for GLTO: 15.7746
+2025-10-09 10:01:27,885 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 10:01:27,885 - root - INFO - Not enough profit percent to scalp for GLTO: -11.705305077513865
+2025-10-09 10:01:27,905 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 10:01:27,994 - root - INFO - Profit percent for ZSPC is -4.879465582340982
+2025-10-09 10:01:27,994 - root - INFO - Latest 1min close price for ZSPC: 1.315
+2025-10-09 10:01:28,071 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 10:01:28,071 - root - INFO - Not enough profit percent to scalp for ZSPC: -4.879465582340982
+2025-10-09 10:01:28,138 - root - INFO -  update_current_price: start time 2025-10-09T09:56:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:01:30,432 - root - INFO -  MACD calculation for WLACW due to high change percent: 14.6552
+2025-10-09 10:01:31,139 - root - INFO -  update_current_price: start time 2025-10-09T09:56:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:01:31,560 - root - INFO -  MACD calculation for WWR due to high change percent: 23.5294
+2025-10-09 10:01:32,945 - root - INFO - FIND stocks Change percent for XTLB: -11.7073
+2025-10-09 10:01:33,103 - root - INFO - Real mode: Today's profit so far: 371.2799750000013
+2025-10-09 10:01:33,119 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:01:33,159 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:01:33,170 - root - INFO - Time since last close for BAOS is 338.21950611666665 minutes, net percent 10.7143
+2025-10-09 10:01:33,220 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:01:33,241 - root - INFO - 1min candle is not positive for BAOS: open 4.8497 close 4.7903
+2025-10-09 10:01:33,242 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 10:01:33,254 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:01:33,254 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 10:01:33,377 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
+2025-10-09 10:01:33,395 - root - INFO -  MACD calculation for ZBIO due to high change percent: 10.4247
+2025-10-09 10:01:33,446 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 10:01:33,600 - root - INFO - Profit percent for GLTO is -11.907267813966719
+2025-10-09 10:01:33,600 - root - INFO - Latest 1min close price for GLTO: 15.7746
+2025-10-09 10:01:33,680 - root - INFO -  update_current_price: start time 2025-10-09T09:56:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:01:33,689 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 10:01:33,689 - root - INFO - Not enough profit percent to scalp for GLTO: -11.907267813966719
+2025-10-09 10:01:33,711 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 10:01:33,801 - root - INFO - Profit percent for ZSPC is -3.4272436828347375
+2025-10-09 10:01:33,802 - root - INFO - Latest 1min close price for ZSPC: 1.315
+2025-10-09 10:01:33,883 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 10:01:33,883 - root - INFO - Not enough profit percent to scalp for ZSPC: -3.4272436828347375
+2025-10-09 10:01:33,899 - root - INFO -  MACD calculation for ZSPC due to high change percent: 24.8131
+2025-10-09 10:01:34,459 - root - INFO - Updating change percent of stocks
+2025-10-09 10:01:35,316 - root - INFO - XTLB change_percent from DB: -11.702439024390236
+2025-10-09 10:01:35,326 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-09 10:01:38,933 - root - INFO - Real mode: Today's profit so far: 371.7299749999984
+2025-10-09 10:01:38,953 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:01:39,011 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 10:01:39,019 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:01:39,020 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 10:01:39,184 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
+2025-10-09 10:01:39,186 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:01:39,197 - root - INFO - Time since last close for BAOS is 338.31995778333334 minutes, net percent 10.7143
+2025-10-09 10:01:39,276 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:01:39,310 - root - INFO - 1min candle is not positive for BAOS: open 4.8497 close 4.7903
+2025-10-09 10:01:39,405 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 10:01:39,553 - root - INFO - Profit percent for GLTO is -11.875408903427678
+2025-10-09 10:01:39,554 - root - INFO - Latest 1min close price for GLTO: 15.7746
+2025-10-09 10:01:39,665 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 10:01:39,665 - root - INFO - Not enough profit percent to scalp for GLTO: -11.875408903427678
+2025-10-09 10:01:39,691 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 10:01:39,793 - root - INFO - Profit percent for ZSPC is -3.449027011327331
+2025-10-09 10:01:39,793 - root - INFO - Latest 1min close price for ZSPC: 1.315
+2025-10-09 10:01:39,912 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 10:01:39,912 - root - INFO - Not enough profit percent to scalp for ZSPC: -3.449027011327331
+2025-10-09 10:01:44,969 - root - INFO - Real mode: Today's profit so far: 374.38997499999823
+2025-10-09 10:01:44,990 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:01:45,029 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 10:01:45,040 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:01:45,040 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 10:01:45,315 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
+2025-10-09 10:01:45,317 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:01:45,329 - root - INFO - Time since last close for BAOS is 338.42215078333334 minutes, net percent 10.7143
+2025-10-09 10:01:45,369 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 10:01:45,457 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 10:01:45,728 - root - INFO - Profit percent for GLTO is -12.331105105959322
+2025-10-09 10:01:45,729 - root - INFO - Latest 1min close price for GLTO: 15.51
+2025-10-09 10:01:45,847 - root - INFO - Closing TrendUp long: shooting star pattern detected
+2025-10-09 10:01:45,847 - root - INFO - GLTO:====== 15.51=========>SELL========>ShootingStar
+2025-10-09 10:01:45,848 - root - INFO - ******************** CLOSE by SOLD stock:GLTO
+2025-10-09 10:01:45,902 - root - CRITICAL - GLTO  85 sell
+2025-10-09 10:01:46,008 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 10:01:46,134 - root - INFO - Profit percent for ZSPC is -3.4272436828347375
+2025-10-09 10:01:46,134 - root - INFO - Latest 1min close price for ZSPC: 1.33
+2025-10-09 10:01:46,241 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 10:01:46,241 - root - INFO - Not enough profit percent to scalp for ZSPC: -3.4272436828347375
+2025-10-09 10:01:51,293 - root - INFO - Real mode: Today's profit so far: 338.58997499999896
+2025-10-09 10:01:51,314 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:01:51,372 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 10:01:51,386 - root - INFO - Time since last close for GLTO is 0.18976891666666665 minutes, net percent -12.4153
+2025-10-09 10:01:51,386 - root - INFO - ***** stock: GLTO Scale: 5Min Time since last close: 0 minutes
+2025-10-09 10:01:51,387 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:01:51,402 - root - INFO - Time since last close for BAOS is 338.5233705 minutes, net percent 10.7143
+2025-10-09 10:01:51,469 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 10:01:51,572 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 10:01:51,695 - root - INFO - Profit percent for ZSPC is -4.15335463258786
+2025-10-09 10:01:51,696 - root - INFO - Latest 1min close price for ZSPC: 1.33
+2025-10-09 10:01:51,820 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 10:01:51,820 - root - INFO - Not enough profit percent to scalp for ZSPC: -4.15335463258786
+2025-10-09 10:01:56,869 - root - INFO - Real mode: Today's profit so far: 311.45997499999794
+2025-10-09 10:01:56,907 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:01:56,951 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 10:01:56,960 - root - INFO - Time since last close for GLTO is 0.2826701 minutes, net percent -12.4153
+2025-10-09 10:01:56,960 - root - INFO - ***** stock: GLTO Scale: 5Min Time since last close: 0 minutes
+2025-10-09 10:01:56,961 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:01:56,972 - root - INFO - Time since last close for BAOS is 338.6162106333333 minutes, net percent 10.7143
+2025-10-09 10:01:57,030 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 10:01:57,149 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 10:01:57,290 - root - INFO - Profit percent for ZSPC is -3.7902991577112988
+2025-10-09 10:01:57,291 - root - INFO - Latest 1min close price for ZSPC: 1.33
+2025-10-09 10:01:57,407 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 10:01:57,407 - root - INFO - Not enough profit percent to scalp for ZSPC: -3.7902991577112988
+2025-10-09 10:02:02,467 - root - INFO - Real mode: Today's profit so far: 303.95997499999794
+2025-10-09 10:02:02,489 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:02:02,544 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 10:02:02,559 - root - INFO - Time since last close for GLTO is 0.37597963333333334 minutes, net percent -12.4153
+2025-10-09 10:02:02,559 - root - INFO - ***** stock: GLTO Scale: 5Min Time since last close: 0 minutes
+2025-10-09 10:02:02,560 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:02:02,574 - root - INFO - Time since last close for BAOS is 338.70956251666667 minutes, net percent 10.7143
+2025-10-09 10:02:02,641 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 10:02:02,738 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 10:02:02,861 - root - INFO - Profit percent for ZSPC is -3.7902991577112988
+2025-10-09 10:02:02,861 - root - INFO - Latest 1min close price for ZSPC: 1.33
+2025-10-09 10:02:02,982 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 10:02:02,982 - root - INFO - Not enough profit percent to scalp for ZSPC: -3.7902991577112988
+2025-10-09 10:02:08,028 - root - INFO - Real mode: Today's profit so far: 305.2799750000013
+2025-10-09 10:02:08,049 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:02:08,090 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 10:02:08,102 - root - INFO - Time since last close for GLTO is 0.4683708166666667 minutes, net percent -12.4153
+2025-10-09 10:02:08,102 - root - INFO - ***** stock: GLTO Scale: 5Min Time since last close: 0 minutes
+2025-10-09 10:02:08,103 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:02:08,114 - root - INFO - Time since last close for BAOS is 338.80189866666666 minutes, net percent 10.7143
+2025-10-09 10:02:08,194 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 10:02:08,286 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 10:02:08,441 - root - INFO - Profit percent for ZSPC is -3.7031658437409236
+2025-10-09 10:02:08,441 - root - INFO - Latest 1min close price for ZSPC: 1.33
+2025-10-09 10:02:08,603 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 10:02:08,603 - root - INFO - Not enough profit percent to scalp for ZSPC: -3.7031658437409236
