@@ -1,10 +1,10 @@
 Top Movers:
-+--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-| ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
-+--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  BAOS  |      0      |     0     |    43.3323     | 22404331 |     4.7443    |        3.31        |   900000.0   |  3.392   |   957839   |      0      | 2025-10-09 11:20:36 |
-|  BDRX  |      1      |     0     |    30.4371     | 4074645  |    10.0567    |        7.71        |     -1.0     |  7.198   |   52029    |      0      | 2025-10-09 11:20:38 |
-+--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
++--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
+| ticker | in_position | break_out | change_percent |  volume | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
++--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
+|  BDRX  |      1      |     0     |    30.4799     | 4077247 |     10.06     |        7.71        |     -1.0     |  7.198   |   52029    |      0      | 2025-10-09 11:26:27 |
+|  WWR   |      1      |     0     |    30.4248     | 5253810 |     1.9955    |        1.53        |  69020000.0  |  1.364   |  8125822   |      0      | 2025-10-09 11:28:09 |
++--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 | ticker | in_position | break_out | change_percent | volume | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status | update_time |
@@ -17,403 +17,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-09 11:21:32,790 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:21:32,790 - root - INFO - Not enough profit percent to scalp for BDRX: -0.8823358681140071
-2025-10-09 11:21:33,960 - root - INFO -  update_current_price: start time 2025-10-09T11:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:21:34,432 - root - INFO -  MACD calculation for MRM due to high change percent: 21.4483
-2025-10-09 11:21:36,692 - root - INFO -  update_current_price: start time 2025-10-09T11:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:21:36,898 - root - INFO -  MACD calculation for NB due to high change percent: 14.7092
-2025-10-09 11:21:36,967 - root - INFO - MACD not positive for NB
-2025-10-09 11:21:37,682 - root - INFO -  MACD calculation for NEOG due to high change percent: 22.079
-2025-10-09 11:21:37,782 - root - INFO - MACD not positive for NEOG
-2025-10-09 11:21:37,844 - root - INFO - Real mode: Today's profit so far: 585.6499750000003
-2025-10-09 11:21:37,864 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:21:37,894 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 11:21:37,903 - root - INFO - Time since last close for BAOS is 418.29838141666664 minutes, net percent 10.7143
-2025-10-09 11:21:37,953 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 11:21:37,954 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:21:37,963 - root - INFO - Time since last close for BDRX is 23.9160542 minutes, net percent -5.42487
-2025-10-09 11:21:38,006 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:21:38,059 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 11:21:38,060 - root - INFO - BDRX:======= 10.2465===>BUY========>TrendUp61886
-2025-10-09 11:21:38,082 - root - WARNING - ***** stock is already in the positions
-2025-10-09 11:21:38,165 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:21:38,224 - root - INFO - Profit percent for BDRX is -0.8823358681140071
-2025-10-09 11:21:38,224 - root - INFO - Latest 1min close price for BDRX: 10.2465
-2025-10-09 11:21:38,252 - root - INFO -  MACD calculation for NGNE due to high change percent: 11.9628
-2025-10-09 11:21:38,298 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:21:38,298 - root - INFO - Not enough profit percent to scalp for BDRX: -0.8823358681140071
-2025-10-09 11:21:38,302 - root - INFO - MACD not positive for NGNE
-2025-10-09 11:21:38,429 - root - INFO -  MACD calculation for NIOBW due to high change percent: 20.3311
-2025-10-09 11:21:39,109 - root - INFO -  update_current_price: start time 2025-10-09T11:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:21:41,117 - root - INFO -  MACD calculation for NVX due to high change percent: 17.5711
-2025-10-09 11:21:41,191 - root - INFO - MACD not positive for NVX
-2025-10-09 11:21:41,574 - root - INFO -  update_current_price: start time 2025-10-09T11:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:21:43,218 - root - INFO -  MACD calculation for ONMD due to high change percent: 10.4391
-2025-10-09 11:21:43,347 - root - INFO - Real mode: Today's profit so far: 593.2899749999997
-2025-10-09 11:21:43,368 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:21:43,411 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 11:21:43,420 - root - INFO - Time since last close for BAOS is 418.39033406666664 minutes, net percent 10.7143
-2025-10-09 11:21:43,470 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 11:21:43,471 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:21:43,481 - root - INFO - Time since last close for BDRX is 24.008016416666667 minutes, net percent -5.42487
-2025-10-09 11:21:43,517 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:21:43,566 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 11:21:43,566 - root - INFO - BDRX:======= 10.2465===>BUY========>TrendUp61886
-2025-10-09 11:21:43,587 - root - WARNING - ***** stock is already in the positions
-2025-10-09 11:21:43,639 - root - INFO -  update_current_price: start time 2025-10-09T11:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:21:43,661 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:21:43,714 - root - INFO - Profit percent for BDRX is -0.8823358681140071
-2025-10-09 11:21:43,714 - root - INFO - Latest 1min close price for BDRX: 10.2465
-2025-10-09 11:21:43,790 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:21:43,790 - root - INFO - Not enough profit percent to scalp for BDRX: -0.8823358681140071
-2025-10-09 11:21:44,405 - root - INFO -  MACD calculation for OVID due to high change percent: 12.3418
-2025-10-09 11:21:44,477 - root - INFO - MACD not positive for OVID
-2025-10-09 11:21:45,153 - root - INFO -  MACD calculation for PATH due to high change percent: 11.0186
-2025-10-09 11:21:46,114 - root - INFO -  update_current_price: start time 2025-10-09T11:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:21:47,274 - root - INFO -  MACD calculation for PHAT due to high change percent: 10.5882
-2025-10-09 11:21:47,345 - root - INFO - MACD not positive for PHAT
-2025-10-09 11:21:48,842 - root - INFO - Real mode: Today's profit so far: 569.4899750000004
-2025-10-09 11:21:48,862 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:21:48,908 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 11:21:48,919 - root - INFO - Time since last close for BAOS is 418.4819814666667 minutes, net percent 10.7143
-2025-10-09 11:21:48,984 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 11:21:48,985 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:21:48,995 - root - INFO - Time since last close for BDRX is 24.0999258 minutes, net percent -5.42487
-2025-10-09 11:21:49,033 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:21:49,088 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 11:21:49,089 - root - INFO - BDRX:======= 10.245===>BUY========>TrendUp61132
-2025-10-09 11:21:49,111 - root - WARNING - ***** stock is already in the positions
-2025-10-09 11:21:49,216 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:21:49,273 - root - INFO - Profit percent for BDRX is -0.8823358681140071
-2025-10-09 11:21:49,273 - root - INFO - Latest 1min close price for BDRX: 10.245
-2025-10-09 11:21:49,356 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:21:49,356 - root - INFO - Not enough profit percent to scalp for BDRX: -0.8823358681140071
-2025-10-09 11:21:49,394 - root - INFO -  update_current_price: start time 2025-10-09T11:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:21:49,717 - root - INFO -  MACD calculation for PPIH due to high change percent: 11.9783
-2025-10-09 11:21:49,780 - root - INFO - MACD not positive for PPIH
-2025-10-09 11:21:50,742 - root - INFO -  MACD calculation for PRSO due to high change percent: 23.2701
-2025-10-09 11:21:50,807 - root - INFO - MACD not positive for PRSO
-2025-10-09 11:21:52,303 - root - INFO -  MACD calculation for PYXS due to high change percent: 12.055
-2025-10-09 11:21:52,356 - root - INFO - MACD not positive for PYXS
-2025-10-09 11:21:53,100 - root - INFO -  update_current_price: start time 2025-10-09T11:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:21:54,345 - root - INFO -  MACD calculation for RCAT due to high change percent: 12.0488
-2025-10-09 11:21:54,403 - root - INFO - Real mode: Today's profit so far: 585.2899749999997
-2025-10-09 11:21:54,424 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:21:54,426 - root - INFO - MACD not positive for RCAT
-2025-10-09 11:21:54,474 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 11:21:54,482 - root - INFO - Time since last close for BAOS is 418.5747130666667 minutes, net percent 10.7143
-2025-10-09 11:21:54,538 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 11:21:54,539 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:21:54,548 - root - INFO - Time since last close for BDRX is 24.192478649999998 minutes, net percent -5.42487
-2025-10-09 11:21:54,580 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:21:54,631 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 11:21:54,631 - root - INFO - BDRX:======= 10.245===>BUY========>TrendUp61132
-2025-10-09 11:21:54,652 - root - WARNING - ***** stock is already in the positions
-2025-10-09 11:21:54,741 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:21:54,798 - root - INFO - Profit percent for BDRX is -0.8823358681140071
-2025-10-09 11:21:54,798 - root - INFO - Latest 1min close price for BDRX: 10.245
-2025-10-09 11:21:54,876 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:21:54,877 - root - INFO - Not enough profit percent to scalp for BDRX: -0.8823358681140071
-2025-10-09 11:21:55,148 - root - INFO -  MACD calculation for RELL due to high change percent: 18.2846
-2025-10-09 11:21:55,915 - root - INFO -  update_current_price: start time 2025-10-09T11:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:21:56,498 - root - INFO -  MACD calculation for RITR due to high change percent: 12.2222
-2025-10-09 11:21:59,308 - root - INFO -  update_current_price: start time 2025-10-09T11:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:21:59,941 - root - INFO - Real mode: Today's profit so far: 550.6599749999987
-2025-10-09 11:21:59,962 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:22:00,011 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 11:22:00,023 - root - INFO - Time since last close for BAOS is 418.6670469666667 minutes, net percent 10.7143
-2025-10-09 11:22:00,077 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 11:22:00,078 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:22:00,089 - root - INFO - Time since last close for BDRX is 24.2848143 minutes, net percent -5.42487
-2025-10-09 11:22:00,120 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:22:00,175 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 11:22:00,175 - root - INFO - BDRX:======= 10.245===>BUY========>TrendUp61132
-2025-10-09 11:22:00,225 - root - WARNING - ***** stock is already in the positions
-2025-10-09 11:22:00,308 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:22:00,359 - root - INFO - Profit percent for BDRX is -1.1242042530136802
-2025-10-09 11:22:00,360 - root - INFO - Latest 1min close price for BDRX: 10.245
-2025-10-09 11:22:00,442 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:22:00,442 - root - INFO - Not enough profit percent to scalp for BDRX: -1.1242042530136802
-2025-10-09 11:22:01,385 - root - INFO -  MACD calculation for SERV due to high change percent: 20.3339
-2025-10-09 11:22:01,474 - root - INFO - MACD not positive for SERV
-2025-10-09 11:22:02,246 - root - INFO -  update_current_price: start time 2025-10-09T11:17:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:22:05,019 - root - INFO -  update_current_price: start time 2025-10-09T11:17:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:22:05,487 - root - INFO - Real mode: Today's profit so far: 561.8599749999994
-2025-10-09 11:22:05,507 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:22:05,545 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 11:22:05,557 - root - INFO - Time since last close for BAOS is 418.75929045 minutes, net percent 10.7143
-2025-10-09 11:22:05,616 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 11:22:05,617 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:22:05,627 - root - INFO - Time since last close for BDRX is 24.377117016666666 minutes, net percent -5.42487
-2025-10-09 11:22:05,660 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:22:05,711 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 11:22:05,712 - root - INFO - BDRX:======= 10.245===>BUY========>TrendUp61132
-2025-10-09 11:22:05,731 - root - WARNING - ***** stock is already in the positions
-2025-10-09 11:22:05,816 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:22:05,871 - root - INFO - Profit percent for BDRX is -1.1242042530136802
-2025-10-09 11:22:05,871 - root - INFO - Latest 1min close price for BDRX: 10.245
-2025-10-09 11:22:05,936 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:22:05,936 - root - INFO - Not enough profit percent to scalp for BDRX: -1.1242042530136802
-2025-10-09 11:22:07,555 - root - INFO -  update_current_price: start time 2025-10-09T11:17:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:22:07,965 - root - INFO -  MACD calculation for SUPV due to high change percent: 11.6466
-2025-10-09 11:22:09,909 - root - INFO -  MACD calculation for TE due to high change percent: 12.9693
-2025-10-09 11:22:10,060 - root - INFO -  update_current_price: start time 2025-10-09T11:17:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:22:10,254 - root - INFO -  MACD calculation for TELO due to high change percent: 17.5273
-2025-10-09 11:22:10,303 - root - INFO - MACD not positive for TELO
-2025-10-09 11:22:10,990 - root - INFO - Real mode: Today's profit so far: 567.6599749999987
-2025-10-09 11:22:11,009 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:22:11,051 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 11:22:11,061 - root - INFO - Time since last close for BAOS is 418.8510256 minutes, net percent 10.7143
-2025-10-09 11:22:11,117 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 11:22:11,118 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:22:11,127 - root - INFO - Time since last close for BDRX is 24.468791916666664 minutes, net percent -5.42487
-2025-10-09 11:22:11,162 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:22:11,213 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 11:22:11,213 - root - INFO - BDRX:======= 10.245===>BUY========>TrendUp61132
-2025-10-09 11:22:11,235 - root - WARNING - ***** stock is already in the positions
-2025-10-09 11:22:11,317 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:22:11,428 - root - INFO - Profit percent for BDRX is -1.1242042530136802
-2025-10-09 11:22:11,428 - root - INFO - Latest 1min close price for BDRX: 10.245
-2025-10-09 11:22:11,446 - root - INFO -  MACD calculation for TLRY due to high change percent: 25.4884
-2025-10-09 11:22:11,488 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:22:11,489 - root - INFO - Not enough profit percent to scalp for BDRX: -1.1242042530136802
-2025-10-09 11:22:11,506 - root - INFO - MACD not positive for TLRY
-2025-10-09 11:22:12,576 - root - INFO -  update_current_price: start time 2025-10-09T11:17:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:22:13,865 - root - INFO -  MACD calculation for UAMY due to high change percent: 12.4475
-2025-10-09 11:22:15,469 - root - INFO -  MACD calculation for USAR due to high change percent: 17.5426
-2025-10-09 11:22:15,604 - root - INFO -  MACD calculation for USARW due to high change percent: 32.7001
-2025-10-09 11:22:15,754 - root - INFO -  update_current_price: start time 2025-10-09T11:17:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:22:15,937 - root - INFO -  MACD calculation for UUUU due to high change percent: 11.0833
-2025-10-09 11:22:16,000 - root - INFO - MACD not positive for UUUU
-2025-10-09 11:22:16,536 - root - INFO - Real mode: Today's profit so far: 571.6599749999987
-2025-10-09 11:22:16,554 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:22:16,598 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 11:22:16,607 - root - INFO - Time since last close for BAOS is 418.9434598666667 minutes, net percent 10.7143
-2025-10-09 11:22:16,657 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 11:22:16,658 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:22:16,666 - root - INFO - Time since last close for BDRX is 24.561098516666668 minutes, net percent -5.42487
-2025-10-09 11:22:16,700 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:22:16,746 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 11:22:16,746 - root - INFO - BDRX:======= 10.245===>BUY========>TrendUp61132
-2025-10-09 11:22:16,769 - root - WARNING - ***** stock is already in the positions
-2025-10-09 11:22:16,852 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:22:16,904 - root - INFO - Profit percent for BDRX is -1.1242042530136802
-2025-10-09 11:22:16,904 - root - INFO - Latest 1min close price for BDRX: 10.245
-2025-10-09 11:22:16,980 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:22:16,980 - root - INFO - Not enough profit percent to scalp for BDRX: -1.1242042530136802
-2025-10-09 11:22:17,459 - root - INFO -  update_current_price: start time 2025-10-09T11:17:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:22:17,660 - root - INFO -  MACD calculation for VSME due to high change percent: 11.4286
-2025-10-09 11:22:20,016 - root - INFO -  update_current_price: start time 2025-10-09T11:17:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:22:20,409 - root - INFO -  MACD calculation for WWR due to high change percent: 27.451
-2025-10-09 11:22:20,481 - root - INFO - MACD not positive for WWR
-2025-10-09 11:22:21,451 - root - INFO - FIND stocks Change percent for XTLB: -14.1463
-2025-10-09 11:22:22,025 - root - INFO - Real mode: Today's profit so far: 557.6599749999987
-2025-10-09 11:22:22,044 - root - INFO -  update_current_price: start time 2025-10-09T11:17:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:22:22,044 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:22:22,088 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 11:22:22,098 - root - INFO - Time since last close for BAOS is 419.03496393333336 minutes, net percent 10.7143
-2025-10-09 11:22:22,145 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 11:22:22,146 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:22:22,156 - root - INFO - Time since last close for BDRX is 24.65260706666667 minutes, net percent -5.42487
-2025-10-09 11:22:22,191 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:22:22,243 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 11:22:22,243 - root - INFO - BDRX:======= 10.245===>BUY========>TrendUp61132
-2025-10-09 11:22:22,262 - root - WARNING - ***** stock is already in the positions
-2025-10-09 11:22:22,278 - root - INFO -  MACD calculation for ZSPC due to high change percent: 28.972
-2025-10-09 11:22:22,326 - root - INFO - MACD not positive for ZSPC
-2025-10-09 11:22:22,339 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:22:22,390 - root - INFO - Profit percent for BDRX is -1.1242042530136802
-2025-10-09 11:22:22,390 - root - INFO - Latest 1min close price for BDRX: 10.245
-2025-10-09 11:22:22,466 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:22:22,466 - root - INFO - Not enough profit percent to scalp for BDRX: -1.1242042530136802
-2025-10-09 11:22:22,628 - root - INFO - Updating change percent of stocks
-2025-10-09 11:22:23,491 - root - INFO - XTLB change_percent from DB: -15.60975609756097
-2025-10-09 11:22:23,502 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-09 11:22:27,519 - root - INFO - Real mode: Today's profit so far: 561.719975
-2025-10-09 11:22:27,536 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:22:27,578 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 11:22:27,588 - root - INFO - Time since last close for BAOS is 419.12647605 minutes, net percent 10.7143
-2025-10-09 11:22:27,634 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 11:22:27,635 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:22:27,644 - root - INFO - Time since last close for BDRX is 24.7440754 minutes, net percent -5.42487
-2025-10-09 11:22:27,677 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:22:27,733 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 11:22:27,734 - root - INFO - BDRX:======= 10.245===>BUY========>TrendUp61132
-2025-10-09 11:22:27,760 - root - WARNING - ***** stock is already in the positions
-2025-10-09 11:22:27,843 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:22:27,892 - root - INFO - Profit percent for BDRX is -1.1203343588552854
-2025-10-09 11:22:27,892 - root - INFO - Latest 1min close price for BDRX: 10.245
-2025-10-09 11:22:27,961 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:22:27,961 - root - INFO - Not enough profit percent to scalp for BDRX: -1.1203343588552854
-2025-10-09 11:22:33,003 - root - INFO - Real mode: Today's profit so far: 548.4399750000011
-2025-10-09 11:22:33,028 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:22:33,067 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 11:22:33,078 - root - INFO - Time since last close for BAOS is 419.21797035 minutes, net percent 10.7143
-2025-10-09 11:22:33,130 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 11:22:33,131 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:22:33,141 - root - INFO - Time since last close for BDRX is 24.835691966666666 minutes, net percent -5.42487
-2025-10-09 11:22:33,174 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:22:33,231 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 11:22:33,231 - root - INFO - BDRX:======= 10.245===>BUY========>TrendUp61132
-2025-10-09 11:22:33,251 - root - WARNING - ***** stock is already in the positions
-2025-10-09 11:22:33,332 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:22:33,395 - root - INFO - Profit percent for BDRX is -1.1242042530136802
-2025-10-09 11:22:33,396 - root - INFO - Latest 1min close price for BDRX: 10.245
-2025-10-09 11:22:33,466 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:22:33,466 - root - INFO - Not enough profit percent to scalp for BDRX: -1.1242042530136802
-2025-10-09 11:22:38,510 - root - INFO - Real mode: Today's profit so far: 561.3599749999994
-2025-10-09 11:22:38,533 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:22:38,572 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 11:22:38,583 - root - INFO - Time since last close for BAOS is 419.3097239 minutes, net percent 10.7143
-2025-10-09 11:22:38,631 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 11:22:38,632 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:22:38,642 - root - INFO - Time since last close for BDRX is 24.927368883333333 minutes, net percent -5.42487
-2025-10-09 11:22:38,674 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:22:38,727 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 11:22:38,727 - root - INFO - BDRX:======= 10.245===>BUY========>TrendUp61132
-2025-10-09 11:22:38,749 - root - WARNING - ***** stock is already in the positions
-2025-10-09 11:22:38,828 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:22:38,875 - root - INFO - Profit percent for BDRX is -1.1242042530136802
-2025-10-09 11:22:38,876 - root - INFO - Latest 1min close price for BDRX: 10.245
-2025-10-09 11:22:38,949 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:22:38,949 - root - INFO - Not enough profit percent to scalp for BDRX: -1.1242042530136802
-2025-10-09 11:22:43,993 - root - INFO - Real mode: Today's profit so far: 562.9399750000011
-2025-10-09 11:22:44,015 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:22:44,054 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 11:22:44,065 - root - INFO - Time since last close for BAOS is 419.40109356666665 minutes, net percent 10.7143
-2025-10-09 11:22:44,120 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 11:22:44,121 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:22:44,130 - root - INFO - Time since last close for BDRX is 25.01883786666667 minutes, net percent -5.42487
-2025-10-09 11:22:44,164 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:22:44,219 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 11:22:44,220 - root - INFO - BDRX:======= 10.245===>BUY========>TrendUp61132
-2025-10-09 11:22:44,241 - root - WARNING - ***** stock is already in the positions
-2025-10-09 11:22:44,381 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:22:44,438 - root - INFO - Profit percent for BDRX is -1.1725779299936148
-2025-10-09 11:22:44,438 - root - INFO - Latest 1min close price for BDRX: 10.245
-2025-10-09 11:22:44,508 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:22:44,508 - root - INFO - Not enough profit percent to scalp for BDRX: -1.1725779299936148
-2025-10-09 11:22:49,562 - root - INFO - Real mode: Today's profit so far: 566.9399750000011
-2025-10-09 11:22:49,582 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:22:49,622 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 11:22:49,632 - root - INFO - Time since last close for BAOS is 419.49387229999996 minutes, net percent 10.7143
-2025-10-09 11:22:49,685 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 11:22:49,686 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:22:49,696 - root - INFO - Time since last close for BDRX is 25.111611483333334 minutes, net percent -5.42487
-2025-10-09 11:22:49,729 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:22:49,748 - root - INFO - 1min candle is not positive for BDRX: open 10.22 close 10.215
-2025-10-09 11:22:49,831 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:22:49,885 - root - INFO - Profit percent for BDRX is -1.1725779299936148
-2025-10-09 11:22:49,885 - root - INFO - Latest 1min close price for BDRX: 10.215
-2025-10-09 11:22:49,963 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:22:49,963 - root - INFO - Not enough profit percent to scalp for BDRX: -1.1725779299936148
-2025-10-09 11:22:55,012 - root - INFO - Real mode: Today's profit so far: 573.9399750000011
-2025-10-09 11:22:55,033 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:22:55,072 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 11:22:55,081 - root - INFO - Time since last close for BAOS is 419.58469506666665 minutes, net percent 10.7143
-2025-10-09 11:22:55,132 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 11:22:55,133 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:22:55,143 - root - INFO - Time since last close for BDRX is 25.20239375 minutes, net percent -5.42487
-2025-10-09 11:22:55,176 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:22:55,196 - root - INFO - 1min candle is not positive for BDRX: open 10.22 close 10.215
-2025-10-09 11:22:55,284 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:22:55,338 - root - INFO - Profit percent for BDRX is -1.1725779299936148
-2025-10-09 11:22:55,338 - root - INFO - Latest 1min close price for BDRX: 10.215
-2025-10-09 11:22:55,407 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:22:55,407 - root - INFO - Not enough profit percent to scalp for BDRX: -1.1725779299936148
-2025-10-09 11:23:00,461 - root - INFO - Real mode: Today's profit so far: 570.9399750000011
-2025-10-09 11:23:00,484 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:23:00,523 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 11:23:00,534 - root - INFO - Time since last close for BAOS is 419.6755623333333 minutes, net percent 10.7143
-2025-10-09 11:23:00,593 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 11:23:00,593 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:23:00,604 - root - INFO - Time since last close for BDRX is 25.293400216666665 minutes, net percent -5.42487
-2025-10-09 11:23:00,638 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:23:00,657 - root - INFO - 1min candle is not positive for BDRX: open 10.22 close 10.215
-2025-10-09 11:23:00,739 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:23:00,791 - root - INFO - Profit percent for BDRX is -1.1725779299936148
-2025-10-09 11:23:00,792 - root - INFO - Latest 1min close price for BDRX: 10.215
-2025-10-09 11:23:00,862 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:23:00,862 - root - INFO - Not enough profit percent to scalp for BDRX: -1.1725779299936148
-2025-10-09 11:23:05,913 - root - INFO - Real mode: Today's profit so far: 574.7599750000008
-2025-10-09 11:23:05,937 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:23:05,975 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 11:23:05,985 - root - INFO - Time since last close for BAOS is 419.7664223666667 minutes, net percent 10.7143
-2025-10-09 11:23:06,039 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 11:23:06,040 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:23:06,050 - root - INFO - Time since last close for BDRX is 25.384169866666664 minutes, net percent -5.42487
-2025-10-09 11:23:06,083 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:23:06,102 - root - INFO - 1min candle is not positive for BDRX: open 10.22 close 10.215
-2025-10-09 11:23:06,196 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:23:06,248 - root - INFO - Profit percent for BDRX is -1.3176989609334184
-2025-10-09 11:23:06,248 - root - INFO - Latest 1min close price for BDRX: 10.215
-2025-10-09 11:23:06,319 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:23:06,319 - root - INFO - Not enough profit percent to scalp for BDRX: -1.3176989609334184
-2025-10-09 11:23:11,361 - root - INFO - Real mode: Today's profit so far: 580.7399750000004
-2025-10-09 11:23:11,491 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:23:11,529 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 11:23:11,541 - root - INFO - Time since last close for BAOS is 419.85902023333335 minutes, net percent 10.7143
-2025-10-09 11:23:11,587 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 11:23:11,588 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:23:11,598 - root - INFO - Time since last close for BDRX is 25.476629683333332 minutes, net percent -5.42487
-2025-10-09 11:23:11,634 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:23:11,652 - root - INFO - 1min candle is not positive for BDRX: open 10.22 close 10.215
-2025-10-09 11:23:11,734 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:23:11,803 - root - INFO - Profit percent for BDRX is -1.3176989609334184
-2025-10-09 11:23:11,803 - root - INFO - Latest 1min close price for BDRX: 10.215
-2025-10-09 11:23:11,873 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:23:11,873 - root - INFO - Not enough profit percent to scalp for BDRX: -1.3176989609334184
-2025-10-09 11:23:16,919 - root - INFO - Real mode: Today's profit so far: 569.8799749999998
-2025-10-09 11:23:16,942 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:23:16,982 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 11:23:16,992 - root - INFO - Time since last close for BAOS is 419.9498777833333 minutes, net percent 10.7143
-2025-10-09 11:23:17,043 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 11:23:17,044 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:23:17,053 - root - INFO - Time since last close for BDRX is 25.567556316666664 minutes, net percent -5.42487
-2025-10-09 11:23:17,086 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:23:17,105 - root - INFO - 1min candle is not positive for BDRX: open 10.22 close 10.215
-2025-10-09 11:23:17,188 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:23:17,236 - root - INFO - Profit percent for BDRX is -1.3176989609334184
-2025-10-09 11:23:17,236 - root - INFO - Latest 1min close price for BDRX: 10.215
-2025-10-09 11:23:17,308 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:23:17,308 - root - INFO - Not enough profit percent to scalp for BDRX: -1.3176989609334184
-2025-10-09 11:23:22,359 - root - INFO - Real mode: Today's profit so far: 554.7599750000008
-2025-10-09 11:23:22,380 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:23:22,419 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 11:23:22,429 - root - INFO - Time since last close for BAOS is 420.0404851166667 minutes, net percent 10.7143
-2025-10-09 11:23:22,479 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 11:23:22,480 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:23:22,490 - root - INFO - Time since last close for BDRX is 25.6581728 minutes, net percent -5.42487
-2025-10-09 11:23:22,527 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:23:22,547 - root - INFO - 1min candle is not positive for BDRX: open 10.22 close 10.215
-2025-10-09 11:23:22,632 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:23:22,682 - root - INFO - Profit percent for BDRX is -1.3176989609334184
-2025-10-09 11:23:22,682 - root - INFO - Latest 1min close price for BDRX: 10.215
-2025-10-09 11:23:22,751 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:23:22,752 - root - INFO - Not enough profit percent to scalp for BDRX: -1.3176989609334184
-2025-10-09 11:23:23,574 - root - INFO - Real mode: Today's profit so far: 564.7599750000008
-2025-10-09 11:23:23,595 - root - INFO - ('2025-10-09T20:58:00-04:00', '2025-10-09T20:58:00-04:00', '2025-10-02T09:30:00-04:00', '2025-10-09T20:58:00-04:00')
-2025-10-09 11:23:23,595 - root - INFO - Screening stocks | Start: 2025-10-02T09:30:00-04:00 | End: 2025-10-09T20:58:00-04:00
-2025-10-09 11:23:23,624 - root - INFO -  update_current_price: start time 2025-10-09T11:18:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:23:24,013 - root - INFO -  MACD calculation for ABOS due to high change percent: 14.3617
-2025-10-09 11:23:25,307 - root - INFO -  MACD calculation for ADVM due to high change percent: 11.8852
-2025-10-09 11:23:25,360 - root - INFO - MACD not positive for ADVM
-2025-10-09 11:23:25,749 - root - INFO -  update_current_price: start time 2025-10-09T11:18:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:23:27,795 - root - INFO - Real mode: Today's profit so far: 567.7599750000008
-2025-10-09 11:23:27,821 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:23:27,863 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 11:23:27,873 - root - INFO - Time since last close for BAOS is 420.13121705 minutes, net percent 10.7143
-2025-10-09 11:23:27,926 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 11:23:27,927 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:23:27,937 - root - INFO - Time since last close for BDRX is 25.7489516 minutes, net percent -5.42487
-2025-10-09 11:23:27,969 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:23:27,989 - root - INFO - 1min candle is not positive for BDRX: open 10.22 close 10.215
-2025-10-09 11:23:28,072 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:23:28,083 - root - INFO -  update_current_price: start time 2025-10-09T11:18:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:23:28,123 - root - INFO - Profit percent for BDRX is -1.3176989609334184
-2025-10-09 11:23:28,123 - root - INFO - Latest 1min close price for BDRX: 10.215
-2025-10-09 11:23:28,197 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:23:28,197 - root - INFO - Not enough profit percent to scalp for BDRX: -1.3176989609334184
-2025-10-09 11:23:29,158 - root - INFO -  MACD calculation for ARAI due to high change percent: 22.0183
-2025-10-09 11:23:29,843 - root - INFO -  update_current_price: start time 2025-10-09T11:18:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:26:45,071 - root - INFO - Time since last close for BDRX is 29.03452065 minutes, net percent -5.42487
+2025-10-09 11:26:45,123 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:26:45,167 - root - INFO -  MACD calculation for DPRO due to high change percent: 13.4048
+2025-10-09 11:26:45,181 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:26:45,182 - root - INFO - BDRX:======= 10.195===>BUY========>TrendUp53441
+2025-10-09 11:26:45,205 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:26:45,227 - root - INFO - MACD not positive for DPRO
+2025-10-09 11:26:45,286 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:26:45,335 - root - INFO - Profit percent for BDRX is -1.366072637913353
+2025-10-09 11:26:45,336 - root - INFO - Latest 1min close price for BDRX: 10.195
+2025-10-09 11:26:45,408 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:26:45,408 - root - INFO - Not enough profit percent to scalp for BDRX: -1.366072637913353
+2025-10-09 11:26:46,149 - root - INFO -  update_current_price: start time 2025-10-09T11:21:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:26:49,013 - root - INFO -  update_current_price: start time 2025-10-09T11:21:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:26:49,422 - root - INFO -  MACD calculation for ENTX due to high change percent: 12.9032
+2025-10-09 11:26:50,460 - root - INFO - Real mode: Today's profit so far: 398.0399749999997
+2025-10-09 11:26:50,480 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:26:50,525 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:26:50,534 - root - INFO - Time since last close for BDRX is 29.125568483333332 minutes, net percent -5.42487
+2025-10-09 11:26:50,588 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:26:50,636 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:26:50,637 - root - INFO - BDRX:======= 10.195===>BUY========>TrendUp53441
+2025-10-09 11:26:50,661 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:26:50,740 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:26:50,798 - root - INFO - Profit percent for BDRX is -1.366072637913353
+2025-10-09 11:26:50,798 - root - INFO - Latest 1min close price for BDRX: 10.195
+2025-10-09 11:26:50,888 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:26:50,889 - root - INFO - Not enough profit percent to scalp for BDRX: -1.366072637913353
+2025-10-09 11:26:52,396 - root - INFO -  update_current_price: start time 2025-10-09T11:21:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:26:53,397 - root - INFO -  MACD calculation for FEMY due to high change percent: 13.8838
+2025-10-09 11:26:55,139 - root - INFO -  update_current_price: start time 2025-10-09T11:21:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:26:55,935 - root - INFO - Real mode: Today's profit so far: 388.0399749999997
+2025-10-09 11:26:55,958 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:26:56,000 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:26:56,009 - root - INFO - Time since last close for BDRX is 29.216824966666664 minutes, net percent -5.42487
+2025-10-09 11:26:56,062 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:26:56,140 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:26:56,140 - root - INFO - BDRX:======= 10.195===>BUY========>TrendUp53441
+2025-10-09 11:26:56,160 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:26:56,251 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:26:56,344 - root - INFO - Profit percent for BDRX is -1.366072637913353
+2025-10-09 11:26:56,344 - root - INFO - Latest 1min close price for BDRX: 10.195
+2025-10-09 11:26:56,421 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:26:56,421 - root - INFO - Not enough profit percent to scalp for BDRX: -1.366072637913353
+2025-10-09 11:26:57,755 - root - INFO -  update_current_price: start time 2025-10-09T11:21:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:27:00,243 - root - INFO -  MACD calculation for GLTO due to high change percent: 33.9521
+2025-10-09 11:27:00,312 - root - INFO - MACD not positive for GLTO
+2025-10-09 11:27:00,677 - root - INFO -  MACD calculation for GNFT due to high change percent: 12.7852
+2025-10-09 11:27:00,727 - root - INFO -  update_current_price: start time 2025-10-09T11:22:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:27:01,044 - root - INFO -  MACD calculation for GNLX due to high change percent: 11.1579
+2025-10-09 11:27:01,475 - root - INFO - Real mode: Today's profit so far: 384.0399749999997
+2025-10-09 11:27:01,496 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:27:01,539 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:27:01,552 - root - INFO - Time since last close for BDRX is 29.309200983333334 minutes, net percent -5.42487
+2025-10-09 11:27:01,624 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:27:01,678 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:27:01,678 - root - INFO - BDRX:======= 10.195===>BUY========>TrendUp53441
+2025-10-09 11:27:01,699 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:27:01,792 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:27:01,847 - root - INFO - Profit percent for BDRX is -1.366072637913353
+2025-10-09 11:27:01,847 - root - INFO - Latest 1min close price for BDRX: 10.195
+2025-10-09 11:27:01,925 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:27:01,925 - root - INFO - Not enough profit percent to scalp for BDRX: -1.366072637913353
+2025-10-09 11:27:03,672 - root - INFO -  update_current_price: start time 2025-10-09T11:22:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:27:06,033 - root - INFO -  update_current_price: start time 2025-10-09T11:22:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:27:06,977 - root - INFO - Real mode: Today's profit so far: 400.0399749999997
+2025-10-09 11:27:06,997 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:27:07,036 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:27:07,050 - root - INFO - Time since last close for BDRX is 29.400833416666668 minutes, net percent -5.42487
+2025-10-09 11:27:07,098 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:27:07,148 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:27:07,148 - root - INFO - BDRX:======= 10.195===>BUY========>TrendUp53441
+2025-10-09 11:27:07,169 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:27:07,257 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:27:07,318 - root - INFO - Profit percent for BDRX is -1.366072637913353
+2025-10-09 11:27:07,318 - root - INFO - Latest 1min close price for BDRX: 10.195
+2025-10-09 11:27:07,396 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:27:07,396 - root - INFO - Not enough profit percent to scalp for BDRX: -1.366072637913353
+2025-10-09 11:27:08,017 - root - INFO -  update_current_price: start time 2025-10-09T11:22:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:27:08,817 - root - INFO -  MACD calculation for INDP due to high change percent: 12.1416
+2025-10-09 11:27:10,549 - root - INFO -  update_current_price: start time 2025-10-09T11:22:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:27:12,442 - root - INFO - Real mode: Today's profit so far: 403.3099750000001
+2025-10-09 11:27:12,464 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:27:12,507 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:27:12,520 - root - INFO - Time since last close for BDRX is 29.49200605 minutes, net percent -5.42487
+2025-10-09 11:27:12,567 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:27:12,618 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:27:12,618 - root - INFO - BDRX:======= 10.195===>BUY========>TrendUp53441
+2025-10-09 11:27:12,640 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:27:12,731 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:27:12,785 - root - INFO - Profit percent for BDRX is -0.8339621911340726
+2025-10-09 11:27:12,785 - root - INFO - Latest 1min close price for BDRX: 10.195
+2025-10-09 11:27:12,855 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:27:12,855 - root - INFO - Not enough profit percent to scalp for BDRX: -0.8339621911340726
+2025-10-09 11:27:13,252 - root - INFO -  update_current_price: start time 2025-10-09T11:22:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:27:15,296 - root - INFO -  MACD calculation for LAES due to high change percent: 25.0734
+2025-10-09 11:27:16,110 - root - INFO -  update_current_price: start time 2025-10-09T11:22:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:27:17,872 - root - INFO -  update_current_price: start time 2025-10-09T11:22:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:27:17,906 - root - INFO - Real mode: Today's profit so far: 396.5599750000001
+2025-10-09 11:27:17,928 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:27:17,978 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:27:17,991 - root - INFO - Time since last close for BDRX is 29.583187983333335 minutes, net percent -5.42487
+2025-10-09 11:27:18,043 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:27:18,100 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:27:18,101 - root - INFO - BDRX:======= 10.195===>BUY========>TrendUp53441
+2025-10-09 11:27:18,121 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:27:18,213 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:27:18,266 - root - INFO - Profit percent for BDRX is -0.9307095450939418
+2025-10-09 11:27:18,266 - root - INFO - Latest 1min close price for BDRX: 10.195
+2025-10-09 11:27:18,344 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:27:18,345 - root - INFO - Not enough profit percent to scalp for BDRX: -0.9307095450939418
+2025-10-09 11:27:19,528 - root - INFO -  MACD calculation for MCRP due to high change percent: 29.5556
+2025-10-09 11:27:20,057 - root - INFO -  update_current_price: start time 2025-10-09T11:22:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:27:21,952 - root - INFO -  update_current_price: start time 2025-10-09T11:22:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:27:22,551 - root - INFO -  MACD calculation for MRM due to high change percent: 19.4187
+2025-10-09 11:27:22,609 - root - INFO - MACD not positive for MRM
+2025-10-09 11:27:23,391 - root - INFO - Real mode: Today's profit so far: 401.969975
+2025-10-09 11:27:23,416 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:27:23,457 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:27:23,468 - root - INFO - Time since last close for BDRX is 29.674477233333334 minutes, net percent -5.42487
+2025-10-09 11:27:23,513 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:27:23,561 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:27:23,561 - root - INFO - BDRX:======= 10.195===>BUY========>TrendUp53441
+2025-10-09 11:27:23,584 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:27:23,663 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:27:23,716 - root - INFO - Profit percent for BDRX is -0.8339621911340726
+2025-10-09 11:27:23,717 - root - INFO - Latest 1min close price for BDRX: 10.195
+2025-10-09 11:27:23,788 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:27:23,788 - root - INFO - Not enough profit percent to scalp for BDRX: -0.8339621911340726
+2025-10-09 11:27:24,356 - root - INFO -  update_current_price: start time 2025-10-09T11:22:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:27:24,513 - root - INFO -  MACD calculation for NB due to high change percent: 14.7662
+2025-10-09 11:27:24,586 - root - INFO - MACD not positive for NB
+2025-10-09 11:27:25,276 - root - INFO -  MACD calculation for NEOG due to high change percent: 23.11
+2025-10-09 11:27:25,340 - root - INFO - MACD not positive for NEOG
+2025-10-09 11:27:25,910 - root - INFO -  MACD calculation for NGNE due to high change percent: 12.6597
+2025-10-09 11:27:25,965 - root - INFO - MACD not positive for NGNE
+2025-10-09 11:27:26,537 - root - INFO -  update_current_price: start time 2025-10-09T11:22:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:27:28,189 - root - INFO -  MACD calculation for NVX due to high change percent: 17.8295
+2025-10-09 11:27:28,272 - root - INFO - MACD not positive for NVX
+2025-10-09 11:27:28,704 - root - INFO -  update_current_price: start time 2025-10-09T11:22:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:27:28,832 - root - INFO - Real mode: Today's profit so far: 378.00997500000085
+2025-10-09 11:27:28,853 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:27:28,900 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:27:28,911 - root - INFO - Time since last close for BDRX is 29.765189033333336 minutes, net percent -5.42487
+2025-10-09 11:27:28,960 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:27:29,006 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:27:29,006 - root - INFO - BDRX:======= 10.195===>BUY========>TrendUp53441
+2025-10-09 11:27:29,027 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:27:29,090 - root - INFO -  MACD calculation for OCC due to high change percent: 12.9137
+2025-10-09 11:27:29,111 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:27:29,119 - root - INFO - MACD not positive for OCC
+2025-10-09 11:27:29,165 - root - INFO - Profit percent for BDRX is -0.8339621911340726
+2025-10-09 11:27:29,165 - root - INFO - Latest 1min close price for BDRX: 10.195
+2025-10-09 11:27:29,236 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:27:29,236 - root - INFO - Not enough profit percent to scalp for BDRX: -0.8339621911340726
+2025-10-09 11:27:30,682 - root - INFO -  MACD calculation for ONMD due to high change percent: 14.3478
+2025-10-09 11:27:31,337 - root - INFO -  update_current_price: start time 2025-10-09T11:22:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:27:32,172 - root - INFO -  MACD calculation for OVID due to high change percent: 13.6076
+2025-10-09 11:27:32,243 - root - INFO - MACD not positive for OVID
+2025-10-09 11:27:32,811 - root - INFO -  MACD calculation for PATH due to high change percent: 11.81
+2025-10-09 11:27:33,801 - root - INFO -  update_current_price: start time 2025-10-09T11:22:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:27:34,284 - root - INFO - Real mode: Today's profit so far: 378.00997500000085
+2025-10-09 11:27:34,309 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:27:34,357 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:27:34,371 - root - INFO - Time since last close for BDRX is 29.856182233333335 minutes, net percent -5.42487
+2025-10-09 11:27:34,418 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:27:34,465 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:27:34,465 - root - INFO - BDRX:======= 10.195===>BUY========>TrendUp53441
+2025-10-09 11:27:34,485 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:27:34,566 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:27:34,618 - root - INFO - Profit percent for BDRX is -0.8339621911340726
+2025-10-09 11:27:34,618 - root - INFO - Latest 1min close price for BDRX: 10.195
+2025-10-09 11:27:34,642 - root - INFO -  MACD calculation for PHAT due to high change percent: 11.1312
+2025-10-09 11:27:34,688 - root - INFO - MACD not positive for PHAT
+2025-10-09 11:27:34,688 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:27:34,689 - root - INFO - Not enough profit percent to scalp for BDRX: -0.8339621911340726
+2025-10-09 11:27:35,731 - root - INFO -  update_current_price: start time 2025-10-09T11:22:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:27:36,115 - root - INFO -  MACD calculation for PPIH due to high change percent: 12.187
+2025-10-09 11:27:36,158 - root - INFO - MACD not positive for PPIH
+2025-10-09 11:27:36,806 - root - INFO -  MACD calculation for PRSO due to high change percent: 20.073
+2025-10-09 11:27:36,875 - root - INFO - MACD not positive for PRSO
+2025-10-09 11:27:38,749 - root - INFO -  update_current_price: start time 2025-10-09T11:22:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:27:39,664 - root - INFO -  MACD calculation for RCAT due to high change percent: 11.3589
+2025-10-09 11:27:39,733 - root - INFO - Real mode: Today's profit so far: 383.6099749999994
+2025-10-09 11:27:39,753 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:27:39,800 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:27:39,809 - root - INFO - Time since last close for BDRX is 29.94682615 minutes, net percent -5.42487
+2025-10-09 11:27:39,833 - root - INFO - MACD not positive for RCAT
+2025-10-09 11:27:39,856 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:27:39,894 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:27:39,894 - root - INFO - BDRX:======= 10.195===>BUY========>TrendUp53441
+2025-10-09 11:27:39,917 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:27:40,012 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:27:40,070 - root - INFO - Profit percent for BDRX is -0.8339621911340726
+2025-10-09 11:27:40,070 - root - INFO - Latest 1min close price for BDRX: 10.195
+2025-10-09 11:27:40,129 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:27:40,129 - root - INFO - Not enough profit percent to scalp for BDRX: -0.8339621911340726
+2025-10-09 11:27:40,419 - root - INFO -  MACD calculation for RELL due to high change percent: 17.3421
+2025-10-09 11:27:41,024 - root - INFO -  update_current_price: start time 2025-10-09T11:22:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:27:41,537 - root - INFO -  MACD calculation for RITR due to high change percent: 13.8889
+2025-10-09 11:27:43,978 - root - INFO -  update_current_price: start time 2025-10-09T11:22:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:27:45,179 - root - INFO - Real mode: Today's profit so far: 381.00997500000085
+2025-10-09 11:27:45,385 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:27:45,424 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:27:45,437 - root - INFO - Time since last close for BDRX is 30.040620533333332 minutes, net percent -5.42487
+2025-10-09 11:27:45,485 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:27:45,536 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:27:45,536 - root - INFO - BDRX:======= 10.25===>BUY========>TrendUp53580
+2025-10-09 11:27:45,559 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:27:45,648 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:27:45,702 - root - INFO - Profit percent for BDRX is -0.8339621911340726
+2025-10-09 11:27:45,702 - root - INFO - Latest 1min close price for BDRX: 10.25
+2025-10-09 11:27:45,722 - root - INFO - High price DETECTED for BDRX is 10.2465 and setting no_scalp to True
+2025-10-09 11:27:45,860 - root - INFO -  MACD calculation for SERV due to high change percent: 21.6435
+2025-10-09 11:27:45,942 - root - INFO - MACD not positive for SERV
+2025-10-09 11:27:46,740 - root - INFO -  update_current_price: start time 2025-10-09T11:22:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:27:50,109 - root - INFO -  update_current_price: start time 2025-10-09T11:22:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:27:50,771 - root - INFO - Real mode: Today's profit so far: 389.00997500000085
+2025-10-09 11:27:50,939 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:27:50,981 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:27:50,993 - root - INFO - Time since last close for BDRX is 30.13322375 minutes, net percent -5.42487
+2025-10-09 11:27:51,041 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:27:51,095 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:27:51,096 - root - INFO - BDRX:======= 10.25===>BUY========>TrendUp53580
+2025-10-09 11:27:51,117 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:27:51,200 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:27:51,265 - root - INFO - Profit percent for BDRX is -0.8339621911340726
+2025-10-09 11:27:51,265 - root - INFO - Latest 1min close price for BDRX: 10.25
+2025-10-09 11:27:51,333 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:27:51,333 - root - INFO - Not enough profit percent to scalp for BDRX: -0.8339621911340726
+2025-10-09 11:27:52,799 - root - INFO -  update_current_price: start time 2025-10-09T11:22:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:27:53,254 - root - INFO -  MACD calculation for SUGP due to high change percent: 27.5094
+2025-10-09 11:27:53,333 - root - INFO - MACD not positive for SUGP
+2025-10-09 11:27:53,414 - root - INFO -  MACD calculation for SUPV due to high change percent: 11.747
+2025-10-09 11:27:55,663 - root - INFO -  MACD calculation for TE due to high change percent: 14.3345
+2025-10-09 11:27:55,978 - root - INFO -  update_current_price: start time 2025-10-09T11:22:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:27:56,174 - root - INFO -  MACD calculation for TELO due to high change percent: 16.3636
+2025-10-09 11:27:56,238 - root - INFO - MACD not positive for TELO
+2025-10-09 11:27:56,371 - root - INFO - Real mode: Today's profit so far: 404.00997500000085
+2025-10-09 11:27:56,396 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:27:56,439 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:27:56,452 - root - INFO - Time since last close for BDRX is 30.224201583333336 minutes, net percent -5.42487
+2025-10-09 11:27:56,501 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:27:56,548 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:27:56,548 - root - INFO - BDRX:======= 10.25===>BUY========>TrendUp53580
+2025-10-09 11:27:56,568 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:27:56,654 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:27:56,704 - root - INFO - Profit percent for BDRX is -0.8339621911340726
+2025-10-09 11:27:56,704 - root - INFO - Latest 1min close price for BDRX: 10.25
+2025-10-09 11:27:56,765 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:27:56,765 - root - INFO - Not enough profit percent to scalp for BDRX: -0.8339621911340726
+2025-10-09 11:27:57,734 - root - INFO -  MACD calculation for TLRY due to high change percent: 25.5581
+2025-10-09 11:27:57,820 - root - INFO - MACD not positive for TLRY
+2025-10-09 11:27:59,073 - root - INFO -  MACD calculation for TRAW due to high change percent: 10.6426
+2025-10-09 11:27:59,138 - root - INFO - MACD not positive for TRAW
+2025-10-09 11:27:59,684 - root - INFO -  update_current_price: start time 2025-10-09T11:22:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:28:01,578 - root - INFO -  MACD calculation for UAMY due to high change percent: 14.1334
+2025-10-09 11:28:01,808 - root - INFO - Real mode: Today's profit so far: 378.8099750000001
+2025-10-09 11:28:01,827 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:28:01,867 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:28:01,881 - root - INFO - Time since last close for BDRX is 30.314682683333334 minutes, net percent -5.42487
+2025-10-09 11:28:01,929 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:28:01,975 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:28:01,976 - root - INFO - BDRX:======= 10.25===>BUY========>TrendUp53580
+2025-10-09 11:28:01,995 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:28:02,077 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:28:02,127 - root - INFO - Profit percent for BDRX is -0.4469727752945957
+2025-10-09 11:28:02,127 - root - INFO - Latest 1min close price for BDRX: 10.25
+2025-10-09 11:28:02,189 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:28:02,189 - root - INFO - Not enough profit percent to scalp for BDRX: -0.4469727752945957
+2025-10-09 11:28:02,821 - root - INFO -  MACD calculation for USAR due to high change percent: 18.2642
+2025-10-09 11:28:02,941 - root - INFO -  MACD calculation for USARW due to high change percent: 35.5966
+2025-10-09 11:28:03,083 - root - INFO -  update_current_price: start time 2025-10-09T11:23:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:28:03,350 - root - INFO -  MACD calculation for UUUU due to high change percent: 10.9444
+2025-10-09 11:28:03,431 - root - INFO - MACD not positive for UUUU
+2025-10-09 11:28:05,479 - root - INFO -  update_current_price: start time 2025-10-09T11:23:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:28:07,239 - root - INFO - Real mode: Today's profit so far: 385.8099750000001
+2025-10-09 11:28:07,260 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:28:07,311 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:28:07,321 - root - INFO - Time since last close for BDRX is 30.405346566666665 minutes, net percent -5.42487
+2025-10-09 11:28:07,372 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:28:07,429 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:28:07,429 - root - INFO - BDRX:======= 10.25===>BUY========>TrendUp53580
+2025-10-09 11:28:07,449 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:28:07,533 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:28:07,588 - root - INFO - Profit percent for BDRX is -0.4469727752945957
+2025-10-09 11:28:07,588 - root - INFO - Latest 1min close price for BDRX: 10.25
+2025-10-09 11:28:07,660 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:28:07,660 - root - INFO - Not enough profit percent to scalp for BDRX: -0.4469727752945957
+2025-10-09 11:28:08,340 - root - INFO -  update_current_price: start time 2025-10-09T11:23:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:28:08,830 - root - INFO -  MACD calculation for WWR due to high change percent: 29.6601
+2025-10-09 11:28:10,059 - root - INFO - FIND stocks Change percent for XTLB: -16.3415
+2025-10-09 11:28:10,189 - root - INFO -  MACD calculation for YCBD due to high change percent: 11.1888
+2025-10-09 11:28:10,905 - root - INFO -  update_current_price: start time 2025-10-09T11:23:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:28:11,174 - root - INFO -  MACD calculation for ZSPC due to high change percent: 28.5047
+2025-10-09 11:28:11,242 - root - INFO - MACD not positive for ZSPC
+2025-10-09 11:28:11,617 - root - INFO - Updating change percent of stocks
+2025-10-09 11:28:12,452 - root - INFO - XTLB change_percent from DB: -15.60975609756097
+2025-10-09 11:28:12,462 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-09 11:28:12,714 - root - INFO - Real mode: Today's profit so far: 404.7899749999997
+2025-10-09 11:28:12,736 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:28:12,787 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:28:12,800 - root - INFO - Time since last close for BDRX is 30.496673383333334 minutes, net percent -5.42487
+2025-10-09 11:28:12,855 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:28:12,909 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:28:12,909 - root - INFO - BDRX:======= 10.25===>BUY========>TrendUp53580
+2025-10-09 11:28:12,933 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:28:12,934 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 11:28:12,951 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:28:12,951 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 11:28:13,177 - root - INFO - Last 5 minutes maximum volume candle is green for WWR
+2025-10-09 11:28:13,265 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:28:13,266 - root - INFO - WWR:======= 1.9955===>BUY========>TrendUp1014245
+2025-10-09 11:28:13,407 - root - CRITICAL - WWR  748 buy
+2025-10-09 11:28:13,466 - root - INFO - Placed BUY order for WWR, qty: 748, price: 2.005, success: True
+2025-10-09 11:28:13,466 - root - INFO - Trade successfully COMPLETED for WWR
+2025-10-09 11:28:13,554 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:28:13,613 - root - INFO - Profit percent for BDRX is 0.0851376714846849
+2025-10-09 11:28:13,613 - root - INFO - Latest 1min close price for BDRX: 10.25
+2025-10-09 11:28:13,700 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:28:13,700 - root - INFO - Not enough profit percent to scalp for BDRX: 0.0851376714846849
+2025-10-09 11:28:13,721 - root - INFO - swing_strategy_close_long for scale 5Min stock WWR
+2025-10-09 11:28:13,966 - root - INFO - Profit percent for WWR is -0.24937655860349126
+2025-10-09 11:28:13,967 - root - INFO - Latest 1min close price for WWR: 1.9955
+2025-10-09 11:28:13,989 - root - INFO - High price DETECTED for WWR is 0.0 and setting no_scalp to True
+2025-10-09 11:28:19,042 - root - INFO - Real mode: Today's profit so far: 414.14997500000027
+2025-10-09 11:28:19,066 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:28:19,122 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:28:19,136 - root - INFO - Time since last close for BDRX is 30.602276983333336 minutes, net percent -5.42487
+2025-10-09 11:28:19,190 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:28:19,261 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:28:19,262 - root - INFO - BDRX:======= 10.25===>BUY========>TrendUp53580
+2025-10-09 11:28:19,286 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:28:19,287 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 11:28:19,305 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:28:19,306 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 11:28:19,565 - root - INFO - Last 5 minutes maximum volume candle is green for WWR
+2025-10-09 11:28:19,652 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:28:19,653 - root - INFO - WWR:======= 1.9955===>BUY========>TrendUp1014245
+2025-10-09 11:28:19,673 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:28:19,754 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:28:19,811 - root - INFO - Profit percent for BDRX is 0.6162806447243667
+2025-10-09 11:28:19,812 - root - INFO - Latest 1min close price for BDRX: 10.25
+2025-10-09 11:28:19,931 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:28:19,931 - root - INFO - Not enough profit percent to scalp for BDRX: 0.6162806447243667
+2025-10-09 11:28:19,965 - root - INFO - swing_strategy_close_long for scale 5Min stock WWR
+2025-10-09 11:28:20,147 - root - INFO - Profit percent for WWR is -0.24937655860349126
+2025-10-09 11:28:20,148 - root - INFO - Latest 1min close price for WWR: 1.9955
+2025-10-09 11:28:20,258 - root - INFO - MACD is still rising for stock WWR
+2025-10-09 11:28:20,258 - root - INFO - Not enough profit percent to scalp for WWR: -0.24937655860349126
+2025-10-09 11:28:25,302 - root - INFO - Real mode: Today's profit so far: 412.50997500000085
+2025-10-09 11:28:25,322 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:28:25,371 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:28:25,385 - root - INFO - Time since last close for BDRX is 30.706419 minutes, net percent -5.42487
+2025-10-09 11:28:25,439 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:28:25,511 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:28:25,511 - root - INFO - BDRX:======= 10.25===>BUY========>TrendUp53580
+2025-10-09 11:28:25,551 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:28:25,552 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 11:28:25,569 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:28:25,570 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 11:28:25,751 - root - INFO - Last 5 minutes maximum volume candle is green for WWR
+2025-10-09 11:28:25,844 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:28:25,846 - root - INFO - WWR:======= 1.9955===>BUY========>TrendUp1014245
+2025-10-09 11:28:25,870 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:28:25,967 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:28:26,027 - root - INFO - Profit percent for BDRX is 0.6162806447243667
+2025-10-09 11:28:26,027 - root - INFO - Latest 1min close price for BDRX: 10.25
+2025-10-09 11:28:26,141 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:28:26,141 - root - INFO - Not enough profit percent to scalp for BDRX: 0.6162806447243667
+2025-10-09 11:28:26,174 - root - INFO - swing_strategy_close_long for scale 5Min stock WWR
+2025-10-09 11:28:26,352 - root - INFO - Profit percent for WWR is 0.0
+2025-10-09 11:28:26,353 - root - INFO - Latest 1min close price for WWR: 1.9955
+2025-10-09 11:28:26,456 - root - INFO - MACD is still rising for stock WWR
+2025-10-09 11:28:26,456 - root - INFO - Not enough profit percent to scalp for WWR: 0.0
+2025-10-09 11:28:31,515 - root - INFO - Real mode: Today's profit so far: 425.0699749999985
+2025-10-09 11:28:31,539 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:28:31,596 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:28:31,611 - root - INFO - Time since last close for BDRX is 30.81019248333333 minutes, net percent -5.42487
+2025-10-09 11:28:31,663 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
+2025-10-09 11:28:31,715 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:28:31,715 - root - INFO - BDRX:======= 10.25===>BUY========>TrendUp53580
+2025-10-09 11:28:31,737 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:28:31,738 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 11:28:31,756 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:28:31,756 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 11:28:31,898 - root - INFO - Last 5 minutes maximum volume candle is green for WWR
+2025-10-09 11:28:31,971 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 11:28:31,972 - root - INFO - WWR:======= 1.9955===>BUY========>TrendUp1014245
+2025-10-09 11:28:31,994 - root - WARNING - ***** stock is already in the positions
+2025-10-09 11:28:32,081 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
+2025-10-09 11:28:32,130 - root - INFO - Profit percent for BDRX is 0.6162806447243667
+2025-10-09 11:28:32,130 - root - INFO - Latest 1min close price for BDRX: 10.25
+2025-10-09 11:28:32,208 - root - INFO - MACD is still rising for stock BDRX
+2025-10-09 11:28:32,209 - root - INFO - Not enough profit percent to scalp for BDRX: 0.6162806447243667
+2025-10-09 11:28:32,247 - root - INFO - swing_strategy_close_long for scale 5Min stock WWR
+2025-10-09 11:28:32,398 - root - INFO - Profit percent for WWR is -0.24937655860349126
+2025-10-09 11:28:32,399 - root - INFO - Latest 1min close price for WWR: 1.9955
+2025-10-09 11:28:32,478 - root - INFO - MACD is still rising for stock WWR
+2025-10-09 11:28:32,479 - root - INFO - Not enough profit percent to scalp for WWR: -0.24937655860349126
