@@ -2,11 +2,11 @@ Top Movers:
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  BJDX  |      0      |     0     |    78.3155     | 62957721 |     3.3309    |        1.87        |   550000.0   |  1.742   |  8847519   |      0      | 2025-10-09 11:38:10 |
-|  AMBO  |      0      |     0     |    37.2969     | 2205215  |      5.01     |        3.57        |  2620000.0   | 3.54278  |  1350004   |      0      | 2025-10-09 11:38:00 |
-|  JFU   |      0      |     0     |    33.0254     |  45712   |     3.6715    |        2.76        |     -1.0     |  2.666   |    7354    |      0      | 2025-10-09 11:35:55 |
-|  BDRX  |      1      |     0     |     32.882     | 4131897  |    10.8885    |        7.71        |     -1.0     |  7.198   |   52029    |      0      | 2025-10-09 11:38:08 |
-|  ZSPC  |      1      |     0     |     31.757     | 1982743  |     1.4098    |        1.07        |  4590000.0   | 1.01316  |   806096   |      0      | 2025-10-09 11:36:52 |
+|  BJDX  |      0      |     0     |    78.0749     | 62993869 |      3.33     |        1.87        |   550000.0   |  1.742   |  8847519   |      0      | 2025-10-09 11:41:11 |
+|  BDRX  |      0      |     0     |     45.655     | 4237325  |     11.23     |        7.71        |     -1.0     |  7.198   |   52029    |      0      | 2025-10-09 11:41:10 |
+|  JFU   |      1      |     0     |    42.1848     |  93302   |     3.9243    |        2.76        |     -1.0     |  2.666   |    7354    |      0      | 2025-10-09 11:41:55 |
+|  AMBO  |      0      |     0     |    38.6555     | 2206903  |      4.95     |        3.57        |  2620000.0   | 3.54278  |  1350004   |      0      | 2025-10-09 11:41:02 |
+|  ZSPC  |      1      |     0     |    30.4299     | 2052470  |     1.3956    |        1.07        |  4590000.0   | 1.01316  |   806096   |      0      | 2025-10-09 11:42:45 |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -20,403 +20,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-09 11:37:33,605 - root - INFO - Not enough profit percent to scalp for ZSPC: 0.7934805918936307
-2025-10-09 11:37:38,644 - root - INFO - Real mode: Today's profit so far: 476.6099749999994
-2025-10-09 11:37:38,664 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:37:38,723 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 11:37:38,736 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:37:38,737 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 11:37:38,860 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-09 11:37:38,861 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 11:37:38,875 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:37:38,876 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 11:37:38,919 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 11:37:38,994 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 11:37:38,995 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 11:37:39,013 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:37:39,014 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 11:37:39,042 - root - INFO - Last 20 minutes volume is low for JFU: 37463
-2025-10-09 11:37:39,043 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:37:39,059 - root - INFO - Time since last close for BDRX is 39.9343183 minutes, net percent -5.42487
-2025-10-09 11:37:39,099 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:37:39,163 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 11:37:39,163 - root - INFO - BDRX:======= 10.54===>BUY========>TrendUp82033
-2025-10-09 11:37:39,185 - root - WARNING - ***** stock is already in the positions
-2025-10-09 11:37:39,186 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 11:37:39,196 - root - INFO - Time since last close for ZSPC is 89.98660576666666 minutes, net percent -6.98862
-2025-10-09 11:37:39,301 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
-2025-10-09 11:37:39,368 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 11:37:39,369 - root - INFO - ZSPC:======= 1.4098===>BUY========>TrendUp708657
-2025-10-09 11:37:39,390 - root - WARNING - ***** stock is already in the positions
-2025-10-09 11:37:39,490 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:37:39,552 - root - INFO - Profit percent for BDRX is 3.809910798939649
-2025-10-09 11:37:39,553 - root - INFO - Latest 1min close price for BDRX: 10.54
-2025-10-09 11:37:39,672 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:37:39,672 - root - INFO - Not enough profit percent to scalp for BDRX: 3.809910798939649
-2025-10-09 11:37:39,710 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
-2025-10-09 11:37:39,811 - root - INFO - Profit percent for ZSPC is 0.7934805918936307
-2025-10-09 11:37:39,811 - root - INFO - Latest 1min close price for ZSPC: 1.4098
-2025-10-09 11:37:39,931 - root - INFO - MACD is still rising for stock ZSPC
-2025-10-09 11:37:39,931 - root - INFO - Not enough profit percent to scalp for ZSPC: 0.7934805918936307
-2025-10-09 11:37:44,981 - root - INFO - Real mode: Today's profit so far: 473.2999749999981
-2025-10-09 11:37:45,002 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:37:45,053 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 11:37:45,066 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:37:45,067 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 11:37:45,174 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-09 11:37:45,176 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 11:37:45,190 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:37:45,191 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 11:37:45,229 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 11:37:45,252 - root - INFO - 1min candle is not positive for AMBO: open 5.01 close 5.01
-2025-10-09 11:37:45,253 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 11:37:45,268 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:37:45,268 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 11:37:45,302 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
-2025-10-09 11:37:45,303 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:37:45,321 - root - INFO - Time since last close for BDRX is 40.03867808333334 minutes, net percent -5.42487
-2025-10-09 11:37:45,360 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:37:45,393 - root - INFO - 1min RSI is overbought for BDRX: 73.17957762105851
-2025-10-09 11:37:45,394 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 11:37:45,413 - root - INFO - Time since last close for ZSPC is 90.09021626666666 minutes, net percent -6.98862
-2025-10-09 11:37:45,514 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
-2025-10-09 11:37:45,588 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 11:37:45,589 - root - INFO - ZSPC:======= 1.4106===>BUY========>TrendUp735205
-2025-10-09 11:37:45,713 - root - WARNING - ***** stock is already in the positions
-2025-10-09 11:37:45,859 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:37:45,916 - root - INFO - Profit percent for BDRX is 5.356900988757958
-2025-10-09 11:37:45,917 - root - INFO - Latest 1min close price for BDRX: 10.8885
-2025-10-09 11:37:45,950 - root - INFO - High price DETECTED for BDRX is 10.54 and setting no_scalp to True
-2025-10-09 11:37:45,991 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
-2025-10-09 11:37:46,105 - root - INFO - Profit percent for ZSPC is 1.4511401815712346
-2025-10-09 11:37:46,106 - root - INFO - Latest 1min close price for ZSPC: 1.4106
-2025-10-09 11:37:46,141 - root - INFO - High price DETECTED for ZSPC is 1.4098 and setting no_scalp to True
-2025-10-09 11:37:51,203 - root - INFO - Real mode: Today's profit so far: 502.1799749999991
-2025-10-09 11:37:51,220 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:37:51,265 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 11:37:51,276 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:37:51,277 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 11:37:51,429 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-09 11:37:51,431 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 11:37:51,444 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:37:51,445 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 11:37:51,480 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 11:37:51,501 - root - INFO - 1min candle is not positive for AMBO: open 5.01 close 5.01
-2025-10-09 11:37:51,502 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 11:37:51,513 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:37:51,513 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 11:37:51,543 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
-2025-10-09 11:37:51,544 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:37:51,561 - root - INFO - Time since last close for BDRX is 40.142682283333336 minutes, net percent -5.42487
-2025-10-09 11:37:51,596 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:37:51,621 - root - INFO - 1min RSI is overbought for BDRX: 73.17957762105851
-2025-10-09 11:37:51,622 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 11:37:51,636 - root - INFO - Time since last close for ZSPC is 90.19393366666667 minutes, net percent -6.98862
-2025-10-09 11:37:51,723 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
-2025-10-09 11:37:51,790 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 11:37:51,790 - root - INFO - ZSPC:======= 1.4106===>BUY========>TrendUp735205
-2025-10-09 11:37:51,812 - root - WARNING - ***** stock is already in the positions
-2025-10-09 11:37:51,908 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:37:51,966 - root - INFO - Profit percent for BDRX is 5.067626400417948
-2025-10-09 11:37:51,966 - root - INFO - Latest 1min close price for BDRX: 10.8885
-2025-10-09 11:37:52,077 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:37:52,077 - root - INFO - Not enough profit percent to scalp for BDRX: 5.067626400417948
-2025-10-09 11:37:52,117 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
-2025-10-09 11:37:52,379 - root - INFO - Profit percent for ZSPC is 0.8649653299020659
-2025-10-09 11:37:52,379 - root - INFO - Latest 1min close price for ZSPC: 1.4106
-2025-10-09 11:37:52,496 - root - INFO - MACD is still rising for stock ZSPC
-2025-10-09 11:37:52,496 - root - INFO - Not enough profit percent to scalp for ZSPC: 0.8649653299020659
-2025-10-09 11:37:54,028 - root - INFO - Real mode: Today's profit so far: 513.0499749999981
-2025-10-09 11:37:54,063 - root - INFO - ('2025-10-09T20:58:00-04:00', '2025-10-09T20:58:00-04:00', '2025-10-02T09:30:00-04:00', '2025-10-09T20:58:00-04:00')
-2025-10-09 11:37:54,063 - root - INFO - Screening stocks | Start: 2025-10-02T09:30:00-04:00 | End: 2025-10-09T20:58:00-04:00
-2025-10-09 11:37:54,100 - root - INFO -  update_current_price: start time 2025-10-09T11:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:37:54,831 - root - INFO -  MACD calculation for ABOS due to high change percent: 20.8032
-2025-10-09 11:37:57,073 - root - INFO -  MACD calculation for ADVM due to high change percent: 10.5512
-2025-10-09 11:37:57,125 - root - INFO - MACD not positive for ADVM
-2025-10-09 11:37:57,552 - root - INFO - Real mode: Today's profit so far: 518.8999750000003
-2025-10-09 11:37:57,572 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:37:57,610 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 11:37:57,622 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:37:57,622 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 11:37:57,715 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-09 11:37:57,716 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 11:37:57,725 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:37:57,725 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 11:37:57,762 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 11:37:57,770 - root - INFO -  update_current_price: start time 2025-10-09T11:32:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:37:57,781 - root - INFO - 1min candle is not positive for AMBO: open 5.01 close 5.01
-2025-10-09 11:37:57,782 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 11:37:57,791 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:37:57,791 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 11:37:57,814 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
-2025-10-09 11:37:57,815 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:37:57,825 - root - INFO - Time since last close for BDRX is 40.24709036666666 minutes, net percent -5.42487
-2025-10-09 11:37:57,856 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:37:57,876 - root - INFO - 1min RSI is overbought for BDRX: 73.17957762105851
-2025-10-09 11:37:57,877 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 11:37:57,889 - root - INFO - Time since last close for ZSPC is 90.29815923333334 minutes, net percent -6.98862
-2025-10-09 11:37:57,961 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
-2025-10-09 11:37:58,017 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 11:37:58,017 - root - INFO - ZSPC:======= 1.4106===>BUY========>TrendUp735205
-2025-10-09 11:37:58,036 - root - WARNING - ***** stock is already in the positions
-2025-10-09 11:37:58,113 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:37:58,166 - root - INFO - Profit percent for BDRX is 5.841605232096903
-2025-10-09 11:37:58,166 - root - INFO - Latest 1min close price for BDRX: 10.8885
-2025-10-09 11:37:58,253 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:37:58,254 - root - INFO - Not enough profit percent to scalp for BDRX: 5.841605232096903
-2025-10-09 11:37:58,274 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
-2025-10-09 11:37:58,362 - root - INFO - Profit percent for ZSPC is 0.7934805918936307
-2025-10-09 11:37:58,362 - root - INFO - Latest 1min close price for ZSPC: 1.4106
-2025-10-09 11:37:58,449 - root - INFO - MACD is still rising for stock ZSPC
-2025-10-09 11:37:58,449 - root - INFO - Not enough profit percent to scalp for ZSPC: 0.7934805918936307
-2025-10-09 11:38:00,246 - root - INFO -  MACD calculation for AMBO due to high change percent: 37.2969
-2025-10-09 11:38:00,933 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:38:02,860 - root - INFO -  MACD calculation for AQMS due to high change percent: 15.9645
-2025-10-09 11:38:03,132 - root - INFO -  MACD calculation for ARAI due to high change percent: 20.4128
-2025-10-09 11:38:03,194 - root - INFO - MACD not positive for ARAI
-2025-10-09 11:38:03,502 - root - INFO - Real mode: Today's profit so far: 529.9999749999988
-2025-10-09 11:38:03,524 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:38:03,568 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 11:38:03,577 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:38:03,577 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 11:38:03,666 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-09 11:38:03,667 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 11:38:03,678 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:38:03,679 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 11:38:03,710 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 11:38:03,729 - root - INFO - 1min candle is not positive for AMBO: open 5.01 close 5.01
-2025-10-09 11:38:03,730 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 11:38:03,738 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:38:03,738 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 11:38:03,761 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
-2025-10-09 11:38:03,761 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:38:03,769 - root - INFO - Time since last close for BDRX is 40.34615483333334 minutes, net percent -5.42487
-2025-10-09 11:38:03,803 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:38:03,818 - root - INFO - 1min RSI is overbought for BDRX: 73.17957762105851
-2025-10-09 11:38:03,818 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 11:38:03,825 - root - INFO - Time since last close for ZSPC is 90.39709273333332 minutes, net percent -6.98862
-2025-10-09 11:38:03,895 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
-2025-10-09 11:38:03,945 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 11:38:03,945 - root - INFO - ZSPC:======= 1.4106===>BUY========>TrendUp735205
-2025-10-09 11:38:03,963 - root - WARNING - ***** stock is already in the positions
-2025-10-09 11:38:04,038 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:38:04,093 - root - INFO - Profit percent for BDRX is 6.325342001896248
-2025-10-09 11:38:04,094 - root - INFO - Latest 1min close price for BDRX: 10.8885
-2025-10-09 11:38:04,129 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:38:04,155 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:38:04,155 - root - INFO - Not enough profit percent to scalp for BDRX: 6.325342001896248
-2025-10-09 11:38:04,175 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
-2025-10-09 11:38:04,316 - root - INFO - Profit percent for ZSPC is 0.8578168561012224
-2025-10-09 11:38:04,317 - root - INFO - Latest 1min close price for ZSPC: 1.4106
-2025-10-09 11:38:04,384 - root - INFO - MACD is still rising for stock ZSPC
-2025-10-09 11:38:04,384 - root - INFO - Not enough profit percent to scalp for ZSPC: 0.8578168561012224
-2025-10-09 11:38:06,433 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:38:06,725 - root - INFO -  MACD calculation for BACQR due to high change percent: 18.3042
-2025-10-09 11:38:06,748 - root - INFO - MACD not positive for BACQR
-2025-10-09 11:38:06,891 - root - INFO -  MACD calculation for BAOS due to high change percent: 40.9637
-2025-10-09 11:38:06,921 - root - INFO - MACD not positive for BAOS
-2025-10-09 11:38:07,113 - root - INFO -  MACD calculation for BBAR due to high change percent: 11.3582
-2025-10-09 11:38:07,161 - root - INFO - MACD not positive for BBAR
-2025-10-09 11:38:08,498 - root - INFO -  MACD calculation for BDRX due to high change percent: 32.882
-2025-10-09 11:38:09,336 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:38:09,426 - root - INFO - Real mode: Today's profit so far: 517.1299749999998
-2025-10-09 11:38:09,446 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:38:09,492 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 11:38:09,502 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:38:09,503 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 11:38:09,589 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-09 11:38:09,590 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 11:38:09,598 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:38:09,599 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 11:38:09,634 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 11:38:09,653 - root - INFO - 1min candle is not positive for AMBO: open 5.01 close 5.01
-2025-10-09 11:38:09,653 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 11:38:09,661 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:38:09,661 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 11:38:09,683 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
-2025-10-09 11:38:09,684 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:38:09,692 - root - INFO - Time since last close for BDRX is 40.444873933333334 minutes, net percent -5.42487
-2025-10-09 11:38:09,720 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:38:09,735 - root - INFO - 1min RSI is overbought for BDRX: 73.17957762105851
-2025-10-09 11:38:09,736 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 11:38:09,744 - root - INFO - Time since last close for ZSPC is 90.49573863333333 minutes, net percent -6.98862
-2025-10-09 11:38:09,772 - root - INFO -  MACD calculation for BJDX due to high change percent: 78.3155
-2025-10-09 11:38:09,817 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
-2025-10-09 11:38:09,879 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 11:38:09,880 - root - INFO - ZSPC:======= 1.4106===>BUY========>TrendUp735205
-2025-10-09 11:38:09,900 - root - WARNING - ***** stock is already in the positions
-2025-10-09 11:38:09,981 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:38:10,031 - root - INFO - Profit percent for BDRX is 7.380855633598421
-2025-10-09 11:38:10,031 - root - INFO - Latest 1min close price for BDRX: 10.8885
-2025-10-09 11:38:10,103 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:38:10,103 - root - INFO - Not enough profit percent to scalp for BDRX: 7.380855633598421
-2025-10-09 11:38:10,124 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
-2025-10-09 11:38:10,208 - root - INFO - Profit percent for ZSPC is 0.07863321180927871
-2025-10-09 11:38:10,209 - root - INFO - Latest 1min close price for ZSPC: 1.4106
-2025-10-09 11:38:10,285 - root - INFO - MACD is still rising for stock ZSPC
-2025-10-09 11:38:10,285 - root - INFO - Not enough profit percent to scalp for ZSPC: 0.07863321180927871
-2025-10-09 11:38:11,082 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:38:13,103 - root - INFO -  MACD calculation for BYRN due to high change percent: 19.2105
-2025-10-09 11:38:13,168 - root - INFO - MACD not positive for BYRN
-2025-10-09 11:38:14,069 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:38:15,321 - root - INFO - Real mode: Today's profit so far: 554.1999749999995
-2025-10-09 11:38:15,341 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:38:15,382 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 11:38:15,395 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:38:15,395 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 11:38:15,486 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-09 11:38:15,487 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 11:38:15,497 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:38:15,497 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 11:38:15,529 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 11:38:15,544 - root - INFO - 1min candle is not positive for AMBO: open 5.01 close 5.01
-2025-10-09 11:38:15,544 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 11:38:15,552 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:38:15,552 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 11:38:15,576 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
-2025-10-09 11:38:15,576 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:38:15,584 - root - INFO - Time since last close for BDRX is 40.54307078333333 minutes, net percent -5.42487
-2025-10-09 11:38:15,615 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:38:15,632 - root - INFO - 1min RSI is overbought for BDRX: 73.17957762105851
-2025-10-09 11:38:15,633 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 11:38:15,641 - root - INFO - Time since last close for ZSPC is 90.59401518333334 minutes, net percent -6.98862
-2025-10-09 11:38:15,710 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
-2025-10-09 11:38:15,771 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 11:38:15,771 - root - INFO - ZSPC:======= 1.4106===>BUY========>TrendUp735205
-2025-10-09 11:38:15,790 - root - WARNING - ***** stock is already in the positions
-2025-10-09 11:38:15,875 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:38:15,927 - root - INFO - Profit percent for BDRX is 9.904994098411409
-2025-10-09 11:38:15,927 - root - INFO - Latest 1min close price for BDRX: 10.8885
-2025-10-09 11:38:15,993 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:38:15,993 - root - INFO - Not enough profit percent to scalp for BDRX: 9.904994098411409
-2025-10-09 11:38:16,013 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
-2025-10-09 11:38:16,109 - root - INFO - Profit percent for ZSPC is 0.07863321180927871
-2025-10-09 11:38:16,110 - root - INFO - Latest 1min close price for ZSPC: 1.4106
-2025-10-09 11:38:16,184 - root - INFO - MACD is still rising for stock ZSPC
-2025-10-09 11:38:16,184 - root - INFO - Not enough profit percent to scalp for ZSPC: 0.07863321180927871
-2025-10-09 11:38:16,188 - root - INFO -  MACD calculation for CGTX due to high change percent: 10.2273
-2025-10-09 11:38:16,395 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:38:19,028 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:38:21,233 - root - INFO - Real mode: Today's profit so far: 539.839974999999
-2025-10-09 11:38:21,254 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:38:21,294 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 11:38:21,305 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:38:21,306 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 11:38:21,323 - root - INFO -  MACD calculation for CRML due to high change percent: 28.3291
-2025-10-09 11:38:21,395 - root - INFO - MACD not positive for CRML
-2025-10-09 11:38:21,422 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-09 11:38:21,422 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 11:38:21,432 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:38:21,432 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 11:38:21,448 - root - INFO -  MACD calculation for CRMLW due to high change percent: 40.6926
-2025-10-09 11:38:21,473 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 11:38:21,483 - root - INFO - MACD not positive for CRMLW
-2025-10-09 11:38:21,493 - root - INFO - 1min candle is not positive for AMBO: open 5.01 close 5.01
-2025-10-09 11:38:21,494 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 11:38:21,503 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:38:21,503 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 11:38:21,531 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
-2025-10-09 11:38:21,532 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:38:21,542 - root - INFO - Time since last close for BDRX is 40.64237515 minutes, net percent -5.42487
-2025-10-09 11:38:21,577 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:38:21,596 - root - INFO - 1min RSI is overbought for BDRX: 73.17957762105851
-2025-10-09 11:38:21,597 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 11:38:21,606 - root - INFO - Time since last close for ZSPC is 90.69344021666667 minutes, net percent -6.98862
-2025-10-09 11:38:21,675 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
-2025-10-09 11:38:21,732 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 11:38:21,732 - root - INFO - ZSPC:======= 1.4106===>BUY========>TrendUp735205
-2025-10-09 11:38:21,753 - root - WARNING - ***** stock is already in the positions
-2025-10-09 11:38:21,833 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:38:21,889 - root - INFO - Profit percent for BDRX is 9.944660513534954
-2025-10-09 11:38:21,889 - root - INFO - Latest 1min close price for BDRX: 10.8885
-2025-10-09 11:38:21,968 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:38:21,968 - root - INFO - Not enough profit percent to scalp for BDRX: 9.944660513534954
-2025-10-09 11:38:21,991 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
-2025-10-09 11:38:22,091 - root - INFO - Profit percent for ZSPC is 0.07148473800843519
-2025-10-09 11:38:22,091 - root - INFO - Latest 1min close price for ZSPC: 1.4106
-2025-10-09 11:38:22,162 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:38:22,183 - root - INFO - MACD is still rising for stock ZSPC
-2025-10-09 11:38:22,183 - root - INFO - Not enough profit percent to scalp for ZSPC: 0.07148473800843519
-2025-10-09 11:38:25,580 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:38:27,100 - root - INFO -  MACD calculation for DPRO due to high change percent: 12.6005
-2025-10-09 11:38:27,180 - root - INFO - MACD not positive for DPRO
-2025-10-09 11:38:27,228 - root - INFO - Real mode: Today's profit so far: 527.0599750000001
-2025-10-09 11:38:27,247 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:38:27,293 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 11:38:27,303 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:38:27,304 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 11:38:27,406 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-09 11:38:27,408 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 11:38:27,416 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:38:27,417 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 11:38:27,455 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 11:38:27,475 - root - INFO - 1min candle is not positive for AMBO: open 5.01 close 5.01
-2025-10-09 11:38:27,475 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 11:38:27,484 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:38:27,485 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 11:38:27,514 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
-2025-10-09 11:38:27,514 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:38:27,524 - root - INFO - Time since last close for BDRX is 40.74206313333333 minutes, net percent -5.42487
-2025-10-09 11:38:27,556 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:38:27,573 - root - INFO - 1min RSI is overbought for BDRX: 73.17957762105851
-2025-10-09 11:38:27,574 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 11:38:27,581 - root - INFO - Time since last close for ZSPC is 90.79303031666667 minutes, net percent -6.98862
-2025-10-09 11:38:27,652 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
-2025-10-09 11:38:27,703 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 11:38:27,704 - root - INFO - ZSPC:======= 1.4106===>BUY========>TrendUp735205
-2025-10-09 11:38:27,724 - root - WARNING - ***** stock is already in the positions
-2025-10-09 11:38:27,804 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:38:27,854 - root - INFO - Profit percent for BDRX is 9.907896519030203
-2025-10-09 11:38:27,854 - root - INFO - Latest 1min close price for BDRX: 10.8885
-2025-10-09 11:38:27,919 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:38:27,919 - root - INFO - Not enough profit percent to scalp for BDRX: 9.907896519030203
-2025-10-09 11:38:27,940 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
-2025-10-09 11:38:28,030 - root - INFO - Profit percent for ZSPC is -0.6362141682750733
-2025-10-09 11:38:28,030 - root - INFO - Latest 1min close price for ZSPC: 1.4106
-2025-10-09 11:38:28,054 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:38:28,111 - root - INFO - MACD is still rising for stock ZSPC
-2025-10-09 11:38:28,111 - root - INFO - Not enough profit percent to scalp for ZSPC: -0.6362141682750733
-2025-10-09 11:38:30,198 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:38:30,579 - root - INFO -  MACD calculation for ENTX due to high change percent: 11.9816
-2025-10-09 11:38:30,622 - root - INFO - MACD not positive for ENTX
-2025-10-09 11:38:33,170 - root - INFO - Real mode: Today's profit so far: 509.50997500000085
-2025-10-09 11:38:33,190 - root - INFO - Running real_trade for all top movers
-2025-10-09 11:38:33,236 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 11:38:33,249 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:38:33,249 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 11:38:33,290 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:38:33,343 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-09 11:38:33,344 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 11:38:33,354 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:38:33,354 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 11:38:33,387 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 11:38:33,408 - root - INFO - 1min candle is not positive for AMBO: open 5.01 close 5.01
-2025-10-09 11:38:33,409 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 11:38:33,418 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 11:38:33,418 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 11:38:33,445 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
-2025-10-09 11:38:33,446 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 11:38:33,456 - root - INFO - Time since last close for BDRX is 40.84093621666667 minutes, net percent -5.42487
-2025-10-09 11:38:33,487 - root - INFO - Last 5 minutes maximum volume candle is green for BDRX
-2025-10-09 11:38:33,507 - root - INFO - 1min RSI is overbought for BDRX: 73.17957762105851
-2025-10-09 11:38:33,507 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
-2025-10-09 11:38:33,516 - root - INFO - Time since last close for ZSPC is 90.89194218333334 minutes, net percent -6.98862
-2025-10-09 11:38:33,588 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
-2025-10-09 11:38:33,649 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 11:38:33,650 - root - INFO - ZSPC:======= 1.4106===>BUY========>TrendUp735205
-2025-10-09 11:38:33,672 - root - WARNING - ***** stock is already in the positions
-2025-10-09 11:38:33,759 - root - INFO - swing_strategy_close_long for scale 5Min stock BDRX
-2025-10-09 11:38:33,813 - root - INFO - Profit percent for BDRX is 9.421257328612063
-2025-10-09 11:38:33,813 - root - INFO - Latest 1min close price for BDRX: 10.8885
-2025-10-09 11:38:33,893 - root - INFO - MACD is still rising for stock BDRX
-2025-10-09 11:38:33,893 - root - INFO - Not enough profit percent to scalp for BDRX: 9.421257328612063
-2025-10-09 11:38:33,914 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
-2025-10-09 11:38:34,036 - root - INFO - Profit percent for ZSPC is -0.6362141682750733
-2025-10-09 11:38:34,036 - root - INFO - Latest 1min close price for ZSPC: 1.4106
-2025-10-09 11:38:34,122 - root - INFO - MACD is still rising for stock ZSPC
-2025-10-09 11:38:34,122 - root - INFO - Not enough profit percent to scalp for ZSPC: -0.6362141682750733
-2025-10-09 11:38:34,822 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:38:37,151 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 11:38:38,275 - root - INFO -  MACD calculation for GLTO due to high change percent: 39.4366
-2025-10-09 11:38:38,326 - root - INFO - MACD not positive for GLTO
-2025-10-09 11:38:38,437 - root - INFO -  update_current_price: start time 2025-10-09T11:33:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:42:34,337 - root - INFO -  update_current_price: start time 2025-10-09T11:37:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:42:34,437 - root - INFO -  MACD calculation for TELO due to high change percent: 16.6667
+2025-10-09 11:42:34,485 - root - INFO - MACD not positive for TELO
+2025-10-09 11:42:35,558 - root - INFO -  MACD calculation for TLRY due to high change percent: 22.9942
+2025-10-09 11:42:35,620 - root - INFO - MACD not positive for TLRY
+2025-10-09 11:42:36,005 - root - INFO - Real mode: Today's profit so far: 861.5199749999992
+2025-10-09 11:42:36,027 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:42:36,071 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 11:42:36,080 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:42:36,081 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 11:42:36,176 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-09 11:42:36,234 - root - INFO - Trend up basic conditions not met for BJDX: price_above_emas=False, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 11:42:36,235 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:42:36,246 - root - INFO - Time since last close for BDRX is 3.8540995 minutes, net percent 10.0591
+2025-10-09 11:42:36,246 - root - INFO - ***** stock: BDRX Scale: 5Min Time since last close: 3 minutes
+2025-10-09 11:42:36,246 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 11:42:36,255 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:42:36,255 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 11:42:36,289 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 11:42:36,305 - root - INFO - 1min candle is not positive for AMBO: open 4.9101 close 4.9641
+2025-10-09 11:42:36,305 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 11:42:36,312 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:42:36,312 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 11:42:36,336 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
+2025-10-09 11:42:36,413 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
+2025-10-09 11:42:36,426 - root - INFO -  update_current_price: start time 2025-10-09T11:37:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:42:36,453 - root - INFO - Profit percent for JFU is -2.0705811229502
+2025-10-09 11:42:36,453 - root - INFO - Latest 1min close price for JFU: 3.9243
+2025-10-09 11:42:36,522 - root - INFO - MACD is still rising for stock JFU
+2025-10-09 11:42:36,523 - root - INFO - Not enough profit percent to scalp for JFU: -2.0705811229502
+2025-10-09 11:42:36,546 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 11:42:36,632 - root - INFO - Profit percent for ZSPC is -0.27879047823289727
+2025-10-09 11:42:36,633 - root - INFO - Latest 1min close price for ZSPC: 1.3999
+2025-10-09 11:42:36,682 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 11:42:36,682 - root - INFO - Not enough profit percent to scalp for ZSPC: -0.27879047823289727
+2025-10-09 11:42:37,470 - root - INFO -  MACD calculation for UAMY due to high change percent: 11.1429
+2025-10-09 11:42:38,759 - root - INFO -  MACD calculation for USAR due to high change percent: 16.3953
+2025-10-09 11:42:38,835 - root - INFO - MACD not positive for USAR
+2025-10-09 11:42:38,884 - root - INFO -  MACD calculation for USARW due to high change percent: 32.2347
+2025-10-09 11:42:38,925 - root - INFO - MACD not positive for USARW
+2025-10-09 11:42:39,024 - root - INFO -  update_current_price: start time 2025-10-09T11:37:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:42:39,209 - root - INFO -  MACD calculation for UUUU due to high change percent: 11.3889
+2025-10-09 11:42:39,263 - root - INFO - MACD not positive for UUUU
+2025-10-09 11:42:40,908 - root - INFO -  update_current_price: start time 2025-10-09T11:37:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:42:41,724 - root - INFO - Real mode: Today's profit so far: 933.5499749999981
+2025-10-09 11:42:41,748 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:42:41,788 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 11:42:41,797 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:42:41,798 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 11:42:41,898 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-09 11:42:41,960 - root - INFO - Trend up basic conditions not met for BJDX: price_above_emas=False, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 11:42:41,961 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:42:41,972 - root - INFO - Time since last close for BDRX is 3.9495309333333335 minutes, net percent 10.0591
+2025-10-09 11:42:41,972 - root - INFO - ***** stock: BDRX Scale: 5Min Time since last close: 3 minutes
+2025-10-09 11:42:41,972 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 11:42:41,983 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:42:41,983 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 11:42:42,017 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 11:42:42,036 - root - INFO - 1min candle is not positive for AMBO: open 4.9101 close 4.9641
+2025-10-09 11:42:42,037 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 11:42:42,045 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:42:42,046 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 11:42:42,068 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
+2025-10-09 11:42:42,159 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
+2025-10-09 11:42:42,205 - root - INFO - Profit percent for JFU is -1.2292501070555932
+2025-10-09 11:42:42,205 - root - INFO - Latest 1min close price for JFU: 3.9243
+2025-10-09 11:42:42,265 - root - INFO - MACD is still rising for stock JFU
+2025-10-09 11:42:42,265 - root - INFO - Not enough profit percent to scalp for JFU: -1.2292501070555932
+2025-10-09 11:42:42,284 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 11:42:42,377 - root - INFO - Profit percent for ZSPC is -0.23589963542783612
+2025-10-09 11:42:42,377 - root - INFO - Latest 1min close price for ZSPC: 1.3999
+2025-10-09 11:42:42,462 - root - INFO - MACD is still rising for stock ZSPC
+2025-10-09 11:42:42,462 - root - INFO - Not enough profit percent to scalp for ZSPC: -0.23589963542783612
+2025-10-09 11:42:42,997 - root - INFO -  update_current_price: start time 2025-10-09T11:37:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:42:43,378 - root - INFO -  MACD calculation for WWR due to high change percent: 25.7843
+2025-10-09 11:42:43,439 - root - INFO - MACD not positive for WWR
+2025-10-09 11:42:44,932 - root - INFO -  update_current_price: start time 2025-10-09T11:37:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 11:42:45,205 - root - INFO -  MACD calculation for ZSPC due to high change percent: 29.9065
+2025-10-09 11:42:45,611 - root - INFO - Updating change percent of stocks
+2025-10-09 11:42:46,504 - root - INFO - XTLB change_percent from DB: -16.097560975609753
+2025-10-09 11:42:46,515 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-09 11:42:47,502 - root - INFO - Real mode: Today's profit so far: 902.7499749999988
+2025-10-09 11:42:47,520 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:42:47,559 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 11:42:47,569 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:42:47,570 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 11:42:47,669 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-09 11:42:47,689 - root - INFO - 9 EMA is in downtrend, not opening long position for BJDX
+2025-10-09 11:42:47,691 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:42:47,701 - root - INFO - Time since last close for BDRX is 4.04501895 minutes, net percent 10.0591
+2025-10-09 11:42:47,701 - root - INFO - ***** stock: BDRX Scale: 5Min Time since last close: 4 minutes
+2025-10-09 11:42:47,702 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 11:42:47,713 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:42:47,713 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 11:42:47,738 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
+2025-10-09 11:42:47,739 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 11:42:47,749 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:42:47,749 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 11:42:47,798 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 11:42:47,852 - root - INFO - 1min candle is not positive for AMBO: open 4.9101 close 4.9641
+2025-10-09 11:42:47,857 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 11:42:47,899 - root - INFO - Time since last close for ZSPC is 95.13164681666667 minutes, net percent -6.98862
+2025-10-09 11:42:47,978 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
+2025-10-09 11:42:47,998 - root - INFO - 9 EMA is in downtrend, not opening long position for ZSPC
+2025-10-09 11:42:48,079 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
+2025-10-09 11:42:48,121 - root - INFO - Profit percent for JFU is -1.005063099826192
+2025-10-09 11:42:48,121 - root - INFO - Latest 1min close price for JFU: 3.94
+2025-10-09 11:42:48,188 - root - INFO - MACD is still rising for stock JFU
+2025-10-09 11:42:48,189 - root - INFO - Not enough profit percent to scalp for JFU: -1.005063099826192
+2025-10-09 11:42:48,211 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 11:42:48,301 - root - INFO - Profit percent for ZSPC is -0.27879047823289727
+2025-10-09 11:42:48,301 - root - INFO - Latest 1min close price for ZSPC: 1.3956
+2025-10-09 11:42:48,384 - root - INFO - No close long conditions met for ZSPC
+2025-10-09 11:42:53,438 - root - INFO - Real mode: Today's profit so far: 909.5799750000006
+2025-10-09 11:42:53,551 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:42:53,590 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 11:42:53,601 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:42:53,601 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 11:42:53,700 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-09 11:42:53,720 - root - INFO - 9 EMA is in downtrend, not opening long position for BJDX
+2025-10-09 11:42:53,721 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:42:53,731 - root - INFO - Time since last close for BDRX is 4.145524466666667 minutes, net percent 10.0591
+2025-10-09 11:42:53,731 - root - INFO - ***** stock: BDRX Scale: 5Min Time since last close: 4 minutes
+2025-10-09 11:42:53,732 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 11:42:53,742 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:42:53,742 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 11:42:53,768 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
+2025-10-09 11:42:53,769 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 11:42:53,779 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:42:53,779 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 11:42:53,826 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 11:42:53,846 - root - INFO - 1min candle is not positive for AMBO: open 4.9101 close 4.9641
+2025-10-09 11:42:53,847 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 11:42:53,858 - root - INFO - Time since last close for ZSPC is 95.2309753 minutes, net percent -6.98862
+2025-10-09 11:42:53,932 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
+2025-10-09 11:42:53,952 - root - INFO - 9 EMA is in downtrend, not opening long position for ZSPC
+2025-10-09 11:42:54,039 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
+2025-10-09 11:42:54,083 - root - INFO - Profit percent for JFU is -1.005063099826192
+2025-10-09 11:42:54,083 - root - INFO - Latest 1min close price for JFU: 3.94
+2025-10-09 11:42:54,153 - root - INFO - MACD is still rising for stock JFU
+2025-10-09 11:42:54,154 - root - INFO - Not enough profit percent to scalp for JFU: -1.005063099826192
+2025-10-09 11:42:54,177 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 11:42:54,272 - root - INFO - Profit percent for ZSPC is 0.07148473800843519
+2025-10-09 11:42:54,272 - root - INFO - Latest 1min close price for ZSPC: 1.3956
+2025-10-09 11:42:54,351 - root - INFO - No close long conditions met for ZSPC
+2025-10-09 11:42:59,396 - root - INFO - Real mode: Today's profit so far: 870.9299749999991
+2025-10-09 11:42:59,415 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:42:59,453 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 11:42:59,463 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:42:59,464 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 11:42:59,569 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-09 11:42:59,589 - root - INFO - 9 EMA is in downtrend, not opening long position for BJDX
+2025-10-09 11:42:59,590 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:42:59,600 - root - INFO - Time since last close for BDRX is 4.243341083333333 minutes, net percent 10.0591
+2025-10-09 11:42:59,600 - root - INFO - ***** stock: BDRX Scale: 5Min Time since last close: 4 minutes
+2025-10-09 11:42:59,601 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 11:42:59,611 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:42:59,611 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 11:42:59,644 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
+2025-10-09 11:42:59,644 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 11:42:59,654 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:42:59,654 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 11:42:59,689 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 11:42:59,712 - root - INFO - 1min candle is not positive for AMBO: open 4.9101 close 4.9641
+2025-10-09 11:42:59,713 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 11:42:59,723 - root - INFO - Time since last close for ZSPC is 95.32871858333333 minutes, net percent -6.98862
+2025-10-09 11:42:59,816 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
+2025-10-09 11:42:59,836 - root - INFO - 9 EMA is in downtrend, not opening long position for ZSPC
+2025-10-09 11:42:59,953 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
+2025-10-09 11:43:00,008 - root - INFO - Profit percent for JFU is -4.783495805939696
+2025-10-09 11:43:00,009 - root - INFO - Latest 1min close price for JFU: 3.94
+2025-10-09 11:43:00,078 - root - INFO - MACD is still rising for stock JFU
+2025-10-09 11:43:00,078 - root - INFO - Not enough profit percent to scalp for JFU: -4.783495805939696
+2025-10-09 11:43:00,100 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 11:43:00,209 - root - INFO - Profit percent for ZSPC is 0.07148473800843519
+2025-10-09 11:43:00,209 - root - INFO - Latest 1min close price for ZSPC: 1.3956
+2025-10-09 11:43:00,291 - root - INFO - No close long conditions met for ZSPC
+2025-10-09 11:43:05,335 - root - INFO - Real mode: Today's profit so far: 865.4099749999987
+2025-10-09 11:43:05,355 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:43:05,394 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 11:43:05,405 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:43:05,405 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 11:43:05,500 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-09 11:43:05,520 - root - INFO - 9 EMA is in downtrend, not opening long position for BJDX
+2025-10-09 11:43:05,521 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:43:05,531 - root - INFO - Time since last close for BDRX is 4.342195633333334 minutes, net percent 10.0591
+2025-10-09 11:43:05,532 - root - INFO - ***** stock: BDRX Scale: 5Min Time since last close: 4 minutes
+2025-10-09 11:43:05,532 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 11:43:05,542 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:43:05,542 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 11:43:05,569 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
+2025-10-09 11:43:05,570 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 11:43:05,580 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:43:05,580 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 11:43:05,614 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 11:43:05,634 - root - INFO - 1min candle is not positive for AMBO: open 4.9101 close 4.9641
+2025-10-09 11:43:05,635 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 11:43:05,645 - root - INFO - Time since last close for ZSPC is 95.427414 minutes, net percent -6.98862
+2025-10-09 11:43:05,715 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
+2025-10-09 11:43:05,734 - root - INFO - 9 EMA is in downtrend, not opening long position for ZSPC
+2025-10-09 11:43:05,818 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
+2025-10-09 11:43:05,863 - root - INFO - Profit percent for JFU is -5.5316254817501695
+2025-10-09 11:43:05,863 - root - INFO - Latest 1min close price for JFU: 3.94
+2025-10-09 11:43:05,927 - root - INFO - MACD is still rising for stock JFU
+2025-10-09 11:43:05,927 - root - INFO - Not enough profit percent to scalp for JFU: -5.5316254817501695
+2025-10-09 11:43:05,949 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 11:43:06,047 - root - INFO - Profit percent for ZSPC is 0.7934805918936307
+2025-10-09 11:43:06,047 - root - INFO - Latest 1min close price for ZSPC: 1.3956
+2025-10-09 11:43:06,132 - root - INFO - No close long conditions met for ZSPC
+2025-10-09 11:43:11,183 - root - INFO - Real mode: Today's profit so far: 864.099975000001
+2025-10-09 11:43:11,223 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:43:11,262 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 11:43:11,273 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:43:11,273 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 11:43:11,380 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-09 11:43:11,399 - root - INFO - 9 EMA is in downtrend, not opening long position for BJDX
+2025-10-09 11:43:11,400 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:43:11,410 - root - INFO - Time since last close for BDRX is 4.440167283333333 minutes, net percent 10.0591
+2025-10-09 11:43:11,410 - root - INFO - ***** stock: BDRX Scale: 5Min Time since last close: 4 minutes
+2025-10-09 11:43:11,410 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 11:43:11,420 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:43:11,420 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 11:43:11,447 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
+2025-10-09 11:43:11,448 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 11:43:11,458 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:43:11,458 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 11:43:11,500 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 11:43:11,519 - root - INFO - 1min candle is not positive for AMBO: open 4.9101 close 4.9641
+2025-10-09 11:43:11,520 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 11:43:11,531 - root - INFO - Time since last close for ZSPC is 95.52552815 minutes, net percent -6.98862
+2025-10-09 11:43:11,623 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
+2025-10-09 11:43:11,643 - root - INFO - 9 EMA is in downtrend, not opening long position for ZSPC
+2025-10-09 11:43:11,731 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
+2025-10-09 11:43:11,781 - root - INFO - Profit percent for JFU is -2.642383939142044
+2025-10-09 11:43:11,781 - root - INFO - Latest 1min close price for JFU: 3.94
+2025-10-09 11:43:11,847 - root - INFO - MACD is still rising for stock JFU
+2025-10-09 11:43:11,847 - root - INFO - Not enough profit percent to scalp for JFU: -2.642383939142044
+2025-10-09 11:43:11,870 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 11:43:11,968 - root - INFO - Profit percent for ZSPC is 0.5003931660590464
+2025-10-09 11:43:11,968 - root - INFO - Latest 1min close price for ZSPC: 1.3956
+2025-10-09 11:43:12,062 - root - INFO - No close long conditions met for ZSPC
+2025-10-09 11:43:17,111 - root - INFO - Real mode: Today's profit so far: 916.1999749999995
+2025-10-09 11:43:17,131 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:43:17,170 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 11:43:17,180 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:43:17,180 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 11:43:17,276 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-09 11:43:17,297 - root - INFO - 9 EMA is in downtrend, not opening long position for BJDX
+2025-10-09 11:43:17,298 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:43:17,309 - root - INFO - Time since last close for BDRX is 4.53847995 minutes, net percent 10.0591
+2025-10-09 11:43:17,309 - root - INFO - ***** stock: BDRX Scale: 5Min Time since last close: 4 minutes
+2025-10-09 11:43:17,310 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 11:43:17,320 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:43:17,320 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 11:43:17,345 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
+2025-10-09 11:43:17,346 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 11:43:17,355 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:43:17,356 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 11:43:17,396 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 11:43:17,416 - root - INFO - 1min candle is not positive for AMBO: open 4.9101 close 4.9641
+2025-10-09 11:43:17,417 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 11:43:17,426 - root - INFO - Time since last close for ZSPC is 95.62377703333333 minutes, net percent -6.98862
+2025-10-09 11:43:17,508 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
+2025-10-09 11:43:17,529 - root - INFO - 9 EMA is in downtrend, not opening long position for ZSPC
+2025-10-09 11:43:17,615 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
+2025-10-09 11:43:17,667 - root - INFO - Profit percent for JFU is -3.3980704803647446
+2025-10-09 11:43:17,667 - root - INFO - Latest 1min close price for JFU: 3.94
+2025-10-09 11:43:17,734 - root - INFO - MACD is still rising for stock JFU
+2025-10-09 11:43:17,734 - root - INFO - Not enough profit percent to scalp for JFU: -3.3980704803647446
+2025-10-09 11:43:17,757 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 11:43:17,857 - root - INFO - Profit percent for ZSPC is 0.5003931660590464
+2025-10-09 11:43:17,858 - root - INFO - Latest 1min close price for ZSPC: 1.3956
+2025-10-09 11:43:17,990 - root - INFO - No close long conditions met for ZSPC
+2025-10-09 11:43:23,043 - root - INFO - Real mode: Today's profit so far: 924.1399749999982
+2025-10-09 11:43:23,067 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:43:23,124 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 11:43:23,135 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:43:23,136 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 11:43:23,246 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-09 11:43:23,271 - root - INFO - 9 EMA is in downtrend, not opening long position for BJDX
+2025-10-09 11:43:23,272 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:43:23,284 - root - INFO - Time since last close for BDRX is 4.638063866666667 minutes, net percent 10.0591
+2025-10-09 11:43:23,284 - root - INFO - ***** stock: BDRX Scale: 5Min Time since last close: 4 minutes
+2025-10-09 11:43:23,284 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 11:43:23,296 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:43:23,296 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 11:43:23,321 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
+2025-10-09 11:43:23,322 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 11:43:23,338 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:43:23,338 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 11:43:23,376 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 11:43:23,402 - root - INFO - 1min candle is not positive for AMBO: open 4.9101 close 4.9641
+2025-10-09 11:43:23,403 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 11:43:23,416 - root - INFO - Time since last close for ZSPC is 95.72360231666667 minutes, net percent -6.98862
+2025-10-09 11:43:23,501 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
+2025-10-09 11:43:23,532 - root - INFO - 9 EMA is in downtrend, not opening long position for ZSPC
+2025-10-09 11:43:23,637 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
+2025-10-09 11:43:23,689 - root - INFO - Profit percent for JFU is -2.869089901508854
+2025-10-09 11:43:23,689 - root - INFO - Latest 1min close price for JFU: 3.94
+2025-10-09 11:43:23,754 - root - INFO - MACD is still rising for stock JFU
+2025-10-09 11:43:23,755 - root - INFO - Not enough profit percent to scalp for JFU: -2.869089901508854
+2025-10-09 11:43:23,775 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 11:43:23,876 - root - INFO - Profit percent for ZSPC is 0.7934805918936307
+2025-10-09 11:43:23,876 - root - INFO - Latest 1min close price for ZSPC: 1.3956
+2025-10-09 11:43:23,953 - root - INFO - No close long conditions met for ZSPC
+2025-10-09 11:43:29,009 - root - INFO - Real mode: Today's profit so far: 907.5099750000008
+2025-10-09 11:43:29,040 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:43:29,096 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 11:43:29,110 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:43:29,110 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 11:43:29,228 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-09 11:43:29,253 - root - INFO - 9 EMA is in downtrend, not opening long position for BJDX
+2025-10-09 11:43:29,254 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:43:29,282 - root - INFO - Time since last close for BDRX is 4.7380287333333335 minutes, net percent 10.0591
+2025-10-09 11:43:29,282 - root - INFO - ***** stock: BDRX Scale: 5Min Time since last close: 4 minutes
+2025-10-09 11:43:29,282 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 11:43:29,295 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:43:29,296 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 11:43:29,323 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
+2025-10-09 11:43:29,324 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 11:43:29,342 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:43:29,342 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 11:43:29,387 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 11:43:29,480 - root - INFO - 1min candle is not positive for AMBO: open 4.9101 close 4.9641
+2025-10-09 11:43:29,481 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 11:43:29,497 - root - INFO - Time since last close for ZSPC is 95.82495961666667 minutes, net percent -6.98862
+2025-10-09 11:43:29,581 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
+2025-10-09 11:43:29,607 - root - INFO - 9 EMA is in downtrend, not opening long position for ZSPC
+2025-10-09 11:43:29,753 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
+2025-10-09 11:43:29,807 - root - INFO - Profit percent for JFU is -4.279704778457895
+2025-10-09 11:43:29,808 - root - INFO - Latest 1min close price for JFU: 3.94
+2025-10-09 11:43:29,914 - root - INFO - MACD is still rising for stock JFU
+2025-10-09 11:43:29,914 - root - INFO - Not enough profit percent to scalp for JFU: -4.279704778457895
+2025-10-09 11:43:29,949 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 11:43:30,056 - root - INFO - Profit percent for ZSPC is 0.2073057402244621
+2025-10-09 11:43:30,056 - root - INFO - Latest 1min close price for ZSPC: 1.3956
+2025-10-09 11:43:30,167 - root - INFO - No close long conditions met for ZSPC
+2025-10-09 11:43:35,232 - root - INFO - Real mode: Today's profit so far: 906.1799749999991
+2025-10-09 11:43:35,254 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:43:35,309 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 11:43:35,321 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:43:35,321 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 11:43:35,434 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-09 11:43:35,467 - root - INFO - 9 EMA is in downtrend, not opening long position for BJDX
+2025-10-09 11:43:35,469 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:43:35,482 - root - INFO - Time since last close for BDRX is 4.841378833333334 minutes, net percent 10.0591
+2025-10-09 11:43:35,483 - root - INFO - ***** stock: BDRX Scale: 5Min Time since last close: 4 minutes
+2025-10-09 11:43:35,483 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 11:43:35,495 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:43:35,495 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 11:43:35,530 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
+2025-10-09 11:43:35,531 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 11:43:35,547 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:43:35,547 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 11:43:35,588 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 11:43:35,617 - root - INFO - 1min candle is not positive for AMBO: open 4.9101 close 4.9641
+2025-10-09 11:43:35,618 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 11:43:35,632 - root - INFO - Time since last close for ZSPC is 95.92721015000001 minutes, net percent -6.98862
+2025-10-09 11:43:35,726 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
+2025-10-09 11:43:35,754 - root - INFO - 9 EMA is in downtrend, not opening long position for ZSPC
+2025-10-09 11:43:35,848 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
+2025-10-09 11:43:35,896 - root - INFO - Profit percent for JFU is -4.531600292198796
+2025-10-09 11:43:35,897 - root - INFO - Latest 1min close price for JFU: 3.94
+2025-10-09 11:43:35,986 - root - INFO - MACD is still rising for stock JFU
+2025-10-09 11:43:35,986 - root - INFO - Not enough profit percent to scalp for JFU: -4.531600292198796
+2025-10-09 11:43:36,025 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 11:43:36,147 - root - INFO - Profit percent for ZSPC is 1.5083279719779825
+2025-10-09 11:43:36,147 - root - INFO - Latest 1min close price for ZSPC: 1.3956
+2025-10-09 11:43:36,272 - root - INFO - No close long conditions met for ZSPC
+2025-10-09 11:43:41,319 - root - INFO - Real mode: Today's profit so far: 894.9899750000004
+2025-10-09 11:43:41,337 - root - INFO - Running real_trade for all top movers
+2025-10-09 11:43:41,371 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 11:43:41,375 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:43:41,375 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 11:43:41,456 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
+2025-10-09 11:43:41,475 - root - INFO - 9 EMA is in downtrend, not opening long position for BJDX
+2025-10-09 11:43:41,475 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 11:43:41,486 - root - INFO - Time since last close for BDRX is 4.941448366666666 minutes, net percent 10.0591
+2025-10-09 11:43:41,487 - root - INFO - ***** stock: BDRX Scale: 5Min Time since last close: 4 minutes
+2025-10-09 11:43:41,487 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 11:43:41,497 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:43:41,498 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 11:43:41,520 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
+2025-10-09 11:43:41,520 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 11:43:41,530 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 11:43:41,530 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 11:43:41,556 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 11:43:41,571 - root - INFO - 1min candle is not positive for AMBO: open 4.9101 close 4.9641
+2025-10-09 11:43:41,571 - root - INFO - swing_strategy_open_long for scale 5Min stock ZSPC
+2025-10-09 11:43:41,580 - root - INFO - Time since last close for ZSPC is 96.02634508333334 minutes, net percent -6.98862
+2025-10-09 11:43:41,640 - root - INFO - Last 5 minutes maximum volume candle is green for ZSPC
+2025-10-09 11:43:41,654 - root - INFO - 9 EMA is in downtrend, not opening long position for ZSPC
+2025-10-09 11:43:41,729 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
+2025-10-09 11:43:41,765 - root - INFO - Profit percent for JFU is -5.539182347162397
+2025-10-09 11:43:41,765 - root - INFO - Latest 1min close price for JFU: 3.94
+2025-10-09 11:43:41,820 - root - INFO - MACD is still rising for stock JFU
+2025-10-09 11:43:41,820 - root - INFO - Not enough profit percent to scalp for JFU: -5.539182347162397
+2025-10-09 11:43:41,842 - root - INFO - swing_strategy_close_long for scale 5Min stock ZSPC
+2025-10-09 11:43:41,917 - root - INFO - Profit percent for ZSPC is 1.1509042819358066
+2025-10-09 11:43:41,917 - root - INFO - Latest 1min close price for ZSPC: 1.3956
