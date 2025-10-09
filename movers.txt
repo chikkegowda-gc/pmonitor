@@ -2,8 +2,9 @@ Top Movers:
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  BAOS  |      0      |     0     |    49.5468     | 20672485 |      4.95     |        3.31        |   900000.0   |  3.392   |   957839   |      0      | 2025-10-09 08:20:03 |
-|  AMBO  |      0      |     0     |     40.056     | 1759193  |      5.0      |        3.57        |  2620000.0   | 3.54278  |  1350004   |      0      | 2025-10-09 08:20:02 |
+|  BAOS  |      0      |     0     |     47.432     | 20708864 |      4.88     |        3.31        |   900000.0   |  3.392   |   957839   |      0      | 2025-10-09 08:25:28 |
+|  AMBO  |      0      |     0     |    40.8964     | 1767340  |      5.03     |        3.57        |  2620000.0   | 3.54278  |  1350004   |      0      | 2025-10-09 08:25:27 |
+|  MRM   |      1      |     0     |     37.931     | 10845666 |      2.8      |        2.03        |     -1.0     |  2.002   |   436320   |      0      | 2025-10-09 08:25:37 |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -17,403 +18,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-09 08:19:13,869 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:19:13,928 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=False, macd_above_signal=True, macd_above_zero=False, hist_rising=False, price_close_above_upper_bb=False
-2025-10-09 08:19:13,929 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 08:19:13,943 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:19:13,943 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 08:19:13,975 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 08:19:14,063 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:19:14,178 - root - INFO - Profit percent for MRM is -6.159420289855072
-2025-10-09 08:19:14,178 - root - INFO - Latest 1min close price for MRM: 2.5487
-2025-10-09 08:19:14,288 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:19:14,288 - root - INFO - Not enough profit percent to scalp for MRM: -6.159420289855072
-2025-10-09 08:19:19,338 - root - INFO - Real mode: Today's profit so far: 455.83997499999896
-2025-10-09 08:19:19,359 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:19:19,408 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:19:19,421 - root - INFO - Time since last close for BAOS is 235.99035326666666 minutes, net percent 10.7143
-2025-10-09 08:19:19,476 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:19:19,546 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=False, macd_above_signal=True, macd_above_zero=False, hist_rising=False, price_close_above_upper_bb=False
-2025-10-09 08:19:19,547 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 08:19:19,565 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:19:19,565 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 08:19:19,600 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 08:19:19,693 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:19:19,798 - root - INFO - Profit percent for MRM is -3.6231884057971007
-2025-10-09 08:19:19,800 - root - INFO - Latest 1min close price for MRM: 2.5487
-2025-10-09 08:19:19,925 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:19:19,925 - root - INFO - Not enough profit percent to scalp for MRM: -3.6231884057971007
-2025-10-09 08:19:24,996 - root - INFO - Real mode: Today's profit so far: 439.5499749999981
-2025-10-09 08:19:25,015 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:19:25,069 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:19:25,083 - root - INFO - Time since last close for BAOS is 236.08471658333335 minutes, net percent 10.7143
-2025-10-09 08:19:25,302 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:19:25,380 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=False, macd_above_signal=True, macd_above_zero=False, hist_rising=False, price_close_above_upper_bb=False
-2025-10-09 08:19:25,381 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 08:19:25,399 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:19:25,400 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 08:19:25,439 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 08:19:25,537 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:19:25,632 - root - INFO - Profit percent for MRM is -5.0724637681159415
-2025-10-09 08:19:25,632 - root - INFO - Latest 1min close price for MRM: 2.5487
-2025-10-09 08:19:25,725 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:19:25,725 - root - INFO - Not enough profit percent to scalp for MRM: -5.0724637681159415
-2025-10-09 08:19:30,778 - root - INFO - Real mode: Today's profit so far: 444.9799749999984
-2025-10-09 08:19:30,798 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:19:30,853 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:19:30,867 - root - INFO - Time since last close for BAOS is 236.18112741666667 minutes, net percent 10.7143
-2025-10-09 08:19:30,922 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:19:30,997 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=False, macd_above_signal=True, macd_above_zero=False, hist_rising=False, price_close_above_upper_bb=False
-2025-10-09 08:19:30,999 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 08:19:31,016 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:19:31,017 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 08:19:31,055 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 08:19:31,147 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:19:31,248 - root - INFO - Profit percent for MRM is -4.746376811594202
-2025-10-09 08:19:31,249 - root - INFO - Latest 1min close price for MRM: 2.5487
-2025-10-09 08:19:31,374 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:19:31,374 - root - INFO - Not enough profit percent to scalp for MRM: -4.746376811594202
-2025-10-09 08:19:36,415 - root - INFO - Real mode: Today's profit so far: 449.9199750000007
-2025-10-09 08:19:36,434 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:19:36,490 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:19:36,504 - root - INFO - Time since last close for BAOS is 236.2750737 minutes, net percent 10.7143
-2025-10-09 08:19:36,560 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:19:36,629 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=False, macd_above_signal=True, macd_above_zero=False, hist_rising=False, price_close_above_upper_bb=False
-2025-10-09 08:19:36,630 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 08:19:36,648 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:19:36,648 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 08:19:36,684 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 08:19:36,776 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:19:36,870 - root - INFO - Profit percent for MRM is -5.0724637681159415
-2025-10-09 08:19:36,871 - root - INFO - Latest 1min close price for MRM: 2.5487
-2025-10-09 08:19:36,982 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:19:36,982 - root - INFO - Not enough profit percent to scalp for MRM: -5.0724637681159415
-2025-10-09 08:19:42,028 - root - INFO - Real mode: Today's profit so far: 455.83997499999896
-2025-10-09 08:19:42,054 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:19:42,102 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:19:42,112 - root - INFO - Time since last close for BAOS is 236.36854131666666 minutes, net percent 10.7143
-2025-10-09 08:19:42,168 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:19:42,239 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=False, macd_above_signal=True, macd_above_zero=False, hist_rising=False, price_close_above_upper_bb=False
-2025-10-09 08:19:42,241 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 08:19:42,259 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:19:42,259 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 08:19:42,290 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 08:19:42,377 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:19:42,475 - root - INFO - Profit percent for MRM is -4.710144927536232
-2025-10-09 08:19:42,476 - root - INFO - Latest 1min close price for MRM: 2.5487
-2025-10-09 08:19:42,573 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:19:42,573 - root - INFO - Not enough profit percent to scalp for MRM: -4.710144927536232
-2025-10-09 08:19:47,627 - root - INFO - Real mode: Today's profit so far: 471.8099750000001
-2025-10-09 08:19:47,647 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:19:47,693 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:19:47,703 - root - INFO - Time since last close for BAOS is 236.46172745 minutes, net percent 10.7143
-2025-10-09 08:19:47,756 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:19:47,791 - root - INFO - 1min candle is not positive for BAOS: open 4.94 close 4.95
-2025-10-09 08:19:47,793 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 08:19:47,808 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:19:47,809 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 08:19:47,839 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 08:19:47,936 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:19:48,054 - root - INFO - Profit percent for MRM is -3.260869565217391
-2025-10-09 08:19:48,054 - root - INFO - Latest 1min close price for MRM: 2.63
-2025-10-09 08:19:48,182 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:19:48,182 - root - INFO - Not enough profit percent to scalp for MRM: -3.260869565217391
-2025-10-09 08:19:53,229 - root - INFO - Real mode: Today's profit so far: 461.26997499999925
-2025-10-09 08:19:53,250 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:19:53,296 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:19:53,308 - root - INFO - Time since last close for BAOS is 236.55513626666666 minutes, net percent 10.7143
-2025-10-09 08:19:53,359 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:19:53,383 - root - INFO - 1min candle is not positive for BAOS: open 4.94 close 4.95
-2025-10-09 08:19:53,384 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 08:19:53,397 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:19:53,397 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 08:19:53,436 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 08:19:53,521 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:19:53,631 - root - INFO - Profit percent for MRM is -3.985507246376811
-2025-10-09 08:19:53,631 - root - INFO - Latest 1min close price for MRM: 2.63
-2025-10-09 08:19:53,759 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:19:53,760 - root - INFO - Not enough profit percent to scalp for MRM: -3.985507246376811
-2025-10-09 08:19:58,822 - root - INFO - Real mode: Today's profit so far: 455.83997499999896
-2025-10-09 08:19:58,846 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:19:58,899 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:19:58,913 - root - INFO - Time since last close for BAOS is 236.64855596666666 minutes, net percent 10.7143
-2025-10-09 08:19:58,965 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:19:58,999 - root - INFO - 1min candle is not positive for BAOS: open 4.94 close 4.95
-2025-10-09 08:19:59,000 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 08:19:59,012 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:19:59,013 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 08:19:59,047 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 08:19:59,139 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:19:59,236 - root - INFO - Profit percent for MRM is -4.3478260869565215
-2025-10-09 08:19:59,236 - root - INFO - Latest 1min close price for MRM: 2.63
-2025-10-09 08:19:59,353 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:19:59,353 - root - INFO - Not enough profit percent to scalp for MRM: -4.3478260869565215
-2025-10-09 08:20:00,819 - root - INFO - Real mode: Today's profit so far: 450.40997499999867
-2025-10-09 08:20:00,844 - root - INFO - ('2025-10-09T20:58:00-04:00', '2025-10-09T20:58:00-04:00', '2025-10-02T09:30:00-04:00', '2025-10-09T20:58:00-04:00')
-2025-10-09 08:20:00,845 - root - INFO - Screening stocks | Start: 2025-10-02T09:30:00-04:00 | End: 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:00,883 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:01,363 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:01,659 - root - INFO -  MACD calculation for AMBO due to high change percent: 40.056
-2025-10-09 08:20:01,788 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:01,903 - root - INFO -  MACD calculation for ANVS due to high change percent: 17.6211
-2025-10-09 08:20:02,485 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:02,799 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:03,011 - root - INFO -  MACD calculation for BAOS due to high change percent: 50.1511
-2025-10-09 08:20:03,283 - root - INFO -  MACD calculation for BDRX due to high change percent: 19.585
-2025-10-09 08:20:03,309 - root - INFO - MACD not positive for BDRX
-2025-10-09 08:20:03,511 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:03,759 - root - INFO -  MACD calculation for BJDX due to high change percent: 132.086
-2025-10-09 08:20:03,812 - root - INFO - MACD not positive for BJDX
-2025-10-09 08:20:04,039 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:04,407 - root - INFO - Real mode: Today's profit so far: 451.11997500000143
-2025-10-09 08:20:04,426 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:20:04,465 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:20:04,474 - root - INFO - Time since last close for BAOS is 236.74124081666665 minutes, net percent 10.7143
-2025-10-09 08:20:04,535 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:20:04,548 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:04,554 - root - INFO - 1min candle is not positive for BAOS: open 4.94 close 4.95
-2025-10-09 08:20:04,555 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 08:20:04,565 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:20:04,566 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 08:20:04,598 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 08:20:04,674 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:20:04,769 - root - INFO - Profit percent for MRM is -4.66304347826087
-2025-10-09 08:20:04,769 - root - INFO - Latest 1min close price for MRM: 2.63
-2025-10-09 08:20:04,859 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:20:04,859 - root - INFO - Not enough profit percent to scalp for MRM: -4.66304347826087
-2025-10-09 08:20:04,871 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:05,020 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:05,284 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:05,536 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:05,891 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:06,016 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:06,590 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:06,906 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:07,458 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:07,881 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:08,187 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:08,785 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:09,139 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:09,438 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:09,766 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:09,909 - root - INFO - Real mode: Today's profit so far: 455.83997499999896
-2025-10-09 08:20:09,929 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:20:09,964 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:20:09,974 - root - INFO - Time since last close for BAOS is 236.83290141666666 minutes, net percent 10.7143
-2025-10-09 08:20:10,021 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:20:10,035 - root - INFO - 1min candle is not positive for BAOS: open 4.94 close 4.95
-2025-10-09 08:20:10,035 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 08:20:10,042 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:20:10,042 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 08:20:10,069 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 08:20:10,111 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:10,146 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:20:10,229 - root - INFO - Profit percent for MRM is -3.985507246376811
-2025-10-09 08:20:10,229 - root - INFO - Latest 1min close price for MRM: 2.63
-2025-10-09 08:20:10,314 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:20:10,314 - root - INFO - Not enough profit percent to scalp for MRM: -3.985507246376811
-2025-10-09 08:20:10,557 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:10,888 - root - INFO -  MACD calculation for MCRP due to high change percent: 12.5
-2025-10-09 08:20:10,951 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:11,148 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:11,264 - root - INFO -  MACD calculation for MRM due to high change percent: 25.5517
-2025-10-09 08:20:11,397 - root - INFO -  MACD calculation for MSN due to high change percent: 12.0134
-2025-10-09 08:20:11,542 - root - INFO -  MACD calculation for MYO due to high change percent: 15.2542
-2025-10-09 08:20:11,828 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:12,270 - root - INFO -  MACD calculation for NMG due to high change percent: 15.9218
-2025-10-09 08:20:12,342 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:12,820 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:13,119 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:13,644 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:13,960 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:14,551 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:15,165 - root - INFO -  MACD calculation for RELL due to high change percent: 19.5099
-2025-10-09 08:20:15,193 - root - INFO - MACD not positive for RELL
-2025-10-09 08:20:15,194 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:15,360 - root - INFO - Real mode: Today's profit so far: 455.83997499999896
-2025-10-09 08:20:15,380 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:20:15,423 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:20:15,435 - root - INFO - Time since last close for BAOS is 236.92392773333333 minutes, net percent 10.7143
-2025-10-09 08:20:15,485 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:20:15,506 - root - INFO - 1min candle is not positive for BAOS: open 4.94 close 4.95
-2025-10-09 08:20:15,507 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 08:20:15,516 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:20:15,517 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 08:20:15,546 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 08:20:15,622 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:20:15,711 - root - INFO - Profit percent for MRM is -3.985507246376811
-2025-10-09 08:20:15,711 - root - INFO - Latest 1min close price for MRM: 2.63
-2025-10-09 08:20:15,750 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:15,795 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:20:15,796 - root - INFO - Not enough profit percent to scalp for MRM: -3.985507246376811
-2025-10-09 08:20:15,947 - root - INFO -  MACD calculation for SCWO due to high change percent: 20.9
-2025-10-09 08:20:16,010 - root - INFO - MACD not positive for SCWO
-2025-10-09 08:20:16,090 - root - INFO -  MACD calculation for SERV due to high change percent: 12.6955
-2025-10-09 08:20:16,155 - root - INFO - MACD not positive for SERV
-2025-10-09 08:20:16,359 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:16,913 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:17,084 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:17,291 - root - INFO -  MACD calculation for TCRT due to high change percent: 24.0541
-2025-10-09 08:20:17,424 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:17,541 - root - INFO -  MACD calculation for TELO due to high change percent: 21.2121
-2025-10-09 08:20:17,907 - root - INFO -  MACD calculation for TLRY due to high change percent: 12.7151
-2025-10-09 08:20:17,982 - root - INFO - MACD not positive for TLRY
-2025-10-09 08:20:18,461 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:18,649 - root - INFO -  MACD calculation for UAMY due to high change percent: 11.1229
-2025-10-09 08:20:19,262 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:19,573 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:19,759 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:20,385 - root - INFO -  update_current_price: start time 2025-10-09T08:15:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 08:20:20,625 - root - INFO - Updating change percent of stocks
-2025-10-09 08:20:20,835 - root - INFO - Real mode: Today's profit so far: 482.9899750000004
-2025-10-09 08:20:20,853 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:20:20,867 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:20:20,870 - root - INFO - Time since last close for BAOS is 237.01450906666665 minutes, net percent 10.7143
-2025-10-09 08:20:20,910 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:20:20,917 - root - INFO - 1min candle is not positive for BAOS: open 4.94 close 4.95
-2025-10-09 08:20:20,917 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 08:20:20,920 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:20:20,920 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 08:20:20,945 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 08:20:21,009 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:20:21,089 - root - INFO - Profit percent for MRM is -2.8985507246376807
-2025-10-09 08:20:21,089 - root - INFO - Latest 1min close price for MRM: 2.63
-2025-10-09 08:20:21,138 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:20:21,138 - root - INFO - Not enough profit percent to scalp for MRM: -2.8985507246376807
-2025-10-09 08:20:21,291 - root - INFO - XTLB change_percent from DB: -9.756097560975597
-2025-10-09 08:20:21,299 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-09 08:20:26,179 - root - INFO - Real mode: Today's profit so far: 450.40997499999867
-2025-10-09 08:20:26,199 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:20:26,255 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:20:26,269 - root - INFO - Time since last close for BAOS is 237.10449151666666 minutes, net percent 10.7143
-2025-10-09 08:20:26,322 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:20:26,359 - root - INFO - 1min candle is not positive for BAOS: open 4.94 close 4.95
-2025-10-09 08:20:26,360 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 08:20:26,377 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:20:26,378 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 08:20:26,435 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 08:20:26,551 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:20:26,850 - root - INFO - Profit percent for MRM is -4.710144927536232
-2025-10-09 08:20:26,850 - root - INFO - Latest 1min close price for MRM: 2.63
-2025-10-09 08:20:26,975 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:20:26,976 - root - INFO - Not enough profit percent to scalp for MRM: -4.710144927536232
-2025-10-09 08:20:32,165 - root - INFO - Real mode: Today's profit so far: 466.69997499999954
-2025-10-09 08:20:32,190 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:20:32,230 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:20:32,241 - root - INFO - Time since last close for BAOS is 237.20402748333333 minutes, net percent 10.7143
-2025-10-09 08:20:32,303 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:20:32,322 - root - INFO - 1min candle is not positive for BAOS: open 4.94 close 4.95
-2025-10-09 08:20:32,323 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 08:20:32,332 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:20:32,333 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 08:20:32,369 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 08:20:32,474 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:20:32,726 - root - INFO - Profit percent for MRM is -3.6231884057971007
-2025-10-09 08:20:32,726 - root - INFO - Latest 1min close price for MRM: 2.63
-2025-10-09 08:20:32,805 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:20:32,806 - root - INFO - Not enough profit percent to scalp for MRM: -3.6231884057971007
-2025-10-09 08:20:37,850 - root - INFO - Real mode: Today's profit so far: 455.83997499999896
-2025-10-09 08:20:37,873 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:20:37,912 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:20:37,923 - root - INFO - Time since last close for BAOS is 237.2987288 minutes, net percent 10.7143
-2025-10-09 08:20:37,973 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:20:37,992 - root - INFO - 1min candle is not positive for BAOS: open 4.94 close 4.95
-2025-10-09 08:20:37,994 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 08:20:38,003 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:20:38,003 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 08:20:38,037 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 08:20:38,112 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:20:38,196 - root - INFO - Profit percent for MRM is -5.434782608695652
-2025-10-09 08:20:38,197 - root - INFO - Latest 1min close price for MRM: 2.63
-2025-10-09 08:20:38,280 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:20:38,280 - root - INFO - Not enough profit percent to scalp for MRM: -5.434782608695652
-2025-10-09 08:20:43,327 - root - INFO - Real mode: Today's profit so far: 439.5499749999981
-2025-10-09 08:20:43,347 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:20:43,384 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:20:43,395 - root - INFO - Time since last close for BAOS is 237.38992413333332 minutes, net percent 10.7143
-2025-10-09 08:20:43,449 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:20:43,469 - root - INFO - 1min candle is not positive for BAOS: open 4.94 close 4.95
-2025-10-09 08:20:43,470 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 08:20:43,479 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:20:43,480 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 08:20:43,509 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 08:20:43,587 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:20:43,674 - root - INFO - Profit percent for MRM is -5.797101449275361
-2025-10-09 08:20:43,675 - root - INFO - Latest 1min close price for MRM: 2.63
-2025-10-09 08:20:43,763 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:20:43,763 - root - INFO - Not enough profit percent to scalp for MRM: -5.797101449275361
-2025-10-09 08:20:48,814 - root - INFO - Real mode: Today's profit so far: 423.25997500000085
-2025-10-09 08:20:48,833 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:20:48,872 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:20:48,883 - root - INFO - Time since last close for BAOS is 237.48139071666668 minutes, net percent 10.7143
-2025-10-09 08:20:48,931 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:20:48,983 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=False, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 08:20:48,984 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 08:20:48,993 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:20:48,993 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 08:20:49,024 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 08:20:49,100 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:20:49,187 - root - INFO - Profit percent for MRM is -6.52536231884058
-2025-10-09 08:20:49,187 - root - INFO - Latest 1min close price for MRM: 2.61
-2025-10-09 08:20:49,269 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:20:49,269 - root - INFO - Not enough profit percent to scalp for MRM: -6.52536231884058
-2025-10-09 08:20:54,308 - root - INFO - Real mode: Today's profit so far: 423.25997500000085
-2025-10-09 08:20:54,325 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:20:54,363 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:20:54,373 - root - INFO - Time since last close for BAOS is 237.57289151666666 minutes, net percent 10.7143
-2025-10-09 08:20:54,423 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:20:54,471 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=False, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 08:20:54,472 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 08:20:54,482 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:20:54,482 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 08:20:54,522 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 08:20:54,599 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:20:54,687 - root - INFO - Profit percent for MRM is -6.521739130434782
-2025-10-09 08:20:54,688 - root - INFO - Latest 1min close price for MRM: 2.61
-2025-10-09 08:20:54,771 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:20:54,771 - root - INFO - Not enough profit percent to scalp for MRM: -6.521739130434782
-2025-10-09 08:20:59,818 - root - INFO - Real mode: Today's profit so far: 434.11997500000143
-2025-10-09 08:20:59,838 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:20:59,876 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:20:59,886 - root - INFO - Time since last close for BAOS is 237.66476986666666 minutes, net percent 10.7143
-2025-10-09 08:20:59,932 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:20:59,980 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=False, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 08:20:59,981 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 08:20:59,991 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:20:59,991 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 08:21:00,022 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 08:21:00,097 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:21:00,186 - root - INFO - Profit percent for MRM is -5.797101449275361
-2025-10-09 08:21:00,187 - root - INFO - Latest 1min close price for MRM: 2.61
-2025-10-09 08:21:00,274 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:21:00,275 - root - INFO - Not enough profit percent to scalp for MRM: -5.797101449275361
-2025-10-09 08:21:05,319 - root - INFO - Real mode: Today's profit so far: 444.9799749999984
-2025-10-09 08:21:05,338 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:21:05,376 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:21:05,386 - root - INFO - Time since last close for BAOS is 237.7564348 minutes, net percent 10.7143
-2025-10-09 08:21:05,434 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:21:05,485 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=False, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 08:21:05,486 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 08:21:05,495 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:21:05,495 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 08:21:05,529 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 08:21:05,607 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:21:05,691 - root - INFO - Profit percent for MRM is -5.0724637681159415
-2025-10-09 08:21:05,692 - root - INFO - Latest 1min close price for MRM: 2.61
-2025-10-09 08:21:05,771 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:21:05,772 - root - INFO - Not enough profit percent to scalp for MRM: -5.0724637681159415
-2025-10-09 08:21:10,820 - root - INFO - Real mode: Today's profit so far: 455.83997499999896
-2025-10-09 08:21:10,841 - root - INFO - Running real_trade for all top movers
-2025-10-09 08:21:10,880 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 08:21:10,891 - root - INFO - Time since last close for BAOS is 237.84819271666666 minutes, net percent 10.7143
-2025-10-09 08:21:10,938 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 08:21:10,989 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=False, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 08:21:10,989 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 08:21:10,999 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 08:21:10,999 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 08:21:11,031 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 08:21:11,106 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
-2025-10-09 08:21:11,193 - root - INFO - Profit percent for MRM is -4.3478260869565215
-2025-10-09 08:21:11,194 - root - INFO - Latest 1min close price for MRM: 2.61
-2025-10-09 08:21:11,276 - root - INFO - MACD is still rising for stock MRM
-2025-10-09 08:21:11,277 - root - INFO - Not enough profit percent to scalp for MRM: -4.3478260869565215
+2025-10-09 08:24:50,505 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:24:50,608 - root - INFO - Profit percent for MRM is 6.159420289855072
+2025-10-09 08:24:50,608 - root - INFO - Latest 1min close price for MRM: 2.8
+2025-10-09 08:24:50,722 - root - INFO - MACD is still rising for stock MRM
+2025-10-09 08:24:50,722 - root - INFO - Not enough profit percent to scalp for MRM: 6.159420289855072
+2025-10-09 08:24:55,778 - root - INFO - Real mode: Today's profit so far: 580.8999750000003
+2025-10-09 08:24:55,799 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:24:55,858 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:24:55,869 - root - INFO - Time since last close for BAOS is 241.59782666666666 minutes, net percent 10.7143
+2025-10-09 08:24:55,922 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 08:24:55,952 - root - INFO - 1min candle is not positive for BAOS: open 4.93 close 4.88
+2025-10-09 08:24:55,953 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 08:24:55,967 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:24:55,968 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 08:24:56,005 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
+2025-10-09 08:24:56,006 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
+2025-10-09 08:24:56,017 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:24:56,017 - root - INFO - Time since last close for MRM is None minutes, net percent 0
+2025-10-09 08:24:56,148 - root - INFO - Last 5 minutes maximum volume candle is green for MRM
+2025-10-09 08:24:56,213 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 08:24:56,213 - root - INFO - MRM:======= 2.8===>BUY========>TrendUp12901377
+2025-10-09 08:24:56,235 - root - WARNING - ***** stock is already in the positions
+2025-10-09 08:24:56,320 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:24:56,410 - root - INFO - Profit percent for MRM is 4.710144927536232
+2025-10-09 08:24:56,411 - root - INFO - Latest 1min close price for MRM: 2.8
+2025-10-09 08:24:56,533 - root - INFO - MACD is still rising for stock MRM
+2025-10-09 08:24:56,533 - root - INFO - Not enough profit percent to scalp for MRM: 4.710144927536232
+2025-10-09 08:25:01,590 - root - INFO - Real mode: Today's profit so far: 564.4399750000011
+2025-10-09 08:25:01,610 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:25:01,667 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:25:01,680 - root - INFO - Time since last close for BAOS is 241.69466078333335 minutes, net percent 10.7143
+2025-10-09 08:25:01,731 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 08:25:01,764 - root - INFO - 1min candle is not positive for BAOS: open 4.93 close 4.88
+2025-10-09 08:25:01,766 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 08:25:01,784 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:25:01,785 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 08:25:01,821 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
+2025-10-09 08:25:01,822 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
+2025-10-09 08:25:01,836 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:25:01,836 - root - INFO - Time since last close for MRM is None minutes, net percent 0
+2025-10-09 08:25:01,913 - root - INFO - Last 5 minutes maximum volume candle is green for MRM
+2025-10-09 08:25:01,988 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 08:25:01,989 - root - INFO - MRM:======= 2.8===>BUY========>TrendUp12901377
+2025-10-09 08:25:02,012 - root - WARNING - ***** stock is already in the positions
+2025-10-09 08:25:02,097 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:25:02,187 - root - INFO - Profit percent for MRM is 2.5362318840579707
+2025-10-09 08:25:02,187 - root - INFO - Latest 1min close price for MRM: 2.8
+2025-10-09 08:25:02,288 - root - INFO - MACD is still rising for stock MRM
+2025-10-09 08:25:02,288 - root - INFO - Not enough profit percent to scalp for MRM: 2.5362318840579707
+2025-10-09 08:25:07,327 - root - INFO - Real mode: Today's profit so far: 559.5599750000001
+2025-10-09 08:25:07,347 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:25:07,385 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:25:07,394 - root - INFO - Time since last close for BAOS is 241.78990651666666 minutes, net percent 10.7143
+2025-10-09 08:25:07,442 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 08:25:07,461 - root - INFO - 1min candle is not positive for BAOS: open 4.93 close 4.88
+2025-10-09 08:25:07,462 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 08:25:07,474 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:25:07,475 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 08:25:07,511 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
+2025-10-09 08:25:07,512 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
+2025-10-09 08:25:07,529 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:25:07,530 - root - INFO - Time since last close for MRM is None minutes, net percent 0
+2025-10-09 08:25:07,610 - root - INFO - Last 5 minutes maximum volume candle is green for MRM
+2025-10-09 08:25:07,681 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 08:25:07,682 - root - INFO - MRM:======= 2.8===>BUY========>TrendUp12901377
+2025-10-09 08:25:07,703 - root - WARNING - ***** stock is already in the positions
+2025-10-09 08:25:07,793 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:25:07,893 - root - INFO - Profit percent for MRM is 1.8115942028985503
+2025-10-09 08:25:07,894 - root - INFO - Latest 1min close price for MRM: 2.8
+2025-10-09 08:25:08,019 - root - INFO - MACD is still rising for stock MRM
+2025-10-09 08:25:08,020 - root - INFO - Not enough profit percent to scalp for MRM: 1.8115942028985503
+2025-10-09 08:25:13,072 - root - INFO - Real mode: Today's profit so far: 558.469975
+2025-10-09 08:25:13,095 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:25:13,152 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:25:13,166 - root - INFO - Time since last close for BAOS is 241.88609981666664 minutes, net percent 10.7143
+2025-10-09 08:25:13,219 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 08:25:13,253 - root - INFO - 1min candle is not positive for BAOS: open 4.93 close 4.88
+2025-10-09 08:25:13,255 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 08:25:13,273 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:25:13,273 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 08:25:13,309 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
+2025-10-09 08:25:13,310 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
+2025-10-09 08:25:13,325 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:25:13,325 - root - INFO - Time since last close for MRM is None minutes, net percent 0
+2025-10-09 08:25:13,411 - root - INFO - Last 5 minutes maximum volume candle is green for MRM
+2025-10-09 08:25:13,491 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 08:25:13,492 - root - INFO - MRM:======= 2.8===>BUY========>TrendUp12901377
+2025-10-09 08:25:13,523 - root - WARNING - ***** stock is already in the positions
+2025-10-09 08:25:13,611 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:25:13,713 - root - INFO - Profit percent for MRM is 2.8985507246376807
+2025-10-09 08:25:13,713 - root - INFO - Latest 1min close price for MRM: 2.8
+2025-10-09 08:25:13,837 - root - INFO - MACD is still rising for stock MRM
+2025-10-09 08:25:13,837 - root - INFO - Not enough profit percent to scalp for MRM: 2.8985507246376807
+2025-10-09 08:25:18,891 - root - INFO - Real mode: Today's profit so far: 553.5799750000006
+2025-10-09 08:25:18,919 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:25:18,975 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:25:18,989 - root - INFO - Time since last close for BAOS is 241.9831598 minutes, net percent 10.7143
+2025-10-09 08:25:19,040 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 08:25:19,074 - root - INFO - 1min candle is not positive for BAOS: open 4.93 close 4.88
+2025-10-09 08:25:19,075 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 08:25:19,092 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:25:19,093 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 08:25:19,131 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
+2025-10-09 08:25:19,132 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
+2025-10-09 08:25:19,148 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:25:19,149 - root - INFO - Time since last close for MRM is None minutes, net percent 0
+2025-10-09 08:25:19,228 - root - INFO - Last 5 minutes maximum volume candle is green for MRM
+2025-10-09 08:25:19,303 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 08:25:19,303 - root - INFO - MRM:======= 2.8===>BUY========>TrendUp12901377
+2025-10-09 08:25:19,329 - root - WARNING - ***** stock is already in the positions
+2025-10-09 08:25:19,420 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:25:19,519 - root - INFO - Profit percent for MRM is 2.1739130434782608
+2025-10-09 08:25:19,519 - root - INFO - Latest 1min close price for MRM: 2.8
+2025-10-09 08:25:19,637 - root - INFO - MACD is still rising for stock MRM
+2025-10-09 08:25:19,637 - root - INFO - Not enough profit percent to scalp for MRM: 2.1739130434782608
+2025-10-09 08:25:24,678 - root - INFO - Real mode: Today's profit so far: 553.5299750000013
+2025-10-09 08:25:24,698 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:25:24,742 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:25:24,757 - root - INFO - Time since last close for BAOS is 242.07928935 minutes, net percent 10.7143
+2025-10-09 08:25:24,813 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 08:25:24,848 - root - INFO - 1min candle is not positive for BAOS: open 4.93 close 4.88
+2025-10-09 08:25:24,849 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 08:25:24,864 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:25:24,864 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 08:25:24,899 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
+2025-10-09 08:25:24,900 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
+2025-10-09 08:25:24,919 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:25:24,920 - root - INFO - Time since last close for MRM is None minutes, net percent 0
+2025-10-09 08:25:25,009 - root - INFO - Last 5 minutes maximum volume candle is green for MRM
+2025-10-09 08:25:25,088 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 08:25:25,089 - root - INFO - MRM:======= 2.8===>BUY========>TrendUp12901377
+2025-10-09 08:25:25,114 - root - WARNING - ***** stock is already in the positions
+2025-10-09 08:25:25,216 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:25:25,315 - root - INFO - Profit percent for MRM is 2.5362318840579707
+2025-10-09 08:25:25,315 - root - INFO - Latest 1min close price for MRM: 2.8
+2025-10-09 08:25:25,434 - root - INFO - MACD is still rising for stock MRM
+2025-10-09 08:25:25,434 - root - INFO - Not enough profit percent to scalp for MRM: 2.5362318840579707
+2025-10-09 08:25:25,489 - root - INFO - Real mode: Today's profit so far: 553.5799750000006
+2025-10-09 08:25:25,508 - root - INFO - ('2025-10-09T20:58:00-04:00', '2025-10-09T20:58:00-04:00', '2025-10-02T09:30:00-04:00', '2025-10-09T20:58:00-04:00')
+2025-10-09 08:25:25,508 - root - INFO - Screening stocks | Start: 2025-10-02T09:30:00-04:00 | End: 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:25,546 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:26,095 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:26,665 - root - INFO -  MACD calculation for AMBO due to high change percent: 41.1765
+2025-10-09 08:25:26,773 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:26,942 - root - INFO -  MACD calculation for ANVS due to high change percent: 15.859
+2025-10-09 08:25:27,605 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:28,049 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:28,229 - root - INFO -  MACD calculation for BAOS due to high change percent: 49.2447
+2025-10-09 08:25:28,553 - root - INFO -  MACD calculation for BDRX due to high change percent: 19.3256
+2025-10-09 08:25:28,581 - root - INFO - MACD not positive for BDRX
+2025-10-09 08:25:28,582 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:28,926 - root - INFO -  MACD calculation for BJDX due to high change percent: 128.877
+2025-10-09 08:25:28,983 - root - INFO - MACD not positive for BJDX
+2025-10-09 08:25:29,415 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:30,264 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:30,482 - root - INFO - Real mode: Today's profit so far: 608.589974999999
+2025-10-09 08:25:30,502 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:25:30,541 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:25:30,553 - root - INFO - Time since last close for BAOS is 242.17588805 minutes, net percent 10.7143
+2025-10-09 08:25:30,598 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 08:25:30,614 - root - INFO - 1min candle is not positive for BAOS: open 4.93 close 4.88
+2025-10-09 08:25:30,615 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 08:25:30,622 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:25:30,623 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 08:25:30,655 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
+2025-10-09 08:25:30,656 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
+2025-10-09 08:25:30,658 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:30,664 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:25:30,664 - root - INFO - Time since last close for MRM is None minutes, net percent 0
+2025-10-09 08:25:30,729 - root - INFO - Last 5 minutes maximum volume candle is green for MRM
+2025-10-09 08:25:30,781 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 08:25:30,781 - root - INFO - MRM:======= 2.8===>BUY========>TrendUp12901377
+2025-10-09 08:25:30,800 - root - WARNING - ***** stock is already in the positions
+2025-10-09 08:25:30,870 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:30,872 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:25:30,961 - root - INFO - Profit percent for MRM is 5.844202898550724
+2025-10-09 08:25:30,961 - root - INFO - Latest 1min close price for MRM: 2.8
+2025-10-09 08:25:31,042 - root - INFO - MACD is still rising for stock MRM
+2025-10-09 08:25:31,042 - root - INFO - Not enough profit percent to scalp for MRM: 5.844202898550724
+2025-10-09 08:25:31,110 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:31,395 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:31,748 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:31,914 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:32,154 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:32,480 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:32,792 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:33,201 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:33,584 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:34,227 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:34,529 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:34,853 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:35,234 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:36,097 - root - INFO - Real mode: Today's profit so far: 602.4499749999995
+2025-10-09 08:25:36,116 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:25:36,117 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:36,158 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:25:36,170 - root - INFO - Time since last close for BAOS is 242.26949628333332 minutes, net percent 10.7143
+2025-10-09 08:25:36,213 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 08:25:36,230 - root - INFO - 1min candle is not positive for BAOS: open 4.93 close 4.88
+2025-10-09 08:25:36,231 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 08:25:36,239 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:25:36,239 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 08:25:36,270 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
+2025-10-09 08:25:36,271 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
+2025-10-09 08:25:36,279 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:25:36,279 - root - INFO - Time since last close for MRM is None minutes, net percent 0
+2025-10-09 08:25:36,370 - root - INFO - Last 5 minutes maximum volume candle is green for MRM
+2025-10-09 08:25:36,433 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 08:25:36,433 - root - INFO - MRM:======= 2.8===>BUY========>TrendUp12901377
+2025-10-09 08:25:36,453 - root - WARNING - ***** stock is already in the positions
+2025-10-09 08:25:36,478 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:36,533 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:25:36,632 - root - INFO - Profit percent for MRM is 5.0724637681159415
+2025-10-09 08:25:36,632 - root - INFO - Latest 1min close price for MRM: 2.8
+2025-10-09 08:25:36,689 - root - INFO -  MACD calculation for MCRP due to high change percent: 15.2778
+2025-10-09 08:25:36,760 - root - INFO - MACD is still rising for stock MRM
+2025-10-09 08:25:36,760 - root - INFO - Not enough profit percent to scalp for MRM: 5.0724637681159415
+2025-10-09 08:25:36,792 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:36,886 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:37,001 - root - INFO -  MACD calculation for MRM due to high change percent: 32.0197
+2025-10-09 08:25:37,130 - root - INFO -  MACD calculation for MSN due to high change percent: 10.0671
+2025-10-09 08:25:37,242 - root - INFO -  MACD calculation for MYO due to high change percent: 15.2542
+2025-10-09 08:25:37,459 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:37,876 - root - INFO -  MACD calculation for NMG due to high change percent: 14.8045
+2025-10-09 08:25:37,935 - root - INFO - MACD not positive for NMG
+2025-10-09 08:25:37,936 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:38,468 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:38,961 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:39,601 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:39,927 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:40,307 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:40,846 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:41,427 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:41,772 - root - INFO -  MACD calculation for SCWO due to high change percent: 20.0
+2025-10-09 08:25:41,806 - root - INFO - Real mode: Today's profit so far: 586.1599749999987
+2025-10-09 08:25:41,826 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:25:41,834 - root - INFO - MACD not positive for SCWO
+2025-10-09 08:25:41,874 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:25:41,884 - root - INFO - Time since last close for BAOS is 242.3647342666667 minutes, net percent 10.7143
+2025-10-09 08:25:41,890 - root - INFO -  MACD calculation for SERV due to high change percent: 12.478
+2025-10-09 08:25:41,928 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 08:25:41,946 - root - INFO - MACD not positive for SERV
+2025-10-09 08:25:41,950 - root - INFO - 1min candle is not positive for BAOS: open 4.93 close 4.88
+2025-10-09 08:25:41,951 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 08:25:41,960 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:25:41,960 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 08:25:41,993 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
+2025-10-09 08:25:41,994 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
+2025-10-09 08:25:42,004 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:25:42,004 - root - INFO - Time since last close for MRM is None minutes, net percent 0
+2025-10-09 08:25:42,052 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:42,094 - root - INFO - Last 5 minutes maximum volume candle is green for MRM
+2025-10-09 08:25:42,156 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 08:25:42,156 - root - INFO - MRM:======= 2.8===>BUY========>TrendUp12901377
+2025-10-09 08:25:42,175 - root - WARNING - ***** stock is already in the positions
+2025-10-09 08:25:42,257 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:25:42,355 - root - INFO - Profit percent for MRM is 5.434782608695652
+2025-10-09 08:25:42,355 - root - INFO - Latest 1min close price for MRM: 2.8
+2025-10-09 08:25:42,455 - root - INFO - MACD is still rising for stock MRM
+2025-10-09 08:25:42,455 - root - INFO - Not enough profit percent to scalp for MRM: 5.434782608695652
+2025-10-09 08:25:42,641 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:43,049 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:43,424 - root - INFO -  MACD calculation for TCRT due to high change percent: 20.8108
+2025-10-09 08:25:43,460 - root - INFO - MACD not positive for TCRT
+2025-10-09 08:25:43,558 - root - INFO -  MACD calculation for TE due to high change percent: 11.9454
+2025-10-09 08:25:43,598 - root - INFO - MACD not positive for TE
+2025-10-09 08:25:43,599 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:43,683 - root - INFO -  MACD calculation for TELO due to high change percent: 22.4242
+2025-10-09 08:25:43,920 - root - INFO -  MACD calculation for TLRY due to high change percent: 13.3721
+2025-10-09 08:25:43,977 - root - INFO - MACD not positive for TLRY
+2025-10-09 08:25:44,211 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:44,384 - root - INFO -  MACD calculation for UAMY due to high change percent: 10.7143
+2025-10-09 08:25:44,826 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:45,218 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:45,678 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:46,122 - root - INFO - FIND stocks Change percent for XTLB: -13.1707
+2025-10-09 08:25:46,475 - root - INFO -  update_current_price: start time 2025-10-09T08:20:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 08:25:46,673 - root - INFO - Updating change percent of stocks
+2025-10-09 08:25:47,343 - root - INFO - XTLB change_percent from DB: -12.682926829268284
+2025-10-09 08:25:47,352 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-09 08:25:47,488 - root - INFO - Real mode: Today's profit so far: 635.7399750000004
+2025-10-09 08:25:47,505 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:25:47,536 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:25:47,545 - root - INFO - Time since last close for BAOS is 242.45908294999998 minutes, net percent 10.7143
+2025-10-09 08:25:47,592 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 08:25:47,593 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 08:25:47,606 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:25:47,606 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 08:25:47,640 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
+2025-10-09 08:25:47,641 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
+2025-10-09 08:25:47,656 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:25:47,657 - root - INFO - Time since last close for MRM is None minutes, net percent 0
+2025-10-09 08:25:47,744 - root - INFO - Last 5 minutes maximum volume candle is green for MRM
+2025-10-09 08:25:47,828 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 08:25:47,829 - root - INFO - MRM:======= 2.92===>BUY========>TrendUp13672111
+2025-10-09 08:25:47,849 - root - WARNING - ***** stock is already in the positions
+2025-10-09 08:25:47,944 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:25:48,040 - root - INFO - Profit percent for MRM is 7.246376811594201
+2025-10-09 08:25:48,040 - root - INFO - Latest 1min close price for MRM: 2.92
+2025-10-09 08:25:48,077 - root - INFO - High price DETECTED for MRM is 2.8 and setting no_scalp to True
+2025-10-09 08:25:53,134 - root - INFO - Real mode: Today's profit so far: 607.8799749999998
+2025-10-09 08:25:53,161 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:25:53,219 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:25:53,233 - root - INFO - Time since last close for BAOS is 242.55388665 minutes, net percent 10.7143
+2025-10-09 08:25:53,282 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 08:25:53,283 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 08:25:53,297 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:25:53,298 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 08:25:53,338 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
+2025-10-09 08:25:53,339 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
+2025-10-09 08:25:53,353 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:25:53,353 - root - INFO - Time since last close for MRM is None minutes, net percent 0
+2025-10-09 08:25:53,429 - root - INFO - Last 5 minutes maximum volume candle is green for MRM
+2025-10-09 08:25:53,506 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 08:25:53,506 - root - INFO - MRM:======= 2.92===>BUY========>TrendUp13672111
+2025-10-09 08:25:53,529 - root - WARNING - ***** stock is already in the positions
+2025-10-09 08:25:53,623 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:25:53,753 - root - INFO - Profit percent for MRM is 5.797101449275361
+2025-10-09 08:25:53,754 - root - INFO - Latest 1min close price for MRM: 2.92
+2025-10-09 08:25:53,836 - root - INFO - MACD is still rising for stock MRM
+2025-10-09 08:25:53,836 - root - INFO - Not enough profit percent to scalp for MRM: 5.797101449275361
+2025-10-09 08:25:58,894 - root - INFO - Real mode: Today's profit so far: 591.589974999999
+2025-10-09 08:25:58,917 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:25:58,973 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:25:58,987 - root - INFO - Time since last close for BAOS is 242.64978516666667 minutes, net percent 10.7143
+2025-10-09 08:25:59,041 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 08:25:59,042 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 08:25:59,058 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:25:59,058 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 08:25:59,094 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
+2025-10-09 08:25:59,095 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
+2025-10-09 08:25:59,109 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:25:59,109 - root - INFO - Time since last close for MRM is None minutes, net percent 0
+2025-10-09 08:25:59,183 - root - INFO - Last 5 minutes maximum volume candle is green for MRM
+2025-10-09 08:25:59,265 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 08:25:59,265 - root - INFO - MRM:======= 2.92===>BUY========>TrendUp13672111
+2025-10-09 08:25:59,290 - root - WARNING - ***** stock is already in the positions
+2025-10-09 08:25:59,386 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:25:59,488 - root - INFO - Profit percent for MRM is 4.710144927536232
+2025-10-09 08:25:59,488 - root - INFO - Latest 1min close price for MRM: 2.92
+2025-10-09 08:25:59,604 - root - INFO - MACD is still rising for stock MRM
+2025-10-09 08:25:59,605 - root - INFO - Not enough profit percent to scalp for MRM: 4.710144927536232
+2025-10-09 08:26:04,654 - root - INFO - Real mode: Today's profit so far: 575.2999749999981
+2025-10-09 08:26:04,676 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:26:04,713 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:26:04,723 - root - INFO - Time since last close for BAOS is 242.7453962666667 minutes, net percent 10.7143
+2025-10-09 08:26:04,768 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 08:26:04,769 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 08:26:04,779 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:26:04,779 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 08:26:04,810 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
+2025-10-09 08:26:04,811 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
+2025-10-09 08:26:04,821 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:26:04,821 - root - INFO - Time since last close for MRM is None minutes, net percent 0
+2025-10-09 08:26:04,890 - root - INFO - Last 5 minutes maximum volume candle is green for MRM
+2025-10-09 08:26:04,950 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 08:26:04,951 - root - INFO - MRM:======= 2.92===>BUY========>TrendUp13672111
+2025-10-09 08:26:04,971 - root - WARNING - ***** stock is already in the positions
+2025-10-09 08:26:05,050 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:26:05,142 - root - INFO - Profit percent for MRM is 3.721014492753623
+2025-10-09 08:26:05,142 - root - INFO - Latest 1min close price for MRM: 2.92
+2025-10-09 08:26:05,223 - root - INFO - MACD is still rising for stock MRM
+2025-10-09 08:26:05,223 - root - INFO - Not enough profit percent to scalp for MRM: 3.721014492753623
+2025-10-09 08:26:10,270 - root - INFO - Real mode: Today's profit so far: 607.8799749999998
+2025-10-09 08:26:10,292 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:26:10,348 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:26:10,363 - root - INFO - Time since last close for BAOS is 242.83938206666664 minutes, net percent 10.7143
+2025-10-09 08:26:10,410 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 08:26:10,411 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 08:26:10,430 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:26:10,430 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 08:26:10,469 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
+2025-10-09 08:26:10,470 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
+2025-10-09 08:26:10,490 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:26:10,490 - root - INFO - Time since last close for MRM is None minutes, net percent 0
+2025-10-09 08:26:10,563 - root - INFO - Last 5 minutes maximum volume candle is green for MRM
+2025-10-09 08:26:10,624 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 08:26:10,624 - root - INFO - MRM:======= 2.92===>BUY========>TrendUp13672111
+2025-10-09 08:26:10,647 - root - WARNING - ***** stock is already in the positions
+2025-10-09 08:26:10,741 - root - INFO - swing_strategy_close_long for scale 5Min stock MRM
+2025-10-09 08:26:10,848 - root - INFO - Profit percent for MRM is 5.797101449275361
+2025-10-09 08:26:10,849 - root - INFO - Latest 1min close price for MRM: 2.92
+2025-10-09 08:26:10,975 - root - INFO - MACD is still rising for stock MRM
+2025-10-09 08:26:10,975 - root - INFO - Not enough profit percent to scalp for MRM: 5.797101449275361
+2025-10-09 08:26:16,031 - root - INFO - Real mode: Today's profit so far: 588.8799749999998
+2025-10-09 08:26:16,047 - root - INFO - Running real_trade for all top movers
+2025-10-09 08:26:16,083 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 08:26:16,088 - root - INFO - Time since last close for BAOS is 242.93480138333334 minutes, net percent 10.7143
+2025-10-09 08:26:16,128 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 08:26:16,129 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 08:26:16,138 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:26:16,139 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 08:26:16,163 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
+2025-10-09 08:26:16,163 - root - INFO - swing_strategy_open_long for scale 5Min stock MRM
+2025-10-09 08:26:16,172 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 08:26:16,172 - root - INFO - Time since last close for MRM is None minutes, net percent 0
+2025-10-09 08:26:16,231 - root - INFO - Last 5 minutes maximum volume candle is green for MRM
+2025-10-09 08:26:16,281 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 08:26:16,281 - root - INFO - MRM:======= 2.92===>BUY========>TrendUp13672111
+2025-10-09 08:26:16,304 - root - WARNING - ***** stock is already in the positions
