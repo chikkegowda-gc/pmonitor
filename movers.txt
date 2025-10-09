@@ -2,11 +2,10 @@ Top Movers:
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  BJDX  |      0      |     0     |    90.3743     | 66821351 |      3.56     |        1.87        |   550000.0   |  1.742   |  8847519   |      0      | 2025-10-09 15:03:29 |
-|  JFU   |      1      |     0     |    56.1594     |  620137  |      4.31     |        2.76        |     -1.0     |  2.666   |    7354    |      0      | 2025-10-09 15:04:14 |
-|  BAOS  |      0      |     0     |    48.3384     | 22874528 |      4.91     |        3.31        |   900000.0   |  3.392   |   957839   |      0      | 2025-10-09 15:03:26 |
-|  BDRX  |      0      |     0     |    41.3385     | 4640488  |    10.8972    |        7.71        |     -1.0     |  7.198   |   52029    |      0      | 2025-10-09 15:03:28 |
-|  LAES  |      0      |     0     |    31.1881     | 34709635 |     5.7198    |        4.36        |  98150000.0  |   4.53   |  37554120  |      0      | 2025-10-09 15:04:17 |
+|  BJDX  |      0      |     0     |    93.1176     | 66947342 |     3.6132    |        1.87        |   550000.0   |  1.742   |  8847519   |      0      | 2025-10-09 15:09:37 |
+|  JFU   |      1      |     0     |    52.2464     |  624255  |     4.1991    |        2.76        |     -1.0     |  2.666   |    7354    |      0      | 2025-10-09 15:10:21 |
+|  BAOS  |      0      |     0     |    49.2447     | 22881190 |      4.92     |        3.31        |   900000.0   |  3.392   |   957839   |      0      | 2025-10-09 15:09:33 |
+|  BDRX  |      0      |     0     |    42.4773     | 4641931  |     11.04     |        7.71        |     -1.0     |  7.198   |   52029    |      0      | 2025-10-09 15:09:35 |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -20,403 +19,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-09 15:04:25,288 - root - INFO - Real mode: Today's profit so far: 1713.5299750000013
-2025-10-09 15:04:25,306 - root - INFO - Running real_trade for all top movers
-2025-10-09 15:04:25,348 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 15:04:25,357 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:04:25,358 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 15:04:25,480 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-09 15:04:25,501 - root - INFO - 9 EMA is in downtrend, not opening long position for BJDX
-2025-10-09 15:04:25,502 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 15:04:25,512 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:04:25,512 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 15:04:25,609 - root - INFO - Last 5 minutes maximum volume candle is green for JFU
-2025-10-09 15:04:25,727 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 15:04:25,727 - root - INFO - JFU:======= 4.31===>BUY========>TrendUp128542
-2025-10-09 15:04:25,746 - root - WARNING - ***** stock is already in the positions
-2025-10-09 15:04:25,747 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 15:04:25,757 - root - INFO - Time since last close for BAOS is 68.74595828333332 minutes, net percent 2.05339
-2025-10-09 15:04:25,799 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 15:04:25,800 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 15:04:25,810 - root - INFO - Time since last close for BDRX is 69.74683476666668 minutes, net percent 0.049511
-2025-10-09 15:04:25,872 - root - INFO - Last 20 minutes volume is low for BDRX: 48570
-2025-10-09 15:04:25,960 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
-2025-10-09 15:04:26,069 - root - INFO - Profit percent for JFU is 1.5468178061164248
-2025-10-09 15:04:26,069 - root - INFO - Latest 1min close price for JFU: 4.31
-2025-10-09 15:04:26,205 - root - INFO - MACD is still rising for stock JFU
-2025-10-09 15:04:26,205 - root - INFO - Not enough profit percent to scalp for JFU: 1.5468178061164248
-2025-10-09 15:04:26,327 - root - INFO -  MACD calculation for MSPR due to high change percent: 10.3448
-2025-10-09 15:04:27,852 - root - INFO -  update_current_price: start time 2025-10-09T14:59:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 15:04:28,659 - root - INFO -  MACD calculation for NEOG due to high change percent: 16.4089
-2025-10-09 15:04:28,717 - root - INFO - MACD not positive for NEOG
-2025-10-09 15:04:29,507 - root - INFO -  MACD calculation for NGNE due to high change percent: 23.7515
-2025-10-09 15:04:29,571 - root - INFO - MACD not positive for NGNE
-2025-10-09 15:04:29,884 - root - INFO -  MACD calculation for NKTX due to high change percent: 11.244
-2025-10-09 15:04:29,948 - root - INFO - MACD not positive for NKTX
-2025-10-09 15:04:30,587 - root - INFO -  update_current_price: start time 2025-10-09T14:59:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 15:04:31,261 - root - INFO - Real mode: Today's profit so far: 1676.549974999998
-2025-10-09 15:04:31,284 - root - INFO - Running real_trade for all top movers
-2025-10-09 15:04:31,331 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 15:04:31,343 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:04:31,344 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 15:04:31,466 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-09 15:04:31,486 - root - INFO - 9 EMA is in downtrend, not opening long position for BJDX
-2025-10-09 15:04:31,487 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 15:04:31,496 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:04:31,497 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 15:04:31,624 - root - INFO - Last 5 minutes maximum volume candle is green for JFU
-2025-10-09 15:04:31,763 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 15:04:31,764 - root - INFO - JFU:======= 4.31===>BUY========>TrendUp128542
-2025-10-09 15:04:31,785 - root - WARNING - ***** stock is already in the positions
-2025-10-09 15:04:31,785 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 15:04:31,796 - root - INFO - Time since last close for BAOS is 68.84660933333333 minutes, net percent 2.05339
-2025-10-09 15:04:31,838 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 15:04:31,839 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 15:04:31,848 - root - INFO - Time since last close for BDRX is 69.84747811666666 minutes, net percent 0.049511
-2025-10-09 15:04:31,888 - root - INFO - Last 20 minutes volume is low for BDRX: 48570
-2025-10-09 15:04:31,968 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
-2025-10-09 15:04:32,075 - root - INFO - Profit percent for JFU is -1.287046876844964
-2025-10-09 15:04:32,075 - root - INFO - Latest 1min close price for JFU: 4.31
-2025-10-09 15:04:32,229 - root - INFO - MACD is still rising for stock JFU
-2025-10-09 15:04:32,229 - root - INFO - Not enough profit percent to scalp for JFU: -1.287046876844964
-2025-10-09 15:04:32,823 - root - INFO -  MACD calculation for NVX due to high change percent: 10.5943
-2025-10-09 15:04:33,465 - root - INFO -  update_current_price: start time 2025-10-09T14:59:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 15:04:35,555 - root - INFO -  MACD calculation for ONMD due to high change percent: 15.2174
-2025-10-09 15:04:36,010 - root - INFO -  update_current_price: start time 2025-10-09T14:59:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 15:04:37,280 - root - INFO - Real mode: Today's profit so far: 1676.549974999998
-2025-10-09 15:04:37,302 - root - INFO - Running real_trade for all top movers
-2025-10-09 15:04:37,348 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 15:04:37,360 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:04:37,361 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 15:04:37,407 - root - INFO -  MACD calculation for OVID due to high change percent: 12.0253
-2025-10-09 15:04:37,510 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-09 15:04:37,536 - root - INFO - 9 EMA is in downtrend, not opening long position for BJDX
-2025-10-09 15:04:37,538 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 15:04:37,548 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:04:37,549 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 15:04:37,668 - root - INFO - Last 5 minutes maximum volume candle is green for JFU
-2025-10-09 15:04:37,834 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 15:04:37,835 - root - INFO - JFU:======= 4.31===>BUY========>TrendUp128542
-2025-10-09 15:04:37,855 - root - WARNING - ***** stock is already in the positions
-2025-10-09 15:04:37,855 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 15:04:37,867 - root - INFO - Time since last close for BAOS is 68.94778663333334 minutes, net percent 2.05339
-2025-10-09 15:04:37,907 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 15:04:37,908 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 15:04:37,918 - root - INFO - Time since last close for BDRX is 69.94863335 minutes, net percent 0.049511
-2025-10-09 15:04:37,956 - root - INFO - Last 20 minutes volume is low for BDRX: 48570
-2025-10-09 15:04:38,040 - root - INFO -  MACD calculation for PATH due to high change percent: 18.3569
-2025-10-09 15:04:38,048 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
-2025-10-09 15:04:38,219 - root - INFO - Profit percent for JFU is -1.287046876844964
-2025-10-09 15:04:38,219 - root - INFO - Latest 1min close price for JFU: 4.31
-2025-10-09 15:04:38,402 - root - INFO - MACD is still rising for stock JFU
-2025-10-09 15:04:38,402 - root - INFO - Not enough profit percent to scalp for JFU: -1.287046876844964
-2025-10-09 15:04:38,985 - root - INFO -  update_current_price: start time 2025-10-09T14:59:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 15:04:41,416 - root - INFO -  update_current_price: start time 2025-10-09T14:59:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 15:04:42,652 - root - INFO -  MACD calculation for PRSO due to high change percent: 17.5182
-2025-10-09 15:04:43,443 - root - INFO - Real mode: Today's profit so far: 1676.549974999998
-2025-10-09 15:04:43,466 - root - INFO - Running real_trade for all top movers
-2025-10-09 15:04:43,504 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 15:04:43,516 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:04:43,517 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 15:04:43,631 - root - INFO - Last 5 minutes maximum volume candle is green for BJDX
-2025-10-09 15:04:43,649 - root - INFO - 9 EMA is in downtrend, not opening long position for BJDX
-2025-10-09 15:04:43,650 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 15:04:43,658 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:04:43,658 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 15:04:43,866 - root - INFO - Last 5 minutes maximum volume candle is green for JFU
-2025-10-09 15:04:43,882 - root - INFO -  MACD calculation for PYXS due to high change percent: 26.1168
-2025-10-09 15:04:44,007 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 15:04:44,007 - root - INFO - JFU:======= 4.31===>BUY========>TrendUp128542
-2025-10-09 15:04:44,022 - root - INFO - MACD not positive for PYXS
-2025-10-09 15:04:44,027 - root - WARNING - ***** stock is already in the positions
-2025-10-09 15:04:44,028 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 15:04:44,041 - root - INFO - Time since last close for BAOS is 69.05068505 minutes, net percent 2.05339
-2025-10-09 15:04:44,096 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 15:04:44,097 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 15:04:44,107 - root - INFO - Time since last close for BDRX is 70.05178795 minutes, net percent 0.049511
-2025-10-09 15:04:44,142 - root - INFO - Last 20 minutes volume is low for BDRX: 48570
-2025-10-09 15:04:44,228 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
-2025-10-09 15:04:44,335 - root - INFO - Profit percent for JFU is -1.287046876844964
-2025-10-09 15:04:44,335 - root - INFO - Latest 1min close price for JFU: 4.31
-2025-10-09 15:04:44,466 - root - INFO - MACD is still rising for stock JFU
-2025-10-09 15:04:44,466 - root - INFO - Not enough profit percent to scalp for JFU: -1.287046876844964
-2025-10-09 15:04:44,504 - root - INFO -  update_current_price: start time 2025-10-09T14:59:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 15:04:46,534 - root - INFO -  MACD calculation for RELL due to high change percent: 10.8388
-2025-10-09 15:04:47,184 - root - INFO -  update_current_price: start time 2025-10-09T14:59:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 15:04:49,526 - root - INFO - Real mode: Today's profit so far: 1676.5399749999997
-2025-10-09 15:04:49,546 - root - INFO - Running real_trade for all top movers
-2025-10-09 15:04:49,595 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 15:04:49,606 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:04:49,606 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 15:04:49,718 - root - INFO -  MACD calculation for RVP due to high change percent: 13.0312
-2025-10-09 15:04:49,759 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-09 15:04:49,760 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 15:04:49,771 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:04:49,772 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 15:04:49,796 - root - INFO - MACD not positive for RVP
-2025-10-09 15:04:49,836 - root - INFO - Last 5 minutes maximum volume candle is green for JFU
-2025-10-09 15:04:49,858 - root - INFO -  MACD calculation for RVPH due to high change percent: 10.293
-2025-10-09 15:04:49,859 - root - INFO - 1min candle is not positive for JFU: open 4.31 close 4.18
-2025-10-09 15:04:49,860 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 15:04:49,870 - root - INFO - Time since last close for BAOS is 69.14784490000001 minutes, net percent 2.05339
-2025-10-09 15:04:49,920 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 15:04:49,984 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-09 15:04:49,985 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 15:04:50,002 - root - INFO - Time since last close for BDRX is 70.15003346666667 minutes, net percent 0.049511
-2025-10-09 15:04:50,051 - root - INFO - Last 20 minutes volume is low for BDRX: 48639
-2025-10-09 15:04:50,082 - root - INFO - MACD not positive for RVPH
-2025-10-09 15:04:50,140 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
-2025-10-09 15:04:50,215 - root - INFO - Profit percent for JFU is -1.287046876844964
-2025-10-09 15:04:50,215 - root - INFO - Latest 1min close price for JFU: 4.18
-2025-10-09 15:04:50,330 - root - INFO - No close long conditions met for JFU
-2025-10-09 15:04:50,937 - root - INFO -  update_current_price: start time 2025-10-09T14:59:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 15:04:52,985 - root - INFO -  MACD calculation for SERV due to high change percent: 23.2084
-2025-10-09 15:04:53,890 - root - INFO -  MACD calculation for SGMT due to high change percent: 19.1518
-2025-10-09 15:04:53,948 - root - INFO - MACD not positive for SGMT
-2025-10-09 15:04:53,949 - root - INFO -  update_current_price: start time 2025-10-09T14:59:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 15:04:55,382 - root - INFO - Real mode: Today's profit so far: 1692.469975
-2025-10-09 15:04:55,401 - root - INFO - Running real_trade for all top movers
-2025-10-09 15:04:55,438 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 15:04:55,447 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:04:55,447 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 15:04:55,567 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-09 15:04:55,569 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 15:04:55,579 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:04:55,579 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 15:04:55,626 - root - INFO - Last 5 minutes maximum volume candle is green for JFU
-2025-10-09 15:04:55,644 - root - INFO - 1min candle is not positive for JFU: open 4.31 close 4.18
-2025-10-09 15:04:55,645 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 15:04:55,654 - root - INFO - Time since last close for BAOS is 69.24423345 minutes, net percent 2.05339
-2025-10-09 15:04:55,694 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 15:04:55,739 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-09 15:04:55,740 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 15:04:55,745 - root - INFO - Time since last close for BDRX is 70.24575458333334 minutes, net percent 0.049511
-2025-10-09 15:04:55,778 - root - INFO - Last 20 minutes volume is low for BDRX: 48639
-2025-10-09 15:04:55,860 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
-2025-10-09 15:04:55,929 - root - INFO - Profit percent for JFU is -0.22434762073444328
-2025-10-09 15:04:55,929 - root - INFO - Latest 1min close price for JFU: 4.18
-2025-10-09 15:04:56,025 - root - INFO - No close long conditions met for JFU
-2025-10-09 15:04:57,160 - root - INFO -  update_current_price: start time 2025-10-09T14:59:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 15:05:00,374 - root - INFO -  update_current_price: start time 2025-10-09T15:00:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 15:05:00,848 - root - INFO -  MACD calculation for SUGP due to high change percent: 38.3925
-2025-10-09 15:05:00,890 - root - INFO - MACD not positive for SUGP
-2025-10-09 15:05:00,967 - root - INFO -  MACD calculation for SUPV due to high change percent: 16.6667
-2025-10-09 15:05:01,060 - root - INFO - Real mode: Today's profit so far: 1702.469975
-2025-10-09 15:05:01,080 - root - INFO - Running real_trade for all top movers
-2025-10-09 15:05:01,120 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 15:05:01,131 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:05:01,132 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 15:05:01,243 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-09 15:05:01,244 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 15:05:01,254 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:05:01,254 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 15:05:01,286 - root - INFO - Last 5 minutes maximum volume candle is green for JFU
-2025-10-09 15:05:01,304 - root - INFO - 1min candle is not positive for JFU: open 4.31 close 4.18
-2025-10-09 15:05:01,304 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 15:05:01,313 - root - INFO - Time since last close for BAOS is 69.338554 minutes, net percent 2.05339
-2025-10-09 15:05:01,351 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 15:05:01,405 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-09 15:05:01,406 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 15:05:01,413 - root - INFO - Time since last close for BDRX is 70.34022811666667 minutes, net percent 0.049511
-2025-10-09 15:05:01,445 - root - INFO - Last 20 minutes volume is low for BDRX: 48639
-2025-10-09 15:05:01,529 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
-2025-10-09 15:05:01,588 - root - INFO - Profit percent for JFU is -0.22434762073444328
-2025-10-09 15:05:01,589 - root - INFO - Latest 1min close price for JFU: 4.18
-2025-10-09 15:05:01,664 - root - INFO - No close long conditions met for JFU
-2025-10-09 15:05:01,666 - root - INFO -  MACD calculation for SYRE due to high change percent: 18.7783
-2025-10-09 15:05:01,723 - root - INFO - MACD not positive for SYRE
-2025-10-09 15:05:02,961 - root - INFO -  MACD calculation for TE due to high change percent: 27.9522
-2025-10-09 15:05:03,129 - root - INFO -  update_current_price: start time 2025-10-09T15:00:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 15:05:03,449 - root - INFO -  MACD calculation for TELO due to high change percent: 17.5273
-2025-10-09 15:05:03,538 - root - INFO - MACD not positive for TELO
-2025-10-09 15:05:04,293 - root - INFO -  MACD calculation for TGS due to high change percent: 10.0428
-2025-10-09 15:05:05,243 - root - INFO -  MACD calculation for TLRY due to high change percent: 21.8023
-2025-10-09 15:05:06,439 - root - INFO -  MACD calculation for TRAW due to high change percent: 26.1044
-2025-10-09 15:05:06,502 - root - INFO - MACD not positive for TRAW
-2025-10-09 15:05:06,638 - root - INFO -  MACD calculation for TRDA due to high change percent: 11.7695
-2025-10-09 15:05:06,709 - root - INFO - Real mode: Today's profit so far: 1702.469975
-2025-10-09 15:05:06,730 - root - INFO - Running real_trade for all top movers
-2025-10-09 15:05:06,775 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 15:05:06,785 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:05:06,785 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 15:05:06,897 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-09 15:05:06,898 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 15:05:06,908 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:05:06,908 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 15:05:06,940 - root - INFO - Last 5 minutes maximum volume candle is green for JFU
-2025-10-09 15:05:06,958 - root - INFO - 1min candle is not positive for JFU: open 4.31 close 4.18
-2025-10-09 15:05:06,959 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 15:05:06,968 - root - INFO - Time since last close for BAOS is 69.43280216666668 minutes, net percent 2.05339
-2025-10-09 15:05:07,001 - root - INFO -  update_current_price: start time 2025-10-09T15:00:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 15:05:07,024 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 15:05:07,091 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-09 15:05:07,091 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 15:05:07,104 - root - INFO - Time since last close for BDRX is 70.43507548333334 minutes, net percent 0.049511
-2025-10-09 15:05:07,144 - root - INFO - Last 20 minutes volume is low for BDRX: 48639
-2025-10-09 15:05:07,228 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
-2025-10-09 15:05:07,277 - root - INFO - Profit percent for JFU is -0.22434762073444328
-2025-10-09 15:05:07,277 - root - INFO - Latest 1min close price for JFU: 4.18
-2025-10-09 15:05:07,372 - root - INFO - No close long conditions met for JFU
-2025-10-09 15:05:08,532 - root - INFO -  MACD calculation for UAMY due to high change percent: 11.9223
-2025-10-09 15:05:08,632 - root - INFO - MACD not positive for UAMY
-2025-10-09 15:05:10,048 - root - INFO -  MACD calculation for USAR due to high change percent: 14.2857
-2025-10-09 15:05:10,163 - root - INFO - MACD not positive for USAR
-2025-10-09 15:05:10,334 - root - INFO -  update_current_price: start time 2025-10-09T15:00:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 15:05:12,420 - root - INFO - Real mode: Today's profit so far: 1698.469975
-2025-10-09 15:05:12,438 - root - INFO - Running real_trade for all top movers
-2025-10-09 15:05:12,477 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 15:05:12,487 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:05:12,487 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 15:05:12,589 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-09 15:05:12,590 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 15:05:12,599 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:05:12,599 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 15:05:12,634 - root - INFO - Last 5 minutes maximum volume candle is green for JFU
-2025-10-09 15:05:12,649 - root - INFO - 1min candle is not positive for JFU: open 4.31 close 4.18
-2025-10-09 15:05:12,649 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 15:05:12,656 - root - INFO - Time since last close for BAOS is 69.5275988 minutes, net percent 2.05339
-2025-10-09 15:05:12,689 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 15:05:12,735 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-09 15:05:12,735 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 15:05:12,738 - root - INFO -  update_current_price: start time 2025-10-09T15:00:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 15:05:12,744 - root - INFO - Time since last close for BDRX is 70.52907826666666 minutes, net percent 0.049511
-2025-10-09 15:05:12,782 - root - INFO - Last 20 minutes volume is low for BDRX: 48639
-2025-10-09 15:05:12,862 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
-2025-10-09 15:05:12,909 - root - INFO - Profit percent for JFU is -0.22434762073444328
-2025-10-09 15:05:12,909 - root - INFO - Latest 1min close price for JFU: 4.18
-2025-10-09 15:05:12,985 - root - INFO - No close long conditions met for JFU
-2025-10-09 15:05:14,036 - root - INFO -  MACD calculation for WETH due to high change percent: 11.4094
-2025-10-09 15:05:15,167 - root - INFO -  update_current_price: start time 2025-10-09T15:00:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 15:05:15,531 - root - INFO -  MACD calculation for WWR due to high change percent: 24.5098
-2025-10-09 15:05:15,603 - root - INFO - MACD not positive for WWR
-2025-10-09 15:05:16,597 - root - INFO - FIND stocks Change percent for XTLB: -16.0976
-2025-10-09 15:05:17,342 - root - INFO -  update_current_price: start time 2025-10-09T15:00:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 15:05:17,561 - root - INFO -  MACD calculation for ZSPC due to high change percent: 50.0
-2025-10-09 15:05:17,616 - root - INFO - MACD not positive for ZSPC
-2025-10-09 15:05:17,902 - root - INFO - Updating change percent of stocks
-2025-10-09 15:05:18,026 - root - INFO - Real mode: Today's profit so far: 1696.5099750000008
-2025-10-09 15:05:18,044 - root - INFO - Running real_trade for all top movers
-2025-10-09 15:05:18,058 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 15:05:18,062 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:05:18,062 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 15:05:18,188 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-09 15:05:18,189 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 15:05:18,193 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:05:18,193 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 15:05:18,220 - root - INFO - Last 5 minutes maximum volume candle is green for JFU
-2025-10-09 15:05:18,228 - root - INFO - 1min candle is not positive for JFU: open 4.31 close 4.18
-2025-10-09 15:05:18,228 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 15:05:18,231 - root - INFO - Time since last close for BAOS is 69.62052773333333 minutes, net percent 2.05339
-2025-10-09 15:05:18,263 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 15:05:18,300 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-09 15:05:18,301 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 15:05:18,305 - root - INFO - Time since last close for BDRX is 70.6217494 minutes, net percent 0.049511
-2025-10-09 15:05:18,332 - root - INFO - Last 20 minutes volume is low for BDRX: 48639
-2025-10-09 15:05:18,407 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
-2025-10-09 15:05:18,446 - root - INFO - Profit percent for JFU is -0.22434762073444328
-2025-10-09 15:05:18,446 - root - INFO - Latest 1min close price for JFU: 4.18
-2025-10-09 15:05:18,484 - root - INFO - No close long conditions met for JFU
-2025-10-09 15:05:18,779 - root - INFO - XTLB change_percent from DB: -15.126829268292674
-2025-10-09 15:05:18,790 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-09 15:05:23,531 - root - INFO - Real mode: Today's profit so far: 1692.469975
-2025-10-09 15:05:23,551 - root - INFO - Running real_trade for all top movers
-2025-10-09 15:05:23,609 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 15:05:23,623 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:05:23,624 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 15:05:23,762 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-09 15:05:23,763 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 15:05:23,774 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:05:23,775 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 15:05:23,807 - root - INFO - Last 5 minutes maximum volume candle is green for JFU
-2025-10-09 15:05:23,832 - root - INFO - 1min candle is not positive for JFU: open 4.31 close 4.18
-2025-10-09 15:05:23,833 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 15:05:23,847 - root - INFO - Time since last close for BAOS is 69.71412473333334 minutes, net percent 2.05339
-2025-10-09 15:05:23,894 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 15:05:23,955 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-09 15:05:23,955 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 15:05:23,965 - root - INFO - Time since last close for BDRX is 70.71608541666666 minutes, net percent 0.049511
-2025-10-09 15:05:24,007 - root - INFO - Last 20 minutes volume is low for BDRX: 48639
-2025-10-09 15:05:24,008 - root - INFO - swing_strategy_open_long for scale 5Min stock LAES
-2025-10-09 15:05:24,017 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:05:24,018 - root - INFO - Time since last close for LAES is None minutes, net percent 0
-2025-10-09 15:05:24,247 - root - INFO - Last 5 minutes maximum volume candle is green for LAES
-2025-10-09 15:05:24,276 - root - INFO - 1min candle is not positive for LAES: open 5.715 close 5.6967
-2025-10-09 15:05:24,371 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
-2025-10-09 15:05:24,429 - root - INFO - Profit percent for JFU is -0.22434762073444328
-2025-10-09 15:05:24,430 - root - INFO - Latest 1min close price for JFU: 4.18
-2025-10-09 15:05:24,534 - root - INFO - No close long conditions met for JFU
-2025-10-09 15:05:29,585 - root - INFO - Real mode: Today's profit so far: 1691.969975
-2025-10-09 15:05:29,603 - root - INFO - Running real_trade for all top movers
-2025-10-09 15:05:29,650 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 15:05:29,664 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:05:29,664 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 15:05:29,801 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-09 15:05:29,803 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 15:05:29,814 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:05:29,814 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 15:05:29,854 - root - INFO - Last 5 minutes maximum volume candle is green for JFU
-2025-10-09 15:05:29,883 - root - INFO - 1min candle is not positive for JFU: open 4.31 close 4.18
-2025-10-09 15:05:29,884 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 15:05:29,902 - root - INFO - Time since last close for BAOS is 69.81503943333334 minutes, net percent 2.05339
-2025-10-09 15:05:29,948 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 15:05:30,011 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-09 15:05:30,012 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 15:05:30,026 - root - INFO - Time since last close for BDRX is 70.81710301666666 minutes, net percent 0.049511
-2025-10-09 15:05:30,069 - root - INFO - Last 20 minutes volume is low for BDRX: 48639
-2025-10-09 15:05:30,070 - root - INFO - swing_strategy_open_long for scale 5Min stock LAES
-2025-10-09 15:05:30,084 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:05:30,085 - root - INFO - Time since last close for LAES is None minutes, net percent 0
-2025-10-09 15:05:30,360 - root - INFO - Last 5 minutes maximum volume candle is green for LAES
-2025-10-09 15:05:30,388 - root - INFO - 1min candle is not positive for LAES: open 5.715 close 5.6967
-2025-10-09 15:05:30,489 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
-2025-10-09 15:05:30,548 - root - INFO - Profit percent for JFU is -0.22434762073444328
-2025-10-09 15:05:30,548 - root - INFO - Latest 1min close price for JFU: 4.18
-2025-10-09 15:05:30,655 - root - INFO - No close long conditions met for JFU
-2025-10-09 15:05:35,711 - root - INFO - Real mode: Today's profit so far: 1684.469975
-2025-10-09 15:05:35,732 - root - INFO - Running real_trade for all top movers
-2025-10-09 15:05:35,787 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 15:05:35,801 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:05:35,801 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 15:05:35,928 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-09 15:05:35,930 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 15:05:35,941 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:05:35,941 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 15:05:35,973 - root - INFO - Last 5 minutes maximum volume candle is green for JFU
-2025-10-09 15:05:35,995 - root - INFO - 1min candle is not positive for JFU: open 4.31 close 4.18
-2025-10-09 15:05:35,996 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 15:05:36,009 - root - INFO - Time since last close for BAOS is 69.91682181666667 minutes, net percent 2.05339
-2025-10-09 15:05:36,055 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 15:05:36,118 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-09 15:05:36,119 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 15:05:36,134 - root - INFO - Time since last close for BDRX is 70.91889883333333 minutes, net percent 0.049511
-2025-10-09 15:05:36,174 - root - INFO - Last 20 minutes volume is low for BDRX: 48639
-2025-10-09 15:05:36,176 - root - INFO - swing_strategy_open_long for scale 5Min stock LAES
-2025-10-09 15:05:36,187 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:05:36,187 - root - INFO - Time since last close for LAES is None minutes, net percent 0
-2025-10-09 15:05:36,430 - root - INFO - Last 5 minutes maximum volume candle is green for LAES
-2025-10-09 15:05:36,453 - root - INFO - 1min candle is not positive for LAES: open 5.715 close 5.6967
-2025-10-09 15:05:36,552 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
-2025-10-09 15:05:36,608 - root - INFO - Profit percent for JFU is -0.22434762073444328
-2025-10-09 15:05:36,608 - root - INFO - Latest 1min close price for JFU: 4.18
-2025-10-09 15:05:36,711 - root - INFO - No close long conditions met for JFU
-2025-10-09 15:05:41,762 - root - INFO - Real mode: Today's profit so far: 1691.6999749999995
-2025-10-09 15:05:41,777 - root - INFO - Running real_trade for all top movers
-2025-10-09 15:05:41,813 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
-2025-10-09 15:05:41,817 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:05:41,817 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
-2025-10-09 15:05:41,908 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
-2025-10-09 15:05:41,908 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
-2025-10-09 15:05:41,921 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:05:41,921 - root - INFO - Time since last close for JFU is None minutes, net percent 0
-2025-10-09 15:05:41,946 - root - INFO - Last 5 minutes maximum volume candle is green for JFU
-2025-10-09 15:05:41,960 - root - INFO - 1min candle is not positive for JFU: open 4.31 close 4.18
-2025-10-09 15:05:41,960 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 15:05:41,972 - root - INFO - Time since last close for BAOS is 70.01619898333334 minutes, net percent 2.05339
-2025-10-09 15:05:42,003 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 15:05:42,047 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-09 15:05:42,047 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
-2025-10-09 15:05:42,058 - root - INFO - Time since last close for BDRX is 71.0176378 minutes, net percent 0.049511
-2025-10-09 15:05:42,111 - root - INFO - Last 20 minutes volume is low for BDRX: 48639
-2025-10-09 15:05:42,111 - root - INFO - swing_strategy_open_long for scale 5Min stock LAES
-2025-10-09 15:05:42,123 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 15:05:42,123 - root - INFO - Time since last close for LAES is None minutes, net percent 0
+2025-10-09 15:07:58,047 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:07:58,048 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 15:07:58,075 - root - INFO - Last 5 minutes maximum volume candle is green for JFU
+2025-10-09 15:07:58,096 - root - INFO - 1min candle is not positive for JFU: open 4.1992 close 4.1216
+2025-10-09 15:07:58,097 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 15:07:58,108 - root - INFO - Time since last close for BAOS is 72.28514271666667 minutes, net percent 2.05339
+2025-10-09 15:07:58,148 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 15:07:58,201 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-09 15:07:58,202 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 15:07:58,211 - root - INFO - Time since last close for BDRX is 73.28686036666666 minutes, net percent 0.049511
+2025-10-09 15:07:58,250 - root - INFO - Last 5 minutes maximum volume candle is red for BDRX
+2025-10-09 15:07:58,251 - root - INFO - swing_strategy_open_long for scale 5Min stock LAES
+2025-10-09 15:07:58,260 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:07:58,260 - root - INFO - Time since last close for LAES is None minutes, net percent 0
+2025-10-09 15:07:58,474 - root - INFO - Last 5 minutes maximum volume candle is red for LAES
+2025-10-09 15:07:58,558 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
+2025-10-09 15:07:58,602 - root - INFO - Profit percent for JFU is -1.5232022670917464
+2025-10-09 15:07:58,602 - root - INFO - Latest 1min close price for JFU: 4.1216
+2025-10-09 15:07:58,670 - root - INFO - No close long conditions met for JFU
+2025-10-09 15:07:59,280 - root - INFO -  update_current_price: start time 2025-10-09T15:02:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:08:02,117 - root - INFO -  update_current_price: start time 2025-10-09T15:03:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:08:02,539 - root - INFO -  MACD calculation for SUGP due to high change percent: 39.6456
+2025-10-09 15:08:02,581 - root - INFO - MACD not positive for SUGP
+2025-10-09 15:08:02,665 - root - INFO -  MACD calculation for SUPV due to high change percent: 16.9679
+2025-10-09 15:08:03,438 - root - INFO -  MACD calculation for SYRE due to high change percent: 18.7217
+2025-10-09 15:08:03,506 - root - INFO - MACD not positive for SYRE
+2025-10-09 15:08:03,709 - root - INFO - Real mode: Today's profit so far: 1735.9999749999988
+2025-10-09 15:08:03,731 - root - INFO - Running real_trade for all top movers
+2025-10-09 15:08:03,777 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 15:08:03,791 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:08:03,791 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 15:08:03,969 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 15:08:03,969 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 15:08:03,977 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:08:03,977 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 15:08:04,009 - root - INFO - Last 5 minutes maximum volume candle is green for JFU
+2025-10-09 15:08:04,020 - root - INFO - 1min candle is not positive for JFU: open 4.1992 close 4.1216
+2025-10-09 15:08:04,021 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 15:08:04,026 - root - INFO - Time since last close for BAOS is 72.3837797 minutes, net percent 2.05339
+2025-10-09 15:08:04,066 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 15:08:04,114 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-09 15:08:04,115 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 15:08:04,122 - root - INFO - Time since last close for BDRX is 73.38536791666667 minutes, net percent 0.049511
+2025-10-09 15:08:04,165 - root - INFO - Last 5 minutes maximum volume candle is red for BDRX
+2025-10-09 15:08:04,165 - root - INFO - swing_strategy_open_long for scale 5Min stock LAES
+2025-10-09 15:08:04,172 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:08:04,172 - root - INFO - Time since last close for LAES is None minutes, net percent 0
+2025-10-09 15:08:04,271 - root - INFO -  MACD calculation for TE due to high change percent: 27.9863
+2025-10-09 15:08:04,375 - root - INFO - Last 5 minutes maximum volume candle is red for LAES
+2025-10-09 15:08:04,399 - root - INFO -  MACD calculation for TECX due to high change percent: 10.4818
+2025-10-09 15:08:04,459 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
+2025-10-09 15:08:04,501 - root - INFO - MACD not positive for TECX
+2025-10-09 15:08:04,504 - root - INFO - Profit percent for JFU is -1.5232022670917464
+2025-10-09 15:08:04,504 - root - INFO - Latest 1min close price for JFU: 4.1216
+2025-10-09 15:08:04,544 - root - INFO -  update_current_price: start time 2025-10-09T15:03:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:08:04,567 - root - INFO - No close long conditions met for JFU
+2025-10-09 15:08:04,719 - root - INFO -  MACD calculation for TELO due to high change percent: 17.2727
+2025-10-09 15:08:04,768 - root - INFO - MACD not positive for TELO
+2025-10-09 15:08:06,170 - root - INFO -  MACD calculation for TLRY due to high change percent: 21.8023
+2025-10-09 15:08:07,050 - root - INFO -  MACD calculation for TRAW due to high change percent: 22.0884
+2025-10-09 15:08:07,495 - root - INFO -  update_current_price: start time 2025-10-09T15:03:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:08:09,051 - root - INFO -  MACD calculation for UAMY due to high change percent: 11.812
+2025-10-09 15:08:09,122 - root - INFO - MACD not positive for UAMY
+2025-10-09 15:08:09,622 - root - INFO - Real mode: Today's profit so far: 1716.299974999998
+2025-10-09 15:08:09,643 - root - INFO - Running real_trade for all top movers
+2025-10-09 15:08:09,690 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 15:08:09,704 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:08:09,704 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 15:08:09,819 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 15:08:09,820 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 15:08:09,829 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:08:09,829 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 15:08:09,860 - root - INFO - Last 5 minutes maximum volume candle is green for JFU
+2025-10-09 15:08:09,878 - root - INFO - 1min candle is not positive for JFU: open 4.1992 close 4.1216
+2025-10-09 15:08:09,879 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 15:08:09,888 - root - INFO - Time since last close for BAOS is 72.48148051666666 minutes, net percent 2.05339
+2025-10-09 15:08:09,927 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 15:08:09,981 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-09 15:08:09,982 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 15:08:09,992 - root - INFO - Time since last close for BDRX is 73.48320141666666 minutes, net percent 0.049511
+2025-10-09 15:08:10,027 - root - INFO - Last 5 minutes maximum volume candle is red for BDRX
+2025-10-09 15:08:10,028 - root - INFO - swing_strategy_open_long for scale 5Min stock LAES
+2025-10-09 15:08:10,037 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:08:10,037 - root - INFO - Time since last close for LAES is None minutes, net percent 0
+2025-10-09 15:08:10,250 - root - INFO - Last 5 minutes maximum volume candle is red for LAES
+2025-10-09 15:08:10,299 - root - INFO -  MACD calculation for USAR due to high change percent: 13.9341
+2025-10-09 15:08:10,343 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
+2025-10-09 15:08:10,389 - root - INFO - Profit percent for JFU is -2.7039792183256584
+2025-10-09 15:08:10,390 - root - INFO - Latest 1min close price for JFU: 4.1216
+2025-10-09 15:08:10,422 - root - INFO - MACD not positive for USAR
+2025-10-09 15:08:10,482 - root - INFO - No close long conditions met for JFU
+2025-10-09 15:08:10,495 - root - INFO -  MACD calculation for USARW due to high change percent: 27.7521
+2025-10-09 15:08:10,534 - root - INFO - MACD not positive for USARW
+2025-10-09 15:08:10,628 - root - INFO -  update_current_price: start time 2025-10-09T15:03:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:08:13,197 - root - INFO -  update_current_price: start time 2025-10-09T15:03:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:08:14,816 - root - INFO -  MACD calculation for WETH due to high change percent: 11.4094
+2025-10-09 15:08:15,242 - root - INFO -  MACD calculation for WKEY due to high change percent: 11.6208
+2025-10-09 15:08:15,525 - root - INFO - Real mode: Today's profit so far: 1721.839974999999
+2025-10-09 15:08:15,544 - root - INFO - Running real_trade for all top movers
+2025-10-09 15:08:15,590 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 15:08:15,603 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:08:15,603 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 15:08:15,740 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 15:08:15,741 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 15:08:15,749 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:08:15,749 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 15:08:15,775 - root - INFO - Last 5 minutes maximum volume candle is green for JFU
+2025-10-09 15:08:15,791 - root - INFO - 1min candle is not positive for JFU: open 4.1992 close 4.1216
+2025-10-09 15:08:15,792 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 15:08:15,800 - root - INFO - Time since last close for BAOS is 72.58000053333333 minutes, net percent 2.05339
+2025-10-09 15:08:15,837 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 15:08:15,884 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-09 15:08:15,884 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 15:08:15,892 - root - INFO - Time since last close for BDRX is 73.58154361666668 minutes, net percent 0.049511
+2025-10-09 15:08:15,927 - root - INFO - Last 5 minutes maximum volume candle is red for BDRX
+2025-10-09 15:08:15,928 - root - INFO - swing_strategy_open_long for scale 5Min stock LAES
+2025-10-09 15:08:15,937 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:08:15,937 - root - INFO - Time since last close for LAES is None minutes, net percent 0
+2025-10-09 15:08:16,037 - root - INFO -  update_current_price: start time 2025-10-09T15:03:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:08:16,154 - root - INFO - Last 5 minutes maximum volume candle is red for LAES
+2025-10-09 15:08:16,241 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
+2025-10-09 15:08:16,288 - root - INFO - Profit percent for JFU is -3.766678474436179
+2025-10-09 15:08:16,288 - root - INFO - Latest 1min close price for JFU: 4.1216
+2025-10-09 15:08:16,346 - root - INFO -  MACD calculation for WWR due to high change percent: 24.183
+2025-10-09 15:08:16,361 - root - INFO - No close long conditions met for JFU
+2025-10-09 15:08:18,561 - root - INFO -  update_current_price: start time 2025-10-09T15:03:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:08:18,869 - root - INFO -  MACD calculation for ZSPC due to high change percent: 48.5981
+2025-10-09 15:08:18,925 - root - INFO - MACD not positive for ZSPC
+2025-10-09 15:08:19,383 - root - INFO - Updating change percent of stocks
+2025-10-09 15:08:20,223 - root - INFO - XTLB change_percent from DB: -15.126829268292674
+2025-10-09 15:08:20,234 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-09 15:08:21,412 - root - INFO - Real mode: Today's profit so far: 1687.1399749999982
+2025-10-09 15:08:21,434 - root - INFO - Running real_trade for all top movers
+2025-10-09 15:08:21,492 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 15:08:21,506 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:08:21,507 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 15:08:21,632 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 15:08:21,634 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 15:08:21,643 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:08:21,644 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 15:08:21,674 - root - INFO - Last 5 minutes maximum volume candle is green for JFU
+2025-10-09 15:08:21,697 - root - INFO - 1min candle is not positive for JFU: open 4.1992 close 4.1216
+2025-10-09 15:08:21,698 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 15:08:21,713 - root - INFO - Time since last close for BAOS is 72.67854641666666 minutes, net percent 2.05339
+2025-10-09 15:08:21,754 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 15:08:21,808 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-09 15:08:21,809 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 15:08:21,824 - root - INFO - Time since last close for BDRX is 73.68040945 minutes, net percent 0.049511
+2025-10-09 15:08:21,866 - root - INFO - Last 5 minutes maximum volume candle is red for BDRX
+2025-10-09 15:08:21,968 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
+2025-10-09 15:08:22,020 - root - INFO - Profit percent for JFU is -3.6486007793127877
+2025-10-09 15:08:22,020 - root - INFO - Latest 1min close price for JFU: 4.1216
+2025-10-09 15:08:22,123 - root - INFO - No close long conditions met for JFU
+2025-10-09 15:08:27,173 - root - INFO - Real mode: Today's profit so far: 1698.099975000001
+2025-10-09 15:08:27,194 - root - INFO - Running real_trade for all top movers
+2025-10-09 15:08:27,251 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 15:08:27,265 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:08:27,266 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 15:08:27,388 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 15:08:27,390 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 15:08:27,401 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:08:27,401 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 15:08:27,431 - root - INFO - Last 5 minutes maximum volume candle is green for JFU
+2025-10-09 15:08:27,465 - root - INFO - 1min candle is not positive for JFU: open 4.1992 close 4.1216
+2025-10-09 15:08:27,466 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 15:08:27,486 - root - INFO - Time since last close for BAOS is 72.77477468333333 minutes, net percent 2.05339
+2025-10-09 15:08:27,531 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 15:08:27,584 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-09 15:08:27,585 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 15:08:27,601 - root - INFO - Time since last close for BDRX is 73.77668098333334 minutes, net percent 0.049511
+2025-10-09 15:08:27,636 - root - INFO - Last 5 minutes maximum volume candle is red for BDRX
+2025-10-09 15:08:27,738 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
+2025-10-09 15:08:27,791 - root - INFO - Profit percent for JFU is -3.8847561695595703
+2025-10-09 15:08:27,792 - root - INFO - Latest 1min close price for JFU: 4.1216
+2025-10-09 15:08:27,885 - root - INFO - No close long conditions met for JFU
+2025-10-09 15:08:32,949 - root - INFO - Real mode: Today's profit so far: 1698.599975000001
+2025-10-09 15:08:32,970 - root - INFO - Running real_trade for all top movers
+2025-10-09 15:08:33,027 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 15:08:33,040 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:08:33,041 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 15:08:33,165 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 15:08:33,166 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 15:08:33,177 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:08:33,178 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 15:08:33,211 - root - INFO - Last 5 minutes maximum volume candle is green for JFU
+2025-10-09 15:08:33,243 - root - INFO - 1min candle is not positive for JFU: open 4.1992 close 4.1216
+2025-10-09 15:08:33,244 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 15:08:33,262 - root - INFO - Time since last close for BAOS is 72.87103298333334 minutes, net percent 2.05339
+2025-10-09 15:08:33,311 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 15:08:33,388 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-09 15:08:33,389 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 15:08:33,408 - root - INFO - Time since last close for BDRX is 73.87346943333334 minutes, net percent 0.049511
+2025-10-09 15:08:33,452 - root - INFO - Last 5 minutes maximum volume candle is red for BDRX
+2025-10-09 15:08:33,545 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
+2025-10-09 15:08:33,599 - root - INFO - Profit percent for JFU is -3.8847561695595703
+2025-10-09 15:08:33,599 - root - INFO - Latest 1min close price for JFU: 4.1216
+2025-10-09 15:08:33,704 - root - INFO - No close long conditions met for JFU
+2025-10-09 15:08:38,765 - root - INFO - Real mode: Today's profit so far: 1691.5199749999992
+2025-10-09 15:08:38,786 - root - INFO - Running real_trade for all top movers
+2025-10-09 15:08:38,840 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 15:08:38,854 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:08:38,854 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 15:08:38,968 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 15:08:38,969 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 15:08:38,983 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:08:38,984 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 15:08:39,015 - root - INFO - Last 5 minutes maximum volume candle is green for JFU
+2025-10-09 15:08:39,046 - root - INFO - 1min candle is not positive for JFU: open 4.1992 close 4.1216
+2025-10-09 15:08:39,047 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 15:08:39,064 - root - INFO - Time since last close for BAOS is 72.96772941666667 minutes, net percent 2.05339
+2025-10-09 15:08:39,108 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 15:08:39,179 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-09 15:08:39,180 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 15:08:39,199 - root - INFO - Time since last close for BDRX is 73.96999263333333 minutes, net percent 0.049511
+2025-10-09 15:08:39,245 - root - INFO - Last 5 minutes maximum volume candle is red for BDRX
+2025-10-09 15:08:39,335 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
+2025-10-09 15:08:39,385 - root - INFO - Profit percent for JFU is -4.357066950053135
+2025-10-09 15:08:39,385 - root - INFO - Latest 1min close price for JFU: 4.1216
+2025-10-09 15:08:39,488 - root - INFO - No close long conditions met for JFU
+2025-10-09 15:08:44,545 - root - INFO - Real mode: Today's profit so far: 1691.5199749999992
+2025-10-09 15:08:44,567 - root - INFO - Running real_trade for all top movers
+2025-10-09 15:08:44,625 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 15:08:44,639 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:08:44,639 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 15:08:44,760 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 15:08:44,761 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 15:08:44,772 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:08:44,773 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 15:08:44,805 - root - INFO - Last 5 minutes maximum volume candle is green for JFU
+2025-10-09 15:08:44,828 - root - INFO - 1min candle is not positive for JFU: open 4.1992 close 4.1216
+2025-10-09 15:08:44,829 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 15:08:44,843 - root - INFO - Time since last close for BAOS is 73.0640592 minutes, net percent 2.05339
+2025-10-09 15:08:44,895 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 15:08:44,960 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-09 15:08:44,961 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 15:08:44,977 - root - INFO - Time since last close for BDRX is 74.06628626666667 minutes, net percent 0.049511
+2025-10-09 15:08:45,024 - root - INFO - Last 5 minutes maximum volume candle is red for BDRX
+2025-10-09 15:08:45,124 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
+2025-10-09 15:08:45,181 - root - INFO - Profit percent for JFU is -4.357066950053135
+2025-10-09 15:08:45,182 - root - INFO - Latest 1min close price for JFU: 4.1216
+2025-10-09 15:08:45,284 - root - INFO - No close long conditions met for JFU
+2025-10-09 15:08:50,339 - root - INFO - Real mode: Today's profit so far: 1697.5199749999992
+2025-10-09 15:08:50,361 - root - INFO - Running real_trade for all top movers
+2025-10-09 15:08:50,417 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 15:08:50,433 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:08:50,433 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 15:08:50,584 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 15:08:50,586 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 15:08:50,596 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:08:50,597 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 15:08:50,637 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
+2025-10-09 15:08:50,638 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 15:08:50,651 - root - INFO - Time since last close for BAOS is 73.16084978333333 minutes, net percent 2.05339
+2025-10-09 15:08:50,699 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 15:08:50,729 - root - INFO - 1min candle is not positive for BAOS: open 4.9405 close 4.92
+2025-10-09 15:08:50,731 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 15:08:50,747 - root - INFO - Time since last close for BDRX is 74.16244898333333 minutes, net percent 0.049511
+2025-10-09 15:08:50,790 - root - INFO - Last 20 minutes volume is low for BDRX: 49071
+2025-10-09 15:08:50,889 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
+2025-10-09 15:08:50,946 - root - INFO - Profit percent for JFU is -4.357066950053135
+2025-10-09 15:08:50,947 - root - INFO - Latest 1min close price for JFU: 4.05
+2025-10-09 15:08:51,061 - root - INFO - No close long conditions met for JFU
+2025-10-09 15:08:56,121 - root - INFO - Real mode: Today's profit so far: 1692.5199749999992
+2025-10-09 15:08:56,141 - root - INFO - Running real_trade for all top movers
+2025-10-09 15:08:56,189 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 15:08:56,200 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:08:56,201 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 15:08:56,325 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 15:08:56,327 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 15:08:56,340 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:08:56,341 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 15:08:56,385 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
+2025-10-09 15:08:56,386 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 15:08:56,405 - root - INFO - Time since last close for BAOS is 73.25675055 minutes, net percent 2.05339
+2025-10-09 15:08:56,449 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 15:08:56,474 - root - INFO - 1min candle is not positive for BAOS: open 4.9405 close 4.92
+2025-10-09 15:08:56,475 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 15:08:56,489 - root - INFO - Time since last close for BDRX is 74.25815996666667 minutes, net percent 0.049511
+2025-10-09 15:08:56,559 - root - INFO - Last 20 minutes volume is low for BDRX: 49071
+2025-10-09 15:08:56,662 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
+2025-10-09 15:08:56,732 - root - INFO - Profit percent for JFU is -4.357066950053135
+2025-10-09 15:08:56,732 - root - INFO - Latest 1min close price for JFU: 4.05
+2025-10-09 15:08:56,852 - root - INFO - No close long conditions met for JFU
+2025-10-09 15:09:01,914 - root - INFO - Real mode: Today's profit so far: 1701.5199749999992
+2025-10-09 15:09:01,938 - root - INFO - Running real_trade for all top movers
+2025-10-09 15:09:01,993 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 15:09:02,007 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:09:02,007 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 15:09:02,130 - root - INFO - Last 5 minutes maximum volume candle is red for BJDX
+2025-10-09 15:09:02,131 - root - INFO - swing_strategy_open_long for scale 5Min stock JFU
+2025-10-09 15:09:02,142 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:09:02,143 - root - INFO - Time since last close for JFU is None minutes, net percent 0
+2025-10-09 15:09:02,197 - root - INFO - Last 5 minutes maximum volume candle is red for JFU
+2025-10-09 15:09:02,199 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 15:09:02,220 - root - INFO - Time since last close for BAOS is 73.35367055 minutes, net percent 2.05339
+2025-10-09 15:09:02,623 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 15:09:02,656 - root - INFO - 1min candle is not positive for BAOS: open 4.9405 close 4.92
+2025-10-09 15:09:02,657 - root - INFO - swing_strategy_open_long for scale 5Min stock BDRX
+2025-10-09 15:09:02,673 - root - INFO - Time since last close for BDRX is 74.36122858333333 minutes, net percent 0.049511
+2025-10-09 15:09:02,732 - root - INFO - Last 20 minutes volume is low for BDRX: 49071
+2025-10-09 15:09:02,828 - root - INFO - swing_strategy_close_long for scale 5Min stock JFU
+2025-10-09 15:09:02,889 - root - INFO - Profit percent for JFU is -4.357066950053135
+2025-10-09 15:09:02,889 - root - INFO - Latest 1min close price for JFU: 4.05
+2025-10-09 15:09:02,984 - root - INFO - No close long conditions met for JFU
+2025-10-09 15:09:08,030 - root - INFO - Real mode: Today's profit so far: 1697.589974999999
+2025-10-09 15:09:08,049 - root - INFO - Running real_trade for all top movers
+2025-10-09 15:09:08,105 - root - INFO - swing_strategy_open_long for scale 5Min stock BJDX
+2025-10-09 15:09:08,118 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 15:09:08,119 - root - INFO - Time since last close for BJDX is None minutes, net percent 0
+2025-10-09 15:09:20,309 - root - INFO - Real mode: Today's profit so far: 1700.0599750000001
+2025-10-09 15:09:20,334 - root - INFO - ('2025-10-09T20:58:00-04:00', '2025-10-09T20:58:00-04:00', '2025-10-02T09:30:00-04:00', '2025-10-09T20:58:00-04:00')
+2025-10-09 15:09:20,334 - root - INFO - Screening stocks | Start: 2025-10-02T09:30:00-04:00 | End: 2025-10-09T20:58:00-04:00
+2025-10-09 15:09:20,368 - root - INFO -  update_current_price: start time 2025-10-09T15:04:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:09:24,472 - root - ERROR - **** failed to fetch bars ['AACB', 'AACBU', 'AACG', 'AACI', 'AACIU', 'AACIW', 'AACT', 'AAL', 'AAM', 'AAME', 'AARD', 'AAT', 'AAUC', 'ABAT', 'ABCL', 'ABEO', 'ABEV', 'ABL', 'ABLLL', 'ABLLW', 'ABLV', 'ABOS', 'ABR', 'ABSI', 'ABTS', 'ABUS', 'ABVC', 'ABVE', 'ABVEW', 'ACAD', 'ACB', 'ACCO', 'ACCS', 'ACDC', 'ACEL', 'ACET', 'ACGLN', 'ACGLO', 'ACHC', 'ACHR', 'ACHV', 'ACI', 'ACIC', 'ACIU', 'ACNT', 'ACOG', 'ACON', 'ACP', 'ACR', 'ACRE', 'ACRS', 'ACRV', 'ACTG', 'ACTU', 'ACV', 'ACVA', 'ACXP', 'ADAG', 'ADCT', 'ADEA', 'ADGM', 'ADMA', 'ADN', 'ADNT', 'ADPT', 'ADSE', 'ADSEW', 'ADT', 'ADTN', 'ADTX', 'ADUR', 'ADV', 'ADVM', 'ADX', 'ADXN', 'AEF', 'AEFC', 'AEG', 'AEHL', 'AEHR', 'AEI', 'AEMD', 'AENT', 'AEO', 'AEON', 'AERT', 'AES', 'AESI', 'AEVA', 'AEYE', 'AFB', 'AFBI', 'AFCG', 'AFGB', 'AFGC', 'AFGD', 'AFGE', 'AFJK', 'AFJKU', 'AFRI']
+2025-10-09 15:09:24,472 - root - ERROR - Error details: Internal Server Error
+2025-10-09 15:09:24,473 - root - INFO -  update_current_price: start time 2025-10-09T15:04:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:09:26,671 - root - INFO -  MACD calculation for AMBO due to high change percent: 42.2801
+2025-10-09 15:09:26,710 - root - INFO - MACD not positive for AMBO
+2025-10-09 15:09:27,193 - root - INFO -  MACD calculation for AMLX due to high change percent: 11.3872
+2025-10-09 15:09:27,260 - root - INFO - MACD not positive for AMLX
+2025-10-09 15:09:27,392 - root - INFO -  update_current_price: start time 2025-10-09T15:04:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:09:30,074 - root - INFO -  update_current_price: start time 2025-10-09T15:04:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:09:32,508 - root - INFO -  update_current_price: start time 2025-10-09T15:04:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:09:33,247 - root - INFO -  MACD calculation for BAOS due to high change percent: 49.2447
+2025-10-09 15:09:33,654 - root - INFO -  MACD calculation for BBAR due to high change percent: 14.2248
+2025-10-09 15:09:34,693 - root - INFO -  MACD calculation for BDRX due to high change percent: 42.4773
+2025-10-09 15:09:36,047 - root - INFO -  update_current_price: start time 2025-10-09T15:04:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:09:36,330 - root - INFO -  MACD calculation for BHVN due to high change percent: 10.2999
+2025-10-09 15:09:36,772 - root - INFO -  MACD calculation for BJDX due to high change percent: 93.1176
+2025-10-09 15:09:36,930 - root - INFO -  MACD calculation for BKD due to high change percent: 10.468
+2025-10-09 15:09:37,046 - root - INFO - MACD not positive for BKD
+2025-10-09 15:09:38,548 - root - INFO -  update_current_price: start time 2025-10-09T15:04:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:09:40,749 - root - INFO -  MACD calculation for BYRN due to high change percent: 19.693
+2025-10-09 15:09:41,400 - root - INFO -  MACD calculation for CABA due to high change percent: 36.1494
+2025-10-09 15:09:41,475 - root - INFO - MACD not positive for CABA
+2025-10-09 15:09:42,022 - root - INFO -  update_current_price: start time 2025-10-09T15:04:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:09:43,325 - root - INFO -  MACD calculation for CEPU due to high change percent: 12.8625
+2025-10-09 15:09:44,091 - root - INFO -  MACD calculation for CGTX due to high change percent: 11.0795
+2025-10-09 15:09:44,324 - root - INFO -  update_current_price: start time 2025-10-09T15:04:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:09:47,066 - root - INFO -  update_current_price: start time 2025-10-09T15:04:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:09:48,959 - root - INFO -  MACD calculation for CRBP due to high change percent: 14.158
+2025-10-09 15:09:49,816 - root - INFO -  MACD calculation for CRML due to high change percent: 21.0348
+2025-10-09 15:09:50,411 - root - INFO -  MACD calculation for CSIQ due to high change percent: 11.0553
+2025-10-09 15:09:50,477 - root - INFO - MACD not positive for CSIQ
+2025-10-09 15:09:50,910 - root - INFO -  update_current_price: start time 2025-10-09T15:04:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:09:54,723 - root - INFO -  update_current_price: start time 2025-10-09T15:04:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:09:56,511 - root - INFO -  MACD calculation for DPRO due to high change percent: 12.3655
+2025-10-09 15:09:56,583 - root - INFO - MACD not positive for DPRO
+2025-10-09 15:09:57,909 - root - INFO -  update_current_price: start time 2025-10-09T15:04:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:09:59,085 - root - INFO -  MACD calculation for EDN due to high change percent: 10.5968
+2025-10-09 15:10:00,505 - root - INFO -  update_current_price: start time 2025-10-09T15:05:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:10:00,762 - root - INFO -  MACD calculation for ENGN due to high change percent: 12.6856
+2025-10-09 15:10:00,810 - root - INFO - MACD not positive for ENGN
+2025-10-09 15:10:01,199 - root - INFO -  MACD calculation for ENTX due to high change percent: 15.2074
+2025-10-09 15:10:01,236 - root - INFO - MACD not positive for ENTX
+2025-10-09 15:10:03,670 - root - INFO -  update_current_price: start time 2025-10-09T15:05:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:10:05,673 - root - INFO -  update_current_price: start time 2025-10-09T15:05:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:10:07,701 - root - INFO -  update_current_price: start time 2025-10-09T15:05:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:10:08,675 - root - INFO -  MACD calculation for GGAL due to high change percent: 14.5984
+2025-10-09 15:10:09,274 - root - INFO -  MACD calculation for GLTO due to high change percent: 40.939
+2025-10-09 15:10:09,339 - root - INFO - MACD not positive for GLTO
+2025-10-09 15:10:09,489 - root - INFO -  MACD calculation for GNFT due to high change percent: 10.3581
+2025-10-09 15:10:09,512 - root - INFO - MACD not positive for GNFT
+2025-10-09 15:10:09,513 - root - INFO -  update_current_price: start time 2025-10-09T15:05:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:10:09,645 - root - INFO -  MACD calculation for GNLX due to high change percent: 13.6842
+2025-10-09 15:10:12,069 - root - INFO -  update_current_price: start time 2025-10-09T15:05:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:10:14,475 - root - INFO -  update_current_price: start time 2025-10-09T15:05:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:10:16,880 - root - INFO -  update_current_price: start time 2025-10-09T15:05:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:10:19,601 - root - INFO -  update_current_price: start time 2025-10-09T15:05:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:10:20,198 - root - INFO -  MACD calculation for IVVD due to high change percent: 14.7134
+2025-10-09 15:10:20,261 - root - INFO - MACD not positive for IVVD
+2025-10-09 15:10:20,793 - root - INFO -  MACD calculation for JFU due to high change percent: 52.2464
+2025-10-09 15:10:22,070 - root - INFO -  update_current_price: start time 2025-10-09T15:05:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:10:24,311 - root - INFO -  MACD calculation for LAES due to high change percent: 29.4725
+2025-10-09 15:10:25,430 - root - INFO -  update_current_price: start time 2025-10-09T15:05:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:10:27,637 - root - INFO -  update_current_price: start time 2025-10-09T15:05:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:10:28,038 - root - INFO -  MACD calculation for LWLG due to high change percent: 13.9553
+2025-10-09 15:10:28,134 - root - INFO - MACD not positive for LWLG
+2025-10-09 15:10:28,416 - root - INFO -  MACD calculation for LXRX due to high change percent: 15.035
+2025-10-09 15:10:28,485 - root - INFO - MACD not positive for LXRX
+2025-10-09 15:10:30,386 - root - INFO -  update_current_price: start time 2025-10-09T15:05:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:10:32,327 - root - INFO -  update_current_price: start time 2025-10-09T15:05:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:10:33,297 - root - INFO -  MACD calculation for MSPR due to high change percent: 11.8017
+2025-10-09 15:10:34,829 - root - INFO -  update_current_price: start time 2025-10-09T15:05:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:10:35,638 - root - INFO -  MACD calculation for NEOG due to high change percent: 16.4089
+2025-10-09 15:10:35,723 - root - INFO - MACD not positive for NEOG
+2025-10-09 15:10:36,501 - root - INFO -  MACD calculation for NGNE due to high change percent: 23.5385
+2025-10-09 15:10:36,595 - root - INFO - MACD not positive for NGNE
+2025-10-09 15:10:36,801 - root - INFO -  MACD calculation for NIOBW due to high change percent: 20.0164
+2025-10-09 15:10:36,861 - root - INFO - MACD not positive for NIOBW
+2025-10-09 15:10:37,144 - root - INFO -  MACD calculation for NKTX due to high change percent: 11.0431
+2025-10-09 15:10:37,205 - root - INFO - MACD not positive for NKTX
+2025-10-09 15:10:37,592 - root - INFO -  update_current_price: start time 2025-10-09T15:05:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:10:39,626 - root - INFO -  MACD calculation for NVX due to high change percent: 11.1111
+2025-10-09 15:10:40,154 - root - INFO -  update_current_price: start time 2025-10-09T15:05:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:10:42,110 - root - INFO -  MACD calculation for ONMD due to high change percent: 14.3478
+2025-10-09 15:10:42,585 - root - INFO -  update_current_price: start time 2025-10-09T15:05:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 15:10:43,740 - root - INFO -  MACD calculation for OVID due to high change percent: 11.7089
+2025-10-09 15:10:44,099 - root - INFO -  MACD calculation for PATH due to high change percent: 18.8383
+2025-10-09 15:10:44,754 - root - INFO -  update_current_price: start time 2025-10-09T15:05:00-04:00 end_time 2025-10-09T20:58:00-04:00
