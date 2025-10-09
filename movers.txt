@@ -2,10 +2,9 @@ Top Movers:
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  GLTO  |      0      |     0     |    38.4854     | 2219542  |     16.64     |       10.65        |  1140000.0   |  8.004   |  16125358  |      0      | 2025-10-09 09:41:55 |
-|  BAOS  |      0      |     0     |    37.7644     | 21759077 |     4.5301    |        3.31        |   900000.0   |  3.392   |   957839   |      0      | 2025-10-09 09:41:20 |
-|  AMBO  |      0      |     0     |    36.9748     | 1948800  |      4.9      |        3.57        |  2620000.0   | 3.54278  |  1350004   |      0      | 2025-10-09 09:41:13 |
-|  SCWO  |      0      |     0     |      35.3      | 16194715 |     0.9471    |        0.7         |  73370000.0  | 0.40102  |  26261991  |      0      | 2025-10-09 09:39:39 |
+|  GLTO  |      1      |     0     |    56.2441     | 2219542  |     16.64     |       10.65        |  1140000.0   |  8.004   |  16125358  |      0      | 2025-10-09 09:41:55 |
+|  BAOS  |      0      |     0     |    38.0665     | 21787400 |      4.57     |        3.31        |   900000.0   |  3.392   |   957839   |      0      | 2025-10-09 09:44:22 |
+|  AMBO  |      0      |     0     |    37.1148     | 1956879  |     4.895     |        3.57        |  2620000.0   | 3.54278  |  1350004   |      0      | 2025-10-09 09:44:15 |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -19,403 +18,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-09 09:40:27,501 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:40:27,514 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:40:27,515 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:40:27,660 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 09:40:27,661 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:40:27,675 - root - INFO - Time since last close for BAOS is 317.1279185 minutes, net percent 10.7143
-2025-10-09 09:40:27,710 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 09:40:27,733 - root - INFO - 1min candle is not positive for BAOS: open 4.546 close 4.5797
-2025-10-09 09:40:27,734 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 09:40:27,748 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:40:27,748 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 09:40:27,782 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 09:40:27,783 - root - INFO - swing_strategy_open_long for scale 5Min stock SCWO
-2025-10-09 09:40:27,798 - root - INFO - Time since last close for SCWO is 4.613307366666667 minutes, net percent 13.2979
-2025-10-09 09:40:27,798 - root - INFO - ***** stock: SCWO Scale: 5Min Time since last close: 4 minutes
-2025-10-09 09:40:32,964 - root - INFO - Real mode: Today's profit so far: 276.38997499999823
-2025-10-09 09:40:32,987 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:40:33,044 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:40:33,058 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:40:33,059 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:40:33,199 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 09:40:33,201 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:40:33,215 - root - INFO - Time since last close for BAOS is 317.22025655 minutes, net percent 10.7143
-2025-10-09 09:40:33,258 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 09:40:33,286 - root - INFO - 1min candle is not positive for BAOS: open 4.546 close 4.5797
-2025-10-09 09:40:33,287 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 09:40:33,303 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:40:33,303 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 09:40:33,349 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 09:40:33,351 - root - INFO - swing_strategy_open_long for scale 5Min stock SCWO
-2025-10-09 09:40:33,367 - root - INFO - Time since last close for SCWO is 4.7061113 minutes, net percent 13.2979
-2025-10-09 09:40:33,367 - root - INFO - ***** stock: SCWO Scale: 5Min Time since last close: 4 minutes
-2025-10-09 09:40:38,484 - root - INFO - Real mode: Today's profit so far: 251.38997499999823
-2025-10-09 09:40:38,509 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:40:38,564 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:40:38,578 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:40:38,578 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:40:38,739 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 09:40:38,741 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:40:38,753 - root - INFO - Time since last close for BAOS is 317.31255560000005 minutes, net percent 10.7143
-2025-10-09 09:40:38,795 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 09:40:38,820 - root - INFO - 1min candle is not positive for BAOS: open 4.546 close 4.5797
-2025-10-09 09:40:38,821 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 09:40:38,836 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:40:38,836 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 09:40:38,884 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 09:40:38,886 - root - INFO - swing_strategy_open_long for scale 5Min stock SCWO
-2025-10-09 09:40:38,901 - root - INFO - Time since last close for SCWO is 4.798354233333333 minutes, net percent 13.2979
-2025-10-09 09:40:38,901 - root - INFO - ***** stock: SCWO Scale: 5Min Time since last close: 4 minutes
-2025-10-09 09:40:44,026 - root - INFO - Real mode: Today's profit so far: 201.38997499999823
-2025-10-09 09:40:44,051 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:40:44,107 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:40:44,120 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:40:44,121 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:40:44,271 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 09:40:44,272 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:40:44,284 - root - INFO - Time since last close for BAOS is 317.4047312833334 minutes, net percent 10.7143
-2025-10-09 09:40:44,364 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 09:40:44,396 - root - INFO - 1min candle is not positive for BAOS: open 4.546 close 4.5797
-2025-10-09 09:40:44,397 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 09:40:44,415 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:40:44,416 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 09:40:44,458 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 09:40:44,460 - root - INFO - swing_strategy_open_long for scale 5Min stock SCWO
-2025-10-09 09:40:44,476 - root - INFO - Time since last close for SCWO is 4.891276333333334 minutes, net percent 13.2979
-2025-10-09 09:40:44,477 - root - INFO - ***** stock: SCWO Scale: 5Min Time since last close: 4 minutes
-2025-10-09 09:40:49,590 - root - INFO - Real mode: Today's profit so far: 251.38997499999823
-2025-10-09 09:40:49,612 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:40:49,649 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:40:49,660 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:40:49,661 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:40:49,801 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
-2025-10-09 09:40:49,873 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 09:40:49,873 - root - INFO - GLTO:======= 16.64===>BUY========>TrendUp3836507
-2025-10-09 09:40:49,999 - root - CRITICAL - GLTO  90 buy
-2025-10-09 09:40:50,038 - root - INFO - Order didn't go through
-2025-10-09 09:40:50,038 - root - INFO - Placed BUY order for GLTO, qty: 90, price: 16.64, success: False
-2025-10-09 09:40:50,039 - root - INFO - Trade execution NOT COMPLETED for stock: GLTO
-2025-10-09 09:40:50,039 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:40:50,058 - root - INFO - Time since last close for BAOS is 317.5009689 minutes, net percent 10.7143
-2025-10-09 09:40:50,103 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 09:40:50,104 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 09:40:50,115 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:40:50,115 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 09:40:50,154 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 09:40:50,176 - root - INFO - 1min candle is not positive for AMBO: open 4.95 close 4.9
-2025-10-09 09:40:50,177 - root - INFO - swing_strategy_open_long for scale 5Min stock SCWO
-2025-10-09 09:40:50,190 - root - INFO - Time since last close for SCWO is 4.98650465 minutes, net percent 13.2979
-2025-10-09 09:40:50,190 - root - INFO - ***** stock: SCWO Scale: 5Min Time since last close: 4 minutes
-2025-10-09 09:40:55,323 - root - INFO - Real mode: Today's profit so far: 346.38997499999823
-2025-10-09 09:40:55,347 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:40:55,403 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:40:55,416 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:40:55,416 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:40:55,551 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
-2025-10-09 09:40:55,630 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 09:40:55,631 - root - INFO - GLTO:======= 16.64===>BUY========>TrendUp3836507
-2025-10-09 09:40:55,753 - root - CRITICAL - GLTO  90 buy
-2025-10-09 09:40:55,782 - root - INFO - Order didn't go through
-2025-10-09 09:40:55,782 - root - INFO - Placed BUY order for GLTO, qty: 90, price: 16.64, success: False
-2025-10-09 09:40:55,782 - root - INFO - Trade execution NOT COMPLETED for stock: GLTO
-2025-10-09 09:40:55,783 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:40:55,799 - root - INFO - Time since last close for BAOS is 317.59665895 minutes, net percent 10.7143
-2025-10-09 09:40:55,838 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 09:40:55,839 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 09:40:55,849 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:40:55,849 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 09:40:55,883 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 09:40:55,916 - root - INFO - 1min candle is not positive for AMBO: open 4.95 close 4.9
-2025-10-09 09:40:55,918 - root - INFO - swing_strategy_open_long for scale 5Min stock SCWO
-2025-10-09 09:40:55,935 - root - INFO - Time since last close for SCWO is 5.082248766666667 minutes, net percent 13.2979
-2025-10-09 09:40:55,935 - root - INFO - ***** stock: SCWO Scale: 5Min Time since last close: 5 minutes
-2025-10-09 09:41:01,069 - root - INFO - Real mode: Today's profit so far: 438.88997499999823
-2025-10-09 09:41:01,090 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:41:01,146 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:41:01,159 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:41:01,160 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:41:01,288 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
-2025-10-09 09:41:01,373 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 09:41:01,373 - root - INFO - GLTO:======= 16.64===>BUY========>TrendUp3836507
-2025-10-09 09:41:01,489 - root - CRITICAL - GLTO  90 buy
-2025-10-09 09:41:01,516 - root - INFO - Order didn't go through
-2025-10-09 09:41:01,516 - root - INFO - Placed BUY order for GLTO, qty: 90, price: 16.64, success: False
-2025-10-09 09:41:01,516 - root - INFO - Trade execution NOT COMPLETED for stock: GLTO
-2025-10-09 09:41:01,516 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:41:01,527 - root - INFO - Time since last close for BAOS is 317.69211079999997 minutes, net percent 10.7143
-2025-10-09 09:41:01,584 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 09:41:01,585 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 09:41:01,597 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:41:01,597 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 09:41:01,630 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 09:41:01,651 - root - INFO - 1min candle is not positive for AMBO: open 4.95 close 4.9
-2025-10-09 09:41:01,653 - root - INFO - swing_strategy_open_long for scale 5Min stock SCWO
-2025-10-09 09:41:01,666 - root - INFO - Time since last close for SCWO is 5.17776735 minutes, net percent 13.2979
-2025-10-09 09:41:01,666 - root - INFO - ***** stock: SCWO Scale: 5Min Time since last close: 5 minutes
-2025-10-09 09:41:06,782 - root - INFO - Real mode: Today's profit so far: 476.38997499999823
-2025-10-09 09:41:06,806 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:41:06,857 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:41:06,868 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:41:06,868 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:41:06,996 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
-2025-10-09 09:41:07,066 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 09:41:07,067 - root - INFO - GLTO:======= 16.64===>BUY========>TrendUp3836507
-2025-10-09 09:41:07,168 - root - CRITICAL - GLTO  90 buy
-2025-10-09 09:41:07,195 - root - INFO - Order didn't go through
-2025-10-09 09:41:07,196 - root - INFO - Placed BUY order for GLTO, qty: 90, price: 16.64, success: False
-2025-10-09 09:41:07,196 - root - INFO - Trade execution NOT COMPLETED for stock: GLTO
-2025-10-09 09:41:07,196 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:41:07,216 - root - INFO - Time since last close for BAOS is 317.78692839999997 minutes, net percent 10.7143
-2025-10-09 09:41:07,255 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 09:41:07,256 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 09:41:07,268 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:41:07,269 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 09:41:07,288 - root - INFO - Real mode: Today's profit so far: 476.38997499999823
-2025-10-09 09:41:07,305 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 09:41:07,310 - root - INFO - ('2025-10-09T20:58:00-04:00', '2025-10-09T20:58:00-04:00', '2025-10-02T09:30:00-04:00', '2025-10-09T20:58:00-04:00')
-2025-10-09 09:41:07,310 - root - INFO - Screening stocks | Start: 2025-10-02T09:30:00-04:00 | End: 2025-10-09T20:58:00-04:00
-2025-10-09 09:41:07,330 - root - INFO - 1min candle is not positive for AMBO: open 4.95 close 4.9
-2025-10-09 09:41:07,331 - root - INFO - swing_strategy_open_long for scale 5Min stock SCWO
-2025-10-09 09:41:07,340 - root - INFO -  update_current_price: start time 2025-10-09T09:36:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:41:07,347 - root - INFO - Time since last close for SCWO is 5.272450033333333 minutes, net percent 13.2979
-2025-10-09 09:41:07,347 - root - INFO - ***** stock: SCWO Scale: 5Min Time since last close: 5 minutes
-2025-10-09 09:41:10,395 - root - INFO -  update_current_price: start time 2025-10-09T09:36:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:41:12,462 - root - INFO - Real mode: Today's profit so far: 516.2899749999997
-2025-10-09 09:41:12,484 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:41:12,529 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:41:12,540 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:41:12,540 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:41:12,682 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
-2025-10-09 09:41:12,751 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 09:41:12,752 - root - INFO - GLTO:======= 16.64===>BUY========>TrendUp3836507
-2025-10-09 09:41:12,851 - root - CRITICAL - GLTO  90 buy
-2025-10-09 09:41:12,874 - root - INFO - Order didn't go through
-2025-10-09 09:41:12,875 - root - INFO - Placed BUY order for GLTO, qty: 90, price: 16.64, success: False
-2025-10-09 09:41:12,875 - root - INFO - Trade execution NOT COMPLETED for stock: GLTO
-2025-10-09 09:41:12,876 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:41:12,890 - root - INFO - Time since last close for BAOS is 317.8814990166667 minutes, net percent 10.7143
-2025-10-09 09:41:12,927 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 09:41:12,928 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 09:41:12,939 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:41:12,939 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 09:41:12,975 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 09:41:12,995 - root - INFO - 1min candle is not positive for AMBO: open 4.95 close 4.9
-2025-10-09 09:41:12,996 - root - INFO - swing_strategy_open_long for scale 5Min stock SCWO
-2025-10-09 09:41:13,004 - root - INFO - Time since last close for SCWO is 5.366742933333333 minutes, net percent 13.2979
-2025-10-09 09:41:13,004 - root - INFO - ***** stock: SCWO Scale: 5Min Time since last close: 5 minutes
-2025-10-09 09:41:13,117 - root - INFO -  MACD calculation for AMBO due to high change percent: 36.9748
-2025-10-09 09:41:13,762 - root - INFO -  update_current_price: start time 2025-10-09T09:36:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:41:14,903 - root - INFO -  MACD calculation for ANVS due to high change percent: 13.6564
-2025-10-09 09:41:14,959 - root - INFO - MACD not positive for ANVS
-2025-10-09 09:41:17,475 - root - INFO -  update_current_price: start time 2025-10-09T09:36:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:41:18,133 - root - INFO - Real mode: Today's profit so far: 456.2899749999997
-2025-10-09 09:41:18,161 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:41:18,206 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:41:18,219 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:41:18,219 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:41:18,369 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
-2025-10-09 09:41:18,425 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 09:41:18,425 - root - INFO - GLTO:======= 16.64===>BUY========>TrendUp3836507
-2025-10-09 09:41:18,518 - root - CRITICAL - GLTO  90 buy
-2025-10-09 09:41:18,543 - root - INFO - Order didn't go through
-2025-10-09 09:41:18,543 - root - INFO - Placed BUY order for GLTO, qty: 90, price: 16.64, success: False
-2025-10-09 09:41:18,543 - root - INFO - Trade execution NOT COMPLETED for stock: GLTO
-2025-10-09 09:41:18,543 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:41:18,554 - root - INFO - Time since last close for BAOS is 317.9759083166667 minutes, net percent 10.7143
-2025-10-09 09:41:18,588 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 09:41:18,588 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 09:41:18,597 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:41:18,598 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 09:41:18,627 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 09:41:18,646 - root - INFO - 1min candle is not positive for AMBO: open 4.95 close 4.9
-2025-10-09 09:41:18,647 - root - INFO - swing_strategy_open_long for scale 5Min stock SCWO
-2025-10-09 09:41:18,656 - root - INFO - Time since last close for SCWO is 5.460939016666667 minutes, net percent 13.2979
-2025-10-09 09:41:18,656 - root - INFO - ***** stock: SCWO Scale: 5Min Time since last close: 5 minutes
-2025-10-09 09:41:19,583 - root - INFO -  update_current_price: start time 2025-10-09T09:36:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:41:20,104 - root - INFO -  MACD calculation for BAOS due to high change percent: 37.7644
-2025-10-09 09:41:21,880 - root - INFO -  MACD calculation for BDRX due to high change percent: 25.8106
-2025-10-09 09:41:21,926 - root - INFO - MACD not positive for BDRX
-2025-10-09 09:41:22,842 - root - INFO -  update_current_price: start time 2025-10-09T09:36:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:41:23,603 - root - INFO -  MACD calculation for BJDX due to high change percent: 110.701
-2025-10-09 09:41:23,666 - root - INFO - MACD not positive for BJDX
-2025-10-09 09:41:23,792 - root - INFO - Real mode: Today's profit so far: 501.13997499999823
-2025-10-09 09:41:23,816 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:41:23,863 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:41:23,872 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:41:23,873 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:41:23,995 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
-2025-10-09 09:41:24,065 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 09:41:24,066 - root - INFO - GLTO:======= 16.64===>BUY========>TrendUp3836507
-2025-10-09 09:41:24,176 - root - CRITICAL - GLTO  90 buy
-2025-10-09 09:41:24,206 - root - INFO - Order didn't go through
-2025-10-09 09:41:24,206 - root - INFO - Placed BUY order for GLTO, qty: 90, price: 16.64, success: False
-2025-10-09 09:41:24,206 - root - INFO - Trade execution NOT COMPLETED for stock: GLTO
-2025-10-09 09:41:24,206 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:41:24,217 - root - INFO - Time since last close for BAOS is 318.0702919666667 minutes, net percent 10.7143
-2025-10-09 09:41:24,255 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 09:41:24,256 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 09:41:24,268 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:41:24,268 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 09:41:24,300 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 09:41:24,320 - root - INFO - 1min candle is not positive for AMBO: open 4.95 close 4.9
-2025-10-09 09:41:24,321 - root - INFO - swing_strategy_open_long for scale 5Min stock SCWO
-2025-10-09 09:41:24,330 - root - INFO - Time since last close for SCWO is 5.555509483333334 minutes, net percent 13.2979
-2025-10-09 09:41:24,330 - root - INFO - ***** stock: SCWO Scale: 5Min Time since last close: 5 minutes
-2025-10-09 09:41:24,925 - root - INFO -  update_current_price: start time 2025-10-09T09:36:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:41:28,429 - root - INFO -  update_current_price: start time 2025-10-09T09:36:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:41:29,439 - root - INFO - Real mode: Today's profit so far: 561.2899749999997
-2025-10-09 09:41:29,462 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:41:29,506 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:41:29,519 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:41:29,520 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:41:29,643 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
-2025-10-09 09:41:29,713 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 09:41:29,713 - root - INFO - GLTO:======= 16.64===>BUY========>TrendUp3836507
-2025-10-09 09:41:29,817 - root - CRITICAL - GLTO  90 buy
-2025-10-09 09:41:29,843 - root - INFO - Order didn't go through
-2025-10-09 09:41:29,843 - root - INFO - Placed BUY order for GLTO, qty: 90, price: 16.64, success: False
-2025-10-09 09:41:29,843 - root - INFO - Trade execution NOT COMPLETED for stock: GLTO
-2025-10-09 09:41:29,844 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:41:29,860 - root - INFO - Time since last close for BAOS is 318.16433845 minutes, net percent 10.7143
-2025-10-09 09:41:29,903 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 09:41:29,904 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 09:41:29,915 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:41:29,915 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 09:41:29,946 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 09:41:29,968 - root - INFO - 1min candle is not positive for AMBO: open 4.95 close 4.9
-2025-10-09 09:41:29,969 - root - INFO - swing_strategy_open_long for scale 5Min stock SCWO
-2025-10-09 09:41:29,978 - root - INFO - Time since last close for SCWO is 5.649638749999999 minutes, net percent 13.2979
-2025-10-09 09:41:29,978 - root - INFO - ***** stock: SCWO Scale: 5Min Time since last close: 5 minutes
-2025-10-09 09:41:30,658 - root - INFO -  update_current_price: start time 2025-10-09T09:36:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:41:33,251 - root - INFO -  update_current_price: start time 2025-10-09T09:36:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:41:35,096 - root - INFO - Real mode: Today's profit so far: 636.2899749999997
-2025-10-09 09:41:35,139 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:41:35,180 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:41:35,189 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:41:35,189 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:41:35,309 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
-2025-10-09 09:41:35,354 - root - INFO -  MACD calculation for CRML due to high change percent: 11.4504
-2025-10-09 09:41:35,368 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 09:41:35,368 - root - INFO - GLTO:======= 16.64===>BUY========>TrendUp3836507
-2025-10-09 09:41:35,500 - root - INFO -  MACD calculation for CRMLW due to high change percent: 16.8831
-2025-10-09 09:41:35,617 - root - CRITICAL - GLTO  90 buy
-2025-10-09 09:41:35,706 - root - INFO - Order didn't go through
-2025-10-09 09:41:35,707 - root - INFO - Placed BUY order for GLTO, qty: 90, price: 16.64, success: False
-2025-10-09 09:41:35,707 - root - INFO - Trade execution NOT COMPLETED for stock: GLTO
-2025-10-09 09:41:35,708 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:41:35,719 - root - INFO - Time since last close for BAOS is 318.2619832666667 minutes, net percent 10.7143
-2025-10-09 09:41:35,754 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 09:41:35,754 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 09:41:35,765 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:41:35,765 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 09:41:35,797 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 09:41:35,816 - root - INFO - 1min candle is not positive for AMBO: open 4.95 close 4.9
-2025-10-09 09:41:35,817 - root - INFO - swing_strategy_open_long for scale 5Min stock SCWO
-2025-10-09 09:41:35,826 - root - INFO - Time since last close for SCWO is 5.747103333333333 minutes, net percent 13.2979
-2025-10-09 09:41:35,826 - root - INFO - ***** stock: SCWO Scale: 5Min Time since last close: 5 minutes
-2025-10-09 09:41:36,339 - root - INFO -  update_current_price: start time 2025-10-09T09:36:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:41:39,456 - root - INFO -  update_current_price: start time 2025-10-09T09:36:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:41:40,979 - root - INFO - Real mode: Today's profit so far: 621.4399750000011
-2025-10-09 09:41:41,000 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:41:41,039 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:41:41,051 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:41:41,052 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:41:41,233 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
-2025-10-09 09:41:41,295 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 09:41:41,295 - root - INFO - GLTO:======= 16.64===>BUY========>TrendUp3836507
-2025-10-09 09:41:41,398 - root - CRITICAL - GLTO  90 buy
-2025-10-09 09:41:41,424 - root - INFO - Order didn't go through
-2025-10-09 09:41:41,424 - root - INFO - Placed BUY order for GLTO, qty: 90, price: 16.64, success: False
-2025-10-09 09:41:41,424 - root - INFO - Trade execution NOT COMPLETED for stock: GLTO
-2025-10-09 09:41:41,424 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:41:41,433 - root - INFO - Time since last close for BAOS is 318.35722153333336 minutes, net percent 10.7143
-2025-10-09 09:41:41,467 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 09:41:41,467 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 09:41:41,475 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:41:41,475 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 09:41:41,512 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 09:41:41,529 - root - INFO - 1min candle is not positive for AMBO: open 4.95 close 4.9
-2025-10-09 09:41:41,530 - root - INFO - swing_strategy_open_long for scale 5Min stock SCWO
-2025-10-09 09:41:41,538 - root - INFO - Time since last close for SCWO is 5.8423 minutes, net percent 13.2979
-2025-10-09 09:41:41,538 - root - INFO - ***** stock: SCWO Scale: 5Min Time since last close: 5 minutes
-2025-10-09 09:41:42,014 - root - INFO -  update_current_price: start time 2025-10-09T09:36:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:41:44,576 - root - INFO -  update_current_price: start time 2025-10-09T09:36:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:41:46,658 - root - INFO - Real mode: Today's profit so far: 643.7899749999997
-2025-10-09 09:41:46,679 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:41:46,716 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:41:46,723 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:41:46,724 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:41:46,848 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
-2025-10-09 09:41:46,915 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 09:41:46,915 - root - INFO - GLTO:======= 16.64===>BUY========>TrendUp3836507
-2025-10-09 09:41:47,025 - root - CRITICAL - GLTO  90 buy
-2025-10-09 09:41:47,056 - root - INFO - Order didn't go through
-2025-10-09 09:41:47,056 - root - INFO - Placed BUY order for GLTO, qty: 90, price: 16.64, success: False
-2025-10-09 09:41:47,056 - root - INFO - Trade execution NOT COMPLETED for stock: GLTO
-2025-10-09 09:41:47,057 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:41:47,067 - root - INFO - Time since last close for BAOS is 318.4511212666667 minutes, net percent 10.7143
-2025-10-09 09:41:47,101 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 09:41:47,102 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 09:41:47,112 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:41:47,112 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 09:41:47,150 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 09:41:47,173 - root - INFO - 1min candle is not positive for AMBO: open 4.89 close 4.9071
-2025-10-09 09:41:47,174 - root - INFO - swing_strategy_open_long for scale 5Min stock SCWO
-2025-10-09 09:41:47,184 - root - INFO - Time since last close for SCWO is 5.936407166666667 minutes, net percent 13.2979
-2025-10-09 09:41:47,184 - root - INFO - ***** stock: SCWO Scale: 5Min Time since last close: 5 minutes
-2025-10-09 09:41:47,597 - root - INFO -  update_current_price: start time 2025-10-09T09:36:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:41:49,875 - root - INFO -  update_current_price: start time 2025-10-09T09:36:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:41:52,307 - root - INFO - Real mode: Today's profit so far: 606.2899749999997
-2025-10-09 09:41:52,334 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:41:52,373 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:41:52,384 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:41:52,384 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:41:52,390 - root - INFO -  update_current_price: start time 2025-10-09T09:36:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:41:52,579 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
-2025-10-09 09:41:52,648 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 09:41:52,648 - root - INFO - GLTO:======= 16.64===>BUY========>TrendUp3836507
-2025-10-09 09:41:52,753 - root - CRITICAL - GLTO  90 buy
-2025-10-09 09:41:52,778 - root - INFO - Order didn't go through
-2025-10-09 09:41:52,778 - root - INFO - Placed BUY order for GLTO, qty: 90, price: 16.64, success: False
-2025-10-09 09:41:52,778 - root - INFO - Trade execution NOT COMPLETED for stock: GLTO
-2025-10-09 09:41:52,779 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:41:52,789 - root - INFO - Time since last close for BAOS is 318.54649 minutes, net percent 10.7143
-2025-10-09 09:41:52,829 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 09:41:52,831 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 09:41:52,842 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:41:52,842 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 09:41:52,882 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 09:41:52,904 - root - INFO - 1min candle is not positive for AMBO: open 4.89 close 4.9071
-2025-10-09 09:41:52,905 - root - INFO - swing_strategy_open_long for scale 5Min stock SCWO
-2025-10-09 09:41:52,915 - root - INFO - Time since last close for SCWO is 6.031914 minutes, net percent 13.2979
-2025-10-09 09:41:52,915 - root - INFO - ***** stock: SCWO Scale: 5Min Time since last close: 6 minutes
-2025-10-09 09:41:54,598 - root - INFO -  MACD calculation for GLTO due to high change percent: 38.4854
-2025-10-09 09:41:54,942 - root - INFO -  update_current_price: start time 2025-10-09T09:36:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:41:58,055 - root - INFO - Real mode: Today's profit so far: 516.2899749999997
-2025-10-09 09:41:58,081 - root - INFO - Running real_trade for all top movers
-2025-10-09 09:41:58,122 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 09:41:58,134 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:41:58,135 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
-2025-10-09 09:41:58,274 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
-2025-10-09 09:41:58,340 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-09 09:41:58,341 - root - INFO - GLTO:======= 16.64===>BUY========>TrendUp3836507
-2025-10-09 09:41:58,481 - root - CRITICAL - GLTO  90 buy
-2025-10-09 09:41:58,510 - root - INFO - Order didn't go through
-2025-10-09 09:41:58,511 - root - INFO - Placed BUY order for GLTO, qty: 90, price: 16.64, success: False
-2025-10-09 09:41:58,511 - root - INFO - Trade execution NOT COMPLETED for stock: GLTO
-2025-10-09 09:41:58,511 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 09:41:58,522 - root - INFO - Time since last close for BAOS is 318.6420391666667 minutes, net percent 10.7143
-2025-10-09 09:41:58,555 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
-2025-10-09 09:41:58,556 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 09:41:58,567 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 09:41:58,567 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 09:41:58,595 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 09:41:58,613 - root - INFO - 1min candle is not positive for AMBO: open 4.89 close 4.9071
-2025-10-09 09:41:58,614 - root - INFO - swing_strategy_open_long for scale 5Min stock SCWO
-2025-10-09 09:41:58,623 - root - INFO - Time since last close for SCWO is 6.12705295 minutes, net percent 13.2979
-2025-10-09 09:41:58,623 - root - INFO - ***** stock: SCWO Scale: 5Min Time since last close: 6 minutes
-2025-10-09 09:41:58,626 - root - INFO -  update_current_price: start time 2025-10-09T09:36:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 09:42:00,412 - root - INFO -  MACD calculation for HOVRW due to high change percent: 11.6
-2025-10-09 09:42:00,634 - root - INFO -  update_current_price: start time 2025-10-09T09:37:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 09:45:27,544 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 09:45:27,562 - root - INFO - 1min candle is not positive for AMBO: open 4.89 close 4.8857
+2025-10-09 09:45:27,562 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 09:45:27,570 - root - INFO - Time since last close for BAOS is 322.12617765 minutes, net percent 10.7143
+2025-10-09 09:45:27,605 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 09:45:27,648 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 09:45:27,723 - root - INFO -  MACD calculation for NGNE due to high change percent: 10.6465
+2025-10-09 09:45:27,728 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 09:45:27,859 - root - INFO - Profit percent for GLTO is -3.569904707722941
+2025-10-09 09:45:27,859 - root - INFO - Latest 1min close price for GLTO: 16.64
+2025-10-09 09:45:27,966 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 09:45:27,966 - root - INFO - Not enough profit percent to scalp for GLTO: -3.569904707722941
+2025-10-09 09:45:28,781 - root - INFO -  MACD calculation for NMG due to high change percent: 10.8939
+2025-10-09 09:45:28,836 - root - INFO - MACD not positive for NMG
+2025-10-09 09:45:29,039 - root - INFO -  update_current_price: start time 2025-10-09T09:40:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 09:45:31,501 - root - INFO -  MACD calculation for NVX due to high change percent: 21.7054
+2025-10-09 09:45:32,083 - root - INFO -  update_current_price: start time 2025-10-09T09:40:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 09:45:33,008 - root - INFO - Real mode: Today's profit so far: 608.9299749999991
+2025-10-09 09:45:33,030 - root - INFO - Running real_trade for all top movers
+2025-10-09 09:45:33,071 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 09:45:33,083 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:45:33,084 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 09:45:33,205 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
+2025-10-09 09:45:33,272 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 09:45:33,272 - root - INFO - GLTO:======= 16.64===>BUY========>TrendUp3836507
+2025-10-09 09:45:33,294 - root - WARNING - ***** stock is already in the positions
+2025-10-09 09:45:33,295 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 09:45:33,304 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:45:33,304 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 09:45:33,336 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 09:45:33,354 - root - INFO - 1min candle is not positive for AMBO: open 4.89 close 4.8857
+2025-10-09 09:45:33,354 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 09:45:33,364 - root - INFO - Time since last close for BAOS is 322.22274396666666 minutes, net percent 10.7143
+2025-10-09 09:45:33,394 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 09:45:33,441 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 09:45:33,517 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 09:45:33,648 - root - INFO - Profit percent for GLTO is -1.920637178210781
+2025-10-09 09:45:33,648 - root - INFO - Latest 1min close price for GLTO: 16.64
+2025-10-09 09:45:33,733 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 09:45:33,733 - root - INFO - Not enough profit percent to scalp for GLTO: -1.920637178210781
+2025-10-09 09:45:34,329 - root - INFO -  update_current_price: start time 2025-10-09T09:40:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 09:45:35,624 - root - INFO -  MACD calculation for OVID due to high change percent: 12.6582
+2025-10-09 09:45:37,568 - root - INFO -  update_current_price: start time 2025-10-09T09:40:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 09:45:38,771 - root - INFO - Real mode: Today's profit so far: 629.8599749999994
+2025-10-09 09:45:38,792 - root - INFO - Running real_trade for all top movers
+2025-10-09 09:45:38,829 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 09:45:38,839 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:45:38,839 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 09:45:38,961 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
+2025-10-09 09:45:39,031 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 09:45:39,032 - root - INFO - GLTO:======= 16.64===>BUY========>TrendUp3836507
+2025-10-09 09:45:39,053 - root - WARNING - ***** stock is already in the positions
+2025-10-09 09:45:39,054 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 09:45:39,063 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:45:39,063 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 09:45:39,093 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 09:45:39,109 - root - INFO - 1min candle is not positive for AMBO: open 4.89 close 4.8857
+2025-10-09 09:45:39,110 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 09:45:39,117 - root - INFO - Time since last close for BAOS is 322.31862681666667 minutes, net percent 10.7143
+2025-10-09 09:45:39,148 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 09:45:39,194 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 09:45:39,272 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 09:45:39,418 - root - INFO - Profit percent for GLTO is -2.112928459678566
+2025-10-09 09:45:39,418 - root - INFO - Latest 1min close price for GLTO: 16.64
+2025-10-09 09:45:39,506 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 09:45:39,506 - root - INFO - Not enough profit percent to scalp for GLTO: -2.112928459678566
+2025-10-09 09:45:39,893 - root - INFO -  update_current_price: start time 2025-10-09T09:40:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 09:45:43,401 - root - INFO -  update_current_price: start time 2025-10-09T09:40:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 09:45:44,559 - root - INFO - Real mode: Today's profit so far: 676.2499749999988
+2025-10-09 09:45:44,580 - root - INFO - Running real_trade for all top movers
+2025-10-09 09:45:44,627 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 09:45:44,637 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:45:44,637 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 09:45:44,790 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
+2025-10-09 09:45:44,871 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 09:45:44,872 - root - INFO - GLTO:======= 16.64===>BUY========>TrendUp3836507
+2025-10-09 09:45:44,895 - root - WARNING - ***** stock is already in the positions
+2025-10-09 09:45:44,895 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 09:45:44,905 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:45:44,905 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 09:45:44,963 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 09:45:44,985 - root - INFO - 1min candle is not positive for AMBO: open 4.89 close 4.8857
+2025-10-09 09:45:44,985 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 09:45:44,996 - root - INFO - Time since last close for BAOS is 322.41660985 minutes, net percent 10.7143
+2025-10-09 09:45:45,035 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 09:45:45,054 - root - INFO - 1min RSI is overbought for BAOS: 70.97647030772153
+2025-10-09 09:45:45,095 - root - INFO -  MACD calculation for RELL due to high change percent: 23.5627
+2025-10-09 09:45:45,137 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 09:45:45,427 - root - INFO - Profit percent for GLTO is 4.963732043806001
+2025-10-09 09:45:45,427 - root - INFO - Latest 1min close price for GLTO: 18.29
+2025-10-09 09:45:45,449 - root - INFO - High price DETECTED for GLTO is 16.64 and setting no_scalp to True
+2025-10-09 09:45:45,562 - root - INFO -  update_current_price: start time 2025-10-09T09:40:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 09:45:47,907 - root - INFO -  MACD calculation for RSVRW due to high change percent: 13.002980625931448
+2025-10-09 09:45:47,942 - root - INFO - MACD not positive for RSVRW
+2025-10-09 09:45:49,058 - root - INFO -  update_current_price: start time 2025-10-09T09:40:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 09:45:50,389 - root - INFO -  MACD calculation for SCWO due to high change percent: 26.0143
+2025-10-09 09:45:50,492 - root - INFO - Real mode: Today's profit so far: 650.0799750000006
+2025-10-09 09:45:50,514 - root - INFO - Running real_trade for all top movers
+2025-10-09 09:45:50,564 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 09:45:50,578 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:45:50,579 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 09:45:50,724 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
+2025-10-09 09:45:50,745 - root - INFO - 1min RSI is overbought for GLTO: 75.29600875817638
+2025-10-09 09:45:50,746 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 09:45:50,757 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:45:50,757 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 09:45:50,806 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 09:45:50,824 - root - INFO - 1min candle is not positive for AMBO: open 4.88 close 4.8399
+2025-10-09 09:45:50,825 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 09:45:50,836 - root - INFO - Time since last close for BAOS is 322.5139321 minutes, net percent 10.7143
+2025-10-09 09:45:50,871 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 09:45:50,890 - root - INFO - 1min RSI is overbought for BAOS: 70.97647030772153
+2025-10-09 09:45:50,966 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 09:45:51,076 - root - INFO -  MACD calculation for SERV due to high change percent: 14.6904
+2025-10-09 09:45:51,106 - root - INFO - Profit percent for GLTO is -0.29867728630351303
+2025-10-09 09:45:51,106 - root - INFO - Latest 1min close price for GLTO: 18.29
+2025-10-09 09:45:51,195 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 09:45:51,195 - root - INFO - Not enough profit percent to scalp for GLTO: -0.29867728630351303
+2025-10-09 09:45:52,090 - root - INFO -  update_current_price: start time 2025-10-09T09:40:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 09:45:55,613 - root - INFO -  update_current_price: start time 2025-10-09T09:40:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 09:45:56,247 - root - INFO - Real mode: Today's profit so far: 574.7499749999988
+2025-10-09 09:45:56,266 - root - INFO - Running real_trade for all top movers
+2025-10-09 09:45:56,303 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 09:45:56,312 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:45:56,313 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 09:45:56,446 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
+2025-10-09 09:45:56,464 - root - INFO - 1min RSI is overbought for GLTO: 75.29600875817638
+2025-10-09 09:45:56,465 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 09:45:56,474 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:45:56,474 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 09:45:56,505 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 09:45:56,520 - root - INFO - 1min candle is not positive for AMBO: open 4.88 close 4.8399
+2025-10-09 09:45:56,520 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 09:45:56,528 - root - INFO - Time since last close for BAOS is 322.6088002166667 minutes, net percent 10.7143
+2025-10-09 09:45:56,571 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 09:45:56,586 - root - INFO - 1min RSI is overbought for BAOS: 70.97647030772153
+2025-10-09 09:45:56,659 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 09:45:56,791 - root - INFO - Profit percent for GLTO is -3.228559237661783
+2025-10-09 09:45:56,791 - root - INFO - Latest 1min close price for GLTO: 18.29
+2025-10-09 09:45:56,877 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 09:45:56,877 - root - INFO - Not enough profit percent to scalp for GLTO: -3.228559237661783
+2025-10-09 09:45:59,003 - root - INFO -  update_current_price: start time 2025-10-09T09:40:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 09:45:59,421 - root - INFO -  MACD calculation for SUGP due to high change percent: 20.8912
+2025-10-09 09:46:01,924 - root - INFO - Real mode: Today's profit so far: 628.8099750000001
+2025-10-09 09:46:01,944 - root - INFO - Running real_trade for all top movers
+2025-10-09 09:46:01,991 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 09:46:02,002 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:46:02,003 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 09:46:02,010 - root - INFO -  MACD calculation for TCRT due to high change percent: 22.973
+2025-10-09 09:46:02,135 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
+2025-10-09 09:46:02,153 - root - INFO - 1min RSI is overbought for GLTO: 75.29600875817638
+2025-10-09 09:46:02,154 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 09:46:02,162 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:46:02,162 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 09:46:02,196 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 09:46:02,214 - root - INFO - 1min candle is not positive for AMBO: open 4.88 close 4.8399
+2025-10-09 09:46:02,215 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 09:46:02,225 - root - INFO - Time since last close for BAOS is 322.7037481666667 minutes, net percent 10.7143
+2025-10-09 09:46:02,260 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 09:46:02,278 - root - INFO - 1min RSI is overbought for BAOS: 70.97647030772153
+2025-10-09 09:46:02,426 - root - INFO -  update_current_price: start time 2025-10-09T09:41:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 09:46:02,486 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 09:46:02,537 - root - INFO -  MACD calculation for TELO due to high change percent: 17.2727
+2025-10-09 09:46:02,601 - root - INFO - MACD not positive for TELO
+2025-10-09 09:46:02,626 - root - INFO - Profit percent for GLTO is -0.46935002133409187
+2025-10-09 09:46:02,626 - root - INFO - Latest 1min close price for GLTO: 18.29
+2025-10-09 09:46:02,738 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 09:46:02,739 - root - INFO - Not enough profit percent to scalp for GLTO: -0.46935002133409187
+2025-10-09 09:46:04,018 - root - INFO -  MACD calculation for TLRY due to high change percent: 16.9128
+2025-10-09 09:46:04,093 - root - INFO - MACD not positive for TLRY
+2025-10-09 09:46:05,134 - root - INFO -  update_current_price: start time 2025-10-09T09:41:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 09:46:06,826 - root - INFO -  MACD calculation for UAMY due to high change percent: 11.7647
+2025-10-09 09:46:06,921 - root - INFO - MACD not positive for UAMY
+2025-10-09 09:46:07,780 - root - INFO - Real mode: Today's profit so far: 625.0599750000001
+2025-10-09 09:46:07,799 - root - INFO - Running real_trade for all top movers
+2025-10-09 09:46:07,842 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 09:46:07,855 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:46:07,856 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 09:46:08,005 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
+2025-10-09 09:46:08,025 - root - INFO - 1min RSI is overbought for GLTO: 75.29600875817638
+2025-10-09 09:46:08,026 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 09:46:08,035 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:46:08,036 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 09:46:08,067 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 09:46:08,083 - root - INFO - 1min candle is not positive for AMBO: open 4.88 close 4.8399
+2025-10-09 09:46:08,083 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 09:46:08,091 - root - INFO - Time since last close for BAOS is 322.8015168333333 minutes, net percent 10.7143
+2025-10-09 09:46:08,123 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 09:46:08,137 - root - INFO - 1min RSI is overbought for BAOS: 70.97647030772153
+2025-10-09 09:46:08,211 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 09:46:08,369 - root - INFO - Profit percent for GLTO is -0.48812402218745554
+2025-10-09 09:46:08,369 - root - INFO - Latest 1min close price for GLTO: 18.29
+2025-10-09 09:46:08,402 - root - INFO -  MACD calculation for USARW due to high change percent: 10.1516
+2025-10-09 09:46:08,454 - root - INFO - MACD not positive for USARW
+2025-10-09 09:46:08,462 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 09:46:08,462 - root - INFO - Not enough profit percent to scalp for GLTO: -0.48812402218745554
+2025-10-09 09:46:08,507 - root - INFO -  update_current_price: start time 2025-10-09T09:41:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 09:46:11,063 - root - INFO -  update_current_price: start time 2025-10-09T09:41:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 09:46:13,513 - root - INFO - Real mode: Today's profit so far: 575.4299749999991
+2025-10-09 09:46:13,536 - root - INFO - Running real_trade for all top movers
+2025-10-09 09:46:13,577 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 09:46:13,586 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:46:13,586 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 09:46:13,757 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
+2025-10-09 09:46:13,776 - root - INFO - 1min RSI is overbought for GLTO: 75.29600875817638
+2025-10-09 09:46:13,776 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 09:46:13,784 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:46:13,784 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 09:46:13,826 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 09:46:13,842 - root - INFO - 1min candle is not positive for AMBO: open 4.88 close 4.8399
+2025-10-09 09:46:13,842 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 09:46:13,850 - root - INFO - Time since last close for BAOS is 322.8975043666667 minutes, net percent 10.7143
+2025-10-09 09:46:13,880 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 09:46:13,895 - root - INFO - 1min RSI is overbought for BAOS: 70.97647030772153
+2025-10-09 09:46:13,975 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 09:46:14,090 - root - INFO -  update_current_price: start time 2025-10-09T09:41:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 09:46:14,190 - root - INFO - Profit percent for GLTO is -1.5218318873559948
+2025-10-09 09:46:14,190 - root - INFO - Latest 1min close price for GLTO: 18.29
+2025-10-09 09:46:14,332 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 09:46:14,332 - root - INFO - Not enough profit percent to scalp for GLTO: -1.5218318873559948
+2025-10-09 09:46:14,561 - root - INFO -  MACD calculation for WWR due to high change percent: 16.0131
+2025-10-09 09:46:15,593 - root - INFO - FIND stocks Change percent for XTLB: -12.1951
+2025-10-09 09:46:16,388 - root - INFO -  update_current_price: start time 2025-10-09T09:41:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 09:46:16,555 - root - INFO -  MACD calculation for ZSPC due to high change percent: 22.4299
+2025-10-09 09:46:16,914 - root - INFO - Updating change percent of stocks
+2025-10-09 09:46:17,814 - root - INFO - XTLB change_percent from DB: -11.70731707317072
+2025-10-09 09:46:17,825 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-09 09:46:19,383 - root - INFO - Real mode: Today's profit so far: 554.089974999999
+2025-10-09 09:46:19,405 - root - INFO - Running real_trade for all top movers
+2025-10-09 09:46:19,443 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 09:46:19,453 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:46:19,453 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 09:46:19,593 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
+2025-10-09 09:46:19,612 - root - INFO - 1min RSI is overbought for GLTO: 75.45036657763282
+2025-10-09 09:46:19,614 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 09:46:19,623 - root - INFO - Time since last close for BAOS is 322.9937296833333 minutes, net percent 10.7143
+2025-10-09 09:46:19,670 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 09:46:19,690 - root - INFO - 1min RSI is overbought for BAOS: 70.97647030772153
+2025-10-09 09:46:19,691 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 09:46:19,701 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:46:19,701 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 09:46:19,748 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 09:46:19,785 - root - INFO - 1min candle is not positive for AMBO: open 4.88 close 4.8399
+2025-10-09 09:46:19,901 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 09:46:20,182 - root - INFO - Profit percent for GLTO is -2.659650120893187
+2025-10-09 09:46:20,183 - root - INFO - Latest 1min close price for GLTO: 18.34
+2025-10-09 09:46:20,220 - root - INFO - High price DETECTED for GLTO is 18.29 and setting no_scalp to True
+2025-10-09 09:46:25,283 - root - INFO - Real mode: Today's profit so far: 586.8099750000001
+2025-10-09 09:46:25,305 - root - INFO - Running real_trade for all top movers
+2025-10-09 09:46:25,362 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 09:46:25,375 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:46:25,376 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 09:46:25,539 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
+2025-10-09 09:46:25,567 - root - INFO - 1min RSI is overbought for GLTO: 75.45036657763282
+2025-10-09 09:46:25,569 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 09:46:25,588 - root - INFO - Time since last close for BAOS is 323.09313456666666 minutes, net percent 10.7143
+2025-10-09 09:46:25,624 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 09:46:25,650 - root - INFO - 1min RSI is overbought for BAOS: 70.97647030772153
+2025-10-09 09:46:25,651 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 09:46:25,663 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:46:25,663 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 09:46:25,707 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 09:46:25,736 - root - INFO - 1min candle is not positive for AMBO: open 4.88 close 4.8399
+2025-10-09 09:46:25,894 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 09:46:26,096 - root - INFO - Profit percent for GLTO is -1.0877542312615558
+2025-10-09 09:46:26,096 - root - INFO - Latest 1min close price for GLTO: 18.34
+2025-10-09 09:46:26,220 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 09:46:26,220 - root - INFO - Not enough profit percent to scalp for GLTO: -1.0877542312615558
+2025-10-09 09:46:31,276 - root - INFO - Real mode: Today's profit so far: 596.5099750000008
+2025-10-09 09:46:31,299 - root - INFO - Running real_trade for all top movers
+2025-10-09 09:46:31,357 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 09:46:31,371 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:46:31,371 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 09:46:31,499 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
+2025-10-09 09:46:31,519 - root - INFO - 1min RSI is overbought for GLTO: 75.45036657763282
+2025-10-09 09:46:31,520 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 09:46:31,529 - root - INFO - Time since last close for BAOS is 323.19215383333335 minutes, net percent 10.7143
+2025-10-09 09:46:31,571 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 09:46:31,609 - root - INFO - 1min RSI is overbought for BAOS: 70.97647030772153
+2025-10-09 09:46:31,610 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 09:46:31,626 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:46:31,627 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 09:46:31,670 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 09:46:31,696 - root - INFO - 1min candle is not positive for AMBO: open 4.88 close 4.8399
+2025-10-09 09:46:31,788 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 09:46:31,932 - root - INFO - Profit percent for GLTO is -2.31830465083203
+2025-10-09 09:46:31,933 - root - INFO - Latest 1min close price for GLTO: 18.34
+2025-10-09 09:46:32,059 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 09:46:32,059 - root - INFO - Not enough profit percent to scalp for GLTO: -2.31830465083203
+2025-10-09 09:46:37,113 - root - INFO - Real mode: Today's profit so far: 609.1299749999998
+2025-10-09 09:46:37,135 - root - INFO - Running real_trade for all top movers
+2025-10-09 09:46:37,191 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 09:46:37,203 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:46:37,203 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 09:46:37,358 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
+2025-10-09 09:46:37,387 - root - INFO - 1min RSI is overbought for GLTO: 75.45036657763282
+2025-10-09 09:46:37,389 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 09:46:37,407 - root - INFO - Time since last close for BAOS is 323.2901203833333 minutes, net percent 10.7143
+2025-10-09 09:46:37,447 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 09:46:37,476 - root - INFO - 1min RSI is overbought for BAOS: 70.97647030772153
+2025-10-09 09:46:37,477 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 09:46:37,493 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:46:37,493 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 09:46:37,534 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 09:46:37,561 - root - INFO - 1min candle is not positive for AMBO: open 4.88 close 4.8399
+2025-10-09 09:46:37,659 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 09:46:37,797 - root - INFO - Profit percent for GLTO is -2.233537192433509
+2025-10-09 09:46:37,798 - root - INFO - Latest 1min close price for GLTO: 18.34
+2025-10-09 09:46:37,925 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 09:46:37,925 - root - INFO - Not enough profit percent to scalp for GLTO: -2.233537192433509
+2025-10-09 09:46:42,972 - root - INFO - Real mode: Today's profit so far: 603.5599750000001
+2025-10-09 09:46:42,994 - root - INFO - Running real_trade for all top movers
+2025-10-09 09:46:43,046 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 09:46:43,059 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:46:43,060 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 09:46:43,208 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
+2025-10-09 09:46:43,239 - root - INFO - 1min RSI is overbought for GLTO: 75.45036657763282
+2025-10-09 09:46:43,241 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 09:46:43,257 - root - INFO - Time since last close for BAOS is 323.3876246333333 minutes, net percent 10.7143
+2025-10-09 09:46:43,302 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 09:46:43,335 - root - INFO - 1min RSI is overbought for BAOS: 70.97647030772153
+2025-10-09 09:46:43,338 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 09:46:43,356 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:46:43,357 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 09:46:43,395 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 09:46:43,422 - root - INFO - 1min candle is not positive for AMBO: open 4.88 close 4.8399
+2025-10-09 09:46:43,518 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 09:46:43,733 - root - INFO - Profit percent for GLTO is -1.066704593941118
+2025-10-09 09:46:43,733 - root - INFO - Latest 1min close price for GLTO: 18.34
+2025-10-09 09:46:43,822 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 09:46:43,822 - root - INFO - Not enough profit percent to scalp for GLTO: -1.066704593941118
+2025-10-09 09:46:48,876 - root - INFO - Real mode: Today's profit so far: 599.1799749999991
+2025-10-09 09:46:48,895 - root - INFO - Running real_trade for all top movers
+2025-10-09 09:46:48,935 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 09:46:48,944 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:46:48,944 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 09:46:49,076 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
+2025-10-09 09:46:49,142 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 09:46:49,142 - root - INFO - GLTO:======= 17.34===>BUY========>TrendUp4876212
+2025-10-09 09:46:49,170 - root - WARNING - ***** stock is already in the positions
+2025-10-09 09:46:49,170 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 09:46:49,180 - root - INFO - Time since last close for BAOS is 323.4863345 minutes, net percent 10.7143
+2025-10-09 09:46:49,238 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 09:46:49,274 - root - INFO - 1min candle is not positive for BAOS: open 4.97 close 4.73
+2025-10-09 09:46:49,276 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 09:46:49,297 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:46:49,298 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 09:46:49,335 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 09:46:49,356 - root - INFO - 1min candle is not positive for AMBO: open 4.83 close 4.84
+2025-10-09 09:46:49,446 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 09:46:49,590 - root - INFO - Profit percent for GLTO is -1.41032570046935
+2025-10-09 09:46:49,590 - root - INFO - Latest 1min close price for GLTO: 17.34
+2025-10-09 09:46:49,713 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 09:46:49,714 - root - INFO - Not enough profit percent to scalp for GLTO: -1.41032570046935
+2025-10-09 09:46:54,760 - root - INFO - Real mode: Today's profit so far: 551.1599749999987
+2025-10-09 09:46:54,781 - root - INFO - Running real_trade for all top movers
+2025-10-09 09:46:54,827 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 09:46:54,836 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:46:54,836 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 09:46:55,001 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
+2025-10-09 09:46:55,093 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 09:46:55,094 - root - INFO - GLTO:======= 17.34===>BUY========>TrendUp4876212
+2025-10-09 09:46:55,116 - root - WARNING - ***** stock is already in the positions
+2025-10-09 09:46:55,117 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 09:46:55,137 - root - INFO - Time since last close for BAOS is 323.58560313333334 minutes, net percent 10.7143
+2025-10-09 09:46:55,246 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 09:46:55,277 - root - INFO - 1min candle is not positive for BAOS: open 4.97 close 4.73
+2025-10-09 09:46:55,279 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 09:46:55,296 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:46:55,297 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 09:46:55,455 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 09:46:55,491 - root - INFO - 1min candle is not positive for AMBO: open 4.83 close 4.84
+2025-10-09 09:46:55,591 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 09:46:55,831 - root - INFO - Profit percent for GLTO is -3.797468354430379
+2025-10-09 09:46:55,832 - root - INFO - Latest 1min close price for GLTO: 17.34
+2025-10-09 09:46:55,944 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 09:46:55,944 - root - INFO - Not enough profit percent to scalp for GLTO: -3.797468354430379
+2025-10-09 09:47:00,993 - root - INFO - Real mode: Today's profit so far: 558.1799749999991
+2025-10-09 09:47:01,013 - root - INFO - Running real_trade for all top movers
+2025-10-09 09:47:01,069 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
+2025-10-09 09:47:01,080 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:47:01,081 - root - INFO - Time since last close for GLTO is None minutes, net percent 0
+2025-10-09 09:47:01,218 - root - INFO - Last 5 minutes maximum volume candle is green for GLTO
+2025-10-09 09:47:01,289 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-09 09:47:01,289 - root - INFO - GLTO:======= 17.34===>BUY========>TrendUp4876212
+2025-10-09 09:47:01,311 - root - WARNING - ***** stock is already in the positions
+2025-10-09 09:47:01,311 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 09:47:01,321 - root - INFO - Time since last close for BAOS is 323.6886941166667 minutes, net percent 10.7143
+2025-10-09 09:47:01,363 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 09:47:01,400 - root - INFO - 1min candle is not positive for BAOS: open 4.97 close 4.73
+2025-10-09 09:47:01,401 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 09:47:01,417 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 09:47:01,418 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 09:47:01,480 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 09:47:01,512 - root - INFO - 1min candle is not positive for AMBO: open 4.83 close 4.84
+2025-10-09 09:47:01,603 - root - INFO - swing_strategy_close_long for scale 5Min stock GLTO
+2025-10-09 09:47:01,749 - root - INFO - Profit percent for GLTO is -3.569904707722941
+2025-10-09 09:47:01,749 - root - INFO - Latest 1min close price for GLTO: 17.34
+2025-10-09 09:47:01,873 - root - INFO - MACD is still rising for stock GLTO
+2025-10-09 09:47:01,873 - root - INFO - Not enough profit percent to scalp for GLTO: -3.569904707722941
