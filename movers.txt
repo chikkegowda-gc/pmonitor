@@ -2,8 +2,9 @@ Top Movers:
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  BAOS  |      0      |     0     |    48.0363     | 22120114 |      4.9      |        3.31        |   900000.0   |  3.392   |   957839   |      0      | 2025-10-09 10:15:15 |
-|  AMBO  |      0      |     0     |     37.535     | 2033777  |      4.91     |        3.57        |  2620000.0   | 3.54278  |  1350004   |      0      | 2025-10-09 10:15:08 |
+|  BAOS  |      0      |     0     |    46.8278     | 22148415 |      4.9      |        3.31        |   900000.0   |  3.392   |   957839   |      0      | 2025-10-09 10:21:18 |
+|  AMBO  |      0      |     0     |    38.3754     | 2049916  |      5.09     |        3.57        |  2620000.0   | 3.54278  |  1350004   |      0      | 2025-10-09 10:21:11 |
+|  WWR   |      0      |     0     |    33.9346     | 3092908  |     2.0492    |        1.53        |  69020000.0  |  1.364   |  8125822   |      0      | 2025-10-09 10:20:02 |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -17,403 +18,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-09 10:15:20,962 - root - INFO - swing_strategy_open_long for scale 5Min stock PRSO
-2025-10-09 10:15:20,969 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:15:20,970 - root - INFO - Time since last close for PRSO is None minutes, net percent 0
-2025-10-09 10:15:21,052 - root - INFO - Last 5 minutes maximum volume candle is red for PRSO
-2025-10-09 10:15:21,052 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 10:15:21,059 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:15:21,060 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 10:15:21,106 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 10:15:21,106 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 10:15:21,114 - root - INFO - Time since last close for GLTO is 13.68523805 minutes, net percent -12.4153
-2025-10-09 10:15:21,251 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 10:15:21,648 - root - INFO -  MACD calculation for BYRN due to high change percent: 15.2031
-2025-10-09 10:15:22,615 - root - INFO -  update_current_price: start time 2025-10-09T10:10:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:15:24,485 - root - INFO -  MACD calculation for CGC due to high change percent: 12.7124
-2025-10-09 10:15:25,083 - root - INFO -  update_current_price: start time 2025-10-09T10:10:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:15:26,358 - root - INFO - Real mode: Today's profit so far: -659.6800250000015
-2025-10-09 10:15:26,471 - root - INFO - Running real_trade for all top movers
-2025-10-09 10:15:26,517 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 10:15:26,528 - root - INFO - Time since last close for BAOS is 352.10879589999996 minutes, net percent 10.7143
-2025-10-09 10:15:26,579 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 10:15:26,631 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 10:15:26,632 - root - INFO - swing_strategy_open_long for scale 5Min stock PRSO
-2025-10-09 10:15:26,641 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:15:26,641 - root - INFO - Time since last close for PRSO is None minutes, net percent 0
-2025-10-09 10:15:26,708 - root - INFO - Last 5 minutes maximum volume candle is red for PRSO
-2025-10-09 10:15:26,709 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 10:15:26,719 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:15:26,719 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 10:15:26,752 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 10:15:26,753 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 10:15:26,763 - root - INFO - Time since last close for GLTO is 13.779383 minutes, net percent -12.4153
-2025-10-09 10:15:26,874 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 10:15:27,674 - root - INFO -  update_current_price: start time 2025-10-09T10:10:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:15:29,863 - root - INFO -  MACD calculation for CRML due to high change percent: 20.4707
-2025-10-09 10:15:30,041 - root - INFO -  MACD calculation for CRMLW due to high change percent: 32.1429
-2025-10-09 10:15:30,935 - root - INFO -  update_current_price: start time 2025-10-09T10:10:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:15:32,015 - root - INFO - Real mode: Today's profit so far: -854.6800250000015
-2025-10-09 10:15:32,036 - root - INFO - Running real_trade for all top movers
-2025-10-09 10:15:32,077 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 10:15:32,088 - root - INFO - Time since last close for BAOS is 352.20147275 minutes, net percent 10.7143
-2025-10-09 10:15:32,147 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 10:15:32,222 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 10:15:32,223 - root - INFO - swing_strategy_open_long for scale 5Min stock PRSO
-2025-10-09 10:15:32,232 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:15:32,232 - root - INFO - Time since last close for PRSO is None minutes, net percent 0
-2025-10-09 10:15:32,316 - root - INFO - Last 5 minutes maximum volume candle is red for PRSO
-2025-10-09 10:15:32,317 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 10:15:32,326 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:15:32,326 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 10:15:32,361 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 10:15:32,362 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 10:15:32,371 - root - INFO - Time since last close for GLTO is 13.872863083333334 minutes, net percent -12.4153
-2025-10-09 10:15:32,493 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 10:15:33,526 - root - INFO -  update_current_price: start time 2025-10-09T10:10:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:15:35,117 - root - INFO -  MACD calculation for DPRO due to high change percent: 14.4772
-2025-10-09 10:15:36,282 - root - INFO -  update_current_price: start time 2025-10-09T10:10:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:15:37,605 - root - INFO - Real mode: Today's profit so far: -887.1800250000015
-2025-10-09 10:15:37,662 - root - INFO - Running real_trade for all top movers
-2025-10-09 10:15:37,702 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 10:15:37,714 - root - INFO - Time since last close for BAOS is 352.2952342666667 minutes, net percent 10.7143
-2025-10-09 10:15:37,759 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 10:15:37,850 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 10:15:37,851 - root - INFO - swing_strategy_open_long for scale 5Min stock PRSO
-2025-10-09 10:15:37,860 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:15:37,860 - root - INFO - Time since last close for PRSO is None minutes, net percent 0
-2025-10-09 10:15:37,936 - root - INFO - Last 5 minutes maximum volume candle is red for PRSO
-2025-10-09 10:15:37,937 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 10:15:37,946 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:15:37,946 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 10:15:37,977 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 10:15:37,977 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 10:15:37,987 - root - INFO - Time since last close for GLTO is 13.966451566666667 minutes, net percent -12.4153
-2025-10-09 10:15:38,094 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 10:15:38,189 - root - INFO -  update_current_price: start time 2025-10-09T10:10:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:15:41,119 - root - INFO -  update_current_price: start time 2025-10-09T10:10:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:15:43,206 - root - INFO - Real mode: Today's profit so far: -887.1800250000015
-2025-10-09 10:15:43,228 - root - INFO - Running real_trade for all top movers
-2025-10-09 10:15:43,269 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 10:15:43,281 - root - INFO - Time since last close for BAOS is 352.3880064833333 minutes, net percent 10.7143
-2025-10-09 10:15:43,334 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 10:15:43,402 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 10:15:43,403 - root - INFO - swing_strategy_open_long for scale 5Min stock PRSO
-2025-10-09 10:15:43,412 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:15:43,412 - root - INFO - Time since last close for PRSO is None minutes, net percent 0
-2025-10-09 10:15:43,522 - root - INFO - Last 5 minutes maximum volume candle is red for PRSO
-2025-10-09 10:15:43,523 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 10:15:43,533 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:15:43,533 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 10:15:43,545 - root - INFO -  update_current_price: start time 2025-10-09T10:10:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:15:43,578 - root - INFO - Last 5 minutes maximum volume candle is red for AMBO
-2025-10-09 10:15:43,581 - root - INFO - swing_strategy_open_long for scale 5Min stock GLTO
-2025-10-09 10:15:43,591 - root - INFO - Time since last close for GLTO is 14.059857899999999 minutes, net percent -12.4153
-2025-10-09 10:15:43,723 - root - INFO - Last 5 minutes maximum volume candle is red for GLTO
-2025-10-09 10:15:45,956 - root - INFO -  update_current_price: start time 2025-10-09T10:10:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:15:47,017 - root - INFO -  MACD calculation for GELS due to high change percent: 13.2812
-2025-10-09 10:15:48,527 - root - INFO -  MACD calculation for GLTO due to high change percent: 33.9906
-2025-10-09 10:15:48,626 - root - INFO - MACD not positive for GLTO
-2025-10-09 10:15:48,832 - root - INFO - Real mode: Today's profit so far: -887.1800250000015
-2025-10-09 10:15:48,868 - root - INFO - Running real_trade for all top movers
-2025-10-09 10:15:48,915 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 10:15:48,932 - root - INFO - Time since last close for BAOS is 352.48220191666667 minutes, net percent 10.7143
-2025-10-09 10:15:48,969 - root - INFO -  update_current_price: start time 2025-10-09T10:10:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:15:48,998 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 10:15:49,053 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 10:15:49,054 - root - INFO - swing_strategy_open_long for scale 5Min stock PRSO
-2025-10-09 10:15:49,063 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:15:49,064 - root - INFO - Time since last close for PRSO is None minutes, net percent 0
-2025-10-09 10:15:49,151 - root - INFO - Last 5 minutes maximum volume candle is red for PRSO
-2025-10-09 10:15:49,152 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 10:15:49,160 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:15:49,160 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 10:15:49,196 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 10:15:49,214 - root - INFO - 9 EMA is in downtrend, not opening long position for AMBO
-2025-10-09 10:15:50,378 - root - INFO -  MACD calculation for GPRO due to high change percent: 13.6364
-2025-10-09 10:15:52,319 - root - INFO -  update_current_price: start time 2025-10-09T10:10:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:15:54,317 - root - INFO - Real mode: Today's profit so far: -958.6800250000015
-2025-10-09 10:15:54,339 - root - INFO - Running real_trade for all top movers
-2025-10-09 10:15:54,380 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 10:15:54,392 - root - INFO - Time since last close for BAOS is 352.5731968666667 minutes, net percent 10.7143
-2025-10-09 10:15:54,447 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 10:15:54,505 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 10:15:54,505 - root - INFO - swing_strategy_open_long for scale 5Min stock PRSO
-2025-10-09 10:15:54,515 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:15:54,515 - root - INFO - Time since last close for PRSO is None minutes, net percent 0
-2025-10-09 10:15:54,600 - root - INFO - Last 5 minutes maximum volume candle is red for PRSO
-2025-10-09 10:15:54,601 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 10:15:54,610 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:15:54,610 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 10:15:54,651 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 10:15:54,670 - root - INFO - 9 EMA is in downtrend, not opening long position for AMBO
-2025-10-09 10:15:55,291 - root - INFO -  MACD calculation for HOVRW due to high change percent: 23.98
-2025-10-09 10:15:55,337 - root - INFO - MACD not positive for HOVRW
-2025-10-09 10:15:55,857 - root - INFO -  update_current_price: start time 2025-10-09T10:10:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:15:58,859 - root - INFO -  update_current_price: start time 2025-10-09T10:10:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:16:00,019 - root - INFO - Real mode: Today's profit so far: -990.530025
-2025-10-09 10:16:00,049 - root - INFO - Running real_trade for all top movers
-2025-10-09 10:16:00,079 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 10:16:00,088 - root - INFO - Time since last close for BAOS is 352.6681310833334 minutes, net percent 10.7143
-2025-10-09 10:16:00,148 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 10:16:00,205 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 10:16:00,206 - root - INFO - swing_strategy_open_long for scale 5Min stock PRSO
-2025-10-09 10:16:00,215 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:16:00,215 - root - INFO - Time since last close for PRSO is None minutes, net percent 0
-2025-10-09 10:16:00,285 - root - INFO - Last 5 minutes maximum volume candle is red for PRSO
-2025-10-09 10:16:00,286 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 10:16:00,295 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:16:00,295 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 10:16:00,334 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 10:16:00,350 - root - INFO - 9 EMA is in downtrend, not opening long position for AMBO
-2025-10-09 10:16:02,278 - root - INFO -  update_current_price: start time 2025-10-09T10:11:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:16:05,359 - root - INFO -  update_current_price: start time 2025-10-09T10:11:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:16:05,459 - root - INFO - Real mode: Today's profit so far: -724.6800250000015
-2025-10-09 10:16:05,480 - root - INFO - Running real_trade for all top movers
-2025-10-09 10:16:05,528 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 10:16:05,539 - root - INFO - Time since last close for BAOS is 352.7589867666667 minutes, net percent 10.7143
-2025-10-09 10:16:05,590 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 10:16:05,669 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 10:16:05,669 - root - INFO - swing_strategy_open_long for scale 5Min stock PRSO
-2025-10-09 10:16:05,678 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:16:05,678 - root - INFO - Time since last close for PRSO is None minutes, net percent 0
-2025-10-09 10:16:05,775 - root - INFO - Last 5 minutes maximum volume candle is red for PRSO
-2025-10-09 10:16:05,776 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 10:16:05,786 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:16:05,786 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 10:16:05,837 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 10:16:05,856 - root - INFO - 9 EMA is in downtrend, not opening long position for AMBO
-2025-10-09 10:16:08,660 - root - INFO -  update_current_price: start time 2025-10-09T10:11:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:16:11,018 - root - INFO - Real mode: Today's profit so far: -659.6800250000015
-2025-10-09 10:16:11,038 - root - INFO - Running real_trade for all top movers
-2025-10-09 10:16:11,044 - root - INFO -  update_current_price: start time 2025-10-09T10:11:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:16:11,081 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 10:16:11,095 - root - INFO - Time since last close for BAOS is 352.8515885 minutes, net percent 10.7143
-2025-10-09 10:16:11,154 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 10:16:11,211 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 10:16:11,211 - root - INFO - swing_strategy_open_long for scale 5Min stock PRSO
-2025-10-09 10:16:11,221 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:16:11,221 - root - INFO - Time since last close for PRSO is None minutes, net percent 0
-2025-10-09 10:16:11,318 - root - INFO - Last 5 minutes maximum volume candle is red for PRSO
-2025-10-09 10:16:11,319 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 10:16:11,328 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:16:11,329 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 10:16:11,372 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 10:16:11,391 - root - INFO - 9 EMA is in downtrend, not opening long position for AMBO
-2025-10-09 10:16:13,145 - root - INFO -  MACD calculation for MCRP due to high change percent: 20.4861
-2025-10-09 10:16:13,248 - root - INFO - MACD not positive for MCRP
-2025-10-09 10:16:13,718 - root - INFO -  update_current_price: start time 2025-10-09T10:11:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:16:15,664 - root - INFO -  update_current_price: start time 2025-10-09T10:11:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:16:16,092 - root - INFO -  MACD calculation for MRM due to high change percent: 15.7635
-2025-10-09 10:16:16,198 - root - INFO - MACD not positive for MRM
-2025-10-09 10:16:16,493 - root - INFO - Real mode: Today's profit so far: -692.1800250000015
-2025-10-09 10:16:16,517 - root - INFO - Running real_trade for all top movers
-2025-10-09 10:16:16,556 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 10:16:16,564 - root - INFO - Time since last close for BAOS is 352.94273541666666 minutes, net percent 10.7143
-2025-10-09 10:16:16,611 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 10:16:16,670 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 10:16:16,671 - root - INFO - swing_strategy_open_long for scale 5Min stock PRSO
-2025-10-09 10:16:16,679 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:16:16,680 - root - INFO - Time since last close for PRSO is None minutes, net percent 0
-2025-10-09 10:16:16,766 - root - INFO - Last 5 minutes maximum volume candle is red for PRSO
-2025-10-09 10:16:16,767 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 10:16:16,776 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:16:16,776 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 10:16:16,809 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 10:16:16,829 - root - INFO - 9 EMA is in downtrend, not opening long position for AMBO
-2025-10-09 10:16:17,942 - root - INFO -  update_current_price: start time 2025-10-09T10:11:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:16:18,091 - root - INFO -  MACD calculation for NB due to high change percent: 12.5678
-2025-10-09 10:16:18,838 - root - INFO -  MACD calculation for NEOG due to high change percent: 17.5258
-2025-10-09 10:16:19,365 - root - INFO -  MACD calculation for NGNE due to high change percent: 11.053
-2025-10-09 10:16:19,908 - root - INFO -  MACD calculation for NMG due to high change percent: 10.0559
-2025-10-09 10:16:19,963 - root - INFO - MACD not positive for NMG
-2025-10-09 10:16:20,162 - root - INFO -  update_current_price: start time 2025-10-09T10:11:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:16:21,575 - root - INFO -  MACD calculation for NVX due to high change percent: 23.2817
-2025-10-09 10:16:21,950 - root - INFO -  update_current_price: start time 2025-10-09T10:11:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:16:21,961 - root - INFO - Real mode: Today's profit so far: -698.6800250000015
-2025-10-09 10:16:21,981 - root - INFO - Running real_trade for all top movers
-2025-10-09 10:16:22,024 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 10:16:22,033 - root - INFO - Time since last close for BAOS is 353.0338861 minutes, net percent 10.7143
-2025-10-09 10:16:22,085 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 10:16:22,157 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 10:16:22,157 - root - INFO - swing_strategy_open_long for scale 5Min stock PRSO
-2025-10-09 10:16:22,167 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:16:22,167 - root - INFO - Time since last close for PRSO is None minutes, net percent 0
-2025-10-09 10:16:22,249 - root - INFO - Last 5 minutes maximum volume candle is red for PRSO
-2025-10-09 10:16:22,251 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 10:16:22,260 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:16:22,260 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 10:16:22,292 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 10:16:22,311 - root - INFO - 9 EMA is in downtrend, not opening long position for AMBO
-2025-10-09 10:16:23,838 - root - INFO -  update_current_price: start time 2025-10-09T10:11:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:16:24,556 - root - INFO -  MACD calculation for OVID due to high change percent: 11.7089
-2025-10-09 10:16:25,209 - root - INFO -  MACD calculation for PATH due to high change percent: 11.4249
-2025-10-09 10:16:26,142 - root - INFO -  update_current_price: start time 2025-10-09T10:11:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:16:27,421 - root - INFO - Real mode: Today's profit so far: -688.280025
-2025-10-09 10:16:27,441 - root - INFO - Running real_trade for all top movers
-2025-10-09 10:16:27,482 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 10:16:27,491 - root - INFO - Time since last close for BAOS is 353.12485765 minutes, net percent 10.7143
-2025-10-09 10:16:27,554 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 10:16:27,625 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 10:16:27,626 - root - INFO - swing_strategy_open_long for scale 5Min stock PRSO
-2025-10-09 10:16:27,636 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:16:27,637 - root - INFO - Time since last close for PRSO is None minutes, net percent 0
-2025-10-09 10:16:27,726 - root - INFO - Last 5 minutes maximum volume candle is red for PRSO
-2025-10-09 10:16:27,727 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 10:16:27,737 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:16:27,737 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 10:16:27,773 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 10:16:27,791 - root - INFO - 9 EMA is in downtrend, not opening long position for AMBO
-2025-10-09 10:16:28,292 - root - INFO -  update_current_price: start time 2025-10-09T10:11:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:16:29,077 - root - INFO -  MACD calculation for PRSO due to high change percent: 41.9708
-2025-10-09 10:16:30,806 - root - INFO -  update_current_price: start time 2025-10-09T10:11:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:16:32,248 - root - INFO -  MACD calculation for RELL due to high change percent: 18.0019
-2025-10-09 10:16:32,294 - root - INFO - MACD not positive for RELL
-2025-10-09 10:16:32,730 - root - INFO -  update_current_price: start time 2025-10-09T10:11:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:16:32,904 - root - INFO - Real mode: Today's profit so far: -692.1800250000015
-2025-10-09 10:16:32,922 - root - INFO - Running real_trade for all top movers
-2025-10-09 10:16:32,962 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 10:16:32,972 - root - INFO - Time since last close for BAOS is 353.2162056833333 minutes, net percent 10.7143
-2025-10-09 10:16:33,027 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 10:16:33,090 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 10:16:33,091 - root - INFO - swing_strategy_open_long for scale 5Min stock PRSO
-2025-10-09 10:16:33,100 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:16:33,100 - root - INFO - Time since last close for PRSO is None minutes, net percent 0
-2025-10-09 10:16:33,185 - root - INFO - Last 5 minutes maximum volume candle is red for PRSO
-2025-10-09 10:16:33,187 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 10:16:33,198 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:16:33,198 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 10:16:33,251 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 10:16:33,270 - root - INFO - 9 EMA is in downtrend, not opening long position for AMBO
-2025-10-09 10:16:34,430 - root - INFO -  MACD calculation for RVSN due to high change percent: 14.9132
-2025-10-09 10:16:34,944 - root - INFO -  update_current_price: start time 2025-10-09T10:11:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:16:35,086 - root - INFO -  MACD calculation for SABS due to high change percent: 10.2564
-2025-10-09 10:16:36,222 - root - INFO -  MACD calculation for SCWO due to high change percent: 23.5571
-2025-10-09 10:16:36,311 - root - INFO - MACD not positive for SCWO
-2025-10-09 10:16:36,788 - root - INFO -  MACD calculation for SERV due to high change percent: 21.8625
-2025-10-09 10:16:37,461 - root - INFO -  MACD calculation for SGML due to high change percent: 12.7312
-2025-10-09 10:16:37,679 - root - INFO -  update_current_price: start time 2025-10-09T10:11:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:16:38,393 - root - INFO - Real mode: Today's profit so far: -659.6800250000015
-2025-10-09 10:16:38,421 - root - INFO - Running real_trade for all top movers
-2025-10-09 10:16:38,461 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 10:16:38,470 - root - INFO - Time since last close for BAOS is 353.30784316666666 minutes, net percent 10.7143
-2025-10-09 10:16:38,529 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 10:16:38,577 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 10:16:38,577 - root - INFO - swing_strategy_open_long for scale 5Min stock PRSO
-2025-10-09 10:16:38,586 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:16:38,586 - root - INFO - Time since last close for PRSO is None minutes, net percent 0
-2025-10-09 10:16:38,672 - root - INFO - Last 5 minutes maximum volume candle is red for PRSO
-2025-10-09 10:16:38,673 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 10:16:38,683 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:16:38,683 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 10:16:38,716 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 10:16:38,735 - root - INFO - 9 EMA is in downtrend, not opening long position for AMBO
-2025-10-09 10:16:40,055 - root - INFO -  update_current_price: start time 2025-10-09T10:11:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:16:42,371 - root - INFO -  update_current_price: start time 2025-10-09T10:11:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:16:42,652 - root - INFO -  MACD calculation for SUGP due to high change percent: 27.3505
-2025-10-09 10:16:43,885 - root - INFO - Real mode: Today's profit so far: -659.6800250000015
-2025-10-09 10:16:43,926 - root - INFO - Running real_trade for all top movers
-2025-10-09 10:16:43,968 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 10:16:43,977 - root - INFO - Time since last close for BAOS is 353.3996182833333 minutes, net percent 10.7143
-2025-10-09 10:16:44,030 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 10:16:44,084 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 10:16:44,085 - root - INFO - swing_strategy_open_long for scale 5Min stock PRSO
-2025-10-09 10:16:44,094 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:16:44,094 - root - INFO - Time since last close for PRSO is None minutes, net percent 0
-2025-10-09 10:16:44,184 - root - INFO - Last 5 minutes maximum volume candle is red for PRSO
-2025-10-09 10:16:44,185 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 10:16:44,195 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:16:44,195 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 10:16:44,230 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 10:16:44,250 - root - INFO - 9 EMA is in downtrend, not opening long position for AMBO
-2025-10-09 10:16:44,730 - root - INFO -  update_current_price: start time 2025-10-09T10:11:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:16:44,860 - root - INFO -  MACD calculation for TELO due to high change percent: 15.8303
-2025-10-09 10:16:44,934 - root - INFO - MACD not positive for TELO
-2025-10-09 10:16:45,986 - root - INFO -  MACD calculation for TLRY due to high change percent: 28.4884
-2025-10-09 10:16:46,993 - root - INFO -  MACD calculation for TRAW due to high change percent: 11.2048
-2025-10-09 10:16:47,463 - root - INFO -  update_current_price: start time 2025-10-09T10:11:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:16:49,383 - root - INFO - Real mode: Today's profit so far: -724.6800250000015
-2025-10-09 10:16:49,409 - root - INFO - Running real_trade for all top movers
-2025-10-09 10:16:49,450 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 10:16:49,460 - root - INFO - Time since last close for BAOS is 353.4910101666666 minutes, net percent 10.7143
-2025-10-09 10:16:49,513 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 10:16:49,532 - root - INFO - 1min candle is not positive for BAOS: open 4.88 close 4.9
-2025-10-09 10:16:49,533 - root - INFO - swing_strategy_open_long for scale 5Min stock PRSO
-2025-10-09 10:16:49,542 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:16:49,542 - root - INFO - Time since last close for PRSO is None minutes, net percent 0
-2025-10-09 10:16:49,625 - root - INFO - Last 5 minutes maximum volume candle is red for PRSO
-2025-10-09 10:16:49,626 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 10:16:49,637 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:16:49,637 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 10:16:49,691 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 10:16:49,758 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 10:16:50,377 - root - INFO -  MACD calculation for USARW due to high change percent: 14.2386
-2025-10-09 10:16:50,555 - root - INFO -  update_current_price: start time 2025-10-09T10:11:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:16:52,880 - root - INFO -  update_current_price: start time 2025-10-09T10:11:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:16:54,905 - root - INFO - Real mode: Today's profit so far: -724.6800250000015
-2025-10-09 10:16:54,945 - root - INFO - Running real_trade for all top movers
-2025-10-09 10:16:54,984 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 10:16:54,995 - root - INFO - Time since last close for BAOS is 353.58326205 minutes, net percent 10.7143
-2025-10-09 10:16:55,043 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 10:16:55,062 - root - INFO - 1min candle is not positive for BAOS: open 4.88 close 4.9
-2025-10-09 10:16:55,063 - root - INFO - swing_strategy_open_long for scale 5Min stock PRSO
-2025-10-09 10:16:55,073 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:16:55,073 - root - INFO - Time since last close for PRSO is None minutes, net percent 0
-2025-10-09 10:16:55,157 - root - INFO - Last 5 minutes maximum volume candle is red for PRSO
-2025-10-09 10:16:55,158 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 10:16:55,166 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:16:55,167 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 10:16:55,202 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 10:16:55,254 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 10:16:55,803 - root - INFO -  update_current_price: start time 2025-10-09T10:11:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:16:56,140 - root - INFO -  MACD calculation for WWR due to high change percent: 26.7974
-2025-10-09 10:16:57,472 - root - INFO - FIND stocks Change percent for XTLB: -14.0976
-2025-10-09 10:16:58,826 - root - INFO -  update_current_price: start time 2025-10-09T10:11:00-04:00 end_time 2025-10-09T20:58:00-04:00
-2025-10-09 10:16:59,056 - root - INFO -  MACD calculation for ZSPC due to high change percent: 23.3645
-2025-10-09 10:16:59,454 - root - INFO - Updating change percent of stocks
-2025-10-09 10:17:00,371 - root - INFO - Real mode: Today's profit so far: -659.6800250000015
-2025-10-09 10:17:00,393 - root - INFO - Running real_trade for all top movers
-2025-10-09 10:17:00,407 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 10:17:00,411 - root - INFO - Time since last close for BAOS is 353.673527 minutes, net percent 10.7143
-2025-10-09 10:17:00,429 - root - INFO - XTLB change_percent from DB: -12.38048780487804
-2025-10-09 10:17:00,442 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-09 10:17:00,453 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 10:17:00,460 - root - INFO - 1min candle is not positive for BAOS: open 4.88 close 4.9
-2025-10-09 10:17:00,461 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 10:17:00,464 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:17:00,464 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 10:17:00,503 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 10:17:00,565 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 10:17:05,669 - root - INFO - Real mode: Today's profit so far: -270.3300249999993
-2025-10-09 10:17:05,688 - root - INFO - Running real_trade for all top movers
-2025-10-09 10:17:05,727 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 10:17:05,739 - root - INFO - Time since last close for BAOS is 353.7623290833333 minutes, net percent 10.7143
-2025-10-09 10:17:05,788 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 10:17:05,808 - root - INFO - 1min candle is not positive for BAOS: open 4.88 close 4.9
-2025-10-09 10:17:05,808 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 10:17:05,817 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:17:05,818 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 10:17:05,851 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 10:17:05,901 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 10:17:11,011 - root - INFO - Real mode: Today's profit so far: -211.18002500000148
-2025-10-09 10:17:11,038 - root - INFO - Running real_trade for all top movers
-2025-10-09 10:17:11,077 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 10:17:11,088 - root - INFO - Time since last close for BAOS is 353.8514697333333 minutes, net percent 10.7143
-2025-10-09 10:17:11,150 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 10:17:11,169 - root - INFO - 1min candle is not positive for BAOS: open 4.88 close 4.9
-2025-10-09 10:17:11,170 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 10:17:11,180 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:17:11,180 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 10:17:11,216 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 10:17:11,284 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-09 10:17:16,393 - root - INFO - Real mode: Today's profit so far: -139.68002500000148
-2025-10-09 10:17:16,422 - root - INFO - Running real_trade for all top movers
-2025-10-09 10:17:16,461 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
-2025-10-09 10:17:16,472 - root - INFO - Time since last close for BAOS is 353.94120861666664 minutes, net percent 10.7143
-2025-10-09 10:17:16,607 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
-2025-10-09 10:17:16,626 - root - INFO - 1min candle is not positive for BAOS: open 4.88 close 4.9
-2025-10-09 10:17:16,626 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
-2025-10-09 10:17:16,635 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-09 10:17:16,636 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
-2025-10-09 10:17:16,717 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
-2025-10-09 10:17:16,782 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:20:20,563 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 10:20:20,565 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 10:20:20,582 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:20:20,583 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 10:20:20,624 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 10:20:20,694 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:20:20,695 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 10:20:20,709 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:20:20,709 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 10:20:20,872 - root - INFO - Last 5 minutes maximum volume candle is green for WWR
+2025-10-09 10:20:20,892 - root - INFO - 1min RSI is overbought for WWR: 81.64099337828728
+2025-10-09 10:20:26,002 - root - INFO - Real mode: Today's profit so far: 697.3599749999994
+2025-10-09 10:20:26,027 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:20:26,082 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:20:26,097 - root - INFO - Time since last close for BAOS is 357.10161858333333 minutes, net percent 10.7143
+2025-10-09 10:20:26,156 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 10:20:26,158 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 10:20:26,174 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:20:26,175 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 10:20:26,208 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 10:20:26,275 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:20:26,276 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 10:20:26,293 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:20:26,293 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 10:20:26,502 - root - INFO - Last 5 minutes maximum volume candle is green for WWR
+2025-10-09 10:20:26,524 - root - INFO - 1min RSI is overbought for WWR: 81.64099337828728
+2025-10-09 10:20:31,635 - root - INFO - Real mode: Today's profit so far: 681.1599749999987
+2025-10-09 10:20:31,662 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:20:31,721 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:20:31,735 - root - INFO - Time since last close for BAOS is 357.19559225 minutes, net percent 10.7143
+2025-10-09 10:20:31,792 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 10:20:31,793 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 10:20:31,810 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:20:31,810 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 10:20:31,848 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 10:20:31,930 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:20:31,932 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 10:20:31,949 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:20:31,950 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 10:20:32,123 - root - INFO - Last 5 minutes maximum volume candle is green for WWR
+2025-10-09 10:20:32,142 - root - INFO - 1min RSI is overbought for WWR: 81.64099337828728
+2025-10-09 10:20:37,258 - root - INFO - Real mode: Today's profit so far: 681.1599749999987
+2025-10-09 10:20:37,278 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:20:37,336 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:20:37,350 - root - INFO - Time since last close for BAOS is 357.28917386666666 minutes, net percent 10.7143
+2025-10-09 10:20:37,399 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 10:20:37,401 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 10:20:37,419 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:20:37,419 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 10:20:37,460 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 10:20:37,525 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:20:37,527 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 10:20:37,545 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:20:37,545 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 10:20:37,701 - root - INFO - Last 5 minutes maximum volume candle is green for WWR
+2025-10-09 10:20:37,721 - root - INFO - 1min RSI is overbought for WWR: 81.64099337828728
+2025-10-09 10:20:42,831 - root - INFO - Real mode: Today's profit so far: 676.2599750000008
+2025-10-09 10:20:42,852 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:20:42,910 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:20:42,924 - root - INFO - Time since last close for BAOS is 357.38206006666667 minutes, net percent 10.7143
+2025-10-09 10:20:42,982 - root - INFO - Last 5 minutes maximum volume candle is red for BAOS
+2025-10-09 10:20:42,983 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 10:20:42,998 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:20:42,998 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 10:20:43,039 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 10:20:43,102 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:20:43,104 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 10:20:43,120 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:20:43,120 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 10:20:43,292 - root - INFO - Last 5 minutes maximum volume candle is green for WWR
+2025-10-09 10:20:43,313 - root - INFO - 1min RSI is overbought for WWR: 81.64099337828728
+2025-10-09 10:20:48,433 - root - INFO - Real mode: Today's profit so far: 691.1599749999987
+2025-10-09 10:20:48,453 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:20:48,508 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:20:48,522 - root - INFO - Time since last close for BAOS is 357.47536553333333 minutes, net percent 10.7143
+2025-10-09 10:20:48,579 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:20:48,648 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:20:48,649 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 10:20:48,667 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:20:48,668 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 10:20:48,706 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 10:20:48,779 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:20:48,780 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 10:20:48,791 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:20:48,792 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 10:20:49,001 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
+2025-10-09 10:20:54,132 - root - INFO - Real mode: Today's profit so far: 716.1599749999987
+2025-10-09 10:20:54,154 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:20:54,211 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:20:54,221 - root - INFO - Time since last close for BAOS is 357.57035715 minutes, net percent 10.7143
+2025-10-09 10:20:54,267 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:20:54,334 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:20:54,335 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 10:20:54,351 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:20:54,351 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 10:20:54,395 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 10:20:54,462 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:20:54,464 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 10:20:54,481 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:20:54,482 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 10:20:54,685 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
+2025-10-09 10:20:59,811 - root - INFO - Real mode: Today's profit so far: 725.9599749999979
+2025-10-09 10:20:59,836 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:20:59,893 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:20:59,907 - root - INFO - Time since last close for BAOS is 357.66512401666665 minutes, net percent 10.7143
+2025-10-09 10:20:59,963 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:21:00,041 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:21:00,042 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 10:21:00,052 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:21:00,052 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 10:21:00,088 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 10:21:00,312 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:21:00,312 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 10:21:00,322 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:21:00,322 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 10:21:00,511 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
+2025-10-09 10:21:05,620 - root - INFO - Real mode: Today's profit so far: 725.9599749999979
+2025-10-09 10:21:05,649 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:21:05,702 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:21:05,716 - root - INFO - Time since last close for BAOS is 357.7619358333333 minutes, net percent 10.7143
+2025-10-09 10:21:05,776 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:21:05,854 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:21:05,855 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 10:21:05,868 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:21:05,869 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 10:21:05,908 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 10:21:05,936 - root - INFO - Real mode: Today's profit so far: 725.9599749999979
+2025-10-09 10:21:05,961 - root - INFO - ('2025-10-09T20:58:00-04:00', '2025-10-09T20:58:00-04:00', '2025-10-02T09:30:00-04:00', '2025-10-09T20:58:00-04:00')
+2025-10-09 10:21:05,962 - root - INFO - Screening stocks | Start: 2025-10-02T09:30:00-04:00 | End: 2025-10-09T20:58:00-04:00
+2025-10-09 10:21:05,990 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:21:05,991 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 10:21:05,998 - root - INFO -  update_current_price: start time 2025-10-09T10:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:21:06,002 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:21:06,002 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 10:21:06,168 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
+2025-10-09 10:21:06,894 - root - INFO -  MACD calculation for ABVEW due to high change percent: 16.6786
+2025-10-09 10:21:08,568 - root - INFO -  MACD calculation for ADVM due to high change percent: 11.373
+2025-10-09 10:21:09,176 - root - INFO -  update_current_price: start time 2025-10-09T10:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:21:11,256 - root - INFO - Real mode: Today's profit so far: 725.9599749999979
+2025-10-09 10:21:11,276 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:21:11,315 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:21:11,327 - root - INFO - Time since last close for BAOS is 357.8554487166667 minutes, net percent 10.7143
+2025-10-09 10:21:11,381 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:21:11,442 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:21:11,443 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 10:21:11,452 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:21:11,452 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 10:21:11,460 - root - INFO -  MACD calculation for AMBO due to high change percent: 38.3754
+2025-10-09 10:21:11,489 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 10:21:11,538 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:21:11,539 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 10:21:11,549 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:21:11,549 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 10:21:11,700 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
+2025-10-09 10:21:11,990 - root - INFO -  update_current_price: start time 2025-10-09T10:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:21:13,746 - root - INFO -  MACD calculation for ARAI due to high change percent: 17.2225
+2025-10-09 10:21:15,074 - root - INFO -  update_current_price: start time 2025-10-09T10:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:21:16,247 - root - INFO -  MACD calculation for ATOS due to high change percent: 15.3153
+2025-10-09 10:21:16,803 - root - INFO - Real mode: Today's profit so far: 698.1599749999987
+2025-10-09 10:21:16,824 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:21:16,867 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:21:16,877 - root - INFO - Time since last close for BAOS is 357.94795243333334 minutes, net percent 10.7143
+2025-10-09 10:21:17,031 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:21:17,100 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:21:17,101 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 10:21:17,111 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:21:17,111 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 10:21:17,151 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 10:21:17,200 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:21:17,201 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 10:21:17,210 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:21:17,211 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 10:21:17,362 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
+2025-10-09 10:21:17,560 - root - INFO -  update_current_price: start time 2025-10-09T10:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:21:18,029 - root - INFO -  MACD calculation for BAOS due to high change percent: 46.8278
+2025-10-09 10:21:19,182 - root - INFO -  MACD calculation for BDRX due to high change percent: 26.8482
+2025-10-09 10:21:19,211 - root - INFO - MACD not positive for BDRX
+2025-10-09 10:21:19,744 - root - INFO -  update_current_price: start time 2025-10-09T10:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:21:20,266 - root - INFO -  MACD calculation for BJDX due to high change percent: 92.5241
+2025-10-09 10:21:20,331 - root - INFO - MACD not positive for BJDX
+2025-10-09 10:21:22,096 - root - INFO -  update_current_price: start time 2025-10-09T10:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:21:22,454 - root - INFO - Real mode: Today's profit so far: 706.1599749999987
+2025-10-09 10:21:22,476 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:21:22,525 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:21:22,538 - root - INFO - Time since last close for BAOS is 358.04229413333337 minutes, net percent 10.7143
+2025-10-09 10:21:22,586 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:21:22,636 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:21:22,637 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 10:21:22,647 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:21:22,647 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 10:21:22,681 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 10:21:22,740 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:21:22,741 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 10:21:22,751 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:21:22,751 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 10:21:22,909 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
+2025-10-09 10:21:24,233 - root - INFO -  MACD calculation for BYRN due to high change percent: 15.7895
+2025-10-09 10:21:25,103 - root - INFO -  update_current_price: start time 2025-10-09T10:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:21:27,451 - root - INFO -  update_current_price: start time 2025-10-09T10:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:21:28,008 - root - INFO - Real mode: Today's profit so far: 711.1599749999987
+2025-10-09 10:21:28,028 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:21:28,070 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:21:28,080 - root - INFO - Time since last close for BAOS is 358.13467599999996 minutes, net percent 10.7143
+2025-10-09 10:21:28,127 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:21:28,181 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:21:28,181 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 10:21:28,190 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:21:28,190 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 10:21:28,380 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 10:21:28,432 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:21:28,432 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 10:21:28,441 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:21:28,441 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 10:21:28,583 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
+2025-10-09 10:21:29,878 - root - INFO -  update_current_price: start time 2025-10-09T10:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:21:31,912 - root - INFO -  MACD calculation for CRML due to high change percent: 19.084
+2025-10-09 10:21:32,092 - root - INFO -  MACD calculation for CRMLW due to high change percent: 29.8701
+2025-10-09 10:21:32,883 - root - INFO -  update_current_price: start time 2025-10-09T10:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:21:33,694 - root - INFO - Real mode: Today's profit so far: 711.1599749999987
+2025-10-09 10:21:33,911 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:21:33,951 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:21:33,961 - root - INFO - Time since last close for BAOS is 358.232681 minutes, net percent 10.7143
+2025-10-09 10:21:34,012 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:21:34,062 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:21:34,062 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 10:21:34,072 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:21:34,072 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 10:21:34,111 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 10:21:34,158 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:21:34,159 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 10:21:34,168 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:21:34,169 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 10:21:34,331 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
+2025-10-09 10:21:34,920 - root - INFO -  update_current_price: start time 2025-10-09T10:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:21:36,184 - root - INFO -  MACD calculation for DPRO due to high change percent: 16.9794
+2025-10-09 10:21:37,237 - root - INFO -  update_current_price: start time 2025-10-09T10:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:21:39,439 - root - INFO - Real mode: Today's profit so far: 691.1599749999987
+2025-10-09 10:21:39,458 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:21:39,497 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:21:39,504 - root - INFO - Time since last close for BAOS is 358.32507400000003 minutes, net percent 10.7143
+2025-10-09 10:21:39,551 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:21:39,599 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:21:39,600 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 10:21:39,608 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:21:39,608 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 10:21:39,618 - root - INFO -  update_current_price: start time 2025-10-09T10:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:21:39,641 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 10:21:39,695 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:21:39,696 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 10:21:39,704 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:21:39,705 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 10:21:39,850 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
+2025-10-09 10:21:42,513 - root - INFO -  update_current_price: start time 2025-10-09T10:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:21:44,958 - root - INFO - Real mode: Today's profit so far: 691.1599749999987
+2025-10-09 10:21:44,981 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:21:45,022 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:21:45,034 - root - INFO - Time since last close for BAOS is 358.41724675 minutes, net percent 10.7143
+2025-10-09 10:21:45,087 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:21:45,138 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:21:45,139 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 10:21:45,141 - root - INFO -  update_current_price: start time 2025-10-09T10:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:21:45,148 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:21:45,148 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 10:21:45,182 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 10:21:45,244 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:21:45,245 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 10:21:45,254 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:21:45,254 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 10:21:45,632 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
+2025-10-09 10:21:47,430 - root - INFO -  update_current_price: start time 2025-10-09T10:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:21:48,136 - root - INFO -  MACD calculation for GELS due to high change percent: 14.8359
+2025-10-09 10:21:49,599 - root - INFO -  MACD calculation for GLTO due to high change percent: 26.2911
+2025-10-09 10:21:49,677 - root - INFO - MACD not positive for GLTO
+2025-10-09 10:21:50,132 - root - INFO -  update_current_price: start time 2025-10-09T10:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:21:50,742 - root - INFO - Real mode: Today's profit so far: 716.1599749999987
+2025-10-09 10:21:50,762 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:21:50,804 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:21:50,812 - root - INFO - Time since last close for BAOS is 358.51354653333334 minutes, net percent 10.7143
+2025-10-09 10:21:50,860 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:21:50,910 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:21:50,911 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 10:21:50,920 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:21:50,920 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 10:21:50,957 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 10:21:51,002 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:21:51,003 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 10:21:51,010 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:21:51,010 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 10:21:51,183 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
+2025-10-09 10:21:51,287 - root - INFO -  MACD calculation for GPRO due to high change percent: 11.9364
+2025-10-09 10:21:53,732 - root - INFO -  update_current_price: start time 2025-10-09T10:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:21:56,281 - root - INFO - Real mode: Today's profit so far: 681.1599749999987
+2025-10-09 10:21:56,302 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:21:56,348 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:21:56,367 - root - INFO - Time since last close for BAOS is 358.6061195666667 minutes, net percent 10.7143
+2025-10-09 10:21:56,416 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:21:56,465 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:21:56,466 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 10:21:56,476 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:21:56,476 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 10:21:56,509 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 10:21:56,557 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:21:56,558 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 10:21:56,567 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:21:56,567 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 10:21:56,733 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
+2025-10-09 10:21:57,016 - root - INFO -  update_current_price: start time 2025-10-09T10:16:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:22:00,263 - root - INFO -  update_current_price: start time 2025-10-09T10:17:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:22:01,830 - root - INFO - Real mode: Today's profit so far: 641.1599749999987
+2025-10-09 10:22:01,847 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:22:01,885 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:22:01,895 - root - INFO - Time since last close for BAOS is 358.6982581333333 minutes, net percent 10.7143
+2025-10-09 10:22:01,964 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:22:02,024 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:22:02,025 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 10:22:02,035 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:22:02,035 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 10:22:02,072 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 10:22:02,127 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:22:02,127 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 10:22:02,136 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:22:02,136 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 10:22:02,303 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
+2025-10-09 10:22:02,722 - root - INFO -  update_current_price: start time 2025-10-09T10:17:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:22:05,348 - root - INFO -  update_current_price: start time 2025-10-09T10:17:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:22:07,411 - root - INFO - Real mode: Today's profit so far: 641.1599749999987
+2025-10-09 10:22:07,436 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:22:07,482 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:22:07,493 - root - INFO - Time since last close for BAOS is 358.79155728333336 minutes, net percent 10.7143
+2025-10-09 10:22:07,557 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:22:07,613 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:22:07,614 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 10:22:07,623 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:22:07,623 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 10:22:07,660 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 10:22:07,703 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:22:07,704 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 10:22:07,715 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:22:07,715 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 10:22:07,887 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
+2025-10-09 10:22:08,102 - root - INFO -  update_current_price: start time 2025-10-09T10:17:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:22:11,185 - root - INFO -  update_current_price: start time 2025-10-09T10:17:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:22:12,997 - root - INFO - Real mode: Today's profit so far: 626.4599749999979
+2025-10-09 10:22:13,017 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:22:13,060 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:22:13,074 - root - INFO - Time since last close for BAOS is 358.88456211666664 minutes, net percent 10.7143
+2025-10-09 10:22:13,129 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:22:13,184 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:22:13,184 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 10:22:13,194 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:22:13,194 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 10:22:13,229 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 10:22:13,276 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:22:13,277 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 10:22:13,285 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:22:13,286 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 10:22:13,313 - root - INFO -  MACD calculation for MCRP due to high change percent: 19.1389
+2025-10-09 10:22:13,441 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
+2025-10-09 10:22:13,760 - root - INFO -  update_current_price: start time 2025-10-09T10:17:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:22:16,384 - root - INFO -  update_current_price: start time 2025-10-09T10:17:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:22:16,808 - root - INFO -  MACD calculation for MRM due to high change percent: 16.0099
+2025-10-09 10:22:16,881 - root - INFO - MACD not positive for MRM
+2025-10-09 10:22:18,546 - root - INFO - Real mode: Today's profit so far: 646.1599749999987
+2025-10-09 10:22:18,564 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:22:18,602 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:22:18,611 - root - INFO - Time since last close for BAOS is 358.97685693333335 minutes, net percent 10.7143
+2025-10-09 10:22:18,656 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:22:18,701 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:22:18,702 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 10:22:18,710 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:22:18,710 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 10:22:18,740 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 10:22:18,789 - root - INFO -  update_current_price: start time 2025-10-09T10:17:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:22:18,792 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:22:18,793 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 10:22:18,805 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:22:18,805 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 10:22:18,934 - root - INFO -  MACD calculation for NB due to high change percent: 13.626
+2025-10-09 10:22:18,966 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
+2025-10-09 10:22:19,857 - root - INFO -  MACD calculation for NEOG due to high change percent: 17.5258
+2025-10-09 10:22:21,556 - root - INFO -  MACD calculation for NMG due to high change percent: 10.0559
+2025-10-09 10:22:21,614 - root - INFO - MACD not positive for NMG
+2025-10-09 10:22:21,824 - root - INFO -  update_current_price: start time 2025-10-09T10:17:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:22:23,391 - root - INFO -  MACD calculation for NVX due to high change percent: 21.7054
+2025-10-09 10:22:23,784 - root - INFO -  update_current_price: start time 2025-10-09T10:17:00-04:00 end_time 2025-10-09T20:58:00-04:00
+2025-10-09 10:22:24,075 - root - INFO - Real mode: Today's profit so far: 646.1599749999987
+2025-10-09 10:22:24,090 - root - INFO - Running real_trade for all top movers
+2025-10-09 10:22:24,108 - root - INFO - swing_strategy_open_long for scale 5Min stock BAOS
+2025-10-09 10:22:24,112 - root - INFO - Time since last close for BAOS is 359.0685416833333 minutes, net percent 10.7143
+2025-10-09 10:22:24,158 - root - INFO - Last 5 minutes maximum volume candle is green for BAOS
+2025-10-09 10:22:24,200 - root - INFO - Trend up basic conditions not met for BAOS: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:22:24,201 - root - INFO - swing_strategy_open_long for scale 5Min stock AMBO
+2025-10-09 10:22:24,204 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:22:24,204 - root - INFO - Time since last close for AMBO is None minutes, net percent 0
+2025-10-09 10:22:24,234 - root - INFO - Last 5 minutes maximum volume candle is green for AMBO
+2025-10-09 10:22:24,271 - root - INFO - Trend up basic conditions not met for AMBO: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-09 10:22:24,271 - root - INFO - swing_strategy_open_long for scale 5Min stock WWR
+2025-10-09 10:22:24,275 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-09 10:22:24,275 - root - INFO - Time since last close for WWR is None minutes, net percent 0
+2025-10-09 10:22:24,404 - root - INFO - Last 5 minutes maximum volume candle is red for WWR
