@@ -2,8 +2,8 @@ Top Movers:
 +--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  SLE   |      0      |     0     |    58.1461     | 3345789 |      5.63     |        3.56        |  13570000.0  |   3.71   |   144436   |      0      | 2025-10-10 09:12:27 |
-|  FMFC  |      0      |     0     |    38.2979     |  25133  |      11.7     |        8.46        |     0.0      |  13.954  |   733889   |      0      | 2025-10-10 09:10:55 |
+|  SLE   |      0      |     0     |    61.7978     | 6729357 |      5.76     |        3.56        |  13570000.0  |   3.71   |   144436   |      0      | 2025-10-10 09:17:41 |
+|  FMFC  |      0      |     0     |    41.0165     |  25822  |     11.93     |        8.46        |     0.0      |  13.954  |   733889   |      0      | 2025-10-10 09:14:58 |
 +--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -17,403 +17,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-10 09:10:03,596 - root - INFO - Time since last close for SLE is None minutes, net percent 0
-2025-10-10 09:10:03,644 - root - INFO - Last 5 minutes maximum volume candle is green for SLE
-2025-10-10 09:10:03,702 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-10 09:10:03,702 - root - INFO - SLE:======= 5.0989===>BUY========>TrendUp2185607
-2025-10-10 09:10:03,726 - root - WARNING - ***** stock is already in the positions
-2025-10-10 09:10:03,727 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 09:10:03,736 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 09:10:03,736 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 09:10:03,790 - root - INFO - Last 20 minutes volume is low for FMFC: 20839
-2025-10-10 09:10:03,870 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
-2025-10-10 09:10:03,925 - root - INFO - Profit percent for SLE is 0.33399602385685884
-2025-10-10 09:10:03,925 - root - INFO - Latest 1min close price for SLE: 5.0989
-2025-10-10 09:10:03,997 - root - INFO - MACD is still rising for stock SLE
-2025-10-10 09:10:03,997 - root - INFO - Not enough profit percent to scalp for SLE: 0.33399602385685884
-2025-10-10 09:10:14,055 - root - INFO - Real mode: Today's profit so far: 704.7099749999979
-2025-10-10 09:10:14,077 - root - INFO - Running real_trade for all top movers
-2025-10-10 09:10:14,078 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 09:10:14,078 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 09:10:14,127 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 09:10:14,138 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 09:10:14,139 - root - INFO - Time since last close for SLE is None minutes, net percent 0
-2025-10-10 09:10:14,187 - root - INFO - Last 5 minutes maximum volume candle is green for SLE
-2025-10-10 09:10:14,242 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-10 09:10:14,242 - root - INFO - SLE:======= 5.0989===>BUY========>TrendUp2185607
-2025-10-10 09:10:14,263 - root - WARNING - ***** stock is already in the positions
-2025-10-10 09:10:14,264 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 09:10:14,275 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 09:10:14,275 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 09:10:14,351 - root - INFO - Last 20 minutes volume is low for FMFC: 20839
-2025-10-10 09:10:14,434 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
-2025-10-10 09:10:14,491 - root - INFO - Profit percent for SLE is -0.9940357852882704
-2025-10-10 09:10:14,491 - root - INFO - Latest 1min close price for SLE: 5.0989
-2025-10-10 09:10:14,576 - root - INFO - MACD is still rising for stock SLE
-2025-10-10 09:10:14,576 - root - INFO - Not enough profit percent to scalp for SLE: -0.9940357852882704
-2025-10-10 09:10:24,633 - root - INFO - Real mode: Today's profit so far: 781.0299750000049
-2025-10-10 09:10:24,662 - root - INFO - Running real_trade for all top movers
-2025-10-10 09:10:24,663 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 09:10:24,663 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 09:10:24,704 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 09:10:24,714 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 09:10:24,715 - root - INFO - Time since last close for SLE is None minutes, net percent 0
-2025-10-10 09:10:24,761 - root - INFO - Last 5 minutes maximum volume candle is green for SLE
-2025-10-10 09:10:24,821 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-10 09:10:24,821 - root - INFO - SLE:======= 5.0989===>BUY========>TrendUp2185607
-2025-10-10 09:10:24,849 - root - WARNING - ***** stock is already in the positions
-2025-10-10 09:10:24,850 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 09:10:24,861 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 09:10:24,861 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 09:10:24,909 - root - INFO - Last 20 minutes volume is low for FMFC: 20839
-2025-10-10 09:10:24,992 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
-2025-10-10 09:10:25,046 - root - INFO - Profit percent for SLE is 3.9761431411530817
-2025-10-10 09:10:25,046 - root - INFO - Latest 1min close price for SLE: 5.0989
-2025-10-10 09:10:25,121 - root - INFO - MACD is still rising for stock SLE
-2025-10-10 09:10:25,122 - root - INFO - Not enough profit percent to scalp for SLE: 3.9761431411530817
-2025-10-10 09:10:35,165 - root - INFO - Real mode: Today's profit so far: 739.6899750000011
-2025-10-10 09:10:35,187 - root - INFO - Running real_trade for all top movers
-2025-10-10 09:10:35,188 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 09:10:35,188 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 09:10:35,226 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 09:10:35,237 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 09:10:35,237 - root - INFO - Time since last close for SLE is None minutes, net percent 0
-2025-10-10 09:10:35,284 - root - INFO - Last 5 minutes maximum volume candle is green for SLE
-2025-10-10 09:10:35,333 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-10 09:10:35,334 - root - INFO - SLE:======= 5.0989===>BUY========>TrendUp2185607
-2025-10-10 09:10:35,355 - root - WARNING - ***** stock is already in the positions
-2025-10-10 09:10:35,355 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 09:10:35,364 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 09:10:35,364 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 09:10:35,418 - root - INFO - Last 20 minutes volume is low for FMFC: 20839
-2025-10-10 09:10:35,498 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
-2025-10-10 09:10:35,550 - root - INFO - Profit percent for SLE is 1.3916500994035785
-2025-10-10 09:10:35,550 - root - INFO - Latest 1min close price for SLE: 5.0989
-2025-10-10 09:10:35,626 - root - INFO - MACD is still rising for stock SLE
-2025-10-10 09:10:35,626 - root - INFO - Not enough profit percent to scalp for SLE: 1.3916500994035785
-2025-10-10 09:10:45,677 - root - INFO - Real mode: Today's profit so far: 819.0299750000049
-2025-10-10 09:10:45,701 - root - INFO - Running real_trade for all top movers
-2025-10-10 09:10:45,701 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 09:10:45,702 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 09:10:45,752 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 09:10:45,764 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 09:10:45,764 - root - INFO - Time since last close for SLE is None minutes, net percent 0
-2025-10-10 09:10:45,812 - root - INFO - Last 5 minutes maximum volume candle is green for SLE
-2025-10-10 09:10:45,871 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-10 09:10:45,872 - root - INFO - SLE:======= 5.0989===>BUY========>TrendUp2185607
-2025-10-10 09:10:45,892 - root - WARNING - ***** stock is already in the positions
-2025-10-10 09:10:45,893 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 09:10:45,902 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 09:10:45,902 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 09:10:45,958 - root - INFO - Last 20 minutes volume is low for FMFC: 20839
-2025-10-10 09:10:46,043 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
-2025-10-10 09:10:46,102 - root - INFO - Profit percent for SLE is 5.7654075546719685
-2025-10-10 09:10:46,102 - root - INFO - Latest 1min close price for SLE: 5.0989
-2025-10-10 09:10:46,185 - root - INFO - MACD is still rising for stock SLE
-2025-10-10 09:10:46,185 - root - INFO - Sufficient profit percent to scalp for SLE: 5.7654075546719685
-2025-10-10 09:10:46,185 - root - INFO - SLE:====== 5.0989=========>SELL========>SCALP_PROFIT
-2025-10-10 09:10:46,185 - root - INFO - ******************** CLOSE by SOLD stock:SLE
-2025-10-10 09:10:47,186 - root - INFO - Real mode: Today's profit so far: 803.239975000004
-2025-10-10 09:10:47,206 - root - INFO - ('2025-10-10T20:58:00-04:00', '2025-10-10T20:58:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T20:58:00-04:00')
-2025-10-10 09:10:47,207 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T20:58:00-04:00
-2025-10-10 09:10:47,237 - root - INFO -  update_current_price: start time 2025-10-10T09:05:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:10:47,629 - root - INFO -  update_current_price: start time 2025-10-10T09:05:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:10:48,262 - root - INFO -  update_current_price: start time 2025-10-10T09:05:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:10:48,404 - root - INFO -  MACD calculation for APLD due to high change percent: 27.6886
-2025-10-10 09:10:48,469 - root - INFO - MACD not positive for APLD
-2025-10-10 09:10:48,564 - root - INFO -  MACD calculation for ARAY due to high change percent: 10.2703
-2025-10-10 09:10:48,609 - root - INFO - MACD not positive for ARAY
-2025-10-10 09:10:49,094 - root - INFO -  update_current_price: start time 2025-10-10T09:05:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:10:49,409 - root - INFO -  update_current_price: start time 2025-10-10T09:05:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:10:50,055 - root - INFO -  update_current_price: start time 2025-10-10T09:05:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:10:50,672 - root - INFO -  update_current_price: start time 2025-10-10T09:05:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:10:51,045 - root - INFO -  MACD calculation for CABA due to high change percent: 11.9298
-2025-10-10 09:10:51,433 - root - INFO -  update_current_price: start time 2025-10-10T09:05:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:10:52,108 - root - INFO -  update_current_price: start time 2025-10-10T09:05:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:10:52,248 - root - INFO -  MACD calculation for CODI due to high change percent: 17.415
-2025-10-10 09:10:52,303 - root - INFO - MACD not positive for CODI
-2025-10-10 09:10:52,513 - root - INFO -  MACD calculation for CRML due to high change percent: 14.276
-2025-10-10 09:10:52,584 - root - INFO - MACD not positive for CRML
-2025-10-10 09:10:52,649 - root - INFO -  MACD calculation for CRMLW due to high change percent: 22.449
-2025-10-10 09:10:52,688 - root - INFO - MACD not positive for CRMLW
-2025-10-10 09:10:52,743 - root - INFO -  update_current_price: start time 2025-10-10T09:05:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:10:53,113 - root - INFO -  update_current_price: start time 2025-10-10T09:05:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:10:53,565 - root - INFO -  MACD calculation for DPRO due to high change percent: 10.7413
-2025-10-10 09:10:53,776 - root - INFO -  update_current_price: start time 2025-10-10T09:05:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:10:54,259 - root - INFO -  update_current_price: start time 2025-10-10T09:05:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:10:54,726 - root - INFO -  update_current_price: start time 2025-10-10T09:05:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:10:54,948 - root - INFO -  MACD calculation for FMFC due to high change percent: 34.9882
-2025-10-10 09:10:55,002 - root - INFO -  update_current_price: start time 2025-10-10T09:05:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:10:55,155 - root - INFO -  MACD calculation for FTEL due to high change percent: 11.2335
-2025-10-10 09:10:55,425 - root - INFO -  update_current_price: start time 2025-10-10T09:05:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:10:55,964 - root - INFO -  update_current_price: start time 2025-10-10T09:05:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:10:56,345 - root - INFO - Real mode: Today's profit so far: 803.239975000004
-2025-10-10 09:10:56,365 - root - INFO - Running real_trade for all top movers
-2025-10-10 09:10:56,366 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 09:10:56,366 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 09:10:56,405 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 09:10:56,406 - root - INFO -  MACD calculation for GWH due to high change percent: 120.349
-2025-10-10 09:10:56,413 - root - INFO - Time since last close for SLE is 0.3402264166666667 minutes, net percent 5.79065
-2025-10-10 09:10:56,413 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 0 minutes
-2025-10-10 09:10:56,414 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 09:10:56,423 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 09:10:56,423 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 09:10:56,456 - root - INFO - MACD not positive for GWH
-2025-10-10 09:10:56,475 - root - INFO - Last 20 minutes volume is low for FMFC: 20839
-2025-10-10 09:10:56,636 - root - INFO -  MACD calculation for HCTI due to high change percent: 12.3188
-2025-10-10 09:10:56,809 - root - INFO -  update_current_price: start time 2025-10-10T09:05:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:10:57,561 - root - INFO -  update_current_price: start time 2025-10-10T09:05:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:10:57,844 - root - INFO -  update_current_price: start time 2025-10-10T09:05:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:10:58,319 - root - INFO -  update_current_price: start time 2025-10-10T09:05:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:10:58,743 - root - INFO -  update_current_price: start time 2025-10-10T09:05:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:10:59,195 - root - INFO -  MACD calculation for LEDS due to high change percent: 10.2881
-2025-10-10 09:10:59,478 - root - INFO -  update_current_price: start time 2025-10-10T09:05:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:11:00,098 - root - INFO -  update_current_price: start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:11:00,265 - root - INFO -  update_current_price: start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:11:00,494 - root - INFO -  update_current_price: start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:11:00,758 - root - INFO -  MACD calculation for NMG due to high change percent: 10.5413
-2025-10-10 09:11:00,825 - root - INFO -  update_current_price: start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:11:01,164 - root - INFO -  MACD calculation for NVX due to high change percent: 13.1178
-2025-10-10 09:11:01,247 - root - INFO -  update_current_price: start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:11:01,643 - root - INFO -  update_current_price: start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:11:02,236 - root - INFO -  update_current_price: start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:11:02,538 - root - INFO -  update_current_price: start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:11:03,027 - root - INFO -  update_current_price: start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:11:06,585 - root - INFO - Real mode: Today's profit so far: 803.239975000004
-2025-10-10 09:11:06,609 - root - INFO - Running real_trade for all top movers
-2025-10-10 09:11:06,609 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 09:11:06,609 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 09:11:06,654 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 09:11:06,665 - root - INFO - Time since last close for SLE is 0.5110872333333334 minutes, net percent 5.79065
-2025-10-10 09:11:06,665 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 0 minutes
-2025-10-10 09:11:06,666 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 09:11:06,677 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 09:11:06,677 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 09:11:06,737 - root - INFO - Last 20 minutes volume is low for FMFC: 20839
-2025-10-10 09:11:08,781 - root - INFO -  update_current_price: start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:11:09,197 - root - INFO -  update_current_price: start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:11:09,424 - root - INFO -  MACD calculation for SGBX due to high change percent: 80.5556
-2025-10-10 09:11:09,500 - root - INFO - MACD not positive for SGBX
-2025-10-10 09:11:09,780 - root - INFO -  MACD calculation for SLE due to high change percent: 39.0449
-2025-10-10 09:11:09,892 - root - INFO -  update_current_price: start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:11:10,518 - root - INFO -  update_current_price: start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:11:10,748 - root - INFO -  MACD calculation for TALK due to high change percent: 12.3711
-2025-10-10 09:11:10,873 - root - INFO -  update_current_price: start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:11:10,960 - root - INFO -  MACD calculation for TE due to high change percent: 15.4047
-2025-10-10 09:11:11,000 - root - INFO - MACD not positive for TE
-2025-10-10 09:11:11,564 - root - INFO -  update_current_price: start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:11:11,752 - root - INFO -  MACD calculation for UAMY due to high change percent: 10.6618
-2025-10-10 09:11:11,837 - root - INFO - MACD not positive for UAMY
-2025-10-10 09:11:12,106 - root - INFO -  update_current_price: start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:11:12,594 - root - INFO -  update_current_price: start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:11:12,686 - root - INFO -  MACD calculation for VSME due to high change percent: 13.0769
-2025-10-10 09:11:12,735 - root - INFO - MACD not positive for VSME
-2025-10-10 09:11:12,848 - root - INFO -  MACD calculation for WAI due to high change percent: 21.5686
-2025-10-10 09:11:12,878 - root - INFO - MACD not positive for WAI
-2025-10-10 09:11:12,989 - root - INFO -  update_current_price: start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:11:13,136 - root - INFO -  MACD calculation for WWR due to high change percent: 10.6061
-2025-10-10 09:11:13,425 - root - INFO -  MACD calculation for YHGJ due to high change percent: 36.6667
-2025-10-10 09:11:13,461 - root - INFO - MACD not positive for YHGJ
-2025-10-10 09:11:13,505 - root - INFO -  MACD calculation for YSXT due to high change percent: 23.7864
-2025-10-10 09:11:13,781 - root - INFO - Updating change percent of stocks
-2025-10-10 09:11:14,444 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-10 09:11:16,850 - root - INFO - Real mode: Today's profit so far: 803.239975000004
-2025-10-10 09:11:16,884 - root - INFO - Running real_trade for all top movers
-2025-10-10 09:11:16,884 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 09:11:16,884 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 09:11:16,923 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 09:11:16,934 - root - INFO - Time since last close for SLE is 0.6822364000000001 minutes, net percent 5.79065
-2025-10-10 09:11:16,934 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 0 minutes
-2025-10-10 09:11:16,935 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 09:11:16,944 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 09:11:16,945 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 09:11:16,995 - root - INFO - Last 20 minutes volume is low for FMFC: 20839
-2025-10-10 09:11:27,102 - root - INFO - Real mode: Today's profit so far: 803.239975000004
-2025-10-10 09:11:27,124 - root - INFO - Running real_trade for all top movers
-2025-10-10 09:11:27,125 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 09:11:27,125 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 09:11:27,166 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 09:11:27,177 - root - INFO - Time since last close for SLE is 0.85295535 minutes, net percent 5.79065
-2025-10-10 09:11:27,177 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 0 minutes
-2025-10-10 09:11:27,178 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 09:11:27,188 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 09:11:27,188 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 09:11:27,246 - root - INFO - Last 20 minutes volume is low for FMFC: 20839
-2025-10-10 09:11:37,355 - root - INFO - Real mode: Today's profit so far: 803.239975000004
-2025-10-10 09:11:37,376 - root - INFO - Running real_trade for all top movers
-2025-10-10 09:11:37,376 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 09:11:37,377 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 09:11:37,424 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 09:11:37,436 - root - INFO - Time since last close for SLE is 1.0239402333333334 minutes, net percent 5.79065
-2025-10-10 09:11:37,436 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 1 minutes
-2025-10-10 09:11:37,437 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 09:11:37,446 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 09:11:37,446 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 09:11:37,501 - root - INFO - Last 20 minutes volume is low for FMFC: 20839
-2025-10-10 09:11:47,608 - root - INFO - Real mode: Today's profit so far: 803.239975000004
-2025-10-10 09:11:47,635 - root - INFO - Running real_trade for all top movers
-2025-10-10 09:11:47,636 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 09:11:47,636 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 09:11:47,678 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 09:11:47,689 - root - INFO - Time since last close for SLE is 1.1948249166666665 minutes, net percent 5.79065
-2025-10-10 09:11:47,689 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 1 minutes
-2025-10-10 09:11:47,690 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 09:11:47,700 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 09:11:47,700 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 09:11:47,754 - root - INFO - Last 20 minutes volume is low for FMFC: 20839
-2025-10-10 09:11:57,862 - root - INFO - Real mode: Today's profit so far: 803.239975000004
-2025-10-10 09:11:57,884 - root - INFO - Running real_trade for all top movers
-2025-10-10 09:11:57,885 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 09:11:57,885 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 09:11:57,932 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 09:11:57,943 - root - INFO - Time since last close for SLE is 1.3657204 minutes, net percent 5.79065
-2025-10-10 09:11:57,943 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 1 minutes
-2025-10-10 09:11:57,944 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 09:11:57,955 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 09:11:57,955 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 09:11:58,012 - root - INFO - Last 20 minutes volume is low for FMFC: 20839
-2025-10-10 09:12:08,120 - root - INFO - Real mode: Today's profit so far: 803.239975000004
-2025-10-10 09:12:08,144 - root - INFO - Running real_trade for all top movers
-2025-10-10 09:12:08,144 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 09:12:08,145 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 09:12:08,189 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 09:12:08,202 - root - INFO - Time since last close for SLE is 1.5367072 minutes, net percent 5.79065
-2025-10-10 09:12:08,202 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 1 minutes
-2025-10-10 09:12:08,203 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 09:12:08,214 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 09:12:08,214 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 09:12:08,273 - root - INFO - Last 20 minutes volume is low for FMFC: 20839
-2025-10-10 09:12:14,545 - root - INFO - Real mode: Today's profit so far: 803.239975000004
-2025-10-10 09:12:14,566 - root - INFO - ('2025-10-10T20:58:00-04:00', '2025-10-10T20:58:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T20:58:00-04:00')
-2025-10-10 09:12:14,566 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:14,589 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:15,010 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:15,352 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:15,513 - root - INFO -  MACD calculation for APLD due to high change percent: 27.0348
-2025-10-10 09:12:15,575 - root - INFO - MACD not positive for APLD
-2025-10-10 09:12:15,729 - root - INFO -  MACD calculation for ARAY due to high change percent: 11.8919
-2025-10-10 09:12:15,770 - root - INFO - MACD not positive for ARAY
-2025-10-10 09:12:16,002 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:16,363 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:16,608 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:16,954 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:17,109 - root - INFO -  MACD calculation for CABA due to high change percent: 11.9298
-2025-10-10 09:12:17,363 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:17,801 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:17,943 - root - INFO -  MACD calculation for CODI due to high change percent: 17.0068
-2025-10-10 09:12:17,995 - root - INFO - MACD not positive for CODI
-2025-10-10 09:12:18,042 - root - INFO -  MACD calculation for CRML due to high change percent: 14.208
-2025-10-10 09:12:18,164 - root - INFO - MACD not positive for CRML
-2025-10-10 09:12:18,216 - root - INFO -  MACD calculation for CRMLW due to high change percent: 21.5071
-2025-10-10 09:12:18,250 - root - INFO - MACD not positive for CRMLW
-2025-10-10 09:12:18,251 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:18,371 - root - INFO - Real mode: Today's profit so far: 803.239975000004
-2025-10-10 09:12:18,390 - root - INFO - Running real_trade for all top movers
-2025-10-10 09:12:18,391 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 09:12:18,391 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 09:12:18,426 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 09:12:18,432 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:18,433 - root - INFO - Time since last close for SLE is 1.7072232833333334 minutes, net percent 5.79065
-2025-10-10 09:12:18,433 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 1 minutes
-2025-10-10 09:12:18,433 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 09:12:18,441 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 09:12:18,441 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 09:12:18,488 - root - INFO - Last 20 minutes volume is low for FMFC: 20839
-2025-10-10 09:12:18,807 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:19,037 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:19,132 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:19,216 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:19,380 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:19,613 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:19,931 - root - INFO -  MACD calculation for GWH due to high change percent: 122.674
-2025-10-10 09:12:19,988 - root - INFO - MACD not positive for GWH
-2025-10-10 09:12:20,091 - root - INFO -  MACD calculation for HCTI due to high change percent: 10.5072
-2025-10-10 09:12:20,208 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:20,672 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:20,809 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:21,377 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:21,697 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:22,156 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:22,431 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:22,626 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:22,906 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:23,230 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:23,522 - root - INFO -  MACD calculation for NVX due to high change percent: 11.3164
-2025-10-10 09:12:23,592 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:23,851 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:24,413 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:24,693 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:25,149 - root - INFO -  MACD calculation for QTTB due to high change percent: 10.1852
-2025-10-10 09:12:25,356 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:26,035 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:26,569 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:26,792 - root - INFO -  MACD calculation for SGBX due to high change percent: 79.4753
-2025-10-10 09:12:26,844 - root - INFO - MACD not positive for SGBX
-2025-10-10 09:12:26,901 - root - INFO -  MACD calculation for SHPH due to high change percent: 11.3445
-2025-10-10 09:12:26,932 - root - INFO - MACD not positive for SHPH
-2025-10-10 09:12:27,048 - root - INFO -  MACD calculation for SLE due to high change percent: 49.4382
-2025-10-10 09:12:27,140 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:27,649 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:28,073 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:28,273 - root - INFO -  MACD calculation for TE due to high change percent: 14.0992
-2025-10-10 09:12:28,332 - root - INFO - MACD not positive for TE
-2025-10-10 09:12:28,592 - root - INFO - Real mode: Today's profit so far: 803.239975000004
-2025-10-10 09:12:28,613 - root - INFO - Running real_trade for all top movers
-2025-10-10 09:12:28,614 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 09:12:28,614 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 09:12:28,650 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 09:12:28,657 - root - INFO - Time since last close for SLE is 1.8776185666666667 minutes, net percent 5.79065
-2025-10-10 09:12:28,657 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 1 minutes
-2025-10-10 09:12:28,657 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 09:12:28,664 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 09:12:28,664 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 09:12:28,705 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:28,715 - root - INFO - Last 20 minutes volume is low for FMFC: 20839
-2025-10-10 09:12:28,937 - root - INFO -  MACD calculation for UAMY due to high change percent: 10.9375
-2025-10-10 09:12:28,999 - root - INFO - MACD not positive for UAMY
-2025-10-10 09:12:29,287 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:29,880 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:29,966 - root - INFO -  MACD calculation for VSME due to high change percent: 13.0769
-2025-10-10 09:12:30,013 - root - INFO - MACD not positive for VSME
-2025-10-10 09:12:30,120 - root - INFO -  MACD calculation for WAI due to high change percent: 22.2222
-2025-10-10 09:12:30,154 - root - INFO - MACD not positive for WAI
-2025-10-10 09:12:30,278 - root - INFO -  update_current_price: start time 2025-10-10T09:07:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 09:12:30,433 - root - INFO -  MACD calculation for WWR due to high change percent: 10.101
-2025-10-10 09:12:30,779 - root - INFO -  MACD calculation for YHGJ due to high change percent: 38.3333
-2025-10-10 09:12:30,815 - root - INFO - MACD not positive for YHGJ
-2025-10-10 09:12:30,862 - root - INFO -  MACD calculation for YSXT due to high change percent: 25.2427
-2025-10-10 09:12:31,011 - root - INFO - Updating change percent of stocks
-2025-10-10 09:12:31,661 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-10 09:12:38,816 - root - INFO - Real mode: Today's profit so far: 803.239975000004
-2025-10-10 09:12:38,838 - root - INFO - Running real_trade for all top movers
-2025-10-10 09:12:38,839 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 09:12:38,839 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 09:12:38,888 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 09:12:38,900 - root - INFO - Time since last close for SLE is 2.0483297 minutes, net percent 5.79065
-2025-10-10 09:12:38,900 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 2 minutes
-2025-10-10 09:12:38,901 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 09:12:38,912 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 09:12:38,912 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 09:12:38,964 - root - INFO - Last 20 minutes volume is low for FMFC: 20839
-2025-10-10 09:12:49,069 - root - INFO - Real mode: Today's profit so far: 803.239975000004
-2025-10-10 09:12:49,091 - root - INFO - Running real_trade for all top movers
-2025-10-10 09:12:49,092 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 09:12:49,092 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 09:12:49,135 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 09:12:49,148 - root - INFO - Time since last close for SLE is 2.2191345833333336 minutes, net percent 5.79065
-2025-10-10 09:12:49,148 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 2 minutes
-2025-10-10 09:12:49,149 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 09:12:49,161 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 09:12:49,161 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 09:12:49,220 - root - INFO - Last 20 minutes volume is low for FMFC: 20990
-2025-10-10 09:12:59,321 - root - INFO - Real mode: Today's profit so far: 803.239975000004
-2025-10-10 09:12:59,340 - root - INFO - Running real_trade for all top movers
-2025-10-10 09:12:59,340 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 09:12:59,340 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 09:12:59,378 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 09:12:59,389 - root - INFO - Time since last close for SLE is 2.389813466666667 minutes, net percent 5.79065
-2025-10-10 09:12:59,389 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 2 minutes
-2025-10-10 09:12:59,389 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 09:12:59,399 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 09:12:59,400 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 09:12:59,457 - root - INFO - Last 20 minutes volume is low for FMFC: 20990
+2025-10-10 09:14:58,677 - root - INFO -  MACD calculation for HCTI due to high change percent: 12.3188
+2025-10-10 09:14:58,730 - root - INFO -  update_current_price: start time 2025-10-10T09:09:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:14:59,178 - root - INFO -  update_current_price: start time 2025-10-10T09:09:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:14:59,709 - root - INFO -  update_current_price: start time 2025-10-10T09:09:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:15:00,334 - root - INFO -  MACD calculation for JCSE due to high change percent: 10.6061
+2025-10-10 09:15:00,522 - root - INFO -  update_current_price: start time 2025-10-10T09:10:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:15:00,853 - root - INFO -  update_current_price: start time 2025-10-10T09:10:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:15:01,296 - root - INFO -  update_current_price: start time 2025-10-10T09:10:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:15:01,771 - root - INFO -  update_current_price: start time 2025-10-10T09:10:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:15:01,964 - root - INFO -  update_current_price: start time 2025-10-10T09:10:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:15:02,424 - root - INFO -  update_current_price: start time 2025-10-10T09:10:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:15:02,544 - root - INFO - Real mode: Today's profit so far: 803.239975000004
+2025-10-10 09:15:02,562 - root - INFO - Running real_trade for all top movers
+2025-10-10 09:15:02,562 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 09:15:02,563 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 09:15:02,605 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
+2025-10-10 09:15:02,612 - root - INFO - Time since last close for SLE is 4.443547833333333 minutes, net percent 5.79065
+2025-10-10 09:15:02,613 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 4 minutes
+2025-10-10 09:15:02,613 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 09:15:02,621 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 09:15:02,621 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 09:15:02,669 - root - INFO - Last 20 minutes volume is low for FMFC: 19384
+2025-10-10 09:15:02,702 - root - INFO -  update_current_price: start time 2025-10-10T09:10:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:15:03,147 - root - INFO -  update_current_price: start time 2025-10-10T09:10:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:15:03,588 - root - INFO -  update_current_price: start time 2025-10-10T09:10:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:15:04,001 - root - INFO -  update_current_price: start time 2025-10-10T09:10:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:15:04,549 - root - INFO -  update_current_price: start time 2025-10-10T09:10:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:15:05,026 - root - INFO -  update_current_price: start time 2025-10-10T09:10:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:15:05,437 - root - INFO -  update_current_price: start time 2025-10-10T09:10:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:15:05,870 - root - INFO -  update_current_price: start time 2025-10-10T09:10:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:15:06,128 - root - INFO -  MACD calculation for SGBX due to high change percent: 78.392
+2025-10-10 09:15:06,193 - root - INFO - MACD not positive for SGBX
+2025-10-10 09:15:06,307 - root - INFO -  MACD calculation for SHPH due to high change percent: 11.1345
+2025-10-10 09:15:06,560 - root - INFO -  MACD calculation for SLE due to high change percent: 54.7753
+2025-10-10 09:15:06,786 - root - INFO -  update_current_price: start time 2025-10-10T09:10:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:15:07,061 - root - INFO -  update_current_price: start time 2025-10-10T09:10:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:15:07,386 - root - INFO -  MACD calculation for SWKH due to high change percent: 21.4583
+2025-10-10 09:15:07,499 - root - INFO -  MACD calculation for TALK due to high change percent: 12.3711
+2025-10-10 09:15:07,564 - root - INFO -  update_current_price: start time 2025-10-10T09:10:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:15:07,663 - root - INFO -  MACD calculation for TE due to high change percent: 14.6214
+2025-10-10 09:15:07,708 - root - INFO - MACD not positive for TE
+2025-10-10 09:15:08,175 - root - INFO -  update_current_price: start time 2025-10-10T09:10:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:15:08,590 - root - INFO -  update_current_price: start time 2025-10-10T09:10:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:15:09,063 - root - INFO -  update_current_price: start time 2025-10-10T09:10:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:15:09,162 - root - INFO -  MACD calculation for VSME due to high change percent: 14.6154
+2025-10-10 09:15:09,209 - root - INFO - MACD not positive for VSME
+2025-10-10 09:15:09,330 - root - INFO -  MACD calculation for WAI due to high change percent: 19.6078
+2025-10-10 09:15:09,365 - root - INFO - MACD not positive for WAI
+2025-10-10 09:15:09,410 - root - INFO -  update_current_price: start time 2025-10-10T09:10:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:15:09,542 - root - INFO -  MACD calculation for WWR due to high change percent: 11.1111
+2025-10-10 09:15:09,771 - root - INFO -  MACD calculation for YHGJ due to high change percent: 40.7083
+2025-10-10 09:15:09,803 - root - INFO - MACD not positive for YHGJ
+2025-10-10 09:15:09,994 - root - INFO - Updating change percent of stocks
+2025-10-10 09:15:10,651 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-10 09:15:12,771 - root - INFO - Real mode: Today's profit so far: 803.239975000004
+2025-10-10 09:15:12,789 - root - INFO - Running real_trade for all top movers
+2025-10-10 09:15:12,791 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 09:15:12,791 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 09:15:12,838 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
+2025-10-10 09:15:12,850 - root - INFO - Time since last close for SLE is 4.614168950000001 minutes, net percent 5.79065
+2025-10-10 09:15:12,850 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 4 minutes
+2025-10-10 09:15:12,851 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 09:15:12,861 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 09:15:12,861 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 09:15:12,920 - root - INFO - Last 20 minutes volume is low for FMFC: 19384
+2025-10-10 09:15:23,017 - root - INFO - Real mode: Today's profit so far: 803.239975000004
+2025-10-10 09:15:23,040 - root - INFO - Running real_trade for all top movers
+2025-10-10 09:15:23,041 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 09:15:23,041 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 09:15:23,081 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
+2025-10-10 09:15:23,092 - root - INFO - Time since last close for SLE is 4.784879383333333 minutes, net percent 5.79065
+2025-10-10 09:15:23,093 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 4 minutes
+2025-10-10 09:15:23,093 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 09:15:23,104 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 09:15:23,104 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 09:15:23,159 - root - INFO - Last 20 minutes volume is low for FMFC: 19384
+2025-10-10 09:15:33,261 - root - INFO - Real mode: Today's profit so far: 803.239975000004
+2025-10-10 09:15:33,284 - root - INFO - Running real_trade for all top movers
+2025-10-10 09:15:33,285 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 09:15:33,285 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 09:15:33,337 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
+2025-10-10 09:15:33,361 - root - INFO - Time since last close for SLE is 4.956014033333333 minutes, net percent 5.79065
+2025-10-10 09:15:33,361 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 4 minutes
+2025-10-10 09:15:33,362 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 09:15:33,372 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 09:15:33,372 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 09:15:33,425 - root - INFO - Last 20 minutes volume is low for FMFC: 19384
+2025-10-10 09:15:43,529 - root - INFO - Real mode: Today's profit so far: 803.239975000004
+2025-10-10 09:15:43,663 - root - INFO - Running real_trade for all top movers
+2025-10-10 09:15:43,664 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 09:15:43,664 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 09:15:43,716 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
+2025-10-10 09:15:43,728 - root - INFO - Time since last close for SLE is 5.12880045 minutes, net percent 5.79065
+2025-10-10 09:15:43,728 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 5 minutes
+2025-10-10 09:15:43,729 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 09:15:43,739 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 09:15:43,739 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 09:15:43,794 - root - INFO - Last 20 minutes volume is low for FMFC: 19384
+2025-10-10 09:15:53,902 - root - INFO - Real mode: Today's profit so far: 803.239975000004
+2025-10-10 09:15:53,924 - root - INFO - Running real_trade for all top movers
+2025-10-10 09:15:53,924 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 09:15:53,925 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 09:15:53,973 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
+2025-10-10 09:15:53,985 - root - INFO - Time since last close for SLE is 5.2997483999999995 minutes, net percent 5.79065
+2025-10-10 09:15:53,985 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 5 minutes
+2025-10-10 09:15:53,985 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 09:15:53,996 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 09:15:53,997 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 09:15:54,057 - root - INFO - Last 20 minutes volume is low for FMFC: 19384
+2025-10-10 09:16:04,157 - root - INFO - Real mode: Today's profit so far: 803.239975000004
+2025-10-10 09:16:04,182 - root - INFO - Running real_trade for all top movers
+2025-10-10 09:16:04,183 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 09:16:04,183 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 09:16:04,228 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
+2025-10-10 09:16:04,240 - root - INFO - Time since last close for SLE is 5.47066465 minutes, net percent 5.79065
+2025-10-10 09:16:04,240 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 5 minutes
+2025-10-10 09:16:04,240 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 09:16:04,251 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 09:16:04,252 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 09:16:04,304 - root - INFO - Last 20 minutes volume is low for FMFC: 19384
+2025-10-10 09:16:10,731 - root - INFO - Real mode: Today's profit so far: 803.239975000004
+2025-10-10 09:16:10,750 - root - INFO - ('2025-10-10T20:58:00-04:00', '2025-10-10T20:58:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T20:58:00-04:00')
+2025-10-10 09:16:10,750 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:10,779 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:11,279 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:11,748 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:11,916 - root - INFO -  MACD calculation for APLD due to high change percent: 26.4254
+2025-10-10 09:16:11,982 - root - INFO - MACD not positive for APLD
+2025-10-10 09:16:12,378 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:12,600 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:13,168 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:13,495 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:13,690 - root - INFO -  MACD calculation for CABA due to high change percent: 12.2807
+2025-10-10 09:16:13,884 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:14,101 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:14,184 - root - INFO -  MACD calculation for CODI due to high change percent: 16.8707
+2025-10-10 09:16:14,220 - root - INFO - MACD not positive for CODI
+2025-10-10 09:16:14,387 - root - INFO -  MACD calculation for CRML due to high change percent: 13.8681
+2025-10-10 09:16:14,405 - root - INFO - Real mode: Today's profit so far: 803.239975000004
+2025-10-10 09:16:14,425 - root - INFO - Running real_trade for all top movers
+2025-10-10 09:16:14,426 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 09:16:14,426 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 09:16:14,437 - root - INFO - MACD not positive for CRML
+2025-10-10 09:16:14,474 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
+2025-10-10 09:16:14,482 - root - INFO - Time since last close for SLE is 5.641379966666666 minutes, net percent 5.79065
+2025-10-10 09:16:14,483 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 5 minutes
+2025-10-10 09:16:14,483 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 09:16:14,488 - root - INFO -  MACD calculation for CRMLW due to high change percent: 21.0361
+2025-10-10 09:16:14,491 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 09:16:14,491 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 09:16:14,528 - root - INFO - MACD not positive for CRMLW
+2025-10-10 09:16:14,528 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:14,537 - root - INFO - Last 20 minutes volume is low for FMFC: 19384
+2025-10-10 09:16:14,561 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:15,057 - root - INFO -  MACD calculation for DPRO due to high change percent: 11.1944
+2025-10-10 09:16:15,158 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:15,294 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:15,637 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:15,965 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:16,211 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:16,473 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:16,566 - root - INFO -  MACD calculation for GORV due to high change percent: 10.9434
+2025-10-10 09:16:16,625 - root - INFO - MACD not positive for GORV
+2025-10-10 09:16:16,804 - root - INFO -  MACD calculation for GWH due to high change percent: 112.209
+2025-10-10 09:16:16,858 - root - INFO - MACD not positive for GWH
+2025-10-10 09:16:16,913 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:17,267 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:17,537 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:18,021 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:18,445 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:19,044 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:19,633 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:20,047 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:20,474 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:20,781 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:21,125 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:21,617 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:22,079 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:22,402 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:22,843 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:23,222 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:23,693 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:23,880 - root - INFO -  MACD calculation for SGBX due to high change percent: 76.8519
+2025-10-10 09:16:23,927 - root - INFO - MACD not positive for SGBX
+2025-10-10 09:16:23,985 - root - INFO -  MACD calculation for SHPH due to high change percent: 12.1849
+2025-10-10 09:16:24,194 - root - INFO -  MACD calculation for SLE due to high change percent: 67.4298
+2025-10-10 09:16:24,298 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:24,635 - root - INFO - Real mode: Today's profit so far: 803.239975000004
+2025-10-10 09:16:24,653 - root - INFO - Running real_trade for all top movers
+2025-10-10 09:16:24,654 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 09:16:24,654 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 09:16:24,696 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
+2025-10-10 09:16:24,704 - root - INFO - Time since last close for SLE is 5.8117435833333335 minutes, net percent 5.79065
+2025-10-10 09:16:24,704 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 5 minutes
+2025-10-10 09:16:24,705 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 09:16:24,711 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 09:16:24,712 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 09:16:24,723 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:24,760 - root - INFO - Last 20 minutes volume is low for FMFC: 19384
+2025-10-10 09:16:25,207 - root - INFO -  MACD calculation for TALK due to high change percent: 12.0275
+2025-10-10 09:16:25,274 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:25,360 - root - INFO -  MACD calculation for TE due to high change percent: 14.6214
+2025-10-10 09:16:25,404 - root - INFO - MACD not positive for TE
+2025-10-10 09:16:25,659 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:26,344 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:26,713 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:26,808 - root - INFO -  MACD calculation for VSME due to high change percent: 14.6154
+2025-10-10 09:16:26,867 - root - INFO - MACD not positive for VSME
+2025-10-10 09:16:26,976 - root - INFO -  MACD calculation for WAI due to high change percent: 18.9542
+2025-10-10 09:16:27,005 - root - INFO - MACD not positive for WAI
+2025-10-10 09:16:27,234 - root - INFO -  update_current_price: start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:16:27,365 - root - INFO -  MACD calculation for WWR due to high change percent: 10.6061
+2025-10-10 09:16:27,770 - root - INFO - Updating change percent of stocks
+2025-10-10 09:16:28,416 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-10 09:16:34,859 - root - INFO - Real mode: Today's profit so far: 803.239975000004
+2025-10-10 09:16:34,880 - root - INFO - Running real_trade for all top movers
+2025-10-10 09:16:34,880 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 09:16:34,881 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 09:16:34,928 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
+2025-10-10 09:16:34,939 - root - INFO - Time since last close for SLE is 5.982320083333334 minutes, net percent 5.79065
+2025-10-10 09:16:34,939 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 5 minutes
+2025-10-10 09:16:34,940 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 09:16:34,950 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 09:16:34,950 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 09:16:35,005 - root - INFO - Last 20 minutes volume is low for FMFC: 19384
+2025-10-10 09:16:45,151 - root - INFO - Real mode: Today's profit so far: 803.239975000004
+2025-10-10 09:16:45,232 - root - INFO - Running real_trade for all top movers
+2025-10-10 09:16:45,233 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 09:16:45,233 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 09:16:45,288 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
+2025-10-10 09:16:45,300 - root - INFO - Time since last close for SLE is 6.155004616666667 minutes, net percent 5.79065
+2025-10-10 09:16:45,300 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 6 minutes
+2025-10-10 09:16:45,301 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 09:16:45,314 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 09:16:45,314 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 09:16:45,369 - root - INFO - Last 20 minutes volume is low for FMFC: 19384
+2025-10-10 09:16:55,461 - root - INFO - Real mode: Today's profit so far: 803.239975000004
+2025-10-10 09:16:55,528 - root - INFO - Running real_trade for all top movers
+2025-10-10 09:16:55,529 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 09:16:55,529 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 09:16:55,584 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
+2025-10-10 09:16:55,597 - root - INFO - Time since last close for SLE is 6.326617733333333 minutes, net percent 5.79065
+2025-10-10 09:16:55,597 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 6 minutes
+2025-10-10 09:16:55,598 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 09:16:55,608 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 09:16:55,608 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 09:16:55,670 - root - INFO - Last 20 minutes volume is low for FMFC: 19384
+2025-10-10 09:17:05,773 - root - INFO - Real mode: Today's profit so far: 803.239975000004
+2025-10-10 09:17:05,794 - root - INFO - Running real_trade for all top movers
+2025-10-10 09:17:05,794 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 09:17:05,795 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 09:17:05,842 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
+2025-10-10 09:17:05,854 - root - INFO - Time since last close for SLE is 6.49757215 minutes, net percent 5.79065
+2025-10-10 09:17:05,854 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 6 minutes
+2025-10-10 09:17:05,855 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 09:17:05,866 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 09:17:05,866 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 09:17:05,918 - root - INFO - Last 20 minutes volume is low for FMFC: 19384
+2025-10-10 09:17:16,030 - root - INFO - Real mode: Today's profit so far: 803.239975000004
+2025-10-10 09:17:16,070 - root - INFO - Running real_trade for all top movers
+2025-10-10 09:17:16,071 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 09:17:16,071 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 09:17:16,115 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
+2025-10-10 09:17:16,123 - root - INFO - Time since last close for SLE is 6.668731383333333 minutes, net percent 5.79065
+2025-10-10 09:17:16,124 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 6 minutes
+2025-10-10 09:17:16,124 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 09:17:16,132 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 09:17:16,132 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 09:17:16,186 - root - INFO - Last 20 minutes volume is low for FMFC: 19384
+2025-10-10 09:17:26,289 - root - INFO - Real mode: Today's profit so far: 803.239975000004
+2025-10-10 09:17:26,310 - root - INFO - Running real_trade for all top movers
+2025-10-10 09:17:26,311 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 09:17:26,311 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 09:17:26,355 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
+2025-10-10 09:17:26,365 - root - INFO - Time since last close for SLE is 6.839414700000001 minutes, net percent 5.79065
+2025-10-10 09:17:26,365 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 6 minutes
+2025-10-10 09:17:26,365 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 09:17:26,375 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 09:17:26,375 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 09:17:26,430 - root - INFO - Last 20 minutes volume is low for FMFC: 19384
+2025-10-10 09:17:28,488 - root - INFO - Real mode: Today's profit so far: 803.239975000004
+2025-10-10 09:17:28,510 - root - INFO - ('2025-10-10T20:58:00-04:00', '2025-10-10T20:58:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T20:58:00-04:00')
+2025-10-10 09:17:28,510 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:28,537 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:28,958 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:29,455 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:29,618 - root - INFO -  MACD calculation for APLD due to high change percent: 25.5046
+2025-10-10 09:17:29,686 - root - INFO - MACD not positive for APLD
+2025-10-10 09:17:29,849 - root - INFO -  MACD calculation for ARAY due to high change percent: 13.5135
+2025-10-10 09:17:29,890 - root - INFO - MACD not positive for ARAY
+2025-10-10 09:17:30,416 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:30,613 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:30,805 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:31,029 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:31,118 - root - INFO -  MACD calculation for CABA due to high change percent: 11.5789
+2025-10-10 09:17:31,513 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:31,839 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:32,280 - root - INFO -  MACD calculation for CRML due to high change percent: 13.3243
+2025-10-10 09:17:32,353 - root - INFO - MACD not positive for CRML
+2025-10-10 09:17:32,353 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:32,387 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:32,687 - root - INFO -  MACD calculation for DPRO due to high change percent: 10.4395
+2025-10-10 09:17:32,769 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:33,244 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:33,696 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:33,787 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:34,041 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:34,139 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:34,228 - root - INFO -  MACD calculation for GORV due to high change percent: 11.6943
+2025-10-10 09:17:34,274 - root - INFO - MACD not positive for GORV
+2025-10-10 09:17:34,463 - root - INFO -  MACD calculation for GWH due to high change percent: 106.977
+2025-10-10 09:17:34,518 - root - INFO - MACD not positive for GWH
+2025-10-10 09:17:34,566 - root - INFO -  MACD calculation for HCTI due to high change percent: 10.5471
+2025-10-10 09:17:34,631 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:35,136 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:35,472 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:35,615 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:35,946 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:36,322 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:36,523 - root - INFO - Real mode: Today's profit so far: 803.239975000004
+2025-10-10 09:17:36,541 - root - INFO - Running real_trade for all top movers
+2025-10-10 09:17:36,542 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 09:17:36,542 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 09:17:36,566 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:36,585 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
+2025-10-10 09:17:36,595 - root - INFO - Time since last close for SLE is 7.009923183333333 minutes, net percent 5.79065
+2025-10-10 09:17:36,595 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 7 minutes
+2025-10-10 09:17:36,596 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 09:17:36,606 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 09:17:36,606 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 09:17:36,659 - root - INFO - Last 20 minutes volume is low for FMFC: 19384
+2025-10-10 09:17:36,688 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:37,045 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:37,457 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:37,888 - root - INFO -  MACD calculation for NVX due to high change percent: 11.7783
+2025-10-10 09:17:38,026 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:38,414 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:38,825 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:39,186 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:39,581 - root - INFO -  MACD calculation for QTTB due to high change percent: 11.1111
+2025-10-10 09:17:39,641 - root - INFO - MACD not positive for QTTB
+2025-10-10 09:17:39,871 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:40,251 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:40,648 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:40,899 - root - INFO -  MACD calculation for SGBX due to high change percent: 77.1605
+2025-10-10 09:17:40,947 - root - INFO - MACD not positive for SGBX
+2025-10-10 09:17:40,993 - root - INFO -  MACD calculation for SHPH due to high change percent: 12.1849
+2025-10-10 09:17:41,211 - root - INFO -  MACD calculation for SLE due to high change percent: 60.9551
+2025-10-10 09:17:41,315 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:41,851 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:42,146 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:42,366 - root - INFO -  MACD calculation for TE due to high change percent: 14.8825
+2025-10-10 09:17:42,422 - root - INFO - MACD not positive for TE
+2025-10-10 09:17:42,895 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:43,322 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:43,804 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:43,895 - root - INFO -  MACD calculation for VSME due to high change percent: 15.3846
+2025-10-10 09:17:43,938 - root - INFO - MACD not positive for VSME
+2025-10-10 09:17:44,051 - root - INFO -  MACD calculation for WAI due to high change percent: 18.3007
+2025-10-10 09:17:44,085 - root - INFO - MACD not positive for WAI
+2025-10-10 09:17:44,085 - root - INFO -  update_current_price: start time 2025-10-10T09:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 09:17:44,254 - root - INFO -  MACD calculation for WWR due to high change percent: 11.1111
+2025-10-10 09:17:44,664 - root - INFO -  MACD calculation for YHGJ due to high change percent: 40.0
+2025-10-10 09:17:44,701 - root - INFO - MACD not positive for YHGJ
+2025-10-10 09:17:44,762 - root - INFO -  MACD calculation for YSXT due to high change percent: 21.3592
+2025-10-10 09:17:44,936 - root - INFO - Updating change percent of stocks
+2025-10-10 09:17:45,588 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-10 09:17:46,766 - root - INFO - Real mode: Today's profit so far: 803.239975000004
+2025-10-10 09:17:46,789 - root - INFO - Running real_trade for all top movers
+2025-10-10 09:17:46,789 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 09:17:46,789 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 09:17:46,836 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
+2025-10-10 09:17:46,846 - root - INFO - Time since last close for SLE is 7.18077085 minutes, net percent 5.79065
+2025-10-10 09:17:46,846 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 7 minutes
+2025-10-10 09:17:46,847 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 09:17:46,856 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 09:17:46,856 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 09:17:46,910 - root - INFO - Last 20 minutes volume is low for FMFC: 17531
+2025-10-10 09:17:57,018 - root - INFO - Real mode: Today's profit so far: 803.239975000004
+2025-10-10 09:17:57,040 - root - INFO - Running real_trade for all top movers
+2025-10-10 09:17:57,040 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 09:17:57,040 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 09:17:57,088 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
+2025-10-10 09:17:57,100 - root - INFO - Time since last close for SLE is 7.351667933333333 minutes, net percent 5.79065
+2025-10-10 09:17:57,100 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 7 minutes
+2025-10-10 09:17:57,100 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 09:17:57,112 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 09:17:57,112 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 09:17:57,165 - root - INFO - Last 20 minutes volume is low for FMFC: 17531
+2025-10-10 09:18:07,272 - root - INFO - Real mode: Today's profit so far: 803.239975000004
+2025-10-10 09:18:07,295 - root - INFO - Running real_trade for all top movers
+2025-10-10 09:18:07,295 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 09:18:07,296 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 09:18:07,347 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
+2025-10-10 09:18:07,358 - root - INFO - Time since last close for SLE is 7.522646183333333 minutes, net percent 5.79065
+2025-10-10 09:18:07,359 - root - INFO - ***** stock: SLE Scale: 5Min Time since last close: 7 minutes
+2025-10-10 09:18:07,359 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 09:18:07,369 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 09:18:07,370 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 09:18:07,427 - root - INFO - Last 20 minutes volume is low for FMFC: 17531
