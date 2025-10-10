@@ -2,9 +2,9 @@ Top Movers:
 +--------+-------------+-----------+----------------+-----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |   volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+-----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  GWH   |      0      |     0     |    151.163     | 190016475 |      4.32     |        1.72        |  4960000.0   |  1.826   |  2539433   |      0      | 2025-10-10 12:44:47 |
-|  SGBX  |      0      |     0     |     79.321     |  67995052 |      5.81     |        3.24        |  5860000.0   |   3.42   |   788930   |      0      | 2025-10-10 12:45:28 |
-|  WAI   |      0      |     0     |    36.1961     |  14032331 |     4.1676    |        3.06        |     0.0      |  3.038   |   343939   |      0      | 2025-10-10 12:45:42 |
+|  GWH   |      0      |     0     |    139.541     | 191191214 |     4.1201    |        1.72        |  4960000.0   |  1.826   |  2539433   |      0      | 2025-10-10 12:50:20 |
+|  SGBX  |      0      |     0     |    80.8642     |  68032593 |      5.86     |        3.24        |  5860000.0   |   3.42   |   788930   |      0      | 2025-10-10 12:51:03 |
+|  WAI   |      0      |     0     |    36.9281     |  14055300 |      4.19     |        3.06        |     0.0      |  3.038   |   343939   |      0      | 2025-10-10 12:51:20 |
 +--------+-------------+-----------+----------------+-----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -18,403 +18,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-10 12:43:30,080 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 12:43:30,080 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 12:43:30,118 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 12:43:30,126 - root - INFO - Time since last close for GWH is 275.03544193333335 minutes, net percent -28.8382
-2025-10-10 12:43:30,253 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
-2025-10-10 12:43:30,324 - root - INFO - MACD has been up for last 10 candles for GWH, not opening long position
-2025-10-10 12:43:30,324 - root - INFO - Trend up basic conditions not met for GWH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=True, price_close_above_upper_bb=False
-2025-10-10 12:43:30,325 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 12:43:30,339 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 12:43:30,339 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 12:43:30,412 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-10 12:43:30,486 - root - INFO - Trend up basic conditions not met for SGBX: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-10 12:43:30,486 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-10 12:43:30,501 - root - INFO - Time since last close for WAI is 353.7083489166667 minutes, net percent 5.63991
-2025-10-10 12:43:30,548 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
-2025-10-10 12:43:30,572 - root - INFO - 1min candle is not positive for WAI: open 4.165 close 4.16
-2025-10-10 12:43:30,684 - root - WARNING - Skipping COIN: not opened by algorithm
-2025-10-10 12:43:40,727 - root - INFO - Real mode: Today's profit so far: 1429.5699749999985
-2025-10-10 12:43:40,762 - root - INFO - Running real_trade for all top movers
-2025-10-10 12:43:40,762 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 12:43:40,762 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 12:43:40,807 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 12:43:40,818 - root - INFO - Time since last close for GWH is 275.2136319 minutes, net percent -28.8382
-2025-10-10 12:43:41,319 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
-2025-10-10 12:43:41,436 - root - INFO - MACD has been up for last 10 candles for GWH, not opening long position
-2025-10-10 12:43:41,436 - root - INFO - Trend up basic conditions not met for GWH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=True, price_close_above_upper_bb=False
-2025-10-10 12:43:41,437 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 12:43:41,450 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 12:43:41,450 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 12:43:41,646 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-10 12:43:41,716 - root - INFO - Trend up basic conditions not met for SGBX: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-10 12:43:41,717 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-10 12:43:41,730 - root - INFO - Time since last close for WAI is 353.8955050166667 minutes, net percent 5.63991
-2025-10-10 12:43:41,774 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
-2025-10-10 12:43:41,800 - root - INFO - 1min candle is not positive for WAI: open 4.165 close 4.16
-2025-10-10 12:43:41,885 - root - WARNING - Skipping COIN: not opened by algorithm
-2025-10-10 12:43:51,909 - root - INFO - Real mode: Today's profit so far: 1400.1699750000043
-2025-10-10 12:43:51,930 - root - INFO - Running real_trade for all top movers
-2025-10-10 12:43:51,930 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 12:43:51,931 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 12:43:51,976 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 12:43:51,987 - root - INFO - Time since last close for GWH is 275.39978636666666 minutes, net percent -28.8382
-2025-10-10 12:43:52,140 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
-2025-10-10 12:43:52,168 - root - INFO - 1min candle is not positive for GWH: open 4.44 close 4.32
-2025-10-10 12:43:52,169 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 12:43:52,182 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 12:43:52,182 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 12:43:52,270 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
-2025-10-10 12:43:52,271 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-10 12:43:52,285 - root - INFO - Time since last close for WAI is 354.07143046666664 minutes, net percent 5.63991
-2025-10-10 12:43:52,320 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
-2025-10-10 12:43:52,382 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-10 12:43:52,382 - root - INFO - WAI:======= 4.17===>BUY========>TrendUp158669
-2025-10-10 12:43:52,490 - root - CRITICAL - WAI  239 buy
-2025-10-10 12:43:52,515 - root - INFO - Order didn't go through
-2025-10-10 12:43:52,515 - root - INFO - Placed BUY order for WAI, qty: 239, price: 4.1701, success: False
-2025-10-10 12:43:52,516 - root - INFO - Trade execution NOT COMPLETED for stock: WAI
-2025-10-10 12:43:52,602 - root - WARNING - Skipping COIN: not opened by algorithm
-2025-10-10 12:44:02,638 - root - INFO - Real mode: Today's profit so far: 1410.6699750000043
-2025-10-10 12:44:02,667 - root - INFO - Running real_trade for all top movers
-2025-10-10 12:44:02,668 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 12:44:02,668 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 12:44:02,714 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 12:44:02,727 - root - INFO - Time since last close for GWH is 275.5787887833333 minutes, net percent -28.8382
-2025-10-10 12:44:02,872 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
-2025-10-10 12:44:02,898 - root - INFO - 1min candle is not positive for GWH: open 4.44 close 4.32
-2025-10-10 12:44:02,899 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 12:44:02,913 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 12:44:02,913 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 12:44:03,084 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
-2025-10-10 12:44:03,085 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-10 12:44:03,099 - root - INFO - Time since last close for WAI is 354.25165826666665 minutes, net percent 5.63991
-2025-10-10 12:44:03,157 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
-2025-10-10 12:44:03,247 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-10 12:44:03,247 - root - INFO - WAI:======= 4.17===>BUY========>TrendUp158669
-2025-10-10 12:44:03,403 - root - CRITICAL - WAI  239 buy
-2025-10-10 12:44:03,440 - root - INFO - Order didn't go through
-2025-10-10 12:44:03,440 - root - INFO - Placed BUY order for WAI, qty: 239, price: 4.1701, success: False
-2025-10-10 12:44:03,441 - root - INFO - Trade execution NOT COMPLETED for stock: WAI
-2025-10-10 12:44:03,535 - root - WARNING - Skipping COIN: not opened by algorithm
-2025-10-10 12:44:13,561 - root - INFO - Real mode: Today's profit so far: 1494.269975000003
-2025-10-10 12:44:13,582 - root - INFO - Running real_trade for all top movers
-2025-10-10 12:44:13,582 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 12:44:13,582 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 12:44:13,586 - root - INFO - Real mode: Today's profit so far: 1494.269975000003
-2025-10-10 12:44:13,616 - root - INFO - ('2025-10-10T20:58:00-04:00', '2025-10-10T20:58:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T20:58:00-04:00')
-2025-10-10 12:44:13,616 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T20:58:00-04:00
-2025-10-10 12:44:13,627 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 12:44:13,637 - root - INFO - Time since last close for GWH is 275.7606223666667 minutes, net percent -28.8382
-2025-10-10 12:44:13,639 - root - INFO -  update_current_price: start time 2025-10-10T12:39:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:44:13,771 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
-2025-10-10 12:44:13,782 - root - INFO -  MACD calculation for ABAT due to high change percent: 12.8205
-2025-10-10 12:44:13,787 - root - INFO - 1min candle is not positive for GWH: open 4.44 close 4.32
-2025-10-10 12:44:13,788 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 12:44:13,796 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 12:44:13,796 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 12:44:13,853 - root - INFO - MACD not positive for ABAT
-2025-10-10 12:44:13,880 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
-2025-10-10 12:44:13,881 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-10 12:44:13,891 - root - INFO - Time since last close for WAI is 354.4315208666667 minutes, net percent 5.63991
-2025-10-10 12:44:13,923 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
-2025-10-10 12:44:13,967 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-10 12:44:13,968 - root - INFO - WAI:======= 4.17===>BUY========>TrendUp158669
-2025-10-10 12:44:14,068 - root - CRITICAL - WAI  239 buy
-2025-10-10 12:44:14,093 - root - INFO - Order didn't go through
-2025-10-10 12:44:14,093 - root - INFO - Placed BUY order for WAI, qty: 239, price: 4.1719, success: False
-2025-10-10 12:44:14,093 - root - INFO - Trade execution NOT COMPLETED for stock: WAI
-2025-10-10 12:44:14,161 - root - WARNING - Skipping COIN: not opened by algorithm
-2025-10-10 12:44:15,284 - root - INFO -  update_current_price: start time 2025-10-10T12:39:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:44:17,288 - root - INFO -  update_current_price: start time 2025-10-10T12:39:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:44:17,645 - root - INFO -  MACD calculation for APLD due to high change percent: 19.1533
-2025-10-10 12:44:18,671 - root - INFO -  MACD calculation for AREC due to high change percent: 11.5099
-2025-10-10 12:44:18,776 - root - INFO - MACD not positive for AREC
-2025-10-10 12:44:19,342 - root - INFO -  MACD calculation for ASPI due to high change percent: 21.6949
-2025-10-10 12:44:19,428 - root - INFO - MACD not positive for ASPI
-2025-10-10 12:44:19,713 - root - INFO -  update_current_price: start time 2025-10-10T12:39:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:44:21,631 - root - INFO -  update_current_price: start time 2025-10-10T12:39:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:44:23,143 - root - INFO -  MACD calculation for BIOX due to high change percent: 18.2958
-2025-10-10 12:44:23,203 - root - INFO - MACD not positive for BIOX
-2025-10-10 12:44:23,273 - root - INFO -  MACD calculation for BITF due to high change percent: 12.4245
-2025-10-10 12:44:23,693 - root - INFO -  update_current_price: start time 2025-10-10T12:39:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:44:24,192 - root - INFO - Real mode: Today's profit so far: 1494.969975
-2025-10-10 12:44:24,212 - root - INFO - Running real_trade for all top movers
-2025-10-10 12:44:24,213 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 12:44:24,214 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 12:44:24,259 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 12:44:24,272 - root - INFO - Time since last close for GWH is 275.9378778 minutes, net percent -28.8382
-2025-10-10 12:44:24,438 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
-2025-10-10 12:44:24,458 - root - INFO - 1min candle is not positive for GWH: open 4.44 close 4.32
-2025-10-10 12:44:24,459 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 12:44:24,469 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 12:44:24,469 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 12:44:24,552 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
-2025-10-10 12:44:24,553 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-10 12:44:24,563 - root - INFO - Time since last close for WAI is 354.60938665 minutes, net percent 5.63991
-2025-10-10 12:44:24,600 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
-2025-10-10 12:44:24,647 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-10 12:44:24,648 - root - INFO - WAI:======= 4.17===>BUY========>TrendUp158669
-2025-10-10 12:44:24,757 - root - CRITICAL - WAI  239 buy
-2025-10-10 12:44:24,782 - root - INFO - Order didn't go through
-2025-10-10 12:44:24,782 - root - INFO - Placed BUY order for WAI, qty: 239, price: 4.17, success: False
-2025-10-10 12:44:24,782 - root - INFO - Trade execution NOT COMPLETED for stock: WAI
-2025-10-10 12:44:24,866 - root - WARNING - Skipping COIN: not opened by algorithm
-2025-10-10 12:44:25,467 - root - INFO -  update_current_price: start time 2025-10-10T12:39:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:44:25,892 - root - INFO -  MACD calculation for BYND due to high change percent: 11.6751
-2025-10-10 12:44:25,965 - root - INFO - MACD not positive for BYND
-2025-10-10 12:44:26,721 - root - INFO -  MACD calculation for CATX due to high change percent: 28.7565
-2025-10-10 12:44:26,781 - root - INFO - MACD not positive for CATX
-2025-10-10 12:44:27,697 - root - INFO -  update_current_price: start time 2025-10-10T12:39:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:44:29,509 - root - INFO -  update_current_price: start time 2025-10-10T12:39:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:44:31,352 - root - INFO -  MACD calculation for CRML due to high change percent: 17.087
-2025-10-10 12:44:31,424 - root - INFO - MACD not positive for CRML
-2025-10-10 12:44:31,590 - root - INFO -  update_current_price: start time 2025-10-10T12:39:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:44:33,838 - root - INFO -  update_current_price: start time 2025-10-10T12:39:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:44:34,463 - root - INFO -  MACD calculation for DGXX due to high change percent: 19.1553
-2025-10-10 12:44:34,898 - root - INFO - Real mode: Today's profit so far: 1458.8699750000014
-2025-10-10 12:44:34,925 - root - INFO - Running real_trade for all top movers
-2025-10-10 12:44:34,926 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 12:44:34,926 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 12:44:34,955 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 12:44:34,963 - root - INFO - Time since last close for GWH is 276.11605146666665 minutes, net percent -28.8382
-2025-10-10 12:44:35,101 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
-2025-10-10 12:44:35,117 - root - INFO - 1min candle is not positive for GWH: open 4.44 close 4.32
-2025-10-10 12:44:35,118 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 12:44:35,126 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 12:44:35,126 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 12:44:35,201 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
-2025-10-10 12:44:35,202 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-10 12:44:35,212 - root - INFO - Time since last close for WAI is 354.78687255 minutes, net percent 5.63991
-2025-10-10 12:44:35,260 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
-2025-10-10 12:44:35,308 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-10 12:44:35,308 - root - INFO - WAI:======= 4.17===>BUY========>TrendUp158669
-2025-10-10 12:44:35,401 - root - CRITICAL - WAI  238 buy
-2025-10-10 12:44:35,424 - root - INFO - Order didn't go through
-2025-10-10 12:44:35,424 - root - INFO - Placed BUY order for WAI, qty: 238, price: 4.19, success: False
-2025-10-10 12:44:35,425 - root - INFO - Trade execution NOT COMPLETED for stock: WAI
-2025-10-10 12:44:35,507 - root - WARNING - Skipping COIN: not opened by algorithm
-2025-10-10 12:44:35,536 - root - INFO -  update_current_price: start time 2025-10-10T12:39:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:44:37,370 - root - INFO -  update_current_price: start time 2025-10-10T12:39:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:44:39,809 - root - INFO -  update_current_price: start time 2025-10-10T12:39:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:44:40,430 - root - INFO -  MACD calculation for FEAM due to high change percent: 14.5582
-2025-10-10 12:44:41,712 - root - INFO -  update_current_price: start time 2025-10-10T12:39:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:44:43,791 - root - INFO -  update_current_price: start time 2025-10-10T12:39:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:44:45,555 - root - INFO - Real mode: Today's profit so far: 1424.219975
-2025-10-10 12:44:45,578 - root - INFO - Running real_trade for all top movers
-2025-10-10 12:44:45,579 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 12:44:45,579 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 12:44:45,620 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 12:44:45,630 - root - INFO - Time since last close for GWH is 276.2938310833333 minutes, net percent -28.8382
-2025-10-10 12:44:45,776 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
-2025-10-10 12:44:45,795 - root - INFO - 1min candle is not positive for GWH: open 4.44 close 4.32
-2025-10-10 12:44:45,796 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 12:44:45,805 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 12:44:45,806 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 12:44:45,815 - root - INFO -  update_current_price: start time 2025-10-10T12:39:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:44:45,890 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
-2025-10-10 12:44:45,891 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-10 12:44:45,901 - root - INFO - Time since last close for WAI is 354.96501901666664 minutes, net percent 5.63991
-2025-10-10 12:44:45,959 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
-2025-10-10 12:44:46,016 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-10 12:44:46,016 - root - INFO - WAI:======= 4.17===>BUY========>TrendUp158669
-2025-10-10 12:44:46,138 - root - CRITICAL - WAI  239 buy
-2025-10-10 12:44:46,164 - root - INFO - Order didn't go through
-2025-10-10 12:44:46,164 - root - INFO - Placed BUY order for WAI, qty: 239, price: 4.1676, success: False
-2025-10-10 12:44:46,164 - root - INFO - Trade execution NOT COMPLETED for stock: WAI
-2025-10-10 12:44:46,244 - root - WARNING - Skipping COIN: not opened by algorithm
-2025-10-10 12:44:47,281 - root - INFO -  MACD calculation for GWAV due to high change percent: 13.6735
-2025-10-10 12:44:47,403 - root - INFO -  MACD calculation for GWH due to high change percent: 154.651
-2025-10-10 12:44:48,166 - root - INFO -  update_current_price: start time 2025-10-10T12:39:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:44:49,252 - root - INFO -  MACD calculation for HONDW due to high change percent: 16.1644
-2025-10-10 12:44:49,302 - root - INFO - MACD not positive for HONDW
-2025-10-10 12:44:50,886 - root - INFO -  update_current_price: start time 2025-10-10T12:39:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:44:53,840 - root - INFO -  update_current_price: start time 2025-10-10T12:39:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:44:56,281 - root - INFO - Real mode: Today's profit so far: 1330.769975000003
-2025-10-10 12:44:56,311 - root - INFO - Running real_trade for all top movers
-2025-10-10 12:44:56,312 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 12:44:56,312 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 12:44:56,354 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 12:44:56,364 - root - INFO - Time since last close for GWH is 276.47273626666663 minutes, net percent -28.8382
-2025-10-10 12:44:56,521 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
-2025-10-10 12:44:56,539 - root - INFO - 1min candle is not positive for GWH: open 4.3205 close 4.2199
-2025-10-10 12:44:56,540 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 12:44:56,547 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 12:44:56,547 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 12:44:56,600 - root - INFO -  update_current_price: start time 2025-10-10T12:39:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:44:56,655 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
-2025-10-10 12:44:56,656 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-10 12:44:56,666 - root - INFO - Time since last close for WAI is 355.1444382333333 minutes, net percent 5.63991
-2025-10-10 12:44:56,704 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
-2025-10-10 12:44:56,722 - root - INFO - 1min candle is not positive for WAI: open 4.18 close 4.1676
-2025-10-10 12:44:56,809 - root - WARNING - Skipping COIN: not opened by algorithm
-2025-10-10 12:44:59,277 - root - INFO -  update_current_price: start time 2025-10-10T12:39:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:45:01,839 - root - INFO -  update_current_price: start time 2025-10-10T12:40:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:45:04,314 - root - INFO -  update_current_price: start time 2025-10-10T12:40:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:45:05,705 - root - INFO -  MACD calculation for MLTX due to high change percent: 11.3006
-2025-10-10 12:45:06,591 - root - INFO -  update_current_price: start time 2025-10-10T12:40:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:45:06,842 - root - INFO - Real mode: Today's profit so far: 1266.269975000003
-2025-10-10 12:45:06,864 - root - INFO - Running real_trade for all top movers
-2025-10-10 12:45:06,865 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 12:45:06,865 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 12:45:06,912 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 12:45:06,921 - root - INFO - Time since last close for GWH is 276.64869516666664 minutes, net percent -28.8382
-2025-10-10 12:45:07,066 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
-2025-10-10 12:45:07,075 - root - INFO - 1min candle is not positive for GWH: open 4.3205 close 4.2199
-2025-10-10 12:45:07,076 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 12:45:07,079 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 12:45:07,080 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 12:45:07,153 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
-2025-10-10 12:45:07,154 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-10 12:45:07,159 - root - INFO - Time since last close for WAI is 355.31932693333334 minutes, net percent 5.63991
-2025-10-10 12:45:07,255 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
-2025-10-10 12:45:07,262 - root - INFO - 1min candle is not positive for WAI: open 4.18 close 4.1676
-2025-10-10 12:45:07,347 - root - WARNING - Skipping COIN: not opened by algorithm
-2025-10-10 12:45:08,175 - root - INFO -  update_current_price: start time 2025-10-10T12:40:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:45:10,077 - root - INFO -  update_current_price: start time 2025-10-10T12:40:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:45:12,024 - root - INFO -  MACD calculation for NVX due to high change percent: 48.7298
-2025-10-10 12:45:12,093 - root - INFO - MACD not positive for NVX
-2025-10-10 12:45:12,637 - root - INFO -  update_current_price: start time 2025-10-10T12:40:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:45:12,969 - root - INFO -  MACD calculation for OBIO due to high change percent: 14.3589
-2025-10-10 12:45:14,120 - root - INFO -  MACD calculation for ONMD due to high change percent: 20.5993
-2025-10-10 12:45:14,199 - root - INFO - MACD not positive for ONMD
-2025-10-10 12:45:14,885 - root - INFO -  update_current_price: start time 2025-10-10T12:40:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:45:17,279 - root - INFO -  update_current_price: start time 2025-10-10T12:40:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:45:17,390 - root - INFO - Real mode: Today's profit so far: 1258.3299750000006
-2025-10-10 12:45:17,444 - root - INFO - Running real_trade for all top movers
-2025-10-10 12:45:17,445 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 12:45:17,445 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 12:45:17,489 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 12:45:17,499 - root - INFO - Time since last close for GWH is 276.82498833333335 minutes, net percent -28.8382
-2025-10-10 12:45:17,663 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
-2025-10-10 12:45:17,683 - root - INFO - 1min candle is not positive for GWH: open 4.3205 close 4.2199
-2025-10-10 12:45:17,684 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 12:45:17,693 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 12:45:17,693 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 12:45:17,795 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
-2025-10-10 12:45:17,796 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-10 12:45:17,806 - root - INFO - Time since last close for WAI is 355.49676938333334 minutes, net percent 5.63991
-2025-10-10 12:45:17,841 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
-2025-10-10 12:45:17,856 - root - INFO - 1min candle is not positive for WAI: open 4.18 close 4.1676
-2025-10-10 12:45:17,929 - root - WARNING - Skipping COIN: not opened by algorithm
-2025-10-10 12:45:19,010 - root - INFO -  MACD calculation for PPTA due to high change percent: 10.1504
-2025-10-10 12:45:19,120 - root - INFO - MACD not positive for PPTA
-2025-10-10 12:45:19,632 - root - INFO -  update_current_price: start time 2025-10-10T12:40:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:45:21,147 - root - INFO -  MACD calculation for QNRX due to high change percent: 144.118
-2025-10-10 12:45:21,189 - root - INFO - MACD not positive for QNRX
-2025-10-10 12:45:21,442 - root - INFO -  MACD calculation for QTTB due to high change percent: 10.1389
-2025-10-10 12:45:21,507 - root - INFO - MACD not positive for QTTB
-2025-10-10 12:45:21,883 - root - INFO -  update_current_price: start time 2025-10-10T12:40:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:45:23,857 - root - INFO -  update_current_price: start time 2025-10-10T12:40:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:45:26,474 - root - INFO -  update_current_price: start time 2025-10-10T12:40:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:45:27,072 - root - INFO -  MACD calculation for SES due to high change percent: 10.4027
-2025-10-10 12:45:27,153 - root - INFO - MACD not positive for SES
-2025-10-10 12:45:27,542 - root - INFO -  MACD calculation for SGBX due to high change percent: 82.713
-2025-10-10 12:45:27,964 - root - INFO - Real mode: Today's profit so far: 1213.719975
-2025-10-10 12:45:28,129 - root - INFO - Running real_trade for all top movers
-2025-10-10 12:45:28,130 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 12:45:28,130 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 12:45:28,167 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 12:45:28,179 - root - INFO - Time since last close for GWH is 277.0029916666666 minutes, net percent -28.8382
-2025-10-10 12:45:28,317 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
-2025-10-10 12:45:28,334 - root - INFO - 1min candle is not positive for GWH: open 4.3205 close 4.2199
-2025-10-10 12:45:28,335 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 12:45:28,342 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 12:45:28,343 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 12:45:28,425 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
-2025-10-10 12:45:28,426 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-10 12:45:28,434 - root - INFO - Time since last close for WAI is 355.67389855 minutes, net percent 5.63991
-2025-10-10 12:45:28,470 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
-2025-10-10 12:45:28,487 - root - INFO - 1min candle is not positive for WAI: open 4.18 close 4.1676
-2025-10-10 12:45:28,576 - root - WARNING - Skipping COIN: not opened by algorithm
-2025-10-10 12:45:28,589 - root - INFO -  MACD calculation for SKBL due to high change percent: 15.1079
-2025-10-10 12:45:28,977 - root - INFO -  MACD calculation for SLE due to high change percent: 17.1348
-2025-10-10 12:45:29,490 - root - INFO -  update_current_price: start time 2025-10-10T12:40:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:45:30,381 - root - INFO -  MACD calculation for SOAR due to high change percent: 11.4155
-2025-10-10 12:45:31,903 - root - INFO -  update_current_price: start time 2025-10-10T12:40:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:45:33,775 - root - INFO -  update_current_price: start time 2025-10-10T12:40:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:45:36,319 - root - INFO -  update_current_price: start time 2025-10-10T12:40:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:45:37,862 - root - INFO -  MACD calculation for UAMY due to high change percent: 18.8419
-2025-10-10 12:45:37,949 - root - INFO - MACD not positive for UAMY
-2025-10-10 12:45:38,197 - root - INFO -  MACD calculation for UEC due to high change percent: 12.2509
-2025-10-10 12:45:38,286 - root - INFO - MACD not positive for UEC
-2025-10-10 12:45:38,603 - root - INFO - Real mode: Today's profit so far: 1197.8199749999985
-2025-10-10 12:45:38,628 - root - INFO - Running real_trade for all top movers
-2025-10-10 12:45:38,628 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 12:45:38,628 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 12:45:38,667 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 12:45:38,679 - root - INFO - Time since last close for GWH is 277.17798338333336 minutes, net percent -28.8382
-2025-10-10 12:45:38,925 - root - INFO -  update_current_price: start time 2025-10-10T12:40:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:45:38,944 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
-2025-10-10 12:45:38,965 - root - INFO - 1min candle is not positive for GWH: open 4.3205 close 4.2199
-2025-10-10 12:45:38,966 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 12:45:38,977 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 12:45:38,977 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 12:45:39,079 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
-2025-10-10 12:45:39,080 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-10 12:45:39,091 - root - INFO - Time since last close for WAI is 355.85152201666665 minutes, net percent 5.63991
-2025-10-10 12:45:39,092 - root - INFO -  MACD calculation for USARW due to high change percent: 21.719
-2025-10-10 12:45:39,137 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
-2025-10-10 12:45:39,160 - root - INFO - 1min candle is not positive for WAI: open 4.18 close 4.1676
-2025-10-10 12:45:39,215 - root - INFO - MACD not positive for USARW
-2025-10-10 12:45:39,261 - root - WARNING - Skipping COIN: not opened by algorithm
-2025-10-10 12:45:41,301 - root - INFO -  update_current_price: start time 2025-10-10T12:40:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:45:42,080 - root - INFO -  MACD calculation for WAI due to high change percent: 35.9477
-2025-10-10 12:45:43,626 - root - INFO -  update_current_price: start time 2025-10-10T12:40:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 12:45:45,065 - root - INFO -  MACD calculation for YHGJ due to high change percent: 44.1667
-2025-10-10 12:45:45,097 - root - INFO - MACD not positive for YHGJ
-2025-10-10 12:45:45,294 - root - INFO -  MACD calculation for YSXT due to high change percent: 14.0777
-2025-10-10 12:45:45,324 - root - INFO - MACD not positive for YSXT
-2025-10-10 12:45:45,482 - root - INFO -  MACD calculation for ZENA due to high change percent: 10.4278
-2025-10-10 12:45:45,543 - root - INFO - MACD not positive for ZENA
-2025-10-10 12:45:46,416 - root - INFO - Updating change percent of stocks
-2025-10-10 12:45:47,236 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-10 12:45:49,306 - root - INFO - Real mode: Today's profit so far: 1214.5699749999985
-2025-10-10 12:45:49,325 - root - INFO - Running real_trade for all top movers
-2025-10-10 12:45:49,326 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 12:45:49,326 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 12:45:49,362 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 12:45:49,367 - root - INFO - Time since last close for GWH is 277.35613226666663 minutes, net percent -28.8382
-2025-10-10 12:45:49,478 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
-2025-10-10 12:45:49,500 - root - INFO - 1min candle is not positive for GWH: open 4.2112 close 4.25
-2025-10-10 12:45:49,501 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 12:45:49,512 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 12:45:49,512 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 12:45:49,580 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
-2025-10-10 12:45:49,581 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-10 12:45:49,593 - root - INFO - Time since last close for WAI is 356.02656081666663 minutes, net percent 5.63991
-2025-10-10 12:45:49,626 - root - INFO - Last 5 minutes maximum volume candle is red for WAI
-2025-10-10 12:45:49,724 - root - WARNING - Skipping COIN: not opened by algorithm
-2025-10-10 12:45:59,759 - root - INFO - Real mode: Today's profit so far: 1208.0699749999985
-2025-10-10 12:45:59,780 - root - INFO - Running real_trade for all top movers
-2025-10-10 12:45:59,781 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 12:45:59,781 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 12:45:59,834 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 12:45:59,848 - root - INFO - Time since last close for GWH is 277.53080396666667 minutes, net percent -28.8382
-2025-10-10 12:45:59,993 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
-2025-10-10 12:46:00,023 - root - INFO - 1min candle is not positive for GWH: open 4.2112 close 4.25
-2025-10-10 12:46:00,024 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 12:46:00,037 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 12:46:00,038 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 12:46:00,113 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
-2025-10-10 12:46:00,114 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-10 12:46:00,124 - root - INFO - Time since last close for WAI is 356.2020738666667 minutes, net percent 5.63991
-2025-10-10 12:46:00,161 - root - INFO - Last 5 minutes maximum volume candle is red for WAI
-2025-10-10 12:46:00,269 - root - WARNING - Skipping COIN: not opened by algorithm
-2025-10-10 12:46:10,297 - root - INFO - Real mode: Today's profit so far: 1171.6699750000043
-2025-10-10 12:46:10,319 - root - INFO - Running real_trade for all top movers
-2025-10-10 12:46:10,320 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 12:46:10,320 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 12:46:10,356 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 12:46:10,366 - root - INFO - Time since last close for GWH is 277.70610734999997 minutes, net percent -28.8382
-2025-10-10 12:46:10,520 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
-2025-10-10 12:46:10,543 - root - INFO - 1min candle is not positive for GWH: open 4.2112 close 4.25
-2025-10-10 12:46:10,545 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 12:46:10,559 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 12:46:10,559 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 12:46:10,659 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
-2025-10-10 12:46:10,661 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-10 12:46:10,676 - root - INFO - Time since last close for WAI is 356.3779447 minutes, net percent 5.63991
-2025-10-10 12:46:10,717 - root - INFO - Last 5 minutes maximum volume candle is red for WAI
-2025-10-10 12:46:10,818 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:48:27,187 - root - INFO -  update_current_price: start time 2025-10-10T12:43:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:48:27,305 - root - INFO -  MACD calculation for USARW due to high change percent: 23.5203
+2025-10-10 12:48:27,369 - root - INFO - MACD not positive for USARW
+2025-10-10 12:48:28,435 - root - INFO - Real mode: Today's profit so far: 997.6699750000043
+2025-10-10 12:48:28,455 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:48:28,455 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:48:28,455 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:48:28,497 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 12:48:28,507 - root - INFO - Time since last close for GWH is 280.00845223333334 minutes, net percent -28.8382
+2025-10-10 12:48:28,661 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
+2025-10-10 12:48:28,662 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-10 12:48:28,672 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 12:48:28,672 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
+2025-10-10 12:48:28,748 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
+2025-10-10 12:48:28,749 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-10 12:48:28,757 - root - INFO - Time since last close for WAI is 358.6792943333333 minutes, net percent 5.63991
+2025-10-10 12:48:28,789 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-10 12:48:28,836 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-10 12:48:28,837 - root - INFO - WAI:======= 4.22===>BUY========>TrendUp183327
+2025-10-10 12:48:28,940 - root - CRITICAL - WAI  237 buy
+2025-10-10 12:48:28,964 - root - INFO - Order didn't go through
+2025-10-10 12:48:28,965 - root - INFO - Placed BUY order for WAI, qty: 237, price: 4.21, success: False
+2025-10-10 12:48:28,965 - root - INFO - Trade execution NOT COMPLETED for stock: WAI
+2025-10-10 12:48:29,053 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:48:29,916 - root - INFO -  update_current_price: start time 2025-10-10T12:43:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:48:31,113 - root - INFO -  MACD calculation for WAI due to high change percent: 36.1961
+2025-10-10 12:48:32,992 - root - INFO -  update_current_price: start time 2025-10-10T12:43:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:48:34,628 - root - INFO -  MACD calculation for YHGJ due to high change percent: 43.98
+2025-10-10 12:48:34,660 - root - INFO - MACD not positive for YHGJ
+2025-10-10 12:48:34,891 - root - INFO -  MACD calculation for ZENA due to high change percent: 10.8734
+2025-10-10 12:48:34,950 - root - INFO - MACD not positive for ZENA
+2025-10-10 12:48:36,050 - root - INFO - Updating change percent of stocks
+2025-10-10 12:48:37,020 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-10 12:48:39,098 - root - INFO - Real mode: Today's profit so far: 989.969975
+2025-10-10 12:48:39,118 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:48:39,120 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:48:39,120 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:48:39,169 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 12:48:39,180 - root - INFO - Time since last close for GWH is 280.18634031666664 minutes, net percent -28.8382
+2025-10-10 12:48:39,328 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
+2025-10-10 12:48:39,329 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-10 12:48:39,340 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 12:48:39,340 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
+2025-10-10 12:48:39,418 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
+2025-10-10 12:48:39,419 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-10 12:48:39,430 - root - INFO - Time since last close for WAI is 358.85717561666667 minutes, net percent 5.63991
+2025-10-10 12:48:39,483 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-10 12:48:39,541 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-10 12:48:39,541 - root - INFO - WAI:======= 4.22===>BUY========>TrendUp183327
+2025-10-10 12:48:39,651 - root - CRITICAL - WAI  237 buy
+2025-10-10 12:48:39,672 - root - INFO - Order didn't go through
+2025-10-10 12:48:39,672 - root - INFO - Placed BUY order for WAI, qty: 237, price: 4.21, success: False
+2025-10-10 12:48:39,672 - root - INFO - Trade execution NOT COMPLETED for stock: WAI
+2025-10-10 12:48:39,760 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:48:49,799 - root - INFO - Real mode: Today's profit so far: 1000.1199750000014
+2025-10-10 12:48:49,819 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:48:49,820 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:48:49,820 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:48:49,865 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 12:48:49,885 - root - INFO - Time since last close for GWH is 280.36475736666665 minutes, net percent -28.8382
+2025-10-10 12:48:50,028 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
+2025-10-10 12:48:50,029 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-10 12:48:50,041 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 12:48:50,042 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
+2025-10-10 12:48:50,139 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
+2025-10-10 12:48:50,140 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-10 12:48:50,155 - root - INFO - Time since last close for WAI is 359.03591973333334 minutes, net percent 5.63991
+2025-10-10 12:48:50,203 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-10 12:48:50,224 - root - INFO - 1min candle is not positive for WAI: open 4.22 close 4.1873
+2025-10-10 12:48:50,308 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:49:00,348 - root - INFO - Real mode: Today's profit so far: 986.469975
+2025-10-10 12:49:00,374 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:49:00,375 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:49:00,375 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:49:00,428 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 12:49:00,440 - root - INFO - Time since last close for GWH is 280.54068011666664 minutes, net percent -28.8382
+2025-10-10 12:49:00,614 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
+2025-10-10 12:49:00,616 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-10 12:49:00,626 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 12:49:00,627 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
+2025-10-10 12:49:00,749 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
+2025-10-10 12:49:00,752 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-10 12:49:00,762 - root - INFO - Time since last close for WAI is 359.21270396666665 minutes, net percent 5.63991
+2025-10-10 12:49:00,806 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-10 12:49:00,829 - root - INFO - 1min candle is not positive for WAI: open 4.22 close 4.1873
+2025-10-10 12:49:00,914 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:49:10,948 - root - INFO - Real mode: Today's profit so far: 990.6699750000043
+2025-10-10 12:49:10,974 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:49:10,975 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:49:10,975 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:49:11,014 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 12:49:11,022 - root - INFO - Time since last close for GWH is 280.7170464833333 minutes, net percent -28.8382
+2025-10-10 12:49:11,158 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
+2025-10-10 12:49:11,159 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-10 12:49:11,172 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 12:49:11,172 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
+2025-10-10 12:49:11,278 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
+2025-10-10 12:49:11,279 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-10 12:49:11,291 - root - INFO - Time since last close for WAI is 359.3881869333334 minutes, net percent 5.63991
+2025-10-10 12:49:11,338 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-10 12:49:11,357 - root - INFO - 1min candle is not positive for WAI: open 4.22 close 4.1873
+2025-10-10 12:49:11,456 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:49:21,494 - root - INFO - Real mode: Today's profit so far: 1013.7699750000029
+2025-10-10 12:49:21,520 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:49:21,520 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:49:21,520 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:49:21,568 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 12:49:21,582 - root - INFO - Time since last close for GWH is 280.8930303166666 minutes, net percent -28.8382
+2025-10-10 12:49:21,773 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
+2025-10-10 12:49:21,774 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-10 12:49:21,785 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 12:49:21,786 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
+2025-10-10 12:49:21,939 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
+2025-10-10 12:49:21,940 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-10 12:49:21,956 - root - INFO - Time since last close for WAI is 359.5659295166667 minutes, net percent 5.63991
+2025-10-10 12:49:21,997 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-10 12:49:22,022 - root - INFO - 1min candle is not positive for WAI: open 4.22 close 4.1873
+2025-10-10 12:49:22,110 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:49:32,147 - root - INFO - Real mode: Today's profit so far: 1013.7699750000029
+2025-10-10 12:49:32,174 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:49:32,175 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:49:32,175 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:49:32,234 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 12:49:32,246 - root - INFO - Time since last close for GWH is 281.07077088333335 minutes, net percent -28.8382
+2025-10-10 12:49:32,394 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
+2025-10-10 12:49:32,396 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-10 12:49:32,408 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 12:49:32,409 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
+2025-10-10 12:49:32,528 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
+2025-10-10 12:49:32,529 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-10 12:49:32,544 - root - INFO - Time since last close for WAI is 359.7424091666666 minutes, net percent 5.63991
+2025-10-10 12:49:32,587 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-10 12:49:32,614 - root - INFO - 1min candle is not positive for WAI: open 4.22 close 4.1873
+2025-10-10 12:49:32,708 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:49:37,097 - root - INFO - Real mode: Today's profit so far: 1016.5699749999985
+2025-10-10 12:49:37,163 - root - INFO - ('2025-10-10T20:58:00-04:00', '2025-10-10T20:58:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T20:58:00-04:00')
+2025-10-10 12:49:37,163 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T20:58:00-04:00
+2025-10-10 12:49:37,192 - root - INFO -  update_current_price: start time 2025-10-10T12:44:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:49:37,559 - root - INFO -  MACD calculation for ABAT due to high change percent: 11.4583
+2025-10-10 12:49:37,645 - root - INFO - MACD not positive for ABAT
+2025-10-10 12:49:40,044 - root - INFO -  update_current_price: start time 2025-10-10T12:44:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:49:42,734 - root - INFO - Real mode: Today's profit so far: 1028.469975
+2025-10-10 12:49:42,754 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:49:42,755 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:49:42,755 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:49:42,793 - root - INFO -  update_current_price: start time 2025-10-10T12:44:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:49:42,796 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 12:49:42,808 - root - INFO - Time since last close for GWH is 281.2468068 minutes, net percent -28.8382
+2025-10-10 12:49:42,946 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
+2025-10-10 12:49:42,948 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-10 12:49:42,958 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 12:49:42,959 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
+2025-10-10 12:49:43,031 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
+2025-10-10 12:49:43,032 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-10 12:49:43,041 - root - INFO - Time since last close for WAI is 359.91736311666665 minutes, net percent 5.63991
+2025-10-10 12:49:43,074 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-10 12:49:43,089 - root - INFO - 1min candle is not positive for WAI: open 4.22 close 4.1873
+2025-10-10 12:49:43,169 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:49:43,257 - root - INFO -  MACD calculation for APLD due to high change percent: 18.9314
+2025-10-10 12:49:44,310 - root - INFO -  MACD calculation for AREC due to high change percent: 11.9901
+2025-10-10 12:49:44,393 - root - INFO - MACD not positive for AREC
+2025-10-10 12:49:45,346 - root - INFO -  MACD calculation for ASPI due to high change percent: 21.0169
+2025-10-10 12:49:45,405 - root - INFO - MACD not positive for ASPI
+2025-10-10 12:49:45,772 - root - INFO -  update_current_price: start time 2025-10-10T12:44:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:49:47,650 - root - INFO -  update_current_price: start time 2025-10-10T12:44:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:49:50,020 - root - INFO -  MACD calculation for BITF due to high change percent: 11.6307
+2025-10-10 12:49:50,766 - root - INFO -  update_current_price: start time 2025-10-10T12:44:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:49:53,207 - root - INFO - Real mode: Today's profit so far: 982.969975
+2025-10-10 12:49:53,228 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:49:53,228 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:49:53,229 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:49:53,267 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 12:49:53,278 - root - INFO - Time since last close for GWH is 281.42131236666665 minutes, net percent -28.8382
+2025-10-10 12:49:53,419 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
+2025-10-10 12:49:53,420 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-10 12:49:53,427 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 12:49:53,428 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
+2025-10-10 12:49:53,511 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
+2025-10-10 12:49:53,512 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-10 12:49:53,521 - root - INFO - Time since last close for WAI is 360.09201651666666 minutes, net percent 5.63991
+2025-10-10 12:49:53,557 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-10 12:49:53,558 - root - INFO -  update_current_price: start time 2025-10-10T12:44:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:49:53,573 - root - INFO - 1min candle is not positive for WAI: open 4.19 close 4.2
+2025-10-10 12:49:53,664 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:49:54,152 - root - INFO -  MACD calculation for BYND due to high change percent: 11.4518
+2025-10-10 12:49:54,248 - root - INFO - MACD not positive for BYND
+2025-10-10 12:49:55,348 - root - INFO -  MACD calculation for CATX due to high change percent: 28.1995
+2025-10-10 12:49:55,404 - root - INFO - MACD not positive for CATX
+2025-10-10 12:49:56,447 - root - INFO -  update_current_price: start time 2025-10-10T12:44:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:49:59,267 - root - INFO -  update_current_price: start time 2025-10-10T12:44:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:50:01,890 - root - INFO -  MACD calculation for CRML due to high change percent: 16.5874
+2025-10-10 12:50:01,968 - root - INFO - MACD not positive for CRML
+2025-10-10 12:50:02,043 - root - INFO -  MACD calculation for CRMLW due to high change percent: 24.8038
+2025-10-10 12:50:02,084 - root - INFO - MACD not positive for CRMLW
+2025-10-10 12:50:02,260 - root - INFO -  update_current_price: start time 2025-10-10T12:45:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:50:03,703 - root - INFO - Real mode: Today's profit so far: 959.2899749999997
+2025-10-10 12:50:03,730 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:50:03,730 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:50:03,731 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:50:03,769 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 12:50:03,782 - root - INFO - Time since last close for GWH is 281.5963570166667 minutes, net percent -28.8382
+2025-10-10 12:50:03,925 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
+2025-10-10 12:50:03,927 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-10 12:50:03,936 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 12:50:03,936 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
+2025-10-10 12:50:04,081 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
+2025-10-10 12:50:04,081 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-10 12:50:04,086 - root - INFO - Time since last close for WAI is 360.26810191666664 minutes, net percent 5.63991
+2025-10-10 12:50:04,116 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-10 12:50:04,126 - root - INFO - 1min candle is not positive for WAI: open 4.19 close 4.2
+2025-10-10 12:50:04,196 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:50:04,615 - root - INFO -  update_current_price: start time 2025-10-10T12:45:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:50:05,532 - root - INFO -  MACD calculation for DGXX due to high change percent: 19.9621
+2025-10-10 12:50:07,285 - root - INFO -  update_current_price: start time 2025-10-10T12:45:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:50:09,426 - root - INFO -  update_current_price: start time 2025-10-10T12:45:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:50:12,165 - root - INFO -  update_current_price: start time 2025-10-10T12:45:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:50:13,177 - root - INFO -  MACD calculation for FEAM due to high change percent: 16.4739
+2025-10-10 12:50:14,238 - root - INFO - Real mode: Today's profit so far: 970.719975
+2025-10-10 12:50:14,260 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:50:14,261 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:50:14,261 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:50:14,296 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 12:50:14,305 - root - INFO - Time since last close for GWH is 281.7717523666667 minutes, net percent -28.8382
+2025-10-10 12:50:14,456 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
+2025-10-10 12:50:14,458 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-10 12:50:14,466 - root - INFO -  update_current_price: start time 2025-10-10T12:45:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:50:14,468 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 12:50:14,468 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
+2025-10-10 12:50:14,551 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
+2025-10-10 12:50:14,552 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-10 12:50:14,561 - root - INFO - Time since last close for WAI is 360.44269431666663 minutes, net percent 5.63991
+2025-10-10 12:50:14,607 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-10 12:50:14,621 - root - INFO - 1min candle is not positive for WAI: open 4.19 close 4.2
+2025-10-10 12:50:14,700 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:50:16,096 - root - INFO -  update_current_price: start time 2025-10-10T12:45:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:50:17,834 - root - INFO -  update_current_price: start time 2025-10-10T12:45:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:50:19,529 - root - INFO -  MACD calculation for GWAV due to high change percent: 11.182
+2025-10-10 12:50:19,661 - root - INFO -  MACD calculation for GWH due to high change percent: 140.756
+2025-10-10 12:50:20,664 - root - INFO -  update_current_price: start time 2025-10-10T12:45:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:50:23,214 - root - INFO -  update_current_price: start time 2025-10-10T12:45:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:50:24,738 - root - INFO - Real mode: Today's profit so far: 1097.3699750000014
+2025-10-10 12:50:24,756 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:50:24,757 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:50:24,757 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:50:24,795 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 12:50:24,804 - root - INFO - Time since last close for GWH is 281.94674008333334 minutes, net percent -28.8382
+2025-10-10 12:50:24,938 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
+2025-10-10 12:50:24,939 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-10 12:50:24,948 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 12:50:24,948 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
+2025-10-10 12:50:25,033 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
+2025-10-10 12:50:25,034 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-10 12:50:25,042 - root - INFO - Time since last close for WAI is 360.61738058333333 minutes, net percent 5.63991
+2025-10-10 12:50:25,076 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-10 12:50:25,091 - root - INFO - 1min candle is not positive for WAI: open 4.19 close 4.2
+2025-10-10 12:50:25,170 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:50:25,450 - root - INFO -  update_current_price: start time 2025-10-10T12:45:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:50:28,366 - root - INFO -  update_current_price: start time 2025-10-10T12:45:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:50:30,969 - root - INFO -  update_current_price: start time 2025-10-10T12:45:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:50:33,350 - root - INFO -  update_current_price: start time 2025-10-10T12:45:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:50:35,204 - root - INFO - Real mode: Today's profit so far: 1087.5699749999985
+2025-10-10 12:50:35,227 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:50:35,228 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:50:35,228 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:50:35,268 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 12:50:35,280 - root - INFO - Time since last close for GWH is 282.1213387166666 minutes, net percent -28.8382
+2025-10-10 12:50:35,428 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
+2025-10-10 12:50:35,429 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-10 12:50:35,439 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 12:50:35,439 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
+2025-10-10 12:50:35,534 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
+2025-10-10 12:50:35,535 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-10 12:50:35,545 - root - INFO - Time since last close for WAI is 360.7924143166667 minutes, net percent 5.63991
+2025-10-10 12:50:35,582 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-10 12:50:35,600 - root - INFO - 1min candle is not positive for WAI: open 4.19 close 4.2
+2025-10-10 12:50:35,655 - root - INFO -  update_current_price: start time 2025-10-10T12:45:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:50:35,684 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:50:37,524 - root - INFO -  update_current_price: start time 2025-10-10T12:45:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:50:40,191 - root - INFO -  update_current_price: start time 2025-10-10T12:45:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:50:42,262 - root - INFO -  update_current_price: start time 2025-10-10T12:45:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:50:44,037 - root - INFO -  MACD calculation for NVX due to high change percent: 51.9908
+2025-10-10 12:50:44,115 - root - INFO - MACD not positive for NVX
+2025-10-10 12:50:44,665 - root - INFO -  update_current_price: start time 2025-10-10T12:45:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:50:44,925 - root - INFO -  MACD calculation for OBIO due to high change percent: 13.2404
+2025-10-10 12:50:45,717 - root - INFO - Real mode: Today's profit so far: 1057.019975000003
+2025-10-10 12:50:45,740 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:50:45,741 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:50:45,741 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:50:45,779 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 12:50:45,789 - root - INFO - Time since last close for GWH is 282.29648629999997 minutes, net percent -28.8382
+2025-10-10 12:50:45,933 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
+2025-10-10 12:50:45,934 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-10 12:50:45,943 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 12:50:45,944 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
+2025-10-10 12:50:46,014 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
+2025-10-10 12:50:46,015 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-10 12:50:46,023 - root - INFO - Time since last close for WAI is 360.96705275 minutes, net percent 5.63991
+2025-10-10 12:50:46,057 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-10 12:50:46,072 - root - INFO - 1min candle is not positive for WAI: open 4.19 close 4.2
+2025-10-10 12:50:46,154 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:50:46,228 - root - INFO -  MACD calculation for ONMD due to high change percent: 16.1011
+2025-10-10 12:50:46,299 - root - INFO - MACD not positive for ONMD
+2025-10-10 12:50:47,239 - root - INFO -  update_current_price: start time 2025-10-10T12:45:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:50:50,667 - root - INFO -  update_current_price: start time 2025-10-10T12:45:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:50:53,181 - root - INFO -  MACD calculation for PPTA due to high change percent: 10.2757
+2025-10-10 12:50:53,247 - root - INFO - MACD not positive for PPTA
+2025-10-10 12:50:53,842 - root - INFO -  update_current_price: start time 2025-10-10T12:45:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:50:55,875 - root - INFO -  MACD calculation for QNRX due to high change percent: 157.229
+2025-10-10 12:50:55,916 - root - INFO - MACD not positive for QNRX
+2025-10-10 12:50:56,193 - root - INFO - Real mode: Today's profit so far: 1049.3199749999985
+2025-10-10 12:50:56,285 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:50:56,286 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:50:56,286 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:50:56,318 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 12:50:56,327 - root - INFO - Time since last close for GWH is 282.4721278833333 minutes, net percent -28.8382
+2025-10-10 12:50:56,490 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
+2025-10-10 12:50:56,491 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-10 12:50:56,501 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 12:50:56,502 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
+2025-10-10 12:50:56,583 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
+2025-10-10 12:50:56,584 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-10 12:50:56,593 - root - INFO - Time since last close for WAI is 361.14322243333334 minutes, net percent 5.63991
+2025-10-10 12:50:56,629 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-10 12:50:56,645 - root - INFO - 1min candle is not positive for WAI: open 4.15 close 4.19
+2025-10-10 12:50:56,729 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:50:56,778 - root - INFO -  update_current_price: start time 2025-10-10T12:45:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:50:59,349 - root - INFO -  update_current_price: start time 2025-10-10T12:45:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:51:02,206 - root - INFO -  update_current_price: start time 2025-10-10T12:46:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:51:03,282 - root - INFO -  MACD calculation for SGBX due to high change percent: 81.8457
+2025-10-10 12:51:04,881 - root - INFO -  MACD calculation for SLE due to high change percent: 19.1011
+2025-10-10 12:51:05,285 - root - INFO -  update_current_price: start time 2025-10-10T12:46:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:51:06,330 - root - INFO -  MACD calculation for SOAR due to high change percent: 12.7854
+2025-10-10 12:51:06,397 - root - INFO - MACD not positive for SOAR
+2025-10-10 12:51:06,763 - root - INFO - Real mode: Today's profit so far: 1070.219975
+2025-10-10 12:51:06,784 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:51:06,785 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:51:06,785 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:51:06,825 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 12:51:06,834 - root - INFO - Time since last close for GWH is 282.64724543333335 minutes, net percent -28.8382
+2025-10-10 12:51:06,976 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
+2025-10-10 12:51:06,977 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-10 12:51:06,986 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 12:51:06,986 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
+2025-10-10 12:51:07,059 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
+2025-10-10 12:51:07,060 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-10 12:51:07,068 - root - INFO - Time since last close for WAI is 361.3178022833333 minutes, net percent 5.63991
+2025-10-10 12:51:07,102 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-10 12:51:07,118 - root - INFO - 1min candle is not positive for WAI: open 4.15 close 4.19
+2025-10-10 12:51:07,193 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:51:08,033 - root - INFO -  update_current_price: start time 2025-10-10T12:46:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:51:10,385 - root - INFO -  update_current_price: start time 2025-10-10T12:46:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:51:13,473 - root - INFO -  update_current_price: start time 2025-10-10T12:46:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:51:15,157 - root - INFO -  MACD calculation for UAMY due to high change percent: 19.9908
+2025-10-10 12:51:15,233 - root - INFO - MACD not positive for UAMY
+2025-10-10 12:51:15,581 - root - INFO -  MACD calculation for UEC due to high change percent: 12.2428
+2025-10-10 12:51:15,652 - root - INFO - MACD not positive for UEC
+2025-10-10 12:51:16,634 - root - INFO -  update_current_price: start time 2025-10-10T12:46:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:51:16,752 - root - INFO -  MACD calculation for USARW due to high change percent: 21.9249
+2025-10-10 12:51:16,811 - root - INFO - MACD not positive for USARW
+2025-10-10 12:51:17,230 - root - INFO - Real mode: Today's profit so far: 1158.969975
+2025-10-10 12:51:17,249 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:51:17,250 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:51:17,250 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:51:17,287 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 12:51:17,296 - root - INFO - Time since last close for GWH is 282.8216052833333 minutes, net percent -28.8382
+2025-10-10 12:51:17,462 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
+2025-10-10 12:51:17,464 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-10 12:51:17,474 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 12:51:17,474 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
+2025-10-10 12:51:17,548 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
+2025-10-10 12:51:17,549 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-10 12:51:17,564 - root - INFO - Time since last close for WAI is 361.4927349166667 minutes, net percent 5.63991
+2025-10-10 12:51:17,601 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-10 12:51:17,618 - root - INFO - 1min candle is not positive for WAI: open 4.15 close 4.19
+2025-10-10 12:51:17,692 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:51:18,857 - root - INFO -  update_current_price: start time 2025-10-10T12:46:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:51:19,913 - root - INFO -  MACD calculation for WAI due to high change percent: 37.9085
+2025-10-10 12:51:21,441 - root - INFO -  update_current_price: start time 2025-10-10T12:46:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:51:22,897 - root - INFO -  MACD calculation for YHGJ due to high change percent: 43.5117
+2025-10-10 12:51:22,931 - root - INFO - MACD not positive for YHGJ
+2025-10-10 12:51:23,104 - root - INFO -  MACD calculation for YSXT due to high change percent: 14.0777
+2025-10-10 12:51:23,131 - root - INFO - MACD not positive for YSXT
+2025-10-10 12:51:24,042 - root - INFO - Updating change percent of stocks
+2025-10-10 12:51:24,938 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-10 12:51:27,717 - root - INFO - Real mode: Today's profit so far: 1166.6699750000043
+2025-10-10 12:51:27,735 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:51:27,735 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:51:27,735 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:51:27,771 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 12:51:27,775 - root - INFO - Time since last close for GWH is 282.99626441666663 minutes, net percent -28.8382
+2025-10-10 12:51:27,888 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
+2025-10-10 12:51:27,889 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-10 12:51:27,903 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 12:51:27,903 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
+2025-10-10 12:51:27,961 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
+2025-10-10 12:51:27,962 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-10 12:51:27,973 - root - INFO - Time since last close for WAI is 361.66621971666666 minutes, net percent 5.63991
+2025-10-10 12:51:28,002 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-10 12:51:28,022 - root - INFO - 1min candle is not positive for WAI: open 4.15 close 4.19
+2025-10-10 12:51:28,098 - root - WARNING - Skipping COIN: not opened by algorithm
