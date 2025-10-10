@@ -2,10 +2,10 @@ Top Movers:
 +--------+-------------+-----------+----------------+-----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |   volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+-----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  GWH   |      0      |     0     |    172.587     | 235228658 |     4.6885    |        1.72        |  4960000.0   |  1.826   |  2539433   |      0      | 2025-10-10 13:50:48 |
-|  SGBX  |      0      |     0     |    87.3457     |  70006952 |      6.07     |        3.24        |  5860000.0   |   3.42   |   788930   |      0      | 2025-10-10 13:51:29 |
-|  GLUE  |      1      |     0     |    17.5969     |  4412062  |     9.9487    |        8.46        |  45990000.0  |   7.79   |   626199   |      0      | 2025-10-10 13:50:43 |
-|  SKBL  |      1      |     0     |    16.6727     |   839377  |     3.2435    |        2.78        |     0.0      |  2.964   |   619749   |      0      | 2025-10-10 13:51:30 |
+|  GWH   |      0      |     0     |    172.093     | 235939499 |      4.68     |        1.72        |  4960000.0   |  1.826   |  2539433   |      0      | 2025-10-10 13:56:13 |
+|  SGBX  |      0      |     0     |    84.8395     |  70069640 |     5.9888    |        3.24        |  5860000.0   |   3.42   |   788930   |      0      | 2025-10-10 13:56:56 |
+|  SWKH  |      0      |     0     |    17.9861     |   646154  |     16.99     |        14.4        |  11530000.0  |  14.474  |   14991    |      0      | 2025-10-10 13:57:04 |
+|  GLUE  |      1      |     0     |    17.9669     |  4431322  |      9.98     |        8.46        |  45990000.0  |   7.79   |   626199   |      0      | 2025-10-10 13:56:11 |
 |  YSXT  |      0      |     0     |    16.0194     |  1018860  |      2.39     |        2.06        |  8780000.0   |   2.29   |   73838    |      0      | 2025-10-10 13:51:47 |
 +--------+-------------+-----------+----------------+-----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
@@ -20,188 +20,6 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-10 13:48:03,927 - root - INFO -  update_current_price: start time 2025-10-10T13:43:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 13:48:04,466 - root - INFO -  MACD calculation for GLUE due to high change percent: 16.5485
-2025-10-10 13:48:04,687 - root - INFO -  update_current_price: start time 2025-10-10T13:43:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 13:48:05,307 - root - INFO -  MACD calculation for GWAV due to high change percent: 12.1164
-2025-10-10 13:48:05,360 - root - INFO - MACD not positive for GWAV
-2025-10-10 13:48:05,394 - root - INFO -  MACD calculation for GWH due to high change percent: 170.349
-2025-10-10 13:48:05,509 - root - INFO - Real mode: Today's profit so far: 1933.3099750000038
-2025-10-10 13:48:05,526 - root - INFO - Running real_trade for all top movers
-2025-10-10 13:48:05,526 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 13:48:05,526 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 13:48:05,558 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 13:48:05,564 - root - INFO - Time since last close for GWH is 339.62607535 minutes, net percent -28.8382
-2025-10-10 13:48:05,689 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
-2025-10-10 13:48:05,689 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 13:48:05,695 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 13:48:05,695 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 13:48:05,771 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-10 13:48:05,825 - root - INFO - Trend up basic conditions not met for SGBX: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-10 13:48:05,826 - root - INFO - swing_strategy_open_long for scale 5Min stock DGXX
-2025-10-10 13:48:05,830 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 13:48:05,830 - root - INFO - Time since last close for DGXX is None minutes, net percent 0
-2025-10-10 13:48:05,839 - root - INFO -  update_current_price: start time 2025-10-10T13:43:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 13:48:05,914 - root - INFO - Last 5 minutes maximum volume candle is red for DGXX
-2025-10-10 13:48:05,914 - root - INFO - swing_strategy_open_long for scale 5Min stock SKBL
-2025-10-10 13:48:05,922 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 13:48:05,923 - root - INFO - Time since last close for SKBL is None minutes, net percent 0
-2025-10-10 13:48:05,983 - root - INFO - Last 5 minutes maximum volume candle is red for SKBL
-2025-10-10 13:48:05,984 - root - INFO - swing_strategy_open_long for scale 5Min stock GLUE
-2025-10-10 13:48:05,990 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 13:48:05,991 - root - INFO - Time since last close for GLUE is None minutes, net percent 0
-2025-10-10 13:48:06,071 - root - INFO - Last 5 minutes maximum volume candle is green for GLUE
-2025-10-10 13:48:06,120 - root - INFO - Trend up basic conditions not met for GLUE: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-10 13:48:06,190 - root - INFO - swing_strategy_close_long for scale 5Min stock ABAT
-2025-10-10 13:48:06,355 - root - INFO - Profit percent for ABAT is 0.7503877702164526
-2025-10-10 13:48:06,355 - root - INFO - Latest 1min close price for ABAT: 7.1937
-2025-10-10 13:48:06,450 - root - INFO - MACD is still rising for stock ABAT
-2025-10-10 13:48:06,450 - root - INFO - Not enough profit percent to scalp for ABAT: 0.7503877702164526
-2025-10-10 13:48:06,463 - root - INFO - swing_strategy_close_long for scale 5Min stock GLUE
-2025-10-10 13:48:06,570 - root - INFO -  MACD calculation for HONDW due to high change percent: 11.0959
-2025-10-10 13:48:06,574 - root - INFO - Profit percent for GLUE is -1.0630565146283846
-2025-10-10 13:48:06,574 - root - INFO - Latest 1min close price for GLUE: 9.815
-2025-10-10 13:48:06,611 - root - INFO - MACD not positive for HONDW
-2025-10-10 13:48:06,629 - root - INFO - MACD is still rising for stock GLUE
-2025-10-10 13:48:06,629 - root - INFO - Not enough profit percent to scalp for GLUE: -1.0630565146283846
-2025-10-10 13:48:06,645 - root - INFO - swing_strategy_close_long for scale 5Min stock SKBL
-2025-10-10 13:48:06,717 - root - INFO - Profit percent for SKBL is 0.01827986472900101
-2025-10-10 13:48:06,717 - root - INFO - Latest 1min close price for SKBL: 3.2829
-2025-10-10 13:48:06,776 - root - INFO - MACD is still rising for stock SKBL
-2025-10-10 13:48:06,777 - root - INFO - Not enough profit percent to scalp for SKBL: 0.01827986472900101
-2025-10-10 13:48:07,521 - root - INFO -  update_current_price: start time 2025-10-10T13:43:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 13:48:09,810 - root - INFO -  update_current_price: start time 2025-10-10T13:43:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 13:48:12,266 - root - INFO -  update_current_price: start time 2025-10-10T13:43:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 13:48:14,767 - root - INFO -  update_current_price: start time 2025-10-10T13:43:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 13:48:16,820 - root - INFO - Real mode: Today's profit so far: 1917.8199749999985
-2025-10-10 13:48:16,847 - root - INFO - Running real_trade for all top movers
-2025-10-10 13:48:16,848 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 13:48:16,848 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 13:48:16,887 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 13:48:16,895 - root - INFO - Time since last close for GWH is 339.81493018333333 minutes, net percent -28.8382
-2025-10-10 13:48:16,896 - root - INFO -  update_current_price: start time 2025-10-10T13:43:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 13:48:17,035 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
-2025-10-10 13:48:17,036 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 13:48:17,044 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 13:48:17,044 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 13:48:17,121 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-10 13:48:17,186 - root - INFO - Trend up basic conditions not met for SGBX: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-10 13:48:17,187 - root - INFO - swing_strategy_open_long for scale 5Min stock DGXX
-2025-10-10 13:48:17,218 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 13:48:17,218 - root - INFO - Time since last close for DGXX is None minutes, net percent 0
-2025-10-10 13:48:17,369 - root - INFO - Last 5 minutes maximum volume candle is red for DGXX
-2025-10-10 13:48:17,369 - root - INFO - swing_strategy_open_long for scale 5Min stock SKBL
-2025-10-10 13:48:17,376 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 13:48:17,376 - root - INFO - Time since last close for SKBL is None minutes, net percent 0
-2025-10-10 13:48:17,447 - root - INFO - Last 5 minutes maximum volume candle is red for SKBL
-2025-10-10 13:48:17,448 - root - INFO - swing_strategy_open_long for scale 5Min stock GLUE
-2025-10-10 13:48:17,456 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 13:48:17,456 - root - INFO - Time since last close for GLUE is None minutes, net percent 0
-2025-10-10 13:48:17,542 - root - INFO - Last 5 minutes maximum volume candle is green for GLUE
-2025-10-10 13:48:17,597 - root - INFO - Trend up basic conditions not met for GLUE: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-10 13:48:17,674 - root - INFO - swing_strategy_close_long for scale 5Min stock ABAT
-2025-10-10 13:48:17,831 - root - INFO - Profit percent for ABAT is 0.8202562776853961
-2025-10-10 13:48:17,831 - root - INFO - Latest 1min close price for ABAT: 7.1937
-2025-10-10 13:48:17,923 - root - INFO - MACD is still rising for stock ABAT
-2025-10-10 13:48:17,923 - root - INFO - Not enough profit percent to scalp for ABAT: 0.8202562776853961
-2025-10-10 13:48:17,937 - root - INFO - swing_strategy_close_long for scale 5Min stock GLUE
-2025-10-10 13:48:18,027 - root - INFO - Profit percent for GLUE is -1.0630565146283846
-2025-10-10 13:48:18,027 - root - INFO - Latest 1min close price for GLUE: 9.815
-2025-10-10 13:48:18,089 - root - INFO - MACD is still rising for stock GLUE
-2025-10-10 13:48:18,089 - root - INFO - Not enough profit percent to scalp for GLUE: -1.0630565146283846
-2025-10-10 13:48:18,103 - root - INFO - swing_strategy_close_long for scale 5Min stock SKBL
-2025-10-10 13:48:18,187 - root - INFO - Profit percent for SKBL is -1.5933948755445875
-2025-10-10 13:48:18,188 - root - INFO - Latest 1min close price for SKBL: 3.2829
-2025-10-10 13:48:18,251 - root - INFO - MACD is still rising for stock SKBL
-2025-10-10 13:48:18,251 - root - INFO - Not enough profit percent to scalp for SKBL: -1.5933948755445875
-2025-10-10 13:48:18,689 - root - INFO -  update_current_price: start time 2025-10-10T13:43:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 13:48:20,743 - root - INFO -  update_current_price: start time 2025-10-10T13:43:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 13:48:23,196 - root - INFO -  MACD calculation for NB due to high change percent: 11.7886
-2025-10-10 13:48:23,287 - root - INFO -  update_current_price: start time 2025-10-10T13:43:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 13:48:25,532 - root - INFO -  update_current_price: start time 2025-10-10T13:43:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 13:48:26,812 - root - INFO -  MACD calculation for NVA due to high change percent: 16.6214
-2025-10-10 13:48:26,860 - root - INFO - MACD not positive for NVA
-2025-10-10 13:48:27,267 - root - INFO -  MACD calculation for NVTS due to high change percent: 12.3125
-2025-10-10 13:48:27,454 - root - INFO -  MACD calculation for NVX due to high change percent: 49.1917
-2025-10-10 13:48:27,516 - root - INFO - MACD not positive for NVX
-2025-10-10 13:48:27,986 - root - INFO -  update_current_price: start time 2025-10-10T13:43:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 13:48:28,306 - root - INFO - Real mode: Today's profit so far: 1919.4499750000032
-2025-10-10 13:48:28,325 - root - INFO - Running real_trade for all top movers
-2025-10-10 13:48:28,325 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 13:48:28,325 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 13:48:28,363 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 13:48:28,371 - root - INFO - Time since last close for GWH is 340.00618163333337 minutes, net percent -28.8382
-2025-10-10 13:48:28,505 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
-2025-10-10 13:48:28,506 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 13:48:28,515 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 13:48:28,515 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 13:48:28,596 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-10 13:48:28,646 - root - INFO - Trend up basic conditions not met for SGBX: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-10 13:48:28,646 - root - INFO - swing_strategy_open_long for scale 5Min stock DGXX
-2025-10-10 13:48:28,653 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 13:48:28,653 - root - INFO - Time since last close for DGXX is None minutes, net percent 0
-2025-10-10 13:48:28,743 - root - INFO - Last 5 minutes maximum volume candle is red for DGXX
-2025-10-10 13:48:28,744 - root - INFO - swing_strategy_open_long for scale 5Min stock SKBL
-2025-10-10 13:48:28,750 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 13:48:28,750 - root - INFO - Time since last close for SKBL is None minutes, net percent 0
-2025-10-10 13:48:28,812 - root - INFO - Last 5 minutes maximum volume candle is red for SKBL
-2025-10-10 13:48:28,812 - root - INFO - swing_strategy_open_long for scale 5Min stock GLUE
-2025-10-10 13:48:28,819 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 13:48:28,819 - root - INFO - Time since last close for GLUE is None minutes, net percent 0
-2025-10-10 13:48:28,888 - root - INFO - Last 5 minutes maximum volume candle is green for GLUE
-2025-10-10 13:48:28,909 - root - INFO -  MACD calculation for ONMD due to high change percent: 13.7266
-2025-10-10 13:48:28,939 - root - INFO - Trend up basic conditions not met for GLUE: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-10 13:48:28,968 - root - INFO - MACD not positive for ONMD
-2025-10-10 13:48:29,028 - root - INFO - swing_strategy_close_long for scale 5Min stock ABAT
-2025-10-10 13:48:29,199 - root - INFO - Profit percent for ABAT is 0.6106507552785657
-2025-10-10 13:48:29,199 - root - INFO - Latest 1min close price for ABAT: 7.1937
-2025-10-10 13:48:29,297 - root - INFO - MACD is still rising for stock ABAT
-2025-10-10 13:48:29,297 - root - INFO - Not enough profit percent to scalp for ABAT: 0.6106507552785657
-2025-10-10 13:48:29,313 - root - INFO - swing_strategy_close_long for scale 5Min stock GLUE
-2025-10-10 13:48:29,402 - root - INFO - Profit percent for GLUE is -0.7612009610919297
-2025-10-10 13:48:29,403 - root - INFO - Latest 1min close price for GLUE: 9.815
-2025-10-10 13:48:29,461 - root - INFO -  update_current_price: start time 2025-10-10T13:43:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 13:48:29,474 - root - INFO - MACD is still rising for stock GLUE
-2025-10-10 13:48:29,475 - root - INFO - Not enough profit percent to scalp for GLUE: -0.7612009610919297
-2025-10-10 13:48:29,490 - root - INFO - swing_strategy_close_long for scale 5Min stock SKBL
-2025-10-10 13:48:29,568 - root - INFO - Profit percent for SKBL is -1.5933948755445875
-2025-10-10 13:48:29,568 - root - INFO - Latest 1min close price for SKBL: 3.2829
-2025-10-10 13:48:29,640 - root - INFO - MACD is still rising for stock SKBL
-2025-10-10 13:48:29,641 - root - INFO - Not enough profit percent to scalp for SKBL: -1.5933948755445875
-2025-10-10 13:48:31,647 - root - INFO -  update_current_price: start time 2025-10-10T13:43:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 13:48:33,427 - root - INFO -  MACD calculation for PPTA due to high change percent: 10.0251
-2025-10-10 13:48:33,508 - root - INFO - MACD not positive for PPTA
-2025-10-10 13:48:33,951 - root - INFO -  update_current_price: start time 2025-10-10T13:43:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 13:48:35,485 - root - INFO -  MACD calculation for QNRX due to high change percent: 119.879
-2025-10-10 13:48:35,519 - root - INFO - MACD not positive for QNRX
-2025-10-10 13:48:36,270 - root - INFO -  update_current_price: start time 2025-10-10T13:43:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 13:48:36,789 - root - INFO -  MACD calculation for REKR due to high change percent: 10.2041
-2025-10-10 13:48:38,029 - root - INFO -  MACD calculation for RMSG due to high change percent: 10.7527
-2025-10-10 13:48:38,061 - root - INFO - MACD not positive for RMSG
-2025-10-10 13:48:38,210 - root - INFO -  update_current_price: start time 2025-10-10T13:43:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 13:48:39,686 - root - INFO - Real mode: Today's profit so far: 1923.8599749999994
-2025-10-10 13:48:39,706 - root - INFO - Running real_trade for all top movers
-2025-10-10 13:48:39,707 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1000, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 13:48:39,707 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1000, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 13:48:39,743 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 13:48:39,750 - root - INFO - Time since last close for GWH is 340.1958315666667 minutes, net percent -28.8382
-2025-10-10 13:48:39,875 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
-2025-10-10 13:48:39,876 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 13:48:39,884 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 13:48:39,884 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 13:48:39,955 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-10 13:48:40,000 - root - INFO -  update_current_price: start time 2025-10-10T13:43:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 13:48:40,009 - root - INFO - Trend up basic conditions not met for SGBX: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-10 13:48:40,009 - root - INFO - swing_strategy_open_long for scale 5Min stock DGXX
-2025-10-10 13:48:40,016 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 13:48:40,016 - root - INFO - Time since last close for DGXX is None minutes, net percent 0
-2025-10-10 13:48:40,117 - root - INFO - Last 5 minutes maximum volume candle is red for DGXX
-2025-10-10 13:48:40,118 - root - INFO - swing_strategy_open_long for scale 5Min stock SKBL
-2025-10-10 13:48:40,126 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 13:48:40,126 - root - INFO - Time since last close for SKBL is None minutes, net percent 0
-2025-10-10 13:48:40,189 - root - INFO - Last 5 minutes maximum volume candle is red for SKBL
-2025-10-10 13:48:40,190 - root - INFO - swing_strategy_open_long for scale 5Min stock GLUE
-2025-10-10 13:48:40,199 - root - WARNING - No records found for time_minutes_since_prev_close
 2025-10-10 13:48:40,199 - root - INFO - Time since last close for GLUE is None minutes, net percent 0
 2025-10-10 13:48:40,265 - root - INFO - Last 5 minutes maximum volume candle is green for GLUE
 2025-10-10 13:48:40,313 - root - INFO - Trend up basic conditions not met for GLUE: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
@@ -420,3 +238,185 @@ Manual Movers:
 2025-10-10 13:53:10,880 - root - INFO - MACD not positive for CEPT
 2025-10-10 13:53:12,534 - root - INFO -  update_current_price: start time 2025-10-10T13:48:00-04:00 end_time 2025-10-10T20:58:00-04:00
 2025-10-10 13:53:13,275 - root - INFO -  MACD calculation for CODI due to high change percent: 14.0571
+2025-10-10 13:53:13,988 - root - INFO -  MACD calculation for CRML due to high change percent: 17.2332
+2025-10-10 13:53:14,051 - root - INFO - MACD not positive for CRML
+2025-10-10 13:53:14,104 - root - INFO -  MACD calculation for CRMLW due to high change percent: 21.3501
+2025-10-10 13:53:14,204 - root - INFO -  update_current_price: start time 2025-10-10T13:48:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:53:15,937 - root - INFO -  update_current_price: start time 2025-10-10T13:48:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:53:16,807 - root - INFO -  MACD calculation for DGXX due to high change percent: 21.0227
+2025-10-10 13:53:18,714 - root - INFO -  update_current_price: start time 2025-10-10T13:48:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:53:21,018 - root - INFO -  update_current_price: start time 2025-10-10T13:48:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:53:23,637 - root - INFO -  update_current_price: start time 2025-10-10T13:48:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:53:24,505 - root - INFO -  MACD calculation for FEAM due to high change percent: 11.6466
+2025-10-10 13:53:24,568 - root - INFO - MACD not positive for FEAM
+2025-10-10 13:53:25,817 - root - INFO -  update_current_price: start time 2025-10-10T13:48:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:53:28,222 - root - INFO -  update_current_price: start time 2025-10-10T13:48:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:53:29,828 - root - INFO -  MACD calculation for GLUE due to high change percent: 17.5969
+2025-10-10 13:53:30,557 - root - INFO -  update_current_price: start time 2025-10-10T13:48:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:53:32,148 - root - INFO -  MACD calculation for GWH due to high change percent: 172.587
+2025-10-10 13:53:32,344 - root - INFO -  MACD calculation for GYRE due to high change percent: 14.5455
+2025-10-10 13:53:32,376 - root - INFO - MACD not positive for GYRE
+2025-10-10 13:53:33,199 - root - INFO -  update_current_price: start time 2025-10-10T13:48:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:53:35,992 - root - INFO -  update_current_price: start time 2025-10-10T13:48:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:53:38,374 - root - INFO -  update_current_price: start time 2025-10-10T13:48:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:53:41,178 - root - INFO -  update_current_price: start time 2025-10-10T13:48:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:53:44,145 - root - INFO -  update_current_price: start time 2025-10-10T13:48:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:53:46,527 - root - INFO -  update_current_price: start time 2025-10-10T13:48:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:53:48,409 - root - INFO -  update_current_price: start time 2025-10-10T13:48:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:53:50,040 - root - INFO -  update_current_price: start time 2025-10-10T13:48:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:53:52,251 - root - INFO -  update_current_price: start time 2025-10-10T13:48:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:53:54,084 - root - INFO -  MACD calculation for NIOBW due to high change percent: 24.5283
+2025-10-10 13:53:54,128 - root - INFO - MACD not positive for NIOBW
+2025-10-10 13:53:55,195 - root - INFO -  update_current_price: start time 2025-10-10T13:48:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:53:57,103 - root - INFO -  MACD calculation for NVA due to high change percent: 16.6893
+2025-10-10 13:53:57,159 - root - INFO - MACD not positive for NVA
+2025-10-10 13:53:57,712 - root - INFO -  MACD calculation for NVTS due to high change percent: 10.4375
+2025-10-10 13:53:57,847 - root - INFO -  MACD calculation for NVX due to high change percent: 46.4203
+2025-10-10 13:53:57,900 - root - INFO - MACD not positive for NVX
+2025-10-10 13:53:58,573 - root - INFO -  update_current_price: start time 2025-10-10T13:48:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:53:58,855 - root - INFO -  MACD calculation for OBIO due to high change percent: 12.9338
+2025-10-10 13:53:58,902 - root - INFO - MACD not positive for OBIO
+2025-10-10 13:54:00,646 - root - INFO -  MACD calculation for ONMD due to high change percent: 14.2135
+2025-10-10 13:54:01,635 - root - INFO -  update_current_price: start time 2025-10-10T13:49:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:54:04,004 - root - INFO -  update_current_price: start time 2025-10-10T13:49:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:54:05,718 - root - INFO -  update_current_price: start time 2025-10-10T13:49:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:54:07,003 - root - INFO -  MACD calculation for QNRX due to high change percent: 117.591
+2025-10-10 13:54:07,034 - root - INFO - MACD not positive for QNRX
+2025-10-10 13:54:07,654 - root - INFO -  update_current_price: start time 2025-10-10T13:49:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:54:09,145 - root - INFO -  update_current_price: start time 2025-10-10T13:49:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:54:11,665 - root - INFO -  update_current_price: start time 2025-10-10T13:49:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:54:12,519 - root - INFO -  MACD calculation for SGBX due to high change percent: 87.3457
+2025-10-10 13:54:13,565 - root - INFO -  MACD calculation for SKBL due to high change percent: 16.6727
+2025-10-10 13:54:13,979 - root - INFO -  MACD calculation for SLE due to high change percent: 18.3989
+2025-10-10 13:54:14,013 - root - INFO - MACD not positive for SLE
+2025-10-10 13:54:14,530 - root - INFO -  update_current_price: start time 2025-10-10T13:49:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:54:15,495 - root - INFO -  MACD calculation for SOAR due to high change percent: 13.5434
+2025-10-10 13:54:15,549 - root - INFO - MACD not positive for SOAR
+2025-10-10 13:54:16,891 - root - INFO -  update_current_price: start time 2025-10-10T13:49:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:54:18,331 - root - INFO -  MACD calculation for SWKH due to high change percent: 17.6736
+2025-10-10 13:54:19,126 - root - INFO -  update_current_price: start time 2025-10-10T13:49:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:54:21,885 - root - INFO -  update_current_price: start time 2025-10-10T13:49:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:54:23,145 - root - INFO -  MACD calculation for UAMY due to high change percent: 15.1654
+2025-10-10 13:54:23,236 - root - INFO - MACD not positive for UAMY
+2025-10-10 13:54:23,606 - root - INFO -  MACD calculation for UEC due to high change percent: 13.4199
+2025-10-10 13:54:23,683 - root - INFO - MACD not positive for UEC
+2025-10-10 13:54:24,683 - root - INFO -  update_current_price: start time 2025-10-10T13:49:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:54:26,792 - root - INFO -  update_current_price: start time 2025-10-10T13:49:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:54:27,693 - root - INFO -  MACD calculation for WAI due to high change percent: 25.4902
+2025-10-10 13:54:27,769 - root - INFO - MACD not positive for WAI
+2025-10-10 13:54:28,364 - root - INFO -  MACD calculation for WLACW due to high change percent: 12.5
+2025-10-10 13:54:29,064 - root - INFO -  update_current_price: start time 2025-10-10T13:49:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:54:30,114 - root - INFO -  MACD calculation for YHGJ due to high change percent: 26.6667
+2025-10-10 13:54:30,174 - root - INFO - MACD not positive for YHGJ
+2025-10-10 13:54:30,447 - root - INFO -  MACD calculation for ZENA due to high change percent: 15.1515
+2025-10-10 13:54:31,328 - root - INFO - Updating change percent of stocks
+2025-10-10 13:54:32,173 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-10 13:55:32,257 - root - INFO - Real mode: Today's profit so far: 1919.8999750000003
+2025-10-10 13:55:32,281 - root - INFO - ('2025-10-10T20:58:00-04:00', '2025-10-10T20:58:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T20:58:00-04:00')
+2025-10-10 13:55:32,282 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T20:58:00-04:00
+2025-10-10 13:55:32,310 - root - INFO -  update_current_price: start time 2025-10-10T13:50:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:55:32,633 - root - INFO -  MACD calculation for ABAT due to high change percent: 14.1827
+2025-10-10 13:55:35,267 - root - INFO -  update_current_price: start time 2025-10-10T13:50:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:55:37,590 - root - INFO -  update_current_price: start time 2025-10-10T13:50:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:55:38,005 - root - INFO -  MACD calculation for APLD due to high change percent: 17.0707
+2025-10-10 13:55:38,087 - root - INFO - MACD not positive for APLD
+2025-10-10 13:55:40,502 - root - INFO -  MACD calculation for ASPI due to high change percent: 20.452
+2025-10-10 13:55:40,567 - root - INFO - MACD not positive for ASPI
+2025-10-10 13:55:40,817 - root - INFO -  update_current_price: start time 2025-10-10T13:50:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:55:43,054 - root - INFO -  update_current_price: start time 2025-10-10T13:50:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:55:44,950 - root - INFO -  MACD calculation for BIOX due to high change percent: 11.6197
+2025-10-10 13:55:45,415 - root - INFO -  update_current_price: start time 2025-10-10T13:50:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:55:47,943 - root - INFO -  update_current_price: start time 2025-10-10T13:50:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:55:48,617 - root - INFO -  MACD calculation for BYND due to high change percent: 10.6599
+2025-10-10 13:55:48,687 - root - INFO - MACD not positive for BYND
+2025-10-10 13:55:49,664 - root - INFO -  MACD calculation for CATX due to high change percent: 28.728
+2025-10-10 13:55:49,722 - root - INFO - MACD not positive for CATX
+2025-10-10 13:55:50,655 - root - INFO -  update_current_price: start time 2025-10-10T13:50:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:55:50,881 - root - INFO -  MACD calculation for CEPT due to high change percent: 11.1191
+2025-10-10 13:55:50,910 - root - INFO - MACD not positive for CEPT
+2025-10-10 13:55:53,588 - root - INFO -  update_current_price: start time 2025-10-10T13:50:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:55:55,055 - root - INFO -  MACD calculation for CODI due to high change percent: 13.7415
+2025-10-10 13:55:56,743 - root - INFO -  MACD calculation for CRML due to high change percent: 14.8878
+2025-10-10 13:55:56,815 - root - INFO - MACD not positive for CRML
+2025-10-10 13:55:56,880 - root - INFO -  MACD calculation for CRMLW due to high change percent: 19.168
+2025-10-10 13:55:56,933 - root - INFO - MACD not positive for CRMLW
+2025-10-10 13:55:57,112 - root - INFO -  update_current_price: start time 2025-10-10T13:50:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:56:00,326 - root - INFO -  update_current_price: start time 2025-10-10T13:51:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:56:00,948 - root - INFO -  MACD calculation for DGXX due to high change percent: 22.0152
+2025-10-10 13:56:01,026 - root - INFO - MACD not positive for DGXX
+2025-10-10 13:56:02,291 - root - INFO -  update_current_price: start time 2025-10-10T13:51:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:56:03,790 - root - INFO -  update_current_price: start time 2025-10-10T13:51:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:56:05,661 - root - INFO -  update_current_price: start time 2025-10-10T13:51:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:56:06,548 - root - INFO -  MACD calculation for FEAM due to high change percent: 13.8534
+2025-10-10 13:56:06,610 - root - INFO - MACD not positive for FEAM
+2025-10-10 13:56:07,846 - root - INFO -  MACD calculation for FMFC due to high change percent: 14.4208
+2025-10-10 13:56:07,915 - root - INFO -  update_current_price: start time 2025-10-10T13:51:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:56:09,899 - root - INFO -  update_current_price: start time 2025-10-10T13:51:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:56:11,256 - root - INFO -  MACD calculation for GLUE due to high change percent: 18.4397
+2025-10-10 13:56:11,746 - root - INFO -  update_current_price: start time 2025-10-10T13:51:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:56:13,520 - root - INFO -  MACD calculation for GWH due to high change percent: 168.023
+2025-10-10 13:56:14,429 - root - INFO -  update_current_price: start time 2025-10-10T13:51:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:56:15,750 - root - INFO -  MACD calculation for HONDW due to high change percent: 11.0959
+2025-10-10 13:56:15,820 - root - INFO - MACD not positive for HONDW
+2025-10-10 13:56:17,313 - root - INFO -  update_current_price: start time 2025-10-10T13:51:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:56:19,929 - root - INFO -  update_current_price: start time 2025-10-10T13:51:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:56:22,323 - root - INFO -  update_current_price: start time 2025-10-10T13:51:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:56:24,554 - root - INFO -  update_current_price: start time 2025-10-10T13:51:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:56:27,143 - root - INFO -  update_current_price: start time 2025-10-10T13:51:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:56:29,610 - root - INFO -  update_current_price: start time 2025-10-10T13:51:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:56:31,130 - root - INFO -  MACD calculation for MLTX due to high change percent: 10.0746
+2025-10-10 13:56:31,209 - root - INFO - MACD not positive for MLTX
+2025-10-10 13:56:31,597 - root - INFO -  update_current_price: start time 2025-10-10T13:51:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:56:34,110 - root - INFO -  update_current_price: start time 2025-10-10T13:51:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:56:35,664 - root - INFO -  MACD calculation for NIOBW due to high change percent: 24.7978
+2025-10-10 13:56:35,721 - root - INFO - MACD not positive for NIOBW
+2025-10-10 13:56:36,505 - root - INFO -  update_current_price: start time 2025-10-10T13:51:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:56:38,245 - root - INFO -  MACD calculation for NVTS due to high change percent: 10.7487
+2025-10-10 13:56:38,382 - root - INFO -  MACD calculation for NVX due to high change percent: 49.6536
+2025-10-10 13:56:38,428 - root - INFO - MACD not positive for NVX
+2025-10-10 13:56:39,034 - root - INFO -  update_current_price: start time 2025-10-10T13:51:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:56:39,357 - root - INFO -  MACD calculation for OBIO due to high change percent: 12.892
+2025-10-10 13:56:39,414 - root - INFO - MACD not positive for OBIO
+2025-10-10 13:56:40,929 - root - INFO -  MACD calculation for ONMD due to high change percent: 14.2285
+2025-10-10 13:56:41,783 - root - INFO -  update_current_price: start time 2025-10-10T13:51:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:56:44,348 - root - INFO -  update_current_price: start time 2025-10-10T13:51:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:56:46,718 - root - INFO -  update_current_price: start time 2025-10-10T13:51:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:56:48,136 - root - INFO -  MACD calculation for QNRX due to high change percent: 147.108
+2025-10-10 13:56:48,175 - root - INFO - MACD not positive for QNRX
+2025-10-10 13:56:48,421 - root - INFO -  MACD calculation for QTTB due to high change percent: 10.0802
+2025-10-10 13:56:48,926 - root - INFO -  update_current_price: start time 2025-10-10T13:51:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:56:51,378 - root - INFO -  update_current_price: start time 2025-10-10T13:51:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:56:54,745 - root - INFO -  update_current_price: start time 2025-10-10T13:51:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:56:55,797 - root - INFO -  MACD calculation for SGBX due to high change percent: 87.037
+2025-10-10 13:56:57,583 - root - INFO -  MACD calculation for SKBL due to high change percent: 15.8273
+2025-10-10 13:56:57,641 - root - INFO - MACD not positive for SKBL
+2025-10-10 13:56:58,362 - root - INFO -  MACD calculation for SLE due to high change percent: 18.3989
+2025-10-10 13:56:58,414 - root - INFO - MACD not positive for SLE
+2025-10-10 13:56:59,013 - root - INFO -  update_current_price: start time 2025-10-10T13:51:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:57:00,149 - root - INFO -  MACD calculation for SOAR due to high change percent: 12.3288
+2025-10-10 13:57:00,210 - root - INFO - MACD not positive for SOAR
+2025-10-10 13:57:02,084 - root - INFO -  update_current_price: start time 2025-10-10T13:52:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:57:03,679 - root - INFO -  MACD calculation for SWKH due to high change percent: 16.7361
+2025-10-10 13:57:04,939 - root - INFO -  update_current_price: start time 2025-10-10T13:52:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:57:08,344 - root - INFO -  update_current_price: start time 2025-10-10T13:52:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:57:09,865 - root - INFO -  MACD calculation for UAMY due to high change percent: 14.614
+2025-10-10 13:57:09,954 - root - INFO - MACD not positive for UAMY
+2025-10-10 13:57:10,273 - root - INFO -  MACD calculation for UEC due to high change percent: 13.5793
+2025-10-10 13:57:10,345 - root - INFO - MACD not positive for UEC
+2025-10-10 13:57:11,445 - root - INFO -  update_current_price: start time 2025-10-10T13:52:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:57:11,632 - root - INFO -  MACD calculation for USARW due to high change percent: 23.1343
+2025-10-10 13:57:11,694 - root - INFO - MACD not positive for USARW
+2025-10-10 13:57:14,316 - root - INFO -  update_current_price: start time 2025-10-10T13:52:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:57:15,521 - root - INFO -  MACD calculation for WAI due to high change percent: 25.1634
+2025-10-10 13:57:15,581 - root - INFO - MACD not positive for WAI
+2025-10-10 13:57:17,620 - root - INFO -  update_current_price: start time 2025-10-10T13:52:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:57:19,337 - root - INFO -  MACD calculation for YHGJ due to high change percent: 27.1667
+2025-10-10 13:57:19,376 - root - INFO - MACD not positive for YHGJ
+2025-10-10 13:57:19,749 - root - INFO -  MACD calculation for ZENA due to high change percent: 14.9733
+2025-10-10 13:57:20,670 - root - INFO - Updating change percent of stocks
+2025-10-10 13:57:21,486 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-10 13:58:21,558 - root - INFO - Real mode: Today's profit so far: 1901.3299750000006
+2025-10-10 13:58:21,655 - root - INFO - ('2025-10-10T20:58:00-04:00', '2025-10-10T20:58:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T20:58:00-04:00')
+2025-10-10 13:58:21,655 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T20:58:00-04:00
+2025-10-10 13:58:21,687 - root - INFO -  update_current_price: start time 2025-10-10T13:53:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 13:58:21,861 - root - INFO -  MACD calculation for ABAT due to high change percent: 13.4615
