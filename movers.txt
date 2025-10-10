@@ -2,11 +2,9 @@ Top Movers:
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  GWH   |      0      |     0     |    136.047     | 88267258 |      4.09     |        1.72        |  4960000.0   |  1.826   |  2539433   |      0      | 2025-10-10 08:17:35 |
-|  SGBX  |      0      |     0     |    94.4444     | 28036867 |      6.3      |        3.24        |  5860000.0   |   3.42   |   788930   |      0      | 2025-10-10 08:16:25 |
-|  SWKH  |      0      |     0     |    70.7639     |  447170  |     24.59     |        14.4        |  11530000.0  |  14.474  |   14991    |      0      | 2025-10-10 08:16:27 |
-|  GORV  |      0      |     0     |     54.717     | 10374697 |      4.05     |        2.65        | 109760000.0  |  2.656   |   498979   |      0      | 2025-10-10 08:17:35 |
-|  FMFC  |      0      |     0     |    32.7423     |  11133   |     11.23     |        8.46        |     0.0      |  13.954  |   733889   |      0      | 2025-10-10 08:16:17 |
+|  GWH   |      0      |     0     |    136.628     | 91017071 |     4.1795    |        1.72        |  4960000.0   |  1.826   |  2539433   |      0      | 2025-10-10 08:22:37 |
+|  GORV  |      0      |     0     |    41.5094     | 12345412 |      3.65     |        2.65        | 109760000.0  |  2.656   |   498979   |      0      | 2025-10-10 08:22:37 |
+|  FMFC  |      0      |     0     |    34.6336     |  14885   |     11.75     |        8.46        |     0.0      |  13.954  |   733889   |      0      | 2025-10-10 08:22:37 |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -20,403 +18,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-10 08:15:17,334 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-10 08:15:17,362 - root - INFO - 9 EMA is in downtrend, not opening long position for SGBX
-2025-10-10 08:15:17,363 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
-2025-10-10 08:15:17,375 - root - INFO - Time since last close for GORV is 2.1062601666666665 minutes, net percent 8.33333
-2025-10-10 08:15:17,375 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 2 minutes
-2025-10-10 08:15:17,376 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 08:15:17,386 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:15:17,386 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 08:15:17,425 - root - INFO - Last 20 minutes volume is low for FMFC: 16525
-2025-10-10 08:15:27,526 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
-2025-10-10 08:15:27,549 - root - INFO - Running real_trade for all top movers
-2025-10-10 08:15:27,550 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 08:15:27,550 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 08:15:27,594 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 08:15:27,604 - root - INFO - Time since last close for GWH is 6.993405916666666 minutes, net percent -28.8382
-2025-10-10 08:15:27,604 - root - INFO - ***** stock: GWH Scale: 5Min Time since last close: 6 minutes
-2025-10-10 08:15:27,605 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 08:15:27,614 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:15:27,614 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 08:15:27,710 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-10 08:15:27,728 - root - INFO - 9 EMA is in downtrend, not opening long position for SGBX
-2025-10-10 08:15:27,729 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
-2025-10-10 08:15:27,736 - root - INFO - Time since last close for GORV is 2.2789382333333332 minutes, net percent 8.33333
-2025-10-10 08:15:27,736 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 2 minutes
-2025-10-10 08:15:27,736 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 08:15:27,745 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:15:27,746 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 08:15:27,780 - root - INFO - Last 20 minutes volume is low for FMFC: 16525
-2025-10-10 08:15:37,884 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
-2025-10-10 08:15:37,904 - root - INFO - Running real_trade for all top movers
-2025-10-10 08:15:37,904 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 08:15:37,905 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 08:15:37,943 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 08:15:37,952 - root - INFO - Time since last close for GWH is 7.165865266666667 minutes, net percent -28.8382
-2025-10-10 08:15:37,952 - root - INFO - ***** stock: GWH Scale: 5Min Time since last close: 7 minutes
-2025-10-10 08:15:37,952 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 08:15:37,961 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:15:37,961 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 08:15:38,056 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-10 08:15:38,083 - root - INFO - 9 EMA is in downtrend, not opening long position for SGBX
-2025-10-10 08:15:38,085 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
-2025-10-10 08:15:38,101 - root - INFO - Time since last close for GORV is 2.4516956333333337 minutes, net percent 8.33333
-2025-10-10 08:15:38,102 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 2 minutes
-2025-10-10 08:15:38,102 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 08:15:38,111 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:15:38,112 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 08:15:38,147 - root - INFO - Last 20 minutes volume is low for FMFC: 16525
-2025-10-10 08:15:48,251 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
-2025-10-10 08:15:48,274 - root - INFO - Running real_trade for all top movers
-2025-10-10 08:15:48,275 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 08:15:48,276 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 08:15:48,321 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 08:15:48,336 - root - INFO - Time since last close for GWH is 7.338942866666667 minutes, net percent -28.8382
-2025-10-10 08:15:48,336 - root - INFO - ***** stock: GWH Scale: 5Min Time since last close: 7 minutes
-2025-10-10 08:15:48,337 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 08:15:48,348 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:15:48,348 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 08:15:48,432 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-10 08:15:48,454 - root - INFO - 1min candle is not positive for SGBX: open 6.32 close 6.3
-2025-10-10 08:15:48,456 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
-2025-10-10 08:15:48,465 - root - INFO - Time since last close for GORV is 2.624426166666667 minutes, net percent 8.33333
-2025-10-10 08:15:48,465 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 2 minutes
-2025-10-10 08:15:48,466 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 08:15:48,478 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:15:48,478 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 08:15:48,513 - root - INFO - Last 20 minutes volume is low for FMFC: 16292
-2025-10-10 08:15:58,615 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
-2025-10-10 08:15:58,637 - root - INFO - Running real_trade for all top movers
-2025-10-10 08:15:58,638 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 08:15:58,638 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 08:15:58,684 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 08:15:58,695 - root - INFO - Time since last close for GWH is 7.511588833333334 minutes, net percent -28.8382
-2025-10-10 08:15:58,695 - root - INFO - ***** stock: GWH Scale: 5Min Time since last close: 7 minutes
-2025-10-10 08:15:58,696 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 08:15:58,708 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:15:58,708 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 08:15:58,798 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-10 08:15:58,822 - root - INFO - 1min candle is not positive for SGBX: open 6.32 close 6.3
-2025-10-10 08:15:58,823 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
-2025-10-10 08:15:58,834 - root - INFO - Time since last close for GORV is 2.797237766666667 minutes, net percent 8.33333
-2025-10-10 08:15:58,834 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 2 minutes
-2025-10-10 08:15:58,835 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 08:15:58,849 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:15:58,849 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 08:15:58,886 - root - INFO - Last 20 minutes volume is low for FMFC: 16292
-2025-10-10 08:16:09,000 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
-2025-10-10 08:16:09,024 - root - INFO - Running real_trade for all top movers
-2025-10-10 08:16:09,025 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 08:16:09,026 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 08:16:09,084 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 08:16:09,100 - root - INFO - Time since last close for GWH is 7.6850033 minutes, net percent -28.8382
-2025-10-10 08:16:09,100 - root - INFO - ***** stock: GWH Scale: 5Min Time since last close: 7 minutes
-2025-10-10 08:16:09,101 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 08:16:09,112 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:16:09,112 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 08:16:09,208 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-10 08:16:09,237 - root - INFO - 1min candle is not positive for SGBX: open 6.32 close 6.3
-2025-10-10 08:16:09,239 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
-2025-10-10 08:16:09,254 - root - INFO - Time since last close for GORV is 2.9709035666666663 minutes, net percent 8.33333
-2025-10-10 08:16:09,254 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 2 minutes
-2025-10-10 08:16:09,255 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 08:16:09,268 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:16:09,269 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 08:16:09,309 - root - INFO - Last 20 minutes volume is low for FMFC: 16292
-2025-10-10 08:16:12,077 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
-2025-10-10 08:16:12,097 - root - INFO - ('2025-10-10T20:58:00-04:00', '2025-10-10T20:58:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T20:58:00-04:00')
-2025-10-10 08:16:12,098 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:12,130 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:12,649 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:13,107 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:13,256 - root - INFO -  MACD calculation for APLD due to high change percent: 27.9959
-2025-10-10 08:16:13,454 - root - INFO -  MACD calculation for ARAY due to high change percent: 12.4324
-2025-10-10 08:16:13,495 - root - INFO - MACD not positive for ARAY
-2025-10-10 08:16:13,838 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:14,225 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:14,736 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:15,131 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:15,461 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:15,702 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:15,785 - root - INFO -  MACD calculation for CODI due to high change percent: 21.9048
-2025-10-10 08:16:15,834 - root - INFO - MACD not positive for CODI
-2025-10-10 08:16:15,986 - root - INFO -  MACD calculation for CRML due to high change percent: 14.5479
-2025-10-10 08:16:16,136 - root - INFO -  MACD calculation for CRMLW due to high change percent: 21.978
-2025-10-10 08:16:16,194 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:16,307 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:16,745 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:17,043 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:17,267 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:17,476 - root - INFO -  MACD calculation for FMFC due to high change percent: 30.7329
-2025-10-10 08:16:17,536 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:17,680 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:18,001 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:18,094 - root - INFO -  MACD calculation for GORV due to high change percent: 57.3585
-2025-10-10 08:16:18,433 - root - INFO -  MACD calculation for GWH due to high change percent: 138.36
-2025-10-10 08:16:18,567 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:18,811 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:19,134 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:19,336 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:19,408 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
-2025-10-10 08:16:19,431 - root - INFO - Running real_trade for all top movers
-2025-10-10 08:16:19,433 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 08:16:19,433 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 08:16:19,479 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 08:16:19,489 - root - INFO - Time since last close for GWH is 7.858150883333334 minutes, net percent -28.8382
-2025-10-10 08:16:19,489 - root - INFO - ***** stock: GWH Scale: 5Min Time since last close: 7 minutes
-2025-10-10 08:16:19,490 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 08:16:19,500 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:16:19,501 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 08:16:19,589 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-10 08:16:19,607 - root - INFO - 1min candle is not positive for SGBX: open 6.32 close 6.3
-2025-10-10 08:16:19,608 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
-2025-10-10 08:16:19,611 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:19,616 - root - INFO - Time since last close for GORV is 3.143612683333333 minutes, net percent 8.33333
-2025-10-10 08:16:19,616 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 3 minutes
-2025-10-10 08:16:19,617 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 08:16:19,626 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:16:19,626 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 08:16:19,662 - root - INFO - Last 20 minutes volume is low for FMFC: 16292
-2025-10-10 08:16:20,111 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:20,489 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:20,930 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:21,155 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:21,558 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:21,952 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:22,031 - root - INFO -  MACD calculation for NYXH due to high change percent: 11.8936
-2025-10-10 08:16:22,416 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:22,716 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:23,242 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:23,521 - root - INFO -  MACD calculation for QTTB due to high change percent: 11.1111
-2025-10-10 08:16:23,854 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:24,321 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:24,918 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:25,217 - root - INFO -  MACD calculation for SGBX due to high change percent: 95.3704
-2025-10-10 08:16:25,361 - root - INFO -  MACD calculation for SHPH due to high change percent: 14.2605
-2025-10-10 08:16:25,394 - root - INFO - MACD not positive for SHPH
-2025-10-10 08:16:25,688 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:26,235 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:26,531 - root - INFO -  MACD calculation for SWKH due to high change percent: 20.5556
-2025-10-10 08:16:26,647 - root - INFO -  MACD calculation for TALK due to high change percent: 10.6529
-2025-10-10 08:16:26,786 - root - INFO -  MACD calculation for TAOX due to high change percent: 12.835
-2025-10-10 08:16:26,843 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:27,005 - root - INFO -  MACD calculation for TE due to high change percent: 13.8381
-2025-10-10 08:16:27,527 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:28,145 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:28,393 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:28,631 - root - INFO -  MACD calculation for WAI due to high change percent: 28.4314
-2025-10-10 08:16:28,677 - root - INFO - MACD not positive for WAI
-2025-10-10 08:16:28,916 - root - INFO -  MACD calculation for WKEY due to high change percent: 10.3495
-2025-10-10 08:16:28,963 - root - INFO - MACD not positive for WKEY
-2025-10-10 08:16:29,022 - root - INFO -  update_current_price: start time 2025-10-10T08:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:16:29,228 - root - INFO -  MACD calculation for YHGJ due to high change percent: 38.3333
-2025-10-10 08:16:29,270 - root - INFO - MACD not positive for YHGJ
-2025-10-10 08:16:29,329 - root - INFO -  MACD calculation for YSXT due to high change percent: 11.6505
-2025-10-10 08:16:29,354 - root - INFO - MACD not positive for YSXT
-2025-10-10 08:16:29,464 - root - INFO - Updating change percent of stocks
-2025-10-10 08:16:30,109 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-10 08:16:31,614 - root - INFO - Resetting stock DB fields...
-2025-10-10 08:16:31,614 - root - INFO - Parameters - price_update_clear: False, buy_sell_clear: True, scan_clear: False, clear_for_day: False
-2025-10-10 08:16:31,685 - root - INFO - Stock DB fields reset completed.
-2025-10-10 08:16:31,705 - root - CRITICAL - Waiting for market to open...
-2025-10-10 08:16:31,706 - root - CRITICAL - Price update completed.
-2025-10-10 08:16:31,706 - root - CRITICAL - Market opened.
-2025-10-10 08:16:31,706 - root - INFO - STARTING BUY-SELL THREAD
-2025-10-10 08:16:31,725 - root - INFO - Running real_trade for all top movers
-2025-10-10 08:16:31,726 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 08:16:31,726 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 08:16:31,754 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 08:16:31,761 - root - INFO - Time since last close for GWH is 8.06268945 minutes, net percent -28.8382
-2025-10-10 08:16:31,761 - root - INFO - ***** stock: GWH Scale: 5Min Time since last close: 8 minutes
-2025-10-10 08:16:31,761 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 08:16:31,768 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:16:31,768 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 08:16:31,888 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-10 08:16:31,916 - root - INFO - 1min candle is not positive for SGBX: open 6.32 close 6.3
-2025-10-10 08:16:31,917 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
-2025-10-10 08:16:31,928 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:16:31,929 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
-2025-10-10 08:16:31,954 - root - INFO - Last 5 minutes maximum volume candle is red for SWKH
-2025-10-10 08:16:31,954 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
-2025-10-10 08:16:31,965 - root - INFO - Time since last close for GORV is 3.3494286 minutes, net percent 8.33333
-2025-10-10 08:16:31,966 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 3 minutes
-2025-10-10 08:16:31,966 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 08:16:31,975 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:16:31,976 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 08:16:32,016 - root - INFO - Last 20 minutes volume is low for FMFC: 16292
-2025-10-10 08:16:42,125 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
-2025-10-10 08:16:42,144 - root - INFO - Running real_trade for all top movers
-2025-10-10 08:16:42,145 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 08:16:42,145 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 08:16:42,189 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 08:16:42,200 - root - INFO - Time since last close for GWH is 8.2366754 minutes, net percent -28.8382
-2025-10-10 08:16:42,200 - root - INFO - ***** stock: GWH Scale: 5Min Time since last close: 8 minutes
-2025-10-10 08:16:42,201 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 08:16:42,212 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:16:42,213 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 08:16:42,317 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-10 08:16:42,342 - root - INFO - 1min candle is not positive for SGBX: open 6.32 close 6.3
-2025-10-10 08:16:42,343 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
-2025-10-10 08:16:42,354 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:16:42,354 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
-2025-10-10 08:16:42,381 - root - INFO - Last 5 minutes maximum volume candle is red for SWKH
-2025-10-10 08:16:42,382 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
-2025-10-10 08:16:42,393 - root - INFO - Time since last close for GORV is 3.52322615 minutes, net percent 8.33333
-2025-10-10 08:16:42,393 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 3 minutes
-2025-10-10 08:16:42,394 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 08:16:42,402 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:16:42,402 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 08:16:42,439 - root - INFO - Last 20 minutes volume is low for FMFC: 16292
-2025-10-10 08:16:52,528 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
-2025-10-10 08:16:52,549 - root - INFO - Running real_trade for all top movers
-2025-10-10 08:16:52,550 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 08:16:52,550 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 08:16:52,594 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 08:16:52,605 - root - INFO - Time since last close for GWH is 8.410089066666666 minutes, net percent -28.8382
-2025-10-10 08:16:52,605 - root - INFO - ***** stock: GWH Scale: 5Min Time since last close: 8 minutes
-2025-10-10 08:16:52,606 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 08:16:52,617 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:16:52,618 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 08:16:52,714 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-10 08:16:52,738 - root - INFO - 1min candle is not positive for SGBX: open 6.2809 close 6.25
-2025-10-10 08:16:52,740 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
-2025-10-10 08:16:52,754 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:16:52,754 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
-2025-10-10 08:16:52,792 - root - INFO - Last 5 minutes maximum volume candle is red for SWKH
-2025-10-10 08:16:52,793 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
-2025-10-10 08:16:52,802 - root - INFO - Time since last close for GORV is 3.696712816666667 minutes, net percent 8.33333
-2025-10-10 08:16:52,803 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 3 minutes
-2025-10-10 08:16:52,803 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 08:16:52,814 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:16:52,814 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 08:16:52,847 - root - INFO - Last 20 minutes volume is low for FMFC: 16292
-2025-10-10 08:17:02,940 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
-2025-10-10 08:17:02,961 - root - INFO - Running real_trade for all top movers
-2025-10-10 08:17:02,961 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 08:17:02,962 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 08:17:03,005 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 08:17:03,015 - root - INFO - Time since last close for GWH is 8.583582366666667 minutes, net percent -28.8382
-2025-10-10 08:17:03,015 - root - INFO - ***** stock: GWH Scale: 5Min Time since last close: 8 minutes
-2025-10-10 08:17:03,015 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 08:17:03,026 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:17:03,026 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 08:17:03,110 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-10 08:17:03,135 - root - INFO - 1min candle is not positive for SGBX: open 6.2809 close 6.25
-2025-10-10 08:17:03,136 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
-2025-10-10 08:17:03,147 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:17:03,147 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
-2025-10-10 08:17:03,174 - root - INFO - Last 5 minutes maximum volume candle is red for SWKH
-2025-10-10 08:17:03,175 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
-2025-10-10 08:17:03,186 - root - INFO - Time since last close for GORV is 3.8697691 minutes, net percent 8.33333
-2025-10-10 08:17:03,186 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 3 minutes
-2025-10-10 08:17:03,187 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 08:17:03,197 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:17:03,197 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 08:17:03,233 - root - INFO - Last 20 minutes volume is low for FMFC: 16292
-2025-10-10 08:17:13,332 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
-2025-10-10 08:17:13,352 - root - INFO - Running real_trade for all top movers
-2025-10-10 08:17:13,353 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 08:17:13,353 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 08:17:13,393 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 08:17:13,404 - root - INFO - Time since last close for GWH is 8.756734916666666 minutes, net percent -28.8382
-2025-10-10 08:17:13,404 - root - INFO - ***** stock: GWH Scale: 5Min Time since last close: 8 minutes
-2025-10-10 08:17:13,404 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 08:17:13,415 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:17:13,416 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 08:17:13,501 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-10 08:17:13,525 - root - INFO - 1min candle is not positive for SGBX: open 6.2809 close 6.25
-2025-10-10 08:17:13,526 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
-2025-10-10 08:17:13,541 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:17:13,541 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
-2025-10-10 08:17:13,567 - root - INFO - Last 5 minutes maximum volume candle is red for SWKH
-2025-10-10 08:17:13,568 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
-2025-10-10 08:17:13,578 - root - INFO - Time since last close for GORV is 4.042967216666667 minutes, net percent 8.33333
-2025-10-10 08:17:13,578 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 4 minutes
-2025-10-10 08:17:13,578 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 08:17:13,588 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:17:13,589 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 08:17:13,622 - root - INFO - Last 20 minutes volume is low for FMFC: 16292
-2025-10-10 08:17:23,720 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
-2025-10-10 08:17:23,745 - root - INFO - Running real_trade for all top movers
-2025-10-10 08:17:23,745 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 08:17:23,745 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 08:17:23,784 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 08:17:23,795 - root - INFO - Time since last close for GWH is 8.9299156 minutes, net percent -28.8382
-2025-10-10 08:17:23,795 - root - INFO - ***** stock: GWH Scale: 5Min Time since last close: 8 minutes
-2025-10-10 08:17:23,795 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 08:17:23,807 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:17:23,807 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 08:17:23,897 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-10 08:17:23,922 - root - INFO - 1min candle is not positive for SGBX: open 6.2809 close 6.25
-2025-10-10 08:17:23,923 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
-2025-10-10 08:17:23,935 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:17:23,935 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
-2025-10-10 08:17:23,962 - root - INFO - Last 5 minutes maximum volume candle is red for SWKH
-2025-10-10 08:17:23,963 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
-2025-10-10 08:17:23,975 - root - INFO - Time since last close for GORV is 4.216252216666667 minutes, net percent 8.33333
-2025-10-10 08:17:23,975 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 4 minutes
-2025-10-10 08:17:23,975 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 08:17:23,985 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:17:23,986 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 08:17:24,019 - root - INFO - Last 20 minutes volume is low for FMFC: 16292
-2025-10-10 08:17:30,191 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
-2025-10-10 08:17:30,214 - root - INFO - ('2025-10-10T20:58:00-04:00', '2025-10-10T20:58:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T20:58:00-04:00')
-2025-10-10 08:17:30,214 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T20:58:00-04:00
-2025-10-10 08:17:30,240 - root - INFO -  update_current_price: start time 2025-10-10T08:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:17:30,657 - root - INFO -  update_current_price: start time 2025-10-10T08:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:17:30,943 - root - INFO -  update_current_price: start time 2025-10-10T08:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:17:31,036 - root - INFO -  MACD calculation for APLD due to high change percent: 27.8593
-2025-10-10 08:17:31,245 - root - INFO -  MACD calculation for ARAY due to high change percent: 11.8919
-2025-10-10 08:17:31,287 - root - INFO - MACD not positive for ARAY
-2025-10-10 08:17:31,523 - root - INFO -  update_current_price: start time 2025-10-10T08:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:17:31,962 - root - INFO -  update_current_price: start time 2025-10-10T08:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:17:32,405 - root - INFO -  update_current_price: start time 2025-10-10T08:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:17:32,639 - root - INFO -  update_current_price: start time 2025-10-10T08:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:17:32,974 - root - INFO -  update_current_price: start time 2025-10-10T08:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:17:33,428 - root - INFO -  update_current_price: start time 2025-10-10T08:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:17:33,519 - root - INFO -  MACD calculation for CODI due to high change percent: 21.9048
-2025-10-10 08:17:33,569 - root - INFO - MACD not positive for CODI
-2025-10-10 08:17:33,672 - root - INFO -  MACD calculation for CRML due to high change percent: 14.7519
-2025-10-10 08:17:33,802 - root - INFO -  MACD calculation for CRMLW due to high change percent: 22.763
-2025-10-10 08:17:33,849 - root - INFO -  update_current_price: start time 2025-10-10T08:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:17:33,880 - root - INFO -  update_current_price: start time 2025-10-10T08:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:17:34,109 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
-2025-10-10 08:17:34,126 - root - INFO - Running real_trade for all top movers
-2025-10-10 08:17:34,126 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 08:17:34,127 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 08:17:34,166 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 08:17:34,174 - root - INFO - Time since last close for GWH is 9.102904950000001 minutes, net percent -28.8382
-2025-10-10 08:17:34,174 - root - INFO - ***** stock: GWH Scale: 5Min Time since last close: 9 minutes
-2025-10-10 08:17:34,174 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-10 08:17:34,182 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:17:34,182 - root - INFO - Time since last close for SGBX is None minutes, net percent 0
-2025-10-10 08:17:34,221 - root - INFO -  update_current_price: start time 2025-10-10T08:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:17:34,272 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-10 08:17:34,287 - root - INFO - 1min candle is not positive for SGBX: open 6.2809 close 6.25
-2025-10-10 08:17:34,288 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
-2025-10-10 08:17:34,295 - root - INFO -  update_current_price: start time 2025-10-10T08:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:17:34,295 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:17:34,295 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
-2025-10-10 08:17:34,320 - root - INFO - Last 5 minutes maximum volume candle is red for SWKH
-2025-10-10 08:17:34,320 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
-2025-10-10 08:17:34,330 - root - INFO - Time since last close for GORV is 4.388833883333334 minutes, net percent 8.33333
-2025-10-10 08:17:34,330 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 4 minutes
-2025-10-10 08:17:34,330 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 08:17:34,338 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 08:17:34,338 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 08:17:34,370 - root - INFO - Last 20 minutes volume is low for FMFC: 16292
-2025-10-10 08:17:34,401 - root - INFO -  update_current_price: start time 2025-10-10T08:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:17:34,597 - root - INFO -  update_current_price: start time 2025-10-10T08:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:17:34,631 - root - INFO -  update_current_price: start time 2025-10-10T08:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:17:34,832 - root - INFO -  update_current_price: start time 2025-10-10T08:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:17:34,921 - root - INFO -  MACD calculation for GORV due to high change percent: 54.717
-2025-10-10 08:17:35,113 - root - INFO -  MACD calculation for GWH due to high change percent: 136.047
-2025-10-10 08:17:35,246 - root - INFO -  update_current_price: start time 2025-10-10T08:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:17:35,448 - root - INFO -  update_current_price: start time 2025-10-10T08:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:17:35,649 - root - INFO -  update_current_price: start time 2025-10-10T08:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:17:35,840 - root - INFO -  update_current_price: start time 2025-10-10T08:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:17:35,997 - root - INFO -  update_current_price: start time 2025-10-10T08:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 08:17:36,209 - root - INFO -  MACD calculation for LICN due to high change percent: 32.0755
-2025-10-10 08:17:36,231 - root - INFO - MACD not positive for LICN
-2025-10-10 08:17:36,291 - root - INFO -  update_current_price: start time 2025-10-10T08:12:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:00,154 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 08:20:00,164 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 08:20:00,164 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 08:20:00,198 - root - INFO - Last 20 minutes volume is low for FMFC: 17848
+2025-10-10 08:20:02,743 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
+2025-10-10 08:20:02,767 - root - INFO - ('2025-10-10T20:58:00-04:00', '2025-10-10T20:58:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T20:58:00-04:00')
+2025-10-10 08:20:02,768 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:02,791 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:03,084 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:03,443 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:03,535 - root - INFO -  MACD calculation for APLD due to high change percent: 27.7627
+2025-10-10 08:20:03,714 - root - INFO -  MACD calculation for ARAY due to high change percent: 13.0162
+2025-10-10 08:20:03,796 - root - INFO - MACD not positive for ARAY
+2025-10-10 08:20:04,058 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:04,341 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:04,440 - root - INFO -  MACD calculation for BCG due to high change percent: 18.9024
+2025-10-10 08:20:04,709 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:04,904 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:05,197 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:05,541 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:05,636 - root - INFO -  MACD calculation for CODI due to high change percent: 21.9048
+2025-10-10 08:20:05,683 - root - INFO - MACD not positive for CODI
+2025-10-10 08:20:05,788 - root - INFO -  MACD calculation for CRML due to high change percent: 15.2277
+2025-10-10 08:20:05,924 - root - INFO -  MACD calculation for CRMLW due to high change percent: 23.2339
+2025-10-10 08:20:05,974 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:06,109 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:06,450 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:06,696 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:06,962 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:07,209 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:07,448 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:07,664 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:07,759 - root - INFO -  MACD calculation for GORV due to high change percent: 40.7547
+2025-10-10 08:20:08,124 - root - INFO -  MACD calculation for GWH due to high change percent: 140.698
+2025-10-10 08:20:08,366 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:08,761 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:08,907 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:09,242 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:09,487 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:09,932 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:10,297 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:10,331 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
+2025-10-10 08:20:10,350 - root - INFO - Running real_trade for all top movers
+2025-10-10 08:20:10,350 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 08:20:10,350 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 08:20:10,381 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:10,392 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 08:20:10,402 - root - INFO - Time since last close for GWH is 11.706705866666665 minutes, net percent -28.8382
+2025-10-10 08:20:10,526 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
+2025-10-10 08:20:10,541 - root - INFO - 1min candle is not positive for GWH: open 4.13 close 4.1413
+2025-10-10 08:20:10,543 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
+2025-10-10 08:20:10,550 - root - INFO - Time since last close for GORV is 6.992508583333334 minutes, net percent 8.33333
+2025-10-10 08:20:10,550 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 6 minutes
+2025-10-10 08:20:10,551 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 08:20:10,558 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 08:20:10,558 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 08:20:10,591 - root - INFO - Last 20 minutes volume is low for FMFC: 17848
+2025-10-10 08:20:10,624 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:10,800 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:11,284 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:11,708 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:11,993 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:12,341 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:12,764 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:13,197 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:13,624 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:13,898 - root - INFO -  MACD calculation for SGBX due to high change percent: 91.0494
+2025-10-10 08:20:13,962 - root - INFO - MACD not positive for SGBX
+2025-10-10 08:20:14,012 - root - INFO -  MACD calculation for SHPH due to high change percent: 13.4454
+2025-10-10 08:20:14,043 - root - INFO - MACD not positive for SHPH
+2025-10-10 08:20:14,240 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:14,622 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:14,849 - root - INFO -  MACD calculation for SWKH due to high change percent: 25.0
+2025-10-10 08:20:14,936 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:15,114 - root - INFO -  MACD calculation for TE due to high change percent: 14.3603
+2025-10-10 08:20:15,648 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:15,995 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:16,309 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:16,578 - root - INFO -  MACD calculation for WAI due to high change percent: 30.3922
+2025-10-10 08:20:16,637 - root - INFO - MACD not positive for WAI
+2025-10-10 08:20:16,890 - root - INFO -  update_current_price: start time 2025-10-10T08:15:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:20:17,143 - root - INFO -  MACD calculation for YHGJ due to high change percent: 43.1667
+2025-10-10 08:20:17,175 - root - INFO - MACD not positive for YHGJ
+2025-10-10 08:20:17,233 - root - INFO -  MACD calculation for YSXT due to high change percent: 11.6505
+2025-10-10 08:20:17,261 - root - INFO - MACD not positive for YSXT
+2025-10-10 08:20:17,419 - root - INFO - Updating change percent of stocks
+2025-10-10 08:20:18,056 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-10 08:20:20,692 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
+2025-10-10 08:20:20,713 - root - INFO - Running real_trade for all top movers
+2025-10-10 08:20:20,714 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 08:20:20,714 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 08:20:20,760 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 08:20:20,772 - root - INFO - Time since last close for GWH is 11.879544666666668 minutes, net percent -28.8382
+2025-10-10 08:20:20,935 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
+2025-10-10 08:20:20,961 - root - INFO - 1min candle is not positive for GWH: open 4.13 close 4.1413
+2025-10-10 08:20:20,963 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
+2025-10-10 08:20:20,974 - root - INFO - Time since last close for GORV is 7.166243166666666 minutes, net percent 8.33333
+2025-10-10 08:20:20,974 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 7 minutes
+2025-10-10 08:20:20,975 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 08:20:20,985 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 08:20:20,985 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 08:20:21,058 - root - INFO - Last 20 minutes volume is low for FMFC: 17848
+2025-10-10 08:20:31,155 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
+2025-10-10 08:20:31,176 - root - INFO - Running real_trade for all top movers
+2025-10-10 08:20:31,176 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 08:20:31,176 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 08:20:31,219 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 08:20:31,230 - root - INFO - Time since last close for GWH is 12.05383035 minutes, net percent -28.8382
+2025-10-10 08:20:31,367 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
+2025-10-10 08:20:31,392 - root - INFO - 1min candle is not positive for GWH: open 4.13 close 4.1413
+2025-10-10 08:20:31,394 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
+2025-10-10 08:20:31,406 - root - INFO - Time since last close for GORV is 7.34011395 minutes, net percent 8.33333
+2025-10-10 08:20:31,407 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 7 minutes
+2025-10-10 08:20:31,407 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 08:20:31,417 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 08:20:31,417 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 08:20:31,450 - root - INFO - Last 20 minutes volume is low for FMFC: 17848
+2025-10-10 08:20:41,552 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
+2025-10-10 08:20:41,573 - root - INFO - Running real_trade for all top movers
+2025-10-10 08:20:41,573 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 08:20:41,573 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 08:20:41,615 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 08:20:41,625 - root - INFO - Time since last close for GWH is 12.227097416666668 minutes, net percent -28.8382
+2025-10-10 08:20:41,761 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
+2025-10-10 08:20:41,782 - root - INFO - 1min candle is not positive for GWH: open 4.13 close 4.1413
+2025-10-10 08:20:41,783 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
+2025-10-10 08:20:41,796 - root - INFO - Time since last close for GORV is 7.513269966666667 minutes, net percent 8.33333
+2025-10-10 08:20:41,796 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 7 minutes
+2025-10-10 08:20:41,796 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 08:20:41,805 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 08:20:41,805 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 08:20:41,841 - root - INFO - Last 20 minutes volume is low for FMFC: 17848
+2025-10-10 08:20:51,944 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
+2025-10-10 08:20:51,966 - root - INFO - Running real_trade for all top movers
+2025-10-10 08:20:51,967 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 08:20:51,967 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 08:20:52,012 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 08:20:52,023 - root - INFO - Time since last close for GWH is 12.400389416666666 minutes, net percent -28.8382
+2025-10-10 08:20:52,163 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
+2025-10-10 08:20:52,187 - root - INFO - 1min candle is not positive for GWH: open 4.15 close 4.07
+2025-10-10 08:20:52,188 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
+2025-10-10 08:20:52,200 - root - INFO - Time since last close for GORV is 7.6866806 minutes, net percent 8.33333
+2025-10-10 08:20:52,201 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 7 minutes
+2025-10-10 08:20:52,201 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 08:20:52,210 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 08:20:52,210 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 08:20:52,244 - root - INFO - Last 20 minutes volume is low for FMFC: 17848
+2025-10-10 08:21:02,348 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
+2025-10-10 08:21:02,368 - root - INFO - Running real_trade for all top movers
+2025-10-10 08:21:02,369 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 08:21:02,369 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 08:21:02,413 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 08:21:02,425 - root - INFO - Time since last close for GWH is 12.57375195 minutes, net percent -28.8382
+2025-10-10 08:21:02,564 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
+2025-10-10 08:21:02,586 - root - INFO - 1min candle is not positive for GWH: open 4.15 close 4.07
+2025-10-10 08:21:02,588 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
+2025-10-10 08:21:02,601 - root - INFO - Time since last close for GORV is 7.86002435 minutes, net percent 8.33333
+2025-10-10 08:21:02,601 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 7 minutes
+2025-10-10 08:21:02,602 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 08:21:02,611 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 08:21:02,611 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 08:21:02,646 - root - INFO - Last 20 minutes volume is low for FMFC: 17848
+2025-10-10 08:21:12,743 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
+2025-10-10 08:21:12,766 - root - INFO - Running real_trade for all top movers
+2025-10-10 08:21:12,766 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 08:21:12,766 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 08:21:12,810 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 08:21:12,820 - root - INFO - Time since last close for GWH is 12.747012983333333 minutes, net percent -28.8382
+2025-10-10 08:21:12,955 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
+2025-10-10 08:21:12,982 - root - INFO - 1min candle is not positive for GWH: open 4.15 close 4.07
+2025-10-10 08:21:12,983 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
+2025-10-10 08:21:12,997 - root - INFO - Time since last close for GORV is 8.0332841 minutes, net percent 8.33333
+2025-10-10 08:21:12,997 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 8 minutes
+2025-10-10 08:21:12,997 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 08:21:13,007 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 08:21:13,007 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 08:21:13,047 - root - INFO - Last 20 minutes volume is low for FMFC: 17848
+2025-10-10 08:21:18,159 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
+2025-10-10 08:21:18,181 - root - INFO - ('2025-10-10T20:58:00-04:00', '2025-10-10T20:58:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T20:58:00-04:00')
+2025-10-10 08:21:18,181 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:18,207 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:18,736 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:19,108 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:19,255 - root - INFO -  MACD calculation for APLD due to high change percent: 27.5179
+2025-10-10 08:21:19,440 - root - INFO -  MACD calculation for ARAY due to high change percent: 14.0541
+2025-10-10 08:21:19,481 - root - INFO - MACD not positive for ARAY
+2025-10-10 08:21:19,749 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:20,036 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:20,354 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:20,620 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:20,978 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:21,300 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:21,437 - root - INFO -  MACD calculation for CODI due to high change percent: 22.1769
+2025-10-10 08:21:21,488 - root - INFO - MACD not positive for CODI
+2025-10-10 08:21:21,545 - root - INFO -  MACD calculation for CRML due to high change percent: 14.0041
+2025-10-10 08:21:21,679 - root - INFO -  MACD calculation for CRMLW due to high change percent: 21.978
+2025-10-10 08:21:21,731 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:21,765 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:21,983 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:22,127 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:22,354 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:22,504 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:22,704 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:22,796 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:22,882 - root - INFO -  MACD calculation for GORV due to high change percent: 47.1698
+2025-10-10 08:21:23,142 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
+2025-10-10 08:21:23,147 - root - INFO -  MACD calculation for GWH due to high change percent: 140.773
+2025-10-10 08:21:23,162 - root - INFO - Running real_trade for all top movers
+2025-10-10 08:21:23,162 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 08:21:23,162 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 08:21:23,208 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
+2025-10-10 08:21:23,218 - root - INFO - Time since last close for GORV is 8.203642283333334 minutes, net percent 8.33333
+2025-10-10 08:21:23,218 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 8 minutes
+2025-10-10 08:21:23,219 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 08:21:23,228 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 08:21:23,228 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 08:21:23,276 - root - INFO - Last 20 minutes volume is low for FMFC: 17848
+2025-10-10 08:21:23,295 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:23,463 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:23,608 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:23,823 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:24,057 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:24,454 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:24,740 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:24,885 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:25,174 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:25,407 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:25,599 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:25,927 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:26,264 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:26,557 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:27,049 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:27,496 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:27,936 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:28,116 - root - INFO -  MACD calculation for SGBX due to high change percent: 90.4321
+2025-10-10 08:21:28,173 - root - INFO - MACD not positive for SGBX
+2025-10-10 08:21:28,267 - root - INFO -  MACD calculation for SHPH due to high change percent: 13.4454
+2025-10-10 08:21:28,299 - root - INFO - MACD not positive for SHPH
+2025-10-10 08:21:28,444 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:28,851 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:29,157 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:29,243 - root - INFO -  MACD calculation for TE due to high change percent: 15.1436
+2025-10-10 08:21:29,546 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:29,850 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:29,938 - root - INFO -  MACD calculation for USARW due to high change percent: 16.8296
+2025-10-10 08:21:30,314 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:30,404 - root - INFO -  MACD calculation for VSME due to high change percent: 20.0
+2025-10-10 08:21:30,554 - root - INFO -  MACD calculation for WAI due to high change percent: 30.3922
+2025-10-10 08:21:30,592 - root - INFO - MACD not positive for WAI
+2025-10-10 08:21:30,751 - root - INFO -  MACD calculation for WKEY due to high change percent: 10.0806
+2025-10-10 08:21:30,782 - root - INFO - MACD not positive for WKEY
+2025-10-10 08:21:30,783 - root - INFO -  update_current_price: start time 2025-10-10T08:16:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:21:31,040 - root - INFO -  MACD calculation for YHGJ due to high change percent: 36.5
+2025-10-10 08:21:31,079 - root - INFO - MACD not positive for YHGJ
+2025-10-10 08:21:31,288 - root - INFO - Updating change percent of stocks
+2025-10-10 08:21:31,935 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-10 08:21:33,378 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
+2025-10-10 08:21:33,434 - root - INFO - Running real_trade for all top movers
+2025-10-10 08:21:33,435 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 08:21:33,435 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 08:21:33,482 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 08:21:33,493 - root - INFO - Time since last close for GWH is 13.09155085 minutes, net percent -28.8382
+2025-10-10 08:21:33,629 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
+2025-10-10 08:21:33,653 - root - INFO - 1min candle is not positive for GWH: open 4.15 close 4.07
+2025-10-10 08:21:33,655 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
+2025-10-10 08:21:33,668 - root - INFO - Time since last close for GORV is 8.37779645 minutes, net percent 8.33333
+2025-10-10 08:21:33,668 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 8 minutes
+2025-10-10 08:21:33,668 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 08:21:33,678 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 08:21:33,679 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 08:21:33,714 - root - INFO - Last 20 minutes volume is low for FMFC: 17848
+2025-10-10 08:21:43,813 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
+2025-10-10 08:21:43,835 - root - INFO - Running real_trade for all top movers
+2025-10-10 08:21:43,836 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 08:21:43,836 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 08:21:43,884 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 08:21:43,898 - root - INFO - Time since last close for GWH is 13.26496955 minutes, net percent -28.8382
+2025-10-10 08:21:44,038 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
+2025-10-10 08:21:44,065 - root - INFO - 1min candle is not positive for GWH: open 4.15 close 4.07
+2025-10-10 08:21:44,066 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
+2025-10-10 08:21:44,080 - root - INFO - Time since last close for GORV is 8.551336683333334 minutes, net percent 8.33333
+2025-10-10 08:21:44,080 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 8 minutes
+2025-10-10 08:21:44,080 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 08:21:44,094 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 08:21:44,094 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 08:21:44,136 - root - INFO - Last 20 minutes volume is low for FMFC: 17848
+2025-10-10 08:21:54,245 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
+2025-10-10 08:21:54,264 - root - INFO - Running real_trade for all top movers
+2025-10-10 08:21:54,265 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 08:21:54,265 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 08:21:54,314 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 08:21:54,324 - root - INFO - Time since last close for GWH is 13.438745666666668 minutes, net percent -28.8382
+2025-10-10 08:21:54,464 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
+2025-10-10 08:21:54,535 - root - INFO - Trend up basic conditions not met for GWH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-10 08:21:54,536 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
+2025-10-10 08:21:54,550 - root - INFO - Time since last close for GORV is 8.725841016666667 minutes, net percent 8.33333
+2025-10-10 08:21:54,550 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 8 minutes
+2025-10-10 08:21:54,551 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 08:21:54,563 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 08:21:54,563 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 08:21:54,597 - root - INFO - Last 20 minutes volume is low for FMFC: 19517
+2025-10-10 08:22:04,690 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
+2025-10-10 08:22:04,710 - root - INFO - Running real_trade for all top movers
+2025-10-10 08:22:04,711 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 08:22:04,711 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 08:22:04,759 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 08:22:04,769 - root - INFO - Time since last close for GWH is 13.612828133333332 minutes, net percent -28.8382
+2025-10-10 08:22:04,902 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
+2025-10-10 08:22:04,974 - root - INFO - Trend up basic conditions not met for GWH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-10 08:22:04,975 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
+2025-10-10 08:22:04,990 - root - INFO - Time since last close for GORV is 8.899835383333334 minutes, net percent 8.33333
+2025-10-10 08:22:04,990 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 8 minutes
+2025-10-10 08:22:04,990 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 08:22:05,004 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 08:22:05,004 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 08:22:05,039 - root - INFO - Last 20 minutes volume is low for FMFC: 19517
+2025-10-10 08:22:15,141 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
+2025-10-10 08:22:15,166 - root - INFO - Running real_trade for all top movers
+2025-10-10 08:22:15,167 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 08:22:15,167 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 08:22:15,211 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 08:22:15,223 - root - INFO - Time since last close for GWH is 13.78704935 minutes, net percent -28.8382
+2025-10-10 08:22:15,360 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
+2025-10-10 08:22:15,431 - root - INFO - Trend up basic conditions not met for GWH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-10 08:22:15,432 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
+2025-10-10 08:22:15,446 - root - INFO - Time since last close for GORV is 9.074112833333334 minutes, net percent 8.33333
+2025-10-10 08:22:15,447 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 9 minutes
+2025-10-10 08:22:15,447 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 08:22:15,461 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 08:22:15,461 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 08:22:15,499 - root - INFO - Last 20 minutes volume is low for FMFC: 19517
+2025-10-10 08:22:25,613 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
+2025-10-10 08:22:25,671 - root - INFO - Running real_trade for all top movers
+2025-10-10 08:22:25,673 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 08:22:25,673 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 08:22:25,720 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 08:22:25,730 - root - INFO - Time since last close for GWH is 13.96216475 minutes, net percent -28.8382
+2025-10-10 08:22:25,868 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
+2025-10-10 08:22:25,943 - root - INFO - Trend up basic conditions not met for GWH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-10 08:22:25,945 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
+2025-10-10 08:22:25,957 - root - INFO - Time since last close for GORV is 9.249292216666667 minutes, net percent 8.33333
+2025-10-10 08:22:25,957 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 9 minutes
+2025-10-10 08:22:25,958 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 08:22:25,969 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 08:22:25,970 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 08:22:26,004 - root - INFO - Last 20 minutes volume is low for FMFC: 19517
+2025-10-10 08:22:31,985 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
+2025-10-10 08:22:32,012 - root - INFO - ('2025-10-10T20:58:00-04:00', '2025-10-10T20:58:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T20:58:00-04:00')
+2025-10-10 08:22:32,013 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T20:58:00-04:00
+2025-10-10 08:22:32,045 - root - INFO -  update_current_price: start time 2025-10-10T08:17:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:22:32,450 - root - INFO -  update_current_price: start time 2025-10-10T08:17:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:22:32,966 - root - INFO -  update_current_price: start time 2025-10-10T08:17:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:22:33,064 - root - INFO -  MACD calculation for APLD due to high change percent: 28.03
+2025-10-10 08:22:33,339 - root - INFO -  MACD calculation for ARAY due to high change percent: 14.5946
+2025-10-10 08:22:33,384 - root - INFO - MACD not positive for ARAY
+2025-10-10 08:22:33,627 - root - INFO -  update_current_price: start time 2025-10-10T08:17:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:22:33,910 - root - INFO -  update_current_price: start time 2025-10-10T08:17:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:22:34,261 - root - INFO -  update_current_price: start time 2025-10-10T08:17:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:22:34,595 - root - INFO -  update_current_price: start time 2025-10-10T08:17:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:22:34,944 - root - INFO -  update_current_price: start time 2025-10-10T08:17:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:22:35,148 - root - INFO -  update_current_price: start time 2025-10-10T08:17:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:22:35,300 - root - INFO -  MACD calculation for CODI due to high change percent: 22.1769
+2025-10-10 08:22:35,364 - root - INFO - MACD not positive for CODI
+2025-10-10 08:22:35,476 - root - INFO -  MACD calculation for CRML due to high change percent: 14.208
+2025-10-10 08:22:35,612 - root - INFO -  MACD calculation for CRMLW due to high change percent: 21.0361
+2025-10-10 08:22:35,669 - root - INFO -  update_current_price: start time 2025-10-10T08:17:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:22:35,766 - root - INFO -  update_current_price: start time 2025-10-10T08:17:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:22:36,073 - root - INFO -  update_current_price: start time 2025-10-10T08:17:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:22:36,103 - root - INFO - Real mode: Today's profit so far: 717.4399750000011
+2025-10-10 08:22:36,121 - root - INFO - Running real_trade for all top movers
+2025-10-10 08:22:36,122 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 08:22:36,122 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 08:22:36,165 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 08:22:36,174 - root - INFO - Time since last close for GWH is 14.136231966666665 minutes, net percent -28.8382
+2025-10-10 08:22:36,241 - root - INFO -  update_current_price: start time 2025-10-10T08:17:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:22:36,296 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
+2025-10-10 08:22:36,361 - root - INFO - Trend up basic conditions not met for GWH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-10 08:22:36,362 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
+2025-10-10 08:22:36,369 - root - INFO - Time since last close for GORV is 9.422825016666668 minutes, net percent 8.33333
+2025-10-10 08:22:36,369 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 9 minutes
+2025-10-10 08:22:36,370 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-10 08:22:36,376 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-10 08:22:36,376 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 08:22:36,411 - root - INFO - Last 20 minutes volume is low for FMFC: 19517
+2025-10-10 08:22:36,426 - root - INFO -  update_current_price: start time 2025-10-10T08:17:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:22:36,619 - root - INFO -  MACD calculation for FMFC due to high change percent: 34.6336
+2025-10-10 08:22:36,662 - root - INFO -  update_current_price: start time 2025-10-10T08:17:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:22:36,809 - root - INFO -  update_current_price: start time 2025-10-10T08:17:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:22:37,081 - root - INFO -  update_current_price: start time 2025-10-10T08:17:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:22:37,180 - root - INFO -  MACD calculation for GORV due to high change percent: 41.5094
+2025-10-10 08:22:37,460 - root - INFO -  MACD calculation for GWH due to high change percent: 136.628
+2025-10-10 08:22:37,722 - root - INFO -  update_current_price: start time 2025-10-10T08:17:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:22:38,234 - root - INFO -  update_current_price: start time 2025-10-10T08:17:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:22:38,405 - root - INFO -  update_current_price: start time 2025-10-10T08:17:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:22:38,735 - root - INFO -  update_current_price: start time 2025-10-10T08:17:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:22:39,008 - root - INFO -  update_current_price: start time 2025-10-10T08:17:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:22:39,195 - root - INFO -  update_current_price: start time 2025-10-10T08:17:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:22:39,379 - root - INFO -  update_current_price: start time 2025-10-10T08:17:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:22:39,449 - root - INFO -  update_current_price: start time 2025-10-10T08:17:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 08:22:39,627 - root - INFO -  update_current_price: start time 2025-10-10T08:17:00-04:00 end_time 2025-10-10T20:58:00-04:00
