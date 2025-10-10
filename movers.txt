@@ -2,9 +2,9 @@ Top Movers:
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  GWH   |      0      |     0     |    73.2558     | 27677435 |      2.98     |        1.72        |  4960000.0   |  1.826   |  2539433   |      0      | 2025-10-10 07:15:37 |
-|  WAI   |      0      |     0     |     51.634     | 6142206  |      4.64     |        3.06        |     0.0      |  3.038   |   343939   |      0      | 2025-10-10 07:15:44 |
-|  YHGJ  |      0      |     0     |    38.3333     |  826728  |      8.3      |        6.0         |  8170000.0   | 5.86524  |   290731   |      0      | 2025-10-10 07:15:45 |
+|  GWH   |      0      |     0     |    77.3256     | 28026873 |      3.05     |        1.72        |  4960000.0   |  1.826   |  2539433   |      0      | 2025-10-10 07:16:50 |
+|  WAI   |      0      |     0     |    49.3464     | 6271464  |      4.57     |        3.06        |     0.0      |  3.038   |   343939   |      0      | 2025-10-10 07:16:58 |
+|  YHGJ  |      0      |     0     |      36.0      |  828876  |      8.16     |        6.0         |  8170000.0   | 5.86524  |   290731   |      0      | 2025-10-10 07:16:59 |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -18,145 +18,6 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-10 07:13:16,830 - root - INFO -  update_current_price: start time 2025-10-10T07:08:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 07:13:17,067 - root - INFO -  update_current_price: start time 2025-10-10T07:08:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 07:13:17,520 - root - INFO -  MACD calculation for SCWO due to high change percent: 11.8865
-2025-10-10 07:13:17,772 - root - INFO -  MACD calculation for SGBX due to high change percent: 87.6543
-2025-10-10 07:13:17,811 - root - INFO - MACD not positive for SGBX
-2025-10-10 07:13:17,812 - root - INFO -  update_current_price: start time 2025-10-10T07:08:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 07:13:18,129 - root - INFO -  update_current_price: start time 2025-10-10T07:08:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 07:13:18,324 - root - INFO -  update_current_price: start time 2025-10-10T07:08:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 07:13:18,595 - root - INFO -  update_current_price: start time 2025-10-10T07:08:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 07:13:18,889 - root - INFO -  update_current_price: start time 2025-10-10T07:08:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 07:13:19,132 - root - INFO -  update_current_price: start time 2025-10-10T07:08:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 07:13:19,484 - root - INFO -  update_current_price: start time 2025-10-10T07:08:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 07:13:19,598 - root - INFO -  MACD calculation for VSME due to high change percent: 21.5385
-2025-10-10 07:13:19,720 - root - INFO -  MACD calculation for WAI due to high change percent: 56.2092
-2025-10-10 07:13:19,838 - root - INFO -  MACD calculation for WKEY due to high change percent: 11.2903
-2025-10-10 07:13:19,878 - root - INFO - MACD not positive for WKEY
-2025-10-10 07:13:19,879 - root - INFO -  update_current_price: start time 2025-10-10T07:08:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 07:13:20,164 - root - INFO -  MACD calculation for YHGJ due to high change percent: 38.3333
-2025-10-10 07:13:20,282 - root - INFO -  MACD calculation for YSXT due to high change percent: 15.534
-2025-10-10 07:13:20,329 - root - INFO -  update_current_price: start time 2025-10-10T07:08:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 07:13:20,554 - root - INFO - Updating change percent of stocks
-2025-10-10 07:13:21,187 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-10 07:13:22,011 - root - INFO - Real mode: Today's profit so far: 684.1399749999982
-2025-10-10 07:13:22,035 - root - INFO - Running real_trade for all top movers
-2025-10-10 07:13:22,037 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1500, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 07:13:22,037 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1500, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 07:13:22,087 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 07:13:22,095 - root - INFO - Time since last close for GWH is 6.634930333333333 minutes, net percent -8.04954
-2025-10-10 07:13:22,096 - root - INFO - ***** stock: GWH Scale: 5Min Time since last close: 6 minutes
-2025-10-10 07:13:22,096 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-10 07:13:22,103 - root - INFO - Time since last close for WAI is 23.56839055 minutes, net percent 5.63991
-2025-10-10 07:13:22,148 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
-2025-10-10 07:13:22,211 - root - INFO - Trend up basic conditions not met for WAI: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-10 07:13:22,212 - root - INFO - swing_strategy_open_long for scale 5Min stock YHGJ
-2025-10-10 07:13:22,225 - root - INFO - Time since last close for YHGJ is 8.603755333333334 minutes, net percent -6.2069
-2025-10-10 07:13:22,225 - root - INFO - ***** stock: YHGJ Scale: 5Min Time since last close: 8 minutes
-2025-10-10 07:13:32,328 - root - INFO - Real mode: Today's profit so far: 684.1399749999982
-2025-10-10 07:13:32,350 - root - INFO - Running real_trade for all top movers
-2025-10-10 07:13:32,351 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1500, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 07:13:32,351 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1500, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 07:13:32,402 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 07:13:32,415 - root - INFO - Time since last close for GWH is 6.806925266666667 minutes, net percent -8.04954
-2025-10-10 07:13:32,415 - root - INFO - ***** stock: GWH Scale: 5Min Time since last close: 6 minutes
-2025-10-10 07:13:32,416 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-10 07:13:32,429 - root - INFO - Time since last close for WAI is 23.740484066666667 minutes, net percent 5.63991
-2025-10-10 07:13:32,486 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
-2025-10-10 07:13:32,551 - root - INFO - Trend up basic conditions not met for WAI: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-10 07:13:32,552 - root - INFO - swing_strategy_open_long for scale 5Min stock YHGJ
-2025-10-10 07:13:32,568 - root - INFO - Time since last close for YHGJ is 8.776140966666667 minutes, net percent -6.2069
-2025-10-10 07:13:32,568 - root - INFO - ***** stock: YHGJ Scale: 5Min Time since last close: 8 minutes
-2025-10-10 07:13:42,707 - root - INFO - Real mode: Today's profit so far: 684.1399749999982
-2025-10-10 07:13:42,730 - root - INFO - Running real_trade for all top movers
-2025-10-10 07:13:42,731 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1500, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 07:13:42,731 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1500, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 07:13:42,777 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 07:13:42,790 - root - INFO - Time since last close for GWH is 6.979828800000001 minutes, net percent -8.04954
-2025-10-10 07:13:42,790 - root - INFO - ***** stock: GWH Scale: 5Min Time since last close: 6 minutes
-2025-10-10 07:13:42,791 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-10 07:13:42,804 - root - INFO - Time since last close for WAI is 23.91339795 minutes, net percent 5.63991
-2025-10-10 07:13:42,859 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
-2025-10-10 07:13:42,921 - root - INFO - Trend up basic conditions not met for WAI: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-10 07:13:42,922 - root - INFO - swing_strategy_open_long for scale 5Min stock YHGJ
-2025-10-10 07:13:42,938 - root - INFO - Time since last close for YHGJ is 8.948964716666667 minutes, net percent -6.2069
-2025-10-10 07:13:42,938 - root - INFO - ***** stock: YHGJ Scale: 5Min Time since last close: 8 minutes
-2025-10-10 07:13:53,051 - root - INFO - Real mode: Today's profit so far: 684.1399749999982
-2025-10-10 07:13:53,071 - root - INFO - Running real_trade for all top movers
-2025-10-10 07:13:53,072 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1500, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 07:13:53,072 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1500, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 07:13:53,121 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 07:13:53,134 - root - INFO - Time since last close for GWH is 7.152234216666667 minutes, net percent -8.04954
-2025-10-10 07:13:53,134 - root - INFO - ***** stock: GWH Scale: 5Min Time since last close: 7 minutes
-2025-10-10 07:13:53,135 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-10 07:13:53,147 - root - INFO - Time since last close for WAI is 24.085794216666667 minutes, net percent 5.63991
-2025-10-10 07:13:53,197 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
-2025-10-10 07:13:53,230 - root - INFO - 1min candle is not positive for WAI: open 4.72 close 4.73
-2025-10-10 07:13:53,231 - root - INFO - swing_strategy_open_long for scale 5Min stock YHGJ
-2025-10-10 07:13:53,246 - root - INFO - Time since last close for YHGJ is 9.120774433333334 minutes, net percent -6.2069
-2025-10-10 07:13:53,247 - root - INFO - ***** stock: YHGJ Scale: 5Min Time since last close: 9 minutes
-2025-10-10 07:14:03,355 - root - INFO - Real mode: Today's profit so far: 684.1399749999982
-2025-10-10 07:14:03,375 - root - INFO - Running real_trade for all top movers
-2025-10-10 07:14:03,376 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1500, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 07:14:03,376 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1500, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 07:14:03,430 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 07:14:03,443 - root - INFO - Time since last close for GWH is 7.324054149999999 minutes, net percent -8.04954
-2025-10-10 07:14:03,443 - root - INFO - ***** stock: GWH Scale: 5Min Time since last close: 7 minutes
-2025-10-10 07:14:03,445 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-10 07:14:03,459 - root - INFO - Time since last close for WAI is 24.257647333333335 minutes, net percent 5.63991
-2025-10-10 07:14:03,513 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
-2025-10-10 07:14:03,540 - root - INFO - 1min candle is not positive for WAI: open 4.72 close 4.73
-2025-10-10 07:14:03,542 - root - INFO - swing_strategy_open_long for scale 5Min stock YHGJ
-2025-10-10 07:14:03,555 - root - INFO - Time since last close for YHGJ is 9.292587666666666 minutes, net percent -6.2069
-2025-10-10 07:14:03,555 - root - INFO - ***** stock: YHGJ Scale: 5Min Time since last close: 9 minutes
-2025-10-10 07:14:13,668 - root - INFO - Real mode: Today's profit so far: 684.1399749999982
-2025-10-10 07:14:13,690 - root - INFO - Running real_trade for all top movers
-2025-10-10 07:14:13,691 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1500, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 07:14:13,691 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1500, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 07:14:13,740 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 07:14:13,753 - root - INFO - Time since last close for GWH is 7.495885366666667 minutes, net percent -8.04954
-2025-10-10 07:14:13,753 - root - INFO - ***** stock: GWH Scale: 5Min Time since last close: 7 minutes
-2025-10-10 07:14:13,754 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-10 07:14:13,767 - root - INFO - Time since last close for WAI is 24.429449033333334 minutes, net percent 5.63991
-2025-10-10 07:14:13,819 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
-2025-10-10 07:14:13,853 - root - INFO - 1min candle is not positive for WAI: open 4.72 close 4.73
-2025-10-10 07:14:13,854 - root - INFO - swing_strategy_open_long for scale 5Min stock YHGJ
-2025-10-10 07:14:13,871 - root - INFO - Time since last close for YHGJ is 9.464517516666666 minutes, net percent -6.2069
-2025-10-10 07:14:13,871 - root - INFO - ***** stock: YHGJ Scale: 5Min Time since last close: 9 minutes
-2025-10-10 07:14:21,225 - root - INFO - Real mode: Today's profit so far: 684.1399749999982
-2025-10-10 07:14:21,255 - root - INFO - ('2025-10-10T20:58:00-04:00', '2025-10-10T20:58:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T20:58:00-04:00')
-2025-10-10 07:14:21,255 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T20:58:00-04:00
-2025-10-10 07:14:21,291 - root - INFO -  update_current_price: start time 2025-10-10T07:09:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 07:14:21,450 - root - INFO -  MACD calculation for ADTX due to high change percent: 16.8391
-2025-10-10 07:14:21,600 - root - INFO -  update_current_price: start time 2025-10-10T07:09:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 07:14:21,892 - root - INFO -  update_current_price: start time 2025-10-10T07:09:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 07:14:21,998 - root - INFO -  MACD calculation for APLD due to high change percent: 24.6842
-2025-10-10 07:14:22,080 - root - INFO - MACD not positive for APLD
-2025-10-10 07:14:22,287 - root - INFO -  update_current_price: start time 2025-10-10T07:09:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 07:14:22,602 - root - INFO -  update_current_price: start time 2025-10-10T07:09:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 07:14:22,719 - root - INFO -  update_current_price: start time 2025-10-10T07:09:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 07:14:23,036 - root - INFO -  update_current_price: start time 2025-10-10T07:09:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 07:14:23,218 - root - INFO -  update_current_price: start time 2025-10-10T07:09:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 07:14:23,519 - root - INFO -  update_current_price: start time 2025-10-10T07:09:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 07:14:23,752 - root - INFO -  update_current_price: start time 2025-10-10T07:09:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 07:14:23,871 - root - INFO -  update_current_price: start time 2025-10-10T07:09:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 07:14:23,969 - root - INFO - Real mode: Today's profit so far: 684.1399749999982
-2025-10-10 07:14:23,987 - root - INFO - Running real_trade for all top movers
-2025-10-10 07:14:23,988 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1500, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 07:14:23,988 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1500, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 07:14:24,038 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-10 07:14:24,040 - root - INFO -  update_current_price: start time 2025-10-10T07:09:00-04:00 end_time 2025-10-10T20:58:00-04:00
-2025-10-10 07:14:24,048 - root - INFO - Time since last close for GWH is 7.66746775 minutes, net percent -8.04954
-2025-10-10 07:14:24,048 - root - INFO - ***** stock: GWH Scale: 5Min Time since last close: 7 minutes
-2025-10-10 07:14:24,049 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-10 07:14:24,058 - root - INFO - Time since last close for WAI is 24.6009798 minutes, net percent 5.63991
-2025-10-10 07:14:24,107 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
-2025-10-10 07:14:24,127 - root - INFO - 1min candle is not positive for WAI: open 4.72 close 4.73
-2025-10-10 07:14:24,128 - root - INFO - swing_strategy_open_long for scale 5Min stock YHGJ
-2025-10-10 07:14:24,138 - root - INFO - Time since last close for YHGJ is 9.63563715 minutes, net percent -6.2069
-2025-10-10 07:14:24,138 - root - INFO - ***** stock: YHGJ Scale: 5Min Time since last close: 9 minutes
-2025-10-10 07:14:24,238 - root - INFO -  update_current_price: start time 2025-10-10T07:09:00-04:00 end_time 2025-10-10T20:58:00-04:00
 2025-10-10 07:14:24,272 - root - INFO -  update_current_price: start time 2025-10-10T07:09:00-04:00 end_time 2025-10-10T20:58:00-04:00
 2025-10-10 07:14:24,448 - root - INFO -  update_current_price: start time 2025-10-10T07:09:00-04:00 end_time 2025-10-10T20:58:00-04:00
 2025-10-10 07:14:24,619 - root - INFO -  update_current_price: start time 2025-10-10T07:09:00-04:00 end_time 2025-10-10T20:58:00-04:00
@@ -418,3 +279,142 @@ Manual Movers:
 2025-10-10 07:16:07,638 - root - INFO - swing_strategy_open_long for scale 5Min stock YHGJ
 2025-10-10 07:16:07,649 - root - INFO - Time since last close for YHGJ is 11.360822183333333 minutes, net percent -6.2069
 2025-10-10 07:16:07,680 - root - INFO - Last 5 minutes maximum volume candle is red for YHGJ
+2025-10-10 07:16:17,790 - root - INFO - Real mode: Today's profit so far: 684.1399749999982
+2025-10-10 07:16:17,811 - root - INFO - Running real_trade for all top movers
+2025-10-10 07:16:17,813 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1500, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 07:16:17,813 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1500, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 07:16:17,858 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 07:16:17,870 - root - INFO - Time since last close for GWH is 9.564499766666668 minutes, net percent -8.04954
+2025-10-10 07:16:17,870 - root - INFO - ***** stock: GWH Scale: 5Min Time since last close: 9 minutes
+2025-10-10 07:16:17,871 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-10 07:16:17,883 - root - INFO - Time since last close for WAI is 26.498057833333334 minutes, net percent 5.63991
+2025-10-10 07:16:17,930 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-10 07:16:17,954 - root - INFO - 1min candle is not positive for WAI: open 4.63 close 4.68
+2025-10-10 07:16:17,954 - root - INFO - swing_strategy_open_long for scale 5Min stock YHGJ
+2025-10-10 07:16:17,968 - root - INFO - Time since last close for YHGJ is 11.532804116666666 minutes, net percent -6.2069
+2025-10-10 07:16:17,996 - root - INFO - Last 5 minutes maximum volume candle is red for YHGJ
+2025-10-10 07:16:28,102 - root - INFO - Real mode: Today's profit so far: 684.1399749999982
+2025-10-10 07:16:28,123 - root - INFO - Running real_trade for all top movers
+2025-10-10 07:16:28,124 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1500, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 07:16:28,124 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1500, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 07:16:28,171 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 07:16:28,183 - root - INFO - Time since last close for GWH is 9.736388866666665 minutes, net percent -8.04954
+2025-10-10 07:16:28,183 - root - INFO - ***** stock: GWH Scale: 5Min Time since last close: 9 minutes
+2025-10-10 07:16:28,184 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-10 07:16:28,196 - root - INFO - Time since last close for WAI is 26.6699357 minutes, net percent 5.63991
+2025-10-10 07:16:28,243 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-10 07:16:28,268 - root - INFO - 1min candle is not positive for WAI: open 4.63 close 4.68
+2025-10-10 07:16:28,269 - root - INFO - swing_strategy_open_long for scale 5Min stock YHGJ
+2025-10-10 07:16:28,279 - root - INFO - Time since last close for YHGJ is 11.70465855 minutes, net percent -6.2069
+2025-10-10 07:16:28,308 - root - INFO - Last 5 minutes maximum volume candle is red for YHGJ
+2025-10-10 07:16:38,406 - root - INFO - Real mode: Today's profit so far: 684.1399749999982
+2025-10-10 07:16:38,432 - root - INFO - Running real_trade for all top movers
+2025-10-10 07:16:38,433 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1500, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 07:16:38,433 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1500, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 07:16:38,481 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 07:16:38,493 - root - INFO - Time since last close for GWH is 9.90822795 minutes, net percent -8.04954
+2025-10-10 07:16:38,494 - root - INFO - ***** stock: GWH Scale: 5Min Time since last close: 9 minutes
+2025-10-10 07:16:38,495 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-10 07:16:38,506 - root - INFO - Time since last close for WAI is 26.841778383333335 minutes, net percent 5.63991
+2025-10-10 07:16:38,555 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-10 07:16:38,577 - root - INFO - 1min candle is not positive for WAI: open 4.63 close 4.68
+2025-10-10 07:16:38,578 - root - INFO - swing_strategy_open_long for scale 5Min stock YHGJ
+2025-10-10 07:16:38,591 - root - INFO - Time since last close for YHGJ is 11.87651895 minutes, net percent -6.2069
+2025-10-10 07:16:38,623 - root - INFO - Last 5 minutes maximum volume candle is red for YHGJ
+2025-10-10 07:16:45,611 - root - INFO - Real mode: Today's profit so far: 684.1399749999982
+2025-10-10 07:16:45,633 - root - INFO - ('2025-10-10T20:58:00-04:00', '2025-10-10T20:58:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T20:58:00-04:00')
+2025-10-10 07:16:45,633 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:45,667 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:45,889 - root - INFO -  MACD calculation for ADTX due to high change percent: 16.3793
+2025-10-10 07:16:45,952 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:46,286 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:46,502 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:46,788 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:46,966 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:47,137 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:47,503 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:47,659 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:48,022 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:48,198 - root - INFO -  MACD calculation for CODI due to high change percent: 19.0476
+2025-10-10 07:16:48,246 - root - INFO - MACD not positive for CODI
+2025-10-10 07:16:48,375 - root - INFO -  MACD calculation for CRML due to high change percent: 10.537
+2025-10-10 07:16:48,436 - root - INFO - MACD not positive for CRML
+2025-10-10 07:16:48,499 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:48,628 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:48,724 - root - INFO - Real mode: Today's profit so far: 684.1399749999982
+2025-10-10 07:16:48,741 - root - INFO - Running real_trade for all top movers
+2025-10-10 07:16:48,742 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1500, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 07:16:48,742 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1500, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 07:16:48,780 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 07:16:48,787 - root - INFO - Time since last close for GWH is 10.079790116666667 minutes, net percent -8.04954
+2025-10-10 07:16:48,881 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:48,925 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
+2025-10-10 07:16:48,984 - root - INFO - Trend up basic conditions not met for GWH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-10 07:16:48,985 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-10 07:16:48,987 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:48,994 - root - INFO - Time since last close for WAI is 27.016567950000002 minutes, net percent 5.63991
+2025-10-10 07:16:49,023 - root - INFO - Last 5 minutes maximum volume candle is red for WAI
+2025-10-10 07:16:49,024 - root - INFO - swing_strategy_open_long for scale 5Min stock YHGJ
+2025-10-10 07:16:49,033 - root - INFO - Time since last close for YHGJ is 12.05054905 minutes, net percent -6.2069
+2025-10-10 07:16:49,060 - root - INFO - Last 5 minutes maximum volume candle is red for YHGJ
+2025-10-10 07:16:49,253 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:49,403 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:49,514 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:49,729 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:50,038 - root - INFO -  MACD calculation for GWH due to high change percent: 73.2558
+2025-10-10 07:16:50,162 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:50,369 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:50,463 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:50,718 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:51,046 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:51,265 - root - INFO -  MACD calculation for LAES due to high change percent: 11.0016
+2025-10-10 07:16:51,334 - root - INFO - MACD not positive for LAES
+2025-10-10 07:16:51,453 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:51,611 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:51,833 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:51,978 - root - INFO -  MACD calculation for MLEC due to high change percent: 15.8537
+2025-10-10 07:16:52,009 - root - INFO - MACD not positive for MLEC
+2025-10-10 07:16:52,213 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:52,493 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:52,800 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:53,203 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:53,492 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:53,810 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:54,074 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:54,310 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:54,774 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:55,183 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:55,646 - root - INFO -  MACD calculation for SCWO due to high change percent: 11.8865
+2025-10-10 07:16:55,903 - root - INFO -  MACD calculation for SGBX due to high change percent: 86.1111
+2025-10-10 07:16:55,950 - root - INFO - MACD not positive for SGBX
+2025-10-10 07:16:56,013 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:56,174 - root - INFO -  MACD calculation for SHPH due to high change percent: 13.0252
+2025-10-10 07:16:56,394 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:56,604 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:56,868 - root - INFO -  MACD calculation for TAOX due to high change percent: 12.5529
+2025-10-10 07:16:56,936 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:57,434 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:57,634 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:58,014 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:58,202 - root - INFO -  MACD calculation for VSME due to high change percent: 20.0
+2025-10-10 07:16:58,336 - root - INFO -  MACD calculation for WAI due to high change percent: 51.634
+2025-10-10 07:16:58,515 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:58,850 - root - INFO -  MACD calculation for YHGJ due to high change percent: 38.3333
+2025-10-10 07:16:58,963 - root - INFO -  MACD calculation for YSXT due to high change percent: 13.1068
+2025-10-10 07:16:59,072 - root - INFO -  update_current_price: start time 2025-10-10T07:11:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 07:16:59,149 - root - INFO - Real mode: Today's profit so far: 684.1399749999982
+2025-10-10 07:16:59,170 - root - INFO - Running real_trade for all top movers
+2025-10-10 07:16:59,171 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1500, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 07:16:59,171 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1500, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 07:16:59,217 - root - INFO - Updating change percent of stocks
+2025-10-10 07:16:59,217 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
+2025-10-10 07:16:59,227 - root - INFO - Time since last close for GWH is 10.25378755 minutes, net percent -8.04954
+2025-10-10 07:16:59,337 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
+2025-10-10 07:16:59,378 - root - INFO - Trend up basic conditions not met for GWH: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-10 07:16:59,379 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-10 07:16:59,382 - root - INFO - Time since last close for WAI is 27.18971141666667 minutes, net percent 5.63991
+2025-10-10 07:16:59,407 - root - INFO - Last 5 minutes maximum volume candle is red for WAI
+2025-10-10 07:16:59,407 - root - INFO - swing_strategy_open_long for scale 5Min stock YHGJ
+2025-10-10 07:16:59,411 - root - INFO - Time since last close for YHGJ is 12.223523083333333 minutes, net percent -6.2069
+2025-10-10 07:16:59,439 - root - INFO - Last 5 minutes maximum volume candle is red for YHGJ
+2025-10-10 07:16:59,846 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
