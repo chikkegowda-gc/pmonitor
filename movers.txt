@@ -1,11 +1,8 @@
 Top Movers:
-+--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-| ticker | in_position | break_out | change_percent |  volume | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
-+--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  SLE   |      0      |     0     |    43.2584     | 8217967 |      5.1      |        3.56        |  13570000.0  |   3.71   |   144436   |      0      | 2025-10-10 09:21:40 |
-|  YHGJ  |      0      |     0     |      40.0      | 1392946 |      8.4      |        6.0         |  8170000.0   | 5.86524  |   290731   |      0      | 2025-10-10 09:21:43 |
-|  FMFC  |      0      |     0     |    35.9338     |  25965  |      11.5     |        8.46        |     0.0      |  13.954  |   733889   |      0      | 2025-10-10 09:18:53 |
-+--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
++--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
+| ticker | in_position | break_out | change_percent | volume | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status | update_time |
++--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
++--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 | ticker | in_position | break_out | change_percent | volume | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status | update_time |
@@ -18,145 +15,6 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-10 10:43:34,453 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 10:43:34,467 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 10:43:34,467 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 10:43:34,512 - root - INFO - Last 5 minutes maximum volume candle is red for FMFC
-2025-10-10 10:43:34,596 - root - WARNING - Skipping APLD: not opened by algorithm
-2025-10-10 10:43:44,632 - root - INFO - Real mode: Today's profit so far: 1826.3199749999985
-2025-10-10 10:43:44,652 - root - INFO - Running real_trade for all top movers
-2025-10-10 10:43:44,653 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 10:43:44,653 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 10:43:44,691 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 10:43:44,703 - root - INFO - Time since last close for SLE is 27.928381 minutes, net percent 0.901639
-2025-10-10 10:43:44,750 - root - INFO - Last 5 minutes maximum volume candle is red for SLE
-2025-10-10 10:43:44,751 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 10:43:44,761 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 10:43:44,762 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 10:43:44,815 - root - INFO - Last 5 minutes maximum volume candle is red for FMFC
-2025-10-10 10:43:44,896 - root - WARNING - Skipping APLD: not opened by algorithm
-2025-10-10 10:43:54,936 - root - INFO - Real mode: Today's profit so far: 1859.3999750000003
-2025-10-10 10:43:54,955 - root - INFO - Running real_trade for all top movers
-2025-10-10 10:43:54,956 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 10:43:54,956 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 10:43:54,993 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 10:43:55,004 - root - INFO - Time since last close for SLE is 28.10006651666667 minutes, net percent 0.901639
-2025-10-10 10:43:55,053 - root - INFO - Last 5 minutes maximum volume candle is red for SLE
-2025-10-10 10:43:55,055 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 10:43:55,064 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 10:43:55,064 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 10:43:55,118 - root - INFO - Last 5 minutes maximum volume candle is red for FMFC
-2025-10-10 10:43:55,193 - root - WARNING - Skipping APLD: not opened by algorithm
-2025-10-10 10:44:05,227 - root - INFO - Real mode: Today's profit so far: 1822.3199749999985
-2025-10-10 10:44:05,248 - root - INFO - Running real_trade for all top movers
-2025-10-10 10:44:05,250 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 10:44:05,250 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 10:44:05,295 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 10:44:05,306 - root - INFO - Time since last close for SLE is 28.271780116666665 minutes, net percent 0.901639
-2025-10-10 10:44:05,375 - root - INFO - Last 5 minutes maximum volume candle is red for SLE
-2025-10-10 10:44:05,377 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 10:44:05,391 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 10:44:05,391 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 10:44:05,438 - root - INFO - Last 5 minutes maximum volume candle is red for FMFC
-2025-10-10 10:44:05,513 - root - WARNING - Skipping APLD: not opened by algorithm
-2025-10-10 10:44:15,554 - root - INFO - Real mode: Today's profit so far: 1794.3199749999985
-2025-10-10 10:44:15,576 - root - INFO - Running real_trade for all top movers
-2025-10-10 10:44:15,578 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 10:44:15,578 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 10:44:15,622 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 10:44:15,633 - root - INFO - Time since last close for SLE is 28.443893566666667 minutes, net percent 0.901639
-2025-10-10 10:44:15,685 - root - INFO - Last 5 minutes maximum volume candle is red for SLE
-2025-10-10 10:44:15,685 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 10:44:15,750 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 10:44:15,753 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 10:44:15,801 - root - INFO - Last 5 minutes maximum volume candle is red for FMFC
-2025-10-10 10:44:15,890 - root - WARNING - Skipping APLD: not opened by algorithm
-2025-10-10 10:44:25,926 - root - INFO - Real mode: Today's profit so far: 1774.519975000003
-2025-10-10 10:44:25,948 - root - INFO - Running real_trade for all top movers
-2025-10-10 10:44:25,948 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 10:44:25,949 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 10:44:25,994 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 10:44:26,006 - root - INFO - Time since last close for SLE is 28.616766533333337 minutes, net percent 0.901639
-2025-10-10 10:44:26,052 - root - INFO - Last 5 minutes maximum volume candle is red for SLE
-2025-10-10 10:44:26,053 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 10:44:26,065 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 10:44:26,066 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 10:44:26,113 - root - INFO - Last 5 minutes maximum volume candle is red for FMFC
-2025-10-10 10:44:26,191 - root - WARNING - Skipping APLD: not opened by algorithm
-2025-10-10 10:44:36,233 - root - INFO - Real mode: Today's profit so far: 1790.3199749999985
-2025-10-10 10:44:36,434 - root - INFO - Running real_trade for all top movers
-2025-10-10 10:44:36,435 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 10:44:36,435 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 10:44:36,485 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 10:44:36,496 - root - INFO - Time since last close for SLE is 28.79160208333333 minutes, net percent 0.901639
-2025-10-10 10:44:36,543 - root - INFO - Last 5 minutes maximum volume candle is red for SLE
-2025-10-10 10:44:36,544 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 10:44:36,558 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 10:44:36,558 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 10:44:36,610 - root - INFO - Last 5 minutes maximum volume candle is red for FMFC
-2025-10-10 10:44:36,703 - root - WARNING - Skipping APLD: not opened by algorithm
-2025-10-10 10:44:46,740 - root - INFO - Real mode: Today's profit so far: 1762.3199749999985
-2025-10-10 10:44:46,760 - root - INFO - Running real_trade for all top movers
-2025-10-10 10:44:46,761 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 10:44:46,761 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 10:44:46,802 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 10:44:46,813 - root - INFO - Time since last close for SLE is 28.963547766666668 minutes, net percent 0.901639
-2025-10-10 10:44:46,862 - root - INFO - Last 5 minutes maximum volume candle is red for SLE
-2025-10-10 10:44:46,864 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 10:44:46,875 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 10:44:46,875 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 10:44:46,930 - root - INFO - Last 5 minutes maximum volume candle is red for FMFC
-2025-10-10 10:44:47,014 - root - WARNING - Skipping APLD: not opened by algorithm
-2025-10-10 10:44:57,056 - root - INFO - Real mode: Today's profit so far: 1706.3199749999985
-2025-10-10 10:44:57,232 - root - INFO - Running real_trade for all top movers
-2025-10-10 10:44:57,232 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 10:44:57,233 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 10:44:57,281 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 10:44:57,292 - root - INFO - Time since last close for SLE is 29.138198183333333 minutes, net percent 0.901639
-2025-10-10 10:44:57,397 - root - INFO - Last 5 minutes maximum volume candle is red for SLE
-2025-10-10 10:44:57,399 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 10:44:57,410 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 10:44:57,410 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 10:44:57,462 - root - INFO - Last 5 minutes maximum volume candle is red for FMFC
-2025-10-10 10:44:57,545 - root - WARNING - Skipping APLD: not opened by algorithm
-2025-10-10 10:45:07,582 - root - INFO - Real mode: Today's profit so far: 1674.3199749999985
-2025-10-10 10:45:07,603 - root - INFO - Running real_trade for all top movers
-2025-10-10 10:45:07,604 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 10:45:07,604 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 10:45:07,648 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 10:45:07,660 - root - INFO - Time since last close for SLE is 29.311006583333334 minutes, net percent 0.901639
-2025-10-10 10:45:07,708 - root - INFO - Last 5 minutes maximum volume candle is red for SLE
-2025-10-10 10:45:07,710 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 10:45:07,722 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 10:45:07,722 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 10:45:07,772 - root - INFO - Last 5 minutes maximum volume candle is red for FMFC
-2025-10-10 10:45:07,853 - root - WARNING - Skipping APLD: not opened by algorithm
-2025-10-10 10:45:17,894 - root - INFO - Real mode: Today's profit so far: 1625.519975000003
-2025-10-10 10:45:17,920 - root - INFO - Running real_trade for all top movers
-2025-10-10 10:45:17,920 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 10:45:17,920 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 10:45:17,958 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 10:45:17,969 - root - INFO - Time since last close for SLE is 29.48282055 minutes, net percent 0.901639
-2025-10-10 10:45:18,018 - root - INFO - Last 5 minutes maximum volume candle is red for SLE
-2025-10-10 10:45:18,019 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 10:45:18,034 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 10:45:18,034 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 10:45:18,088 - root - INFO - Last 5 minutes maximum volume candle is red for FMFC
-2025-10-10 10:45:18,179 - root - WARNING - Skipping APLD: not opened by algorithm
-2025-10-10 10:45:28,215 - root - INFO - Real mode: Today's profit so far: 1684.1199750000014
-2025-10-10 10:45:28,236 - root - INFO - Running real_trade for all top movers
-2025-10-10 10:45:28,237 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
-2025-10-10 10:45:28,237 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
-2025-10-10 10:45:28,284 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-10 10:45:28,297 - root - INFO - Time since last close for SLE is 29.65495771666667 minutes, net percent 0.901639
-2025-10-10 10:45:28,355 - root - INFO - Last 5 minutes maximum volume candle is red for SLE
-2025-10-10 10:45:28,356 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-10 10:45:28,369 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-10 10:45:28,370 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-10 10:45:28,418 - root - INFO - Last 5 minutes maximum volume candle is red for FMFC
-2025-10-10 10:45:28,502 - root - WARNING - Skipping APLD: not opened by algorithm
-2025-10-10 10:45:38,536 - root - INFO - Real mode: Today's profit so far: 1667.1999750000032
-2025-10-10 10:45:38,556 - root - INFO - Running real_trade for all top movers
 2025-10-10 10:45:38,557 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
 2025-10-10 10:45:38,557 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
 2025-10-10 10:45:38,602 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
@@ -418,3 +276,142 @@ Manual Movers:
 2025-10-10 10:49:06,568 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
 2025-10-10 10:49:06,580 - root - WARNING - No records found for time_minutes_since_prev_close
 2025-10-10 10:49:06,580 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-10 12:37:27,881 - root - INFO - Resetting stock DB fields...
+2025-10-10 12:37:27,881 - root - INFO - Parameters - price_update_clear: True, buy_sell_clear: False, scan_clear: False, clear_for_day: False
+2025-10-10 12:37:28,405 - root - INFO - Stock DB fields reset completed.
+2025-10-10 12:37:28,448 - root - CRITICAL - Waiting for market to open...
+2025-10-10 12:37:28,449 - root - CRITICAL - Premarket scan completed.
+2025-10-10 12:37:28,449 - root - CRITICAL - Price update completed.
+2025-10-10 12:37:28,449 - root - CRITICAL - Market opened.
+2025-10-10 12:37:28,449 - root - INFO - STARTING BUY-SELL THREAD
+2025-10-10 12:37:28,476 - root - INFO - ('2025-10-10T20:58:00-04:00', '2025-10-10T20:58:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T20:58:00-04:00')
+2025-10-10 12:37:28,476 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T20:58:00-04:00
+2025-10-10 12:37:28,491 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:37:33,513 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:37:37,971 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:37:42,801 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:37:47,609 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:37:53,220 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:37:58,259 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:38:03,497 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:38:08,424 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:38:13,711 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:38:18,741 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:38:23,934 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:38:29,063 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:38:32,219 - root - INFO - Resetting stock DB fields...
+2025-10-10 12:38:32,219 - root - INFO - Parameters - price_update_clear: False, buy_sell_clear: True, scan_clear: False, clear_for_day: False
+2025-10-10 12:38:32,253 - root - INFO - Stock DB fields reset completed.
+2025-10-10 12:38:32,288 - root - CRITICAL - Waiting for market to open...
+2025-10-10 12:38:32,289 - root - CRITICAL - Price update completed.
+2025-10-10 12:38:32,289 - root - CRITICAL - Market opened.
+2025-10-10 12:38:32,289 - root - INFO - STARTING BUY-SELL THREAD
+2025-10-10 12:38:32,313 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:38:32,313 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:38:32,313 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:38:32,330 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:38:32,474 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:38:36,942 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:38:41,426 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:38:42,508 - root - INFO - Real mode: Today's profit so far: 1515.5699749999985
+2025-10-10 12:38:42,529 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:38:42,529 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:38:42,529 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:38:42,881 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:38:46,051 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:38:50,727 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:38:52,939 - root - INFO - Real mode: Today's profit so far: 1516.969975
+2025-10-10 12:38:52,976 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:38:52,977 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:38:52,977 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:38:53,116 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:38:55,258 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:38:59,991 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:39:03,291 - root - INFO - Real mode: Today's profit so far: 1493.519975000003
+2025-10-10 12:39:03,310 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:39:03,311 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:39:03,311 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:39:03,448 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:39:04,690 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:39:09,369 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:39:13,477 - root - INFO - Real mode: Today's profit so far: 1416.5699749999985
+2025-10-10 12:39:13,497 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:39:13,498 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:39:13,498 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:39:13,608 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:39:14,044 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:39:18,768 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:39:23,336 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:39:23,639 - root - INFO - Real mode: Today's profit so far: 1443.1199750000014
+2025-10-10 12:39:23,656 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:39:23,656 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:39:23,656 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:39:23,762 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:39:28,048 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:39:32,903 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:39:33,789 - root - INFO - Real mode: Today's profit so far: 1491.469975
+2025-10-10 12:39:33,811 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:39:33,811 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:39:33,811 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:39:33,918 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:39:37,414 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:39:41,655 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:39:43,950 - root - INFO - Real mode: Today's profit so far: 1499.719975
+2025-10-10 12:39:43,968 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:39:43,968 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:39:43,968 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:39:44,081 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:39:46,374 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:39:50,849 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:39:54,116 - root - INFO - Real mode: Today's profit so far: 1501.8299750000006
+2025-10-10 12:39:54,138 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:39:54,139 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:39:54,139 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:39:54,259 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:39:55,259 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:39:59,962 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:40:04,287 - root - INFO - Real mode: Today's profit so far: 1531.8199749999985
+2025-10-10 12:40:04,310 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:40:04,310 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:40:04,311 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:40:04,423 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:40:04,602 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:40:08,796 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:40:13,709 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:40:14,459 - root - INFO - Real mode: Today's profit so far: 1568.219975
+2025-10-10 12:40:14,479 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:40:14,479 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:40:14,479 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:40:14,589 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:40:17,997 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:40:22,021 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:40:24,623 - root - INFO - Real mode: Today's profit so far: 1570.6699750000043
+2025-10-10 12:40:24,642 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:40:24,643 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:40:24,643 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:40:24,781 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:40:26,803 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:40:31,676 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:40:34,813 - root - INFO - Real mode: Today's profit so far: 1654.6199750000014
+2025-10-10 12:40:34,834 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:40:34,834 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:40:34,835 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:40:34,953 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:40:36,353 - root - INFO -  update_current_price: start time 2025-10-10T04:00:00-04:00 end_time 2025-10-10T20:58:00-04:00
+2025-10-10 12:40:40,474 - root - INFO - Updating change percent of stocks
+2025-10-10 12:40:42,189 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-10 12:40:44,986 - root - INFO - Real mode: Today's profit so far: 1649.719975
+2025-10-10 12:40:45,008 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:40:45,010 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:40:45,010 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:40:45,143 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:40:55,183 - root - INFO - Real mode: Today's profit so far: 1651.6699750000043
+2025-10-10 12:40:55,204 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:40:55,205 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:40:55,205 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:40:55,347 - root - WARNING - Skipping COIN: not opened by algorithm
+2025-10-10 12:41:05,384 - root - INFO - Real mode: Today's profit so far: 1588.469975
+2025-10-10 12:41:05,405 - root - INFO - Running real_trade for all top movers
+2025-10-10 12:41:05,406 - root - INFO - Loaded cloud config: {'start_algo': 1, 'ticker_buy_amount': 1600, 'take_profit': 2500, 'scalp_percent_up': 5}
+2025-10-10 12:41:05,406 - root - INFO - Cloud config applied: start_algo=1, ticker_buy_amount=1600, target_profit=2500, scalp_percent_up=[5, 5, 5]
+2025-10-10 12:41:05,596 - root - WARNING - Skipping COIN: not opened by algorithm
