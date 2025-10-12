@@ -2,9 +2,11 @@ Top Movers:
 +--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  SGBX  |      1      |     0     |    90.1235     | 2267403 |      6.16     |        3.24        |  5860000.0   |   3.42   |   788930   |      0      | 2025-10-10 05:26:00 |
-|  GWH   |      0      |     0     |     27.907     |  659700 |      2.2      |        1.72        |  4960000.0   |  1.826   |  2539433   |      0      | 2025-10-10 05:26:00 |
-|  NVX   |      0      |     0     |    15.0115     |  58406  |      2.49     |       2.165        | 122150000.0  |  1.914   |  4830926   |      0      | 2025-10-10 05:26:00 |
+|  GWH   |      1      |     0     |    84.3023     | 5255837 |      2.97     |        1.72        |  4960000.0   |  1.826   |  2539433   |      0      | 2025-10-10 06:36:00 |
+|  YHGJ  |      0      |     0     |      33.5      |  222430 |      8.01     |        6.0         |  8170000.0   | 5.86524  |   290731   |      0      | 2025-10-10 06:31:00 |
+|  WAI   |      1      |     0     |    21.2418     |  179359 |      3.71     |        3.06        |     0.0      |  3.038   |   343939   |      0      | 2025-10-10 06:31:00 |
+|  VSME  |      0      |     0     |      20.0      |  10517  |      1.56     |        1.3         |  14180000.0  |  2.024   |  2500626   |      0      | 2025-10-10 06:31:00 |
+|   TE   |      0      |     0     |    12.2715     |  117121 |      4.3      |        3.83        |     0.0      |   2.99   |  6880465   |      0      | 2025-10-10 06:31:00 |
 +--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -18,403 +20,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-12 09:30:17,443 - root - INFO - swing_strategy_open_long for scale 5Min stock GXAI
-2025-10-12 09:30:17,451 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:30:17,451 - root - INFO - Time since last close for GXAI is None minutes, net percent 0
-2025-10-12 09:30:17,519 - root - INFO - Last 5 minutes maximum volume candle is red for GXAI
-2025-10-12 09:30:17,551 - root - INFO - swing_strategy_open_long for scale 5Min stock ARAY
-2025-10-12 09:30:17,561 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:30:17,561 - root - INFO - Time since last close for ARAY is None minutes, net percent 0
-2025-10-12 09:30:17,648 - root - INFO - Last 5 minutes maximum volume candle is red for ARAY
-2025-10-12 09:30:17,665 - root - INFO - swing_strategy_close_long for scale 5Min stock NVX
-2025-10-12 09:30:17,790 - root - INFO - Profit percent for NVX is -1.64609
-2025-10-12 09:30:17,790 - root - INFO - Latest 1min close price for NVX: 2.39
-2025-10-12 09:30:17,892 - root - INFO - No close long conditions met for NVX
-2025-10-12 09:30:17,912 - root - INFO - swing_strategy_close_long for scale 5Min stock WAI
-2025-10-12 09:30:17,965 - root - INFO - Profit percent for WAI is -9.76864
-2025-10-12 09:30:17,966 - root - INFO - Latest 1min close price for WAI: 3.51
-2025-10-12 09:30:18,043 - root - INFO - No close long conditions met for WAI
-2025-10-12 09:30:18,084 - root - INFO - Test mode: Total profit so far: 68.01424980163574
-2025-10-12 09:30:18,150 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-12 09:30:18,160 - root - INFO - Time since last close for SGBX is 21.0 minutes, net percent 16.2113
-2025-10-12 09:30:18,230 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-12 09:30:18,259 - root - INFO - 1min candle is not positive for SGBX: open 5.84 close 5.79
-2025-10-12 09:30:18,284 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-12 09:30:18,295 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:30:18,295 - root - INFO - Time since last close for GWH is None minutes, net percent 0
-2025-10-12 09:30:18,385 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
-2025-10-12 09:30:18,413 - root - INFO - swing_strategy_open_long for scale 5Min stock GXAI
-2025-10-12 09:30:18,424 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:30:18,425 - root - INFO - Time since last close for GXAI is None minutes, net percent 0
-2025-10-12 09:30:18,483 - root - INFO - Last 5 minutes maximum volume candle is green for GXAI
-2025-10-12 09:30:18,550 - root - INFO - Trend up basic conditions not met for GXAI: price_above_emas=False, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-12 09:30:18,581 - root - INFO - swing_strategy_open_long for scale 5Min stock ARAY
-2025-10-12 09:30:18,591 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:30:18,591 - root - INFO - Time since last close for ARAY is None minutes, net percent 0
-2025-10-12 09:30:18,665 - root - INFO - Last 5 minutes maximum volume candle is red for ARAY
-2025-10-12 09:30:18,683 - root - INFO - swing_strategy_close_long for scale 5Min stock NVX
-2025-10-12 09:30:18,805 - root - INFO - Profit percent for NVX is -1.64609
-2025-10-12 09:30:18,805 - root - INFO - Latest 1min close price for NVX: 2.39
-2025-10-12 09:30:18,907 - root - INFO - No close long conditions met for NVX
-2025-10-12 09:30:18,925 - root - INFO - swing_strategy_close_long for scale 5Min stock WAI
-2025-10-12 09:30:18,973 - root - INFO - Profit percent for WAI is -9.76864
-2025-10-12 09:30:18,973 - root - INFO - Latest 1min close price for WAI: 3.53
-2025-10-12 09:30:19,055 - root - INFO - No close long conditions met for WAI
-2025-10-12 09:30:19,093 - root - INFO - Test mode: Total profit so far: 73.15563774108887
-2025-10-12 09:30:19,167 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-12 09:30:19,178 - root - INFO - Time since last close for SGBX is 22.0 minutes, net percent 16.2113
-2025-10-12 09:30:19,247 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-12 09:30:19,278 - root - INFO - 1min candle is not positive for SGBX: open 5.79 close 5.84
-2025-10-12 09:30:19,298 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-12 09:30:19,313 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:30:19,314 - root - INFO - Time since last close for GWH is None minutes, net percent 0
-2025-10-12 09:30:19,391 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
-2025-10-12 09:30:19,421 - root - INFO - swing_strategy_open_long for scale 5Min stock GXAI
-2025-10-12 09:30:19,432 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:30:19,433 - root - INFO - Time since last close for GXAI is None minutes, net percent 0
-2025-10-12 09:30:19,497 - root - INFO - Last 5 minutes maximum volume candle is red for GXAI
-2025-10-12 09:30:19,528 - root - INFO - swing_strategy_open_long for scale 5Min stock ARAY
-2025-10-12 09:30:19,538 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:30:19,538 - root - INFO - Time since last close for ARAY is None minutes, net percent 0
-2025-10-12 09:30:19,617 - root - INFO - Last 5 minutes maximum volume candle is red for ARAY
-2025-10-12 09:30:19,635 - root - INFO - swing_strategy_close_long for scale 5Min stock NVX
-2025-10-12 09:30:19,753 - root - INFO - Profit percent for NVX is -1.64609
-2025-10-12 09:30:19,753 - root - INFO - Latest 1min close price for NVX: 2.43
-2025-10-12 09:30:19,850 - root - INFO - No close long conditions met for NVX
-2025-10-12 09:30:19,870 - root - INFO - swing_strategy_close_long for scale 5Min stock WAI
-2025-10-12 09:30:19,919 - root - INFO - Profit percent for WAI is -9.2545
-2025-10-12 09:30:19,919 - root - INFO - Latest 1min close price for WAI: 3.53
-2025-10-12 09:30:20,000 - root - INFO - No close long conditions met for WAI
-2025-10-12 09:30:20,039 - root - INFO - Test mode: Total profit so far: 89.61654281616211
-2025-10-12 09:30:20,112 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-12 09:30:20,122 - root - INFO - Time since last close for SGBX is 23.0 minutes, net percent 16.2113
-2025-10-12 09:30:20,195 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-12 09:30:20,222 - root - INFO - 1min candle is not positive for SGBX: open 5.82 close 5.77
-2025-10-12 09:30:20,246 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-12 09:30:20,260 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:30:20,261 - root - INFO - Time since last close for GWH is None minutes, net percent 0
-2025-10-12 09:30:20,341 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
-2025-10-12 09:30:20,373 - root - INFO - swing_strategy_open_long for scale 5Min stock GXAI
-2025-10-12 09:30:20,384 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:30:20,384 - root - INFO - Time since last close for GXAI is None minutes, net percent 0
-2025-10-12 09:30:20,453 - root - INFO - Last 5 minutes maximum volume candle is red for GXAI
-2025-10-12 09:30:20,481 - root - INFO - swing_strategy_open_long for scale 5Min stock ARAY
-2025-10-12 09:30:20,493 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:30:20,494 - root - INFO - Time since last close for ARAY is None minutes, net percent 0
-2025-10-12 09:30:20,569 - root - INFO - Last 5 minutes maximum volume candle is red for ARAY
-2025-10-12 09:30:20,586 - root - INFO - swing_strategy_close_long for scale 5Min stock NVX
-2025-10-12 09:30:20,706 - root - INFO - Profit percent for NVX is 0.0
-2025-10-12 09:30:20,706 - root - INFO - Latest 1min close price for NVX: 2.43
-2025-10-12 09:30:20,806 - root - INFO - No close long conditions met for NVX
-2025-10-12 09:30:20,825 - root - INFO - swing_strategy_close_long for scale 5Min stock WAI
-2025-10-12 09:30:20,870 - root - INFO - Profit percent for WAI is -9.2545
-2025-10-12 09:30:20,870 - root - INFO - Latest 1min close price for WAI: 3.64
-2025-10-12 09:30:20,957 - root - INFO - No close long conditions met for WAI
-2025-10-12 09:30:20,996 - root - INFO - Test mode: Total profit so far: 117.89418411254883
-2025-10-12 09:30:21,072 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-12 09:30:21,082 - root - INFO - Time since last close for SGBX is 24.0 minutes, net percent 16.2113
-2025-10-12 09:30:21,147 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-12 09:30:21,257 - root - INFO - Trend up basic conditions not met for SGBX: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-12 09:30:21,284 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-12 09:30:21,295 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:30:21,295 - root - INFO - Time since last close for GWH is None minutes, net percent 0
-2025-10-12 09:30:21,363 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
-2025-10-12 09:30:21,395 - root - INFO - swing_strategy_open_long for scale 5Min stock GXAI
-2025-10-12 09:30:21,405 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:30:21,405 - root - INFO - Time since last close for GXAI is None minutes, net percent 0
-2025-10-12 09:30:21,465 - root - INFO - Last 5 minutes maximum volume candle is red for GXAI
-2025-10-12 09:30:21,497 - root - INFO - swing_strategy_open_long for scale 5Min stock ARAY
-2025-10-12 09:30:21,506 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:30:21,507 - root - INFO - Time since last close for ARAY is None minutes, net percent 0
-2025-10-12 09:30:22,491 - root - INFO - Last 5 minutes maximum volume candle is red for ARAY
-2025-10-12 09:30:22,507 - root - INFO - swing_strategy_close_long for scale 5Min stock NVX
-2025-10-12 09:30:22,627 - root - INFO - Profit percent for NVX is 0.0
-2025-10-12 09:30:22,627 - root - INFO - Latest 1min close price for NVX: 2.43
-2025-10-12 09:30:22,725 - root - INFO - Closing TrendUp long: price below EMAs or MACD below signal{price_below_emas=False, macd_below_signal=True}
-2025-10-12 09:30:22,725 - root - INFO - NVX:====== 2.43=========>SELL========>TrendUpExit
-2025-10-12 09:30:22,741 - root - INFO - *********CLOSING BY SOLD: NVX
-2025-10-12 09:30:22,754 - root - INFO - Profit percent for NVX is 0.0
-2025-10-12 09:30:22,794 - root - INFO - swing_strategy_close_long for scale 5Min stock WAI
-2025-10-12 09:30:22,835 - root - INFO - Profit percent for WAI is -6.42674
-2025-10-12 09:30:22,835 - root - INFO - Latest 1min close price for WAI: 3.57
-2025-10-12 09:30:22,914 - root - INFO - Closing TrendUp long: price below EMAs or MACD below signal{price_below_emas=True, macd_below_signal=True}
-2025-10-12 09:30:22,914 - root - INFO - WAI:====== 3.57=========>SELL========>TrendUpExit
-2025-10-12 09:30:22,925 - root - INFO - *********CLOSING BY SOLD: WAI
-2025-10-12 09:30:22,940 - root - INFO - Profit percent for WAI is -6.42674
-2025-10-12 09:30:22,997 - root - INFO - Test mode: Total profit so far: 99.89932632446289
-2025-10-12 09:30:22,997 - root - INFO - ('2025-10-10T05:21:00-04:00', '2025-10-10T05:21:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T04:00:00-04:00')
-2025-10-12 09:30:22,997 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:23,022 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:23,592 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:24,089 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:24,312 - root - INFO -  MACD calculation for APLD due to high change percent: 25.3329
-2025-10-12 09:30:24,378 - root - INFO - MACD not positive for APLD
-2025-10-12 09:30:24,638 - root - INFO -  MACD calculation for ARAY due to high change percent: 13.5135
-2025-10-12 09:30:24,694 - root - INFO - MACD not positive for ARAY
-2025-10-12 09:30:24,972 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:25,311 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:25,802 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:26,177 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:26,506 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:27,144 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:27,294 - root - INFO -  MACD calculation for CRML due to high change percent: 12.1686
-2025-10-12 09:30:27,359 - root - INFO - MACD not positive for CRML
-2025-10-12 09:30:27,359 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:27,455 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:27,950 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:28,270 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:28,569 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:28,736 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:28,845 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:29,097 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:29,440 - root - INFO -  MACD calculation for GWH due to high change percent: 29.0698
-2025-10-12 09:30:29,568 - root - INFO -  MACD calculation for GXAI due to high change percent: 16.4948
-2025-10-12 09:30:29,604 - root - INFO - MACD not positive for GXAI
-2025-10-12 09:30:29,775 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:30,290 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:30,388 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:30,806 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:31,032 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:31,539 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:32,014 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:32,118 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:32,296 - root - INFO -  MACD calculation for MSPR due to high change percent: 12.4031
-2025-10-12 09:30:32,552 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:32,851 - root - INFO -  MACD calculation for NMG due to high change percent: 11.1111
-2025-10-12 09:30:32,923 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:33,257 - root - INFO -  MACD calculation for NVX due to high change percent: 10.3926
-2025-10-12 09:30:33,322 - root - INFO - MACD not positive for NVX
-2025-10-12 09:30:33,384 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:33,663 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:34,014 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:34,296 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:34,833 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:35,258 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:35,888 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:36,258 - root - INFO -  MACD calculation for SGBX due to high change percent: 80.2469
-2025-10-12 09:30:36,599 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:37,230 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:37,723 - root - INFO -  MACD calculation for SWKH due to high change percent: 40.2778
-2025-10-12 09:30:37,748 - root - INFO - MACD not positive for SWKH
-2025-10-12 09:30:37,823 - root - INFO -  MACD calculation for TALK due to high change percent: 10.6529
-2025-10-12 09:30:37,874 - root - INFO - MACD not positive for TALK
-2025-10-12 09:30:37,874 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:38,037 - root - INFO -  MACD calculation for TE due to high change percent: 11.0966
-2025-10-12 09:30:38,085 - root - INFO - MACD not positive for TE
-2025-10-12 09:30:38,348 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:38,854 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:39,382 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:39,489 - root - INFO -  MACD calculation for WAI due to high change percent: 14.7059
-2025-10-12 09:30:39,525 - root - INFO - MACD not positive for WAI
-2025-10-12 09:30:39,741 - root - INFO -  Get bars start time 2025-10-10T05:16:00-04:00 end_time 2025-10-10T05:21:00-04:00
-2025-10-12 09:30:39,914 - root - INFO -  MACD calculation for WWR due to high change percent: 11.1111
-2025-10-12 09:30:39,979 - root - INFO - MACD not positive for WWR
-2025-10-12 09:30:40,287 - root - INFO -  MACD calculation for YHGJ due to high change percent: 28.3333
-2025-10-12 09:30:40,323 - root - INFO - MACD not positive for YHGJ
-2025-10-12 09:30:40,575 - root - INFO - Updating change percent of stocks
-2025-10-12 09:30:41,251 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-12 09:30:41,255 - root - INFO - Time since last close for SGBX is 25.0 minutes, net percent 16.2113
-2025-10-12 09:30:41,338 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-12 09:30:41,385 - root - INFO - Trend up basic conditions not met for SGBX: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-12 09:30:41,399 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-12 09:30:41,405 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:30:41,406 - root - INFO - Time since last close for GWH is None minutes, net percent 0
-2025-10-12 09:30:41,485 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
-2025-10-12 09:30:41,526 - root - INFO - Test mode: Total profit so far: 99.89932632446289
-2025-10-12 09:30:41,588 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-12 09:30:41,597 - root - INFO - Time since last close for SGBX is 26.0 minutes, net percent 16.2113
-2025-10-12 09:30:41,666 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-12 09:30:41,731 - root - INFO - Trend up basic conditions not met for SGBX: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-12 09:30:41,762 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-12 09:30:41,772 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:30:41,772 - root - INFO - Time since last close for GWH is None minutes, net percent 0
-2025-10-12 09:30:41,856 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
-2025-10-12 09:30:41,899 - root - INFO - Test mode: Total profit so far: 99.89932632446289
-2025-10-12 09:30:41,971 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-12 09:30:41,982 - root - INFO - Time since last close for SGBX is 27.0 minutes, net percent 16.2113
-2025-10-12 09:30:42,050 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-12 09:30:42,079 - root - INFO - 1min candle is not positive for SGBX: open 6.14 close 6
-2025-10-12 09:30:42,103 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-12 09:30:42,117 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:30:42,118 - root - INFO - Time since last close for GWH is None minutes, net percent 0
-2025-10-12 09:30:42,195 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
-2025-10-12 09:30:42,235 - root - INFO - Test mode: Total profit so far: 99.89932632446289
-2025-10-12 09:30:42,302 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-12 09:30:42,310 - root - INFO - Time since last close for SGBX is 28.0 minutes, net percent 16.2113
-2025-10-12 09:30:42,379 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-12 09:30:42,443 - root - INFO - Trend up basic conditions not met for SGBX: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-12 09:30:42,474 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-12 09:30:42,485 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:30:42,486 - root - INFO - Time since last close for GWH is None minutes, net percent 0
-2025-10-12 09:30:42,581 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
-2025-10-12 09:30:42,623 - root - INFO - Test mode: Total profit so far: 99.89932632446289
-2025-10-12 09:30:42,696 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
-2025-10-12 09:30:42,708 - root - INFO - Time since last close for SGBX is 29.0 minutes, net percent 16.2113
-2025-10-12 09:30:42,783 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
-2025-10-12 09:30:42,853 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-12 09:30:42,853 - root - INFO - SGBX:======= 6.09===>BUY========>TrendUp2208888
-2025-10-12 09:30:42,895 - root - INFO - ****************** OPEN LONG for SGBX
-2025-10-12 09:30:42,930 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-12 09:30:42,941 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:30:42,942 - root - INFO - Time since last close for GWH is None minutes, net percent 0
-2025-10-12 09:30:43,025 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
-2025-10-12 09:30:43,042 - root - INFO - swing_strategy_close_long for scale 5Min stock SGBX
-2025-10-12 09:30:43,121 - root - INFO - Profit percent for SGBX is 0
-2025-10-12 09:30:43,121 - root - INFO - Latest 1min close price for SGBX: 6.09
-2025-10-12 09:30:43,144 - root - INFO - High price DETECTED for SGBX is 0.0 and setting no_scalp to True
-2025-10-12 09:30:43,158 - root - INFO - Skipping SCALP for SGBX as it's in no_scalp list
-2025-10-12 09:30:43,183 - root - INFO - Test mode: Total profit so far: 99.89932632446289
-2025-10-12 09:30:43,183 - root - INFO - ('2025-10-10T05:26:00-04:00', '2025-10-10T05:26:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T04:00:00-04:00')
-2025-10-12 09:30:43,183 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:43,206 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:43,717 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:44,136 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:44,374 - root - INFO -  MACD calculation for APLD due to high change percent: 25.128
-2025-10-12 09:30:44,438 - root - INFO - MACD not positive for APLD
-2025-10-12 09:30:44,641 - root - INFO -  MACD calculation for ARAY due to high change percent: 13.5135
-2025-10-12 09:30:44,700 - root - INFO - MACD not positive for ARAY
-2025-10-12 09:30:45,153 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:45,406 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:45,873 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:46,499 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:46,847 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:47,386 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:47,775 - root - INFO -  MACD calculation for CRML due to high change percent: 13.0523
-2025-10-12 09:30:47,844 - root - INFO - MACD not positive for CRML
-2025-10-12 09:30:47,845 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:47,994 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:48,484 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:48,818 - root - INFO -  MACD calculation for ELBM due to high change percent: 10.0529
-2025-10-12 09:30:48,896 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:49,153 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:49,369 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:49,404 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:49,616 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:50,046 - root - INFO -  MACD calculation for GWH due to high change percent: 25.0
-2025-10-12 09:30:50,263 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:50,621 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:50,720 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:51,082 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:51,471 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:52,178 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:52,710 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:52,897 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:53,144 - root - INFO -  MACD calculation for MSPR due to high change percent: 13.9535
-2025-10-12 09:30:53,516 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:53,845 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:54,126 - root - INFO -  MACD calculation for NVX due to high change percent: 12.2402
-2025-10-12 09:30:54,253 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:54,555 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:55,105 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:55,442 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:55,980 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:56,494 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:57,134 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:57,480 - root - INFO -  MACD calculation for SGBX due to high change percent: 85.8025
-2025-10-12 09:30:57,959 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:58,578 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:58,852 - root - INFO -  MACD calculation for SWKH due to high change percent: 37.5
-2025-10-12 09:30:58,886 - root - INFO - MACD not positive for SWKH
-2025-10-12 09:30:59,002 - root - INFO -  MACD calculation for TALK due to high change percent: 10.6529
-2025-10-12 09:30:59,055 - root - INFO - MACD not positive for TALK
-2025-10-12 09:30:59,055 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:30:59,214 - root - INFO -  MACD calculation for TE due to high change percent: 10.4439
-2025-10-12 09:30:59,257 - root - INFO - MACD not positive for TE
-2025-10-12 09:30:59,688 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:31:00,065 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:31:00,462 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:31:00,569 - root - INFO -  MACD calculation for VSME due to high change percent: 16.1538
-2025-10-12 09:31:00,763 - root - INFO -  MACD calculation for WAI due to high change percent: 15.3595
-2025-10-12 09:31:00,797 - root - INFO - MACD not positive for WAI
-2025-10-12 09:31:00,941 - root - INFO -  Get bars start time 2025-10-10T05:21:00-04:00 end_time 2025-10-10T05:26:00-04:00
-2025-10-12 09:31:01,115 - root - INFO -  MACD calculation for WWR due to high change percent: 10.101
-2025-10-12 09:31:01,174 - root - INFO - MACD not positive for WWR
-2025-10-12 09:31:01,447 - root - INFO -  MACD calculation for YHGJ due to high change percent: 31.5
-2025-10-12 09:31:01,487 - root - INFO - MACD not positive for YHGJ
-2025-10-12 09:31:01,784 - root - INFO - Updating change percent of stocks
-2025-10-12 09:31:02,457 - root - WARNING - stock is already in the open positions
-2025-10-12 09:31:02,463 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-12 09:31:02,466 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:31:02,466 - root - INFO - Time since last close for GWH is None minutes, net percent 0
-2025-10-12 09:31:02,566 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
-2025-10-12 09:31:02,579 - root - INFO - swing_strategy_open_long for scale 5Min stock NVX
-2025-10-12 09:31:02,585 - root - INFO - Time since last close for NVX is 7.0 minutes, net percent 0.0
-2025-10-12 09:31:02,585 - root - INFO - ***** stock: NVX Scale: 5Min Time since last close: 7 minutes
-2025-10-12 09:31:02,591 - root - INFO - swing_strategy_close_long for scale 5Min stock SGBX
-2025-10-12 09:31:02,655 - root - INFO - Profit percent for SGBX is 0.0
-2025-10-12 09:31:02,655 - root - INFO - Latest 1min close price for SGBX: 6.16
-2025-10-12 09:31:02,675 - root - INFO - High price DETECTED for SGBX is 6.09 and setting no_scalp to True
-2025-10-12 09:31:02,688 - root - INFO - Skipping SCALP for SGBX as it's in no_scalp list
-2025-10-12 09:31:02,707 - root - INFO - Test mode: Total profit so far: 111.39357948303223
-2025-10-12 09:31:02,751 - root - WARNING - stock is already in the open positions
-2025-10-12 09:31:02,766 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-12 09:31:02,774 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:31:02,774 - root - INFO - Time since last close for GWH is None minutes, net percent 0
-2025-10-12 09:31:02,854 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
-2025-10-12 09:31:02,885 - root - INFO - swing_strategy_open_long for scale 5Min stock NVX
-2025-10-12 09:31:02,896 - root - INFO - Time since last close for NVX is 8.0 minutes, net percent 0.0
-2025-10-12 09:31:02,896 - root - INFO - ***** stock: NVX Scale: 5Min Time since last close: 8 minutes
-2025-10-12 09:31:02,908 - root - INFO - swing_strategy_close_long for scale 5Min stock SGBX
-2025-10-12 09:31:02,985 - root - INFO - Profit percent for SGBX is 1.14943
-2025-10-12 09:31:02,985 - root - INFO - Latest 1min close price for SGBX: 6.15
-2025-10-12 09:31:03,070 - root - INFO - MACD is still rising for stock SGBX
-2025-10-12 09:31:03,070 - root - INFO - Not enough profit percent to scalp for SGBX: 1.14943
-2025-10-12 09:31:03,086 - root - INFO - Skipping SCALP for SGBX as it's in no_scalp list
-2025-10-12 09:31:03,111 - root - INFO - Test mode: Total profit so far: 109.75154304504395
-2025-10-12 09:31:03,170 - root - WARNING - stock is already in the open positions
-2025-10-12 09:31:03,193 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-12 09:31:03,203 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:31:03,203 - root - INFO - Time since last close for GWH is None minutes, net percent 0
-2025-10-12 09:31:03,287 - root - INFO - Last 5 minutes maximum volume candle is red for GWH
-2025-10-12 09:31:03,319 - root - INFO - swing_strategy_open_long for scale 5Min stock NVX
-2025-10-12 09:31:03,334 - root - INFO - Time since last close for NVX is 9.0 minutes, net percent 0.0
-2025-10-12 09:31:03,334 - root - INFO - ***** stock: NVX Scale: 5Min Time since last close: 9 minutes
-2025-10-12 09:31:03,348 - root - INFO - swing_strategy_close_long for scale 5Min stock SGBX
-2025-10-12 09:31:03,426 - root - INFO - Profit percent for SGBX is 0.985222
-2025-10-12 09:31:03,426 - root - INFO - Latest 1min close price for SGBX: 6.32
-2025-10-12 09:31:03,452 - root - INFO - High price DETECTED for SGBX is 6.16 and setting no_scalp to True
-2025-10-12 09:31:03,466 - root - INFO - Skipping SCALP for SGBX as it's in no_scalp list
-2025-10-12 09:31:03,488 - root - INFO - Test mode: Total profit so far: 137.66615676879883
-2025-10-12 09:31:03,540 - root - WARNING - stock is already in the open positions
-2025-10-12 09:31:03,561 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-12 09:31:03,570 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:31:03,571 - root - INFO - Time since last close for GWH is None minutes, net percent 0
-2025-10-12 09:31:03,648 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
-2025-10-12 09:31:03,721 - root - INFO - Trend up basic conditions not met for GWH: price_above_emas=False, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-12 09:31:03,751 - root - INFO - swing_strategy_open_long for scale 5Min stock NVX
-2025-10-12 09:31:03,763 - root - INFO - Time since last close for NVX is 10.0 minutes, net percent 0.0
-2025-10-12 09:31:03,879 - root - INFO - Last 5 minutes maximum volume candle is red for NVX
-2025-10-12 09:31:03,897 - root - INFO - swing_strategy_close_long for scale 5Min stock SGBX
-2025-10-12 09:31:03,970 - root - INFO - Profit percent for SGBX is 3.77668
-2025-10-12 09:31:03,970 - root - INFO - Latest 1min close price for SGBX: 6.51
-2025-10-12 09:31:03,998 - root - INFO - High price DETECTED for SGBX is 6.32 and setting no_scalp to True
-2025-10-12 09:31:04,011 - root - INFO - Skipping SCALP for SGBX as it's in no_scalp list
-2025-10-12 09:31:04,038 - root - INFO - Test mode: Total profit so far: 168.86484146118164
-2025-10-12 09:31:04,099 - root - WARNING - stock is already in the open positions
-2025-10-12 09:31:04,122 - root - INFO - swing_strategy_open_long for scale 5Min stock GWH
-2025-10-12 09:31:04,133 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:31:04,134 - root - INFO - Time since last close for GWH is None minutes, net percent 0
-2025-10-12 09:31:04,222 - root - INFO - Last 5 minutes maximum volume candle is green for GWH
-2025-10-12 09:31:04,252 - root - INFO - 1min candle is not positive for GWH: open 2.19 close 2.18
-2025-10-12 09:31:04,280 - root - INFO - swing_strategy_open_long for scale 5Min stock NVX
-2025-10-12 09:31:04,296 - root - INFO - Time since last close for NVX is 11.0 minutes, net percent 0.0
-2025-10-12 09:31:04,407 - root - INFO - Last 5 minutes maximum volume candle is red for NVX
-2025-10-12 09:31:04,424 - root - INFO - swing_strategy_close_long for scale 5Min stock SGBX
-2025-10-12 09:31:04,497 - root - INFO - Profit percent for SGBX is 6.89655
-2025-10-12 09:31:04,497 - root - INFO - Latest 1min close price for SGBX: 6.38
-2025-10-12 09:31:04,588 - root - INFO - MACD is still rising for stock SGBX
-2025-10-12 09:31:04,588 - root - INFO - Not enough profit percent to scalp for SGBX: 6.89655
-2025-10-12 09:31:04,605 - root - INFO - Skipping SCALP for SGBX as it's in no_scalp list
-2025-10-12 09:31:04,629 - root - INFO - Test mode: Total profit so far: 147.51837539672852
-2025-10-12 09:31:04,629 - root - INFO - ('2025-10-10T05:31:00-04:00', '2025-10-10T05:31:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T04:00:00-04:00')
-2025-10-12 09:31:04,629 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T05:31:00-04:00
-2025-10-12 09:31:04,654 - root - INFO -  Get bars start time 2025-10-10T05:26:00-04:00 end_time 2025-10-10T05:31:00-04:00
-2025-10-12 09:31:05,192 - root - INFO -  Get bars start time 2025-10-10T05:26:00-04:00 end_time 2025-10-10T05:31:00-04:00
-2025-10-12 09:31:05,473 - root - INFO -  Get bars start time 2025-10-10T05:26:00-04:00 end_time 2025-10-10T05:31:00-04:00
-2025-10-12 09:31:05,564 - root - INFO -  MACD calculation for APLD due to high change percent: 26.9375
-2025-10-12 09:31:05,628 - root - INFO - MACD not positive for APLD
-2025-10-12 09:31:05,800 - root - INFO -  MACD calculation for ARAY due to high change percent: 15.1351
-2025-10-12 09:31:05,841 - root - INFO - MACD not positive for ARAY
-2025-10-12 09:31:06,122 - root - INFO -  Get bars start time 2025-10-10T05:26:00-04:00 end_time 2025-10-10T05:31:00-04:00
-2025-10-12 09:31:06,328 - root - INFO -  Get bars start time 2025-10-10T05:26:00-04:00 end_time 2025-10-10T05:31:00-04:00
-2025-10-12 09:31:06,593 - root - INFO -  Get bars start time 2025-10-10T05:26:00-04:00 end_time 2025-10-10T05:31:00-04:00
+2025-10-12 09:35:17,484 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:18,025 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:18,328 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:18,819 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:19,197 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:19,505 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:19,736 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:20,163 - root - INFO -  MACD calculation for GWH due to high change percent: 63.3721
+2025-10-12 09:35:20,452 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:20,700 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:20,936 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:21,547 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:22,012 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:22,554 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:22,927 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:23,150 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:23,531 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:24,083 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:24,484 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:24,996 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:25,178 - root - INFO -  MACD calculation for OSTX due to high change percent: 12.2549
+2025-10-12 09:35:25,631 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:25,909 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:26,480 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:26,955 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:27,673 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:27,921 - root - INFO -  MACD calculation for SGBX due to high change percent: 125.0
+2025-10-12 09:35:27,969 - root - INFO - MACD not positive for SGBX
+2025-10-12 09:35:28,449 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:29,079 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:29,512 - root - INFO -  MACD calculation for SWKH due to high change percent: 26.5972
+2025-10-12 09:35:29,541 - root - INFO - MACD not positive for SWKH
+2025-10-12 09:35:29,905 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:30,172 - root - INFO -  MACD calculation for TE due to high change percent: 10.705
+2025-10-12 09:35:30,243 - root - INFO - MACD not positive for TE
+2025-10-12 09:35:30,580 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:31,087 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:31,822 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:31,941 - root - INFO -  MACD calculation for VSME due to high change percent: 18.8462
+2025-10-12 09:35:32,140 - root - INFO -  MACD calculation for WAI due to high change percent: 23.8562
+2025-10-12 09:35:32,256 - root - INFO -  MACD calculation for WKEY due to high change percent: 10.2151
+2025-10-12 09:35:32,519 - root - INFO -  Get bars start time 2025-10-10T06:21:00-04:00 end_time 2025-10-10T06:26:00-04:00
+2025-10-12 09:35:32,993 - root - INFO -  MACD calculation for YHGJ due to high change percent: 34.1667
+2025-10-12 09:35:33,324 - root - INFO - Updating change percent of stocks
+2025-10-12 09:35:33,998 - root - WARNING - stock is already in the open positions
+2025-10-12 09:35:34,007 - root - WARNING - stock is already in the open positions
+2025-10-12 09:35:34,013 - root - INFO - swing_strategy_open_long for scale 5Min stock WKEY
+2025-10-12 09:35:34,016 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:35:34,016 - root - INFO - Time since last close for WKEY is None minutes, net percent 0
+2025-10-12 09:35:34,070 - root - INFO - Last 20 minutes volume is low for WKEY: 9177
+2025-10-12 09:35:34,075 - root - INFO - swing_strategy_close_long for scale 5Min stock GWH
+2025-10-12 09:35:34,170 - root - INFO - Profit percent for GWH is 12.0879
+2025-10-12 09:35:34,170 - root - INFO - Latest 1min close price for GWH: 3.04
+2025-10-12 09:35:34,252 - root - INFO - MACD is still rising for stock GWH
+2025-10-12 09:35:34,252 - root - INFO - Not enough profit percent to scalp for GWH: 12.0879
+2025-10-12 09:35:34,271 - root - INFO - Skipping SCALP for GWH as it's in no_scalp list
+2025-10-12 09:35:34,272 - root - INFO - swing_strategy_close_long for scale 5Min stock OSTX
+2025-10-12 09:35:34,327 - root - INFO - Profit percent for OSTX is -8.05085
+2025-10-12 09:35:34,327 - root - INFO - Latest 1min close price for OSTX: 2.19
+2025-10-12 09:35:34,429 - root - INFO - MACD is still rising for stock OSTX
+2025-10-12 09:35:34,429 - root - INFO - Not enough profit percent to scalp for OSTX: -8.05085
+2025-10-12 09:35:34,447 - root - INFO - Skipping SCALP for OSTX as it's in no_scalp list
+2025-10-12 09:35:34,447 - root - INFO - swing_strategy_close_long for scale 5Min stock WAI
+2025-10-12 09:35:34,496 - root - INFO - Profit percent for WAI is 0.795756
+2025-10-12 09:35:34,496 - root - INFO - Latest 1min close price for WAI: 3.82
+2025-10-12 09:35:34,578 - root - INFO - MACD is still rising for stock WAI
+2025-10-12 09:35:34,578 - root - INFO - Not enough profit percent to scalp for WAI: 0.795756
+2025-10-12 09:35:34,592 - root - INFO - Skipping SCALP for WAI as it's in no_scalp list
+2025-10-12 09:35:34,618 - root - INFO - Test mode: Total profit so far: 604.8702821731567
+2025-10-12 09:35:34,672 - root - WARNING - stock is already in the open positions
+2025-10-12 09:35:34,705 - root - WARNING - stock is already in the open positions
+2025-10-12 09:35:34,727 - root - INFO - swing_strategy_open_long for scale 5Min stock WKEY
+2025-10-12 09:35:34,738 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:35:34,738 - root - INFO - Time since last close for WKEY is None minutes, net percent 0
+2025-10-12 09:35:34,782 - root - INFO - Last 20 minutes volume is low for WKEY: 9177
+2025-10-12 09:35:34,798 - root - INFO - swing_strategy_close_long for scale 5Min stock GWH
+2025-10-12 09:35:34,897 - root - INFO - Profit percent for GWH is 11.3553
+2025-10-12 09:35:34,897 - root - INFO - Latest 1min close price for GWH: 3.11
+2025-10-12 09:35:34,925 - root - INFO - High price DETECTED for GWH is 3.06 and setting no_scalp to True
+2025-10-12 09:35:34,938 - root - INFO - Skipping SCALP for GWH as it's in no_scalp list
+2025-10-12 09:35:34,939 - root - INFO - swing_strategy_close_long for scale 5Min stock OSTX
+2025-10-12 09:35:34,984 - root - INFO - Profit percent for OSTX is -7.20339
+2025-10-12 09:35:34,984 - root - INFO - Latest 1min close price for OSTX: 2.19
+2025-10-12 09:35:35,072 - root - INFO - MACD is still rising for stock OSTX
+2025-10-12 09:35:35,072 - root - INFO - Not enough profit percent to scalp for OSTX: -7.20339
+2025-10-12 09:35:35,087 - root - INFO - Skipping SCALP for OSTX as it's in no_scalp list
+2025-10-12 09:35:35,087 - root - INFO - swing_strategy_close_long for scale 5Min stock WAI
+2025-10-12 09:35:35,136 - root - INFO - Profit percent for WAI is 1.32626
+2025-10-12 09:35:35,136 - root - INFO - Latest 1min close price for WAI: 3.83
+2025-10-12 09:35:35,220 - root - INFO - MACD is still rising for stock WAI
+2025-10-12 09:35:35,220 - root - INFO - Not enough profit percent to scalp for WAI: 1.32626
+2025-10-12 09:35:35,235 - root - INFO - Skipping SCALP for WAI as it's in no_scalp list
+2025-10-12 09:35:35,260 - root - INFO - Test mode: Total profit so far: 633.1638231277466
+2025-10-12 09:35:35,310 - root - WARNING - stock is already in the open positions
+2025-10-12 09:35:35,336 - root - WARNING - stock is already in the open positions
+2025-10-12 09:35:35,356 - root - INFO - swing_strategy_open_long for scale 5Min stock WKEY
+2025-10-12 09:35:35,365 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:35:35,366 - root - INFO - Time since last close for WKEY is None minutes, net percent 0
+2025-10-12 09:35:35,403 - root - INFO - Last 20 minutes volume is low for WKEY: 9090
+2025-10-12 09:35:35,416 - root - INFO - swing_strategy_close_long for scale 5Min stock GWH
+2025-10-12 09:35:35,541 - root - INFO - Profit percent for GWH is 13.9194
+2025-10-12 09:35:35,541 - root - INFO - Latest 1min close price for GWH: 3.17
+2025-10-12 09:35:35,567 - root - INFO - High price DETECTED for GWH is 3.11 and setting no_scalp to True
+2025-10-12 09:35:35,582 - root - INFO - Skipping SCALP for GWH as it's in no_scalp list
+2025-10-12 09:35:35,582 - root - INFO - swing_strategy_close_long for scale 5Min stock OSTX
+2025-10-12 09:35:35,627 - root - INFO - Profit percent for OSTX is -7.20339
+2025-10-12 09:35:35,627 - root - INFO - Latest 1min close price for OSTX: 2.19
+2025-10-12 09:35:35,710 - root - INFO - MACD is still rising for stock OSTX
+2025-10-12 09:35:35,710 - root - INFO - Not enough profit percent to scalp for OSTX: -7.20339
+2025-10-12 09:35:35,724 - root - INFO - Skipping SCALP for OSTX as it's in no_scalp list
+2025-10-12 09:35:35,724 - root - INFO - swing_strategy_close_long for scale 5Min stock WAI
+2025-10-12 09:35:35,773 - root - INFO - Profit percent for WAI is 1.59151
+2025-10-12 09:35:35,773 - root - INFO - Latest 1min close price for WAI: 3.73
+2025-10-12 09:35:35,875 - root - INFO - MACD is still rising for stock WAI
+2025-10-12 09:35:35,875 - root - INFO - Not enough profit percent to scalp for WAI: 1.59151
+2025-10-12 09:35:35,892 - root - INFO - Skipping SCALP for WAI as it's in no_scalp list
+2025-10-12 09:35:35,917 - root - INFO - Test mode: Total profit so far: 628.6166515350342
+2025-10-12 09:35:35,974 - root - WARNING - stock is already in the open positions
+2025-10-12 09:35:36,005 - root - WARNING - stock is already in the open positions
+2025-10-12 09:35:36,028 - root - INFO - swing_strategy_open_long for scale 5Min stock WKEY
+2025-10-12 09:35:36,037 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:35:36,037 - root - INFO - Time since last close for WKEY is None minutes, net percent 0
+2025-10-12 09:35:36,073 - root - INFO - Last 20 minutes volume is low for WKEY: 9090
+2025-10-12 09:35:36,086 - root - INFO - swing_strategy_close_long for scale 5Min stock GWH
+2025-10-12 09:35:36,175 - root - INFO - Profit percent for GWH is 16.1172
+2025-10-12 09:35:36,175 - root - INFO - Latest 1min close price for GWH: 3.07
+2025-10-12 09:35:36,265 - root - INFO - MACD is still rising for stock GWH
+2025-10-12 09:35:36,265 - root - INFO - Not enough profit percent to scalp for GWH: 16.1172
+2025-10-12 09:35:36,284 - root - INFO - Skipping SCALP for GWH as it's in no_scalp list
+2025-10-12 09:35:36,284 - root - INFO - swing_strategy_close_long for scale 5Min stock OSTX
+2025-10-12 09:35:36,334 - root - INFO - Profit percent for OSTX is -7.20339
+2025-10-12 09:35:36,334 - root - INFO - Latest 1min close price for OSTX: 2.24
+2025-10-12 09:35:36,419 - root - INFO - MACD is still rising for stock OSTX
+2025-10-12 09:35:36,419 - root - INFO - Not enough profit percent to scalp for OSTX: -7.20339
+2025-10-12 09:35:36,434 - root - INFO - Skipping SCALP for OSTX as it's in no_scalp list
+2025-10-12 09:35:36,435 - root - INFO - swing_strategy_close_long for scale 5Min stock WAI
+2025-10-12 09:35:36,490 - root - INFO - Profit percent for WAI is -1.06101
+2025-10-12 09:35:36,490 - root - INFO - Latest 1min close price for WAI: 3.71
+2025-10-12 09:35:36,591 - root - INFO - MACD is still rising for stock WAI
+2025-10-12 09:35:36,591 - root - INFO - Not enough profit percent to scalp for WAI: -1.06101
+2025-10-12 09:35:36,609 - root - INFO - Skipping SCALP for WAI as it's in no_scalp list
+2025-10-12 09:35:36,633 - root - INFO - Test mode: Total profit so far: 607.8680086135864
+2025-10-12 09:35:36,694 - root - WARNING - stock is already in the open positions
+2025-10-12 09:35:36,726 - root - WARNING - stock is already in the open positions
+2025-10-12 09:35:36,750 - root - INFO - swing_strategy_open_long for scale 5Min stock WKEY
+2025-10-12 09:35:36,759 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:35:36,759 - root - INFO - Time since last close for WKEY is None minutes, net percent 0
+2025-10-12 09:35:36,802 - root - INFO - Last 20 minutes volume is low for WKEY: 9090
+2025-10-12 09:35:36,818 - root - INFO - swing_strategy_close_long for scale 5Min stock GWH
+2025-10-12 09:35:36,907 - root - INFO - Profit percent for GWH is 12.4542
+2025-10-12 09:35:36,907 - root - INFO - Latest 1min close price for GWH: 3.1
+2025-10-12 09:35:37,012 - root - INFO - MACD is still rising for stock GWH
+2025-10-12 09:35:37,012 - root - INFO - Not enough profit percent to scalp for GWH: 12.4542
+2025-10-12 09:35:37,030 - root - INFO - Skipping SCALP for GWH as it's in no_scalp list
+2025-10-12 09:35:37,031 - root - INFO - swing_strategy_close_long for scale 5Min stock OSTX
+2025-10-12 09:35:37,079 - root - INFO - Profit percent for OSTX is -5.08475
+2025-10-12 09:35:37,080 - root - INFO - Latest 1min close price for OSTX: 2.25
+2025-10-12 09:35:37,163 - root - INFO - No close long conditions met for OSTX
+2025-10-12 09:35:37,178 - root - INFO - swing_strategy_close_long for scale 5Min stock WAI
+2025-10-12 09:35:37,222 - root - INFO - Profit percent for WAI is -1.59151
+2025-10-12 09:35:37,222 - root - INFO - Latest 1min close price for WAI: 3.71
+2025-10-12 09:35:37,309 - root - INFO - MACD is still rising for stock WAI
+2025-10-12 09:35:37,309 - root - INFO - Not enough profit percent to scalp for WAI: -1.59151
+2025-10-12 09:35:37,322 - root - INFO - Skipping SCALP for WAI as it's in no_scalp list
+2025-10-12 09:35:37,349 - root - INFO - Test mode: Total profit so far: 623.0943040847778
+2025-10-12 09:35:37,349 - root - INFO - ('2025-10-10T06:31:00-04:00', '2025-10-10T06:31:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T04:00:00-04:00')
+2025-10-12 09:35:37,349 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:37,376 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:38,117 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:38,500 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:38,612 - root - INFO -  MACD calculation for APLD due to high change percent: 22.9088
+2025-10-12 09:35:38,677 - root - INFO - MACD not positive for APLD
+2025-10-12 09:35:38,888 - root - INFO -  MACD calculation for ARAY due to high change percent: 19.4595
+2025-10-12 09:35:38,947 - root - INFO - MACD not positive for ARAY
+2025-10-12 09:35:39,250 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:39,489 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:40,165 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:40,863 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:41,586 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:42,057 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:42,236 - root - INFO -  MACD calculation for CRML due to high change percent: 11.6247
+2025-10-12 09:35:42,306 - root - INFO - MACD not positive for CRML
+2025-10-12 09:35:42,307 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:42,339 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:42,768 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:43,133 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:43,596 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:43,825 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:44,013 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:44,176 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:44,424 - root - INFO -  MACD calculation for GWH due to high change percent: 76.7442
+2025-10-12 09:35:44,636 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:45,122 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:45,350 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:45,773 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:46,207 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:46,728 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:47,088 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:47,258 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:47,777 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:48,278 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:48,884 - root - INFO -  MACD calculation for NVX due to high change percent: 12.2402
+2025-10-12 09:35:48,951 - root - INFO - MACD not positive for NVX
+2025-10-12 09:35:49,016 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:49,324 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:49,880 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:50,188 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:50,904 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:51,369 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:52,061 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:52,394 - root - INFO -  MACD calculation for SGBX due to high change percent: 120.679
+2025-10-12 09:35:52,451 - root - INFO - MACD not positive for SGBX
+2025-10-12 09:35:52,707 - root - INFO -  MACD calculation for SHPH due to high change percent: 13.2353
+2025-10-12 09:35:53,102 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:53,612 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:54,021 - root - INFO -  MACD calculation for SWKH due to high change percent: 25.5556
+2025-10-12 09:35:54,091 - root - INFO - MACD not positive for SWKH
+2025-10-12 09:35:54,287 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:54,504 - root - INFO -  MACD calculation for TE due to high change percent: 12.0104
+2025-10-12 09:35:55,025 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:55,484 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:56,106 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:56,222 - root - INFO -  MACD calculation for VSME due to high change percent: 19.2308
+2025-10-12 09:35:56,439 - root - INFO -  MACD calculation for WAI due to high change percent: 24.8366
+2025-10-12 09:35:56,558 - root - INFO -  MACD calculation for WKEY due to high change percent: 10.0806
+2025-10-12 09:35:56,663 - root - INFO -  Get bars start time 2025-10-10T06:26:00-04:00 end_time 2025-10-10T06:31:00-04:00
+2025-10-12 09:35:57,134 - root - INFO -  MACD calculation for YHGJ due to high change percent: 30.8333
+2025-10-12 09:35:57,468 - root - INFO - Updating change percent of stocks
+2025-10-12 09:35:58,158 - root - WARNING - stock is already in the open positions
+2025-10-12 09:35:58,168 - root - WARNING - stock is already in the open positions
+2025-10-12 09:35:58,174 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
+2025-10-12 09:35:58,177 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:35:58,177 - root - INFO - Time since last close for VSME is None minutes, net percent 0
+2025-10-12 09:35:58,253 - root - INFO - Last 20 minutes volume is low for VSME: 10165
+2025-10-12 09:35:58,264 - root - INFO - swing_strategy_open_long for scale 5Min stock TE
+2025-10-12 09:35:58,269 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:35:58,269 - root - INFO - Time since last close for TE is None minutes, net percent 0
+2025-10-12 09:35:58,398 - root - INFO - Last 5 minutes maximum volume candle is red for TE
+2025-10-12 09:35:58,414 - root - INFO - swing_strategy_close_long for scale 5Min stock GWH
+2025-10-12 09:35:58,507 - root - INFO - Profit percent for GWH is 13.5531
+2025-10-12 09:35:58,507 - root - INFO - Latest 1min close price for GWH: 3.17
+2025-10-12 09:35:58,606 - root - INFO - MACD is still rising for stock GWH
+2025-10-12 09:35:58,606 - root - INFO - Not enough profit percent to scalp for GWH: 13.5531
+2025-10-12 09:35:58,625 - root - INFO - Skipping SCALP for GWH as it's in no_scalp list
+2025-10-12 09:35:58,626 - root - INFO - swing_strategy_close_long for scale 5Min stock OSTX
+2025-10-12 09:35:58,674 - root - INFO - Profit percent for OSTX is -4.66102
+2025-10-12 09:35:58,675 - root - INFO - Latest 1min close price for OSTX: 2.25
+2025-10-12 09:35:58,760 - root - INFO - No close long conditions met for OSTX
+2025-10-12 09:35:58,777 - root - INFO - swing_strategy_close_long for scale 5Min stock WAI
+2025-10-12 09:35:58,824 - root - INFO - Profit percent for WAI is -1.59151
+2025-10-12 09:35:58,824 - root - INFO - Latest 1min close price for WAI: 3.71
+2025-10-12 09:35:58,910 - root - INFO - MACD is still rising for stock WAI
+2025-10-12 09:35:58,910 - root - INFO - Not enough profit percent to scalp for WAI: -1.59151
+2025-10-12 09:35:58,924 - root - INFO - Skipping SCALP for WAI as it's in no_scalp list
+2025-10-12 09:35:58,949 - root - INFO - Test mode: Total profit so far: 648.7353410720825
+2025-10-12 09:35:59,010 - root - WARNING - stock is already in the open positions
+2025-10-12 09:35:59,043 - root - WARNING - stock is already in the open positions
+2025-10-12 09:35:59,062 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
+2025-10-12 09:35:59,071 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:35:59,071 - root - INFO - Time since last close for VSME is None minutes, net percent 0
+2025-10-12 09:35:59,137 - root - INFO - Last 20 minutes volume is low for VSME: 10165
+2025-10-12 09:35:59,168 - root - INFO - swing_strategy_open_long for scale 5Min stock TE
+2025-10-12 09:35:59,181 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:35:59,181 - root - INFO - Time since last close for TE is None minutes, net percent 0
+2025-10-12 09:35:59,317 - root - INFO - Last 20 minutes volume is low for TE: 44525
+2025-10-12 09:35:59,332 - root - INFO - swing_strategy_close_long for scale 5Min stock GWH
+2025-10-12 09:35:59,420 - root - INFO - Profit percent for GWH is 16.1172
+2025-10-12 09:35:59,420 - root - INFO - Latest 1min close price for GWH: 3.16
+2025-10-12 09:35:59,509 - root - INFO - MACD is still rising for stock GWH
+2025-10-12 09:35:59,510 - root - INFO - Not enough profit percent to scalp for GWH: 16.1172
+2025-10-12 09:35:59,555 - root - INFO - Skipping SCALP for GWH as it's in no_scalp list
+2025-10-12 09:35:59,555 - root - INFO - swing_strategy_close_long for scale 5Min stock OSTX
+2025-10-12 09:35:59,644 - root - INFO - Profit percent for OSTX is -4.66102
+2025-10-12 09:35:59,644 - root - INFO - Latest 1min close price for OSTX: 2.25
+2025-10-12 09:35:59,722 - root - INFO - No close long conditions met for OSTX
+2025-10-12 09:35:59,737 - root - INFO - swing_strategy_close_long for scale 5Min stock WAI
+2025-10-12 09:35:59,780 - root - INFO - Profit percent for WAI is -1.59151
+2025-10-12 09:35:59,780 - root - INFO - Latest 1min close price for WAI: 3.8
+2025-10-12 09:35:59,868 - root - INFO - MACD is still rising for stock WAI
+2025-10-12 09:35:59,869 - root - INFO - Not enough profit percent to scalp for WAI: -1.59151
+2025-10-12 09:35:59,883 - root - INFO - Skipping SCALP for WAI as it's in no_scalp list
+2025-10-12 09:35:59,909 - root - INFO - Test mode: Total profit so far: 668.9450101852417
+2025-10-12 09:35:59,968 - root - WARNING - stock is already in the open positions
+2025-10-12 09:36:00,000 - root - WARNING - stock is already in the open positions
+2025-10-12 09:36:00,021 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
+2025-10-12 09:36:00,030 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:36:00,031 - root - INFO - Time since last close for VSME is None minutes, net percent 0
+2025-10-12 09:36:00,097 - root - INFO - Last 20 minutes volume is low for VSME: 10165
+2025-10-12 09:36:00,124 - root - INFO - swing_strategy_open_long for scale 5Min stock TE
+2025-10-12 09:36:00,136 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:36:00,137 - root - INFO - Time since last close for TE is None minutes, net percent 0
+2025-10-12 09:36:00,250 - root - INFO - Last 20 minutes volume is low for TE: 44525
+2025-10-12 09:36:00,269 - root - INFO - swing_strategy_close_long for scale 5Min stock GWH
+2025-10-12 09:36:00,359 - root - INFO - Profit percent for GWH is 15.7509
+2025-10-12 09:36:00,359 - root - INFO - Latest 1min close price for GWH: 3.08
+2025-10-12 09:36:00,452 - root - INFO - MACD is still rising for stock GWH
+2025-10-12 09:36:00,452 - root - INFO - Not enough profit percent to scalp for GWH: 15.7509
+2025-10-12 09:36:00,470 - root - INFO - Skipping SCALP for GWH as it's in no_scalp list
+2025-10-12 09:36:00,471 - root - INFO - swing_strategy_close_long for scale 5Min stock OSTX
+2025-10-12 09:36:00,518 - root - INFO - Profit percent for OSTX is -4.66102
+2025-10-12 09:36:00,519 - root - INFO - Latest 1min close price for OSTX: 2.25
+2025-10-12 09:36:00,604 - root - INFO - No close long conditions met for OSTX
+2025-10-12 09:36:00,616 - root - INFO - swing_strategy_close_long for scale 5Min stock WAI
+2025-10-12 09:36:00,658 - root - INFO - Profit percent for WAI is 0.795756
+2025-10-12 09:36:00,658 - root - INFO - Latest 1min close price for WAI: 3.81
+2025-10-12 09:36:00,745 - root - INFO - MACD is still rising for stock WAI
+2025-10-12 09:36:00,745 - root - INFO - Not enough profit percent to scalp for WAI: 0.795756
+2025-10-12 09:36:00,758 - root - INFO - Skipping SCALP for WAI as it's in no_scalp list
+2025-10-12 09:36:00,787 - root - INFO - Test mode: Total profit so far: 642.2934989929199
+2025-10-12 09:36:00,845 - root - WARNING - stock is already in the open positions
+2025-10-12 09:36:00,878 - root - WARNING - stock is already in the open positions
+2025-10-12 09:36:00,900 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
+2025-10-12 09:36:00,911 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:36:00,911 - root - INFO - Time since last close for VSME is None minutes, net percent 0
+2025-10-12 09:36:00,990 - root - INFO - Last 20 minutes volume is low for VSME: 10165
+2025-10-12 09:36:01,019 - root - INFO - swing_strategy_open_long for scale 5Min stock TE
+2025-10-12 09:36:01,031 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:36:01,031 - root - INFO - Time since last close for TE is None minutes, net percent 0
+2025-10-12 09:36:01,151 - root - INFO - Last 20 minutes volume is low for TE: 45561
+2025-10-12 09:36:01,168 - root - INFO - swing_strategy_close_long for scale 5Min stock GWH
+2025-10-12 09:36:01,258 - root - INFO - Profit percent for GWH is 12.8205
+2025-10-12 09:36:01,258 - root - INFO - Latest 1min close price for GWH: 3.08
+2025-10-12 09:36:01,359 - root - INFO - MACD is still rising for stock GWH
+2025-10-12 09:36:01,359 - root - INFO - Not enough profit percent to scalp for GWH: 12.8205
+2025-10-12 09:36:01,378 - root - INFO - Skipping SCALP for GWH as it's in no_scalp list
+2025-10-12 09:36:01,378 - root - INFO - swing_strategy_close_long for scale 5Min stock OSTX
+2025-10-12 09:36:01,430 - root - INFO - Profit percent for OSTX is -4.66102
+2025-10-12 09:36:01,430 - root - INFO - Latest 1min close price for OSTX: 2.21
+2025-10-12 09:36:01,513 - root - INFO - No close long conditions met for OSTX
+2025-10-12 09:36:01,526 - root - INFO - swing_strategy_close_long for scale 5Min stock WAI
+2025-10-12 09:36:01,569 - root - INFO - Profit percent for WAI is 1.06101
+2025-10-12 09:36:01,569 - root - INFO - Latest 1min close price for WAI: 3.91
+2025-10-12 09:36:01,701 - root - INFO - MACD is still rising for stock WAI
+2025-10-12 09:36:01,701 - root - INFO - Not enough profit percent to scalp for WAI: 1.06101
+2025-10-12 09:36:01,718 - root - INFO - Skipping SCALP for WAI as it's in no_scalp list
+2025-10-12 09:36:01,745 - root - INFO - Test mode: Total profit so far: 651.8695421218872
+2025-10-12 09:36:01,808 - root - WARNING - stock is already in the open positions
+2025-10-12 09:36:01,845 - root - WARNING - stock is already in the open positions
+2025-10-12 09:36:01,868 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
+2025-10-12 09:36:01,878 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:36:01,879 - root - INFO - Time since last close for VSME is None minutes, net percent 0
+2025-10-12 09:36:01,947 - root - INFO - Last 20 minutes volume is low for VSME: 10165
+2025-10-12 09:36:01,978 - root - INFO - swing_strategy_open_long for scale 5Min stock TE
+2025-10-12 09:36:01,990 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:36:01,990 - root - INFO - Time since last close for TE is None minutes, net percent 0
+2025-10-12 09:36:02,106 - root - INFO - Last 20 minutes volume is low for TE: 45335
+2025-10-12 09:36:02,123 - root - INFO - swing_strategy_close_long for scale 5Min stock GWH
+2025-10-12 09:36:02,210 - root - INFO - Profit percent for GWH is 12.8205
+2025-10-12 09:36:02,210 - root - INFO - Latest 1min close price for GWH: 3.11
+2025-10-12 09:36:02,308 - root - INFO - No close long conditions met for GWH
+2025-10-12 09:36:02,328 - root - INFO - swing_strategy_close_long for scale 5Min stock OSTX
+2025-10-12 09:36:02,378 - root - INFO - Profit percent for OSTX is -6.35593
+2025-10-12 09:36:02,378 - root - INFO - Latest 1min close price for OSTX: 2.22
+2025-10-12 09:36:02,461 - root - INFO - MACD is still rising for stock OSTX
+2025-10-12 09:36:02,461 - root - INFO - Not enough profit percent to scalp for OSTX: -6.35593
+2025-10-12 09:36:02,474 - root - INFO - Skipping SCALP for OSTX as it's in no_scalp list
+2025-10-12 09:36:02,475 - root - INFO - swing_strategy_close_long for scale 5Min stock WAI
+2025-10-12 09:36:02,519 - root - INFO - Profit percent for WAI is 3.71353
+2025-10-12 09:36:02,519 - root - INFO - Latest 1min close price for WAI: 4.1
+2025-10-12 09:36:02,543 - root - INFO - High price DETECTED for WAI is 3.94 and setting no_scalp to True
+2025-10-12 09:36:02,558 - root - INFO - Skipping SCALP for WAI as it's in no_scalp list
+2025-10-12 09:36:02,584 - root - INFO - Test mode: Total profit so far: 717.4937257766724
+2025-10-12 09:36:02,585 - root - INFO - ('2025-10-10T06:36:00-04:00', '2025-10-10T06:36:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T04:00:00-04:00')
+2025-10-12 09:36:02,585 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:02,608 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:03,173 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:03,431 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:03,539 - root - INFO -  MACD calculation for APLD due to high change percent: 21.8846
+2025-10-12 09:36:03,609 - root - INFO - MACD not positive for APLD
+2025-10-12 09:36:03,831 - root - INFO -  MACD calculation for ARAY due to high change percent: 18.9189
+2025-10-12 09:36:03,896 - root - INFO - MACD not positive for ARAY
+2025-10-12 09:36:04,099 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:04,350 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:04,757 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:05,224 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:05,626 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:06,099 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:06,264 - root - INFO -  MACD calculation for CODI due to high change percent: 21.4966
+2025-10-12 09:36:06,315 - root - INFO - MACD not positive for CODI
+2025-10-12 09:36:06,513 - root - INFO -  MACD calculation for CRML due to high change percent: 11.4208
+2025-10-12 09:36:06,585 - root - INFO - MACD not positive for CRML
+2025-10-12 09:36:06,586 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:06,683 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:07,304 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:07,414 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:07,813 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:07,921 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:08,032 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:08,390 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:08,645 - root - INFO -  MACD calculation for GWH due to high change percent: 84.3023
+2025-10-12 09:36:08,842 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:09,181 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:09,265 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:09,556 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:09,803 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:10,076 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:10,232 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:10,344 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:10,436 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
+2025-10-12 09:36:10,605 - root - INFO -  Get bars start time 2025-10-10T06:31:00-04:00 end_time 2025-10-10T06:36:00-04:00
