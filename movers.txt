@@ -2,11 +2,11 @@ Top Movers:
 +--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  FMFC  |      0      |     0     |    39.4799     |  17898  |      11.8     |        8.46        |     0.0      |  13.954  |   733889   |      0      | 2025-10-10 08:41:00 |
-|  VSME  |      0      |     0     |    24.6154     |  30106  |      1.62     |        1.3         |  14180000.0  |  2.024   |  2500626   |      0      | 2025-10-10 08:41:00 |
-|  GORV  |      0      |     0     |    24.5283     | 4007987 |      3.3      |        2.65        | 109760000.0  |  2.656   |   498979   |      0      | 2025-10-10 08:41:00 |
-|  YSXT  |      1      |     0     |    22.8155     |  42024  |      2.53     |        2.06        |  8780000.0   |   2.29   |   73838    |      0      | 2025-10-10 08:41:00 |
-|  SWKH  |      0      |     0     |    21.4583     |  148541 |     17.49     |        14.4        |  11530000.0  |  14.474  |   14991    |      0      | 2025-10-10 08:41:00 |
+|  SLE   |      1      |     0     |    60.9551     | 1782497 |      5.73     |        3.56        |  13570000.0  |   3.71   |   144436   |      0      | 2025-10-10 09:11:00 |
+|  FMFC  |      0      |     0     |    41.0165     |  22102  |     11.93     |        8.46        |     0.0      |  13.954  |   733889   |      0      | 2025-10-10 09:11:00 |
+|  YSXT  |      0      |     0     |    21.3592     |  55986  |      2.5      |        2.06        |  8780000.0   |   2.29   |   73838    |      0      | 2025-10-10 09:11:00 |
+|  SWKH  |      0      |     0     |    19.1667     |  151251 |     17.16     |        14.4        |  11530000.0  |  14.474  |   14991    |      0      | 2025-10-10 09:11:00 |
+|  ARAY  |      0      |     0     |    13.5135     |  138634 |      2.1      |        1.85        |  97830000.0  |   1.7    |  1149786   |      0      | 2025-10-10 09:16:00 |
 +--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -20,403 +20,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-12 09:49:51,604 - root - INFO - MACD is still rising for stock STKH
-2025-10-12 09:49:51,604 - root - INFO - Not enough profit percent to scalp for STKH: -4.85608
-2025-10-12 09:49:51,618 - root - INFO - Skipping SCALP for STKH as it's in no_scalp list
-2025-10-12 09:49:51,644 - root - INFO - Test mode: Total profit so far: 763.4181795120239
-2025-10-12 09:49:51,715 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-12 09:49:51,726 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:49:51,726 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-12 09:49:51,761 - root - INFO - Last 20 minutes volume is low for FMFC: 27072
-2025-10-12 09:49:51,774 - root - WARNING - stock is already in the open positions
-2025-10-12 09:49:51,786 - root - WARNING - stock is already in the open positions
-2025-10-12 09:49:51,808 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
-2025-10-12 09:49:51,820 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:49:51,820 - root - INFO - Time since last close for VSME is None minutes, net percent 0
-2025-10-12 09:49:51,886 - root - INFO - Last 20 minutes volume is low for VSME: 42759
-2025-10-12 09:49:51,916 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
-2025-10-12 09:49:51,927 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:49:51,927 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
-2025-10-12 09:49:51,954 - root - INFO - Last 20 minutes volume is low for SWKH: 21220
-2025-10-12 09:49:51,966 - root - INFO - swing_strategy_close_long for scale 5Min stock GORV
-2025-10-12 09:49:52,043 - root - INFO - Profit percent for GORV is -9.67742
-2025-10-12 09:49:52,043 - root - INFO - Latest 1min close price for GORV: 3.33
-2025-10-12 09:49:52,136 - root - INFO - No close long conditions met for GORV
-2025-10-12 09:49:52,155 - root - INFO - swing_strategy_close_long for scale 5Min stock YSXT
-2025-10-12 09:49:52,198 - root - INFO - Profit percent for YSXT is 3.73444
-2025-10-12 09:49:52,198 - root - INFO - Latest 1min close price for YSXT: 2.3903
-2025-10-12 09:49:52,276 - root - INFO - MACD is still rising for stock YSXT
-2025-10-12 09:49:52,276 - root - INFO - Not enough profit percent to scalp for YSXT: 3.73444
-2025-10-12 09:49:52,290 - root - INFO - Skipping SCALP for YSXT as it's in no_scalp list
-2025-10-12 09:49:52,290 - root - INFO - swing_strategy_close_long for scale 5Min stock STKH
-2025-10-12 09:49:52,343 - root - INFO - Profit percent for STKH is -4.4232
-2025-10-12 09:49:52,343 - root - INFO - Latest 1min close price for STKH: 4.3
-2025-10-12 09:49:52,429 - root - INFO - MACD is still rising for stock STKH
-2025-10-12 09:49:52,429 - root - INFO - Not enough profit percent to scalp for STKH: -4.4232
-2025-10-12 09:49:52,444 - root - INFO - Skipping SCALP for STKH as it's in no_scalp list
-2025-10-12 09:49:52,469 - root - INFO - Test mode: Total profit so far: 698.9143161773682
-2025-10-12 09:49:52,543 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-12 09:49:52,555 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:49:52,555 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-12 09:49:52,600 - root - INFO - Last 20 minutes volume is low for FMFC: 27072
-2025-10-12 09:49:52,617 - root - WARNING - stock is already in the open positions
-2025-10-12 09:49:52,631 - root - WARNING - stock is already in the open positions
-2025-10-12 09:49:52,652 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
-2025-10-12 09:49:52,663 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:49:52,663 - root - INFO - Time since last close for VSME is None minutes, net percent 0
-2025-10-12 09:49:52,731 - root - INFO - Last 20 minutes volume is low for VSME: 43117
-2025-10-12 09:49:52,761 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
-2025-10-12 09:49:52,773 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:49:52,774 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
-2025-10-12 09:49:52,800 - root - INFO - Last 20 minutes volume is low for SWKH: 20514
-2025-10-12 09:49:52,814 - root - INFO - swing_strategy_close_long for scale 5Min stock GORV
-2025-10-12 09:49:52,890 - root - INFO - Profit percent for GORV is -10.4839
-2025-10-12 09:49:52,890 - root - INFO - Latest 1min close price for GORV: 3.32
-2025-10-12 09:49:52,982 - root - INFO - No close long conditions met for GORV
-2025-10-12 09:49:53,000 - root - INFO - swing_strategy_close_long for scale 5Min stock YSXT
-2025-10-12 09:49:53,048 - root - INFO - Profit percent for YSXT is -0.817427
-2025-10-12 09:49:53,048 - root - INFO - Latest 1min close price for YSXT: 2.3903
-2025-10-12 09:49:53,134 - root - INFO - MACD is still rising for stock YSXT
-2025-10-12 09:49:53,134 - root - INFO - Not enough profit percent to scalp for YSXT: -0.817427
-2025-10-12 09:49:53,148 - root - INFO - Skipping SCALP for YSXT as it's in no_scalp list
-2025-10-12 09:49:53,148 - root - INFO - swing_strategy_close_long for scale 5Min stock STKH
-2025-10-12 09:49:53,192 - root - INFO - Profit percent for STKH is -5.51527
-2025-10-12 09:49:53,192 - root - INFO - Latest 1min close price for STKH: 4.3
-2025-10-12 09:49:53,283 - root - INFO - MACD is still rising for stock STKH
-2025-10-12 09:49:53,283 - root - INFO - Not enough profit percent to scalp for STKH: -5.51527
-2025-10-12 09:49:53,297 - root - INFO - Skipping SCALP for STKH as it's in no_scalp list
-2025-10-12 09:49:53,323 - root - INFO - Test mode: Total profit so far: 696.2261447906494
-2025-10-12 09:49:53,385 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-12 09:49:53,395 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:49:53,395 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-12 09:49:53,430 - root - INFO - Last 20 minutes volume is low for FMFC: 27072
-2025-10-12 09:49:53,443 - root - WARNING - stock is already in the open positions
-2025-10-12 09:49:53,455 - root - WARNING - stock is already in the open positions
-2025-10-12 09:49:53,477 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
-2025-10-12 09:49:53,489 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:49:53,489 - root - INFO - Time since last close for VSME is None minutes, net percent 0
-2025-10-12 09:49:53,553 - root - INFO - Last 20 minutes volume is low for VSME: 41697
-2025-10-12 09:49:53,583 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
-2025-10-12 09:49:53,594 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:49:53,594 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
-2025-10-12 09:49:53,619 - root - INFO - Last 20 minutes volume is low for SWKH: 20645
-2025-10-12 09:49:53,635 - root - INFO - swing_strategy_close_long for scale 5Min stock GORV
-2025-10-12 09:49:53,713 - root - INFO - Profit percent for GORV is -10.7527
-2025-10-12 09:49:53,713 - root - INFO - Latest 1min close price for GORV: 3.25
-2025-10-12 09:49:53,805 - root - INFO - No close long conditions met for GORV
-2025-10-12 09:49:53,824 - root - INFO - swing_strategy_close_long for scale 5Min stock YSXT
-2025-10-12 09:49:53,869 - root - INFO - Profit percent for YSXT is -0.817427
-2025-10-12 09:49:53,869 - root - INFO - Latest 1min close price for YSXT: 2.4
-2025-10-12 09:49:53,947 - root - INFO - MACD is still rising for stock YSXT
-2025-10-12 09:49:53,947 - root - INFO - Not enough profit percent to scalp for YSXT: -0.817427
-2025-10-12 09:49:53,959 - root - INFO - Skipping SCALP for YSXT as it's in no_scalp list
-2025-10-12 09:49:53,960 - root - INFO - swing_strategy_close_long for scale 5Min stock STKH
-2025-10-12 09:49:54,007 - root - INFO - Profit percent for STKH is -5.51527
-2025-10-12 09:49:54,007 - root - INFO - Latest 1min close price for STKH: 4.31
-2025-10-12 09:49:54,094 - root - INFO - MACD is still rising for stock STKH
-2025-10-12 09:49:54,095 - root - INFO - Not enough profit percent to scalp for STKH: -5.51527
-2025-10-12 09:49:54,109 - root - INFO - Skipping SCALP for STKH as it's in no_scalp list
-2025-10-12 09:49:54,134 - root - INFO - Test mode: Total profit so far: 683.6311521530151
-2025-10-12 09:49:54,209 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-12 09:49:54,219 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:49:54,219 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-12 09:49:54,260 - root - INFO - Last 20 minutes volume is low for FMFC: 27072
-2025-10-12 09:49:54,274 - root - WARNING - stock is already in the open positions
-2025-10-12 09:49:54,288 - root - WARNING - stock is already in the open positions
-2025-10-12 09:49:54,310 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
-2025-10-12 09:49:54,324 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:49:54,324 - root - INFO - Time since last close for VSME is None minutes, net percent 0
-2025-10-12 09:49:54,387 - root - INFO - Last 20 minutes volume is low for VSME: 41697
-2025-10-12 09:49:54,419 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
-2025-10-12 09:49:54,429 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:49:54,429 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
-2025-10-12 09:49:54,455 - root - INFO - Last 20 minutes volume is low for SWKH: 19928
-2025-10-12 09:49:54,471 - root - INFO - swing_strategy_close_long for scale 5Min stock GORV
-2025-10-12 09:49:54,596 - root - INFO - Profit percent for GORV is -12.6344
-2025-10-12 09:49:54,596 - root - INFO - Latest 1min close price for GORV: 3.32
-2025-10-12 09:49:54,679 - root - INFO - Closing TrendUp long: shooting star pattern detected
-2025-10-12 09:49:54,679 - root - INFO - GORV:====== 3.32=========>SELL========>ShootingStar
-2025-10-12 09:49:54,694 - root - INFO - *********CLOSING BY SOLD: GORV
-2025-10-12 09:49:54,709 - root - INFO - Profit percent for GORV is -12.6344
-2025-10-12 09:49:54,747 - root - INFO - swing_strategy_close_long for scale 5Min stock YSXT
-2025-10-12 09:49:54,787 - root - INFO - Profit percent for YSXT is -0.414938
-2025-10-12 09:49:54,787 - root - INFO - Latest 1min close price for YSXT: 2.4
-2025-10-12 09:49:54,865 - root - INFO - MACD is still rising for stock YSXT
-2025-10-12 09:49:54,865 - root - INFO - Not enough profit percent to scalp for YSXT: -0.414938
-2025-10-12 09:49:54,881 - root - INFO - Skipping SCALP for YSXT as it's in no_scalp list
-2025-10-12 09:49:54,882 - root - INFO - swing_strategy_close_long for scale 5Min stock STKH
-2025-10-12 09:49:54,925 - root - INFO - Profit percent for STKH is -5.29554
-2025-10-12 09:49:54,926 - root - INFO - Latest 1min close price for STKH: 4.3
-2025-10-12 09:49:55,012 - root - INFO - Three red candles detected for STKH
-2025-10-12 09:49:55,013 - root - INFO - STKH:====== 4.3=========>SELL========>three_red_candles
-2025-10-12 09:49:55,025 - root - INFO - *********CLOSING BY SOLD: STKH
-2025-10-12 09:49:55,040 - root - INFO - Profit percent for STKH is -5.29554
-2025-10-12 09:49:55,099 - root - INFO - Test mode: Total profit so far: 700.2510404586792
-2025-10-12 09:49:55,099 - root - INFO - ('2025-10-10T08:36:00-04:00', '2025-10-10T08:36:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T04:00:00-04:00')
-2025-10-12 09:49:55,099 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T08:36:00-04:00
-2025-10-12 09:49:55,128 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:49:56,102 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:49:57,528 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:49:57,784 - root - INFO -  MACD calculation for APLD due to high change percent: 29.2421
-2025-10-12 09:49:58,297 - root - INFO -  MACD calculation for ARAY due to high change percent: 12.973
-2025-10-12 09:49:58,366 - root - INFO - MACD not positive for ARAY
-2025-10-12 09:49:58,918 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:49:59,517 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:00,186 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:01,145 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:02,392 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:03,302 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:03,468 - root - INFO -  MACD calculation for CODI due to high change percent: 21.6327
-2025-10-12 09:50:03,520 - root - INFO - MACD not positive for CODI
-2025-10-12 09:50:04,028 - root - INFO -  MACD calculation for CRML due to high change percent: 15.5676
-2025-10-12 09:50:04,182 - root - INFO -  MACD calculation for CRMLW due to high change percent: 25.7457
-2025-10-12 09:50:04,226 - root - INFO - MACD not positive for CRMLW
-2025-10-12 09:50:04,226 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:05,165 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:06,222 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:06,768 - root - INFO -  MACD calculation for ELBM due to high change percent: 11.1111
-2025-10-12 09:50:06,843 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:07,992 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:08,672 - root - INFO -  MACD calculation for FMFC due to high change percent: 38.2979
-2025-10-12 09:50:08,744 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:09,303 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:10,002 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:10,133 - root - INFO -  MACD calculation for GORV due to high change percent: 26.7925
-2025-10-12 09:50:10,790 - root - INFO -  MACD calculation for GWH due to high change percent: 127.907
-2025-10-12 09:50:10,860 - root - INFO - MACD not positive for GWH
-2025-10-12 09:50:11,148 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:12,500 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:13,542 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:14,659 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:15,625 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:16,957 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:18,190 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:18,945 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:19,928 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:20,933 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:21,992 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:22,807 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:23,781 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:24,699 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:25,430 - root - INFO -  MACD calculation for QTTB due to high change percent: 10.8025
-2025-10-12 09:50:25,741 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:26,703 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:27,653 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:28,053 - root - INFO -  MACD calculation for SGBX due to high change percent: 89.5062
-2025-10-12 09:50:28,107 - root - INFO - MACD not positive for SGBX
-2025-10-12 09:50:29,084 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:29,979 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:30,084 - root - INFO -  MACD calculation for STKH due to high change percent: 12.3953
-2025-10-12 09:50:30,646 - root - INFO -  MACD calculation for SWKH due to high change percent: 19.3056
-2025-10-12 09:50:30,818 - root - INFO -  MACD calculation for TALK due to high change percent: 11.3402
-2025-10-12 09:50:31,007 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:31,240 - root - INFO -  MACD calculation for TE due to high change percent: 16.9713
-2025-10-12 09:50:32,038 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:32,654 - root - INFO -  MACD calculation for UAMY due to high change percent: 11.3051
-2025-10-12 09:50:33,243 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:33,353 - root - INFO -  MACD calculation for USARW due to high change percent: 16.0576
-2025-10-12 09:50:34,195 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:34,321 - root - INFO -  MACD calculation for VSME due to high change percent: 20.0
-2025-10-12 09:50:34,791 - root - INFO -  MACD calculation for WAI due to high change percent: 26.1438
-2025-10-12 09:50:34,841 - root - INFO - MACD not positive for WAI
-2025-10-12 09:50:35,402 - root - INFO -  MACD calculation for WPRT due to high change percent: 10.1382
-2025-10-12 09:50:35,624 - root - INFO -  Get bars start time 2025-10-10T08:31:00-04:00 end_time 2025-10-10T08:36:00-04:00
-2025-10-12 09:50:36,343 - root - INFO -  MACD calculation for YHGJ due to high change percent: 35.0
-2025-10-12 09:50:36,393 - root - INFO - MACD not positive for YHGJ
-2025-10-12 09:50:36,509 - root - INFO -  MACD calculation for YSXT due to high change percent: 21.3592
-2025-10-12 09:50:37,144 - root - INFO - Updating change percent of stocks
-2025-10-12 09:50:37,852 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-12 09:50:37,855 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:50:37,855 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-12 09:50:37,912 - root - INFO - Last 20 minutes volume is low for FMFC: 27072
-2025-10-12 09:50:37,921 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
-2025-10-12 09:50:37,926 - root - INFO - Time since last close for GORV is 2.0 minutes, net percent -10.7527
-2025-10-12 09:50:37,926 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 2 minutes
-2025-10-12 09:50:37,934 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
-2025-10-12 09:50:37,939 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:50:37,940 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
-2025-10-12 09:50:37,963 - root - INFO - Last 20 minutes volume is low for SWKH: 19518
-2025-10-12 09:50:37,975 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
-2025-10-12 09:50:37,980 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:50:37,980 - root - INFO - Time since last close for VSME is None minutes, net percent 0
-2025-10-12 09:50:38,050 - root - INFO - Last 20 minutes volume is low for VSME: 43031
-2025-10-12 09:50:38,062 - root - WARNING - stock is already in the open positions
-2025-10-12 09:50:38,070 - root - INFO - swing_strategy_close_long for scale 5Min stock YSXT
-2025-10-12 09:50:38,110 - root - INFO - Profit percent for YSXT is -0.414938
-2025-10-12 09:50:38,110 - root - INFO - Latest 1min close price for YSXT: 2.45
-2025-10-12 09:50:38,193 - root - INFO - MACD is still rising for stock YSXT
-2025-10-12 09:50:38,193 - root - INFO - Not enough profit percent to scalp for YSXT: -0.414938
-2025-10-12 09:50:38,207 - root - INFO - Skipping SCALP for YSXT as it's in no_scalp list
-2025-10-12 09:50:38,232 - root - INFO - Test mode: Total profit so far: 720.9979295730591
-2025-10-12 09:50:38,305 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-12 09:50:38,317 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:50:38,317 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-12 09:50:38,354 - root - INFO - Last 20 minutes volume is low for FMFC: 27072
-2025-10-12 09:50:38,379 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
-2025-10-12 09:50:38,392 - root - INFO - Time since last close for GORV is 3.0 minutes, net percent -10.7527
-2025-10-12 09:50:38,392 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 3 minutes
-2025-10-12 09:50:38,415 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
-2025-10-12 09:50:38,427 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:50:38,427 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
-2025-10-12 09:50:38,458 - root - INFO - Last 20 minutes volume is low for SWKH: 22488
-2025-10-12 09:50:38,482 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
-2025-10-12 09:50:38,494 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:50:38,494 - root - INFO - Time since last close for VSME is None minutes, net percent 0
-2025-10-12 09:50:38,561 - root - INFO - Last 20 minutes volume is low for VSME: 43031
-2025-10-12 09:50:38,576 - root - WARNING - stock is already in the open positions
-2025-10-12 09:50:38,590 - root - INFO - swing_strategy_close_long for scale 5Min stock YSXT
-2025-10-12 09:50:38,638 - root - INFO - Profit percent for YSXT is 1.65975
-2025-10-12 09:50:38,638 - root - INFO - Latest 1min close price for YSXT: 2.51
-2025-10-12 09:50:38,661 - root - INFO - High price DETECTED for YSXT is 2.5 and setting no_scalp to True
-2025-10-12 09:50:38,677 - root - INFO - Skipping SCALP for YSXT as it's in no_scalp list
-2025-10-12 09:50:38,703 - root - INFO - Test mode: Total profit so far: 745.8941926956177
-2025-10-12 09:50:38,782 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-12 09:50:38,793 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:50:38,793 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-12 09:50:38,840 - root - INFO - Last 20 minutes volume is low for FMFC: 27046
-2025-10-12 09:50:38,873 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
-2025-10-12 09:50:38,883 - root - INFO - Time since last close for GORV is 4.0 minutes, net percent -10.7527
-2025-10-12 09:50:38,883 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 4 minutes
-2025-10-12 09:50:38,908 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
-2025-10-12 09:50:38,922 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:50:38,922 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
-2025-10-12 09:50:38,951 - root - INFO - Last 20 minutes volume is low for SWKH: 22488
-2025-10-12 09:50:38,977 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
-2025-10-12 09:50:38,988 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:50:38,988 - root - INFO - Time since last close for VSME is None minutes, net percent 0
-2025-10-12 09:50:39,060 - root - INFO - Last 20 minutes volume is low for VSME: 43031
-2025-10-12 09:50:39,077 - root - WARNING - stock is already in the open positions
-2025-10-12 09:50:39,092 - root - INFO - swing_strategy_close_long for scale 5Min stock YSXT
-2025-10-12 09:50:39,135 - root - INFO - Profit percent for YSXT is 4.14938
-2025-10-12 09:50:39,135 - root - INFO - Latest 1min close price for YSXT: 2.51
-2025-10-12 09:50:39,214 - root - INFO - MACD is still rising for stock YSXT
-2025-10-12 09:50:39,215 - root - INFO - Not enough profit percent to scalp for YSXT: 4.14938
-2025-10-12 09:50:39,229 - root - INFO - Skipping SCALP for YSXT as it's in no_scalp list
-2025-10-12 09:50:39,254 - root - INFO - Test mode: Total profit so far: 745.8941926956177
-2025-10-12 09:50:39,321 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-12 09:50:39,332 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:50:39,332 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-12 09:50:39,370 - root - INFO - Last 20 minutes volume is low for FMFC: 27046
-2025-10-12 09:50:39,401 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
-2025-10-12 09:50:39,413 - root - INFO - Time since last close for GORV is 5.0 minutes, net percent -10.7527
-2025-10-12 09:50:39,413 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 5 minutes
-2025-10-12 09:50:39,439 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
-2025-10-12 09:50:39,452 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:50:39,452 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
-2025-10-12 09:50:39,479 - root - INFO - Last 20 minutes volume is low for SWKH: 20438
-2025-10-12 09:50:39,503 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
-2025-10-12 09:50:39,518 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:50:39,519 - root - INFO - Time since last close for VSME is None minutes, net percent 0
-2025-10-12 09:50:39,578 - root - INFO - Last 20 minutes volume is low for VSME: 42774
-2025-10-12 09:50:39,593 - root - WARNING - stock is already in the open positions
-2025-10-12 09:50:39,610 - root - INFO - swing_strategy_close_long for scale 5Min stock YSXT
-2025-10-12 09:50:39,656 - root - INFO - Profit percent for YSXT is 4.14938
-2025-10-12 09:50:39,657 - root - INFO - Latest 1min close price for YSXT: 2.49
-2025-10-12 09:50:39,732 - root - INFO - MACD is still rising for stock YSXT
-2025-10-12 09:50:39,733 - root - INFO - Not enough profit percent to scalp for YSXT: 4.14938
-2025-10-12 09:50:39,746 - root - INFO - Skipping SCALP for YSXT as it's in no_scalp list
-2025-10-12 09:50:39,772 - root - INFO - Test mode: Total profit so far: 737.595440864563
-2025-10-12 09:50:39,833 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-12 09:50:39,843 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:50:39,843 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-12 09:50:39,889 - root - INFO - Last 20 minutes volume is low for FMFC: 27027
-2025-10-12 09:50:39,914 - root - INFO - swing_strategy_open_long for scale 5Min stock GORV
-2025-10-12 09:50:39,927 - root - INFO - Time since last close for GORV is 6.0 minutes, net percent -10.7527
-2025-10-12 09:50:39,927 - root - INFO - ***** stock: GORV Scale: 5Min Time since last close: 6 minutes
-2025-10-12 09:50:39,950 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
-2025-10-12 09:50:39,963 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:50:39,963 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
-2025-10-12 09:50:39,999 - root - INFO - Last 20 minutes volume is low for SWKH: 20438
-2025-10-12 09:50:40,026 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
-2025-10-12 09:50:40,037 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:50:40,038 - root - INFO - Time since last close for VSME is None minutes, net percent 0
-2025-10-12 09:50:40,109 - root - INFO - Last 20 minutes volume is low for VSME: 28648
-2025-10-12 09:50:40,126 - root - WARNING - stock is already in the open positions
-2025-10-12 09:50:40,139 - root - INFO - swing_strategy_close_long for scale 5Min stock YSXT
-2025-10-12 09:50:40,184 - root - INFO - Profit percent for YSXT is 3.3195
-2025-10-12 09:50:40,185 - root - INFO - Latest 1min close price for YSXT: 2.5496
-2025-10-12 09:50:40,209 - root - INFO - High price DETECTED for YSXT is 2.51 and setting no_scalp to True
-2025-10-12 09:50:40,226 - root - INFO - Skipping SCALP for YSXT as it's in no_scalp list
-2025-10-12 09:50:40,251 - root - INFO - Test mode: Total profit so far: 762.3257303237915
-2025-10-12 09:50:40,252 - root - INFO - ('2025-10-10T08:41:00-04:00', '2025-10-10T08:41:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T04:00:00-04:00')
-2025-10-12 09:50:40,252 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T08:41:00-04:00
-2025-10-12 09:50:40,274 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:50:41,591 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:50:42,620 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:50:42,964 - root - INFO -  MACD calculation for APLD due to high change percent: 28.4397
-2025-10-12 09:50:43,034 - root - INFO - MACD not positive for APLD
-2025-10-12 09:50:43,310 - root - INFO -  MACD calculation for ARAY due to high change percent: 13.5135
-2025-10-12 09:50:43,380 - root - INFO - MACD not positive for ARAY
-2025-10-12 09:50:43,821 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:50:44,422 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:50:45,498 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:50:46,682 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:50:47,515 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:50:48,415 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:50:48,730 - root - INFO -  MACD calculation for CODI due to high change percent: 22.449
-2025-10-12 09:50:48,790 - root - INFO - MACD not positive for CODI
-2025-10-12 09:50:49,053 - root - INFO -  MACD calculation for CRML due to high change percent: 16.5874
-2025-10-12 09:50:49,215 - root - INFO -  MACD calculation for CRMLW due to high change percent: 23.2339
-2025-10-12 09:50:49,257 - root - INFO - MACD not positive for CRMLW
-2025-10-12 09:50:49,317 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:50:49,975 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:50:50,998 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:50:51,619 - root - INFO -  MACD calculation for ELBM due to high change percent: 10.9577
-2025-10-12 09:50:51,693 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:50:52,517 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:50:53,077 - root - INFO -  MACD calculation for FMFC due to high change percent: 37.0272
-2025-10-12 09:50:53,144 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:50:53,753 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:50:54,687 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:50:54,784 - root - INFO -  MACD calculation for GORV due to high change percent: 26.7925
-2025-10-12 09:50:55,462 - root - INFO -  MACD calculation for GWH due to high change percent: 121.221
-2025-10-12 09:50:55,531 - root - INFO - MACD not positive for GWH
-2025-10-12 09:50:55,939 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:50:56,821 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:50:57,626 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:50:58,667 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:50:59,502 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:51:00,393 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:51:01,771 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:51:02,534 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:51:03,483 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:51:04,311 - root - INFO -  MACD calculation for NMG due to high change percent: 10.5413
-2025-10-12 09:51:04,596 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:51:05,203 - root - INFO -  MACD calculation for NVA due to high change percent: 13.071
-2025-10-12 09:51:05,825 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:51:06,680 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:51:07,389 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:51:08,486 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:51:09,522 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:51:10,556 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:51:11,533 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:51:11,910 - root - INFO -  MACD calculation for SGBX due to high change percent: 86.1111
-2025-10-12 09:51:11,961 - root - INFO - MACD not positive for SGBX
-2025-10-12 09:51:12,018 - root - INFO -  MACD calculation for SGD due to high change percent: 11.5385
-2025-10-12 09:51:12,723 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:51:14,237 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:51:14,415 - root - INFO -  MACD calculation for STKH due to high change percent: 10.0775
-2025-10-12 09:51:15,005 - root - INFO -  MACD calculation for SWKH due to high change percent: 23.8889
-2025-10-12 09:51:15,257 - root - INFO -  MACD calculation for TALK due to high change percent: 13.4021
-2025-10-12 09:51:15,469 - root - INFO -  MACD calculation for TAOX due to high change percent: 11.9887
-2025-10-12 09:51:15,583 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:51:15,845 - root - INFO -  MACD calculation for TE due to high change percent: 16.188
-2025-10-12 09:51:16,820 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:51:18,043 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:51:18,147 - root - INFO -  MACD calculation for USARW due to high change percent: 17.8075
-2025-10-12 09:51:19,331 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:51:19,443 - root - INFO -  MACD calculation for VSME due to high change percent: 20.7692
-2025-10-12 09:51:19,782 - root - INFO -  MACD calculation for WAI due to high change percent: 25.4902
-2025-10-12 09:51:19,823 - root - INFO - MACD not positive for WAI
-2025-10-12 09:51:20,558 - root - INFO -  Get bars start time 2025-10-10T08:36:00-04:00 end_time 2025-10-10T08:41:00-04:00
-2025-10-12 09:51:20,980 - root - INFO -  MACD calculation for YHGJ due to high change percent: 35.0
-2025-10-12 09:51:21,009 - root - INFO - MACD not positive for YHGJ
-2025-10-12 09:51:21,056 - root - INFO -  MACD calculation for YSXT due to high change percent: 18.932
-2025-10-12 09:51:21,560 - root - INFO - Updating change percent of stocks
-2025-10-12 09:51:22,316 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-12 09:51:22,320 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:51:22,320 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-12 09:51:22,370 - root - INFO - Last 20 minutes volume is low for FMFC: 27027
-2025-10-12 09:51:22,379 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
-2025-10-12 09:51:22,383 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 09:51:22,383 - root - INFO - Time since last close for VSME is None minutes, net percent 0
+2025-10-12 09:55:21,491 - root - INFO - MACD not positive for UAMY
+2025-10-12 09:55:22,288 - root - INFO -  Get bars start time 2025-10-10T09:01:00-04:00 end_time 2025-10-10T09:06:00-04:00
+2025-10-12 09:55:22,424 - root - INFO -  MACD calculation for USARW due to high change percent: 15.2856
+2025-10-12 09:55:22,476 - root - INFO - MACD not positive for USARW
+2025-10-12 09:55:23,605 - root - INFO -  Get bars start time 2025-10-10T09:01:00-04:00 end_time 2025-10-10T09:06:00-04:00
+2025-10-12 09:55:23,720 - root - INFO -  MACD calculation for VSME due to high change percent: 11.5385
+2025-10-12 09:55:23,777 - root - INFO - MACD not positive for VSME
+2025-10-12 09:55:24,246 - root - INFO -  MACD calculation for WAI due to high change percent: 21.2418
+2025-10-12 09:55:24,303 - root - INFO - MACD not positive for WAI
+2025-10-12 09:55:24,900 - root - INFO -  Get bars start time 2025-10-10T09:01:00-04:00 end_time 2025-10-10T09:06:00-04:00
+2025-10-12 09:55:25,810 - root - INFO -  MACD calculation for YHGJ due to high change percent: 39.0
+2025-10-12 09:55:25,854 - root - INFO - MACD not positive for YHGJ
+2025-10-12 09:55:25,917 - root - INFO -  MACD calculation for YSXT due to high change percent: 24.7573
+2025-10-12 09:55:26,352 - root - INFO - Updating change percent of stocks
+2025-10-12 09:55:27,075 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
+2025-10-12 09:55:27,078 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:55:27,078 - root - INFO - Time since last close for SLE is None minutes, net percent 0
+2025-10-12 09:55:27,123 - root - INFO - Last 5 minutes maximum volume candle is green for SLE
+2025-10-12 09:55:27,159 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-12 09:55:27,160 - root - INFO - SLE:======= 5.32===>BUY========>TrendUp2928373
+2025-10-12 09:55:27,176 - root - INFO - ****************** OPEN LONG for SLE
+2025-10-12 09:55:27,191 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-12 09:55:27,196 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:55:27,197 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-12 09:55:27,240 - root - INFO - Last 20 minutes volume is low for FMFC: 20839
+2025-10-12 09:55:27,255 - root - INFO - swing_strategy_open_long for scale 5Min stock YSXT
+2025-10-12 09:55:27,262 - root - INFO - Time since last close for YSXT is 2.0 minutes, net percent 7.88382
+2025-10-12 09:55:27,262 - root - INFO - ***** stock: YSXT Scale: 5Min Time since last close: 2 minutes
+2025-10-12 09:55:27,276 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
+2025-10-12 09:55:27,282 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:55:27,282 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
+2025-10-12 09:55:27,310 - root - INFO - Last 20 minutes volume is low for SWKH: 17339
+2025-10-12 09:55:27,331 - root - INFO - swing_strategy_open_long for scale 5Min stock QTTB
+2025-10-12 09:55:27,341 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:55:27,341 - root - INFO - Time since last close for QTTB is None minutes, net percent 0
+2025-10-12 09:55:27,415 - root - INFO - Last 5 minutes maximum volume candle is green for QTTB
+2025-10-12 09:55:27,525 - root - INFO - Trend up basic conditions not met for QTTB: price_above_emas=False, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
+2025-10-12 09:55:27,542 - root - INFO - swing_strategy_close_long for scale 5Min stock CABA
+2025-10-12 09:55:27,660 - root - INFO - Profit percent for CABA is -0.904249
+2025-10-12 09:55:27,660 - root - INFO - Latest 1min close price for CABA: 3.19
+2025-10-12 09:55:27,777 - root - INFO - MACD is still rising for stock CABA
+2025-10-12 09:55:27,777 - root - INFO - Not enough profit percent to scalp for CABA: -0.904249
+2025-10-12 09:55:27,798 - root - INFO - Skipping SCALP for CABA as it's in no_scalp list
+2025-10-12 09:55:27,799 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
+2025-10-12 09:55:27,849 - root - INFO - Profit percent for SLE is 0
+2025-10-12 09:55:27,849 - root - INFO - Latest 1min close price for SLE: 5.32
+2025-10-12 09:55:27,881 - root - INFO - High price DETECTED for SLE is 0.0 and setting no_scalp to True
+2025-10-12 09:55:27,893 - root - INFO - Skipping SCALP for SLE as it's in no_scalp list
+2025-10-12 09:55:27,920 - root - INFO - Test mode: Total profit so far: 771.0993614196777
+2025-10-12 09:55:27,980 - root - WARNING - stock is already in the open positions
+2025-10-12 09:55:28,005 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-12 09:55:28,016 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:55:28,016 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-12 09:55:28,054 - root - INFO - Last 20 minutes volume is low for FMFC: 20839
+2025-10-12 09:55:28,079 - root - INFO - swing_strategy_open_long for scale 5Min stock YSXT
+2025-10-12 09:55:28,092 - root - INFO - Time since last close for YSXT is 3.0 minutes, net percent 7.88382
+2025-10-12 09:55:28,092 - root - INFO - ***** stock: YSXT Scale: 5Min Time since last close: 3 minutes
+2025-10-12 09:55:28,114 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
+2025-10-12 09:55:28,124 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:55:28,124 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
+2025-10-12 09:55:28,152 - root - INFO - Last 20 minutes volume is low for SWKH: 17339
+2025-10-12 09:55:28,179 - root - INFO - swing_strategy_open_long for scale 5Min stock QTTB
+2025-10-12 09:55:28,193 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:55:28,194 - root - INFO - Time since last close for QTTB is None minutes, net percent 0
+2025-10-12 09:55:28,278 - root - INFO - Last 5 minutes maximum volume candle is green for QTTB
+2025-10-12 09:55:28,308 - root - INFO - 9 EMA is in downtrend, not opening long position for QTTB
+2025-10-12 09:55:28,322 - root - INFO - swing_strategy_close_long for scale 5Min stock CABA
+2025-10-12 09:55:28,444 - root - INFO - Profit percent for CABA is -1.21392
+2025-10-12 09:55:28,444 - root - INFO - Latest 1min close price for CABA: 3.1992
+2025-10-12 09:55:28,531 - root - INFO - MACD is still rising for stock CABA
+2025-10-12 09:55:28,531 - root - INFO - Not enough profit percent to scalp for CABA: -1.21392
+2025-10-12 09:55:28,550 - root - INFO - Skipping SCALP for CABA as it's in no_scalp list
+2025-10-12 09:55:28,551 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
+2025-10-12 09:55:28,599 - root - INFO - Profit percent for SLE is 0.0
+2025-10-12 09:55:28,599 - root - INFO - Latest 1min close price for SLE: 5.63
+2025-10-12 09:55:28,626 - root - INFO - High price DETECTED for SLE is 5.32 and setting no_scalp to True
+2025-10-12 09:55:28,639 - root - INFO - Skipping SCALP for SLE as it's in no_scalp list
+2025-10-12 09:55:28,666 - root - INFO - Test mode: Total profit so far: 832.2190399169922
+2025-10-12 09:55:28,724 - root - WARNING - stock is already in the open positions
+2025-10-12 09:55:28,750 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-12 09:55:28,760 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:55:28,760 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-12 09:55:28,801 - root - INFO - Last 20 minutes volume is low for FMFC: 20990
+2025-10-12 09:55:28,834 - root - INFO - swing_strategy_open_long for scale 5Min stock YSXT
+2025-10-12 09:55:28,844 - root - INFO - Time since last close for YSXT is 4.0 minutes, net percent 7.88382
+2025-10-12 09:55:28,844 - root - INFO - ***** stock: YSXT Scale: 5Min Time since last close: 4 minutes
+2025-10-12 09:55:28,871 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
+2025-10-12 09:55:28,881 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:55:28,881 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
+2025-10-12 09:55:28,909 - root - INFO - Last 20 minutes volume is low for SWKH: 17339
+2025-10-12 09:55:28,934 - root - INFO - swing_strategy_open_long for scale 5Min stock QTTB
+2025-10-12 09:55:28,948 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:55:28,948 - root - INFO - Time since last close for QTTB is None minutes, net percent 0
+2025-10-12 09:55:29,029 - root - INFO - Last 5 minutes maximum volume candle is green for QTTB
+2025-10-12 09:55:29,058 - root - INFO - 1min candle is not positive for QTTB: open 3.53 close 3.53
+2025-10-12 09:55:29,073 - root - INFO - swing_strategy_close_long for scale 5Min stock CABA
+2025-10-12 09:55:29,195 - root - INFO - Profit percent for CABA is -0.929023
+2025-10-12 09:55:29,196 - root - INFO - Latest 1min close price for CABA: 3.15
+2025-10-12 09:55:29,289 - root - INFO - MACD is still rising for stock CABA
+2025-10-12 09:55:29,289 - root - INFO - Not enough profit percent to scalp for CABA: -0.929023
+2025-10-12 09:55:29,308 - root - INFO - Skipping SCALP for CABA as it's in no_scalp list
+2025-10-12 09:55:29,308 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
+2025-10-12 09:55:29,357 - root - INFO - Profit percent for SLE is 5.82707
+2025-10-12 09:55:29,357 - root - INFO - Latest 1min close price for SLE: 5.51
+2025-10-12 09:55:29,441 - root - INFO - MACD is still rising for stock SLE
+2025-10-12 09:55:29,441 - root - INFO - Not enough profit percent to scalp for SLE: 5.82707
+2025-10-12 09:55:29,454 - root - INFO - Skipping SCALP for SLE as it's in no_scalp list
+2025-10-12 09:55:29,479 - root - INFO - Test mode: Total profit so far: 794.4266786575317
+2025-10-12 09:55:29,534 - root - WARNING - stock is already in the open positions
+2025-10-12 09:55:29,556 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-12 09:55:29,566 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:55:29,566 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-12 09:55:29,600 - root - INFO - Last 20 minutes volume is low for FMFC: 20990
+2025-10-12 09:55:29,625 - root - INFO - swing_strategy_open_long for scale 5Min stock YSXT
+2025-10-12 09:55:29,640 - root - INFO - Time since last close for YSXT is 5.0 minutes, net percent 7.88382
+2025-10-12 09:55:29,640 - root - INFO - ***** stock: YSXT Scale: 5Min Time since last close: 5 minutes
+2025-10-12 09:55:29,666 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
+2025-10-12 09:55:29,676 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:55:29,677 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
+2025-10-12 09:55:29,705 - root - INFO - Last 20 minutes volume is low for SWKH: 17339
+2025-10-12 09:55:29,732 - root - INFO - swing_strategy_open_long for scale 5Min stock QTTB
+2025-10-12 09:55:29,747 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:55:29,747 - root - INFO - Time since last close for QTTB is None minutes, net percent 0
+2025-10-12 09:55:29,820 - root - INFO - Last 5 minutes maximum volume candle is green for QTTB
+2025-10-12 09:55:29,853 - root - INFO - 1min candle is not positive for QTTB: open 3.53 close 3.53
+2025-10-12 09:55:29,865 - root - INFO - swing_strategy_close_long for scale 5Min stock CABA
+2025-10-12 09:55:29,984 - root - INFO - Profit percent for CABA is -2.45262
+2025-10-12 09:55:29,984 - root - INFO - Latest 1min close price for CABA: 3.1879
+2025-10-12 09:55:30,083 - root - INFO - MACD is still rising for stock CABA
+2025-10-12 09:55:30,083 - root - INFO - Not enough profit percent to scalp for CABA: -2.45262
+2025-10-12 09:55:30,103 - root - INFO - Skipping SCALP for CABA as it's in no_scalp list
+2025-10-12 09:55:30,104 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
+2025-10-12 09:55:30,153 - root - INFO - Profit percent for SLE is 3.57143
+2025-10-12 09:55:30,153 - root - INFO - Latest 1min close price for SLE: 5.8
+2025-10-12 09:55:30,179 - root - INFO - High price DETECTED for SLE is 5.63 and setting no_scalp to True
+2025-10-12 09:55:30,195 - root - INFO - Skipping SCALP for SLE as it's in no_scalp list
+2025-10-12 09:55:30,217 - root - INFO - Test mode: Total profit so far: 860.6746091842651
+2025-10-12 09:55:30,279 - root - WARNING - stock is already in the open positions
+2025-10-12 09:55:30,306 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-12 09:55:30,316 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:55:30,317 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-12 09:55:30,358 - root - INFO - Last 20 minutes volume is low for FMFC: 19384
+2025-10-12 09:55:30,387 - root - INFO - swing_strategy_open_long for scale 5Min stock YSXT
+2025-10-12 09:55:30,397 - root - INFO - Time since last close for YSXT is 6.0 minutes, net percent 7.88382
+2025-10-12 09:55:30,397 - root - INFO - ***** stock: YSXT Scale: 5Min Time since last close: 6 minutes
+2025-10-12 09:55:30,423 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
+2025-10-12 09:55:30,437 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:55:30,437 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
+2025-10-12 09:55:30,466 - root - INFO - Last 20 minutes volume is low for SWKH: 17251
+2025-10-12 09:55:30,492 - root - INFO - swing_strategy_open_long for scale 5Min stock QTTB
+2025-10-12 09:55:30,506 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:55:30,506 - root - INFO - Time since last close for QTTB is None minutes, net percent 0
+2025-10-12 09:55:30,584 - root - INFO - Last 5 minutes maximum volume candle is green for QTTB
+2025-10-12 09:55:30,615 - root - INFO - 9 EMA is in downtrend, not opening long position for QTTB
+2025-10-12 09:55:30,629 - root - INFO - swing_strategy_close_long for scale 5Min stock CABA
+2025-10-12 09:55:30,748 - root - INFO - Profit percent for CABA is -1.27895
+2025-10-12 09:55:30,748 - root - INFO - Latest 1min close price for CABA: 3.2
+2025-10-12 09:55:30,845 - root - INFO - MACD is still rising for stock CABA
+2025-10-12 09:55:30,846 - root - INFO - Not enough profit percent to scalp for CABA: -1.27895
+2025-10-12 09:55:30,865 - root - INFO - Skipping SCALP for CABA as it's in no_scalp list
+2025-10-12 09:55:30,866 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
+2025-10-12 09:55:30,913 - root - INFO - Profit percent for SLE is 9.02256
+2025-10-12 09:55:30,913 - root - INFO - Latest 1min close price for SLE: 5.9605
+2025-10-12 09:55:30,939 - root - INFO - High price DETECTED for SLE is 5.8 and setting no_scalp to True
+2025-10-12 09:55:30,954 - root - INFO - Skipping SCALP for SLE as it's in no_scalp list
+2025-10-12 09:55:30,977 - root - INFO - Test mode: Total profit so far: 894.590841293335
+2025-10-12 09:55:30,978 - root - INFO - ('2025-10-10T09:11:00-04:00', '2025-10-10T09:11:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T04:00:00-04:00')
+2025-10-12 09:55:30,978 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:31,002 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:32,233 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:33,334 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:33,525 - root - INFO -  MACD calculation for APLD due to high change percent: 27.0348
+2025-10-12 09:55:33,600 - root - INFO - MACD not positive for APLD
+2025-10-12 09:55:33,942 - root - INFO -  MACD calculation for ARAY due to high change percent: 11.8919
+2025-10-12 09:55:34,850 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:35,555 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:36,890 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:37,910 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:38,300 - root - INFO -  MACD calculation for CABA due to high change percent: 11.9298
+2025-10-12 09:55:39,051 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:40,166 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:40,417 - root - INFO -  MACD calculation for CODI due to high change percent: 17.0068
+2025-10-12 09:55:40,471 - root - INFO - MACD not positive for CODI
+2025-10-12 09:55:40,894 - root - INFO -  MACD calculation for CRML due to high change percent: 14.208
+2025-10-12 09:55:40,983 - root - INFO - MACD not positive for CRML
+2025-10-12 09:55:41,046 - root - INFO -  MACD calculation for CRMLW due to high change percent: 21.5071
+2025-10-12 09:55:41,084 - root - INFO - MACD not positive for CRMLW
+2025-10-12 09:55:41,150 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:41,842 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:42,842 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:43,598 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:44,498 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:45,260 - root - INFO -  MACD calculation for FMFC due to high change percent: 38.2979
+2025-10-12 09:55:45,331 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:45,941 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:46,780 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:47,369 - root - INFO -  MACD calculation for GWH due to high change percent: 122.674
+2025-10-12 09:55:47,437 - root - INFO - MACD not positive for GWH
+2025-10-12 09:55:47,691 - root - INFO -  MACD calculation for HCTI due to high change percent: 10.5072
+2025-10-12 09:55:47,844 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:48,964 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:50,052 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:51,392 - root - INFO -  MACD calculation for JCSE due to high change percent: 10.6061
+2025-10-12 09:55:51,581 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:52,694 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:53,956 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:55,070 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:55,716 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:56,685 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:57,538 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:58,534 - root - INFO -  MACD calculation for NVX due to high change percent: 11.3164
+2025-10-12 09:55:58,937 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:55:59,922 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:56:00,989 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:56:01,961 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:56:03,035 - root - INFO -  MACD calculation for QTTB due to high change percent: 12.6543
+2025-10-12 09:56:03,093 - root - INFO - MACD not positive for QTTB
+2025-10-12 09:56:03,431 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:56:04,570 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:56:05,615 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:56:05,943 - root - INFO -  MACD calculation for SGBX due to high change percent: 79.4753
+2025-10-12 09:56:06,010 - root - INFO - MACD not positive for SGBX
+2025-10-12 09:56:06,210 - root - INFO -  MACD calculation for SHPH due to high change percent: 10.7122
+2025-10-12 09:56:06,880 - root - INFO -  MACD calculation for SLE due to high change percent: 49.4382
+2025-10-12 09:56:07,207 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:56:08,543 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:56:09,277 - root - INFO -  MACD calculation for SWKH due to high change percent: 21.4583
+2025-10-12 09:56:09,536 - root - INFO -  MACD calculation for TALK due to high change percent: 11.6838
+2025-10-12 09:56:09,655 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:56:09,968 - root - INFO -  MACD calculation for TE due to high change percent: 14.0992
+2025-10-12 09:56:10,031 - root - INFO - MACD not positive for TE
+2025-10-12 09:56:10,915 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:56:11,542 - root - INFO -  MACD calculation for UAMY due to high change percent: 10.9375
+2025-10-12 09:56:11,613 - root - INFO - MACD not positive for UAMY
+2025-10-12 09:56:12,112 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:56:13,210 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:56:13,322 - root - INFO -  MACD calculation for VSME due to high change percent: 13.0769
+2025-10-12 09:56:13,374 - root - INFO - MACD not positive for VSME
+2025-10-12 09:56:13,572 - root - INFO -  MACD calculation for WAI due to high change percent: 22.2222
+2025-10-12 09:56:13,620 - root - INFO - MACD not positive for WAI
+2025-10-12 09:56:14,255 - root - INFO -  Get bars start time 2025-10-10T09:06:00-04:00 end_time 2025-10-10T09:11:00-04:00
+2025-10-12 09:56:14,429 - root - INFO -  MACD calculation for WWR due to high change percent: 10.101
+2025-10-12 09:56:14,989 - root - INFO -  MACD calculation for YHGJ due to high change percent: 38.3333
+2025-10-12 09:56:15,034 - root - INFO - MACD not positive for YHGJ
+2025-10-12 09:56:15,177 - root - INFO -  MACD calculation for YSXT due to high change percent: 25.2427
+2025-10-12 09:56:15,784 - root - INFO - Updating change percent of stocks
+2025-10-12 09:56:16,516 - root - WARNING - stock is already in the open positions
+2025-10-12 09:56:16,523 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-12 09:56:16,526 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:56:16,526 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-12 09:56:16,583 - root - INFO - Last 20 minutes volume is low for FMFC: 19384
+2025-10-12 09:56:16,592 - root - INFO - swing_strategy_open_long for scale 5Min stock YSXT
+2025-10-12 09:56:16,597 - root - INFO - Time since last close for YSXT is 7.0 minutes, net percent 7.88382
+2025-10-12 09:56:16,597 - root - INFO - ***** stock: YSXT Scale: 5Min Time since last close: 7 minutes
+2025-10-12 09:56:16,605 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
+2025-10-12 09:56:16,610 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:56:16,610 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
+2025-10-12 09:56:16,636 - root - INFO - Last 20 minutes volume is low for SWKH: 17251
+2025-10-12 09:56:16,648 - root - INFO - swing_strategy_open_long for scale 5Min stock ARAY
+2025-10-12 09:56:16,653 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:56:16,653 - root - INFO - Time since last close for ARAY is None minutes, net percent 0
+2025-10-12 09:56:16,744 - root - INFO - Last 20 minutes volume is low for ARAY: 30114
+2025-10-12 09:56:16,759 - root - INFO - swing_strategy_close_long for scale 5Min stock CABA
+2025-10-12 09:56:16,869 - root - INFO - Profit percent for CABA is -0.904249
+2025-10-12 09:56:16,869 - root - INFO - Latest 1min close price for CABA: 3.18
+2025-10-12 09:56:16,959 - root - INFO - MACD is still rising for stock CABA
+2025-10-12 09:56:16,959 - root - INFO - Not enough profit percent to scalp for CABA: -0.904249
+2025-10-12 09:56:16,977 - root - INFO - Skipping SCALP for CABA as it's in no_scalp list
+2025-10-12 09:56:16,978 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
+2025-10-12 09:56:17,025 - root - INFO - Profit percent for SLE is 12.0395
+2025-10-12 09:56:17,025 - root - INFO - Latest 1min close price for SLE: 5.73
+2025-10-12 09:56:17,111 - root - INFO - MACD is still rising for stock SLE
+2025-10-12 09:56:17,111 - root - INFO - Not enough profit percent to scalp for SLE: 12.0395
+2025-10-12 09:56:17,125 - root - INFO - Skipping SCALP for SLE as it's in no_scalp list
+2025-10-12 09:56:17,149 - root - INFO - Test mode: Total profit so far: 845.0702924728394
+2025-10-12 09:56:17,212 - root - WARNING - stock is already in the open positions
+2025-10-12 09:56:17,231 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-12 09:56:17,240 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:56:17,240 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-12 09:56:17,278 - root - INFO - Last 20 minutes volume is low for FMFC: 19384
+2025-10-12 09:56:17,305 - root - INFO - swing_strategy_open_long for scale 5Min stock YSXT
+2025-10-12 09:56:17,317 - root - INFO - Time since last close for YSXT is 8.0 minutes, net percent 7.88382
+2025-10-12 09:56:17,317 - root - INFO - ***** stock: YSXT Scale: 5Min Time since last close: 8 minutes
+2025-10-12 09:56:17,341 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
+2025-10-12 09:56:17,353 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:56:17,353 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
+2025-10-12 09:56:17,382 - root - INFO - Last 20 minutes volume is low for SWKH: 17251
+2025-10-12 09:56:17,407 - root - INFO - swing_strategy_open_long for scale 5Min stock ARAY
+2025-10-12 09:56:17,421 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:56:17,422 - root - INFO - Time since last close for ARAY is None minutes, net percent 0
+2025-10-12 09:56:17,502 - root - INFO - Last 20 minutes volume is low for ARAY: 30776
+2025-10-12 09:56:17,519 - root - INFO - swing_strategy_close_long for scale 5Min stock CABA
+2025-10-12 09:56:17,635 - root - INFO - Profit percent for CABA is -1.5236
+2025-10-12 09:56:17,635 - root - INFO - Latest 1min close price for CABA: 3.21
+2025-10-12 09:56:17,727 - root - INFO - MACD is still rising for stock CABA
+2025-10-12 09:56:17,727 - root - INFO - Not enough profit percent to scalp for CABA: -1.5236
+2025-10-12 09:56:17,746 - root - INFO - Skipping SCALP for CABA as it's in no_scalp list
+2025-10-12 09:56:17,747 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
+2025-10-12 09:56:17,792 - root - INFO - Profit percent for SLE is 7.70677
+2025-10-12 09:56:17,792 - root - INFO - Latest 1min close price for SLE: 5.76
+2025-10-12 09:56:17,876 - root - INFO - MACD is still rising for stock SLE
+2025-10-12 09:56:17,876 - root - INFO - Not enough profit percent to scalp for SLE: 7.70677
+2025-10-12 09:56:17,890 - root - INFO - Skipping SCALP for SLE as it's in no_scalp list
+2025-10-12 09:56:17,916 - root - INFO - Test mode: Total profit so far: 859.9996104240417
+2025-10-12 09:56:17,972 - root - WARNING - stock is already in the open positions
+2025-10-12 09:56:17,993 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-12 09:56:18,003 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:56:18,004 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-12 09:56:18,041 - root - INFO - Last 20 minutes volume is low for FMFC: 17531
+2025-10-12 09:56:18,069 - root - INFO - swing_strategy_open_long for scale 5Min stock YSXT
+2025-10-12 09:56:18,082 - root - INFO - Time since last close for YSXT is 9.0 minutes, net percent 7.88382
+2025-10-12 09:56:18,082 - root - INFO - ***** stock: YSXT Scale: 5Min Time since last close: 9 minutes
+2025-10-12 09:56:18,106 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
+2025-10-12 09:56:18,117 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:56:18,117 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
+2025-10-12 09:56:18,146 - root - INFO - Last 20 minutes volume is low for SWKH: 17251
+2025-10-12 09:56:18,163 - root - INFO - swing_strategy_open_long for scale 5Min stock ARAY
+2025-10-12 09:56:18,173 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:56:18,173 - root - INFO - Time since last close for ARAY is None minutes, net percent 0
+2025-10-12 09:56:18,245 - root - INFO - Last 20 minutes volume is low for ARAY: 30776
+2025-10-12 09:56:18,255 - root - INFO - swing_strategy_close_long for scale 5Min stock CABA
+2025-10-12 09:56:18,372 - root - INFO - Profit percent for CABA is -0.594575
+2025-10-12 09:56:18,372 - root - INFO - Latest 1min close price for CABA: 3.2005
+2025-10-12 09:56:18,465 - root - INFO - MACD is still rising for stock CABA
+2025-10-12 09:56:18,465 - root - INFO - Not enough profit percent to scalp for CABA: -0.594575
+2025-10-12 09:56:18,484 - root - INFO - Skipping SCALP for CABA as it's in no_scalp list
+2025-10-12 09:56:18,485 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
+2025-10-12 09:56:18,531 - root - INFO - Profit percent for SLE is 8.27068
+2025-10-12 09:56:18,532 - root - INFO - Latest 1min close price for SLE: 5.66
+2025-10-12 09:56:18,618 - root - INFO - MACD is still rising for stock SLE
+2025-10-12 09:56:18,618 - root - INFO - Not enough profit percent to scalp for SLE: 8.27068
+2025-10-12 09:56:18,631 - root - INFO - Skipping SCALP for SLE as it's in no_scalp list
+2025-10-12 09:56:18,657 - root - INFO - Test mode: Total profit so far: 838.2607154846191
+2025-10-12 09:56:18,718 - root - WARNING - stock is already in the open positions
+2025-10-12 09:56:18,742 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-12 09:56:18,751 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:56:18,752 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-12 09:56:18,791 - root - INFO - Last 20 minutes volume is low for FMFC: 17531
+2025-10-12 09:56:18,816 - root - INFO - swing_strategy_open_long for scale 5Min stock YSXT
+2025-10-12 09:56:18,828 - root - INFO - Time since last close for YSXT is 10.0 minutes, net percent 7.88382
+2025-10-12 09:56:18,860 - root - INFO - Last 5 minutes maximum volume candle is red for YSXT
+2025-10-12 09:56:18,888 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
+2025-10-12 09:56:18,902 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:56:18,902 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
+2025-10-12 09:56:18,931 - root - INFO - Last 20 minutes volume is low for SWKH: 17306
+2025-10-12 09:56:18,963 - root - INFO - swing_strategy_open_long for scale 5Min stock ARAY
+2025-10-12 09:56:18,974 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:56:18,974 - root - INFO - Time since last close for ARAY is None minutes, net percent 0
+2025-10-12 09:56:19,058 - root - INFO - Last 20 minutes volume is low for ARAY: 30776
+2025-10-12 09:56:19,074 - root - INFO - swing_strategy_close_long for scale 5Min stock CABA
+2025-10-12 09:56:19,210 - root - INFO - Profit percent for CABA is -0.888765
+2025-10-12 09:56:19,210 - root - INFO - Latest 1min close price for CABA: 3.21
+2025-10-12 09:56:19,303 - root - INFO - MACD is still rising for stock CABA
+2025-10-12 09:56:19,303 - root - INFO - Not enough profit percent to scalp for CABA: -0.888765
+2025-10-12 09:56:19,322 - root - INFO - Skipping SCALP for CABA as it's in no_scalp list
+2025-10-12 09:56:19,323 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
+2025-10-12 09:56:19,371 - root - INFO - Profit percent for SLE is 6.39098
+2025-10-12 09:56:19,371 - root - INFO - Latest 1min close price for SLE: 5.63
+2025-10-12 09:56:19,453 - root - INFO - MACD is still rising for stock SLE
+2025-10-12 09:56:19,453 - root - INFO - Not enough profit percent to scalp for SLE: 6.39098
+2025-10-12 09:56:19,467 - root - INFO - Skipping SCALP for SLE as it's in no_scalp list
+2025-10-12 09:56:19,495 - root - INFO - Test mode: Total profit so far: 835.56352186203
+2025-10-12 09:56:19,555 - root - WARNING - stock is already in the open positions
+2025-10-12 09:56:19,579 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
+2025-10-12 09:56:19,590 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:56:19,590 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
+2025-10-12 09:56:19,641 - root - INFO - Last 20 minutes volume is low for FMFC: 17531
+2025-10-12 09:56:19,674 - root - INFO - swing_strategy_open_long for scale 5Min stock YSXT
+2025-10-12 09:56:19,685 - root - INFO - Time since last close for YSXT is 11.0 minutes, net percent 7.88382
+2025-10-12 09:56:19,718 - root - INFO - Last 5 minutes maximum volume candle is red for YSXT
+2025-10-12 09:56:19,744 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
+2025-10-12 09:56:19,755 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:56:19,755 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
+2025-10-12 09:56:19,784 - root - INFO - Last 20 minutes volume is low for SWKH: 17306
+2025-10-12 09:56:19,811 - root - INFO - swing_strategy_open_long for scale 5Min stock ARAY
+2025-10-12 09:56:19,824 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 09:56:19,825 - root - INFO - Time since last close for ARAY is None minutes, net percent 0
+2025-10-12 09:56:19,908 - root - INFO - Last 20 minutes volume is low for ARAY: 30776
+2025-10-12 09:56:19,925 - root - INFO - swing_strategy_close_long for scale 5Min stock CABA
+2025-10-12 09:56:20,035 - root - INFO - Profit percent for CABA is -0.594575
+2025-10-12 09:56:20,035 - root - INFO - Latest 1min close price for CABA: 3.23
+2025-10-12 09:56:20,130 - root - INFO - No close long conditions met for CABA
+2025-10-12 09:56:20,149 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
+2025-10-12 09:56:20,201 - root - INFO - Profit percent for SLE is 5.82707
+2025-10-12 09:56:20,201 - root - INFO - Latest 1min close price for SLE: 5.17
+2025-10-12 09:56:20,291 - root - INFO - MACD is still rising for stock SLE
+2025-10-12 09:56:20,292 - root - INFO - Not enough profit percent to scalp for SLE: 5.82707
+2025-10-12 09:56:20,306 - root - INFO - Skipping SCALP for SLE as it's in no_scalp list
+2025-10-12 09:56:20,332 - root - INFO - Test mode: Total profit so far: 755.2908425927162
+2025-10-12 09:56:20,332 - root - INFO - ('2025-10-10T09:16:00-04:00', '2025-10-10T09:16:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T04:00:00-04:00')
+2025-10-12 09:56:20,332 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T09:16:00-04:00
+2025-10-12 09:56:20,363 - root - INFO -  Get bars start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T09:16:00-04:00
+2025-10-12 09:56:21,782 - root - INFO -  Get bars start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T09:16:00-04:00
+2025-10-12 09:56:23,048 - root - INFO -  Get bars start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T09:16:00-04:00
+2025-10-12 09:56:23,365 - root - INFO -  MACD calculation for APLD due to high change percent: 25.5046
+2025-10-12 09:56:23,439 - root - INFO - MACD not positive for APLD
+2025-10-12 09:56:23,946 - root - INFO -  MACD calculation for ARAY due to high change percent: 13.5135
+2025-10-12 09:56:24,881 - root - INFO -  Get bars start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T09:16:00-04:00
+2025-10-12 09:56:25,469 - root - INFO -  Get bars start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T09:16:00-04:00
+2025-10-12 09:56:25,924 - root - INFO -  Get bars start time 2025-10-10T09:11:00-04:00 end_time 2025-10-10T09:16:00-04:00
