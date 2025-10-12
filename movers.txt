@@ -2,11 +2,11 @@ Top Movers:
 +--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  QNRX  |      0      |     0     |    170.956     | 4308743 |    19.9439    |        8.16        |     -1.0     | 7.75398  |   49595    |      0      | 2025-10-10 14:41:00 |
-|  YHGJ  |      0      |     0     |    35.6667     | 1013021 |      8.14     |        6.0         |  8170000.0   | 5.86524  |   290731   |      0      | 2025-10-10 14:36:00 |
-|  WAI   |      0      |     0     |     28.268     | 2818780 |     3.925     |        3.06        |     0.0      |  3.038   |   343939   |      0      | 2025-10-10 14:36:00 |
-|  SLE   |      1      |     0     |    23.3483     | 4247219 |     4.3912    |        3.56        |  13570000.0  |   3.71   |   144436   |      0      | 2025-10-10 14:36:00 |
-|  SOAR  |      0      |     0     |    17.5799     |  641191 |     2.575     |        2.19        |  1290000.0   |   2.09   |  2219765   |      0      | 2025-10-10 14:36:00 |
+|  QNRX  |      0      |     0     |    155.208     | 4329762 |     20.825    |        8.16        |     -1.0     | 7.75398  |   49595    |      0      | 2025-10-10 14:46:00 |
+|  YHGJ  |      0      |     0     |     35.15      | 1015837 |     8.109     |        6.0         |  8170000.0   | 5.86524  |   290731   |      0      | 2025-10-10 14:46:00 |
+|  WAI   |      0      |     0     |    27.9379     | 2820562 |     3.9149    |        3.06        |     0.0      |  3.038   |   343939   |      0      | 2025-10-10 14:46:00 |
+|  SLE   |      0      |     0     |    22.1938     | 4255815 |     4.3501    |        3.56        |  13570000.0  |   3.71   |   144436   |      0      | 2025-10-10 14:46:00 |
+|  NVA   |      0      |     0     |    21.2234     |  72656  |    26.8025    |       22.11        |     -1.0     |  23.044  |   151047   |      0      | 2025-10-10 14:46:00 |
 +--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -20,365 +20,6 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-12 00:14:13,514 - root - INFO - Skipping SCALP for SLE as it's in no_scalp list
-2025-10-12 00:14:13,531 - root - INFO - Test mode: Total profit so far: 1176.2780935764313
-2025-10-12 00:14:13,590 - root - INFO - swing_strategy_open_long for scale 5Min stock QNRX
-2025-10-12 00:14:13,599 - root - INFO - Time since last close for QNRX is 256.0 minutes, net percent 17.6818
-2025-10-12 00:14:13,633 - root - INFO - Last 5 minutes maximum volume candle is red for QNRX
-2025-10-12 00:14:13,676 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-12 00:14:13,688 - root - INFO - Time since last close for WAI is 101.0 minutes, net percent 8.02596
-2025-10-12 00:14:13,750 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
-2025-10-12 00:14:13,769 - root - INFO - 1min candle is not positive for WAI: open 3.92 close 3.9124
-2025-10-12 00:14:13,778 - root - WARNING - stock is already in the open positions
-2025-10-12 00:14:13,796 - root - INFO - swing_strategy_open_long for scale 5Min stock SOAR
-2025-10-12 00:14:13,808 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 00:14:13,809 - root - INFO - Time since last close for SOAR is None minutes, net percent 0
-2025-10-12 00:14:13,905 - root - INFO - Last 5 minutes maximum volume candle is green for SOAR
-2025-10-12 00:14:13,963 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
-2025-10-12 00:14:13,963 - root - INFO - SOAR:======= 2.61===>BUY========>TrendUp249405
-2025-10-12 00:14:13,995 - root - INFO - ****************** OPEN LONG for SOAR
-2025-10-12 00:14:14,016 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
-2025-10-12 00:14:14,058 - root - INFO - Profit percent for SLE is 0.147806
-2025-10-12 00:14:14,059 - root - INFO - Latest 1min close price for SLE: 4.38
-2025-10-12 00:14:14,078 - root - INFO - High price DETECTED for SLE is 4.3537 and setting no_scalp to True
-2025-10-12 00:14:14,089 - root - INFO - Skipping SCALP for SLE as it's in no_scalp list
-2025-10-12 00:14:14,089 - root - INFO - swing_strategy_close_long for scale 5Min stock SOAR
-2025-10-12 00:14:14,207 - root - INFO - Profit percent for SOAR is 0
-2025-10-12 00:14:14,207 - root - INFO - Latest 1min close price for SOAR: 2.61
-2025-10-12 00:14:14,231 - root - INFO - High price DETECTED for SOAR is 0.0 and setting no_scalp to True
-2025-10-12 00:14:14,243 - root - INFO - Skipping SCALP for SOAR as it's in no_scalp list
-2025-10-12 00:14:14,267 - root - INFO - Test mode: Total profit so far: 1186.3473777770996
-2025-10-12 00:14:14,340 - root - INFO - swing_strategy_open_long for scale 5Min stock QNRX
-2025-10-12 00:14:14,350 - root - INFO - Time since last close for QNRX is 257.0 minutes, net percent 17.6818
-2025-10-12 00:14:14,377 - root - INFO - Last 5 minutes maximum volume candle is green for QNRX
-2025-10-12 00:14:14,399 - root - INFO - 1min candle is not positive for QNRX: open 22.33 close 22.2129
-2025-10-12 00:14:14,445 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-12 00:14:14,454 - root - INFO - Time since last close for WAI is 102.0 minutes, net percent 8.02596
-2025-10-12 00:14:14,516 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
-2025-10-12 00:14:14,586 - root - INFO - Trend up basic conditions not met for WAI: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-12 00:14:14,598 - root - WARNING - stock is already in the open positions
-2025-10-12 00:14:14,612 - root - WARNING - stock is already in the open positions
-2025-10-12 00:14:14,623 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
-2025-10-12 00:14:14,669 - root - INFO - Profit percent for SLE is 1.15473
-2025-10-12 00:14:14,670 - root - INFO - Latest 1min close price for SLE: 4.38
-2025-10-12 00:14:14,753 - root - INFO - MACD is still rising for stock SLE
-2025-10-12 00:14:14,753 - root - INFO - Not enough profit percent to scalp for SLE: 1.15473
-2025-10-12 00:14:14,766 - root - INFO - Skipping SCALP for SLE as it's in no_scalp list
-2025-10-12 00:14:14,766 - root - INFO - swing_strategy_close_long for scale 5Min stock SOAR
-2025-10-12 00:14:14,882 - root - INFO - Profit percent for SOAR is 0.0
-2025-10-12 00:14:14,882 - root - INFO - Latest 1min close price for SOAR: 2.62
-2025-10-12 00:14:14,907 - root - INFO - High price DETECTED for SOAR is 2.61 and setting no_scalp to True
-2025-10-12 00:14:14,920 - root - INFO - Skipping SCALP for SOAR as it's in no_scalp list
-2025-10-12 00:14:14,942 - root - INFO - Test mode: Total profit so far: 1190.178795337677
-2025-10-12 00:14:15,010 - root - INFO - swing_strategy_open_long for scale 5Min stock QNRX
-2025-10-12 00:14:15,020 - root - INFO - Time since last close for QNRX is 258.0 minutes, net percent 17.6818
-2025-10-12 00:14:15,049 - root - INFO - Last 5 minutes maximum volume candle is green for QNRX
-2025-10-12 00:14:15,069 - root - INFO - 1min candle is not positive for QNRX: open 22.3 close 21.95
-2025-10-12 00:14:15,116 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-12 00:14:15,127 - root - INFO - Time since last close for WAI is 103.0 minutes, net percent 8.02596
-2025-10-12 00:14:15,189 - root - INFO - Last 5 minutes maximum volume candle is red for WAI
-2025-10-12 00:14:15,202 - root - WARNING - stock is already in the open positions
-2025-10-12 00:14:15,216 - root - WARNING - stock is already in the open positions
-2025-10-12 00:14:15,226 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
-2025-10-12 00:14:15,267 - root - INFO - Profit percent for SLE is 1.15473
-2025-10-12 00:14:15,267 - root - INFO - Latest 1min close price for SLE: 4.41
-2025-10-12 00:14:15,295 - root - INFO - High price DETECTED for SLE is 4.38 and setting no_scalp to True
-2025-10-12 00:14:15,306 - root - INFO - Skipping SCALP for SLE as it's in no_scalp list
-2025-10-12 00:14:15,307 - root - INFO - swing_strategy_close_long for scale 5Min stock SOAR
-2025-10-12 00:14:15,418 - root - INFO - Profit percent for SOAR is 0.383142
-2025-10-12 00:14:15,418 - root - INFO - Latest 1min close price for SOAR: 2.5989
-2025-10-12 00:14:15,511 - root - INFO - MACD is still rising for stock SOAR
-2025-10-12 00:14:15,511 - root - INFO - Not enough profit percent to scalp for SOAR: 0.383142
-2025-10-12 00:14:15,528 - root - INFO - Skipping SCALP for SOAR as it's in no_scalp list
-2025-10-12 00:14:15,550 - root - INFO - Test mode: Total profit so far: 1189.022910118103
-2025-10-12 00:14:15,613 - root - INFO - swing_strategy_open_long for scale 5Min stock QNRX
-2025-10-12 00:14:15,625 - root - INFO - Time since last close for QNRX is 259.0 minutes, net percent 17.6818
-2025-10-12 00:14:15,656 - root - INFO - Last 5 minutes maximum volume candle is red for QNRX
-2025-10-12 00:14:15,699 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-12 00:14:15,710 - root - INFO - Time since last close for WAI is 104.0 minutes, net percent 8.02596
-2025-10-12 00:14:15,776 - root - INFO - Last 5 minutes maximum volume candle is red for WAI
-2025-10-12 00:14:15,789 - root - WARNING - stock is already in the open positions
-2025-10-12 00:14:15,803 - root - WARNING - stock is already in the open positions
-2025-10-12 00:14:15,813 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
-2025-10-12 00:14:15,856 - root - INFO - Profit percent for SLE is 1.84758
-2025-10-12 00:14:15,856 - root - INFO - Latest 1min close price for SLE: 4.4599
-2025-10-12 00:14:15,882 - root - INFO - High price DETECTED for SLE is 4.41 and setting no_scalp to True
-2025-10-12 00:14:15,896 - root - INFO - Skipping SCALP for SLE as it's in no_scalp list
-2025-10-12 00:14:15,896 - root - INFO - swing_strategy_close_long for scale 5Min stock SOAR
-2025-10-12 00:14:16,010 - root - INFO - Profit percent for SOAR is -0.425287
-2025-10-12 00:14:16,010 - root - INFO - Latest 1min close price for SOAR: 2.5701
-2025-10-12 00:14:16,107 - root - INFO - MACD is still rising for stock SOAR
-2025-10-12 00:14:16,107 - root - INFO - Not enough profit percent to scalp for SOAR: -0.425287
-2025-10-12 00:14:16,123 - root - INFO - Skipping SCALP for SOAR as it's in no_scalp list
-2025-10-12 00:14:16,147 - root - INFO - Test mode: Total profit so far: 1189.512677192688
-2025-10-12 00:14:16,147 - root - INFO - ('2025-10-10T14:36:00-04:00', '2025-10-10T14:36:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T04:00:00-04:00')
-2025-10-12 00:14:16,147 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T14:36:00-04:00
-2025-10-12 00:14:16,175 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:14:16,451 - root - INFO -  MACD calculation for ABAT due to high change percent: 10.9776
-2025-10-12 00:14:16,516 - root - INFO - MACD not positive for ABAT
-2025-10-12 00:14:20,515 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:14:25,564 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:14:26,432 - root - INFO -  MACD calculation for APLD due to high change percent: 15.4319
-2025-10-12 00:14:29,619 - root - INFO -  MACD calculation for ASPI due to high change percent: 17.6045
-2025-10-12 00:14:29,681 - root - INFO - MACD not positive for ASPI
-2025-10-12 00:14:30,115 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:14:33,589 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:14:37,912 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:14:41,917 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:14:44,336 - root - INFO -  MACD calculation for CATX due to high change percent: 27.2487
-2025-10-12 00:14:44,388 - root - INFO - MACD not positive for CATX
-2025-10-12 00:14:45,914 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:14:46,170 - root - INFO -  MACD calculation for CEPT due to high change percent: 10.8957
-2025-10-12 00:14:46,198 - root - INFO - MACD not positive for CEPT
-2025-10-12 00:14:49,722 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:14:51,536 - root - INFO -  MACD calculation for CODI due to high change percent: 18.5034
-2025-10-12 00:14:52,813 - root - INFO -  MACD calculation for CPSH due to high change percent: 12.1809
-2025-10-12 00:14:53,973 - root - INFO -  MACD calculation for CRMLW due to high change percent: 13.0298
-2025-10-12 00:14:54,031 - root - INFO - MACD not positive for CRMLW
-2025-10-12 00:14:54,196 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:14:58,427 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:14:59,443 - root - INFO -  MACD calculation for DGXX due to high change percent: 21.2121
-2025-10-12 00:14:59,512 - root - INFO - MACD not positive for DGXX
-2025-10-12 00:15:02,542 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:15:05,904 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:15:06,615 - root - INFO -  MACD calculation for ENTO due to high change percent: 12.6609
-2025-10-12 00:15:06,663 - root - INFO - MACD not positive for ENTO
-2025-10-12 00:15:10,697 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:15:11,754 - root - INFO -  MACD calculation for FBYDW due to high change percent: 12.4183
-2025-10-12 00:15:12,238 - root - INFO -  MACD calculation for FEAM due to high change percent: 19.3775
-2025-10-12 00:15:12,292 - root - INFO - MACD not positive for FEAM
-2025-10-12 00:15:14,365 - root - INFO -  MACD calculation for FMFC due to high change percent: 11.9385
-2025-10-12 00:15:14,505 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:15:18,402 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:15:21,307 - root - INFO -  MACD calculation for GLUE due to high change percent: 16.5485
-2025-10-12 00:15:21,369 - root - INFO - MACD not positive for GLUE
-2025-10-12 00:15:22,277 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:15:25,053 - root - INFO -  MACD calculation for GWAV due to high change percent: 10.8706
-2025-10-12 00:15:25,118 - root - INFO - MACD not positive for GWAV
-2025-10-12 00:15:25,176 - root - INFO -  MACD calculation for GWH due to high change percent: 144.767
-2025-10-12 00:15:25,222 - root - INFO - MACD not positive for GWH
-2025-10-12 00:15:25,409 - root - INFO -  MACD calculation for GYRE due to high change percent: 14.2657
-2025-10-12 00:15:25,442 - root - INFO - MACD not positive for GYRE
-2025-10-12 00:15:26,735 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:15:28,621 - root - INFO -  MACD calculation for HONDU due to high change percent: 13.0276
-2025-10-12 00:15:28,650 - root - INFO - MACD not positive for HONDU
-2025-10-12 00:15:28,713 - root - INFO -  MACD calculation for HONDW due to high change percent: 12.0562
-2025-10-12 00:15:31,079 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:15:35,520 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:15:39,648 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:15:43,524 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:15:47,276 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:15:51,528 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:15:54,989 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:15:59,201 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:16:02,004 - root - INFO -  MACD calculation for NIOBW due to high change percent: 21.2938
-2025-10-12 00:16:02,062 - root - INFO - MACD not positive for NIOBW
-2025-10-12 00:16:03,600 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:16:06,030 - root - INFO -  MACD calculation for NVA due to high change percent: 14.5002
-2025-10-12 00:16:06,084 - root - INFO - MACD not positive for NVA
-2025-10-12 00:16:06,129 - root - INFO -  MACD calculation for NVAWW due to high change percent: 30.1418
-2025-10-12 00:16:06,154 - root - INFO - MACD not positive for NVAWW
-2025-10-12 00:16:06,863 - root - INFO -  MACD calculation for NVX due to high change percent: 38.4434
-2025-10-12 00:16:06,939 - root - INFO - MACD not positive for NVX
-2025-10-12 00:16:07,730 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:16:08,186 - root - INFO -  MACD calculation for OBIO due to high change percent: 11.8467
-2025-10-12 00:16:08,243 - root - INFO - MACD not positive for OBIO
-2025-10-12 00:16:10,672 - root - INFO -  MACD calculation for ONMD due to high change percent: 11.0487
-2025-10-12 00:16:11,933 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:16:16,138 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:16:20,063 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:16:22,025 - root - INFO -  MACD calculation for QNRX due to high change percent: 176.348
-2025-10-12 00:16:22,430 - root - INFO -  MACD calculation for QTTB due to high change percent: 11.7284
-2025-10-12 00:16:23,312 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:16:26,402 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:16:30,761 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:16:32,065 - root - INFO -  MACD calculation for SGBX due to high change percent: 81.4815
-2025-10-12 00:16:32,129 - root - INFO - MACD not positive for SGBX
-2025-10-12 00:16:34,112 - root - INFO -  MACD calculation for SKBL due to high change percent: 13.3094
-2025-10-12 00:16:34,174 - root - INFO - MACD not positive for SKBL
-2025-10-12 00:16:34,925 - root - INFO -  MACD calculation for SLE due to high change percent: 21.809
-2025-10-12 00:16:35,739 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:16:37,314 - root - INFO -  MACD calculation for SOAR due to high change percent: 19.1781
-2025-10-12 00:16:40,326 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:16:44,221 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:16:49,022 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:16:51,714 - root - INFO -  MACD calculation for UAMY due to high change percent: 13.4651
-2025-10-12 00:16:51,806 - root - INFO - MACD not positive for UAMY
-2025-10-12 00:16:52,164 - root - INFO -  MACD calculation for UEC due to high change percent: 13.5631
-2025-10-12 00:16:52,239 - root - INFO - MACD not positive for UEC
-2025-10-12 00:16:53,778 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:16:53,949 - root - INFO -  MACD calculation for USARW due to high change percent: 20.6897
-2025-10-12 00:16:53,991 - root - INFO - MACD not positive for USARW
-2025-10-12 00:16:57,617 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:16:59,253 - root - INFO -  MACD calculation for WAI due to high change percent: 29.7386
-2025-10-12 00:17:00,774 - root - INFO -  MACD calculation for WLACW due to high change percent: 11.25
-2025-10-12 00:17:00,815 - root - INFO - MACD not positive for WLACW
-2025-10-12 00:17:01,858 - root - INFO -  Get bars start time 2025-10-10T14:31:00-04:00 end_time 2025-10-10T14:36:00-04:00
-2025-10-12 00:17:04,205 - root - INFO -  MACD calculation for YHGJ due to high change percent: 35.5
-2025-10-12 00:17:04,690 - root - INFO -  MACD calculation for YSXT due to high change percent: 12.2087
-2025-10-12 00:17:04,722 - root - INFO - MACD not positive for YSXT
-2025-10-12 00:17:05,100 - root - INFO -  MACD calculation for ZENA due to high change percent: 10.1961
-2025-10-12 00:17:05,161 - root - INFO - MACD not positive for ZENA
-2025-10-12 00:17:06,534 - root - INFO - Updating change percent of stocks
-2025-10-12 00:17:07,462 - root - INFO - swing_strategy_open_long for scale 5Min stock QNRX
-2025-10-12 00:17:07,465 - root - INFO - Time since last close for QNRX is 260.0 minutes, net percent 17.6818
-2025-10-12 00:17:07,512 - root - INFO - Last 5 minutes maximum volume candle is red for QNRX
-2025-10-12 00:17:07,529 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-12 00:17:07,534 - root - INFO - Time since last close for WAI is 105.0 minutes, net percent 8.02596
-2025-10-12 00:17:07,604 - root - INFO - Last 5 minutes maximum volume candle is red for WAI
-2025-10-12 00:17:07,612 - root - WARNING - stock is already in the open positions
-2025-10-12 00:17:07,627 - root - INFO - swing_strategy_open_long for scale 5Min stock CODI
-2025-10-12 00:17:07,634 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 00:17:07,634 - root - INFO - Time since last close for CODI is None minutes, net percent 0
-2025-10-12 00:17:07,737 - root - INFO - Last 5 minutes maximum volume candle is red for CODI
-2025-10-12 00:17:07,747 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
-2025-10-12 00:17:07,798 - root - INFO - Profit percent for SLE is 3.0
-2025-10-12 00:17:07,798 - root - INFO - Latest 1min close price for SLE: 4.3912
-2025-10-12 00:17:07,889 - root - INFO - MACD is still rising for stock SLE
-2025-10-12 00:17:07,889 - root - INFO - Not enough profit percent to scalp for SLE: 3.0
-2025-10-12 00:17:07,905 - root - INFO - Skipping SCALP for SLE as it's in no_scalp list
-2025-10-12 00:17:07,906 - root - INFO - swing_strategy_close_long for scale 5Min stock SOAR
-2025-10-12 00:17:08,024 - root - INFO - Profit percent for SOAR is -1.52874
-2025-10-12 00:17:08,024 - root - INFO - Latest 1min close price for SOAR: 2.575
-2025-10-12 00:17:08,119 - root - INFO - MACD is still rising for stock SOAR
-2025-10-12 00:17:08,119 - root - INFO - Not enough profit percent to scalp for SOAR: -1.52874
-2025-10-12 00:17:08,136 - root - INFO - Skipping SCALP for SOAR as it's in no_scalp list
-2025-10-12 00:17:08,160 - root - INFO - Test mode: Total profit so far: 1175.5240211486816
-2025-10-12 00:17:08,223 - root - INFO - swing_strategy_open_long for scale 5Min stock QNRX
-2025-10-12 00:17:08,233 - root - INFO - Time since last close for QNRX is 261.0 minutes, net percent 17.6818
-2025-10-12 00:17:08,265 - root - INFO - Last 5 minutes maximum volume candle is green for QNRX
-2025-10-12 00:17:08,285 - root - INFO - 1min candle is not positive for QNRX: open 22.15 close 22.2722
-2025-10-12 00:17:08,331 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-12 00:17:08,342 - root - INFO - Time since last close for WAI is 106.0 minutes, net percent 8.02596
-2025-10-12 00:17:08,404 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
-2025-10-12 00:17:08,468 - root - INFO - Trend up basic conditions not met for WAI: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-12 00:17:08,479 - root - WARNING - stock is already in the open positions
-2025-10-12 00:17:08,502 - root - INFO - swing_strategy_open_long for scale 5Min stock CODI
-2025-10-12 00:17:08,512 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 00:17:08,512 - root - INFO - Time since last close for CODI is None minutes, net percent 0
-2025-10-12 00:17:08,678 - root - INFO - Last 5 minutes maximum volume candle is red for CODI
-2025-10-12 00:17:08,686 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
-2025-10-12 00:17:08,727 - root - INFO - Profit percent for SLE is 1.41339
-2025-10-12 00:17:08,727 - root - INFO - Latest 1min close price for SLE: 4.4001
-2025-10-12 00:17:08,800 - root - INFO - MACD is still rising for stock SLE
-2025-10-12 00:17:08,801 - root - INFO - Not enough profit percent to scalp for SLE: 1.41339
-2025-10-12 00:17:08,813 - root - INFO - Skipping SCALP for SLE as it's in no_scalp list
-2025-10-12 00:17:08,814 - root - INFO - swing_strategy_close_long for scale 5Min stock SOAR
-2025-10-12 00:17:08,915 - root - INFO - Profit percent for SOAR is -1.341
-2025-10-12 00:17:08,916 - root - INFO - Latest 1min close price for SOAR: 2.56
-2025-10-12 00:17:09,009 - root - INFO - MACD is still rising for stock SOAR
-2025-10-12 00:17:09,009 - root - INFO - Not enough profit percent to scalp for SOAR: -1.341
-2025-10-12 00:17:09,026 - root - INFO - Skipping SCALP for SOAR as it's in no_scalp list
-2025-10-12 00:17:09,050 - root - INFO - Test mode: Total profit so far: 1171.8323230743408
-2025-10-12 00:17:09,113 - root - INFO - swing_strategy_open_long for scale 5Min stock QNRX
-2025-10-12 00:17:09,123 - root - INFO - Time since last close for QNRX is 262.0 minutes, net percent 17.6818
-2025-10-12 00:17:09,155 - root - INFO - Last 5 minutes maximum volume candle is red for QNRX
-2025-10-12 00:17:09,201 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-12 00:17:09,215 - root - INFO - Time since last close for WAI is 107.0 minutes, net percent 8.02596
-2025-10-12 00:17:09,276 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
-2025-10-12 00:17:09,341 - root - INFO - Trend up basic conditions not met for WAI: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-12 00:17:09,356 - root - WARNING - stock is already in the open positions
-2025-10-12 00:17:09,381 - root - INFO - swing_strategy_open_long for scale 5Min stock CODI
-2025-10-12 00:17:09,392 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 00:17:09,392 - root - INFO - Time since last close for CODI is None minutes, net percent 0
-2025-10-12 00:17:09,492 - root - INFO - Last 5 minutes maximum volume candle is red for CODI
-2025-10-12 00:17:09,507 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
-2025-10-12 00:17:09,550 - root - INFO - Profit percent for SLE is 1.61894
-2025-10-12 00:17:09,551 - root - INFO - Latest 1min close price for SLE: 4.4
-2025-10-12 00:17:09,627 - root - INFO - MACD is still rising for stock SLE
-2025-10-12 00:17:09,627 - root - INFO - Not enough profit percent to scalp for SLE: 1.61894
-2025-10-12 00:17:09,639 - root - INFO - Skipping SCALP for SLE as it's in no_scalp list
-2025-10-12 00:17:09,640 - root - INFO - swing_strategy_close_long for scale 5Min stock SOAR
-2025-10-12 00:17:09,748 - root - INFO - Profit percent for SOAR is -1.91571
-2025-10-12 00:17:09,748 - root - INFO - Latest 1min close price for SOAR: 2.5697
-2025-10-12 00:17:09,844 - root - INFO - MACD is still rising for stock SOAR
-2025-10-12 00:17:09,844 - root - INFO - Not enough profit percent to scalp for SOAR: -1.91571
-2025-10-12 00:17:09,861 - root - INFO - Skipping SCALP for SOAR as it's in no_scalp list
-2025-10-12 00:17:09,884 - root - INFO - Test mode: Total profit so far: 1175.5257034301758
-2025-10-12 00:17:09,948 - root - INFO - swing_strategy_open_long for scale 5Min stock QNRX
-2025-10-12 00:17:09,958 - root - INFO - Time since last close for QNRX is 263.0 minutes, net percent 17.6818
-2025-10-12 00:17:09,988 - root - INFO - Last 5 minutes maximum volume candle is red for QNRX
-2025-10-12 00:17:10,031 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-12 00:17:10,044 - root - INFO - Time since last close for WAI is 108.0 minutes, net percent 8.02596
-2025-10-12 00:17:10,108 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
-2025-10-12 00:17:10,173 - root - INFO - Trend up basic conditions not met for WAI: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-12 00:17:10,189 - root - WARNING - stock is already in the open positions
-2025-10-12 00:17:10,214 - root - INFO - swing_strategy_open_long for scale 5Min stock CODI
-2025-10-12 00:17:10,225 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 00:17:10,225 - root - INFO - Time since last close for CODI is None minutes, net percent 0
-2025-10-12 00:17:10,336 - root - INFO - Last 5 minutes maximum volume candle is red for CODI
-2025-10-12 00:17:10,351 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
-2025-10-12 00:17:10,394 - root - INFO - Profit percent for SLE is 1.61663
-2025-10-12 00:17:10,394 - root - INFO - Latest 1min close price for SLE: 4.3654
-2025-10-12 00:17:10,475 - root - INFO - MACD is still rising for stock SLE
-2025-10-12 00:17:10,475 - root - INFO - Not enough profit percent to scalp for SLE: 1.61663
-2025-10-12 00:17:10,486 - root - INFO - Skipping SCALP for SLE as it's in no_scalp list
-2025-10-12 00:17:10,487 - root - INFO - swing_strategy_close_long for scale 5Min stock SOAR
-2025-10-12 00:17:10,592 - root - INFO - Profit percent for SOAR is -1.54406
-2025-10-12 00:17:10,592 - root - INFO - Latest 1min close price for SOAR: 2.58
-2025-10-12 00:17:10,681 - root - INFO - MACD is still rising for stock SOAR
-2025-10-12 00:17:10,681 - root - INFO - Not enough profit percent to scalp for SOAR: -1.54406
-2025-10-12 00:17:10,697 - root - INFO - Skipping SCALP for SOAR as it's in no_scalp list
-2025-10-12 00:17:10,722 - root - INFO - Test mode: Total profit so far: 1171.481300354004
-2025-10-12 00:17:10,792 - root - INFO - swing_strategy_open_long for scale 5Min stock QNRX
-2025-10-12 00:17:10,801 - root - INFO - Time since last close for QNRX is 264.0 minutes, net percent 17.6818
-2025-10-12 00:17:10,833 - root - INFO - Last 5 minutes maximum volume candle is red for QNRX
-2025-10-12 00:17:10,876 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
-2025-10-12 00:17:10,888 - root - INFO - Time since last close for WAI is 109.0 minutes, net percent 8.02596
-2025-10-12 00:17:10,947 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
-2025-10-12 00:17:10,974 - root - INFO - 1min candle is not positive for WAI: open 3.91 close 3.94
-2025-10-12 00:17:10,986 - root - WARNING - stock is already in the open positions
-2025-10-12 00:17:11,010 - root - INFO - swing_strategy_open_long for scale 5Min stock CODI
-2025-10-12 00:17:11,020 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-12 00:17:11,021 - root - INFO - Time since last close for CODI is None minutes, net percent 0
-2025-10-12 00:17:11,134 - root - INFO - Last 5 minutes maximum volume candle is red for CODI
-2025-10-12 00:17:11,150 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
-2025-10-12 00:17:11,200 - root - INFO - Profit percent for SLE is 0.817552
-2025-10-12 00:17:11,200 - root - INFO - Latest 1min close price for SLE: 4.45
-2025-10-12 00:17:11,278 - root - INFO - MACD is still rising for stock SLE
-2025-10-12 00:17:11,278 - root - INFO - Not enough profit percent to scalp for SLE: 0.817552
-2025-10-12 00:17:11,290 - root - INFO - Skipping SCALP for SLE as it's in no_scalp list
-2025-10-12 00:17:11,291 - root - INFO - swing_strategy_close_long for scale 5Min stock SOAR
-2025-10-12 00:17:11,406 - root - INFO - Profit percent for SOAR is -1.14943
-2025-10-12 00:17:11,406 - root - INFO - Latest 1min close price for SOAR: 2.55
-2025-10-12 00:17:11,501 - root - INFO - Three red candles detected for SOAR
-2025-10-12 00:17:11,502 - root - INFO - SOAR:====== 2.55=========>SELL========>three_red_candles
-2025-10-12 00:17:11,516 - root - INFO - *********CLOSING BY SOLD: SOAR
-2025-10-12 00:17:11,530 - root - INFO - Profit percent for SOAR is -1.14943
-2025-10-12 00:17:11,590 - root - INFO - Test mode: Total profit so far: 1179.525152206421
-2025-10-12 00:17:11,590 - root - INFO - ('2025-10-10T14:41:00-04:00', '2025-10-10T14:41:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T04:00:00-04:00')
-2025-10-12 00:17:11,590 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T14:41:00-04:00
-2025-10-12 00:17:11,621 - root - INFO -  Get bars start time 2025-10-10T14:36:00-04:00 end_time 2025-10-10T14:41:00-04:00
-2025-10-12 00:17:11,986 - root - INFO -  MACD calculation for ABAT due to high change percent: 11.1378
-2025-10-12 00:17:12,047 - root - INFO - MACD not positive for ABAT
-2025-10-12 00:17:15,950 - root - INFO -  Get bars start time 2025-10-10T14:36:00-04:00 end_time 2025-10-10T14:41:00-04:00
-2025-10-12 00:17:20,888 - root - INFO -  Get bars start time 2025-10-10T14:36:00-04:00 end_time 2025-10-10T14:41:00-04:00
-2025-10-12 00:17:21,687 - root - INFO -  MACD calculation for APLD due to high change percent: 15.3636
-2025-10-12 00:17:24,977 - root - INFO -  MACD calculation for ASPI due to high change percent: 17.7401
-2025-10-12 00:17:25,046 - root - INFO - MACD not positive for ASPI
-2025-10-12 00:17:25,461 - root - INFO -  Get bars start time 2025-10-10T14:36:00-04:00 end_time 2025-10-10T14:41:00-04:00
-2025-10-12 00:17:28,554 - root - INFO -  Get bars start time 2025-10-10T14:36:00-04:00 end_time 2025-10-10T14:41:00-04:00
-2025-10-12 00:17:31,915 - root - INFO -  Get bars start time 2025-10-10T14:36:00-04:00 end_time 2025-10-10T14:41:00-04:00
-2025-10-12 00:17:35,695 - root - INFO -  Get bars start time 2025-10-10T14:36:00-04:00 end_time 2025-10-10T14:41:00-04:00
-2025-10-12 00:17:38,329 - root - INFO -  MACD calculation for CATX due to high change percent: 24.8679
-2025-10-12 00:17:38,386 - root - INFO - MACD not positive for CATX
-2025-10-12 00:17:40,254 - root - INFO -  Get bars start time 2025-10-10T14:36:00-04:00 end_time 2025-10-10T14:41:00-04:00
-2025-10-12 00:17:40,405 - root - INFO -  MACD calculation for CEPT due to high change percent: 11.1265
-2025-10-12 00:17:40,434 - root - INFO - MACD not positive for CEPT
-2025-10-12 00:17:44,194 - root - INFO -  Get bars start time 2025-10-10T14:36:00-04:00 end_time 2025-10-10T14:41:00-04:00
-2025-10-12 00:17:45,866 - root - INFO -  MACD calculation for CODI due to high change percent: 18.2313
-2025-10-12 00:17:45,928 - root - INFO - MACD not positive for CODI
-2025-10-12 00:17:47,133 - root - INFO -  MACD calculation for CPSH due to high change percent: 12.0603
-2025-10-12 00:17:48,492 - root - INFO -  Get bars start time 2025-10-10T14:36:00-04:00 end_time 2025-10-10T14:41:00-04:00
-2025-10-12 00:17:53,030 - root - INFO -  Get bars start time 2025-10-10T14:36:00-04:00 end_time 2025-10-10T14:41:00-04:00
-2025-10-12 00:17:54,155 - root - INFO -  MACD calculation for DGXX due to high change percent: 21.0
-2025-10-12 00:17:54,226 - root - INFO - MACD not positive for DGXX
-2025-10-12 00:17:56,966 - root - INFO -  Get bars start time 2025-10-10T14:36:00-04:00 end_time 2025-10-10T14:41:00-04:00
-2025-10-12 00:18:00,601 - root - INFO -  Get bars start time 2025-10-10T14:36:00-04:00 end_time 2025-10-10T14:41:00-04:00
-2025-10-12 00:18:01,224 - root - INFO -  MACD calculation for ENTO due to high change percent: 12.4464
-2025-10-12 00:18:01,277 - root - INFO - MACD not positive for ENTO
-2025-10-12 00:18:05,352 - root - INFO -  Get bars start time 2025-10-10T14:36:00-04:00 end_time 2025-10-10T14:41:00-04:00
-2025-10-12 00:18:06,672 - root - INFO -  MACD calculation for FEAM due to high change percent: 18.1727
 2025-10-12 00:18:06,729 - root - INFO - MACD not positive for FEAM
 2025-10-12 00:18:08,903 - root - INFO -  Get bars start time 2025-10-10T14:36:00-04:00 end_time 2025-10-10T14:41:00-04:00
 2025-10-12 00:18:13,029 - root - INFO -  Get bars start time 2025-10-10T14:36:00-04:00 end_time 2025-10-10T14:41:00-04:00
@@ -420,3 +61,362 @@ Manual Movers:
 2025-10-12 00:19:15,039 - root - INFO -  MACD calculation for QNRX due to high change percent: 170.956
 2025-10-12 00:19:15,367 - root - INFO -  MACD calculation for QTTB due to high change percent: 11.8519
 2025-10-12 00:19:16,215 - root - INFO -  Get bars start time 2025-10-10T14:36:00-04:00 end_time 2025-10-10T14:41:00-04:00
+2025-10-12 00:19:17,586 - root - INFO -  Get bars start time 2025-10-10T14:36:00-04:00 end_time 2025-10-10T14:41:00-04:00
+2025-10-12 00:19:21,638 - root - INFO -  Get bars start time 2025-10-10T14:36:00-04:00 end_time 2025-10-10T14:41:00-04:00
+2025-10-12 00:19:23,046 - root - INFO -  MACD calculation for SGBX due to high change percent: 82.6451
+2025-10-12 00:19:23,122 - root - INFO - MACD not positive for SGBX
+2025-10-12 00:19:25,101 - root - INFO -  MACD calculation for SKBL due to high change percent: 14.2086
+2025-10-12 00:19:25,158 - root - INFO - MACD not positive for SKBL
+2025-10-12 00:19:25,926 - root - INFO -  MACD calculation for SLE due to high change percent: 23.3483
+2025-10-12 00:19:26,763 - root - INFO -  Get bars start time 2025-10-10T14:36:00-04:00 end_time 2025-10-10T14:41:00-04:00
+2025-10-12 00:19:28,113 - root - INFO -  MACD calculation for SOAR due to high change percent: 17.5799
+2025-10-12 00:19:31,025 - root - INFO -  Get bars start time 2025-10-10T14:36:00-04:00 end_time 2025-10-10T14:41:00-04:00
+2025-10-12 00:19:33,591 - root - INFO -  MACD calculation for SWKH due to high change percent: 17.2382
+2025-10-12 00:19:35,332 - root - INFO -  Get bars start time 2025-10-10T14:36:00-04:00 end_time 2025-10-10T14:41:00-04:00
+2025-10-12 00:19:39,956 - root - INFO -  Get bars start time 2025-10-10T14:36:00-04:00 end_time 2025-10-10T14:41:00-04:00
+2025-10-12 00:19:42,632 - root - INFO -  MACD calculation for UAMY due to high change percent: 13.2812
+2025-10-12 00:19:42,709 - root - INFO - MACD not positive for UAMY
+2025-10-12 00:19:43,064 - root - INFO -  MACD calculation for UEC due to high change percent: 13.7638
+2025-10-12 00:19:43,136 - root - INFO - MACD not positive for UEC
+2025-10-12 00:19:44,716 - root - INFO -  Get bars start time 2025-10-10T14:36:00-04:00 end_time 2025-10-10T14:41:00-04:00
+2025-10-12 00:19:44,887 - root - INFO -  MACD calculation for USARW due to high change percent: 21.4102
+2025-10-12 00:19:44,926 - root - INFO - MACD not positive for USARW
+2025-10-12 00:19:48,925 - root - INFO -  Get bars start time 2025-10-10T14:36:00-04:00 end_time 2025-10-10T14:41:00-04:00
+2025-10-12 00:19:50,566 - root - INFO -  MACD calculation for WAI due to high change percent: 28.268
+2025-10-12 00:19:53,275 - root - INFO -  Get bars start time 2025-10-10T14:36:00-04:00 end_time 2025-10-10T14:41:00-04:00
+2025-10-12 00:19:55,648 - root - INFO -  MACD calculation for YHGJ due to high change percent: 35.6667
+2025-10-12 00:19:57,639 - root - INFO - Updating change percent of stocks
+2025-10-12 00:19:58,605 - root - INFO - swing_strategy_open_long for scale 5Min stock QNRX
+2025-10-12 00:19:58,608 - root - INFO - Time since last close for QNRX is 265.0 minutes, net percent 17.6818
+2025-10-12 00:19:58,658 - root - INFO - Last 5 minutes maximum volume candle is red for QNRX
+2025-10-12 00:19:58,675 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-12 00:19:58,679 - root - INFO - Time since last close for WAI is 110.0 minutes, net percent 8.02596
+2025-10-12 00:19:58,756 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-12 00:19:58,811 - root - INFO - Trend up basic conditions not met for WAI: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-12 00:19:58,822 - root - WARNING - stock is already in the open positions
+2025-10-12 00:19:58,846 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
+2025-10-12 00:19:58,858 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 00:19:58,858 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
+2025-10-12 00:19:58,889 - root - INFO - Last 20 minutes volume is low for SWKH: 43156
+2025-10-12 00:19:58,901 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
+2025-10-12 00:19:58,952 - root - INFO - Profit percent for SLE is 2.77136
+2025-10-12 00:19:58,952 - root - INFO - Latest 1min close price for SLE: 4.44
+2025-10-12 00:19:59,037 - root - INFO - MACD is still rising for stock SLE
+2025-10-12 00:19:59,037 - root - INFO - Not enough profit percent to scalp for SLE: 2.77136
+2025-10-12 00:19:59,053 - root - INFO - Skipping SCALP for SLE as it's in no_scalp list
+2025-10-12 00:19:59,077 - root - INFO - Test mode: Total profit so far: 1177.215684890747
+2025-10-12 00:19:59,142 - root - INFO - swing_strategy_open_long for scale 5Min stock QNRX
+2025-10-12 00:19:59,153 - root - INFO - Time since last close for QNRX is 266.0 minutes, net percent 17.6818
+2025-10-12 00:19:59,185 - root - INFO - Last 5 minutes maximum volume candle is red for QNRX
+2025-10-12 00:19:59,228 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-12 00:19:59,241 - root - INFO - Time since last close for WAI is 111.0 minutes, net percent 8.02596
+2025-10-12 00:19:59,301 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-12 00:19:59,321 - root - INFO - 9 EMA is in downtrend, not opening long position for WAI
+2025-10-12 00:19:59,331 - root - WARNING - stock is already in the open positions
+2025-10-12 00:19:59,350 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
+2025-10-12 00:19:59,359 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 00:19:59,360 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
+2025-10-12 00:19:59,390 - root - INFO - Last 20 minutes volume is low for SWKH: 43156
+2025-10-12 00:19:59,402 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
+2025-10-12 00:19:59,449 - root - INFO - Profit percent for SLE is 2.54042
+2025-10-12 00:19:59,450 - root - INFO - Latest 1min close price for SLE: 4.4284
+2025-10-12 00:19:59,530 - root - INFO - MACD is still rising for stock SLE
+2025-10-12 00:19:59,531 - root - INFO - Not enough profit percent to scalp for SLE: 2.54042
+2025-10-12 00:19:59,545 - root - INFO - Skipping SCALP for SLE as it's in no_scalp list
+2025-10-12 00:19:59,572 - root - INFO - Test mode: Total profit so far: 1174.5367012023926
+2025-10-12 00:19:59,636 - root - INFO - swing_strategy_open_long for scale 5Min stock QNRX
+2025-10-12 00:19:59,646 - root - INFO - Time since last close for QNRX is 267.0 minutes, net percent 17.6818
+2025-10-12 00:19:59,675 - root - INFO - Last 5 minutes maximum volume candle is red for QNRX
+2025-10-12 00:19:59,718 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-12 00:19:59,729 - root - INFO - Time since last close for WAI is 112.0 minutes, net percent 8.02596
+2025-10-12 00:19:59,791 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-12 00:19:59,814 - root - INFO - 1min candle is not positive for WAI: open 3.94 close 3.9399
+2025-10-12 00:19:59,828 - root - WARNING - stock is already in the open positions
+2025-10-12 00:19:59,854 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
+2025-10-12 00:19:59,864 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 00:19:59,865 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
+2025-10-12 00:19:59,893 - root - INFO - Last 20 minutes volume is low for SWKH: 43823
+2025-10-12 00:19:59,905 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
+2025-10-12 00:19:59,951 - root - INFO - Profit percent for SLE is 2.27252
+2025-10-12 00:19:59,952 - root - INFO - Latest 1min close price for SLE: 4.3656
+2025-10-12 00:20:00,031 - root - INFO - MACD is still rising for stock SLE
+2025-10-12 00:20:00,032 - root - INFO - Not enough profit percent to scalp for SLE: 2.27252
+2025-10-12 00:20:00,044 - root - INFO - Skipping SCALP for SLE as it's in no_scalp list
+2025-10-12 00:20:00,068 - root - INFO - Test mode: Total profit so far: 1160.033236503601
+2025-10-12 00:20:00,131 - root - INFO - swing_strategy_open_long for scale 5Min stock QNRX
+2025-10-12 00:20:00,140 - root - INFO - Time since last close for QNRX is 268.0 minutes, net percent 17.6818
+2025-10-12 00:20:00,174 - root - INFO - Last 5 minutes maximum volume candle is red for QNRX
+2025-10-12 00:20:00,216 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-12 00:20:00,225 - root - INFO - Time since last close for WAI is 113.0 minutes, net percent 8.02596
+2025-10-12 00:20:00,283 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-12 00:20:00,308 - root - INFO - 1min candle is not positive for WAI: open 3.9154 close 3.94
+2025-10-12 00:20:00,320 - root - WARNING - stock is already in the open positions
+2025-10-12 00:20:00,345 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
+2025-10-12 00:20:00,356 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 00:20:00,356 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
+2025-10-12 00:20:00,390 - root - INFO - Last 20 minutes volume is low for SWKH: 43823
+2025-10-12 00:20:00,401 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
+2025-10-12 00:20:00,446 - root - INFO - Profit percent for SLE is 0.822171
+2025-10-12 00:20:00,446 - root - INFO - Latest 1min close price for SLE: 4.36
+2025-10-12 00:20:00,530 - root - INFO - MACD is still rising for stock SLE
+2025-10-12 00:20:00,530 - root - INFO - Not enough profit percent to scalp for SLE: 0.822171
+2025-10-12 00:20:00,543 - root - INFO - Skipping SCALP for SLE as it's in no_scalp list
+2025-10-12 00:20:00,572 - root - INFO - Test mode: Total profit so far: 1158.7399334907532
+2025-10-12 00:20:00,640 - root - INFO - swing_strategy_open_long for scale 5Min stock QNRX
+2025-10-12 00:20:00,651 - root - INFO - Time since last close for QNRX is 269.0 minutes, net percent 17.6818
+2025-10-12 00:20:00,683 - root - INFO - Last 5 minutes maximum volume candle is red for QNRX
+2025-10-12 00:20:00,728 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-12 00:20:00,742 - root - INFO - Time since last close for WAI is 114.0 minutes, net percent 8.02596
+2025-10-12 00:20:00,804 - root - INFO - Last 5 minutes maximum volume candle is red for WAI
+2025-10-12 00:20:00,817 - root - WARNING - stock is already in the open positions
+2025-10-12 00:20:00,845 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
+2025-10-12 00:20:00,856 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 00:20:00,857 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
+2025-10-12 00:20:00,889 - root - INFO - Last 20 minutes volume is low for SWKH: 43823
+2025-10-12 00:20:00,899 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
+2025-10-12 00:20:00,946 - root - INFO - Profit percent for SLE is 0.692841
+2025-10-12 00:20:00,946 - root - INFO - Latest 1min close price for SLE: 4.36
+2025-10-12 00:20:01,024 - root - INFO - No close long conditions met for SLE
+2025-10-12 00:20:01,061 - root - INFO - Test mode: Total profit so far: 1158.7399334907532
+2025-10-12 00:20:01,061 - root - INFO - ('2025-10-10T14:46:00-04:00', '2025-10-10T14:46:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T04:00:00-04:00')
+2025-10-12 00:20:01,061 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T14:46:00-04:00
+2025-10-12 00:20:01,088 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:20:01,459 - root - INFO -  MACD calculation for ABAT due to high change percent: 11.4583
+2025-10-12 00:20:01,517 - root - INFO - MACD not positive for ABAT
+2025-10-12 00:20:05,460 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:20:10,138 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:20:10,780 - root - INFO -  MACD calculation for APLD due to high change percent: 15.4319
+2025-10-12 00:20:13,982 - root - INFO -  MACD calculation for ASPI due to high change percent: 17.6407
+2025-10-12 00:20:14,044 - root - INFO - MACD not positive for ASPI
+2025-10-12 00:20:14,436 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:20:18,183 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:20:22,303 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:20:26,059 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:20:28,490 - root - INFO -  MACD calculation for CATX due to high change percent: 25.1554
+2025-10-12 00:20:28,552 - root - INFO - MACD not positive for CATX
+2025-10-12 00:20:30,230 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:20:30,552 - root - INFO -  MACD calculation for CEPT due to high change percent: 11.6343
+2025-10-12 00:20:30,586 - root - INFO - MACD not positive for CEPT
+2025-10-12 00:20:34,435 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:20:35,636 - root - INFO -  MACD calculation for CODI due to high change percent: 15.5102
+2025-10-12 00:20:35,696 - root - INFO - MACD not positive for CODI
+2025-10-12 00:20:36,538 - root - INFO -  MACD calculation for CPSH due to high change percent: 10.5528
+2025-10-12 00:20:37,438 - root - INFO -  MACD calculation for CRMLW due to high change percent: 11.7739
+2025-10-12 00:20:37,502 - root - INFO - MACD not positive for CRMLW
+2025-10-12 00:20:37,648 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:20:41,503 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:20:42,520 - root - INFO -  MACD calculation for DGXX due to high change percent: 19.1288
+2025-10-12 00:20:42,585 - root - INFO - MACD not positive for DGXX
+2025-10-12 00:20:45,726 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:20:49,509 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:20:50,181 - root - INFO -  MACD calculation for ENTO due to high change percent: 10.676
+2025-10-12 00:20:50,236 - root - INFO - MACD not positive for ENTO
+2025-10-12 00:20:54,185 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:20:55,560 - root - INFO -  MACD calculation for FEAM due to high change percent: 18.6747
+2025-10-12 00:20:55,613 - root - INFO - MACD not positive for FEAM
+2025-10-12 00:20:57,957 - root - INFO -  MACD calculation for FMFC due to high change percent: 11.9385
+2025-10-12 00:20:58,089 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:21:02,031 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:21:04,596 - root - INFO -  MACD calculation for GLUE due to high change percent: 16.5485
+2025-10-12 00:21:04,663 - root - INFO - MACD not positive for GLUE
+2025-10-12 00:21:05,588 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:21:08,140 - root - INFO -  MACD calculation for GWAV due to high change percent: 13.6735
+2025-10-12 00:21:08,249 - root - INFO -  MACD calculation for GWH due to high change percent: 151.169
+2025-10-12 00:21:08,291 - root - INFO - MACD not positive for GWH
+2025-10-12 00:21:08,390 - root - INFO -  MACD calculation for GYRE due to high change percent: 12.628
+2025-10-12 00:21:08,423 - root - INFO - MACD not positive for GYRE
+2025-10-12 00:21:09,640 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:21:11,663 - root - INFO -  MACD calculation for HONDW due to high change percent: 12.8767
+2025-10-12 00:21:13,965 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:21:18,251 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:21:22,542 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:21:26,904 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:21:30,754 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:21:34,685 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:21:38,757 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:21:42,764 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:21:45,210 - root - INFO -  MACD calculation for NIOBW due to high change percent: 16.4447
+2025-10-12 00:21:45,264 - root - INFO - MACD not positive for NIOBW
+2025-10-12 00:21:47,007 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:21:49,449 - root - INFO -  MACD calculation for NVA due to high change percent: 17.82
+2025-10-12 00:21:50,292 - root - INFO -  MACD calculation for NVX due to high change percent: 39.4919
+2025-10-12 00:21:50,364 - root - INFO - MACD not positive for NVX
+2025-10-12 00:21:51,099 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:21:51,375 - root - INFO -  MACD calculation for OBIO due to high change percent: 10.1603
+2025-10-12 00:21:51,430 - root - INFO - MACD not positive for OBIO
+2025-10-12 00:21:53,878 - root - INFO -  MACD calculation for ONMD due to high change percent: 11.6142
+2025-10-12 00:21:55,243 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:21:59,414 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:22:03,605 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:22:06,098 - root - INFO -  MACD calculation for QNRX due to high change percent: 144.411
+2025-10-12 00:22:06,693 - root - INFO -  MACD calculation for QTTB due to high change percent: 12.5
+2025-10-12 00:22:07,744 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:22:11,875 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:22:16,033 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:22:17,486 - root - INFO -  MACD calculation for SGBX due to high change percent: 83.3333
+2025-10-12 00:22:17,547 - root - INFO - MACD not positive for SGBX
+2025-10-12 00:22:19,637 - root - INFO -  MACD calculation for SKBL due to high change percent: 15.1942
+2025-10-12 00:22:19,699 - root - INFO - MACD not positive for SKBL
+2025-10-12 00:22:20,362 - root - INFO -  MACD calculation for SLE due to high change percent: 24.7191
+2025-10-12 00:22:21,155 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:22:22,566 - root - INFO -  MACD calculation for SOAR due to high change percent: 16.4566
+2025-10-12 00:22:22,631 - root - INFO - MACD not positive for SOAR
+2025-10-12 00:22:25,779 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:22:28,193 - root - INFO -  MACD calculation for SWKH due to high change percent: 17.7083
+2025-10-12 00:22:28,227 - root - INFO - MACD not positive for SWKH
+2025-10-12 00:22:29,905 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:22:34,366 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:22:36,383 - root - INFO -  MACD calculation for UAMY due to high change percent: 13.1434
+2025-10-12 00:22:36,461 - root - INFO - MACD not positive for UAMY
+2025-10-12 00:22:36,801 - root - INFO -  MACD calculation for UEC due to high change percent: 13.6207
+2025-10-12 00:22:36,877 - root - INFO - MACD not positive for UEC
+2025-10-12 00:22:38,058 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:22:38,197 - root - INFO -  MACD calculation for USARW due to high change percent: 19.7638
+2025-10-12 00:22:38,233 - root - INFO - MACD not positive for USARW
+2025-10-12 00:22:41,497 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:22:43,244 - root - INFO -  MACD calculation for WAI due to high change percent: 28.7582
+2025-10-12 00:22:45,850 - root - INFO -  Get bars start time 2025-10-10T14:41:00-04:00 end_time 2025-10-10T14:46:00-04:00
+2025-10-12 00:22:48,275 - root - INFO -  MACD calculation for YHGJ due to high change percent: 35.0083
+2025-10-12 00:22:48,595 - root - INFO -  MACD calculation for YSXT due to high change percent: 12.1359
+2025-10-12 00:22:50,394 - root - INFO - Updating change percent of stocks
+2025-10-12 00:22:51,320 - root - INFO - swing_strategy_open_long for scale 5Min stock QNRX
+2025-10-12 00:22:51,323 - root - INFO - Time since last close for QNRX is 270.0 minutes, net percent 17.6818
+2025-10-12 00:22:51,363 - root - INFO - Last 5 minutes maximum volume candle is green for QNRX
+2025-10-12 00:22:51,371 - root - INFO - 9 EMA is in downtrend, not opening long position for QNRX
+2025-10-12 00:22:51,387 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-12 00:22:51,391 - root - INFO - Time since last close for WAI is 115.0 minutes, net percent 8.02596
+2025-10-12 00:22:51,461 - root - INFO - Last 5 minutes maximum volume candle is red for WAI
+2025-10-12 00:22:51,468 - root - WARNING - stock is already in the open positions
+2025-10-12 00:22:51,481 - root - INFO - swing_strategy_open_long for scale 5Min stock NVA
+2025-10-12 00:22:51,487 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 00:22:51,487 - root - INFO - Time since last close for NVA is None minutes, net percent 0
+2025-10-12 00:22:51,525 - root - INFO - Last 20 minutes volume is low for NVA: 33418
+2025-10-12 00:22:51,534 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
+2025-10-12 00:22:51,579 - root - INFO - Profit percent for SLE is 0.692841
+2025-10-12 00:22:51,579 - root - INFO - Latest 1min close price for SLE: 4.3501
+2025-10-12 00:22:51,663 - root - INFO - No close long conditions met for SLE
+2025-10-12 00:22:51,702 - root - INFO - Test mode: Total profit so far: 1156.4535593986511
+2025-10-12 00:22:51,767 - root - INFO - swing_strategy_open_long for scale 5Min stock QNRX
+2025-10-12 00:22:51,777 - root - INFO - Time since last close for QNRX is 271.0 minutes, net percent 17.6818
+2025-10-12 00:22:51,810 - root - INFO - Last 5 minutes maximum volume candle is green for QNRX
+2025-10-12 00:22:51,832 - root - INFO - 1min candle is not positive for QNRX: open 20.73 close 20.736
+2025-10-12 00:22:51,878 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-12 00:22:51,889 - root - INFO - Time since last close for WAI is 116.0 minutes, net percent 8.02596
+2025-10-12 00:22:51,953 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-12 00:22:52,020 - root - INFO - Trend up basic conditions not met for WAI: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-12 00:22:52,033 - root - WARNING - stock is already in the open positions
+2025-10-12 00:22:52,056 - root - INFO - swing_strategy_open_long for scale 5Min stock NVA
+2025-10-12 00:22:52,067 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 00:22:52,067 - root - INFO - Time since last close for NVA is None minutes, net percent 0
+2025-10-12 00:22:52,105 - root - INFO - Last 20 minutes volume is low for NVA: 32002
+2025-10-12 00:22:52,119 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
+2025-10-12 00:22:52,162 - root - INFO - Profit percent for SLE is 0.464203
+2025-10-12 00:22:52,162 - root - INFO - Latest 1min close price for SLE: 4.3461
+2025-10-12 00:22:52,234 - root - INFO - No close long conditions met for SLE
+2025-10-12 00:22:52,272 - root - INFO - Test mode: Total profit so far: 1155.5297720432281
+2025-10-12 00:22:52,334 - root - INFO - swing_strategy_open_long for scale 5Min stock QNRX
+2025-10-12 00:22:52,343 - root - INFO - Time since last close for QNRX is 272.0 minutes, net percent 17.6818
+2025-10-12 00:22:52,375 - root - INFO - Last 5 minutes maximum volume candle is green for QNRX
+2025-10-12 00:22:52,394 - root - INFO - 1min candle is not positive for QNRX: open 20.62 close 20.54
+2025-10-12 00:22:52,436 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-12 00:22:52,448 - root - INFO - Time since last close for WAI is 117.0 minutes, net percent 8.02596
+2025-10-12 00:22:52,513 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-12 00:22:52,579 - root - INFO - Trend up basic conditions not met for WAI: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-12 00:22:52,595 - root - WARNING - stock is already in the open positions
+2025-10-12 00:22:52,621 - root - INFO - swing_strategy_open_long for scale 5Min stock NVA
+2025-10-12 00:22:52,634 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 00:22:52,634 - root - INFO - Time since last close for NVA is None minutes, net percent 0
+2025-10-12 00:22:52,678 - root - INFO - Last 20 minutes volume is low for NVA: 31367
+2025-10-12 00:22:52,693 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
+2025-10-12 00:22:52,741 - root - INFO - Profit percent for SLE is 0.371824
+2025-10-12 00:22:52,741 - root - INFO - Latest 1min close price for SLE: 4.3484
+2025-10-12 00:22:52,824 - root - INFO - No close long conditions met for SLE
+2025-10-12 00:22:52,863 - root - INFO - Test mode: Total profit so far: 1156.0609498023987
+2025-10-12 00:22:52,930 - root - INFO - swing_strategy_open_long for scale 5Min stock QNRX
+2025-10-12 00:22:52,940 - root - INFO - Time since last close for QNRX is 273.0 minutes, net percent 17.6818
+2025-10-12 00:22:52,973 - root - INFO - Last 5 minutes maximum volume candle is red for QNRX
+2025-10-12 00:22:53,016 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-12 00:22:53,028 - root - INFO - Time since last close for WAI is 118.0 minutes, net percent 8.02596
+2025-10-12 00:22:53,086 - root - INFO - Last 20 minutes volume is low for WAI: 44411
+2025-10-12 00:22:53,096 - root - WARNING - stock is already in the open positions
+2025-10-12 00:22:53,115 - root - INFO - swing_strategy_open_long for scale 5Min stock NVA
+2025-10-12 00:22:53,123 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 00:22:53,124 - root - INFO - Time since last close for NVA is None minutes, net percent 0
+2025-10-12 00:22:53,163 - root - INFO - Last 20 minutes volume is low for NVA: 31367
+2025-10-12 00:22:53,174 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
+2025-10-12 00:22:53,220 - root - INFO - Profit percent for SLE is 0.424942
+2025-10-12 00:22:53,220 - root - INFO - Latest 1min close price for SLE: 4.3401
+2025-10-12 00:22:53,298 - root - INFO - No close long conditions met for SLE
+2025-10-12 00:22:53,335 - root - INFO - Test mode: Total profit so far: 1154.1440906524658
+2025-10-12 00:22:53,401 - root - INFO - swing_strategy_open_long for scale 5Min stock QNRX
+2025-10-12 00:22:53,411 - root - INFO - Time since last close for QNRX is 274.0 minutes, net percent 17.6818
+2025-10-12 00:22:53,441 - root - INFO - Last 5 minutes maximum volume candle is red for QNRX
+2025-10-12 00:22:53,485 - root - INFO - swing_strategy_open_long for scale 5Min stock WAI
+2025-10-12 00:22:53,496 - root - INFO - Time since last close for WAI is 119.0 minutes, net percent 8.02596
+2025-10-12 00:22:53,564 - root - INFO - Last 5 minutes maximum volume candle is green for WAI
+2025-10-12 00:22:53,591 - root - INFO - 1min candle is not positive for WAI: open 4.12 close 4.12
+2025-10-12 00:22:53,604 - root - WARNING - stock is already in the open positions
+2025-10-12 00:22:53,626 - root - INFO - swing_strategy_open_long for scale 5Min stock NVA
+2025-10-12 00:22:53,637 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-12 00:22:53,638 - root - INFO - Time since last close for NVA is None minutes, net percent 0
+2025-10-12 00:22:53,680 - root - INFO - Last 20 minutes volume is low for NVA: 31182
+2025-10-12 00:22:53,695 - root - INFO - swing_strategy_close_long for scale 5Min stock SLE
+2025-10-12 00:22:53,747 - root - INFO - Profit percent for SLE is 0.233256
+2025-10-12 00:22:53,747 - root - INFO - Latest 1min close price for SLE: 4.35
+2025-10-12 00:22:53,831 - root - INFO - Closing TrendUp long: shooting star pattern detected
+2025-10-12 00:22:53,832 - root - INFO - SLE:====== 4.35=========>SELL========>ShootingStar
+2025-10-12 00:22:53,842 - root - INFO - *********CLOSING BY SOLD: SLE
+2025-10-12 00:22:53,856 - root - INFO - Profit percent for SLE is 0.233256
+2025-10-12 00:22:53,908 - root - INFO - Test mode: Total profit so far: 1156.4304647445679
+2025-10-12 00:22:53,908 - root - INFO - ('2025-10-10T14:51:00-04:00', '2025-10-10T14:51:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T04:00:00-04:00')
+2025-10-12 00:22:53,908 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T14:51:00-04:00
+2025-10-12 00:22:53,937 - root - INFO -  Get bars start time 2025-10-10T14:46:00-04:00 end_time 2025-10-10T14:51:00-04:00
+2025-10-12 00:22:54,366 - root - INFO -  MACD calculation for ABAT due to high change percent: 11.859
+2025-10-12 00:22:54,605 - root - INFO - MACD not positive for ABAT
+2025-10-12 00:22:58,551 - root - INFO -  Get bars start time 2025-10-10T14:46:00-04:00 end_time 2025-10-10T14:51:00-04:00
+2025-10-12 00:23:03,605 - root - INFO -  Get bars start time 2025-10-10T14:46:00-04:00 end_time 2025-10-10T14:51:00-04:00
+2025-10-12 00:23:04,239 - root - INFO -  MACD calculation for APLD due to high change percent: 16.4732
+2025-10-12 00:23:07,152 - root - INFO -  MACD calculation for ASPI due to high change percent: 17.3299
+2025-10-12 00:23:07,216 - root - INFO - MACD not positive for ASPI
+2025-10-12 00:23:07,726 - root - INFO -  Get bars start time 2025-10-10T14:46:00-04:00 end_time 2025-10-10T14:51:00-04:00
+2025-10-12 00:23:11,738 - root - INFO -  Get bars start time 2025-10-10T14:46:00-04:00 end_time 2025-10-10T14:51:00-04:00
+2025-10-12 00:23:16,099 - root - INFO -  Get bars start time 2025-10-10T14:46:00-04:00 end_time 2025-10-10T14:51:00-04:00
+2025-10-12 00:23:20,188 - root - INFO -  Get bars start time 2025-10-10T14:46:00-04:00 end_time 2025-10-10T14:51:00-04:00
+2025-10-12 00:23:22,775 - root - INFO -  MACD calculation for CATX due to high change percent: 24.899
+2025-10-12 00:23:22,837 - root - INFO - MACD not positive for CATX
+2025-10-12 00:23:24,691 - root - INFO -  Get bars start time 2025-10-10T14:46:00-04:00 end_time 2025-10-10T14:51:00-04:00
+2025-10-12 00:23:25,044 - root - INFO -  MACD calculation for CEPT due to high change percent: 11.542
+2025-10-12 00:23:25,079 - root - INFO - MACD not positive for CEPT
+2025-10-12 00:23:28,655 - root - INFO -  Get bars start time 2025-10-10T14:46:00-04:00 end_time 2025-10-10T14:51:00-04:00
+2025-10-12 00:23:30,487 - root - INFO -  MACD calculation for CODI due to high change percent: 15.102
+2025-10-12 00:23:30,554 - root - INFO - MACD not positive for CODI
+2025-10-12 00:23:31,802 - root - INFO -  MACD calculation for CPSH due to high change percent: 12.0603
+2025-10-12 00:23:32,762 - root - INFO -  MACD calculation for CRMLW due to high change percent: 13.0298
+2025-10-12 00:23:32,822 - root - INFO - MACD not positive for CRMLW
+2025-10-12 00:23:32,991 - root - INFO -  Get bars start time 2025-10-10T14:46:00-04:00 end_time 2025-10-10T14:51:00-04:00
+2025-10-12 00:23:37,465 - root - INFO -  Get bars start time 2025-10-10T14:46:00-04:00 end_time 2025-10-10T14:51:00-04:00
+2025-10-12 00:23:38,620 - root - INFO -  MACD calculation for DGXX due to high change percent: 19.1288
+2025-10-12 00:23:38,680 - root - INFO - MACD not positive for DGXX
+2025-10-12 00:23:42,231 - root - INFO -  Get bars start time 2025-10-10T14:46:00-04:00 end_time 2025-10-10T14:51:00-04:00
+2025-10-12 00:23:45,360 - root - INFO -  Get bars start time 2025-10-10T14:46:00-04:00 end_time 2025-10-10T14:51:00-04:00
+2025-10-12 00:23:46,100 - root - INFO -  MACD calculation for ENTO due to high change percent: 10.9442
+2025-10-12 00:23:46,152 - root - INFO - MACD not positive for ENTO
+2025-10-12 00:23:50,020 - root - INFO -  Get bars start time 2025-10-10T14:46:00-04:00 end_time 2025-10-10T14:51:00-04:00
+2025-10-12 00:23:51,292 - root - INFO -  MACD calculation for FEAM due to high change percent: 19.0763
+2025-10-12 00:23:51,356 - root - INFO - MACD not positive for FEAM
+2025-10-12 00:23:53,500 - root - INFO -  MACD calculation for FMFC due to high change percent: 11.9385
+2025-10-12 00:23:53,575 - root - INFO -  Get bars start time 2025-10-10T14:46:00-04:00 end_time 2025-10-10T14:51:00-04:00
+2025-10-12 00:23:57,842 - root - INFO -  Get bars start time 2025-10-10T14:46:00-04:00 end_time 2025-10-10T14:51:00-04:00
+2025-10-12 00:24:00,244 - root - INFO -  MACD calculation for GLUE due to high change percent: 16.6667
+2025-10-12 00:24:00,311 - root - INFO - MACD not positive for GLUE
+2025-10-12 00:24:01,037 - root - INFO -  Get bars start time 2025-10-10T14:46:00-04:00 end_time 2025-10-10T14:51:00-04:00
+2025-10-12 00:24:03,678 - root - INFO -  MACD calculation for GWAV due to high change percent: 16.3986
+2025-10-12 00:24:03,800 - root - INFO -  MACD calculation for GWH due to high change percent: 144.762
+2025-10-12 00:24:03,845 - root - INFO - MACD not positive for GWH
+2025-10-12 00:24:03,973 - root - INFO -  MACD calculation for GYRE due to high change percent: 12.7972
+2025-10-12 00:24:04,014 - root - INFO - MACD not positive for GYRE
+2025-10-12 00:24:05,334 - root - INFO -  Get bars start time 2025-10-10T14:46:00-04:00 end_time 2025-10-10T14:51:00-04:00
+2025-10-12 00:24:07,191 - root - INFO -  MACD calculation for HONDW due to high change percent: 12.1918
+2025-10-12 00:24:09,325 - root - INFO -  Get bars start time 2025-10-10T14:46:00-04:00 end_time 2025-10-10T14:51:00-04:00
+2025-10-12 00:24:13,606 - root - INFO -  Get bars start time 2025-10-10T14:46:00-04:00 end_time 2025-10-10T14:51:00-04:00
+2025-10-12 00:24:17,848 - root - INFO -  Get bars start time 2025-10-10T14:46:00-04:00 end_time 2025-10-10T14:51:00-04:00
