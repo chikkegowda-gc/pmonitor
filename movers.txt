@@ -2,11 +2,11 @@ Top Movers:
 +--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 | ticker | in_position | break_out | change_percent |  volume | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
-|  QNRX  |      1      |     0     |      75.0      |  517969 |     14.28     |        8.16        |     -1.0     | 7.75398  |   49595    |      0      | 2025-10-10 09:31:00 |
-|  SLE   |      0      |     0     |    38.7781     | 2865928 |     4.9405    |        3.56        |  13570000.0  |   3.71   |   144436   |      0      | 2025-10-10 09:31:00 |
-|  VSME  |      0      |     0     |    23.0769     |  62538  |      1.6      |        1.3         |  14180000.0  |  2.024   |  2500626   |      0      | 2025-10-10 09:31:00 |
-|  ELBM  |      0      |     0     |    22.7513     |  157023 |     2.125     |        1.89        |  17640000.0  |  1.676   |  3086539   |      0      | 2025-10-10 09:36:00 |
-|  NVX   |      0      |     0     |    17.7413     |  378458 |     2.475     |       2.165        | 122150000.0  |  1.914   |  4830926   |      0      | 2025-10-10 09:36:00 |
+|  SGBX  |      0      |     0     |    81.3889     | 7054942 |     5.877     |        3.24        |  5860000.0   |   3.42   |   788930   |      0      | 2025-10-10 09:41:00 |
+|  QNRX  |      1      |     0     |     70.098     | 1030660 |     13.88     |        8.16        |     -1.0     | 7.75398  |   49595    |      0      | 2025-10-10 09:41:00 |
+|  ONMD  |      0      |     0     |     28.221     |  598026 |     3.4235    |        2.67        |  17600000.0  |  2.232   |  61186815  |      0      | 2025-10-10 09:41:00 |
+|  CCTG  |      1      |     0     |    25.4777     |  484825 |      2.2      |        1.57        |  2310000.0   |  1.796   |  4875858   |      0      | 2025-10-10 09:46:00 |
+|  VSME  |      0      |     0     |    22.2615     |  83252  |     1.5894    |        1.3         |  14180000.0  |  2.024   |  2500626   |      0      | 2025-10-10 09:41:00 |
 +--------+-------------+-----------+----------------+---------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 Top Loosers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
@@ -20,403 +20,403 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-11 21:14:18,687 - root - INFO - Last 20 minutes volume is low for FMFC: 12404
-2025-10-11 21:14:18,700 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-11 21:14:18,706 - root - INFO - Time since last close for SLE is 16.0 minutes, net percent 7.70677
-2025-10-11 21:14:18,737 - root - INFO - Last 5 minutes maximum volume candle is red for SLE
-2025-10-11 21:14:18,753 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
-2025-10-11 21:14:18,760 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-11 21:14:18,760 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
-2025-10-11 21:14:18,789 - root - INFO - Last 20 minutes volume is low for SWKH: 16853
-2025-10-11 21:14:18,809 - root - INFO - swing_strategy_open_long for scale 5Min stock SHPH
-2025-10-11 21:14:18,817 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-11 21:14:18,817 - root - INFO - Time since last close for SHPH is None minutes, net percent 0
-2025-10-11 21:14:18,889 - root - INFO - Last 5 minutes maximum volume candle is green for SHPH
-2025-10-11 21:14:18,951 - root - INFO - Trend up basic conditions not met for SHPH: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-11 21:14:18,965 - root - INFO - swing_strategy_close_long for scale 5Min stock CABA
-2025-10-11 21:14:19,087 - root - INFO - Profit percent for CABA is -3.69132
-2025-10-11 21:14:19,088 - root - INFO - Latest 1min close price for CABA: 3.11
-2025-10-11 21:14:19,185 - root - INFO - No close long conditions met for CABA
-2025-10-11 21:14:19,202 - root - INFO - swing_strategy_close_long for scale 5Min stock QNRX
-2025-10-11 21:14:19,242 - root - INFO - Profit percent for QNRX is 0
-2025-10-11 21:14:19,242 - root - INFO - Latest 1min close price for QNRX: 14.58
-2025-10-11 21:14:19,270 - root - INFO - High price DETECTED for QNRX is 0.0 and setting no_scalp to True
-2025-10-11 21:14:19,285 - root - INFO - Skipping SCALP for QNRX as it's in no_scalp list
-2025-10-11 21:14:19,307 - root - INFO - Test mode: Total profit so far: 910.8453607559204
-2025-10-11 21:14:19,364 - root - WARNING - stock is already in the open positions
-2025-10-11 21:14:19,384 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-11 21:14:19,394 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-11 21:14:19,395 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-11 21:14:19,431 - root - INFO - Last 20 minutes volume is low for FMFC: 11553
-2025-10-11 21:14:19,458 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-11 21:14:19,468 - root - INFO - Time since last close for SLE is 17.0 minutes, net percent 7.70677
-2025-10-11 21:14:19,501 - root - INFO - Last 5 minutes maximum volume candle is red for SLE
-2025-10-11 21:14:19,528 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
-2025-10-11 21:14:19,538 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-11 21:14:19,538 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
-2025-10-11 21:14:19,565 - root - INFO - Last 20 minutes volume is low for SWKH: 17305
-2025-10-11 21:14:19,585 - root - INFO - swing_strategy_open_long for scale 5Min stock SHPH
-2025-10-11 21:14:19,596 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-11 21:14:19,597 - root - INFO - Time since last close for SHPH is None minutes, net percent 0
-2025-10-11 21:14:19,657 - root - INFO - Last 5 minutes maximum volume candle is green for SHPH
-2025-10-11 21:14:19,711 - root - INFO - Trend up basic conditions not met for SHPH: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-11 21:14:19,726 - root - INFO - swing_strategy_close_long for scale 5Min stock CABA
-2025-10-11 21:14:19,840 - root - INFO - Profit percent for CABA is -3.69132
-2025-10-11 21:14:19,841 - root - INFO - Latest 1min close price for CABA: 3.11
-2025-10-11 21:14:19,930 - root - INFO - No close long conditions met for CABA
-2025-10-11 21:14:19,947 - root - INFO - swing_strategy_close_long for scale 5Min stock QNRX
-2025-10-11 21:14:19,990 - root - INFO - Profit percent for QNRX is 0.0
-2025-10-11 21:14:19,990 - root - INFO - Latest 1min close price for QNRX: 14.28
-2025-10-11 21:14:20,070 - root - INFO - MACD is still rising for stock QNRX
-2025-10-11 21:14:20,070 - root - INFO - Not enough profit percent to scalp for QNRX: 0.0
-2025-10-11 21:14:20,082 - root - INFO - Skipping SCALP for QNRX as it's in no_scalp list
-2025-10-11 21:14:20,107 - root - INFO - Test mode: Total profit so far: 890.2692289352417
-2025-10-11 21:14:20,168 - root - WARNING - stock is already in the open positions
-2025-10-11 21:14:20,191 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-11 21:14:20,202 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-11 21:14:20,203 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-11 21:14:20,246 - root - INFO - Last 20 minutes volume is low for FMFC: 11553
-2025-10-11 21:14:20,272 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-11 21:14:20,283 - root - INFO - Time since last close for SLE is 18.0 minutes, net percent 7.70677
-2025-10-11 21:14:20,318 - root - INFO - Last 5 minutes maximum volume candle is green for SLE
-2025-10-11 21:14:20,343 - root - INFO - 9 EMA is in downtrend, not opening long position for SLE
-2025-10-11 21:14:20,368 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
-2025-10-11 21:14:20,379 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-11 21:14:20,379 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
-2025-10-11 21:14:20,408 - root - INFO - Last 20 minutes volume is low for SWKH: 18810
-2025-10-11 21:14:20,431 - root - INFO - swing_strategy_open_long for scale 5Min stock SHPH
-2025-10-11 21:14:20,444 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-11 21:14:20,445 - root - INFO - Time since last close for SHPH is None minutes, net percent 0
-2025-10-11 21:14:20,506 - root - INFO - Last 5 minutes maximum volume candle is red for SHPH
-2025-10-11 21:14:20,518 - root - INFO - swing_strategy_close_long for scale 5Min stock CABA
-2025-10-11 21:14:20,633 - root - INFO - Profit percent for CABA is -3.69132
-2025-10-11 21:14:20,633 - root - INFO - Latest 1min close price for CABA: 3.11
-2025-10-11 21:14:20,729 - root - INFO - No close long conditions met for CABA
-2025-10-11 21:14:20,746 - root - INFO - swing_strategy_close_long for scale 5Min stock QNRX
-2025-10-11 21:14:20,789 - root - INFO - Profit percent for QNRX is -2.05761
-2025-10-11 21:14:20,790 - root - INFO - Latest 1min close price for QNRX: 12.3
-2025-10-11 21:14:20,875 - root - INFO - MACD is still rising for stock QNRX
-2025-10-11 21:14:20,875 - root - INFO - Not enough profit percent to scalp for QNRX: -2.05761
-2025-10-11 21:14:20,889 - root - INFO - Skipping SCALP for QNRX as it's in no_scalp list
-2025-10-11 21:14:20,914 - root - INFO - Test mode: Total profit so far: 754.4667596817017
-2025-10-11 21:14:20,975 - root - WARNING - stock is already in the open positions
-2025-10-11 21:14:20,996 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-11 21:14:21,006 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-11 21:14:21,007 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-11 21:14:21,091 - root - INFO - Last 20 minutes volume is low for FMFC: 11553
-2025-10-11 21:14:21,116 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-11 21:14:21,127 - root - INFO - Time since last close for SLE is 19.0 minutes, net percent 7.70677
-2025-10-11 21:14:21,154 - root - INFO - Last 5 minutes maximum volume candle is green for SLE
-2025-10-11 21:14:21,180 - root - INFO - 1min candle is not positive for SLE: open 4.84 close 4.81
-2025-10-11 21:14:21,204 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
-2025-10-11 21:14:21,214 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-11 21:14:21,214 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
-2025-10-11 21:14:21,239 - root - INFO - Last 20 minutes volume is low for SWKH: 18767
-2025-10-11 21:14:21,270 - root - INFO - swing_strategy_open_long for scale 5Min stock SHPH
-2025-10-11 21:14:21,279 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-11 21:14:21,279 - root - INFO - Time since last close for SHPH is None minutes, net percent 0
-2025-10-11 21:14:21,342 - root - INFO - Last 5 minutes maximum volume candle is red for SHPH
-2025-10-11 21:14:21,357 - root - INFO - swing_strategy_close_long for scale 5Min stock CABA
-2025-10-11 21:14:21,473 - root - INFO - Profit percent for CABA is -3.69132
-2025-10-11 21:14:21,473 - root - INFO - Latest 1min close price for CABA: 3.15
-2025-10-11 21:14:21,561 - root - INFO - No close long conditions met for CABA
-2025-10-11 21:14:21,578 - root - INFO - swing_strategy_close_long for scale 5Min stock QNRX
-2025-10-11 21:14:21,621 - root - INFO - Profit percent for QNRX is -15.6379
-2025-10-11 21:14:21,621 - root - INFO - Latest 1min close price for QNRX: 12.1
-2025-10-11 21:14:21,697 - root - INFO - MACD is still rising for stock QNRX
-2025-10-11 21:14:21,698 - root - INFO - Not enough profit percent to scalp for QNRX: -15.6379
-2025-10-11 21:14:21,709 - root - INFO - Skipping SCALP for QNRX as it's in no_scalp list
-2025-10-11 21:14:21,733 - root - INFO - Test mode: Total profit so far: 753.1363039016724
-2025-10-11 21:14:21,791 - root - WARNING - stock is already in the open positions
-2025-10-11 21:14:21,817 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-11 21:14:21,827 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-11 21:14:21,827 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-11 21:14:21,864 - root - INFO - Last 20 minutes volume is low for FMFC: 20818
-2025-10-11 21:14:21,888 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-11 21:14:21,900 - root - INFO - Time since last close for SLE is 20.0 minutes, net percent 7.70677
-2025-10-11 21:14:21,935 - root - INFO - Last 5 minutes maximum volume candle is green for SLE
-2025-10-11 21:14:21,965 - root - INFO - 9 EMA is in downtrend, not opening long position for SLE
-2025-10-11 21:14:21,987 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
-2025-10-11 21:14:21,997 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-11 21:14:21,998 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
-2025-10-11 21:14:22,031 - root - INFO - Last 20 minutes volume is low for SWKH: 26664
-2025-10-11 21:14:22,055 - root - INFO - swing_strategy_open_long for scale 5Min stock SHPH
-2025-10-11 21:14:22,065 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-11 21:14:22,066 - root - INFO - Time since last close for SHPH is None minutes, net percent 0
-2025-10-11 21:14:22,126 - root - INFO - Last 5 minutes maximum volume candle is red for SHPH
-2025-10-11 21:14:22,140 - root - INFO - swing_strategy_close_long for scale 5Min stock CABA
-2025-10-11 21:14:22,256 - root - INFO - Profit percent for CABA is -2.45262
-2025-10-11 21:14:22,256 - root - INFO - Latest 1min close price for CABA: 3.01
-2025-10-11 21:14:22,353 - root - INFO - Closing TrendUp long: price below EMAs or MACD below signal{price_below_emas=True, macd_below_signal=True}
-2025-10-11 21:14:22,353 - root - INFO - CABA:====== 3.01=========>SELL========>TrendUpExit
-2025-10-11 21:14:22,363 - root - INFO - *********CLOSING BY SOLD: CABA
-2025-10-11 21:14:22,374 - root - INFO - Profit percent for CABA is -2.45262
-2025-10-11 21:14:22,403 - root - INFO - swing_strategy_close_long for scale 5Min stock QNRX
-2025-10-11 21:14:22,441 - root - INFO - Profit percent for QNRX is -17.0096
-2025-10-11 21:14:22,441 - root - INFO - Latest 1min close price for QNRX: 14.28
-2025-10-11 21:14:22,522 - root - INFO - MACD is still rising for stock QNRX
-2025-10-11 21:14:22,522 - root - INFO - Not enough profit percent to scalp for QNRX: -17.0096
-2025-10-11 21:14:22,534 - root - INFO - Skipping SCALP for QNRX as it's in no_scalp list
-2025-10-11 21:14:22,562 - root - INFO - Test mode: Total profit so far: 859.3018026351929
-2025-10-11 21:14:22,562 - root - INFO - ('2025-10-10T09:31:00-04:00', '2025-10-10T09:31:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T04:00:00-04:00')
-2025-10-11 21:14:22,562 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T09:31:00-04:00
-2025-10-11 21:14:22,586 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:14:28,295 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:14:34,656 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:14:35,742 - root - INFO -  MACD calculation for APLD due to high change percent: 26.0498
-2025-10-11 21:14:35,813 - root - INFO - MACD not positive for APLD
-2025-10-11 21:14:40,380 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:14:46,032 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:14:51,533 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:14:56,008 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:15:00,259 - root - INFO -  MACD calculation for CCCXU due to high change percent: 10.8940206185567
-2025-10-11 21:15:02,042 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:15:07,311 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:15:09,636 - root - INFO -  MACD calculation for CODI due to high change percent: 20.4082
-2025-10-11 21:15:09,681 - root - INFO - MACD not positive for CODI
-2025-10-11 21:15:10,713 - root - INFO -  MACD calculation for CRML due to high change percent: 14.8198
-2025-10-11 21:15:10,778 - root - INFO - MACD not positive for CRML
-2025-10-11 21:15:10,823 - root - INFO -  MACD calculation for CRMLW due to high change percent: 17.7221
-2025-10-11 21:15:10,856 - root - INFO - MACD not positive for CRMLW
-2025-10-11 21:15:10,983 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:15:16,729 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:15:21,189 - root - INFO -  MACD calculation for DPRO due to high change percent: 11.1952
-2025-10-11 21:15:21,264 - root - INFO - MACD not positive for DPRO
-2025-10-11 21:15:22,743 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:15:28,179 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:15:34,560 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:15:39,896 - root - INFO -  MACD calculation for FMFC due to high change percent: 43.026
-2025-10-11 21:15:40,049 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:15:45,389 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:15:50,991 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:15:51,176 - root - INFO -  MACD calculation for GORV due to high change percent: 10.1887
-2025-10-11 21:15:51,211 - root - INFO - MACD not positive for GORV
-2025-10-11 21:15:54,287 - root - INFO -  MACD calculation for GWH due to high change percent: 109.32
-2025-10-11 21:15:54,356 - root - INFO - MACD not positive for GWH
-2025-10-11 21:15:56,350 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:16:00,106 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:16:05,246 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:16:07,547 - root - INFO -  MACD calculation for IRWD due to high change percent: 10.0452
-2025-10-11 21:16:11,055 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:16:17,136 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:16:22,403 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:16:27,184 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:16:32,646 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:16:39,079 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:16:45,279 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:16:49,456 - root - INFO -  MACD calculation for NVX due to high change percent: 11.3164
-2025-10-11 21:16:50,899 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:16:56,012 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:17:01,407 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:17:07,126 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:17:10,484 - root - INFO -  MACD calculation for QNRX due to high change percent: 78.6765
-2025-10-11 21:17:12,926 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:17:17,680 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:17:23,097 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:17:25,181 - root - INFO -  MACD calculation for SGBX due to high change percent: 72.8395
-2025-10-11 21:17:25,246 - root - INFO - MACD not positive for SGBX
-2025-10-11 21:17:26,435 - root - INFO -  MACD calculation for SHPH due to high change percent: 15.126
-2025-10-11 21:17:28,333 - root - INFO -  MACD calculation for SLE due to high change percent: 33.7079
-2025-10-11 21:17:29,357 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:17:35,395 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:17:37,045 - root - INFO -  MACD calculation for STTK due to high change percent: 10.9091
-2025-10-11 21:17:37,962 - root - INFO -  MACD calculation for SVIIW due to high change percent: 16.0
-2025-10-11 21:17:38,349 - root - INFO -  MACD calculation for SWKH due to high change percent: 17.1528
-2025-10-11 21:17:38,381 - root - INFO - MACD not positive for SWKH
-2025-10-11 21:17:39,183 - root - INFO -  MACD calculation for TALK due to high change percent: 13.3986
-2025-10-11 21:17:39,245 - root - INFO - MACD not positive for TALK
-2025-10-11 21:17:39,430 - root - INFO -  MACD calculation for TAOX due to high change percent: 10.1551
-2025-10-11 21:17:40,515 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:17:41,157 - root - INFO -  MACD calculation for TE due to high change percent: 11.2272
-2025-10-11 21:17:41,219 - root - INFO - MACD not positive for TE
-2025-10-11 21:17:42,966 - root - INFO -  MACD calculation for THM due to high change percent: 11.399
-2025-10-11 21:17:46,536 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:17:50,158 - root - INFO -  MACD calculation for UAMY due to high change percent: 10.4779
-2025-10-11 21:17:50,232 - root - INFO - MACD not positive for UAMY
-2025-10-11 21:17:52,747 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:17:52,936 - root - INFO -  MACD calculation for USARW due to high change percent: 14.8739
-2025-10-11 21:17:52,981 - root - INFO - MACD not positive for USARW
-2025-10-11 21:17:58,708 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:17:59,164 - root - INFO -  MACD calculation for VSME due to high change percent: 11.5385
-2025-10-11 21:18:00,639 - root - INFO -  MACD calculation for WAI due to high change percent: 18.6275
-2025-10-11 21:18:00,687 - root - INFO - MACD not positive for WAI
-2025-10-11 21:18:04,504 - root - INFO -  Get bars start time 2025-10-10T09:26:00-04:00 end_time 2025-10-10T09:31:00-04:00
-2025-10-11 21:18:04,818 - root - INFO -  MACD calculation for WWR due to high change percent: 11.6162
-2025-10-11 21:18:07,632 - root - INFO -  MACD calculation for YHGJ due to high change percent: 36.0
-2025-10-11 21:18:07,681 - root - INFO - MACD not positive for YHGJ
-2025-10-11 21:18:08,244 - root - INFO -  MACD calculation for YSXT due to high change percent: 21.3592
-2025-10-11 21:18:08,286 - root - INFO - MACD not positive for YSXT
-2025-10-11 21:18:10,285 - root - INFO - Updating change percent of stocks
-2025-10-11 21:18:11,451 - root - WARNING - stock is already in the open positions
-2025-10-11 21:18:11,458 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-11 21:18:11,462 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-11 21:18:11,462 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-11 21:18:11,520 - root - INFO - Last 20 minutes volume is low for FMFC: 23980
-2025-10-11 21:18:11,529 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-11 21:18:11,534 - root - INFO - Time since last close for SLE is 21.0 minutes, net percent 7.70677
-2025-10-11 21:18:11,561 - root - INFO - Last 5 minutes maximum volume candle is green for SLE
-2025-10-11 21:18:11,604 - root - INFO - Trend up basic conditions not met for SLE: price_above_emas=False, macd_above_signal=True, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-11 21:18:11,617 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
-2025-10-11 21:18:11,622 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-11 21:18:11,622 - root - INFO - Time since last close for VSME is None minutes, net percent 0
-2025-10-11 21:18:11,697 - root - INFO - Last 5 minutes maximum volume candle is green for VSME
-2025-10-11 21:18:11,766 - root - INFO - Trend up basic conditions not met for VSME: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-11 21:18:11,793 - root - INFO - swing_strategy_open_long for scale 5Min stock NVX
-2025-10-11 21:18:11,804 - root - INFO - Time since last close for NVX is 252.0 minutes, net percent 0.0
-2025-10-11 21:18:11,930 - root - INFO - Last 5 minutes maximum volume candle is green for NVX
-2025-10-11 21:18:12,012 - root - INFO - Trend up basic conditions not met for NVX: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-11 21:18:12,027 - root - INFO - swing_strategy_close_long for scale 5Min stock QNRX
-2025-10-11 21:18:12,067 - root - INFO - Profit percent for QNRX is -2.05761
-2025-10-11 21:18:12,067 - root - INFO - Latest 1min close price for QNRX: 14.28
-2025-10-11 21:18:12,133 - root - INFO - MACD is still rising for stock QNRX
-2025-10-11 21:18:12,134 - root - INFO - Not enough profit percent to scalp for QNRX: -2.05761
-2025-10-11 21:18:12,148 - root - INFO - Skipping SCALP for QNRX as it's in no_scalp list
-2025-10-11 21:18:12,167 - root - INFO - Test mode: Total profit so far: 859.3018026351929
-2025-10-11 21:18:12,215 - root - WARNING - stock is already in the open positions
-2025-10-11 21:18:12,235 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-11 21:18:12,246 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-11 21:18:12,246 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-11 21:18:12,286 - root - INFO - Last 20 minutes volume is low for FMFC: 31590
-2025-10-11 21:18:12,315 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-11 21:18:12,325 - root - INFO - Time since last close for SLE is 22.0 minutes, net percent 7.70677
-2025-10-11 21:18:12,365 - root - INFO - Last 5 minutes maximum volume candle is green for SLE
-2025-10-11 21:18:12,393 - root - INFO - 9 EMA is in downtrend, not opening long position for SLE
-2025-10-11 21:18:12,414 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
-2025-10-11 21:18:12,427 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-11 21:18:12,428 - root - INFO - Time since last close for VSME is None minutes, net percent 0
-2025-10-11 21:18:12,494 - root - INFO - Last 5 minutes maximum volume candle is green for VSME
-2025-10-11 21:18:12,554 - root - INFO - Trend up basic conditions not met for VSME: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-11 21:18:12,580 - root - INFO - swing_strategy_open_long for scale 5Min stock NVX
-2025-10-11 21:18:12,592 - root - INFO - Time since last close for NVX is 253.0 minutes, net percent 0.0
-2025-10-11 21:18:12,709 - root - INFO - Last 5 minutes maximum volume candle is green for NVX
-2025-10-11 21:18:12,735 - root - INFO - 1min candle is not positive for NVX: open 2.54 close 2.49
-2025-10-11 21:18:12,748 - root - INFO - swing_strategy_close_long for scale 5Min stock QNRX
-2025-10-11 21:18:12,787 - root - INFO - Profit percent for QNRX is -2.05761
-2025-10-11 21:18:12,787 - root - INFO - Latest 1min close price for QNRX: 14.28
-2025-10-11 21:18:12,863 - root - INFO - MACD is still rising for stock QNRX
-2025-10-11 21:18:12,863 - root - INFO - Not enough profit percent to scalp for QNRX: -2.05761
-2025-10-11 21:18:12,875 - root - INFO - Skipping SCALP for QNRX as it's in no_scalp list
-2025-10-11 21:18:12,900 - root - INFO - Test mode: Total profit so far: 859.3018026351929
-2025-10-11 21:18:12,955 - root - WARNING - stock is already in the open positions
-2025-10-11 21:18:12,976 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-11 21:18:12,985 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-11 21:18:12,985 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-11 21:18:13,023 - root - INFO - Last 20 minutes volume is low for FMFC: 34195
-2025-10-11 21:18:13,043 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-11 21:18:13,052 - root - INFO - Time since last close for SLE is 23.0 minutes, net percent 7.70677
-2025-10-11 21:18:13,084 - root - INFO - Last 5 minutes maximum volume candle is green for SLE
-2025-10-11 21:18:13,111 - root - INFO - 1min candle is not positive for SLE: open 4.9297 close 4.81
-2025-10-11 21:18:13,133 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
-2025-10-11 21:18:13,143 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-11 21:18:13,143 - root - INFO - Time since last close for VSME is None minutes, net percent 0
-2025-10-11 21:18:13,209 - root - INFO - Last 5 minutes maximum volume candle is green for VSME
-2025-10-11 21:18:13,272 - root - INFO - Trend up basic conditions not met for VSME: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-11 21:18:13,299 - root - INFO - swing_strategy_open_long for scale 5Min stock NVX
-2025-10-11 21:18:13,312 - root - INFO - Time since last close for NVX is 254.0 minutes, net percent 0.0
-2025-10-11 21:18:13,431 - root - INFO - Last 5 minutes maximum volume candle is green for NVX
-2025-10-11 21:18:13,504 - root - INFO - Trend up basic conditions not met for NVX: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-11 21:18:13,519 - root - INFO - swing_strategy_close_long for scale 5Min stock QNRX
-2025-10-11 21:18:13,557 - root - INFO - Profit percent for QNRX is -2.05761
-2025-10-11 21:18:13,557 - root - INFO - Latest 1min close price for QNRX: 14.28
-2025-10-11 21:18:13,633 - root - INFO - MACD is still rising for stock QNRX
-2025-10-11 21:18:13,633 - root - INFO - Not enough profit percent to scalp for QNRX: -2.05761
-2025-10-11 21:18:13,646 - root - INFO - Skipping SCALP for QNRX as it's in no_scalp list
-2025-10-11 21:18:13,669 - root - INFO - Test mode: Total profit so far: 859.3018026351929
-2025-10-11 21:18:13,725 - root - WARNING - stock is already in the open positions
-2025-10-11 21:18:13,748 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-11 21:18:13,759 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-11 21:18:13,759 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-11 21:18:13,798 - root - INFO - Last 5 minutes maximum volume candle is red for FMFC
-2025-10-11 21:18:13,825 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-11 21:18:13,836 - root - INFO - Time since last close for SLE is 24.0 minutes, net percent 7.70677
-2025-10-11 21:18:13,868 - root - INFO - Last 5 minutes maximum volume candle is green for SLE
-2025-10-11 21:18:13,893 - root - INFO - 1min candle is not positive for SLE: open 4.8001 close 4.7004
-2025-10-11 21:18:13,917 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
-2025-10-11 21:18:13,928 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-11 21:18:13,928 - root - INFO - Time since last close for VSME is None minutes, net percent 0
-2025-10-11 21:18:13,997 - root - INFO - Last 5 minutes maximum volume candle is green for VSME
-2025-10-11 21:18:14,016 - root - INFO - 1min candle is not positive for VSME: open 1.71 close 1.6562
-2025-10-11 21:18:14,042 - root - INFO - swing_strategy_open_long for scale 5Min stock NVX
-2025-10-11 21:18:14,056 - root - INFO - Time since last close for NVX is 255.0 minutes, net percent 0.0
-2025-10-11 21:18:14,172 - root - INFO - Last 5 minutes maximum volume candle is green for NVX
-2025-10-11 21:18:14,245 - root - INFO - Trend up basic conditions not met for NVX: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
-2025-10-11 21:18:14,260 - root - INFO - swing_strategy_close_long for scale 5Min stock QNRX
-2025-10-11 21:18:14,298 - root - INFO - Profit percent for QNRX is -2.05761
-2025-10-11 21:18:14,298 - root - INFO - Latest 1min close price for QNRX: 14.28
-2025-10-11 21:18:14,374 - root - INFO - MACD is still rising for stock QNRX
-2025-10-11 21:18:14,374 - root - INFO - Not enough profit percent to scalp for QNRX: -2.05761
-2025-10-11 21:18:14,387 - root - INFO - Skipping SCALP for QNRX as it's in no_scalp list
-2025-10-11 21:18:14,411 - root - INFO - Test mode: Total profit so far: 859.3018026351929
-2025-10-11 21:18:14,467 - root - WARNING - stock is already in the open positions
-2025-10-11 21:18:14,489 - root - INFO - swing_strategy_open_long for scale 5Min stock FMFC
-2025-10-11 21:18:14,499 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-11 21:18:14,499 - root - INFO - Time since last close for FMFC is None minutes, net percent 0
-2025-10-11 21:18:14,537 - root - INFO - Last 5 minutes maximum volume candle is red for FMFC
-2025-10-11 21:18:14,566 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
-2025-10-11 21:18:14,577 - root - INFO - Time since last close for SLE is 25.0 minutes, net percent 7.70677
-2025-10-11 21:18:14,613 - root - INFO - Last 5 minutes maximum volume candle is red for SLE
-2025-10-11 21:18:14,638 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
-2025-10-11 21:18:14,651 - root - WARNING - No records found for time_minutes_since_prev_close
-2025-10-11 21:18:14,651 - root - INFO - Time since last close for VSME is None minutes, net percent 0
-2025-10-11 21:18:14,735 - root - INFO - Last 5 minutes maximum volume candle is green for VSME
-2025-10-11 21:18:14,761 - root - INFO - 1min candle is not positive for VSME: open 1.69 close 1.66
-2025-10-11 21:18:14,783 - root - INFO - swing_strategy_open_long for scale 5Min stock NVX
-2025-10-11 21:18:14,798 - root - INFO - Time since last close for NVX is 256.0 minutes, net percent 0.0
-2025-10-11 21:18:14,922 - root - INFO - Last 5 minutes maximum volume candle is red for NVX
-2025-10-11 21:18:14,937 - root - INFO - swing_strategy_close_long for scale 5Min stock QNRX
-2025-10-11 21:18:14,977 - root - INFO - Profit percent for QNRX is -2.05761
-2025-10-11 21:18:14,977 - root - INFO - Latest 1min close price for QNRX: 15.784
-2025-10-11 21:18:15,003 - root - INFO - High price DETECTED for QNRX is 14.58 and setting no_scalp to True
-2025-10-11 21:18:15,017 - root - INFO - Skipping SCALP for QNRX as it's in no_scalp list
-2025-10-11 21:18:15,037 - root - INFO - Test mode: Total profit so far: 962.4568071365356
-2025-10-11 21:18:15,037 - root - INFO - ('2025-10-10T09:36:00-04:00', '2025-10-10T09:36:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T04:00:00-04:00')
-2025-10-11 21:18:15,037 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T09:36:00-04:00
-2025-10-11 21:18:15,064 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:18:19,581 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:18:24,589 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:18:25,459 - root - INFO -  MACD calculation for APLD due to high change percent: 20.775
-2025-10-11 21:18:25,541 - root - INFO - MACD not positive for APLD
-2025-10-11 21:18:26,595 - root - INFO -  MACD calculation for ARAY due to high change percent: 10.5405
-2025-10-11 21:18:26,660 - root - INFO - MACD not positive for ARAY
-2025-10-11 21:18:29,082 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:18:33,258 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:18:37,894 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:18:42,562 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:18:45,597 - root - INFO -  MACD calculation for CCCXU due to high change percent: 10.894
-2025-10-11 21:18:46,783 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:18:51,176 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:18:53,550 - root - INFO -  MACD calculation for CODI due to high change percent: 17.0068
-2025-10-11 21:18:53,611 - root - INFO - MACD not positive for CODI
-2025-10-11 21:18:55,884 - root - INFO -  MACD calculation for CRMLW due to high change percent: 15.3846
-2025-10-11 21:18:55,944 - root - INFO - MACD not positive for CRMLW
-2025-10-11 21:18:56,108 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:18:59,669 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:19:04,459 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:19:08,465 - root - INFO -  MACD calculation for ELBM due to high change percent: 22.7513
-2025-10-11 21:19:09,070 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:19:13,112 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:19:16,056 - root - INFO -  MACD calculation for FMFC due to high change percent: 42.7801
-2025-10-11 21:19:16,109 - root - INFO - MACD not positive for FMFC
-2025-10-11 21:19:16,109 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:19:19,727 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:19:24,077 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:19:24,259 - root - INFO -  MACD calculation for GORV due to high change percent: 10.3811
-2025-10-11 21:19:24,301 - root - INFO - MACD not positive for GORV
-2025-10-11 21:19:27,030 - root - INFO -  MACD calculation for GWH due to high change percent: 108.395
-2025-10-11 21:19:27,089 - root - INFO - MACD not positive for GWH
-2025-10-11 21:19:27,300 - root - INFO -  MACD calculation for GYRE due to high change percent: 14.1259
-2025-10-11 21:19:28,531 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:19:32,342 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:19:36,961 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:19:41,252 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:19:45,066 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:19:49,286 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:19:53,546 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:19:57,592 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:20:02,121 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:20:04,965 - root - INFO -  MACD calculation for NIOBW due to high change percent: 11.4178
-2025-10-11 21:20:06,826 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:20:10,123 - root - INFO -  MACD calculation for NVX due to high change percent: 17.7413
-2025-10-11 21:20:11,175 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
-2025-10-11 21:20:13,672 - root - INFO -  MACD calculation for ONMD due to high change percent: 16.573
-2025-10-11 21:20:14,814 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
+2025-10-11 21:21:01,759 - root - INFO -  MACD calculation for WAI due to high change percent: 18.0556
+2025-10-11 21:21:01,817 - root - INFO - MACD not positive for WAI
+2025-10-11 21:21:03,482 - root - INFO -  MACD calculation for WLACW due to high change percent: 12.5
+2025-10-11 21:21:04,653 - root - INFO -  Get bars start time 2025-10-10T09:31:00-04:00 end_time 2025-10-10T09:36:00-04:00
+2025-10-11 21:21:04,914 - root - INFO -  MACD calculation for WWR due to high change percent: 10.6717
+2025-10-11 21:21:06,957 - root - INFO -  MACD calculation for YHGJ due to high change percent: 37.5
+2025-10-11 21:21:06,996 - root - INFO - MACD not positive for YHGJ
+2025-10-11 21:21:07,266 - root - INFO -  MACD calculation for YSXT due to high change percent: 21.3592
+2025-10-11 21:21:07,302 - root - INFO - MACD not positive for YSXT
+2025-10-11 21:21:08,947 - root - INFO - Updating change percent of stocks
+2025-10-11 21:21:09,917 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-11 21:21:09,920 - root - INFO - Time since last close for SGBX is 225.0 minutes, net percent 13.9154
+2025-10-11 21:21:10,011 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
+2025-10-11 21:21:10,022 - root - INFO - 1min candle is not positive for SGBX: open 5.98 close 5.86
+2025-10-11 21:21:10,028 - root - WARNING - stock is already in the open positions
+2025-10-11 21:21:10,039 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
+2025-10-11 21:21:10,044 - root - INFO - Time since last close for SLE is 26.0 minutes, net percent 7.70677
+2025-10-11 21:21:10,077 - root - INFO - Last 5 minutes maximum volume candle is red for SLE
+2025-10-11 21:21:10,092 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
+2025-10-11 21:21:10,099 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-11 21:21:10,099 - root - INFO - Time since last close for VSME is None minutes, net percent 0
+2025-10-11 21:21:15,192 - root - INFO - Last 5 minutes maximum volume candle is green for VSME
+2025-10-11 21:21:15,216 - root - INFO - 1min candle is not positive for VSME: open 1.6391 close 1.59
+2025-10-11 21:21:15,239 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
+2025-10-11 21:21:15,249 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-11 21:21:15,249 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
+2025-10-11 21:21:15,280 - root - INFO - Last 20 minutes volume is low for SWKH: 37683
+2025-10-11 21:21:15,292 - root - INFO - swing_strategy_close_long for scale 5Min stock QNRX
+2025-10-11 21:21:15,331 - root - INFO - Profit percent for QNRX is 8.25789
+2025-10-11 21:21:15,332 - root - INFO - Latest 1min close price for QNRX: 13.46
+2025-10-11 21:21:15,411 - root - INFO - MACD is still rising for stock QNRX
+2025-10-11 21:21:15,411 - root - INFO - Not enough profit percent to scalp for QNRX: 8.25789
+2025-10-11 21:21:15,422 - root - INFO - Skipping SCALP for QNRX as it's in no_scalp list
+2025-10-11 21:21:15,449 - root - INFO - Test mode: Total profit so far: 803.0603761672974
+2025-10-11 21:21:15,516 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-11 21:21:15,528 - root - INFO - Time since last close for SGBX is 226.0 minutes, net percent 13.9154
+2025-10-11 21:21:15,628 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
+2025-10-11 21:21:15,655 - root - INFO - 1min candle is not positive for SGBX: open 5.862 close 5.79
+2025-10-11 21:21:15,666 - root - WARNING - stock is already in the open positions
+2025-10-11 21:21:15,688 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
+2025-10-11 21:21:15,700 - root - INFO - Time since last close for SLE is 27.0 minutes, net percent 7.70677
+2025-10-11 21:21:15,732 - root - INFO - Last 5 minutes maximum volume candle is red for SLE
+2025-10-11 21:21:15,752 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
+2025-10-11 21:21:15,762 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-11 21:21:15,762 - root - INFO - Time since last close for VSME is None minutes, net percent 0
+2025-10-11 21:21:15,888 - root - INFO - Last 5 minutes maximum volume candle is green for VSME
+2025-10-11 21:21:15,913 - root - INFO - 1min candle is not positive for VSME: open 1.58 close 1.57
+2025-10-11 21:21:15,931 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
+2025-10-11 21:21:15,943 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-11 21:21:15,943 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
+2025-10-11 21:21:15,968 - root - INFO - Last 20 minutes volume is low for SWKH: 39374
+2025-10-11 21:21:15,981 - root - INFO - swing_strategy_close_long for scale 5Min stock QNRX
+2025-10-11 21:21:16,018 - root - INFO - Profit percent for QNRX is -7.68176
+2025-10-11 21:21:16,018 - root - INFO - Latest 1min close price for QNRX: 13.46
+2025-10-11 21:21:16,097 - root - INFO - MACD is still rising for stock QNRX
+2025-10-11 21:21:16,098 - root - INFO - Not enough profit percent to scalp for QNRX: -7.68176
+2025-10-11 21:21:16,110 - root - INFO - Skipping SCALP for QNRX as it's in no_scalp list
+2025-10-11 21:21:16,133 - root - INFO - Test mode: Total profit so far: 803.0603761672974
+2025-10-11 21:21:16,207 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-11 21:21:16,217 - root - INFO - Time since last close for SGBX is 227.0 minutes, net percent 13.9154
+2025-10-11 21:21:16,291 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
+2025-10-11 21:21:16,357 - root - INFO - Trend up basic conditions not met for SGBX: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-11 21:21:16,370 - root - WARNING - stock is already in the open positions
+2025-10-11 21:21:16,394 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
+2025-10-11 21:21:16,406 - root - INFO - Time since last close for SLE is 28.0 minutes, net percent 7.70677
+2025-10-11 21:21:16,438 - root - INFO - Last 5 minutes maximum volume candle is red for SLE
+2025-10-11 21:21:16,467 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
+2025-10-11 21:21:16,477 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-11 21:21:16,477 - root - INFO - Time since last close for VSME is None minutes, net percent 0
+2025-10-11 21:21:16,548 - root - INFO - Last 5 minutes maximum volume candle is red for VSME
+2025-10-11 21:21:16,577 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
+2025-10-11 21:21:16,587 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-11 21:21:16,588 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
+2025-10-11 21:21:16,615 - root - INFO - Last 20 minutes volume is low for SWKH: 39374
+2025-10-11 21:21:16,627 - root - INFO - swing_strategy_close_long for scale 5Min stock QNRX
+2025-10-11 21:21:16,663 - root - INFO - Profit percent for QNRX is -7.68176
+2025-10-11 21:21:16,663 - root - INFO - Latest 1min close price for QNRX: 13.46
+2025-10-11 21:21:16,736 - root - INFO - MACD is still rising for stock QNRX
+2025-10-11 21:21:16,737 - root - INFO - Not enough profit percent to scalp for QNRX: -7.68176
+2025-10-11 21:21:16,748 - root - INFO - Skipping SCALP for QNRX as it's in no_scalp list
+2025-10-11 21:21:16,767 - root - INFO - Test mode: Total profit so far: 803.0603761672974
+2025-10-11 21:21:16,826 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-11 21:21:16,836 - root - INFO - Time since last close for SGBX is 228.0 minutes, net percent 13.9154
+2025-10-11 21:21:16,912 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
+2025-10-11 21:21:16,983 - root - INFO - Trend up basic conditions not met for SGBX: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-11 21:21:16,998 - root - WARNING - stock is already in the open positions
+2025-10-11 21:21:17,024 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
+2025-10-11 21:21:17,039 - root - INFO - Time since last close for SLE is 29.0 minutes, net percent 7.70677
+2025-10-11 21:21:17,134 - root - INFO - Last 5 minutes maximum volume candle is red for SLE
+2025-10-11 21:21:17,156 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
+2025-10-11 21:21:17,166 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-11 21:21:17,166 - root - INFO - Time since last close for VSME is None minutes, net percent 0
+2025-10-11 21:21:17,250 - root - INFO - Last 5 minutes maximum volume candle is red for VSME
+2025-10-11 21:21:17,279 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
+2025-10-11 21:21:17,289 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-11 21:21:17,290 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
+2025-10-11 21:21:17,316 - root - INFO - Last 20 minutes volume is low for SWKH: 40917
+2025-10-11 21:21:17,326 - root - INFO - swing_strategy_close_long for scale 5Min stock QNRX
+2025-10-11 21:21:17,365 - root - INFO - Profit percent for QNRX is -7.68176
+2025-10-11 21:21:17,366 - root - INFO - Latest 1min close price for QNRX: 13.46
+2025-10-11 21:21:17,441 - root - INFO - MACD is still rising for stock QNRX
+2025-10-11 21:21:17,441 - root - INFO - Not enough profit percent to scalp for QNRX: -7.68176
+2025-10-11 21:21:17,453 - root - INFO - Skipping SCALP for QNRX as it's in no_scalp list
+2025-10-11 21:21:17,476 - root - INFO - Test mode: Total profit so far: 803.0603761672974
+2025-10-11 21:21:17,543 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-11 21:21:17,553 - root - INFO - Time since last close for SGBX is 229.0 minutes, net percent 13.9154
+2025-10-11 21:21:17,620 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
+2025-10-11 21:21:17,637 - root - INFO - 1min candle is not positive for SGBX: open 5.9507 close 5.89
+2025-10-11 21:21:17,647 - root - WARNING - stock is already in the open positions
+2025-10-11 21:21:17,666 - root - INFO - swing_strategy_open_long for scale 5Min stock SLE
+2025-10-11 21:21:17,676 - root - INFO - Time since last close for SLE is 30.0 minutes, net percent 7.70677
+2025-10-11 21:21:17,711 - root - INFO - Last 5 minutes maximum volume candle is red for SLE
+2025-10-11 21:21:17,739 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
+2025-10-11 21:21:17,749 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-11 21:21:17,750 - root - INFO - Time since last close for VSME is None minutes, net percent 0
+2025-10-11 21:21:17,831 - root - INFO - Last 5 minutes maximum volume candle is red for VSME
+2025-10-11 21:21:17,857 - root - INFO - swing_strategy_open_long for scale 5Min stock SWKH
+2025-10-11 21:21:17,868 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-11 21:21:17,868 - root - INFO - Time since last close for SWKH is None minutes, net percent 0
+2025-10-11 21:21:17,907 - root - INFO - Last 20 minutes volume is low for SWKH: 41093
+2025-10-11 21:21:17,918 - root - INFO - swing_strategy_close_long for scale 5Min stock QNRX
+2025-10-11 21:21:17,955 - root - INFO - Profit percent for QNRX is -7.68176
+2025-10-11 21:21:17,955 - root - INFO - Latest 1min close price for QNRX: 13.46
+2025-10-11 21:21:18,036 - root - INFO - MACD is still rising for stock QNRX
+2025-10-11 21:21:18,036 - root - INFO - Not enough profit percent to scalp for QNRX: -7.68176
+2025-10-11 21:21:18,048 - root - INFO - Skipping SCALP for QNRX as it's in no_scalp list
+2025-10-11 21:21:18,074 - root - INFO - Test mode: Total profit so far: 803.0603761672974
+2025-10-11 21:21:18,074 - root - INFO - ('2025-10-10T09:41:00-04:00', '2025-10-10T09:41:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T04:00:00-04:00')
+2025-10-11 21:21:18,074 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T09:41:00-04:00
+2025-10-11 21:21:18,097 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:21:18,547 - root - INFO -  MACD calculation for ABAT due to high change percent: 11.9391
+2025-10-11 21:21:22,956 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:21:27,908 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:21:28,512 - root - INFO -  MACD calculation for APLD due to high change percent: 26.801
+2025-10-11 21:21:29,348 - root - INFO -  MACD calculation for ARAY due to high change percent: 11.6216
+2025-10-11 21:21:29,406 - root - INFO - MACD not positive for ARAY
+2025-10-11 21:21:32,247 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:21:35,924 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:21:39,734 - root - INFO -  MACD calculation for BITF due to high change percent: 15.0815
+2025-10-11 21:21:40,580 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:21:44,922 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:21:47,208 - root - INFO -  MACD calculation for CATX due to high change percent: 11.8394
+2025-10-11 21:21:47,923 - root - INFO -  MACD calculation for CCCXU due to high change percent: 15.4639
+2025-10-11 21:21:48,593 - root - INFO -  MACD calculation for CCTG due to high change percent: 19.7452
+2025-10-11 21:21:49,386 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:21:51,808 - root - INFO -  MACD calculation for CIFRW due to high change percent: 10.8235
+2025-10-11 21:21:53,759 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:21:55,940 - root - INFO -  MACD calculation for CODI due to high change percent: 11.9728
+2025-10-11 21:21:56,001 - root - INFO - MACD not positive for CODI
+2025-10-11 21:21:57,697 - root - INFO -  MACD calculation for CRML due to high change percent: 18.3549
+2025-10-11 21:21:57,779 - root - INFO - MACD not positive for CRML
+2025-10-11 21:21:57,829 - root - INFO -  MACD calculation for CRMLW due to high change percent: 20.8854
+2025-10-11 21:21:57,873 - root - INFO - MACD not positive for CRMLW
+2025-10-11 21:21:58,046 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:22:02,593 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:22:06,930 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:22:10,364 - root - INFO -  MACD calculation for ELBM due to high change percent: 12.4339
+2025-10-11 21:22:10,426 - root - INFO - MACD not positive for ELBM
+2025-10-11 21:22:11,054 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:22:15,722 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:22:19,386 - root - INFO -  MACD calculation for FMFC due to high change percent: 27.305
+2025-10-11 21:22:19,438 - root - INFO - MACD not positive for FMFC
+2025-10-11 21:22:19,439 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:22:23,087 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:22:27,013 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:22:27,169 - root - INFO -  MACD calculation for GORV due to high change percent: 10.1887
+2025-10-11 21:22:27,205 - root - INFO - MACD not positive for GORV
+2025-10-11 21:22:29,620 - root - INFO -  MACD calculation for GWH due to high change percent: 102.919
+2025-10-11 21:22:29,685 - root - INFO - MACD not positive for GWH
+2025-10-11 21:22:29,859 - root - INFO -  MACD calculation for GYRE due to high change percent: 15.0685
+2025-10-11 21:22:31,292 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:22:35,569 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:22:40,093 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:22:43,585 - root - INFO -  MACD calculation for JCSE due to high change percent: 12.1212
+2025-10-11 21:22:44,432 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:22:48,222 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:22:49,655 - root - INFO -  MACD calculation for LDI due to high change percent: 10.6312
+2025-10-11 21:22:52,565 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:22:56,631 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:23:00,122 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:23:04,883 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:23:07,728 - root - INFO -  MACD calculation for NIOBW due to high change percent: 14.0135
+2025-10-11 21:23:09,437 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:23:12,311 - root - INFO -  MACD calculation for NVX due to high change percent: 14.3187
+2025-10-11 21:23:13,249 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:23:16,380 - root - INFO -  MACD calculation for ONMD due to high change percent: 17.9775
+2025-10-11 21:23:17,555 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:23:21,361 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:23:22,784 - root - INFO -  MACD calculation for PLCE due to high change percent: 13.4535
+2025-10-11 21:23:24,560 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:23:27,293 - root - INFO -  MACD calculation for QNRX due to high change percent: 64.951
+2025-10-11 21:23:27,845 - root - INFO -  MACD calculation for QSI due to high change percent: 10.3391
+2025-10-11 21:23:29,125 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:23:33,035 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:23:37,034 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:23:38,323 - root - INFO -  MACD calculation for SGBX due to high change percent: 80.8642
+2025-10-11 21:23:40,552 - root - INFO -  MACD calculation for SLE due to high change percent: 31.882
+2025-10-11 21:23:40,581 - root - INFO - MACD not positive for SLE
+2025-10-11 21:23:41,273 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:23:44,828 - root - INFO -  MACD calculation for SRFM due to high change percent: 10.3896
+2025-10-11 21:23:45,800 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:23:47,701 - root - INFO -  MACD calculation for SVIIW due to high change percent: 12.0
+2025-10-11 21:23:47,737 - root - INFO - MACD not positive for SVIIW
+2025-10-11 21:23:48,224 - root - INFO -  MACD calculation for SWKH due to high change percent: 21.4583
+2025-10-11 21:23:49,867 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:23:54,080 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:23:54,362 - root - INFO -  MACD calculation for TRON due to high change percent: 11.7794
+2025-10-11 21:23:57,793 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:23:57,883 - root - INFO -  MACD calculation for USARW due to high change percent: 13.4884
+2025-10-11 21:23:57,919 - root - INFO - MACD not positive for USARW
+2025-10-11 21:24:01,459 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:24:01,930 - root - INFO -  MACD calculation for VSME due to high change percent: 22.3077
+2025-10-11 21:24:03,113 - root - INFO -  MACD calculation for WAI due to high change percent: 12.7484
+2025-10-11 21:24:03,173 - root - INFO - MACD not positive for WAI
+2025-10-11 21:24:04,852 - root - INFO -  MACD calculation for WKEY due to high change percent: 12.5376
+2025-10-11 21:24:05,129 - root - INFO -  MACD calculation for WLACW due to high change percent: 11.5
+2025-10-11 21:24:06,430 - root - INFO -  Get bars start time 2025-10-10T09:36:00-04:00 end_time 2025-10-10T09:41:00-04:00
+2025-10-11 21:24:06,686 - root - INFO -  MACD calculation for WWR due to high change percent: 10.596
+2025-10-11 21:24:06,750 - root - INFO - MACD not positive for WWR
+2025-10-11 21:24:08,763 - root - INFO -  MACD calculation for YHGJ due to high change percent: 36.8333
+2025-10-11 21:24:08,807 - root - INFO - MACD not positive for YHGJ
+2025-10-11 21:24:09,244 - root - INFO -  MACD calculation for YSXT due to high change percent: 21.3592
+2025-10-11 21:24:09,279 - root - INFO - MACD not positive for YSXT
+2025-10-11 21:24:10,472 - root - INFO - Updating change percent of stocks
+2025-10-11 21:24:11,518 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-11 21:24:11,521 - root - INFO - Time since last close for SGBX is 230.0 minutes, net percent 13.9154
+2025-10-11 21:24:11,604 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
+2025-10-11 21:24:11,614 - root - INFO - 1min candle is not positive for SGBX: open 5.8998 close 5.877
+2025-10-11 21:24:11,619 - root - WARNING - stock is already in the open positions
+2025-10-11 21:24:11,630 - root - INFO - swing_strategy_open_long for scale 5Min stock ONMD
+2025-10-11 21:24:11,635 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-11 21:24:11,635 - root - INFO - Time since last close for ONMD is None minutes, net percent 0
+2025-10-11 21:24:11,775 - root - INFO - Last 5 minutes maximum volume candle is green for ONMD
+2025-10-11 21:24:11,845 - root - INFO - MACD has been up for last 10 candles for ONMD, not opening long position
+2025-10-11 21:24:11,846 - root - INFO - Trend up basic conditions not met for ONMD: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=True, price_close_above_upper_bb=False
+2025-10-11 21:24:11,865 - root - INFO - swing_strategy_open_long for scale 5Min stock CCTG
+2025-10-11 21:24:11,874 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-11 21:24:11,874 - root - INFO - Time since last close for CCTG is None minutes, net percent 0
+2025-10-11 21:24:11,947 - root - INFO - Last 5 minutes maximum volume candle is green for CCTG
+2025-10-11 21:24:12,002 - root - INFO - Trend up basic conditions not met for CCTG: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-11 21:24:12,022 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
+2025-10-11 21:24:12,032 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-11 21:24:12,032 - root - INFO - Time since last close for VSME is None minutes, net percent 0
+2025-10-11 21:24:12,098 - root - INFO - Last 5 minutes maximum volume candle is red for VSME
+2025-10-11 21:24:12,108 - root - INFO - swing_strategy_close_long for scale 5Min stock QNRX
+2025-10-11 21:24:12,142 - root - INFO - Profit percent for QNRX is -7.68176
+2025-10-11 21:24:12,142 - root - INFO - Latest 1min close price for QNRX: 13.88
+2025-10-11 21:24:12,207 - root - INFO - MACD is still rising for stock QNRX
+2025-10-11 21:24:12,207 - root - INFO - Not enough profit percent to scalp for QNRX: -7.68176
+2025-10-11 21:24:12,219 - root - INFO - Skipping SCALP for QNRX as it's in no_scalp list
+2025-10-11 21:24:12,237 - root - INFO - Test mode: Total profit so far: 831.8669595718384
+2025-10-11 21:24:12,296 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-11 21:24:12,307 - root - INFO - Time since last close for SGBX is 231.0 minutes, net percent 13.9154
+2025-10-11 21:24:12,380 - root - INFO - Last 5 minutes maximum volume candle is green for SGBX
+2025-10-11 21:24:12,399 - root - INFO - 1min candle is not positive for SGBX: open 5.87 close 5.58
+2025-10-11 21:24:12,410 - root - WARNING - stock is already in the open positions
+2025-10-11 21:24:12,430 - root - INFO - swing_strategy_open_long for scale 5Min stock ONMD
+2025-10-11 21:24:12,440 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-11 21:24:12,440 - root - INFO - Time since last close for ONMD is None minutes, net percent 0
+2025-10-11 21:24:12,597 - root - INFO - Last 5 minutes maximum volume candle is green for ONMD
+2025-10-11 21:24:12,662 - root - INFO - MACD has been up for last 10 candles for ONMD, not opening long position
+2025-10-11 21:24:12,662 - root - INFO - Trend up basic conditions not met for ONMD: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=True, price_close_above_upper_bb=False
+2025-10-11 21:24:12,684 - root - INFO - swing_strategy_open_long for scale 5Min stock CCTG
+2025-10-11 21:24:12,693 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-11 21:24:12,693 - root - INFO - Time since last close for CCTG is None minutes, net percent 0
+2025-10-11 21:24:12,771 - root - INFO - Last 5 minutes maximum volume candle is green for CCTG
+2025-10-11 21:24:12,790 - root - INFO - 1min candle is not positive for CCTG: open 1.96 close 1.6355
+2025-10-11 21:24:12,809 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
+2025-10-11 21:24:12,820 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-11 21:24:12,820 - root - INFO - Time since last close for VSME is None minutes, net percent 0
+2025-10-11 21:24:12,885 - root - INFO - Last 5 minutes maximum volume candle is green for VSME
+2025-10-11 21:24:12,905 - root - INFO - 1min candle is not positive for VSME: open 1.57 close 1.57
+2025-10-11 21:24:12,918 - root - INFO - swing_strategy_close_long for scale 5Min stock QNRX
+2025-10-11 21:24:12,953 - root - INFO - Profit percent for QNRX is -4.8011
+2025-10-11 21:24:12,953 - root - INFO - Latest 1min close price for QNRX: 11.87
+2025-10-11 21:24:13,016 - root - INFO - MACD is still rising for stock QNRX
+2025-10-11 21:24:13,016 - root - INFO - Not enough profit percent to scalp for QNRX: -4.8011
+2025-10-11 21:24:13,027 - root - INFO - Skipping SCALP for QNRX as it's in no_scalp list
+2025-10-11 21:24:13,046 - root - INFO - Test mode: Total profit so far: 694.0068712234497
+2025-10-11 21:24:13,104 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-11 21:24:13,114 - root - INFO - Time since last close for SGBX is 232.0 minutes, net percent 13.9154
+2025-10-11 21:24:13,190 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
+2025-10-11 21:24:13,201 - root - WARNING - stock is already in the open positions
+2025-10-11 21:24:13,221 - root - INFO - swing_strategy_open_long for scale 5Min stock ONMD
+2025-10-11 21:24:13,231 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-11 21:24:13,231 - root - INFO - Time since last close for ONMD is None minutes, net percent 0
+2025-10-11 21:24:13,390 - root - INFO - Last 5 minutes maximum volume candle is red for ONMD
+2025-10-11 21:24:13,410 - root - INFO - swing_strategy_open_long for scale 5Min stock CCTG
+2025-10-11 21:24:13,419 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-11 21:24:13,419 - root - INFO - Time since last close for CCTG is None minutes, net percent 0
+2025-10-11 21:24:13,488 - root - INFO - Last 5 minutes maximum volume candle is green for CCTG
+2025-10-11 21:24:13,507 - root - INFO - 1min candle is not positive for CCTG: open 1.6377 close 1.8
+2025-10-11 21:24:13,527 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
+2025-10-11 21:24:13,536 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-11 21:24:13,536 - root - INFO - Time since last close for VSME is None minutes, net percent 0
+2025-10-11 21:24:13,601 - root - INFO - Last 5 minutes maximum volume candle is red for VSME
+2025-10-11 21:24:13,612 - root - INFO - swing_strategy_close_long for scale 5Min stock QNRX
+2025-10-11 21:24:13,647 - root - INFO - Profit percent for QNRX is -18.5871
+2025-10-11 21:24:13,647 - root - INFO - Latest 1min close price for QNRX: 11.87
+2025-10-11 21:24:13,714 - root - INFO - MACD is still rising for stock QNRX
+2025-10-11 21:24:13,714 - root - INFO - Not enough profit percent to scalp for QNRX: -18.5871
+2025-10-11 21:24:13,725 - root - INFO - Skipping SCALP for QNRX as it's in no_scalp list
+2025-10-11 21:24:13,745 - root - INFO - Test mode: Total profit so far: 694.0068712234497
+2025-10-11 21:24:13,802 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-11 21:24:13,812 - root - INFO - Time since last close for SGBX is 233.0 minutes, net percent 13.9154
+2025-10-11 21:24:13,881 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
+2025-10-11 21:24:13,891 - root - WARNING - stock is already in the open positions
+2025-10-11 21:24:13,911 - root - INFO - swing_strategy_open_long for scale 5Min stock ONMD
+2025-10-11 21:24:13,921 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-11 21:24:13,921 - root - INFO - Time since last close for ONMD is None minutes, net percent 0
+2025-10-11 21:24:14,065 - root - INFO - Last 5 minutes maximum volume candle is red for ONMD
+2025-10-11 21:24:14,086 - root - INFO - swing_strategy_open_long for scale 5Min stock CCTG
+2025-10-11 21:24:14,094 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-11 21:24:14,095 - root - INFO - Time since last close for CCTG is None minutes, net percent 0
+2025-10-11 21:24:14,165 - root - INFO - Last 5 minutes maximum volume candle is green for CCTG
+2025-10-11 21:24:14,224 - root - INFO - Trend up basic conditions not met for CCTG: price_above_emas=True, macd_above_signal=True, macd_above_zero=False, hist_rising=True, price_close_above_upper_bb=False
+2025-10-11 21:24:14,245 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
+2025-10-11 21:24:14,254 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-11 21:24:14,255 - root - INFO - Time since last close for VSME is None minutes, net percent 0
+2025-10-11 21:24:14,317 - root - INFO - Last 5 minutes maximum volume candle is green for VSME
+2025-10-11 21:24:14,335 - root - INFO - 1min candle is not positive for VSME: open 1.578 close 1.565
+2025-10-11 21:24:14,346 - root - INFO - swing_strategy_close_long for scale 5Min stock QNRX
+2025-10-11 21:24:14,382 - root - INFO - Profit percent for QNRX is -18.5871
+2025-10-11 21:24:14,382 - root - INFO - Latest 1min close price for QNRX: 11.87
+2025-10-11 21:24:14,448 - root - INFO - MACD is still rising for stock QNRX
+2025-10-11 21:24:14,448 - root - INFO - Not enough profit percent to scalp for QNRX: -18.5871
+2025-10-11 21:24:14,460 - root - INFO - Skipping SCALP for QNRX as it's in no_scalp list
+2025-10-11 21:24:14,479 - root - INFO - Test mode: Total profit so far: 694.0068712234497
+2025-10-11 21:24:14,536 - root - INFO - swing_strategy_open_long for scale 5Min stock SGBX
+2025-10-11 21:24:14,546 - root - INFO - Time since last close for SGBX is 234.0 minutes, net percent 13.9154
+2025-10-11 21:24:14,616 - root - INFO - Last 5 minutes maximum volume candle is red for SGBX
+2025-10-11 21:24:14,626 - root - WARNING - stock is already in the open positions
+2025-10-11 21:24:14,645 - root - INFO - swing_strategy_open_long for scale 5Min stock ONMD
+2025-10-11 21:24:14,654 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-11 21:24:14,655 - root - INFO - Time since last close for ONMD is None minutes, net percent 0
+2025-10-11 21:24:14,842 - root - INFO - Last 5 minutes maximum volume candle is green for ONMD
+2025-10-11 21:24:14,904 - root - INFO - MACD has been up for last 10 candles for ONMD, not opening long position
+2025-10-11 21:24:14,904 - root - INFO - Trend up basic conditions not met for ONMD: price_above_emas=True, macd_above_signal=True, macd_above_zero=True, hist_rising=True, price_close_above_upper_bb=False
+2025-10-11 21:24:14,920 - root - INFO - swing_strategy_open_long for scale 5Min stock CCTG
+2025-10-11 21:24:14,927 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-11 21:24:14,927 - root - INFO - Time since last close for CCTG is None minutes, net percent 0
+2025-10-11 21:24:14,998 - root - INFO - Last 5 minutes maximum volume candle is green for CCTG
+2025-10-11 21:24:15,058 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-11 21:24:15,059 - root - INFO - CCTG:======= 2.2===>BUY========>TrendUp1276318
+2025-10-11 21:24:15,089 - root - INFO - ****************** OPEN LONG for CCTG
+2025-10-11 21:24:15,118 - root - INFO - swing_strategy_open_long for scale 5Min stock VSME
+2025-10-11 21:24:15,128 - root - WARNING - No records found for time_minutes_since_prev_close
+2025-10-11 21:24:15,128 - root - INFO - Time since last close for VSME is None minutes, net percent 0
+2025-10-11 21:24:15,198 - root - INFO - Last 5 minutes maximum volume candle is red for VSME
+2025-10-11 21:24:15,214 - root - INFO - swing_strategy_close_long for scale 5Min stock QNRX
+2025-10-11 21:24:15,252 - root - INFO - Profit percent for QNRX is -18.5871
+2025-10-11 21:24:15,252 - root - INFO - Latest 1min close price for QNRX: 11.87
+2025-10-11 21:24:15,331 - root - INFO - MACD is still rising for stock QNRX
+2025-10-11 21:24:15,331 - root - INFO - Not enough profit percent to scalp for QNRX: -18.5871
+2025-10-11 21:24:15,342 - root - INFO - Skipping SCALP for QNRX as it's in no_scalp list
+2025-10-11 21:24:15,343 - root - INFO - swing_strategy_close_long for scale 5Min stock CCTG
+2025-10-11 21:24:15,429 - root - INFO - Profit percent for CCTG is 0
+2025-10-11 21:24:15,429 - root - INFO - Latest 1min close price for CCTG: 2.2
+2025-10-11 21:24:15,450 - root - INFO - High price DETECTED for CCTG is 0.0 and setting no_scalp to True
+2025-10-11 21:24:15,463 - root - INFO - Skipping SCALP for CCTG as it's in no_scalp list
+2025-10-11 21:24:15,485 - root - INFO - Test mode: Total profit so far: 694.0068712234497
+2025-10-11 21:24:15,486 - root - INFO - ('2025-10-10T09:46:00-04:00', '2025-10-10T09:46:00-04:00', '2025-10-03T09:30:00-04:00', '2025-10-10T04:00:00-04:00')
+2025-10-11 21:24:15,486 - root - INFO - Screening stocks | Start: 2025-10-03T09:30:00-04:00 | End: 2025-10-10T09:46:00-04:00
+2025-10-11 21:24:15,507 - root - INFO -  Get bars start time 2025-10-10T09:41:00-04:00 end_time 2025-10-10T09:46:00-04:00
+2025-10-11 21:24:15,809 - root - INFO -  MACD calculation for ABAT due to high change percent: 12.0192
+2025-10-11 21:24:19,628 - root - INFO -  Get bars start time 2025-10-10T09:41:00-04:00 end_time 2025-10-10T09:46:00-04:00
+2025-10-11 21:24:24,721 - root - INFO -  Get bars start time 2025-10-10T09:41:00-04:00 end_time 2025-10-10T09:46:00-04:00
+2025-10-11 21:24:25,491 - root - INFO -  MACD calculation for APLD due to high change percent: 30.2663
+2025-10-11 21:24:26,520 - root - INFO -  MACD calculation for ARAY due to high change percent: 10.2324
+2025-10-11 21:24:26,591 - root - INFO - MACD not positive for ARAY
+2025-10-11 21:24:28,812 - root - INFO -  Get bars start time 2025-10-10T09:41:00-04:00 end_time 2025-10-10T09:46:00-04:00
+2025-10-11 21:24:31,596 - root - INFO -  Get bars start time 2025-10-10T09:41:00-04:00 end_time 2025-10-10T09:46:00-04:00
+2025-10-11 21:24:35,142 - root - INFO -  MACD calculation for BITF due to high change percent: 16.307
+2025-10-11 21:24:36,017 - root - INFO -  Get bars start time 2025-10-10T09:41:00-04:00 end_time 2025-10-10T09:46:00-04:00
+2025-10-11 21:24:40,195 - root - INFO -  Get bars start time 2025-10-10T09:41:00-04:00 end_time 2025-10-10T09:46:00-04:00
+2025-10-11 21:24:43,146 - root - INFO -  MACD calculation for CCCXU due to high change percent: 14.6392
+2025-10-11 21:24:43,907 - root - INFO -  MACD calculation for CCTG due to high change percent: 25.4777
+2025-10-11 21:24:44,680 - root - INFO -  Get bars start time 2025-10-10T09:41:00-04:00 end_time 2025-10-10T09:46:00-04:00
+2025-10-11 21:24:47,052 - root - INFO -  MACD calculation for CIFRW due to high change percent: 13.1753
+2025-10-11 21:24:48,890 - root - INFO -  Get bars start time 2025-10-10T09:41:00-04:00 end_time 2025-10-10T09:46:00-04:00
+2025-10-11 21:24:50,515 - root - INFO -  MACD calculation for CNTX due to high change percent: 10.7143
+2025-10-11 21:24:50,569 - root - INFO - MACD not positive for CNTX
+2025-10-11 21:24:53,379 - root - INFO -  MACD calculation for CRML due to high change percent: 14.4799
+2025-10-11 21:24:53,456 - root - INFO - MACD not positive for CRML
+2025-10-11 21:24:53,514 - root - INFO -  MACD calculation for CRMLW due to high change percent: 18.0534
+2025-10-11 21:24:53,554 - root - INFO - MACD not positive for CRMLW
+2025-10-11 21:24:53,660 - root - INFO -  Get bars start time 2025-10-10T09:41:00-04:00 end_time 2025-10-10T09:46:00-04:00
+2025-10-11 21:24:57,701 - root - INFO -  Get bars start time 2025-10-10T09:41:00-04:00 end_time 2025-10-10T09:46:00-04:00
+2025-10-11 21:24:58,768 - root - INFO -  MACD calculation for DGXX due to high change percent: 10.9848
+2025-10-11 21:25:01,826 - root - INFO -  Get bars start time 2025-10-10T09:41:00-04:00 end_time 2025-10-10T09:46:00-04:00
+2025-10-11 21:25:06,077 - root - INFO -  Get bars start time 2025-10-10T09:41:00-04:00 end_time 2025-10-10T09:46:00-04:00
+2025-10-11 21:25:10,346 - root - INFO -  Get bars start time 2025-10-10T09:41:00-04:00 end_time 2025-10-10T09:46:00-04:00
+2025-10-11 21:25:13,982 - root - INFO -  MACD calculation for FLUX due to high change percent: 10.5219
+2025-10-11 21:25:14,391 - root - INFO -  MACD calculation for FMFC due to high change percent: 31.234
+2025-10-11 21:25:14,445 - root - INFO - MACD not positive for FMFC
+2025-10-11 21:25:14,504 - root - INFO -  Get bars start time 2025-10-10T09:41:00-04:00 end_time 2025-10-10T09:46:00-04:00
+2025-10-11 21:25:18,409 - root - INFO -  Get bars start time 2025-10-10T09:41:00-04:00 end_time 2025-10-10T09:46:00-04:00
+2025-10-11 21:25:21,116 - root - INFO -  Get bars start time 2025-10-10T09:41:00-04:00 end_time 2025-10-10T09:46:00-04:00
+2025-10-11 21:25:21,234 - root - INFO -  MACD calculation for GORV due to high change percent: 10.5283
+2025-10-11 21:25:21,261 - root - INFO - MACD not positive for GORV
