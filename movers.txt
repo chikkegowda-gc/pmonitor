@@ -3,7 +3,7 @@ Top Movers:
 | ticker | in_position | break_out | change_percent |  volume  | current_price | prev_d_close_price | shares_float | fivedavg | avg_volume | news_status |     update_time     |
 +--------+-------------+-----------+----------------+----------+---------------+--------------------+--------------+----------+------------+-------------+---------------------+
 |  BENF  |      0      |     0     |    106.366     | 71493065 |     1.005     |       0.487        |  7240000.0   | 0.52762  |  3229142   |      0      | 2025-10-22 09:54:40 |
-|  AIRE  |      0      |     0     |    49.7938     | 86130437 |     1.0899    |       0.7276       |  12190000.0  |  0.5092  |  28950861  |      0      | 2025-10-22 09:59:17 |
+|  AIRE  |      1      |     0     |    49.7938     | 86130437 |     1.0899    |       0.7276       |  12190000.0  |  0.5092  |  28950861  |      0      | 2025-10-22 09:59:17 |
 |  SBEV  |      0      |     0     |    42.0635     | 12978855 |     2.685     |        1.89        |  1380000.0   |  1.974   |  2509675   |      0      | 2025-10-22 09:44:45 |
 |  RANI  |      0      |     0     |    24.0351     | 11194381 |     3.535     |        2.85        |  22790000.0  | 1.54026  | 158043030  |      0      | 2025-10-22 09:44:40 |
 |  WOK   |      0      |     0     |    23.4694     | 1209439  |      4.84     |        3.92        |  3430000.0   | 0.82242  |  24812419  |      0      | 2025-10-22 09:53:14 |
@@ -29,230 +29,6 @@ Manual Movers:
 +--------+-------------+-----------+----------------+--------+---------------+--------------------+--------------+----------+------------+-------------+-------------+
 
 === Last 100 lines of app.log ===
-2025-10-22 10:08:39,390 - root - INFO - Change percent is less than 30 for HUBC: 11.6564
-2025-10-22 10:08:39,390 - root - INFO - swing_strategy_open_long for scale 5Min stock HHS start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:08:39,432 - root - INFO - Change percent is less than 30 for HHS: 11.1732
-2025-10-22 10:08:39,495 - root - WARNING - Skipping RGTZ: not opened by algorithm
-2025-10-22 10:08:39,805 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:03:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:08:39,841 - root - INFO - Going loop for 37 stocks
-2025-10-22 10:08:42,561 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:03:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:08:42,619 - root - INFO - Going loop for 43 stocks
-2025-10-22 10:08:45,590 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:03:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:08:45,643 - root - INFO - Going loop for 40 stocks
-2025-10-22 10:08:46,146 - root - INFO - ['NDLS']
-2025-10-22 10:08:48,545 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:03:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:08:48,581 - root - INFO - Going loop for 46 stocks
-2025-10-22 10:08:49,533 - root - INFO - Real mode: Today's profit so far: 1147.4099749999987
-2025-10-22 10:08:49,550 - root - INFO - Running real_trade for all top movers
-2025-10-22 10:08:49,594 - root - INFO - swing_strategy_open_long for scale 5Min stock BENF start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:08:49,699 - root - INFO - Last 5 minutes maximum volume candle is green for BENF
-2025-10-22 10:08:49,702 - root - INFO - One minute close is above 5% of 9 EMA for BENF: 1.2601 > 1.2455998867686529
-2025-10-22 10:08:49,703 - root - INFO - swing_strategy_open_long for scale 5Min stock AIRE start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:08:49,837 - root - INFO - Last 5 minutes maximum volume candle is green for AIRE
-2025-10-22 10:08:49,888 - root - INFO - Trend up basic conditions not met for AIRE: price_above_emas=True, macd_above_signal=False, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-22 10:08:49,888 - root - INFO - swing_strategy_open_long for scale 5Min stock SBEV start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:08:49,946 - root - INFO - Last 5 minutes maximum volume candle is red for SBEV
-2025-10-22 10:08:49,946 - root - INFO - swing_strategy_open_long for scale 5Min stock RANI start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:08:50,104 - root - INFO - Change percent is less than 30 for RANI: 24.0351
-2025-10-22 10:08:50,105 - root - INFO - swing_strategy_open_long for scale 5Min stock WOK start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:08:50,267 - root - INFO - Change percent is less than 30 for WOK: 23.4694
-2025-10-22 10:08:50,268 - root - INFO - swing_strategy_open_long for scale 5Min stock GPRO start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:08:50,394 - root - INFO - Change percent is less than 30 for GPRO: 22.9545
-2025-10-22 10:08:50,395 - root - INFO - swing_strategy_open_long for scale 5Min stock WGO start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:08:50,470 - root - INFO - Change percent is less than 30 for WGO: 22.8653
-2025-10-22 10:08:50,470 - root - INFO - swing_strategy_open_long for scale 5Min stock WGRX start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:08:50,489 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:03:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:08:50,522 - root - INFO - Going loop for 37 stocks
-2025-10-22 10:08:50,553 - root - INFO - Change percent is less than 30 for WGRX: 20.039
-2025-10-22 10:08:50,554 - root - INFO - swing_strategy_open_long for scale 5Min stock IRBT start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:08:50,670 - root - INFO - Change percent is less than 30 for IRBT: 17.2811
-2025-10-22 10:08:50,671 - root - INFO - swing_strategy_open_long for scale 5Min stock NDLS start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:08:50,716 - root - INFO - Change percent is less than 30 for NDLS: 17.2663
-2025-10-22 10:08:50,717 - root - INFO - swing_strategy_open_long for scale 5Min stock HAIN start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:08:50,796 - root - INFO - Change percent is less than 30 for HAIN: 15.0652
-2025-10-22 10:08:50,796 - root - INFO - swing_strategy_open_long for scale 5Min stock BIOA start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:08:50,842 - root - INFO - Change percent is less than 30 for BIOA: 12.0755
-2025-10-22 10:08:50,842 - root - INFO - swing_strategy_open_long for scale 5Min stock HUBC start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:08:50,895 - root - INFO - Change percent is less than 30 for HUBC: 11.6564
-2025-10-22 10:08:50,895 - root - INFO - swing_strategy_open_long for scale 5Min stock HHS start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:08:50,953 - root - INFO - Change percent is less than 30 for HHS: 11.1732
-2025-10-22 10:08:51,018 - root - WARNING - Skipping RGTZ: not opened by algorithm
-2025-10-22 10:08:51,876 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:03:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:08:51,914 - root - INFO - Going loop for 58 stocks
-2025-10-22 10:08:55,937 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:03:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:08:55,977 - root - INFO - Going loop for 39 stocks
-2025-10-22 10:08:58,173 - root - INFO - MACD not positive for PEGA change percent: 14.0228
-2025-10-22 10:08:58,174 - root - INFO - ['PEGA']
-2025-10-22 10:08:58,174 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:03:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:08:58,206 - root - INFO - Going loop for 39 stocks
-2025-10-22 10:09:00,907 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:04:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:00,945 - root - INFO - Going loop for 0 stocks
-2025-10-22 10:09:00,946 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:04:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:00,986 - root - INFO - Going loop for 0 stocks
-2025-10-22 10:09:00,987 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:04:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:01,017 - root - INFO - Going loop for 0 stocks
-2025-10-22 10:09:01,018 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:04:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:01,048 - root - INFO - Real mode: Today's profit so far: 1149.7399750000004
-2025-10-22 10:09:01,052 - root - INFO - Going loop for 0 stocks
-2025-10-22 10:09:01,053 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:04:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:01,065 - root - INFO - Running real_trade for all top movers
-2025-10-22 10:09:01,087 - root - INFO - Going loop for 0 stocks
-2025-10-22 10:09:01,088 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:04:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:01,116 - root - INFO - swing_strategy_open_long for scale 5Min stock BENF start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:01,138 - root - INFO - Going loop for 0 stocks
-2025-10-22 10:09:01,139 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:04:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:01,168 - root - INFO - Going loop for 0 stocks
-2025-10-22 10:09:01,169 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:04:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:01,205 - root - INFO - Going loop for 0 stocks
-2025-10-22 10:09:01,206 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:04:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:01,233 - root - INFO - Going loop for 0 stocks
-2025-10-22 10:09:01,233 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:04:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:01,245 - root - INFO - Last 5 minutes maximum volume candle is green for BENF
-2025-10-22 10:09:01,246 - root - INFO - One minute close is above 5% of 9 EMA for BENF: 1.2601 > 1.2455998867686529
-2025-10-22 10:09:01,246 - root - INFO - swing_strategy_open_long for scale 5Min stock AIRE start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:01,266 - root - INFO - Going loop for 0 stocks
-2025-10-22 10:09:01,267 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:04:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:01,297 - root - INFO - Going loop for 0 stocks
-2025-10-22 10:09:01,298 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:04:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:01,329 - root - INFO - Going loop for 0 stocks
-2025-10-22 10:09:01,330 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:04:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:01,370 - root - INFO - Going loop for 0 stocks
-2025-10-22 10:09:01,370 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:04:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:01,405 - root - INFO - Going loop for 0 stocks
-2025-10-22 10:09:01,405 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:04:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:01,433 - root - INFO - Last 5 minutes maximum volume candle is green for AIRE
-2025-10-22 10:09:01,439 - root - INFO - Going loop for 0 stocks
-2025-10-22 10:09:01,440 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:04:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:01,466 - root - INFO - Going loop for 0 stocks
-2025-10-22 10:09:01,466 - root - INFO - Updating change percent of stocks
-2025-10-22 10:09:01,484 - root - INFO - Trend up basic conditions not met for AIRE: price_above_emas=True, macd_above_signal=False, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-22 10:09:01,485 - root - INFO - swing_strategy_open_long for scale 5Min stock SBEV start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:01,544 - root - INFO - Last 5 minutes maximum volume candle is red for SBEV
-2025-10-22 10:09:01,545 - root - INFO - swing_strategy_open_long for scale 5Min stock RANI start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:01,689 - root - INFO - Change percent is less than 30 for RANI: 24.0351
-2025-10-22 10:09:01,689 - root - INFO - swing_strategy_open_long for scale 5Min stock WOK start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:01,826 - root - INFO - Change percent is less than 30 for WOK: 23.4694
-2025-10-22 10:09:01,827 - root - INFO - swing_strategy_open_long for scale 5Min stock GPRO start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:01,941 - root - INFO - Change percent is less than 30 for GPRO: 20.0
-2025-10-22 10:09:01,942 - root - INFO - swing_strategy_open_long for scale 5Min stock WGO start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:02,018 - root - INFO - Change percent is less than 30 for WGO: 22.8653
-2025-10-22 10:09:02,018 - root - INFO - swing_strategy_open_long for scale 5Min stock WGRX start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:02,088 - root - INFO - Change percent is less than 30 for WGRX: 20.039
-2025-10-22 10:09:02,089 - root - INFO - swing_strategy_open_long for scale 5Min stock IRBT start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:02,263 - root - INFO - Change percent is less than 30 for IRBT: 15.2097
-2025-10-22 10:09:02,263 - root - INFO - swing_strategy_open_long for scale 5Min stock NDLS start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:02,292 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
-2025-10-22 10:09:02,300 - root - INFO - Change percent is less than 30 for NDLS: 22.7809
-2025-10-22 10:09:02,301 - root - INFO - swing_strategy_open_long for scale 5Min stock HAIN start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:02,379 - root - INFO - Change percent is less than 30 for HAIN: 10.6812
-2025-10-22 10:09:02,379 - root - INFO - swing_strategy_open_long for scale 5Min stock BIOA start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:02,430 - root - INFO - Change percent is less than 30 for BIOA: 12.0755
-2025-10-22 10:09:02,430 - root - INFO - swing_strategy_open_long for scale 5Min stock HUBC start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:02,490 - root - INFO - Change percent is less than 30 for HUBC: 14.7239
-2025-10-22 10:09:02,490 - root - INFO - swing_strategy_open_long for scale 5Min stock HHS start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:02,553 - root - INFO - Change percent is less than 30 for HHS: 10.3352
-2025-10-22 10:09:02,633 - root - WARNING - Skipping RGTZ: not opened by algorithm
-2025-10-22 10:09:12,670 - root - INFO - Real mode: Today's profit so far: 1134.9099749999987
-2025-10-22 10:09:12,690 - root - INFO - Running real_trade for all top movers
-2025-10-22 10:09:12,746 - root - INFO - swing_strategy_open_long for scale 5Min stock BENF start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:12,930 - root - INFO - Last 5 minutes maximum volume candle is red for BENF
-2025-10-22 10:09:12,932 - root - INFO - swing_strategy_open_long for scale 5Min stock AIRE start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:13,120 - root - INFO - Last 5 minutes maximum volume candle is green for AIRE
-2025-10-22 10:09:13,177 - root - INFO - Trend up basic conditions not met for AIRE: price_above_emas=True, macd_above_signal=False, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-22 10:09:13,178 - root - INFO - swing_strategy_open_long for scale 5Min stock SBEV start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:13,254 - root - INFO - Last 5 minutes maximum volume candle is red for SBEV
-2025-10-22 10:09:13,255 - root - INFO - swing_strategy_open_long for scale 5Min stock RANI start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:13,479 - root - INFO - Change percent is less than 30 for RANI: 24.0351
-2025-10-22 10:09:13,480 - root - INFO - swing_strategy_open_long for scale 5Min stock WOK start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:13,836 - root - INFO - Change percent is less than 30 for WOK: 23.4694
-2025-10-22 10:09:13,839 - root - INFO - swing_strategy_open_long for scale 5Min stock WGO start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:13,956 - root - INFO - Change percent is less than 30 for WGO: 22.8653
-2025-10-22 10:09:13,957 - root - INFO - swing_strategy_open_long for scale 5Min stock NDLS start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:14,033 - root - INFO - Change percent is less than 30 for NDLS: 22.7809
-2025-10-22 10:09:14,035 - root - INFO - swing_strategy_open_long for scale 5Min stock WGRX start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:14,149 - root - INFO - Change percent is less than 30 for WGRX: 20.039
-2025-10-22 10:09:14,150 - root - INFO - swing_strategy_open_long for scale 5Min stock GPRO start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:14,336 - root - INFO - Change percent is less than 30 for GPRO: 20.0
-2025-10-22 10:09:14,338 - root - INFO - swing_strategy_open_long for scale 5Min stock IRBT start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:14,512 - root - INFO - Change percent is less than 30 for IRBT: 15.2097
-2025-10-22 10:09:14,515 - root - INFO - swing_strategy_open_long for scale 5Min stock HUBC start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:14,613 - root - INFO - Change percent is less than 30 for HUBC: 14.7239
-2025-10-22 10:09:14,615 - root - INFO - swing_strategy_open_long for scale 5Min stock BIOA start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:14,702 - root - INFO - Change percent is less than 30 for BIOA: 12.0755
-2025-10-22 10:09:14,704 - root - INFO - swing_strategy_open_long for scale 5Min stock HAIN start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:14,836 - root - INFO - Change percent is less than 30 for HAIN: 10.6812
-2025-10-22 10:09:14,838 - root - INFO - swing_strategy_open_long for scale 5Min stock HHS start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:14,922 - root - INFO - Change percent is less than 30 for HHS: 10.3352
-2025-10-22 10:09:15,004 - root - WARNING - Skipping RGTZ: not opened by algorithm
-2025-10-22 10:09:25,038 - root - INFO - Real mode: Today's profit so far: 1112.4099749999987
-2025-10-22 10:09:25,059 - root - INFO - Running real_trade for all top movers
-2025-10-22 10:09:25,109 - root - INFO - swing_strategy_open_long for scale 5Min stock BENF start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:25,280 - root - INFO - Last 5 minutes maximum volume candle is red for BENF
-2025-10-22 10:09:25,282 - root - INFO - swing_strategy_open_long for scale 5Min stock AIRE start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:25,523 - root - INFO - Last 5 minutes maximum volume candle is green for AIRE
-2025-10-22 10:09:25,595 - root - INFO - Trend up basic conditions not met for AIRE: price_above_emas=True, macd_above_signal=False, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-22 10:09:25,597 - root - INFO - swing_strategy_open_long for scale 5Min stock SBEV start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:25,689 - root - INFO - Last 5 minutes maximum volume candle is red for SBEV
-2025-10-22 10:09:25,691 - root - INFO - swing_strategy_open_long for scale 5Min stock RANI start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:25,964 - root - INFO - Change percent is less than 30 for RANI: 24.0351
-2025-10-22 10:09:25,966 - root - INFO - swing_strategy_open_long for scale 5Min stock WOK start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:26,195 - root - INFO - Change percent is less than 30 for WOK: 23.4694
-2025-10-22 10:09:26,197 - root - INFO - swing_strategy_open_long for scale 5Min stock WGO start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:26,331 - root - INFO - Change percent is less than 30 for WGO: 22.8653
-2025-10-22 10:09:26,333 - root - INFO - swing_strategy_open_long for scale 5Min stock NDLS start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:26,418 - root - INFO - Change percent is less than 30 for NDLS: 22.7809
-2025-10-22 10:09:26,420 - root - INFO - swing_strategy_open_long for scale 5Min stock WGRX start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:26,550 - root - INFO - Change percent is less than 30 for WGRX: 20.039
-2025-10-22 10:09:26,552 - root - INFO - swing_strategy_open_long for scale 5Min stock GPRO start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:26,741 - root - INFO - Change percent is less than 30 for GPRO: 20.0
-2025-10-22 10:09:26,742 - root - INFO - swing_strategy_open_long for scale 5Min stock IRBT start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:26,942 - root - INFO - Change percent is less than 30 for IRBT: 15.2097
-2025-10-22 10:09:26,943 - root - INFO - swing_strategy_open_long for scale 5Min stock HUBC start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:27,059 - root - INFO - Change percent is less than 30 for HUBC: 14.7239
-2025-10-22 10:09:27,061 - root - INFO - swing_strategy_open_long for scale 5Min stock BIOA start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:27,178 - root - INFO - Change percent is less than 30 for BIOA: 12.0755
-2025-10-22 10:09:27,178 - root - INFO - swing_strategy_open_long for scale 5Min stock HAIN start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:27,383 - root - INFO - Change percent is less than 30 for HAIN: 10.6812
-2025-10-22 10:09:27,384 - root - INFO - swing_strategy_open_long for scale 5Min stock HHS start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:27,467 - root - INFO - Change percent is less than 30 for HHS: 10.3352
-2025-10-22 10:09:27,543 - root - WARNING - Skipping RGTZ: not opened by algorithm
-2025-10-22 10:09:37,580 - root - INFO - Real mode: Today's profit so far: 1104.9099749999987
-2025-10-22 10:09:37,600 - root - INFO - Running real_trade for all top movers
-2025-10-22 10:09:37,657 - root - INFO - swing_strategy_open_long for scale 5Min stock BENF start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:37,866 - root - INFO - Last 5 minutes maximum volume candle is red for BENF
-2025-10-22 10:09:37,867 - root - INFO - swing_strategy_open_long for scale 5Min stock AIRE start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:38,050 - root - INFO - Last 5 minutes maximum volume candle is green for AIRE
-2025-10-22 10:09:38,113 - root - INFO - Trend up basic conditions not met for AIRE: price_above_emas=True, macd_above_signal=False, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
-2025-10-22 10:09:38,113 - root - INFO - swing_strategy_open_long for scale 5Min stock SBEV start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:38,203 - root - INFO - Last 5 minutes maximum volume candle is red for SBEV
-2025-10-22 10:09:38,204 - root - INFO - swing_strategy_open_long for scale 5Min stock RANI start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:38,421 - root - INFO - Change percent is less than 30 for RANI: 24.0351
-2025-10-22 10:09:38,424 - root - INFO - swing_strategy_open_long for scale 5Min stock WOK start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:38,621 - root - INFO - Change percent is less than 30 for WOK: 23.4694
-2025-10-22 10:09:38,623 - root - INFO - swing_strategy_open_long for scale 5Min stock WGO start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:38,754 - root - INFO - Change percent is less than 30 for WGO: 22.8653
-2025-10-22 10:09:38,756 - root - INFO - swing_strategy_open_long for scale 5Min stock NDLS start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:38,829 - root - INFO - Change percent is less than 30 for NDLS: 22.7809
-2025-10-22 10:09:38,830 - root - INFO - swing_strategy_open_long for scale 5Min stock WGRX start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:39,000 - root - INFO - Change percent is less than 30 for WGRX: 20.039
-2025-10-22 10:09:39,002 - root - INFO - swing_strategy_open_long for scale 5Min stock GPRO start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:39,189 - root - INFO - Change percent is less than 30 for GPRO: 20.0
-2025-10-22 10:09:39,191 - root - INFO - swing_strategy_open_long for scale 5Min stock IRBT start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:39,364 - root - INFO - Change percent is less than 30 for IRBT: 15.2097
-2025-10-22 10:09:39,365 - root - INFO - swing_strategy_open_long for scale 5Min stock HUBC start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:39,464 - root - INFO - Change percent is less than 30 for HUBC: 14.7239
-2025-10-22 10:09:39,465 - root - INFO - swing_strategy_open_long for scale 5Min stock BIOA start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:39,550 - root - INFO - Change percent is less than 30 for BIOA: 12.0755
-2025-10-22 10:09:39,552 - root - INFO - swing_strategy_open_long for scale 5Min stock HAIN start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:39,691 - root - INFO - Change percent is less than 30 for HAIN: 10.6812
-2025-10-22 10:09:39,693 - root - INFO - swing_strategy_open_long for scale 5Min stock HHS start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:39,782 - root - INFO - Change percent is less than 30 for HHS: 10.3352
-2025-10-22 10:09:39,866 - root - WARNING - Skipping RGTZ: not opened by algorithm
-2025-10-22 10:09:49,898 - root - INFO - Real mode: Today's profit so far: 1082.4099749999987
-2025-10-22 10:09:49,919 - root - INFO - Running real_trade for all top movers
-2025-10-22 10:09:49,972 - root - INFO - swing_strategy_open_long for scale 5Min stock BENF start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
-2025-10-22 10:09:50,197 - root - INFO - Last 5 minutes maximum volume candle is red for BENF
-2025-10-22 10:09:50,200 - root - INFO - swing_strategy_open_long for scale 5Min stock AIRE start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
 2025-10-22 10:09:50,398 - root - INFO - Last 5 minutes maximum volume candle is green for AIRE
 2025-10-22 10:09:50,446 - root - INFO - Trend up basic conditions not met for AIRE: price_above_emas=True, macd_above_signal=False, macd_above_zero=True, hist_rising=False, price_close_above_upper_bb=False
 2025-10-22 10:09:50,447 - root - INFO - swing_strategy_open_long for scale 5Min stock SBEV start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
@@ -429,3 +205,227 @@ Manual Movers:
 2025-10-22 10:10:04,442 - root - INFO - Updating change percent of stocks
 2025-10-22 10:10:04,447 - root - WARNING - Skipping RGTZ: not opened by algorithm
 2025-10-22 10:10:05,204 - root - INFO - Price UPDATE is Going to sleep for 60 seconds
+2025-10-22 10:10:14,488 - root - INFO - Real mode: Today's profit so far: 1107.4099749999987
+2025-10-22 10:10:14,513 - root - INFO - Running real_trade for all top movers
+2025-10-22 10:10:14,560 - root - INFO - swing_strategy_open_long for scale 5Min stock BENF start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:14,710 - root - INFO - Last 5 minutes maximum volume candle is red for BENF
+2025-10-22 10:10:14,712 - root - INFO - swing_strategy_open_long for scale 5Min stock AIRE start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:14,900 - root - INFO - Last 5 minutes maximum volume candle is green for AIRE
+2025-10-22 10:10:14,963 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-22 10:10:14,963 - root - INFO - AIRE:======= 1.1756===>BUY========>TrendUp22907333-49.7938
+2025-10-22 10:10:15,060 - root - CRITICAL - AIRE  851 buy
+2025-10-22 10:10:15,132 - root - INFO - Placed BUY order for AIRE, qty: 851, price: 1.175, success: True
+2025-10-22 10:10:15,133 - root - INFO - Trade successfully COMPLETED for AIRE
+2025-10-22 10:10:15,134 - root - INFO - swing_strategy_open_long for scale 5Min stock SBEV start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:15,218 - root - INFO - Last 5 minutes maximum volume candle is green for SBEV
+2025-10-22 10:10:15,219 - root - INFO - 9 EMA is in downtrend, not opening long position for SBEV
+2025-10-22 10:10:15,220 - root - INFO - swing_strategy_open_long for scale 5Min stock RANI start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:15,424 - root - INFO - Change percent is less than 30 for RANI: 24.0351
+2025-10-22 10:10:15,426 - root - INFO - swing_strategy_open_long for scale 5Min stock WOK start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:15,658 - root - INFO - Change percent is less than 30 for WOK: 23.4694
+2025-10-22 10:10:15,660 - root - INFO - swing_strategy_open_long for scale 5Min stock WGO start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:15,796 - root - INFO - Change percent is less than 30 for WGO: 22.8653
+2025-10-22 10:10:15,798 - root - INFO - swing_strategy_open_long for scale 5Min stock NDLS start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:15,880 - root - INFO - Change percent is less than 30 for NDLS: 22.7809
+2025-10-22 10:10:15,882 - root - INFO - swing_strategy_open_long for scale 5Min stock WGRX start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:16,010 - root - INFO - Change percent is less than 30 for WGRX: 20.039
+2025-10-22 10:10:16,011 - root - INFO - swing_strategy_open_long for scale 5Min stock GPRO start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:16,185 - root - INFO - Change percent is less than 30 for GPRO: 20.0
+2025-10-22 10:10:16,187 - root - INFO - swing_strategy_open_long for scale 5Min stock IRBT start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:16,369 - root - INFO - Change percent is less than 30 for IRBT: 15.2097
+2025-10-22 10:10:16,371 - root - INFO - swing_strategy_open_long for scale 5Min stock HUBC start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:16,475 - root - INFO - Change percent is less than 30 for HUBC: 14.7239
+2025-10-22 10:10:16,477 - root - INFO - swing_strategy_open_long for scale 5Min stock BIOA start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:16,575 - root - INFO - Change percent is less than 30 for BIOA: 12.0755
+2025-10-22 10:10:16,576 - root - INFO - swing_strategy_open_long for scale 5Min stock HAIN start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:16,779 - root - INFO - Change percent is less than 30 for HAIN: 10.6812
+2025-10-22 10:10:16,780 - root - INFO - swing_strategy_open_long for scale 5Min stock HHS start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:16,868 - root - INFO - Change percent is less than 30 for HHS: 10.3352
+2025-10-22 10:10:16,949 - root - INFO - swing_strategy_close_long for scale 5Min stock AIRE
+2025-10-22 10:10:17,097 - root - INFO - Profit percent for AIRE is -0.4152894313077379
+2025-10-22 10:10:17,097 - root - INFO - Latest 1min close price for AIRE: 1.1756
+2025-10-22 10:10:17,126 - root - INFO - High price DETECTED for AIRE is 0.0 and setting no_scalp to True
+2025-10-22 10:10:17,155 - root - WARNING - Skipping RGTZ: not opened by algorithm
+2025-10-22 10:10:27,190 - root - INFO - Real mode: Today's profit so far: 1110.7899749999997
+2025-10-22 10:10:27,211 - root - INFO - Running real_trade for all top movers
+2025-10-22 10:10:27,258 - root - INFO - swing_strategy_open_long for scale 5Min stock BENF start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:27,399 - root - INFO - Last 5 minutes maximum volume candle is red for BENF
+2025-10-22 10:10:27,401 - root - INFO - swing_strategy_open_long for scale 5Min stock AIRE start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:27,610 - root - INFO - Last 5 minutes maximum volume candle is green for AIRE
+2025-10-22 10:10:27,675 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-22 10:10:27,675 - root - INFO - AIRE:======= 1.1756===>BUY========>TrendUp22907333-49.7938
+2025-10-22 10:10:27,693 - root - WARNING - ***** stock is already in the positions
+2025-10-22 10:10:27,694 - root - INFO - swing_strategy_open_long for scale 5Min stock SBEV start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:27,779 - root - INFO - Last 5 minutes maximum volume candle is green for SBEV
+2025-10-22 10:10:27,781 - root - INFO - 9 EMA is in downtrend, not opening long position for SBEV
+2025-10-22 10:10:27,782 - root - INFO - swing_strategy_open_long for scale 5Min stock RANI start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:28,031 - root - INFO - Change percent is less than 30 for RANI: 24.0351
+2025-10-22 10:10:28,032 - root - INFO - swing_strategy_open_long for scale 5Min stock WOK start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:28,245 - root - INFO - Change percent is less than 30 for WOK: 23.4694
+2025-10-22 10:10:28,247 - root - INFO - swing_strategy_open_long for scale 5Min stock WGO start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:28,375 - root - INFO - Change percent is less than 30 for WGO: 22.8653
+2025-10-22 10:10:28,377 - root - INFO - swing_strategy_open_long for scale 5Min stock NDLS start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:28,484 - root - INFO - Change percent is less than 30 for NDLS: 22.7809
+2025-10-22 10:10:28,486 - root - INFO - swing_strategy_open_long for scale 5Min stock WGRX start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:28,622 - root - INFO - Change percent is less than 30 for WGRX: 20.039
+2025-10-22 10:10:28,624 - root - INFO - swing_strategy_open_long for scale 5Min stock GPRO start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:28,805 - root - INFO - Change percent is less than 30 for GPRO: 20.0
+2025-10-22 10:10:28,806 - root - INFO - swing_strategy_open_long for scale 5Min stock IRBT start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:29,044 - root - INFO - Change percent is less than 30 for IRBT: 15.2097
+2025-10-22 10:10:29,046 - root - INFO - swing_strategy_open_long for scale 5Min stock HUBC start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:29,140 - root - INFO - Change percent is less than 30 for HUBC: 14.7239
+2025-10-22 10:10:29,141 - root - INFO - swing_strategy_open_long for scale 5Min stock BIOA start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:29,239 - root - INFO - Change percent is less than 30 for BIOA: 12.0755
+2025-10-22 10:10:29,240 - root - INFO - swing_strategy_open_long for scale 5Min stock HAIN start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:29,359 - root - INFO - Change percent is less than 30 for HAIN: 10.6812
+2025-10-22 10:10:29,360 - root - INFO - swing_strategy_open_long for scale 5Min stock HHS start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:29,444 - root - INFO - Change percent is less than 30 for HHS: 10.3352
+2025-10-22 10:10:29,525 - root - INFO - swing_strategy_close_long for scale 5Min stock AIRE
+2025-10-22 10:10:29,688 - root - INFO - Profit percent for AIRE is -0.016950589032968894
+2025-10-22 10:10:29,688 - root - INFO - Latest 1min close price for AIRE: 1.1756
+2025-10-22 10:10:29,792 - root - INFO - MACD is still rising for stock AIRE
+2025-10-22 10:10:29,792 - root - INFO - Not enough profit percent to scalp for AIRE: -0.016950589032968894
+2025-10-22 10:10:29,825 - root - WARNING - Skipping RGTZ: not opened by algorithm
+2025-10-22 10:10:39,865 - root - INFO - Real mode: Today's profit so far: 1117.3899749999982
+2025-10-22 10:10:39,885 - root - INFO - Running real_trade for all top movers
+2025-10-22 10:10:39,934 - root - INFO - swing_strategy_open_long for scale 5Min stock BENF start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:40,065 - root - INFO - Last 5 minutes maximum volume candle is red for BENF
+2025-10-22 10:10:40,067 - root - INFO - swing_strategy_open_long for scale 5Min stock AIRE start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:40,319 - root - INFO - Last 5 minutes maximum volume candle is green for AIRE
+2025-10-22 10:10:40,362 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-22 10:10:40,362 - root - INFO - AIRE:======= 1.1756===>BUY========>TrendUp22907333-49.7938
+2025-10-22 10:10:40,381 - root - WARNING - ***** stock is already in the positions
+2025-10-22 10:10:40,382 - root - INFO - swing_strategy_open_long for scale 5Min stock SBEV start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:40,460 - root - INFO - Last 5 minutes maximum volume candle is green for SBEV
+2025-10-22 10:10:40,461 - root - INFO - 9 EMA is in downtrend, not opening long position for SBEV
+2025-10-22 10:10:40,461 - root - INFO - swing_strategy_open_long for scale 5Min stock RANI start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:40,683 - root - INFO - Change percent is less than 30 for RANI: 24.0351
+2025-10-22 10:10:40,686 - root - INFO - swing_strategy_open_long for scale 5Min stock WOK start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:41,003 - root - INFO - Change percent is less than 30 for WOK: 23.4694
+2025-10-22 10:10:41,004 - root - INFO - swing_strategy_open_long for scale 5Min stock WGO start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:41,123 - root - INFO - Change percent is less than 30 for WGO: 22.8653
+2025-10-22 10:10:41,125 - root - INFO - swing_strategy_open_long for scale 5Min stock NDLS start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:41,208 - root - INFO - Change percent is less than 30 for NDLS: 22.7809
+2025-10-22 10:10:41,209 - root - INFO - swing_strategy_open_long for scale 5Min stock WGRX start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:41,334 - root - INFO - Change percent is less than 30 for WGRX: 20.039
+2025-10-22 10:10:41,336 - root - INFO - swing_strategy_open_long for scale 5Min stock GPRO start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:41,515 - root - INFO - Change percent is less than 30 for GPRO: 20.0
+2025-10-22 10:10:41,517 - root - INFO - swing_strategy_open_long for scale 5Min stock IRBT start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:41,714 - root - INFO - Change percent is less than 30 for IRBT: 15.2097
+2025-10-22 10:10:41,716 - root - INFO - swing_strategy_open_long for scale 5Min stock HUBC start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:41,809 - root - INFO - Change percent is less than 30 for HUBC: 14.7239
+2025-10-22 10:10:41,811 - root - INFO - swing_strategy_open_long for scale 5Min stock BIOA start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:41,906 - root - INFO - Change percent is less than 30 for BIOA: 12.0755
+2025-10-22 10:10:41,908 - root - INFO - swing_strategy_open_long for scale 5Min stock HAIN start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:42,043 - root - INFO - Change percent is less than 30 for HAIN: 10.6812
+2025-10-22 10:10:42,045 - root - INFO - swing_strategy_open_long for scale 5Min stock HHS start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:42,127 - root - INFO - Change percent is less than 30 for HHS: 10.3352
+2025-10-22 10:10:42,210 - root - INFO - swing_strategy_close_long for scale 5Min stock AIRE
+2025-10-22 10:10:42,353 - root - INFO - Profit percent for AIRE is -0.8221035680989913
+2025-10-22 10:10:42,353 - root - INFO - Latest 1min close price for AIRE: 1.1756
+2025-10-22 10:10:42,449 - root - INFO - MACD is still rising for stock AIRE
+2025-10-22 10:10:42,449 - root - INFO - Not enough profit percent to scalp for AIRE: -0.8221035680989913
+2025-10-22 10:10:42,478 - root - WARNING - Skipping RGTZ: not opened by algorithm
+2025-10-22 10:10:52,520 - root - INFO - Real mode: Today's profit so far: 1143.1899750000011
+2025-10-22 10:10:52,540 - root - INFO - Running real_trade for all top movers
+2025-10-22 10:10:52,594 - root - INFO - swing_strategy_open_long for scale 5Min stock BENF start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:52,730 - root - INFO - Last 5 minutes maximum volume candle is red for BENF
+2025-10-22 10:10:52,732 - root - INFO - swing_strategy_open_long for scale 5Min stock AIRE start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:52,948 - root - INFO - Last 5 minutes maximum volume candle is green for AIRE
+2025-10-22 10:10:53,010 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-22 10:10:53,011 - root - INFO - AIRE:======= 1.1756===>BUY========>TrendUp22907333-49.7938
+2025-10-22 10:10:53,030 - root - WARNING - ***** stock is already in the positions
+2025-10-22 10:10:53,031 - root - INFO - swing_strategy_open_long for scale 5Min stock SBEV start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:53,139 - root - INFO - Last 5 minutes maximum volume candle is green for SBEV
+2025-10-22 10:10:53,141 - root - INFO - 9 EMA is in downtrend, not opening long position for SBEV
+2025-10-22 10:10:53,142 - root - INFO - swing_strategy_open_long for scale 5Min stock RANI start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:53,360 - root - INFO - Change percent is less than 30 for RANI: 24.0351
+2025-10-22 10:10:53,362 - root - INFO - swing_strategy_open_long for scale 5Min stock WOK start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:53,556 - root - INFO - Change percent is less than 30 for WOK: 23.4694
+2025-10-22 10:10:53,557 - root - INFO - swing_strategy_open_long for scale 5Min stock WGO start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:53,674 - root - INFO - Change percent is less than 30 for WGO: 22.8653
+2025-10-22 10:10:53,675 - root - INFO - swing_strategy_open_long for scale 5Min stock NDLS start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:53,752 - root - INFO - Change percent is less than 30 for NDLS: 22.7809
+2025-10-22 10:10:53,753 - root - INFO - swing_strategy_open_long for scale 5Min stock WGRX start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:53,876 - root - INFO - Change percent is less than 30 for WGRX: 20.039
+2025-10-22 10:10:53,878 - root - INFO - swing_strategy_open_long for scale 5Min stock GPRO start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:54,134 - root - INFO - Change percent is less than 30 for GPRO: 20.0
+2025-10-22 10:10:54,135 - root - INFO - swing_strategy_open_long for scale 5Min stock IRBT start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:54,282 - root - INFO - Change percent is less than 30 for IRBT: 15.2097
+2025-10-22 10:10:54,283 - root - INFO - swing_strategy_open_long for scale 5Min stock HUBC start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:54,370 - root - INFO - Change percent is less than 30 for HUBC: 14.7239
+2025-10-22 10:10:54,371 - root - INFO - swing_strategy_open_long for scale 5Min stock BIOA start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:54,460 - root - INFO - Change percent is less than 30 for BIOA: 12.0755
+2025-10-22 10:10:54,461 - root - INFO - swing_strategy_open_long for scale 5Min stock HAIN start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:54,590 - root - INFO - Change percent is less than 30 for HAIN: 10.6812
+2025-10-22 10:10:54,592 - root - INFO - swing_strategy_open_long for scale 5Min stock HHS start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:10:54,673 - root - INFO - Change percent is less than 30 for HHS: 10.3352
+2025-10-22 10:10:54,759 - root - INFO - swing_strategy_close_long for scale 5Min stock AIRE
+2025-10-22 10:10:54,895 - root - INFO - Profit percent for AIRE is -0.3729129587253157
+2025-10-22 10:10:54,895 - root - INFO - Latest 1min close price for AIRE: 1.1756
+2025-10-22 10:10:55,045 - root - INFO - MACD is still rising for stock AIRE
+2025-10-22 10:10:55,045 - root - INFO - Not enough profit percent to scalp for AIRE: -0.3729129587253157
+2025-10-22 10:10:55,079 - root - WARNING - Skipping RGTZ: not opened by algorithm
+2025-10-22 10:11:05,113 - root - INFO - Real mode: Today's profit so far: 1142.2899749999997
+2025-10-22 10:11:05,133 - root - INFO - Running real_trade for all top movers
+2025-10-22 10:11:05,181 - root - INFO - swing_strategy_open_long for scale 5Min stock BENF start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,248 - root - INFO - Real mode: Today's profit so far: 1142.2899749999997
+2025-10-22 10:11:05,269 - root - INFO - ('2025-10-22T17:30:00-04:00', '2025-10-22T17:30:00-04:00', '2025-10-15T09:30:00-04:00', '2025-10-22T17:30:00-04:00')
+2025-10-22 10:11:05,269 - root - INFO - Screening stocks | Start: 2025-10-15T09:30:00-04:00 | End: 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,306 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:06:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,322 - root - INFO - Last 5 minutes maximum volume candle is red for BENF
+2025-10-22 10:11:05,323 - root - INFO - swing_strategy_open_long for scale 5Min stock AIRE start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,339 - root - INFO - Going loop for 0 stocks
+2025-10-22 10:11:05,340 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:06:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,372 - root - INFO - Going loop for 0 stocks
+2025-10-22 10:11:05,372 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:06:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,408 - root - INFO - Going loop for 0 stocks
+2025-10-22 10:11:05,408 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:06:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,440 - root - INFO - Going loop for 0 stocks
+2025-10-22 10:11:05,440 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:06:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,468 - root - INFO - Going loop for 0 stocks
+2025-10-22 10:11:05,469 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:06:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,499 - root - INFO - Going loop for 0 stocks
+2025-10-22 10:11:05,500 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:06:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,502 - root - INFO - Last 5 minutes maximum volume candle is green for AIRE
+2025-10-22 10:11:05,531 - root - INFO - Going loop for 0 stocks
+2025-10-22 10:11:05,532 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:06:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,551 - root - INFO - Trend up basic conditions met: price above EMAs, MACD above signal and zero, histogram rising
+2025-10-22 10:11:05,552 - root - INFO - AIRE:======= 1.1756===>BUY========>TrendUp22907333-49.7938
+2025-10-22 10:11:05,568 - root - INFO - Going loop for 0 stocks
+2025-10-22 10:11:05,569 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:06:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,570 - root - WARNING - ***** stock is already in the positions
+2025-10-22 10:11:05,570 - root - INFO - swing_strategy_open_long for scale 5Min stock SBEV start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,598 - root - INFO - Going loop for 0 stocks
+2025-10-22 10:11:05,598 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:06:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,627 - root - INFO - Going loop for 0 stocks
+2025-10-22 10:11:05,627 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:06:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,658 - root - INFO - Last 5 minutes maximum volume candle is green for SBEV
+2025-10-22 10:11:05,659 - root - INFO - Going loop for 0 stocks
+2025-10-22 10:11:05,659 - root - INFO - 9 EMA is in downtrend, not opening long position for SBEV
+2025-10-22 10:11:05,659 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:06:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,660 - root - INFO - swing_strategy_open_long for scale 5Min stock RANI start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,693 - root - INFO - Going loop for 0 stocks
+2025-10-22 10:11:05,694 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:06:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,722 - root - INFO - Going loop for 0 stocks
+2025-10-22 10:11:05,722 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:06:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,756 - root - INFO - Going loop for 0 stocks
+2025-10-22 10:11:05,757 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:06:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,788 - root - INFO - Going loop for 0 stocks
+2025-10-22 10:11:05,789 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:06:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,818 - root - INFO - Going loop for 0 stocks
+2025-10-22 10:11:05,818 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:06:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,843 - root - INFO - Change percent is less than 30 for RANI: 24.0351
+2025-10-22 10:11:05,844 - root - INFO - swing_strategy_open_long for scale 5Min stock WOK start_time 2025-10-15T09:30:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,849 - root - INFO - Going loop for 0 stocks
+2025-10-22 10:11:05,849 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:06:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,879 - root - INFO - Going loop for 0 stocks
+2025-10-22 10:11:05,879 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:06:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,910 - root - INFO - Going loop for 0 stocks
+2025-10-22 10:11:05,911 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:06:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,942 - root - INFO - Going loop for 0 stocks
+2025-10-22 10:11:05,943 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:06:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:05,974 - root - INFO - Going loop for 0 stocks
+2025-10-22 10:11:05,974 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:06:00-04:00 end_time 2025-10-22T17:30:00-04:00
+2025-10-22 10:11:06,005 - root - INFO - Going loop for 0 stocks
+2025-10-22 10:11:06,005 - root - INFO -  NEW update_current_price: start time 2025-10-22T10:06:00-04:00 end_time 2025-10-22T17:30:00-04:00
